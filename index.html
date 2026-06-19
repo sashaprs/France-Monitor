@@ -1,0 +1,1243 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>France Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<script src="project/_ds/france-monitor-design-system-5343d891-f851-445f-bff1-b34c09b537a9/_ds_bundle.js"></script>
+<style>
+/* ── Color tokens ─────────────────────────────────────────── */
+:root {
+  --white:#FFFFFF; --gray-50:#F7F8FA; --gray-100:#EFF1F4; --gray-150:#E8EBEF;
+  --gray-200:#E1E5EA; --gray-300:#D0D5DD; --gray-400:#AEB4BE; --gray-500:#7B828D;
+  --gray-600:#565D67; --gray-700:#3B414A; --gray-800:#242931; --gray-900:#12161C;
+  --ink:#0B0E14;
+  --blue-france:#000091; --blue-900:#0A1F66; --blue-700:#1B43C4; --blue-600:#2563EB;
+  --blue-500:#4178F0; --blue-200:#BCD0FB; --blue-100:#DEE8FE; --blue-50:#F1F5FF;
+  --red-700:#B00910; --red-600:#E1000F; --red-500:#EF2D3B; --red-100:#FBDDDF; --red-50:#FEF2F2;
+  --green-700:#0A6B43; --green-600:#0E8A52; --green-500:#12A862; --green-100:#C8EFD8; --green-50:#EFFAF3;
+  --amber-700:#92500B; --amber-600:#C9760D; --amber-100:#FBE6C2; --amber-50:#FEF8EC;
+  --bg:var(--white); --surface:var(--white); --surface-sunken:var(--gray-50);
+  --surface-raised:var(--white); --surface-hover:var(--gray-50); --surface-active:var(--gray-100);
+  --surface-inverse:var(--ink);
+  --text:var(--ink); --text-secondary:var(--gray-600); --text-tertiary:var(--gray-500);
+  --text-disabled:var(--gray-400); --text-inverse:var(--white); --text-link:var(--blue-600);
+  --text-brand:var(--blue-france);
+  --border:var(--gray-200); --border-strong:var(--gray-300); --border-subtle:var(--gray-150);
+  --border-focus:var(--blue-600); --divider:var(--gray-150);
+  --accent:var(--blue-600); --accent-hover:var(--blue-700); --accent-tint:var(--blue-50);
+  --accent-tint-strong:var(--blue-100); --on-accent:var(--white);
+  --pos:var(--green-600); --pos-tint:var(--green-50); --neg:var(--red-600); --neg-tint:var(--red-50);
+  --warn:var(--amber-600); --warn-tint:var(--amber-50); --info:var(--blue-600); --info-tint:var(--blue-50);
+  --viz-1:#2563EB; --viz-2:#12A862; --viz-3:#C9760D; --viz-4:#7C5CFC; --viz-5:#E1000F; --viz-6:#0E9BA8;
+  --seq-1:#F1F5FF; --seq-2:#DEE8FE; --seq-3:#BCD0FB; --seq-4:#84A8F6;
+  --seq-5:#4178F0; --seq-6:#2563EB; --seq-7:#1B43C4; --seq-8:#0A1F66;
+}
+/* ── Typography tokens ────────────────────────────────────── */
+:root {
+  --font-sans:'Schibsted Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --fs-display:56px; --fs-h1:36px; --fs-h2:26px; --fs-h3:20px; --fs-h4:17px;
+  --fs-body-lg:17px; --fs-body:15px; --fs-sm:13px; --fs-caption:12px; --fs-label:11px;
+  --fs-data-xl:44px; --fs-data-lg:30px; --fs-data-md:20px; --fs-data-sm:14px;
+  --lh-tight:1.04; --lh-snug:1.2; --lh-normal:1.45; --lh-relaxed:1.65;
+  --ls-tighter:-0.03em; --ls-tight:-0.02em; --ls-snug:-0.01em; --ls-normal:0;
+  --ls-wide:0.04em; --ls-label:0.08em;
+}
+/* ── Spacing / radii / shadows / motion ───────────────────── */
+:root {
+  --space-0:0; --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px;
+  --space-5:20px; --space-6:24px; --space-8:32px; --space-10:40px;
+  --space-12:48px; --space-16:64px; --space-20:80px; --space-24:96px;
+  --radius-xs:4px; --radius-sm:6px; --radius-md:10px; --radius-lg:14px;
+  --radius-xl:20px; --radius-pill:999px;
+  --bw-hair:1px; --bw-thick:1.5px;
+  --shadow-xs:0 1px 2px rgba(11,14,20,.04);
+  --shadow-sm:0 1px 3px rgba(11,14,20,.06),0 1px 2px rgba(11,14,20,.04);
+  --shadow-md:0 4px 12px rgba(11,14,20,.06),0 1px 3px rgba(11,14,20,.04);
+  --shadow-lg:0 12px 32px rgba(11,14,20,.10),0 2px 6px rgba(11,14,20,.05);
+  --shadow-pop:0 16px 48px rgba(11,14,20,.14);
+  --ring-focus:0 0 0 3px rgba(37,99,235,.22);
+  --sidebar-w:248px; --topbar-h:56px; --panel-w:360px; --container-max:1240px;
+  --ease-out:cubic-bezier(.22,1,.36,1); --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --dur-fast:120ms; --dur-base:180ms; --dur-slow:280ms;
+}
+/* ── Base reset ───────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-sans);font-size:var(--fs-body);line-height:var(--lh-relaxed);
+  color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5,h6,p,figure{margin:0}
+a{color:var(--text-link);text-decoration:none}
+a:hover{text-decoration:underline}
+table,.tabular,[data-numeric]{font-variant-numeric:tabular-nums}
+::selection{background:var(--blue-100);color:var(--ink)}
+:focus-visible{outline:none;box-shadow:var(--ring-focus);border-radius:var(--radius-sm)}
+
+/* ── App shell ────────────────────────────────────────────── */
+html,body{margin:0;background:var(--bg)}
+#root{min-height:100vh}
+a{text-decoration:none}
+.fixed-screen{height:100vh;overflow:hidden}
+
+/* ── Landing ──────────────────────────────────────────────── */
+.landing{background:var(--bg)}
+.ln-wrap{max-width:var(--container-max);margin:0 auto;padding:0 32px}
+.ln-nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.82);backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--border)}
+.ln-nav-in{max-width:var(--container-max);margin:0 auto;padding:0 32px;height:60px;display:flex;align-items:center;gap:28px}
+.ln-links{display:flex;gap:26px;margin-left:14px}
+.ln-links a{font-family:var(--font-sans);font-size:14px;color:var(--text-secondary);font-weight:500}
+.ln-links a:hover{color:var(--text)}
+.ln-nav-cta{margin-left:auto;display:flex;gap:8px;align-items:center}
+.ln-hero{padding:76px 0 40px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.ln-pill{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12px;font-weight:600;color:var(--blue-700);background:var(--blue-50);border:1px solid var(--blue-100);padding:5px 11px;border-radius:999px}
+.ln-pill.dark{color:#fff;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.2)}
+.ln-h1{font-family:var(--font-sans);font-size:56px;line-height:1.04;font-weight:700;letter-spacing:-.035em;color:var(--ink);margin:20px 0 0;text-wrap:balance}
+.ln-h1 .accent{color:var(--blue-france)}
+.ln-h1 .accent-light{color:var(--blue-200)}
+.ln-h1.ondark{color:#fff}
+.ln-lead{font-family:var(--font-sans);font-size:18px;line-height:1.6;color:var(--text-secondary);margin:20px 0 0;max-width:520px}
+.ln-lead.ondark{color:var(--gray-400)}
+.ln-hero-cta{display:flex;gap:12px;margin-top:30px}
+.ln-nots{display:flex;gap:18px;margin-top:26px}
+.ln-not{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);display:flex;align-items:center;gap:7px}
+.ln-not svg{color:var(--accent)}
+.ln-not.ondark{color:var(--gray-400)}
+.ln-hero-centered{padding:70px 0 32px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.ln-hero-centered .ln-h1{max-width:880px}
+.ln-hero-centered .ln-lead{margin-left:auto;margin-right:auto}
+.ln-hero-centered .ln-hero-cta,.ln-hero-centered .ln-nots{justify-content:center}
+.ln-hero-centered-vis{width:100%;max-width:720px;margin-top:40px}
+.ln-hero-dark{margin:24px 0 8px;background:var(--ink);border-radius:var(--radius-xl);padding:56px 48px}
+.ln-hero-dark-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.ln-herovis{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-xl);box-shadow:var(--shadow-lg);padding:22px}
+.ln-hv-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.ln-hv-lbl{font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-tertiary)}
+.ln-sources{padding:30px 0 8px;border-top:1px solid var(--border-subtle)}
+.ln-src-h{text-align:center;font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-tertiary)}
+.ln-src-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 14px;margin-top:18px}
+.ln-src{font-family:var(--font-mono);font-size:13px;color:var(--text-secondary);border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 14px}
+.ln-section{padding:64px 0}
+.ln-eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-align:center}
+.ln-sec-title{font-family:var(--font-sans);font-size:34px;font-weight:700;letter-spacing:-.025em;color:var(--text);text-align:center;margin:10px 0 0;text-wrap:balance}
+.ln-sec-sub{font-family:var(--font-sans);font-size:16px;color:var(--text-secondary);text-align:center;max-width:580px;margin:14px auto 0;line-height:1.6}
+.ln-feat{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}
+.ln-fcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px}
+.ln-ficon{width:40px;height:40px;border-radius:var(--radius-md);background:var(--blue-50);color:var(--accent);display:flex;align-items:center;justify-content:center}
+.ln-ftitle{font-family:var(--font-sans);font-size:17px;font-weight:600;color:var(--text);margin:16px 0 0}
+.ln-ftext{font-family:var(--font-sans);font-size:14px;line-height:1.6;color:var(--text-secondary);margin:8px 0 0}
+.ln-pos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}
+.ln-poscard{border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px}
+.ln-poscard.yes{background:var(--ink)}
+.ln-pos-k{font-family:var(--font-mono);font-size:12px;letter-spacing:.04em}
+.ln-poscard.no .ln-pos-k{color:var(--neg)}
+.ln-poscard.yes .ln-pos-k{color:var(--blue-200)}
+.ln-pos-t{font-family:var(--font-sans);font-size:19px;font-weight:600;margin-top:10px;letter-spacing:-.01em}
+.ln-poscard.no .ln-pos-t{color:var(--text)}
+.ln-poscard.yes .ln-pos-t{color:#fff}
+.ln-pos-d{font-family:var(--font-sans);font-size:14px;line-height:1.55;margin-top:8px}
+.ln-poscard.no .ln-pos-d{color:var(--text-secondary)}
+.ln-poscard.yes .ln-pos-d{color:var(--gray-400)}
+.ln-users{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:38px}
+.ln-ucard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;display:flex;flex-direction:column;gap:10px}
+.ln-uicon{color:var(--accent)}
+.ln-uname{font-family:var(--font-sans);font-size:14px;font-weight:600;color:var(--text)}
+.ln-udesc{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);line-height:1.5}
+.ln-cta{background:var(--ink);border-radius:var(--radius-xl);padding:56px 48px;text-align:center;margin:16px 0 64px}
+.ln-cta-t{font-family:var(--font-sans);font-size:36px;font-weight:700;letter-spacing:-.03em;color:#fff;text-wrap:balance}
+.ln-cta-s{font-family:var(--font-sans);font-size:16px;color:var(--gray-400);margin:14px auto 0;max-width:480px;line-height:1.6}
+.ln-cta-b{display:flex;gap:12px;justify-content:center;margin-top:28px}
+.ln-foot{border-top:1px solid var(--border);padding:32px 0;display:flex;align-items:center;justify-content:space-between}
+.ln-meta{font-family:var(--font-sans);font-size:12px;color:var(--text-tertiary)}
+
+/* ── Auth ─────────────────────────────────────────────────── */
+.auth{display:grid;grid-template-columns:minmax(0,1fr) 1.05fr;height:100vh}
+.auth-form-col{display:flex;flex-direction:column;background:var(--bg);overflow-y:auto}
+.auth-form-top{padding:28px 40px;flex-shrink:0}
+.auth-form-mid{flex:1;display:flex;align-items:center;justify-content:center;padding:12px 40px}
+.auth-form-inner{width:100%;max-width:380px}
+.auth-form-foot{padding:22px 40px;font-family:var(--font-sans);font-size:12px;color:var(--text-tertiary);flex-shrink:0}
+.auth-eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.auth-title{font-family:var(--font-sans);font-size:30px;font-weight:700;letter-spacing:-.025em;color:var(--text);margin:8px 0 0}
+.auth-sub{font-family:var(--font-sans);font-size:15px;line-height:1.55;color:var(--text-secondary);margin:10px 0 0}
+.sso-group{display:flex;flex-direction:column;gap:10px;margin-top:26px}
+.auth-or{display:flex;align-items:center;gap:14px;margin:22px 0;font-family:var(--font-sans);font-size:12px;color:var(--text-tertiary)}
+.auth-or::before,.auth-or::after{content:'';flex:1;height:1px;background:var(--border)}
+.auth-fields{display:flex;flex-direction:column;gap:16px;margin-top:4px}
+.af{display:flex;flex-direction:column;gap:6px}
+.af-label{font-family:var(--font-sans);font-size:12px;font-weight:500;color:var(--text-secondary)}
+.af-box{display:flex;align-items:center;height:44px;padding:0 12px;border-radius:var(--radius-md);background:var(--surface);border:1px solid var(--border);transition:border-color var(--dur-fast),box-shadow var(--dur-fast)}
+.af-input{flex:1;border:none;outline:none;background:none;font-family:var(--font-sans);font-size:14px;color:var(--text);height:100%}
+.af-eye{border:none;background:none;cursor:pointer;color:var(--text-tertiary);display:inline-flex;padding:4px}
+.af-eye:hover{color:var(--text-secondary)}
+.auth-row-between{display:flex;align-items:center;justify-content:space-between}
+.auth-check{display:flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:13px;color:var(--text-secondary);cursor:pointer}
+.auth-check.terms{align-items:flex-start;line-height:1.5}
+.auth-check input{accent-color:var(--accent);width:15px;height:15px;margin-top:1px}
+.auth-link{border:none;background:none;cursor:pointer;font-family:var(--font-sans);font-size:13px;color:var(--accent);font-weight:500;padding:0}
+.auth-link:hover{color:var(--accent-hover)}
+.auth-link.strong{font-weight:600}
+.auth-switch{margin-top:24px;font-family:var(--font-sans);font-size:14px;color:var(--text-secondary);text-align:center}
+.auth-back{display:inline-flex;align-items:center;gap:6px;border:none;background:none;cursor:pointer;font-family:var(--font-sans);font-size:13px;color:var(--text-secondary);padding:0;margin-bottom:18px}
+.auth-back:hover{color:var(--text)}
+.auth-confirm-icon{width:52px;height:52px;border-radius:50%;background:var(--blue-50);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.auth-status{height:100vh;background:var(--blue-france);display:flex;align-items:center;justify-content:center}
+.auth-status-inner{display:flex;flex-direction:column;align-items:center;text-align:center}
+.auth-status-t{font-family:var(--font-sans);font-size:22px;font-weight:700;color:#fff;margin-top:28px;letter-spacing:-.02em}
+.auth-status-s{font-family:var(--font-sans);font-size:14px;color:var(--blue-200);margin-top:8px}
+.auth-spinner{width:44px;height:44px;border-radius:50%;border:3px solid rgba(255,255,255,.25);border-top-color:#fff;animation:fmspin .8s linear infinite;margin-top:40px}
+@keyframes fmspin{to{transform:rotate(360deg)}}
+.auth-check-circle{width:64px;height:64px;border-radius:50%;background:var(--green-500);display:flex;align-items:center;justify-content:center;margin-top:36px;animation:fmpop .4s var(--ease-out)}
+@keyframes fmpop{from{transform:scale(.4);opacity:0}to{transform:scale(1);opacity:1}}
+
+/* ── Dashboard ────────────────────────────────────────────── */
+.db-app{display:grid;grid-template-columns:var(--sidebar-w) 1fr;height:100vh;overflow:hidden;background:var(--surface-sunken)}
+.db-side{background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;min-height:0}
+.db-brand{display:flex;align-items:center;padding:0 16px;height:var(--topbar-h);border-bottom:1px solid var(--border);flex-shrink:0}
+.db-side-scroll{overflow-y:auto;padding:12px 10px;flex:1}
+.db-side-cat{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-tertiary);padding:8px 10px 6px}
+.db-mod{display:flex;align-items:center;gap:11px;width:100%;text-align:left;padding:8px 10px;border:none;background:none;border-radius:var(--radius-md);cursor:pointer;font-family:var(--font-sans);font-size:14px;color:var(--text-secondary);transition:background var(--dur-fast),color var(--dur-fast)}
+.db-mod:hover{background:var(--surface-hover);color:var(--text)}
+.db-mod.on{background:var(--blue-50);color:var(--blue-700);font-weight:600}
+.db-mod svg{flex-shrink:0}
+.db-main{display:flex;flex-direction:column;min-width:0;min-height:0}
+.db-top{display:flex;align-items:center;gap:16px;height:var(--topbar-h);padding:0 18px;background:var(--surface);border-bottom:1px solid var(--border);flex-shrink:0}
+.db-search{max-width:460px;flex:1}
+.db-spacer{flex:1}
+.db-actions{display:flex;align-items:center;gap:6px}
+.db-dot{position:relative}
+.db-dot::after{content:'';position:absolute;top:7px;right:7px;width:6px;height:6px;border-radius:50%;background:var(--red-600);border:1.5px solid var(--surface)}
+.db-div{width:1px;height:24px;background:var(--border);margin:0 4px}
+.db-avatar-btn{border:none;background:none;cursor:pointer;padding:0;display:inline-flex}
+.db-menu-scrim{position:fixed;inset:0;z-index:30}
+.db-menu{position:absolute;right:0;top:calc(100% + 8px);width:244px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);padding:8px;z-index:31}
+.db-menu-head{display:flex;align-items:center;gap:10px;padding:8px 8px 12px;border-bottom:1px solid var(--border-subtle);margin-bottom:6px}
+.db-menu-nm{font-family:var(--font-sans);font-size:14px;font-weight:600;color:var(--text)}
+.db-menu-em{font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary)}
+.db-menu-item{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:8px;border:none;background:none;cursor:pointer;border-radius:var(--radius-md);font-family:var(--font-sans);font-size:14px;color:var(--text-secondary)}
+.db-menu-item:hover{background:var(--surface-hover);color:var(--text)}
+.db-menu-item.danger{color:var(--neg)}
+.db-menu-item.danger:hover{background:var(--red-50)}
+.db-menu-sep{height:1px;background:var(--border-subtle);margin:6px 0}
+.db-stage{display:grid;grid-template-columns:1fr var(--panel-w);flex:1;min-height:0}
+.db-mapwrap{position:relative;padding:22px;min-width:0;display:flex;flex-direction:column;gap:14px;overflow:hidden}
+.db-map-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
+.db-map-title{font-family:var(--font-sans);font-size:20px;font-weight:600;color:var(--text);letter-spacing:-.01em}
+.db-map-sub{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);margin-top:2px}
+.db-map-card{position:relative;flex:1;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;display:flex;align-items:center;justify-content:center;min-height:0}
+.db-map-card svg.fmap{max-height:100%;width:auto}
+.db-layers{position:absolute;top:16px;left:16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:12px 14px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:9px}
+.db-lh{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-tertiary)}
+.db-legend{position:absolute;bottom:16px;left:16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:10px 12px;box-shadow:var(--shadow-sm)}
+.db-legend .db-lh{margin-bottom:6px}
+.db-ramp{display:flex;width:150px;height:8px;border-radius:999px;overflow:hidden}
+.db-ramp>div{flex:1}
+.db-ax{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;color:var(--text-tertiary);margin-top:4px}
+.db-panel{background:var(--surface);border-left:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column}
+.db-panel-head{padding:18px;border-bottom:1px solid var(--border-subtle)}
+.db-panel-nm{font-family:var(--font-sans);font-size:18px;font-weight:600;color:var(--text);letter-spacing:-.01em}
+.db-panel-meta{display:flex;gap:12px;margin-top:6px;font-family:var(--font-mono);font-size:11px;color:var(--text-tertiary)}
+.db-panel-body{padding:16px;display:flex;flex-direction:column;gap:14px}
+.db-tile-row{display:grid;grid-template-columns:1fr;gap:12px}
+.db-blk-lbl{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-tertiary)}
+.db-table{border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.db-sources{display:flex;flex-wrap:wrap;gap:8px}
+.db-scroll{flex:1;overflow-y:auto}
+.db-modules{max-width:1180px;margin:0 auto;padding:26px 28px 48px}
+.db-mod-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:22px}
+.db-mod-eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.db-mod-title{font-family:var(--font-sans);font-size:30px;font-weight:700;letter-spacing:-.025em;color:var(--text);margin:6px 0 0}
+.db-mod-sub{font-family:var(--font-sans);font-size:14px;color:var(--text-secondary);margin:6px 0 0;max-width:560px}
+.db-kpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.db-kpi-card{text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:12px;transition:box-shadow var(--dur-fast),border-color var(--dur-fast)}
+.db-kpi-card:hover{box-shadow:var(--shadow-sm);border-color:var(--border-strong)}
+.db-kpi-top{display:flex;align-items:center;justify-content:space-between}
+.db-kpi-ico{width:34px;height:34px;border-radius:var(--radius-md);background:var(--blue-50);color:var(--accent);display:flex;align-items:center;justify-content:center}
+.db-mod-lower{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;margin-top:16px;align-items:start}
+.db-mod-mapcard,.db-mod-rank{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.db-mod-card-h{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border-subtle)}
+.db-mod-card-t{font-family:var(--font-sans);font-size:15px;font-weight:600;color:var(--text)}
+.db-mod-map{padding:16px;display:flex;align-items:center;justify-content:center}
+.db-mod-rank-body{padding:16px 18px;display:flex;flex-direction:column;gap:13px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+/* ============================================================
+   TWEAKS PANEL
+   ============================================================ */
+const __TWEAKS_STYLE = `
+  .twk-panel{position:fixed;right:16px;bottom:16px;z-index:2147483646;width:280px;
+    max-height:calc(100vh - 32px);display:flex;flex-direction:column;
+    transform:scale(var(--dc-inv-zoom,1));transform-origin:bottom right;
+    background:rgba(250,249,247,.78);color:#29261b;
+    -webkit-backdrop-filter:blur(24px) saturate(160%);backdrop-filter:blur(24px) saturate(160%);
+    border:.5px solid rgba(255,255,255,.6);border-radius:14px;
+    box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 12px 40px rgba(0,0,0,.18);
+    font:11.5px/1.4 ui-sans-serif,system-ui,-apple-system,sans-serif;overflow:hidden}
+  .twk-hd{display:flex;align-items:center;justify-content:space-between;
+    padding:10px 8px 10px 14px;cursor:move;user-select:none}
+  .twk-hd b{font-size:12px;font-weight:600;letter-spacing:.01em}
+  .twk-x{appearance:none;border:0;background:transparent;color:rgba(41,38,27,.55);
+    width:22px;height:22px;border-radius:6px;cursor:default;font-size:13px;line-height:1}
+  .twk-x:hover{background:rgba(0,0,0,.06);color:#29261b}
+  .twk-body{padding:2px 14px 14px;display:flex;flex-direction:column;gap:10px;
+    overflow-y:auto;overflow-x:hidden;min-height:0;
+    scrollbar-width:thin;scrollbar-color:rgba(0,0,0,.15) transparent}
+  .twk-row{display:flex;flex-direction:column;gap:5px}
+  .twk-row-h{flex-direction:row;align-items:center;justify-content:space-between;gap:10px}
+  .twk-lbl{display:flex;justify-content:space-between;align-items:baseline;color:rgba(41,38,27,.72)}
+  .twk-lbl>span:first-child{font-weight:500}
+  .twk-val{color:rgba(41,38,27,.5);font-variant-numeric:tabular-nums}
+  .twk-sect{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(41,38,27,.45);padding:10px 0 0}
+  .twk-sect:first-child{padding-top:0}
+  .twk-field{appearance:none;box-sizing:border-box;width:100%;min-width:0;height:26px;padding:0 8px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:7px;
+    background:rgba(255,255,255,.6);color:inherit;font:inherit;outline:none}
+  .twk-field:focus{border-color:rgba(0,0,0,.25);background:rgba(255,255,255,.85)}
+  select.twk-field{padding-right:22px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path fill='rgba(0,0,0,.5)' d='M0 0h10L5 6z'/></svg>");
+    background-repeat:no-repeat;background-position:right 8px center}
+  .twk-slider{appearance:none;-webkit-appearance:none;width:100%;height:4px;margin:6px 0;
+    border-radius:999px;background:rgba(0,0,0,.12);outline:none}
+  .twk-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;
+    width:14px;height:14px;border-radius:50%;background:#fff;
+    border:.5px solid rgba(0,0,0,.12);box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:default}
+  .twk-seg{position:relative;display:flex;padding:2px;border-radius:8px;
+    background:rgba(0,0,0,.06);user-select:none}
+  .twk-seg-thumb{position:absolute;top:2px;bottom:2px;border-radius:6px;
+    background:rgba(255,255,255,.9);box-shadow:0 1px 2px rgba(0,0,0,.12);
+    transition:left .15s cubic-bezier(.3,.7,.4,1),width .15s}
+  .twk-seg button{appearance:none;position:relative;z-index:1;flex:1;border:0;
+    background:transparent;color:inherit;font:inherit;font-weight:500;min-height:22px;
+    border-radius:6px;cursor:default;padding:4px 6px;line-height:1.2;overflow-wrap:anywhere}
+  .twk-toggle{position:relative;width:32px;height:18px;border:0;border-radius:999px;
+    background:rgba(0,0,0,.15);transition:background .15s;cursor:default;padding:0}
+  .twk-toggle[data-on="1"]{background:#34c759}
+  .twk-toggle i{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;
+    background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .15s}
+  .twk-toggle[data-on="1"] i{transform:translateX(14px)}
+  .twk-chips{display:flex;gap:6px}
+  .twk-chip{position:relative;appearance:none;flex:1;min-width:0;height:46px;
+    padding:0;border:0;border-radius:6px;overflow:hidden;cursor:default;
+    box-shadow:0 0 0 .5px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.06);
+    transition:transform .12s cubic-bezier(.3,.7,.4,1),box-shadow .12s}
+  .twk-chip:hover{transform:translateY(-1px);box-shadow:0 0 0 .5px rgba(0,0,0,.18),0 4px 10px rgba(0,0,0,.12)}
+  .twk-chip[data-on="1"]{box-shadow:0 0 0 1.5px rgba(0,0,0,.85),0 2px 6px rgba(0,0,0,.15)}
+  .twk-chip>span{position:absolute;top:0;bottom:0;right:0;width:34%;
+    display:flex;flex-direction:column;box-shadow:-1px 0 0 rgba(0,0,0,.1)}
+  .twk-chip>span>i{flex:1;box-shadow:0 -1px 0 rgba(0,0,0,.1)}
+  .twk-chip>span>i:first-child{box-shadow:none}
+  .twk-chip svg{position:absolute;top:6px;left:6px;width:13px;height:13px;
+    filter:drop-shadow(0 1px 1px rgba(0,0,0,.3))}
+  .twk-swatch{appearance:none;-webkit-appearance:none;width:56px;height:22px;
+    border:.5px solid rgba(0,0,0,.1);border-radius:6px;padding:0;cursor:default;
+    background:transparent;flex-shrink:0}
+  .twk-swatch::-webkit-color-swatch-wrapper{padding:0}
+  .twk-swatch::-webkit-color-swatch{border:0;border-radius:5.5px}
+`;
+
+function useTweaks(defaults) {
+  const [values, setValues] = React.useState(defaults);
+  const setTweak = React.useCallback((keyOrEdits, val) => {
+    const edits = typeof keyOrEdits === 'object' && keyOrEdits !== null
+      ? keyOrEdits : { [keyOrEdits]: val };
+    setValues((prev) => ({ ...prev, ...edits }));
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits }, '*');
+    window.dispatchEvent(new CustomEvent('tweakchange', { detail: edits }));
+  }, []);
+  return [values, setTweak];
+}
+
+function TweaksPanel({ title = 'Tweaks', children }) {
+  const [open, setOpen] = React.useState(false);
+  const dragRef = React.useRef(null);
+  const offsetRef = React.useRef({ x: 16, y: 16 });
+  const PAD = 16;
+  const clampToViewport = React.useCallback(() => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const w = panel.offsetWidth, h = panel.offsetHeight;
+    const maxRight = Math.max(PAD, window.innerWidth - w - PAD);
+    const maxBottom = Math.max(PAD, window.innerHeight - h - PAD);
+    offsetRef.current = {
+      x: Math.min(maxRight, Math.max(PAD, offsetRef.current.x)),
+      y: Math.min(maxBottom, Math.max(PAD, offsetRef.current.y)),
+    };
+    panel.style.right = offsetRef.current.x + 'px';
+    panel.style.bottom = offsetRef.current.y + 'px';
+  }, []);
+  React.useEffect(() => {
+    if (!open) return;
+    clampToViewport();
+    const ro = new ResizeObserver(clampToViewport);
+    ro.observe(document.documentElement);
+    return () => ro.disconnect();
+  }, [open, clampToViewport]);
+  React.useEffect(() => {
+    const onMsg = (e) => {
+      const t = e?.data?.type;
+      if (t === '__activate_edit_mode') setOpen(true);
+      else if (t === '__deactivate_edit_mode') setOpen(false);
+    };
+    window.addEventListener('message', onMsg);
+    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    return () => window.removeEventListener('message', onMsg);
+  }, []);
+  const dismiss = () => {
+    setOpen(false);
+    window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
+  };
+  const onDragStart = (e) => {
+    const panel = dragRef.current;
+    if (!panel) return;
+    const r = panel.getBoundingClientRect();
+    const sx = e.clientX, sy = e.clientY;
+    const startRight = window.innerWidth - r.right;
+    const startBottom = window.innerHeight - r.bottom;
+    const move = (ev) => {
+      offsetRef.current = { x: startRight - (ev.clientX - sx), y: startBottom - (ev.clientY - sy) };
+      clampToViewport();
+    };
+    const up = () => { window.removeEventListener('mousemove', move); window.removeEventListener('mouseup', up); };
+    window.addEventListener('mousemove', move);
+    window.addEventListener('mouseup', up);
+  };
+  if (!open) return null;
+  return (
+    <>
+      <style>{__TWEAKS_STYLE}</style>
+      <div ref={dragRef} className="twk-panel" style={{ right: offsetRef.current.x, bottom: offsetRef.current.y }}>
+        <div className="twk-hd" onMouseDown={onDragStart}>
+          <b>{title}</b>
+          <button className="twk-x" onMouseDown={(e) => e.stopPropagation()} onClick={dismiss}>✕</button>
+        </div>
+        <div className="twk-body">{children}</div>
+      </div>
+    </>
+  );
+}
+
+function TweakSection({ label, children }) {
+  return <><div className="twk-sect">{label}</div>{children}</>;
+}
+
+function TweakRow({ label, value, children, inline = false }) {
+  return (
+    <div className={inline ? 'twk-row twk-row-h' : 'twk-row'}>
+      <div className="twk-lbl">
+        <span>{label}</span>
+        {value != null && <span className="twk-val">{value}</span>}
+      </div>
+      {children}
+    </div>
+  );
+}
+
+function TweakRadio({ label, value, options, onChange }) {
+  const trackRef = React.useRef(null);
+  const [dragging, setDragging] = React.useState(false);
+  const valueRef = React.useRef(value);
+  valueRef.current = value;
+  const labelLen = (o) => String(typeof o === 'object' ? o.label : o).length;
+  const maxLen = options.reduce((m, o) => Math.max(m, labelLen(o)), 0);
+  const fitsAsSegments = maxLen <= ({ 2: 16, 3: 10 }[options.length] ?? 0);
+  if (!fitsAsSegments) {
+    return (
+      <TweakRow label={label}>
+        <select className="twk-field" value={value} onChange={(e) => onChange(e.target.value)}>
+          {options.map((o) => { const v = typeof o === 'object' ? o.value : o; const l = typeof o === 'object' ? o.label : o; return <option key={v} value={v}>{l}</option>; })}
+        </select>
+      </TweakRow>
+    );
+  }
+  const opts = options.map((o) => (typeof o === 'object' ? o : { value: o, label: o }));
+  const idx = Math.max(0, opts.findIndex((o) => o.value === value));
+  const n = opts.length;
+  const segAt = (clientX) => {
+    const r = trackRef.current.getBoundingClientRect();
+    const inner = r.width - 4;
+    const i = Math.floor(((clientX - r.left - 2) / inner) * n);
+    return opts[Math.max(0, Math.min(n - 1, i))].value;
+  };
+  const onPointerDown = (e) => {
+    setDragging(true);
+    const v0 = segAt(e.clientX);
+    if (v0 !== valueRef.current) onChange(v0);
+    const move = (ev) => { if (!trackRef.current) return; const v = segAt(ev.clientX); if (v !== valueRef.current) onChange(v); };
+    const up = () => { setDragging(false); window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+  };
+  return (
+    <TweakRow label={label}>
+      <div ref={trackRef} role="radiogroup" onPointerDown={onPointerDown} className={dragging ? 'twk-seg dragging' : 'twk-seg'}>
+        <div className="twk-seg-thumb" style={{ left: `calc(2px + ${idx} * (100% - 4px) / ${n})`, width: `calc((100% - 4px) / ${n})` }} />
+        {opts.map((o) => <button key={o.value} type="button" role="radio" aria-checked={o.value === value}>{o.label}</button>)}
+      </div>
+    </TweakRow>
+  );
+}
+
+function __twkIsLight(hex) {
+  const h = String(hex).replace('#', '');
+  const x = h.length === 3 ? h.replace(/./g, (c) => c + c) : h.padEnd(6, '0');
+  const n = parseInt(x.slice(0, 6), 16);
+  if (Number.isNaN(n)) return true;
+  const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+  return r * 299 + g * 587 + b * 114 > 148000;
+}
+
+const __TwkCheck = ({ light }) => (
+  <svg viewBox="0 0 14 14" aria-hidden="true">
+    <path d="M3 7.2 5.8 10 11 4.2" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" stroke={light ? 'rgba(0,0,0,.78)' : '#fff'} />
+  </svg>
+);
+
+function TweakColor({ label, value, options, onChange }) {
+  if (!options || !options.length) {
+    return (
+      <div className="twk-row twk-row-h">
+        <div className="twk-lbl"><span>{label}</span></div>
+        <input type="color" className="twk-swatch" value={value} onChange={(e) => onChange(e.target.value)} />
+      </div>
+    );
+  }
+  const key = (o) => String(JSON.stringify(o)).toLowerCase();
+  const cur = key(value);
+  return (
+    <TweakRow label={label}>
+      <div className="twk-chips" role="radiogroup">
+        {options.map((o, i) => {
+          const colors = Array.isArray(o) ? o : [o];
+          const [hero, ...rest] = colors;
+          const sup = rest.slice(0, 4);
+          const on = key(o) === cur;
+          return (
+            <button key={i} type="button" className="twk-chip" role="radio" aria-checked={on} data-on={on ? '1' : '0'}
+                    style={{ background: hero }} onClick={() => onChange(o)}>
+              {sup.length > 0 && <span>{sup.map((c, j) => <i key={j} style={{ background: c }} />)}</span>}
+              {on && <__TwkCheck light={__twkIsLight(hero)} />}
+            </button>
+          );
+        })}
+      </div>
+    </TweakRow>
+  );
+}
+
+/* ============================================================
+   SHARED COMPONENTS
+   ============================================================ */
+function Icon({ n, s = 18, color, style = {} }) {
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    if (ref.current && window.lucide) {
+      ref.current.innerHTML = "";
+      const el = document.createElement("i");
+      el.setAttribute("data-lucide", n);
+      ref.current.appendChild(el);
+      window.lucide.createIcons({ attrs: { width: s, height: s } });
+    }
+  }, [n, s]);
+  return <span ref={ref} style={{ display: "inline-flex", color, ...style }} />;
+}
+
+function LogoMark({ size = 26, mono = false }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M30 16 L23 28.12 L9 28.12 L2 16 L9 3.88 L23 3.88 Z"
+            stroke={mono ? "#ffffff" : "#000091"} strokeWidth="2.4" strokeLinejoin="round" fill="none"/>
+      <circle cx="18.5" cy="12" r="2.7" fill={mono ? "#BCD0FB" : "#2563EB"}/>
+    </svg>
+  );
+}
+
+function BrandLogo({ size = 26, mono = false }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
+      <LogoMark size={size} mono={mono} />
+      <span style={{ fontFamily: "var(--font-sans)", fontSize: Math.round(size * 0.62), fontWeight: 700,
+                     color: mono ? "#fff" : "var(--ink)", letterSpacing: "-0.01em" }}>
+        France<span style={{ fontWeight: 500, color: mono ? "var(--blue-200)" : "var(--gray-500)" }}> Monitor</span>
+      </span>
+    </div>
+  );
+}
+
+const GoogleGlyph = () => (
+  <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true">
+    <path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/>
+    <path fill="#34A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"/>
+    <path fill="#FBBC05" d="M11.69 28.18c-.44-1.32-.69-2.73-.69-4.18s.25-2.86.69-4.18v-5.7H4.34A21.99 21.99 0 0 0 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z"/>
+    <path fill="#EA4335" d="M24 9.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 2.99 29.93 1 24 1 15.4 1 7.96 5.93 4.34 13.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"/>
+  </svg>
+);
+
+const AppleGlyph = () => (
+  <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+    <path d="M16.37 12.78c.02 2.5 2.19 3.33 2.21 3.34-.02.06-.35 1.19-1.15 2.36-.69 1.01-1.41 2.02-2.54 2.04-1.11.02-1.47-.66-2.74-.66-1.27 0-1.66.64-2.71.68-1.09.04-1.92-1.09-2.62-2.1-1.42-2.06-2.51-5.83-1.05-8.37.72-1.27 2.02-2.07 3.42-2.09 1.07-.02 2.08.72 2.74.72.66 0 1.89-.89 3.18-.76.54.02 2.06.22 3.03 1.64-.08.05-1.81 1.06-1.8 3.16M14.28 4.94c.58-.71.98-1.69.87-2.67-.84.03-1.86.56-2.47 1.26-.54.62-1.02 1.62-.89 2.58.94.07 1.9-.47 2.49-1.17"/>
+  </svg>
+);
+
+const MicrosoftGlyph = () => (
+  <svg width="16" height="16" viewBox="0 0 23 23" aria-hidden="true">
+    <rect x="1" y="1" width="10" height="10" fill="#F25022"/>
+    <rect x="12" y="1" width="10" height="10" fill="#7FBA00"/>
+    <rect x="1" y="12" width="10" height="10" fill="#00A4EF"/>
+    <rect x="12" y="12" width="10" height="10" fill="#FFB900"/>
+  </svg>
+);
+
+function SSOButton({ glyph, label, onClick }) {
+  const [hover, setHover] = React.useState(false);
+  return (
+    <button onClick={onClick} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+      style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10,
+               width: "100%", height: 44, borderRadius: "var(--radius-md)", cursor: "pointer",
+               fontFamily: "var(--font-sans)", fontSize: 14, fontWeight: 600, color: "var(--text)",
+               background: hover ? "var(--surface-hover)" : "var(--surface)",
+               border: "1px solid var(--border-strong)", transition: "background var(--dur-fast)" }}>
+      <span style={{ display: "inline-flex", width: 18, height: 18, alignItems: "center", justifyContent: "center" }}>{glyph}</span>
+      {label}
+    </button>
+  );
+}
+
+function AuthBrandPanel({ values }) {
+  const { FranceMap } = window.FranceMonitorDesignSystem_5343d8;
+  return (
+    <div style={{ position: "relative", overflow: "hidden", background: "var(--blue-france)", color: "#fff",
+                  display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "44px 44px 40px" }}>
+      <div style={{ position: "relative", zIndex: 2 }}><BrandLogo size={30} mono /></div>
+      <div style={{ position: "absolute", right: "-12%", top: "50%", transform: "translateY(-50%)",
+                    width: "115%", opacity: 0.16, zIndex: 1, pointerEvents: "none", filter: "brightness(0) invert(1)" }}>
+        <FranceMap values={values} height={520} />
+      </div>
+      <div style={{ position: "relative", zIndex: 2, maxWidth: 380 }}>
+        <div style={{ fontFamily: "var(--font-sans)", fontSize: 30, fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.1, textWrap: "balance" }}>
+          Le terminal des données publiques françaises.
+        </div>
+        <p style={{ fontFamily: "var(--font-sans)", fontSize: 15, lineHeight: 1.6, color: "var(--blue-200)", marginTop: 16 }}>
+          INSEE, Banque de France, ministères, data.gouv.fr — centralisés, structurés et tracés jusqu'à l'organisme producteur.
+        </p>
+        <div style={{ display: "flex", gap: 18, marginTop: 24 }}>
+          {["Sources tracées", "Temps réel", "France entière"].map((t) => (
+            <span key={t} style={{ display: "flex", alignItems: "center", gap: 7, fontFamily: "var(--font-sans)", fontSize: 13, color: "rgba(255,255,255,.82)" }}>
+              <Icon n="check" s={15} color="var(--blue-200)" /> {t}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   LANDING PAGE
+   ============================================================ */
+const { Button, Badge } = window.FranceMonitorDesignSystem_5343d8;
+
+const VALUES_LAND = { '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 };
+const SOURCES_LAND = ['INSEE','Banque de France','data.gouv.fr','DGFiP','Assemblée nationale','Sénat','Ministère de l\'Intérieur','Ministère de l\'Économie'];
+const FEATURES_LAND = [
+  { icon:'map', t:'Carte interactive', d:"Explorez la France région par région. Couches activables, points d'intérêt, choroplèthes dynamiques." },
+  { icon:'shield-check', t:'Sources officielles uniquement', d:"INSEE, Banque de France, ministères, data.gouv.fr. Aucune donnée non vérifiée." },
+  { icon:'git-branch', t:'Traçabilité totale', d:"Chaque indicateur affiche son origine et sa date de référence, vérifiable jusqu'au producteur." },
+];
+const USERS_LAND = [
+  { icon:'line-chart', n:'Analystes & investisseurs', d:'Suivre les indicateurs macro et territoriaux en temps réel.' },
+  { icon:'newspaper', n:'Journalistes', d:'Sourcer des chiffres fiables et tracés en quelques secondes.' },
+  { icon:'briefcase', n:'Cabinets de conseil', d:'Cartographier un territoire pour une mission stratégique.' },
+  { icon:'landmark', n:'Collectivités & administrations', d:'Comparer sa région aux moyennes nationales.' },
+];
+
+function LandingNav({ go }) {
+  return (
+    <div className="ln-nav">
+      <div className="ln-nav-in">
+        <BrandLogo size={26} />
+        <div className="ln-links">
+          <a href="#features">Modules</a><a href="#sources">Sources</a><a href="#pos">Positionnement</a><a href="#users">Pour qui</a>
+        </div>
+        <div className="ln-nav-cta">
+          <Button variant="ghost" size="sm" onClick={() => go('login')}>Se connecter</Button>
+          <Button variant="primary" size="sm" onClick={() => go('signup')}>Créer un compte</Button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HeroVisual({ height = 360 }) {
+  const { FranceMap, Badge: Bdg } = window.FranceMonitorDesignSystem_5343d8;
+  return (
+    <div className="ln-herovis">
+      <div className="ln-hv-top">
+        <span className="ln-hv-lbl">Indicateur · Densité de PME</span>
+        <Bdg tone="blue" dot>Officiel</Bdg>
+      </div>
+      <FranceMap values={VALUES_LAND} selected="11" height={height} />
+    </div>
+  );
+}
+
+function Hero({ variant, go }) {
+  const eyebrow = <span className="ln-pill"><Icon n="circle-check-big" s={14} /> Données publiques · 100 % officielles</span>;
+  const title = <h1 className="ln-h1">Le terminal des données <span className="accent">publiques françaises</span>.</h1>;
+  const lead = <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>;
+  const ctas = (
+    <div className="ln-hero-cta">
+      <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
+      <Button variant="secondary" size="lg" icon={<Icon n="play" />} onClick={() => go('login')}>Voir une démo</Button>
+    </div>
+  );
+  const nots = (
+    <div className="ln-nots">
+      <span className="ln-not"><Icon n="check" s={15} /> Sources tracées</span>
+      <span className="ln-not"><Icon n="check" s={15} /> Temps réel</span>
+      <span className="ln-not"><Icon n="check" s={15} /> France entière</span>
+    </div>
+  );
+  if (variant === 'centered') {
+    return (
+      <div className="ln-hero-centered">
+        {eyebrow}{title}{lead}{ctas}{nots}
+        <div className="ln-hero-centered-vis"><HeroVisual height={420} /></div>
+      </div>
+    );
+  }
+  if (variant === 'dark') {
+    return (
+      <div className="ln-hero-dark">
+        <div className="ln-hero-dark-grid">
+          <div>
+            <span className="ln-pill dark"><Icon n="circle-check-big" s={14} /> Données publiques · 100 % officielles</span>
+            <h1 className="ln-h1 ondark">Le terminal des données <span className="accent-light">publiques françaises</span>.</h1>
+            <p className="ln-lead ondark">France Monitor centralise, structure et visualise en temps réel les données officielles de la France.</p>
+            {ctas}
+            <div className="ln-nots ondark">
+              <span className="ln-not ondark"><Icon n="check" s={15} /> Sources tracées</span>
+              <span className="ln-not ondark"><Icon n="check" s={15} /> Temps réel</span>
+              <span className="ln-not ondark"><Icon n="check" s={15} /> France entière</span>
+            </div>
+          </div>
+          <HeroVisual height={360} />
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="ln-hero">
+      <div>{eyebrow}{title}{lead}{ctas}{nots}</div>
+      <HeroVisual height={360} />
+    </div>
+  );
+}
+
+function Landing({ heroVariant, go }) {
+  return (
+    <div className="landing">
+      <LandingNav go={go} />
+      <div className="ln-wrap">
+        <Hero variant={heroVariant} go={go} />
+        <div className="ln-sources" id="sources">
+          <div className="ln-src-h">Des sources exclusivement officielles</div>
+          <div className="ln-src-row">{SOURCES_LAND.map(s => <span className="ln-src" key={s}>{s}</span>)}</div>
+        </div>
+        <div className="ln-section" id="features">
+          <div className="ln-eyebrow">Pourquoi France Monitor</div>
+          <h2 className="ln-sec-title">La fiabilité au cœur du produit</h2>
+          <p className="ln-sec-sub">Un terminal de données décisionnelles qui combine un terminal Bloomberg, une plateforme géospatiale et un moteur de données publiques.</p>
+          <div className="ln-feat">
+            {FEATURES_LAND.map(f => (
+              <div className="ln-fcard" key={f.t}>
+                <div className="ln-ficon"><Icon n={f.icon} s={20} /></div>
+                <div className="ln-ftitle">{f.t}</div>
+                <div className="ln-ftext">{f.d}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="ln-section" id="pos" style={{ paddingTop: 0 }}>
+          <div className="ln-eyebrow">Positionnement</div>
+          <h2 className="ln-sec-title">Ce que France Monitor n'est pas</h2>
+          <div className="ln-pos">
+            <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS UN MÉDIA</div><div className="ln-pos-t">Ni un média</div><div className="ln-pos-d">Aucune ligne éditoriale, aucune opinion. Seulement des données structurées.</div></div>
+            <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS DE L'ACTUALITÉ</div><div className="ln-pos-t">Ni un site d'actualité</div><div className="ln-pos-d">Pas de flux d'information, pas de breaking news. Des indicateurs, pas des articles.</div></div>
+            <div className="ln-poscard yes"><div className="ln-pos-k">✓ UN TERMINAL</div><div className="ln-pos-t">Un terminal de données décisionnelles</div><div className="ln-pos-d">Explorer et analyser la France à travers ses indicateurs officiels.</div></div>
+          </div>
+        </div>
+        <div className="ln-section" id="users" style={{ paddingTop: 0 }}>
+          <div className="ln-eyebrow">Pour qui</div>
+          <h2 className="ln-sec-title">Conçu pour les décideurs</h2>
+          <div className="ln-users">
+            {USERS_LAND.map(u => (
+              <div className="ln-ucard" key={u.n}>
+                <span className="ln-uicon"><Icon n={u.icon} s={22} /></span>
+                <div className="ln-uname">{u.n}</div>
+                <div className="ln-udesc">{u.d}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="ln-cta">
+          <div className="ln-cta-t">Comprendre la France,<br />indicateur par indicateur.</div>
+          <p className="ln-cta-s">Créez un compte et explorez les données publiques françaises en temps réel.</p>
+          <div className="ln-cta-b">
+            <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
+            <Button size="lg" style={{ background:'transparent', color:'#fff', border:'1px solid var(--gray-700)' }} onClick={() => go('login')}>Se connecter</Button>
+          </div>
+        </div>
+        <div className="ln-foot">
+          <BrandLogo size={22} />
+          <span className="ln-meta">© 2026 France Monitor · Données publiques officielles · Licence Ouverte</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   AUTH SCREENS
+   ============================================================ */
+function AuthLayout({ children }) {
+  return (
+    <div className="auth">
+      <div className="auth-form-col">
+        <div className="auth-form-top"><BrandLogo size={26} /></div>
+        <div className="auth-form-mid"><div className="auth-form-inner">{children}</div></div>
+        <div className="auth-form-foot">© 2026 France Monitor · Données publiques officielles</div>
+      </div>
+      <AuthBrandPanel values={{ '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 }} />
+    </div>
+  );
+}
+
+function AuthField({ label, type = "text", placeholder, value, onChange, autoFocus, trailing }) {
+  const [focus, setFocus] = React.useState(false);
+  return (
+    <label className="af">
+      <span className="af-label">{label}</span>
+      <span className="af-box" style={{ borderColor: focus ? "var(--border-focus)" : "var(--border)", boxShadow: focus ? "var(--ring-focus)" : "none" }}>
+        <input className="af-input" type={type} placeholder={placeholder} value={value} autoFocus={autoFocus}
+               onChange={onChange} onFocus={() => setFocus(true)} onBlur={() => setFocus(false)} />
+        {trailing}
+      </span>
+    </label>
+  );
+}
+
+function PasswordField({ label, value, onChange, placeholder = "••••••••", autoFocus }) {
+  const [show, setShow] = React.useState(false);
+  return (
+    <AuthField label={label} type={show ? "text" : "password"} placeholder={placeholder}
+               value={value} onChange={onChange} autoFocus={autoFocus}
+               trailing={<button type="button" className="af-eye" onClick={() => setShow(s => !s)}><Icon n={show ? "eye-off" : "eye"} s={17} /></button>} />
+  );
+}
+
+function SSOGroup({ go }) {
+  return (
+    <div className="sso-group">
+      <SSOButton glyph={<GoogleGlyph />} label="Continuer avec Google" onClick={() => go('loading')} />
+      <SSOButton glyph={<AppleGlyph />} label="Continuer avec Apple" onClick={() => go('loading')} />
+      <SSOButton glyph={<MicrosoftGlyph />} label="Continuer avec Microsoft" onClick={() => go('loading')} />
+    </div>
+  );
+}
+
+function OrDivider({ children = "ou" }) {
+  return <div className="auth-or"><span>{children}</span></div>;
+}
+
+function LoginScreen({ go }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const [email, setEmail] = React.useState("");
+  const [pw, setPw] = React.useState("");
+  return (
+    <AuthLayout>
+      <div className="auth-eyebrow">Accès terminal</div>
+      <h1 className="auth-title">Se connecter</h1>
+      <p className="auth-sub">Accédez à votre terminal de données publiques françaises.</p>
+      <SSOGroup go={go} />
+      <OrDivider>ou avec votre e-mail professionnel</OrDivider>
+      <form className="auth-fields" onSubmit={(e) => { e.preventDefault(); go('loading'); }}>
+        <AuthField label="E-mail professionnel" type="email" placeholder="prenom@organisation.fr" value={email} onChange={(e) => setEmail(e.target.value)} autoFocus />
+        <PasswordField label="Mot de passe" value={pw} onChange={(e) => setPw(e.target.value)} />
+        <div className="auth-row-between">
+          <label className="auth-check"><input type="checkbox" defaultChecked /> Rester connecté</label>
+          <button type="button" className="auth-link" onClick={() => go('forgot')}>Mot de passe oublié ?</button>
+        </div>
+        <Btn type="submit" variant="primary" size="lg" fullWidth iconRight={<Icon n="arrow-right" />}>Se connecter</Btn>
+      </form>
+      <div className="auth-switch">Pas encore de compte ? <button className="auth-link strong" onClick={() => go('signup')}>Créer un compte</button></div>
+    </AuthLayout>
+  );
+}
+
+function SignupScreen({ go }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [pw, setPw] = React.useState("");
+  const [agree, setAgree] = React.useState(false);
+  return (
+    <AuthLayout>
+      <div className="auth-eyebrow">Nouveau compte</div>
+      <h1 className="auth-title">Créer un compte</h1>
+      <p className="auth-sub">Quelques secondes suffisent pour accéder au terminal.</p>
+      <SSOGroup go={go} />
+      <OrDivider>ou avec votre e-mail professionnel</OrDivider>
+      <form className="auth-fields" onSubmit={(e) => { e.preventDefault(); if (agree) go('loading'); }}>
+        <AuthField label="Nom complet" placeholder="Marie Lefèvre" value={name} onChange={(e) => setName(e.target.value)} autoFocus />
+        <AuthField label="E-mail professionnel" type="email" placeholder="prenom@organisation.fr" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <PasswordField label="Mot de passe" placeholder="8 caractères minimum" value={pw} onChange={(e) => setPw(e.target.value)} />
+        <label className="auth-check terms"><input type="checkbox" checked={agree} onChange={(e) => setAgree(e.target.checked)} /> J'accepte les <a className="auth-link" href="#" onClick={(e) => e.preventDefault()}>conditions d'utilisation</a> et la politique de confidentialité.</label>
+        <Btn type="submit" variant="primary" size="lg" fullWidth disabled={!agree} iconRight={<Icon n="arrow-right" />}>Créer mon compte</Btn>
+      </form>
+      <div className="auth-switch">Déjà un compte ? <button className="auth-link strong" onClick={() => go('login')}>Se connecter</button></div>
+    </AuthLayout>
+  );
+}
+
+function ForgotScreen({ go }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const [email, setEmail] = React.useState("");
+  const [sent, setSent] = React.useState(false);
+  if (sent) {
+    return (
+      <AuthLayout>
+        <div className="auth-confirm-icon"><Icon n="mail-check" s={26} color="var(--accent)" /></div>
+        <h1 className="auth-title">Vérifiez votre boîte mail</h1>
+        <p className="auth-sub">Si un compte est associé à <strong>{email || "votre adresse"}</strong>, un lien de réinitialisation vient d'être envoyé. Le lien expire dans 30 minutes.</p>
+        <div className="auth-fields">
+          <Btn variant="primary" size="lg" fullWidth onClick={() => go('login')}>Retour à la connexion</Btn>
+          <button className="auth-link" onClick={() => setSent(false)}>Renvoyer le lien</button>
+        </div>
+      </AuthLayout>
+    );
+  }
+  return (
+    <AuthLayout>
+      <button className="auth-back" onClick={() => go('login')}><Icon n="arrow-left" s={16} /> Retour</button>
+      <div className="auth-eyebrow">Réinitialisation</div>
+      <h1 className="auth-title">Mot de passe oublié</h1>
+      <p className="auth-sub">Saisissez votre e-mail professionnel. Nous vous enverrons un lien pour définir un nouveau mot de passe.</p>
+      <form className="auth-fields" onSubmit={(e) => { e.preventDefault(); setSent(true); }}>
+        <AuthField label="E-mail professionnel" type="email" placeholder="prenom@organisation.fr" value={email} onChange={(e) => setEmail(e.target.value)} autoFocus />
+        <Btn type="submit" variant="primary" size="lg" fullWidth>Envoyer le lien</Btn>
+      </form>
+      <div className="auth-switch">Vous vous souvenez ? <button className="auth-link strong" onClick={() => go('login')}>Se connecter</button></div>
+    </AuthLayout>
+  );
+}
+
+function AuthStatus({ phase }) {
+  return (
+    <div className="auth-status">
+      <div className="auth-status-inner">
+        <BrandLogo size={30} mono />
+        {phase === 'loading' ? (
+          <>
+            <div className="auth-spinner" />
+            <div className="auth-status-t">Connexion sécurisée…</div>
+            <div className="auth-status-s">Authentification et chargement de votre terminal.</div>
+          </>
+        ) : (
+          <>
+            <div className="auth-check-circle"><Icon n="check" s={34} color="#fff" /></div>
+            <div className="auth-status-t">Connexion réussie</div>
+            <div className="auth-status-s">Redirection vers votre terminal…</div>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   DASHBOARD
+   ============================================================ */
+const DASH_MODULES = [
+  { id:'dette', label:'Dette publique', icon:'landmark' },
+  { id:'inflation', label:'Inflation', icon:'trending-up' },
+  { id:'emploi', label:'Emploi', icon:'briefcase' },
+  { id:'budget', label:"Budget de l'État", icon:'banknote' },
+  { id:'energie', label:'Énergie', icon:'zap' },
+  { id:'demographie', label:'Démographie', icon:'users' },
+  { id:'sante', label:'Santé', icon:'activity' },
+  { id:'logement', label:'Logement', icon:'house' },
+  { id:'entreprises', label:'Entreprises', icon:'building-2' },
+  { id:'securite', label:'Sécurité', icon:'shield' },
+  { id:'education', label:'Éducation', icon:'graduation-cap' },
+  { id:'transport', label:'Transport', icon:'train-front' },
+];
+const DASH_VALUES = { '11':108,'84':92,'93':99,'76':104,'75':112,'44':101,'32':115,'52':95,'28':97,'53':90,'24':88,'27':100,'94':86 };
+const DASH_POP = { '11':'12,3 M','84':'8,0 M','93':'5,1 M','76':'6,0 M','75':'5,9 M','44':'3,8 M','32':'5,7 M','52':'3,3 M','28':'2,6 M','53':'3,3 M','24':'2,4 M','27':'2,8 M','94':'0,34 M' };
+
+function DashSidebar({ active, onSelect }) {
+  return (
+    <aside className="db-side">
+      <div className="db-brand"><BrandLogo size={24} /></div>
+      <div className="db-side-scroll">
+        <div className="db-side-cat">Modules</div>
+        {DASH_MODULES.map(m => (
+          <button key={m.id} className={'db-mod' + (m.id === active ? ' on' : '')} onClick={() => onSelect(m.id)}>
+            <Icon n={m.icon} s={17} />{m.label}
+          </button>
+        ))}
+      </div>
+    </aside>
+  );
+}
+
+function DashTopBar({ go }) {
+  const { SearchField, IconButton, Avatar } = window.FranceMonitorDesignSystem_5343d8;
+  const [menu, setMenu] = React.useState(false);
+  return (
+    <div className="db-top">
+      <div className="db-search"><SearchField shortcut="⌘K" /></div>
+      <div className="db-spacer" />
+      <div className="db-actions">
+        <IconButton label="Aide"><Icon n="circle-help" s={18} /></IconButton>
+        <span className="db-dot"><IconButton label="Notifications"><Icon n="bell" s={18} /></IconButton></span>
+        <IconButton label="Paramètres"><Icon n="settings" s={18} /></IconButton>
+        <span className="db-div" />
+        <div style={{ position: 'relative' }}>
+          <button className="db-avatar-btn" onClick={() => setMenu(m => !m)}><Avatar initials="ML" tone="blue" /></button>
+          {menu && (
+            <>
+              <div className="db-menu-scrim" onClick={() => setMenu(false)} />
+              <div className="db-menu">
+                <div className="db-menu-head"><Avatar initials="ML" tone="blue" /><div><div className="db-menu-nm">Marie Lefèvre</div><div className="db-menu-em">marie@organisation.fr</div></div></div>
+                <button className="db-menu-item"><Icon n="user" s={16} /> Profil</button>
+                <button className="db-menu-item"><Icon n="settings" s={16} /> Paramètres</button>
+                <div className="db-menu-sep" />
+                <button className="db-menu-item danger" onClick={() => go('landing')}><Icon n="log-out" s={16} /> Se déconnecter</button>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TerminalView({ module }) {
+  const { FranceMap, FRANCE_REGIONS, StatTile, Badge: Bdg, SourceTag, DataTable, Toggle } = window.FranceMonitorDesignSystem_5343d8;
+  const [sel, setSel] = React.useState('11');
+  const [layerReg, setLayerReg] = React.useState(true);
+  const [layerPoi, setLayerPoi] = React.useState(true);
+  const mod = DASH_MODULES.find(m => m.id === module) || DASH_MODULES[0];
+  const reg = FRANCE_REGIONS.find(r => r.code === sel);
+  const v = DASH_VALUES[sel] ?? 100;
+  const points = layerPoi ? [
+    { x: 612, y: 232, label: 'Paris', tone: 'var(--blue-france)' },
+    { x: 612, y: 690, label: 'Marseille', tone: 'var(--blue-france)' },
+    { x: 470, y: 560, label: 'Lyon', tone: 'var(--blue-france)' },
+  ] : [];
+  const tableRows = FRANCE_REGIONS.map(r => ({ region: r.nom, code: r.code, ratio: DASH_VALUES[r.code] ?? 100 })).sort((a, b) => b.ratio - a.ratio).slice(0, 6);
+
+  return (
+    <div className="db-stage">
+      <div className="db-mapwrap">
+        <div className="db-map-head">
+          <div>
+            <div className="db-map-title">{mod.label}</div>
+            <div className="db-map-sub">Ratio dette / PIB par région · en % · France métropolitaine</div>
+          </div>
+          <Bdg tone="blue" dot>Officiel · INSEE</Bdg>
+        </div>
+        <div className="db-map-card">
+          <FranceMap className="fmap" values={layerReg ? DASH_VALUES : null} selected={sel} onSelect={setSel} points={points} />
+          <div className="db-layers">
+            <span className="db-lh">Couches</span>
+            <Toggle checked={layerReg} onChange={setLayerReg} label="Données régionales" />
+            <Toggle checked={layerPoi} onChange={setLayerPoi} label="Points d'intérêt" />
+          </div>
+          <div className="db-legend">
+            <div className="db-lh">Ratio dette / PIB</div>
+            <div className="db-ramp">
+              {[1,2,3,4,5,6,7,8].map(i => <div key={i} style={{ background:`var(--seq-${i})` }} />)}
+            </div>
+            <div className="db-ax"><span>86 %</span><span>115 %</span></div>
+          </div>
+        </div>
+      </div>
+      <div className="db-panel">
+        <div className="db-panel-head">
+          <div className="db-panel-nm">{reg ? reg.nom : '—'}</div>
+          <div className="db-panel-meta">
+            <span>Région · code {sel}</span><span>Pop. {DASH_POP[sel] || '—'}</span>
+          </div>
+        </div>
+        <div className="db-panel-body">
+          <span className="db-blk-lbl">Indicateurs clés</span>
+          <div className="db-tile-row">
+            <StatTile label="Dette / PIB" value={String(v).replace('.', ',')} unit="%" delta={2.1} series={[v-7,v-5,v-3,v-1,v]} />
+            <StatTile label="Chômage" value="7,4" unit="%" delta={-0.2} series={[7.9,7.8,7.6,7.5,7.4]} />
+            <StatTile label="Inflation" value="2,3" unit="%" delta={-0.4} series={[5.1,4.6,3.8,3.1,2.3]} />
+            <StatTile label="Entreprises" value="312" unit="k" delta={1.6} series={[300,303,307,309,312]} />
+          </div>
+          <span className="db-blk-lbl" style={{ marginTop: 4 }}>Classement régional</span>
+          <div className="db-table">
+            <DataTable dense onRowClick={(row) => setSel(row.code)}
+              columns={[
+                { key:'region', header:'Région', strong:true },
+                { key:'ratio', header:'Dette/PIB', align:'right', mono:true, render:(x) => x + ' %' },
+              ]}
+              rows={tableRows} />
+          </div>
+          <span className="db-blk-lbl" style={{ marginTop: 4 }}>Sources</span>
+          <div className="db-sources">
+            <SourceTag source="INSEE" date="T3 2024" /><SourceTag source="DGFiP" /><SourceTag source="Banque de France" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const KPI_CARDS = [
+  { icon:'landmark', label:'Dette publique', value:'3 228', unit:'Md€', delta:2.1, series:[2950,3020,3100,3180,3228], src:'INSEE', date:'T3 2024' },
+  { icon:'trending-up', label:'Inflation (IPC)', value:'2,3', unit:'%', delta:-0.4, series:[5.1,4.6,3.8,3.1,2.3], src:'INSEE', date:'Mai 2026' },
+  { icon:'briefcase', label:'Taux de chômage', value:'7,4', unit:'%', delta:-0.2, series:[7.9,7.8,7.6,7.5,7.4], src:'INSEE', date:'T1 2026' },
+  { icon:'banknote', label:"Déficit public", value:'-5,5', unit:'%', delta:-0.6, series:[-4.8,-4.9,-5.1,-5.3,-5.5], src:'INSEE', date:'2025' },
+  { icon:'zap', label:'Production électrique', value:'521', unit:'TWh', delta:3.4, series:[480,495,505,512,521], src:'RTE', date:'2025' },
+  { icon:'building-2', label:"Créations d'entreprises", value:'1,05', unit:'M', delta:1.8, series:[0.98,1.00,1.02,1.03,1.05], src:'INSEE', date:'2025' },
+];
+
+function ModulesView({ onOpenModule }) {
+  const { StatTile, FranceMap, Badge: Bdg, TrendBar, SourceTag, Alert } = window.FranceMonitorDesignSystem_5343d8;
+  return (
+    <div className="db-modules">
+      <div className="db-mod-head">
+        <div>
+          <div className="db-mod-eyebrow">Vue d'ensemble</div>
+          <h1 className="db-mod-title">Tableau de bord national</h1>
+          <p className="db-mod-sub">Les indicateurs clés de la France, agrégés depuis les sources publiques officielles.</p>
+        </div>
+        <Bdg tone="blue" dot>Mise à jour il y a 4 min</Bdg>
+      </div>
+      <div className="db-kpi-grid">
+        {KPI_CARDS.map(c => (
+          <button key={c.label} className="db-kpi-card" onClick={() => onOpenModule && onOpenModule()}>
+            <div className="db-kpi-top"><span className="db-kpi-ico"><Icon n={c.icon} s={18} /></span><Icon n="arrow-up-right" s={16} color="var(--text-tertiary)" /></div>
+            <StatTile label={c.label} value={c.value} unit={c.unit} delta={c.delta} series={c.series} source={c.src} sourceDate={c.date} />
+          </button>
+        ))}
+      </div>
+      <div className="db-mod-lower">
+        <div className="db-mod-mapcard">
+          <div className="db-mod-card-h"><span className="db-mod-card-t">Densité économique par région</span><Bdg tone="blue" dot>Officiel</Bdg></div>
+          <div className="db-mod-map"><FranceMap values={DASH_VALUES} selected="11" height={340} onSelect={() => {}} /></div>
+        </div>
+        <div className="db-mod-rank">
+          <div className="db-mod-card-h"><span className="db-mod-card-t">Dette par région</span><SourceTag source="INSEE" date="2024" /></div>
+          <div className="db-mod-rank-body">
+            <TrendBar label="Île-de-France" value={765} max={765} display="765 Md€" />
+            <TrendBar label="Auvergne-Rhône-Alpes" value={285} max={765} display="285 Md€" tone="var(--viz-2)" />
+            <TrendBar label="Nouvelle-Aquitaine" value={185} max={765} display="185 Md€" tone="var(--viz-3)" />
+            <TrendBar label="Occitanie" value={178} max={765} display="178 Md€" tone="var(--viz-4)" />
+            <TrendBar label="Hauts-de-France" value={165} max={765} display="165 Md€" tone="var(--viz-6)" />
+            <Alert kind="warning" title="Donnée provisoire">Le dernier trimestre est une estimation INSEE, susceptible d'être révisée.</Alert>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Dashboard({ variant, go }) {
+  const [module, setModule] = React.useState('dette');
+  return (
+    <div className="db-app">
+      <DashSidebar active={module} onSelect={setModule} />
+      <div className="db-main">
+        <DashTopBar go={go} />
+        {variant === 'modules'
+          ? <div className="db-scroll"><ModulesView onOpenModule={() => setModule('dette')} /></div>
+          : <TerminalView module={module} />}
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   APP
+   ============================================================ */
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "hero": "Split",
+  "dashboard": "Carte",
+  "accent": "#2563EB"
+}/*EDITMODE-END*/;
+
+const HERO_MAP = { "Split": "split", "Centré": "centered", "Sombre": "dark" };
+const PERSIST = "fm_screen_v1";
+const ENTRY_SCREENS = ["landing", "login", "signup", "forgot", "dashboard"];
+
+function App() {
+  const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const [screen, setScreen] = React.useState(() => {
+    const s = localStorage.getItem(PERSIST);
+    return ENTRY_SCREENS.includes(s) ? s : "landing";
+  });
+  const go = React.useCallback((s) => setScreen(s), []);
+
+  React.useEffect(() => {
+    if (ENTRY_SCREENS.includes(screen)) localStorage.setItem(PERSIST, screen);
+  }, [screen]);
+
+  React.useEffect(() => {
+    document.documentElement.style.setProperty("--accent", t.accent);
+  }, [t.accent]);
+
+  React.useEffect(() => {
+    if (screen === "loading") { const id = setTimeout(() => setScreen("success"), 1500); return () => clearTimeout(id); }
+    if (screen === "success") { const id = setTimeout(() => setScreen("dashboard"), 1400); return () => clearTimeout(id); }
+  }, [screen]);
+
+  const fixed = screen !== "landing";
+  React.useEffect(() => {
+    document.getElementById("root").className = fixed ? "fixed-screen" : "";
+  }, [fixed]);
+
+  let view;
+  if (screen === "landing")   view = <Landing heroVariant={HERO_MAP[t.hero] || "split"} go={go} />;
+  else if (screen === "login")    view = <LoginScreen go={go} />;
+  else if (screen === "signup")   view = <SignupScreen go={go} />;
+  else if (screen === "forgot")   view = <ForgotScreen go={go} />;
+  else if (screen === "loading")  view = <AuthStatus phase="loading" />;
+  else if (screen === "success")  view = <AuthStatus phase="success" />;
+  else if (screen === "dashboard") view = <Dashboard variant={t.dashboard === "Modules" ? "modules" : "terminal"} go={go} />;
+
+  return (
+    <>
+      {view}
+      <TweaksPanel>
+        <TweakSection label="Landing — hero" />
+        <TweakRadio label="Disposition" value={t.hero} options={["Split", "Centré", "Sombre"]} onChange={(v) => setTweak("hero", v)} />
+        <TweakSection label="Dashboard" />
+        <TweakRadio label="Vue" value={t.dashboard} options={["Carte", "Modules"]} onChange={(v) => setTweak("dashboard", v)} />
+        <TweakSection label="Marque" />
+        <TweakColor label="Accent" value={t.accent} options={["#2563EB", "#000091", "#1B43C4", "#0E9BA8"]} onChange={(v) => setTweak("accent", v)} />
+      </TweaksPanel>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

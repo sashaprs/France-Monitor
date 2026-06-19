@@ -1,0 +1,29 @@
+/* France Monitor — Base / reset
+   Minimal element defaults so the brand reads correctly out of the box. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-relaxed);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+a { color: var(--text-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Numerals are tabular everywhere by default — this is a data product. */
+table, .tabular, [data-numeric] { font-variant-numeric: tabular-nums; }
+
+::selection { background: var(--blue-100); color: var(--ink); }
+
+:focus-visible { outline: none; box-shadow: var(--ring-focus); border-radius: var(--radius-sm); }

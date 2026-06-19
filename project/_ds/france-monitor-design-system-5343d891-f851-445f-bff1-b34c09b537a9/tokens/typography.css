@@ -1,0 +1,61 @@
+/* France Monitor — Typography Tokens
+   ===============================================================
+   Schibsted Grotesk for everything structural; IBM Plex Mono for
+   figures, tickers, source tags and IDs. Tabular numerals on data.
+   =============================================================== */
+
+:root {
+  /* Families */
+  --font-sans: 'Schibsted Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Weights */
+  --fw-regular: 400; /* @kind other */
+  --fw-medium:  500; /* @kind other */
+  --fw-semibold:600; /* @kind other */
+  --fw-bold:    700; /* @kind other */
+  --fw-black:   800; /* @kind other */
+
+  /* Type scale (px) — institutional, generous */
+  --fs-display: 56px;
+  --fs-h1:      36px;
+  --fs-h2:      26px;
+  --fs-h3:      20px;
+  --fs-h4:      17px;
+  --fs-body-lg: 17px;
+  --fs-body:    15px;
+  --fs-sm:      13px;
+  --fs-caption: 12px;
+  --fs-label:   11px;
+
+  /* Data figures (mono, tabular) */
+  --fs-data-xl: 44px;
+  --fs-data-lg: 30px;
+  --fs-data-md: 20px;
+  --fs-data-sm: 14px;
+
+  /* Line heights */
+  --lh-tight:   1.04; /* @kind other */
+  --lh-snug:    1.2; /* @kind other */
+  --lh-normal:  1.45; /* @kind other */
+  --lh-relaxed: 1.65; /* @kind other */
+
+  /* Letter spacing */
+  --ls-tighter: -0.03em; /* @kind other */
+  --ls-tight:   -0.02em; /* @kind other */
+  --ls-snug:    -0.01em; /* @kind other */
+  --ls-normal:  0; /* @kind other */
+  --ls-wide:    0.04em; /* @kind other */
+  --ls-label:   0.08em; /* @kind other */
+}
+
+/* ---- Optional helper classes (semantic, reference tokens) ---- */
+.fm-display { font-family: var(--font-sans); font-size: var(--fs-display); font-weight: var(--fw-bold); letter-spacing: var(--ls-tighter); line-height: var(--lh-tight); color: var(--text); }
+.fm-h1      { font-family: var(--font-sans); font-size: var(--fs-h1); font-weight: var(--fw-semibold); letter-spacing: var(--ls-tight); line-height: var(--lh-snug); color: var(--text); }
+.fm-h2      { font-family: var(--font-sans); font-size: var(--fs-h2); font-weight: var(--fw-semibold); letter-spacing: var(--ls-tight); line-height: var(--lh-snug); color: var(--text); }
+.fm-h3      { font-family: var(--font-sans); font-size: var(--fs-h3); font-weight: var(--fw-semibold); letter-spacing: var(--ls-snug); line-height: var(--lh-snug); color: var(--text); }
+.fm-body    { font-family: var(--font-sans); font-size: var(--fs-body); font-weight: var(--fw-regular); line-height: var(--lh-relaxed); color: var(--text-secondary); }
+.fm-sm      { font-family: var(--font-sans); font-size: var(--fs-sm); font-weight: var(--fw-regular); line-height: var(--lh-normal); color: var(--text-secondary); }
+.fm-caption { font-family: var(--font-sans); font-size: var(--fs-caption); font-weight: var(--fw-medium); color: var(--text-tertiary); }
+.fm-label   { font-family: var(--font-sans); font-size: var(--fs-label); font-weight: var(--fw-semibold); letter-spacing: var(--ls-label); text-transform: uppercase; color: var(--text-tertiary); }
+.fm-data    { font-family: var(--font-mono); font-feature-settings: 'tnum' 1; font-variant-numeric: tabular-nums; color: var(--text); }

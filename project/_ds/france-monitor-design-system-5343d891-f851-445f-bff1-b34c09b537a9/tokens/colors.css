@@ -1,0 +1,119 @@
+/* France Monitor — Color Tokens
+   ===============================================================
+   Light, institutional, Trade-Republic-minimal. White surfaces,
+   cool near-black ink, a subtle French blue accent, and clear
+   up/down financial semantics (green gain / red loss).
+   =============================================================== */
+
+:root {
+  /* ---- Neutrals (cool, lightly blue-tinted for a crisp terminal feel) ---- */
+  --white:       #FFFFFF;
+  --gray-50:     #F7F8FA;
+  --gray-100:    #EFF1F4;
+  --gray-150:    #E8EBEF;
+  --gray-200:    #E1E5EA;
+  --gray-300:    #D0D5DD;
+  --gray-400:    #AEB4BE;
+  --gray-500:    #7B828D;
+  --gray-600:    #565D67;
+  --gray-700:    #3B414A;
+  --gray-800:    #242931;
+  --gray-900:    #12161C;
+  --ink:         #0B0E14;
+
+  /* ---- Brand blue (French) ----
+     Bleu France #000091 is the official Republic blue, reserved for
+     brand moments. The interactive blue is a brighter, accessible step. */
+  --blue-france: #000091;
+  --blue-900:    #0A1F66;
+  --blue-700:    #1B43C4;
+  --blue-600:    #2563EB;   /* primary interactive */
+  --blue-500:    #4178F0;
+  --blue-200:    #BCD0FB;
+  --blue-100:    #DEE8FE;
+  --blue-50:     #F1F5FF;
+
+  /* ---- Marianne red (alerts, declines, République accent) ---- */
+  --red-700:     #B00910;
+  --red-600:     #E1000F;   /* official Marianne red */
+  --red-500:     #EF2D3B;
+  --red-100:     #FBDDDF;
+  --red-50:      #FEF2F2;
+
+  /* ---- Gain green (positive movement) ---- */
+  --green-700:   #0A6B43;
+  --green-600:   #0E8A52;
+  --green-500:   #12A862;
+  --green-100:   #C8EFD8;
+  --green-50:    #EFFAF3;
+
+  /* ---- Amber (warning / provisional data) ---- */
+  --amber-700:   #92500B;
+  --amber-600:   #C9760D;
+  --amber-100:   #FBE6C2;
+  --amber-50:    #FEF8EC;
+
+  /* =========================================================
+     SEMANTIC ALIASES — reference these in product code
+     ========================================================= */
+
+  /* Surfaces */
+  --bg:            var(--white);        /* page background */
+  --surface:       var(--white);        /* default panel */
+  --surface-sunken:var(--gray-50);      /* recessed areas, sidebars */
+  --surface-raised:var(--white);        /* cards above the page */
+  --surface-hover: var(--gray-50);
+  --surface-active:var(--gray-100);
+  --surface-inverse:var(--ink);
+
+  /* Text */
+  --text:          var(--ink);          /* primary */
+  --text-secondary:var(--gray-600);     /* supporting */
+  --text-tertiary: var(--gray-500);     /* meta, captions */
+  --text-disabled: var(--gray-400);
+  --text-inverse:  var(--white);
+  --text-link:     var(--blue-600);
+  --text-brand:    var(--blue-france);
+
+  /* Borders & lines */
+  --border:        var(--gray-200);     /* default hairline */
+  --border-strong: var(--gray-300);
+  --border-subtle: var(--gray-150);
+  --border-focus:  var(--blue-600);
+  --divider:       var(--gray-150);
+
+  /* Accent / interactive */
+  --accent:        var(--blue-600);
+  --accent-hover:  var(--blue-700);
+  --accent-tint:   var(--blue-50);
+  --accent-tint-strong: var(--blue-100);
+  --on-accent:     var(--white);
+
+  /* Financial / data semantics */
+  --pos:           var(--green-600);    /* gain, up */
+  --pos-tint:      var(--green-50);
+  --neg:           var(--red-600);      /* loss, down */
+  --neg-tint:      var(--red-50);
+  --warn:          var(--amber-600);
+  --warn-tint:     var(--amber-50);
+  --info:          var(--blue-600);
+  --info-tint:     var(--blue-50);
+
+  /* Data-viz categorical ramp (for charts / map choropleth) */
+  --viz-1: #2563EB;
+  --viz-2: #12A862;
+  --viz-3: #C9760D;
+  --viz-4: #7C5CFC;
+  --viz-5: #E1000F;
+  --viz-6: #0E9BA8;
+
+  /* Sequential blue choropleth (map regions, low → high) */
+  --seq-1: #F1F5FF;
+  --seq-2: #DEE8FE;
+  --seq-3: #BCD0FB;
+  --seq-4: #84A8F6;
+  --seq-5: #4178F0;
+  --seq-6: #2563EB;
+  --seq-7: #1B43C4;
+  --seq-8: #0A1F66;
+}

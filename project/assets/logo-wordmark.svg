@@ -1,0 +1,6 @@
+<svg width="220" height="32" viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="France Monitor">
+  <path d="M30 16 L23 28.12 L9 28.12 L2 16 L9 3.88 L23 3.88 Z" stroke="#000091" stroke-width="2.4" stroke-linejoin="round" fill="none"></path>
+  <circle cx="18.5" cy="12" r="2.7" fill="#2563EB"></circle>
+  <text x="44" y="21" font-family="&#39;Schibsted Grotesk&#39;, system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.01em" fill="#0B0E14">France</text>
+  <text x="108" y="21" font-family="&#39;Schibsted Grotesk&#39;, system-ui, sans-serif" font-size="17" font-weight="500" letter-spacing="-0.01em" fill="#565D67">Monitor</text>
+</svg>

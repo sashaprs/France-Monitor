@@ -1,0 +1,11 @@
+/* France Monitor — Webfonts
+   ---------------------------------------------------------------
+   Schibsted Grotesk  → UI, display, body (clean institutional grotesque)
+   IBM Plex Mono      → figures, tickers, source tags, IDs (terminal feel)
+
+   NOTE: The official typeface of the French State is "Marianne"
+   (proprietary, gouvernement.fr). Schibsted Grotesk is used here as an
+   open, license-free stand-in with a similar neutral-humanist character.
+   Swap to Marianne in production if licensed. */
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');

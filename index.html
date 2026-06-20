@@ -1757,8 +1757,9 @@ function SortableEUTable({ rows, euAvg }) {
   }
 
   const sorted = [...rows].sort((a, b) => {
-    let va = a._raw[sortKey], vb = b._raw[sortKey];
     if (sortKey === 'pays') return sortDir === 'asc' ? a._raw.name.localeCompare(b._raw.name) : b._raw.name.localeCompare(a._raw.name);
+    const va = sortKey === 'diff' ? (a._raw.v - euAvg) : a._raw.v;
+    const vb = sortKey === 'diff' ? (b._raw.v - euAvg) : b._raw.v;
     return sortDir === 'asc' ? va - vb : vb - va;
   }).map((r, i) => ({ ...r, rang: i + 1 }));
 
@@ -1811,11 +1812,23 @@ function InflComparaisonUE() {
   const { SourceTag, Alert } = window.FranceMonitorDesignSystem_5343d8;
   const { loading, error, data: euData } = useEUInflData();
   const periods = React.useMemo(() => genPeriods(2019), []);
-  const [period, setPeriod] = React.useState(periods[0]);
+  const [period, setPeriod] = React.useState('2025-01');
   const [hovered, setHovered] = React.useState(null);
   const [selected, setSelected] = React.useState(null);
 
   const isStatic = error || Object.keys(euData).length === 0;
+
+  React.useEffect(() => {
+    if (loading) return;
+    if (!isStatic && Object.keys(euData).length > 0) {
+      const allP = new Set();
+      Object.values(euData).forEach(cd => Object.keys(cd).forEach(p => allP.add(p)));
+      const latestWithData = [...allP].sort().reverse()[0];
+      if (latestWithData) setPeriod(latestWithData);
+    } else {
+      setPeriod('2025-01');
+    }
+  }, [loading]);
 
   const valsByCode = React.useMemo(() => {
     const r = {};
@@ -1839,23 +1852,33 @@ function InflComparaisonUE() {
       _raw: c,
     }));
 
+  const exportColsUE = [
+    { key:'pays', label:'Pays' },
+    { key:'val', label:'Inflation IPCH' },
+    { key:'diff', label:'vs moy. UE-27' },
+  ];
+
   return (
     <div className="infl-body">
-      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap' }}>
-        <div>
-          <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
-          <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
-            {periods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
-          </select>
-        </div>
-        {euAvg != null && (
-          <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
-            <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne UE-27</div>
-            <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
-              {(euAvg >= 0 ? '+' : '') + euAvg.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
-            </div>
+      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap', justifyContent:'space-between' }}>
+        <div style={{ display:'flex', alignItems:'flex-end', gap:12, flexWrap:'wrap' }}>
+          <div>
+            <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
+            <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
+              {periods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
+            </select>
           </div>
-        )}
+          {euAvg != null && (
+            <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
+              <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne UE-27</div>
+              <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
+                {(euAvg >= 0 ? '+' : '') + euAvg.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+              </div>
+            </div>
+          )}
+        </div>
+        <ExportMenu filename={'inflation-ue-' + period} title={'Comparaison inflation UE — ' + fmtPeriod(period, false)}
+          columns={exportColsUE} getRows={() => tableRows} />
       </div>
 
       {loading ? (
@@ -1876,26 +1899,52 @@ function InflComparaisonUE() {
                   </span>
                 ))}
               </div>
-              <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:4, fontStyle:'italic' }}>Survolez un pays pour le mettre en évidence — cliquez pour le détail</div>
             </div>
-            {selCountry && (
-              <EUCountryDetail country={selCountry} period={period} euAvg={euAvg} onClose={() => setSelected(null)} />
-            )}
-            {!selCountry && hovered && (() => {
-              const hc = EU_COUNTRIES.find(c => c.code === hovered);
-              const hv = hc ? valsByCode[hc.code] : null;
-              return hc ? (
-                <div style={{ width:180, flexShrink:0, background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'10px 14px', boxShadow:'var(--shadow-sm)' }}>
-                  <div style={{ fontSize:18, marginBottom:4 }}>{hc.flag} <b style={{ fontSize:13 }}>{hc.name}</b></div>
-                  {hv != null ? (
-                    <div className="infl-mono" style={{ fontSize:20, fontWeight:700, color:inflColor(hv) }}>
-                      {(hv >= 0 ? '+' : '') + hv.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+            <div style={{ width:230, flexShrink:0 }}>
+              {selCountry ? (
+                <EUCountryDetail country={selCountry} period={period} euAvg={euAvg} onClose={() => setSelected(null)} />
+              ) : (
+                <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'14px 16px', boxShadow:'var(--shadow-sm)', minHeight:200 }}>
+                  {hovered ? (() => {
+                    const hc = EU_COUNTRIES.find(c => c.code === hovered);
+                    const hv = hc ? valsByCode[hc.code] : null;
+                    return hc ? (
+                      <div>
+                        <div style={{ fontSize:20, marginBottom:6 }}>{hc.flag} <b style={{ fontSize:14 }}>{hc.name}</b></div>
+                        {hv != null ? (
+                          <div className="infl-mono" style={{ fontSize:22, fontWeight:700, color:inflColor(hv), marginBottom:4 }}>
+                            {(hv >= 0 ? '+' : '') + hv.toFixed(1).replace('.', ',')}<span style={{ fontSize:13 }}> %</span>
+                          </div>
+                        ) : <div style={{ fontSize:13, color:'var(--text-tertiary)', marginBottom:4 }}>—</div>}
+                        <div style={{ fontSize:11, color:'var(--text-secondary)', marginBottom:8 }}>IPCH glissement annuel</div>
+                        {euAvg != null && hv != null && (
+                          <div style={{ background:'var(--gray-50)', borderRadius:'var(--radius-sm)', padding:'6px 10px' }}>
+                            <div style={{ fontSize:11, color:'var(--text-tertiary)', marginBottom:2 }}>vs. moyenne UE-27</div>
+                            <div className="infl-mono" style={{ fontSize:14, fontWeight:700, color: hv > euAvg ? '#E1000F' : '#12A862' }}>
+                              {(hv - euAvg >= 0 ? '+' : '') + (hv - euAvg).toFixed(1).replace('.', ',') + ' pp'}
+                            </div>
+                          </div>
+                        )}
+                        <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:10, fontStyle:'italic' }}>Cliquez pour afficher le détail par catégorie</div>
+                      </div>
+                    ) : null;
+                  })() : (
+                    <div>
+                      <div style={{ fontSize:11, fontWeight:700, color:'var(--text-secondary)', marginBottom:10, textTransform:'uppercase', letterSpacing:'0.06em' }}>Légende IPCH a/a</div>
+                      {[{col:'#0A6B43',label:'Déflation (< 0 %)'},{col:'#12A862',label:'Faible (0–2 %)'},{col:'#C9760D',label:'Modérée (2–3,5 %)'},{col:'#E1000F',label:'Élevée (3,5–6 %)'},{col:'#7B0008',label:'Très élevée (> 6 %)'}].map(({ col, label }) => (
+                        <div key={label} style={{ display:'flex', alignItems:'center', gap:8, marginBottom:8 }}>
+                          <span style={{ width:14, height:14, borderRadius:3, background:col, display:'inline-block', flexShrink:0 }} />
+                          <span style={{ fontSize:12, color:'var(--text-secondary)' }}>{label}</span>
+                        </div>
+                      ))}
+                      <div style={{ marginTop:12, padding:'8px 10px', background:'var(--gray-50)', borderRadius:'var(--radius-sm)' }}>
+                        <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.5 }}>Survolez un pays pour les données — cliquez pour le détail par catégorie</div>
+                      </div>
                     </div>
-                  ) : <div style={{ fontSize:12, color:'var(--text-tertiary)' }}>—</div>}
-                  <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:4 }}>Cliquez pour le détail</div>
+                  )}
                 </div>
-              ) : null;
-            })()}
+              )}
+            </div>
           </div>
           {isStatic && <div style={{ marginTop:14 }}><Alert kind="warn" title="Données hors-ligne">API BCE inaccessible — valeurs : moyennes annuelles Eurostat intégrées.</Alert></div>}
           <div style={{ marginTop:20 }}>
@@ -1903,7 +1952,13 @@ function InflComparaisonUE() {
               <div className="infl-eyebrow">Classement 27 pays — {fmtPeriod(period, false)}</div>
               <div style={{ fontSize:11, color:'var(--text-tertiary)', fontStyle:'italic' }}>Cliquez sur un en-tête de colonne pour trier</div>
             </div>
-            <SortableEUTable rows={tableRows} euAvg={euAvg} />
+            {tableRows.length === 0 ? (
+              <div style={{ padding:'24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13, background:'var(--gray-50)', borderRadius:'var(--radius-lg)' }}>
+                Aucune donnée disponible pour cette période — sélectionnez une autre date
+              </div>
+            ) : (
+              <SortableEUTable rows={tableRows} euAvg={euAvg} />
+            )}
             <div style={{ marginTop:8 }}><SourceTag source={isStatic ? 'Eurostat · données intégrées' : 'BCE · SDMX HICP'} date={fmtPeriod(period, false)} /></div>
           </div>
         </>
@@ -1964,12 +2019,14 @@ function FranceRegionMap({ values, hovered, onHover, onSelect }) {
 }
 
 function InflDepartements({ monthly }) {
-  const { SourceTag, DataTable, Alert } = window.FranceMonitorDesignSystem_5343d8;
+  const { SourceTag, Alert } = window.FranceMonitorDesignSystem_5343d8;
   const { FRANCE_REGIONS } = window.FranceMonitorDesignSystem_5343d8;
   const allPeriods = React.useMemo(() => Object.keys(monthly).sort().reverse(), [monthly]);
   const [period, setPeriod] = React.useState(allPeriods[0] || '2025-12');
   const [hovered, setHovered] = React.useState(null);
   const [selected, setSelected] = React.useState(null);
+  const [deptSortKey, setDeptSortKey] = React.useState('v');
+  const [deptSortDir, setDeptSortDir] = React.useState('desc');
 
   React.useEffect(() => { if (allPeriods.length && !allPeriods.includes(period)) setPeriod(allPeriods[0]); }, [allPeriods]);
 
@@ -1984,32 +2041,59 @@ function InflDepartements({ monthly }) {
   const selRegion = selected ? FRANCE_REGIONS.find(r => r.code === selected) : null;
   const selVal = selRegion ? regionValues[selRegion.code] : null;
 
-  const tableRows = [...FRANCE_REGIONS]
-    .map(r => ({ name: r.nom, v: regionValues[r.code] }))
-    .sort((a, b) => (b.v ?? -99) - (a.v ?? -99))
-    .map(r => ({
-      region: r.name,
-      val: r.v != null ? (r.v >= 0 ? '+' : '') + r.v.toFixed(1).replace('.', ',') + ' %' : '—',
-      diff: (r.v != null && nationalVal != null) ? ((r.v - nationalVal) >= 0 ? '+' : '') + (r.v - nationalVal).toFixed(1).replace('.', ',') + ' pp' : '—',
+  function handleDeptSort(key) {
+    if (key === deptSortKey) setDeptSortDir(d => d === 'desc' ? 'asc' : 'desc');
+    else { setDeptSortKey(key); setDeptSortDir(key === 'name' ? 'asc' : 'desc'); }
+  }
+
+  const regionRows = React.useMemo(() => {
+    return [...FRANCE_REGIONS]
+      .map(r => ({ code: r.code, name: r.nom, v: regionValues[r.code] ?? null }))
+      .sort((a, b) => {
+        if (deptSortKey === 'name') return deptSortDir === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
+        const va = deptSortKey === 'diff' ? (a.v != null && nationalVal != null ? a.v - nationalVal : null) : a.v;
+        const vb = deptSortKey === 'diff' ? (b.v != null && nationalVal != null ? b.v - nationalVal : null) : b.v;
+        if (va == null && vb == null) return 0;
+        if (va == null) return 1;
+        if (vb == null) return -1;
+        return deptSortDir === 'asc' ? va - vb : vb - va;
+      });
+  }, [FRANCE_REGIONS, regionValues, nationalVal, deptSortKey, deptSortDir]);
+
+  const deptExportCols = [
+    { key:'name', label:'Région' },
+    { key:'valFmt', label:'Inflation estimée (%)' },
+    { key:'diffFmt', label:'vs. nationale (pp)' },
+  ];
+  function getDeptExportRows() {
+    return regionRows.map(r => ({
+      name: r.name,
+      valFmt: r.v != null ? (r.v >= 0 ? '+' : '') + r.v.toFixed(1).replace('.', ',') + ' %' : '—',
+      diffFmt: (r.v != null && nationalVal != null) ? ((r.v - nationalVal) >= 0 ? '+' : '') + (r.v - nationalVal).toFixed(1).replace('.', ',') + ' pp' : '—',
     }));
+  }
 
   return (
     <div className="infl-body">
-      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap' }}>
-        <div>
-          <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
-          <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
-            {allPeriods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
-          </select>
-        </div>
-        {nationalVal != null && (
-          <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
-            <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne France</div>
-            <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
-              {(nationalVal >= 0 ? '+' : '') + nationalVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
-            </div>
+      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap', justifyContent:'space-between' }}>
+        <div style={{ display:'flex', alignItems:'flex-end', gap:12, flexWrap:'wrap' }}>
+          <div>
+            <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
+            <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
+              {allPeriods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
+            </select>
           </div>
-        )}
+          {nationalVal != null && (
+            <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
+              <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne France</div>
+              <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
+                {(nationalVal >= 0 ? '+' : '') + nationalVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+              </div>
+            </div>
+          )}
+        </div>
+        <ExportMenu filename={'inflation-regions-' + period} title={'Inflation par région — ' + fmtPeriod(period, false)}
+          columns={deptExportCols} getRows={getDeptExportRows} />
       </div>
 
       <div style={{ display:'flex', gap:16, alignItems:'flex-start' }}>
@@ -2058,13 +2142,46 @@ function InflDepartements({ monthly }) {
       </div>
 
       <div style={{ marginTop:20 }}>
-        <div className="infl-eyebrow" style={{ marginBottom:10 }}>Classement des 13 régions — {fmtPeriod(period, false)}</div>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:10, flexWrap:'wrap', gap:8 }}>
+          <div className="infl-eyebrow">Classement des 13 régions — {fmtPeriod(period, false)}</div>
+          <div style={{ fontSize:11, color:'var(--text-tertiary)', fontStyle:'italic' }}>Cliquez sur un en-tête pour trier</div>
+        </div>
         <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
-          <DataTable columns={[
-            { key:'region', header:'Région', strong:true },
-            { key:'val', header:'Inflation estimée', align:'right', mono:true },
-            { key:'diff', header:'vs. nationale', align:'right', mono:true },
-          ]} rows={tableRows} />
+          <table style={{ width:'100%', borderCollapse:'collapse', fontSize:13 }}>
+            <thead>
+              <tr style={{ background:'var(--gray-50)', borderBottom:'1px solid var(--border)' }}>
+                {[{key:'name',label:'Région',numeric:false},{key:'v',label:'Inflation estimée',numeric:true},{key:'diff',label:'vs. nationale',numeric:true}].map(col => (
+                  <th key={col.key} onClick={() => handleDeptSort(col.key)}
+                      style={{ padding:'8px 12px', textAlign: col.numeric ? 'right' : 'left',
+                               fontWeight:600, fontSize:11, color:'var(--text-secondary)',
+                               textTransform:'uppercase', letterSpacing:'0.06em', cursor:'pointer',
+                               userSelect:'none', whiteSpace:'nowrap' }}>
+                    {col.label} {deptSortKey === col.key ? (deptSortDir === 'desc' ? '▼' : '▲') : <span style={{ opacity:0.3 }}>⇅</span>}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {regionRows.map((r, i) => {
+                const diff = r.v != null && nationalVal != null ? r.v - nationalVal : null;
+                return (
+                  <tr key={r.code} onClick={() => setSelected(selected === r.code ? null : r.code)}
+                      style={{ borderBottom: i < regionRows.length-1 ? '1px solid var(--border-subtle)' : 'none',
+                               background: selected === r.code ? 'var(--blue-50)' : i % 2 === 0 ? 'white' : 'var(--gray-50)',
+                               cursor:'pointer' }}>
+                    <td style={{ padding:'8px 12px', fontWeight:600 }}>{r.name}</td>
+                    <td style={{ padding:'8px 12px', textAlign:'right', fontFamily:'var(--font-mono)', fontWeight:700, color: inflColor(r.v) }}>
+                      {r.v != null ? (r.v >= 0 ? '+' : '') + r.v.toFixed(1).replace('.', ',') + ' %' : '—'}
+                    </td>
+                    <td style={{ padding:'8px 12px', textAlign:'right', fontFamily:'var(--font-mono)', fontSize:12,
+                                 color: diff != null ? (diff > 0 ? '#E1000F' : diff < 0 ? '#0A6B43' : 'var(--text-secondary)') : 'var(--text-tertiary)' }}>
+                      {diff != null ? (diff >= 0 ? '+' : '') + diff.toFixed(1).replace('.', ',') + ' pp' : '—'}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
         <div style={{ marginTop:8 }}><SourceTag source="INSEE · estimation régionale" date={fmtPeriod(period, false)} /></div>
       </div>
@@ -2106,6 +2223,97 @@ function parseMultiCatSDMX(json) {
   } catch(e) { return {}; }
 }
 
+function useInflCats() {
+  const [state, setState] = React.useState({ loading: true, data: {} });
+  React.useEffect(() => {
+    let alive = true;
+    fetch('https://data-api.ecb.europa.eu/service/data/ICP/M.FR.N.010000+045000+070000+060000+110000.4.ANR?lastNObservations=3&format=jsondata')
+      .then(r => r.json())
+      .then(json => { if (alive) setState({ loading: false, data: parseMultiCatSDMX(json) }); })
+      .catch(() => { if (alive) setState({ loading: false, data: {} }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+function ExportMenu({ filename, title, columns, getRows }) {
+  const [open, setOpen] = React.useState(false);
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    if (!open) return;
+    function onDown(e) { if (!ref.current?.contains(e.target)) setOpen(false); }
+    document.addEventListener('mousedown', onDown);
+    return () => document.removeEventListener('mousedown', onDown);
+  }, [open]);
+
+  function exportCSV() {
+    setOpen(false);
+    const rows = getRows();
+    const hdr = columns.map(c => '"' + c.label + '"').join(',');
+    const body = rows.map(r => columns.map(c => '"' + String(r[c.key] ?? '') + '"').join(',')).join('\n');
+    const blob = new Blob(['﻿' + hdr + '\n' + body], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = filename + '.csv'; a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function exportPDF() {
+    setOpen(false);
+    const rows = getRows();
+    const w = window.open('', '_blank', 'width=900,height=700');
+    const thRow = columns.map(c => '<th>' + c.label + '</th>').join('');
+    const trRows = rows.map(r => '<tr>' + columns.map(c => '<td>' + String(r[c.key] ?? '') + '</td>').join('') + '</tr>').join('');
+    w.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8"><title>${filename}</title>
+    <style>
+      body{font-family:Arial,sans-serif;font-size:12px;margin:28px;color:#111}
+      h2{font-size:17px;color:#000091;margin:0 0 4px}
+      .sub{font-size:11px;color:#666;margin:0 0 18px}
+      table{width:100%;border-collapse:collapse}
+      th{background:#f0f4ff;padding:7px 10px;text-align:left;border:1px solid #c8d0e8;font-size:10px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+      td{padding:6px 10px;border:1px solid #ddd;font-size:12px}
+      tr:nth-child(even){background:#f8f9ff}
+      .footer{margin-top:18px;font-size:10px;color:#999;border-top:1px solid #eee;padding-top:8px}
+    </style></head><body>
+    <h2>${title || filename}</h2>
+    <div class="sub">France Monitor · Source : BCE / INSEE · ${new Date().toLocaleDateString('fr-FR',{year:'numeric',month:'long',day:'numeric'})}</div>
+    <table><thead><tr>${thRow}</tr></thead><tbody>${trRows}</tbody></table>
+    <div class="footer">Données officielles — Banque Centrale Européenne (BCE) / INSEE</div>
+    <script>window.onload=function(){setTimeout(function(){window.print();},500);}<\/script>
+    </body></html>`);
+    w.document.close();
+  }
+
+  return (
+    <div ref={ref} style={{ position:'relative' }}>
+      <button onClick={() => setOpen(!open)}
+        style={{ display:'flex', alignItems:'center', gap:5, padding:'5px 10px', borderRadius:'var(--radius-sm)',
+                 border:'1px solid var(--border)', background:'white', cursor:'pointer', fontSize:12,
+                 fontFamily:'var(--font-sans)', color:'var(--text-secondary)', whiteSpace:'nowrap' }}>
+        <Icon n="download" s={13} /> Exporter ▾
+      </button>
+      {open && (
+        <div style={{ position:'absolute', top:'calc(100% + 4px)', right:0, background:'white',
+                      border:'1px solid var(--border)', borderRadius:'var(--radius-md)',
+                      boxShadow:'var(--shadow-md)', zIndex:100, minWidth:170, overflow:'hidden' }}>
+          <button onClick={exportCSV}
+            style={{ display:'flex', alignItems:'center', gap:8, width:'100%', padding:'9px 14px',
+                     background:'none', border:'none', cursor:'pointer', fontSize:12, textAlign:'left',
+                     fontFamily:'var(--font-sans)', color:'var(--text)' }}>
+            <Icon n="table-2" s={14} color="#0E8A52" /> Excel (CSV)
+          </button>
+          <div style={{ height:1, background:'var(--border)' }} />
+          <button onClick={exportPDF}
+            style={{ display:'flex', alignItems:'center', gap:8, width:'100%', padding:'9px 14px',
+                     background:'none', border:'none', cursor:'pointer', fontSize:12, textAlign:'left',
+                     fontFamily:'var(--font-sans)', color:'var(--text)' }}>
+            <Icon n="file-text" s={14} color="#E1000F" /> PDF (impression)
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function InflPostes({ monthly }) {
   const { SourceTag, Alert } = window.FranceMonitorDesignSystem_5343d8;
   const [catData, setCatData] = React.useState(null);
@@ -2143,21 +2351,36 @@ function InflPostes({ monthly }) {
         <Alert kind="warn" title="Données indisponibles">L'API BCE ne répond pas. Réessayez dans quelques instants.</Alert>
       ) : (
         <>
-          <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap' }}>
-            <div>
-              <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
-              <select className="infl-sel" value={period || ''} onChange={e => setPeriod(e.target.value)}>
-                {allPeriods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
-              </select>
-            </div>
-            {overallVal != null && (
-              <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
-                <div className="infl-eyebrow" style={{ marginBottom:2 }}>Indice général France</div>
-                <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
-                  {(overallVal >= 0 ? '+' : '') + overallVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
-                </div>
+          <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap', justifyContent:'space-between' }}>
+            <div style={{ display:'flex', alignItems:'flex-end', gap:12, flexWrap:'wrap' }}>
+              <div>
+                <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
+                <select className="infl-sel" value={period || ''} onChange={e => setPeriod(e.target.value)}>
+                  {allPeriods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
+                </select>
               </div>
-            )}
+              {overallVal != null && (
+                <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
+                  <div className="infl-eyebrow" style={{ marginBottom:2 }}>Indice général France</div>
+                  <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
+                    {(overallVal >= 0 ? '+' : '') + overallVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+                  </div>
+                </div>
+              )}
+            </div>
+            <ExportMenu filename={'postes-inflation-' + (period || '')} title={'Inflation par poste COICOP — ' + (period ? fmtPeriod(period, false) : '')}
+              columns={[{key:'label',label:'Poste'},{key:'val',label:'Inflation (%)'},{key:'delta',label:'Variation (pp)'},{key:'vs',label:'vs. indice général'}]}
+              getRows={() => POSTE_CATS.map(({ code, label }) => {
+                const v = catData[code]?.[period];
+                const vPrev = catData[code]?.[prevPeriod];
+                const d = (v != null && vPrev != null) ? Math.round((v - vPrev) * 10) / 10 : null;
+                return {
+                  label,
+                  val: v != null ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %' : '—',
+                  delta: d != null ? (d >= 0 ? '+' : '') + d.toFixed(1) + ' pp' : '—',
+                  vs: (overallVal != null && v != null) ? (v - overallVal >= 0 ? '+' : '') + (v - overallVal).toFixed(1) + ' pp' : '—',
+                };
+              })} />
           </div>
           <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(240px, 1fr))', gap:12, marginBottom:20 }}>
             {POSTE_CATS.map(({ code, label, icon }) => {
@@ -2208,6 +2431,7 @@ function InflationModule() {
   const [tab, setTab] = React.useState('Aperçu');
   const [mode, setMode] = React.useState('Glissement annuel');
   const { loading, error, data: apiData } = useInflData();
+  const { data: catData } = useInflCats();
 
   const monthly = getMonthly(apiData, error);
   const latestPeriod = getLatestPeriod(monthly);
@@ -2234,6 +2458,50 @@ function InflationModule() {
       g: g !== null ? (g >= 0 ? '+' : '') + g.toFixed(1).replace('.', ',') : '—',
     };
   });
+
+  const last12Periods = sortedPeriods.slice(-12);
+  const vals12 = last12Periods.map(p => monthly[p]).filter(v => v != null);
+  const min12 = vals12.length ? Math.round(Math.min(...vals12) * 10) / 10 : null;
+  const max12 = vals12.length ? Math.round(Math.max(...vals12) * 10) / 10 : null;
+  const monthsAbove2 = vals12.filter(v => v > 2).length;
+  const val3mPeriods = sortedPeriods.slice(-3);
+  const trend3m = val3mPeriods.length === 3 ? Math.round(val3mPeriods.reduce((s, p) => s + monthly[p], 0) / 3 * 10) / 10 : null;
+  const val1YAgo = sortedPeriods.length >= 13 ? monthly[sortedPeriods[sortedPeriods.length - 13]] : null;
+  const bceGap = latestVal != null ? Math.round((latestVal - 2) * 10) / 10 : null;
+  const catPeriods = catData && Object.keys(catData).length > 0 ? Object.keys(Object.values(catData)[0] || {}).sort().reverse() : [];
+  const latestCatPeriod = catPeriods[0] || null;
+
+  const aperExportCols = [
+    { key:'label', label:'Indicateur' },
+    { key:'val', label:'Valeur' },
+    { key:'note', label:'Note' },
+  ];
+  function getAperExportRows() {
+    const rows = [
+      { label:'Inflation actuelle (IPCH a/a)', val: latestVal != null ? (latestVal >= 0 ? '+' : '') + latestVal.toFixed(1) + ' %' : '—', note: latestPeriod ? fmtPeriod(latestPeriod, false) : '' },
+      { label:'Variation vs mois précédent', val: (delta >= 0 ? '+' : '') + delta.toFixed(1) + ' pp', note: '' },
+      { label:'Écart cible BCE (2 %)', val: bceGap != null ? (bceGap >= 0 ? '+' : '') + bceGap.toFixed(1) + ' pp' : '—', note: '' },
+      { label:'Tendance 3 mois (moy)', val: trend3m != null ? (trend3m >= 0 ? '+' : '') + trend3m.toFixed(1) + ' %' : '—', note: '' },
+      { label:'Inflation il y a 1 an', val: val1YAgo != null ? (val1YAgo >= 0 ? '+' : '') + val1YAgo.toFixed(1) + ' %' : '—', note: '' },
+      { label:'Min 12 mois', val: min12 != null ? (min12 >= 0 ? '+' : '') + min12.toFixed(1) + ' %' : '—', note: '' },
+      { label:'Max 12 mois', val: max12 != null ? (max12 >= 0 ? '+' : '') + max12.toFixed(1) + ' %' : '—', note: '' },
+      { label:'Mois > 2 % (12 derniers)', val: monthsAbove2 + ' / ' + vals12.length, note: '' },
+      { label:'Moyenne 2023', val: (() => { const v = getAnnualAvg(monthly, '2023'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1) + ' %' : '—'; })(), note: '2023' },
+      { label:'Moyenne 2024', val: (() => { const v = getAnnualAvg(monthly, '2024'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1) + ' %' : '—'; })(), note: '2024' },
+      { label:'Moyenne 2025', val: (() => { const v = getAnnualAvg(monthly, '2025'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1) + ' %' : '—'; })(), note: '2025' },
+    ];
+    [['010000','Alimentation'],['045000','Énergie'],['070000','Transports'],['060000','Santé'],['110000','Restaurants & hôtels']].forEach(([code, label]) => {
+      const v = catData[code]?.[latestCatPeriod];
+      rows.push({ label, val: v != null ? (v >= 0 ? '+' : '') + v.toFixed(1) + ' %' : '—', note: latestCatPeriod ? fmtPeriod(latestCatPeriod, false) : '' });
+    });
+    return rows;
+  }
+
+  const histExportCols = [
+    { key:'p', label:'Mois' },
+    { key:'e', label:'Inflation a/a (%)' },
+    { key:'g', label:'Variation vs mois préc. (pp)' },
+  ];
 
   return (
     <div className="infl-wrap">
@@ -2270,6 +2538,10 @@ function InflationModule() {
 
         {!loading && tab === 'Aperçu' && (
           <div className="infl-body">
+            <div style={{ display:'flex', justifyContent:'flex-end', marginBottom:12 }}>
+              <ExportMenu filename={'apercu-inflation-' + (latestPeriod || 'france')} title="Aperçu inflation France"
+                columns={aperExportCols} getRows={getAperExportRows} />
+            </div>
             <div className="infl-hero">
               <div className="infl-hero-l">
                 <div className="infl-eyebrow">Indice des prix à la consommation harmonisé (IPCH)</div>
@@ -2302,6 +2574,64 @@ function InflationModule() {
               <StatTile label="Moyenne 2025" value={(() => { const v = getAnnualAvg(monthly, '2025'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') : '—'; })()} unit="%" series={sortedPeriods.filter(p => p.startsWith('2025')).map(p => monthly[p])} source={apiSource} sourceDate="2025" />
             </div>
 
+            <div style={{ marginTop:24 }}>
+              <div className="infl-eyebrow" style={{ marginBottom:12 }}>Indicateurs complémentaires</div>
+              <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(180px, 1fr))', gap:10 }}>
+                {[
+                  { label:'Écart cible BCE', val: bceGap, fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' pp', desc:'vs. objectif de 2 %', icon:'target', color: bceGap != null && bceGap > 0 ? '#E1000F' : '#0A6B43' },
+                  { label:'Tendance 3 mois', val: trend3m, fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %', desc:'moyenne glissante', icon:'trending-up', color: inflColor(trend3m) },
+                  { label:'Il y a 1 an', val: val1YAgo, fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %', desc:'même mois an dernier', icon:'calendar', color: inflColor(val1YAgo) },
+                  { label:'Min 12 mois', val: min12, fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %', desc:'plus bas sur 1 an', icon:'arrow-down-to-line', color:'#0A6B43' },
+                  { label:'Max 12 mois', val: max12, fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %', desc:'plus haut sur 1 an', icon:'arrow-up-to-line', color:'#E1000F' },
+                  { label:'Mois > 2 %', val: monthsAbove2, fmt: v => v + ' / ' + vals12.length, desc:'sur les 12 derniers mois', icon:'bar-chart-2', color: monthsAbove2 >= 9 ? '#E1000F' : monthsAbove2 >= 6 ? '#C9760D' : '#12A862' },
+                ].map(({ label, val, fmt, desc, icon, color }) => (
+                  <div key={label} style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'12px 14px' }}>
+                    <div style={{ display:'flex', alignItems:'center', gap:7, marginBottom:8 }}>
+                      <Icon n={icon} s={14} color="var(--text-tertiary)" />
+                      <div style={{ fontSize:11, fontWeight:600, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.05em' }}>{label}</div>
+                    </div>
+                    <div className="infl-mono" style={{ fontSize:20, fontWeight:700, color: val != null ? color : 'var(--text-tertiary)', marginBottom:4 }}>
+                      {val != null ? fmt(val) : '—'}
+                    </div>
+                    <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>{desc}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {Object.keys(catData).length > 0 && (
+              <div style={{ marginTop:24 }}>
+                <div className="infl-eyebrow" style={{ marginBottom:12 }}>Inflation par poste — {latestCatPeriod ? fmtPeriod(latestCatPeriod, false) : '…'}</div>
+                <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(180px, 1fr))', gap:10 }}>
+                  {[
+                    { code:'010000', label:'Alimentation', icon:'shopping-basket' },
+                    { code:'045000', label:'Énergie', icon:'zap' },
+                    { code:'070000', label:'Transports', icon:'car' },
+                    { code:'060000', label:'Santé', icon:'heart-pulse' },
+                    { code:'110000', label:'Restaurants & hôtels', icon:'utensils' },
+                  ].map(({ code, label, icon }) => {
+                    const v = catData[code]?.[latestCatPeriod];
+                    return (
+                      <div key={code} style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'12px 14px' }}>
+                        <div style={{ display:'flex', alignItems:'center', gap:7, marginBottom:8 }}>
+                          <Icon n={icon} s={14} color="var(--blue-france)" />
+                          <div style={{ fontSize:11, fontWeight:600, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.05em' }}>{label}</div>
+                        </div>
+                        <div className="infl-mono" style={{ fontSize:20, fontWeight:700, color: inflColor(v), marginBottom:4 }}>
+                          {v != null ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %' : '—'}
+                        </div>
+                        {latestVal != null && v != null && (
+                          <div style={{ fontSize:11, color: v > latestVal ? '#E1000F' : '#0A6B43' }}>
+                            {(v - latestVal >= 0 ? '+' : '') + (v - latestVal).toFixed(1).replace('.', ',') + ' pp vs. général'}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
             <div style={{ marginTop:20 }}>
               {error
                 ? <Alert kind="warn" title="Données hors-ligne">L'API BCE est momentanément inaccessible. Les valeurs affichées proviennent des données INSEE intégrées (mises à jour jusqu'à déc. 2025).</Alert>
@@ -2313,7 +2643,11 @@ function InflationModule() {
 
         {!loading && tab === 'Historique' && (
           <div className="infl-body">
-            <div className="infl-eyebrow" style={{ marginBottom:10 }}>12 derniers relevés mensuels · IPCH France glissement annuel</div>
+            <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:10, flexWrap:'wrap', gap:8 }}>
+              <div className="infl-eyebrow">12 derniers relevés mensuels · IPCH France glissement annuel</div>
+              <ExportMenu filename={'historique-inflation-' + (latestPeriod || '')} title="Historique inflation France (12 mois)"
+                columns={histExportCols} getRows={() => histRows} />
+            </div>
             <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:14 }}>
               <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'8px 12px' }}>
                 <div style={{ fontSize:11, fontWeight:700, color:'var(--blue-france)', marginBottom:3 }}>Inflation a/a (%)</div>

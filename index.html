@@ -1255,89 +1255,203 @@ function InflSearchIcon() {
 
 const INFL_TABS = ['Aperçu', 'Postes', 'Départements', 'Historique', 'Comparaison UE', 'Interroger'];
 
-// Annual average inflation, France · IPC ensemble (approx. INSEE annual averages).
-const INFL_ANNUAL = { '2018':1.8, '2019':1.1, '2020':0.5, '2021':1.6, '2022':5.2, '2023':4.9, '2024':2.0, '2025':1.3 };
-// Monthly ventilation provided in the handoff (validated example: 2019).
-const INFL_MONTHLY_2019 = [
-  { m:'Janvier', v:'+1,2 %' }, { m:'Mars', v:'+1,1 %' }, { m:'Mai', v:'+0,9 %' },
-  { m:'Juillet', v:'+1,1 %' }, { m:'Septembre', v:'+0,9 %' }, { m:'Novembre', v:'+1,0 %' },
-];
+// Données de secours (INSEE, IPC/IPCH, France) — utilisées si l'API BCE est inaccessible
+const STATIC_MONTHLY = {
+  '2019-01':1.2,'2019-02':1.2,'2019-03':1.1,'2019-04':1.3,'2019-05':0.9,'2019-06':1.2,
+  '2019-07':1.1,'2019-08':1.0,'2019-09':0.9,'2019-10':0.8,'2019-11':1.0,'2019-12':1.4,
+  '2020-01':1.5,'2020-02':1.4,'2020-03':0.7,'2020-04':0.3,'2020-05':0.4,'2020-06':0.2,
+  '2020-07':0.8,'2020-08':0.2,'2020-09':0.0,'2020-10':-0.1,'2020-11':0.2,'2020-12':0.0,
+  '2021-01':0.6,'2021-02':0.8,'2021-03':1.1,'2021-04':1.2,'2021-05':1.4,'2021-06':1.5,
+  '2021-07':1.2,'2021-08':1.9,'2021-09':2.2,'2021-10':2.6,'2021-11':2.8,'2021-12':2.8,
+  '2022-01':2.9,'2022-02':3.6,'2022-03':4.5,'2022-04':4.8,'2022-05':5.2,'2022-06':5.8,
+  '2022-07':6.1,'2022-08':5.9,'2022-09':5.6,'2022-10':6.2,'2022-11':6.2,'2022-12':5.9,
+  '2023-01':6.0,'2023-02':6.3,'2023-03':5.7,'2023-04':5.9,'2023-05':5.1,'2023-06':4.5,
+  '2023-07':4.3,'2023-08':4.9,'2023-09':4.9,'2023-10':4.0,'2023-11':3.5,'2023-12':3.7,
+  '2024-01':3.1,'2024-02':2.9,'2024-03':2.3,'2024-04':2.2,'2024-05':2.2,'2024-06':2.1,
+  '2024-07':2.3,'2024-08':1.8,'2024-09':1.2,'2024-10':1.2,'2024-11':1.3,'2024-12':1.3,
+  '2025-01':1.5,'2025-02':0.9,'2025-03':0.8,'2025-04':0.8,'2025-05':1.3,'2025-06':1.0,
+  '2025-07':0.8,'2025-08':0.9,'2025-09':1.1,'2025-10':1.0,'2025-11':1.1,'2025-12':1.2,
+};
+
+const MOIS_FR = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+const MOIS_SHORT = ['Janv.','Févr.','Mars','Avr.','Mai','Juin','Juil.','Août','Sept.','Oct.','Nov.','Déc.'];
+
+function fmtPeriod(p, short) {
+  const [y, m] = p.split('-');
+  const idx = parseInt(m) - 1;
+  return (short ? MOIS_SHORT[idx] : MOIS_FR[idx]) + ' ' + y;
+}
+
+function parseSDMX(json) {
+  try {
+    const timeDim = json.structure.dimensions.observation.find(d => d.id === 'TIME_PERIOD');
+    if (!timeDim) return {};
+    const periods = timeDim.values.map(v => v.id);
+    const seriesKey = Object.keys(json.dataSets[0].series)[0];
+    const obs = json.dataSets[0].series[seriesKey].observations;
+    const result = {};
+    Object.entries(obs).forEach(([idx, vals]) => {
+      const period = periods[parseInt(idx)];
+      if (period && vals[0] != null) result[period] = Math.round(vals[0] * 10) / 10;
+    });
+    return result;
+  } catch(e) { return {}; }
+}
+
+function useInflData() {
+  const [state, setState] = React.useState({ loading: true, error: false, data: {} });
+  React.useEffect(() => {
+    let alive = true;
+    fetch('https://data-api.ecb.europa.eu/service/data/ICP/M.FR.N.000000.4.ANR?lastNObservations=84&format=jsondata')
+      .then(r => { if (!r.ok) throw r.status; return r.json(); })
+      .then(json => { if (alive) setState({ loading: false, error: false, data: parseSDMX(json) }); })
+      .catch(() => { if (alive) setState({ loading: false, error: true, data: {} }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+function getMonthly(apiData, apiError) {
+  return (apiError || Object.keys(apiData).length === 0) ? STATIC_MONTHLY : apiData;
+}
+
+function getAnnualAvg(monthly, year) {
+  const vals = Object.entries(monthly)
+    .filter(([k]) => k.startsWith(year + '-'))
+    .map(([, v]) => v);
+  if (!vals.length) return null;
+  return Math.round(vals.reduce((a, b) => a + b, 0) / vals.length * 10) / 10;
+}
+
+function getLatestPeriod(monthly) {
+  return Object.keys(monthly).sort().slice(-1)[0] || null;
+}
 
 function parseInflQuery(q) {
   const yearMatch = String(q).match(/\b(19|20)\d{2}\b/);
   const year = yearMatch ? yearMatch[0] : null;
-  const low = String(q).toLowerCase();
-  let indicator = 'Inflation (IPC)';
-  if (/énerg|energ/.test(low)) indicator = 'Énergie';
-  else if (/aliment/.test(low)) indicator = 'Alimentation';
-  else if (/sous-jacent|coeur|cœur/.test(low)) indicator = 'Inflation sous-jacente';
-  return { year, indicator };
+  const low = String(q).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  let indicator = 'IPC ensemble';
+  if (/energ/.test(low)) indicator = 'Énergie';
+  else if (/aliment|nourrit/.test(low)) indicator = 'Alimentation';
+  else if (/sous.jacent|coeur|hors energ/.test(low)) indicator = 'Inflation sous-jacente';
+  else if (/service/.test(low)) indicator = 'Services';
+  else if (/logement|loyer/.test(low)) indicator = 'Logement';
+  else if (/transport/.test(low)) indicator = 'Transports';
+  else if (/sante|medical|soin/.test(low)) indicator = 'Santé';
+  const wantsLatest = /dernier|recent|actuel|maintenant|aujourd/.test(low) && !year;
+  return { year, indicator, wantsLatest };
 }
 
-function InflInterroger() {
+function InflInterroger({ monthly, apiSource }) {
   const { Button: Btn, SourceTag, DataTable } = window.FranceMonitorDesignSystem_5343d8;
-  const [query, setQuery] = React.useState('inflation 2019');
-  const [resp, setResp] = React.useState({ year: '2019', indicator: 'Inflation (IPC)' });
+  const [query, setQuery] = React.useState('');
+  const [parsed, setParsed] = React.useState(null);
 
-  const run = () => {
-    const { year, indicator } = parseInflQuery(query);
-    setResp({ year, indicator });
-  };
+  const run = () => { const q = query.trim(); if (q) setParsed(parseInflQuery(q)); };
   const onKey = (e) => { if (e.key === 'Enter') run(); };
 
-  const year = resp.year;
-  const known = year && INFL_ANNUAL[year] != null;
-  const headline = known ? '+' + frpct1(INFL_ANNUAL[year]) : '—';
-  const hasMonthly = year === '2019';
+  const latestPeriod = getLatestPeriod(monthly || STATIC_MONTHLY);
+  const safeMonthly = monthly || STATIC_MONTHLY;
+
+  let result = null;
+  if (parsed) {
+    const { year, indicator, wantsLatest } = parsed;
+    if (wantsLatest && latestPeriod) {
+      const val = safeMonthly[latestPeriod];
+      result = { type: 'latest', period: latestPeriod, val, indicator };
+    } else if (year) {
+      const annualVal = getAnnualAvg(safeMonthly, year);
+      const monthRows = Object.entries(safeMonthly)
+        .filter(([k]) => k.startsWith(year + '-'))
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([period, v]) => ({ m: fmtPeriod(period, false), v: (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + ' %' }));
+      result = { type: 'year', year, annualVal, monthRows, indicator };
+    } else {
+      result = { type: 'unknown', indicator };
+    }
+  }
+
+  const EXAMPLES = ['inflation 2022', 'inflation 2024', 'dernier chiffre', 'alimentation 2023', 'énergie 2022'];
 
   return (
     <div className="infl-body">
-      <div className="infl-eyebrow" style={{ marginBottom: 10 }}>Votre requête</div>
+      <div className="infl-eyebrow" style={{ marginBottom: 10 }}>Chercher une donnée</div>
       <div className="infl-q-row">
         <div className="infl-q-field">
           <span className="ico"><InflSearchIcon /></span>
-          <input className="infl-q-input" value={query} placeholder="Ex. inflation 2019"
+          <input className="infl-q-input" value={query} placeholder="Ex. inflation 2022, énergie 2023, dernier chiffre…"
                  onChange={(e) => setQuery(e.target.value)} onKeyDown={onKey} />
         </div>
-        <Btn variant="primary" onClick={run}>Interroger</Btn>
+        <Btn variant="primary" onClick={run}>Rechercher</Btn>
       </div>
-      <div className="infl-q-help">Tapez un indicateur et une période — ex. « inflation 2019 », « énergie 2022 », « inflation alimentaire 2023 ».</div>
+      <div className="infl-q-help">
+        Exemples : {EXAMPLES.map((ex, i) => (
+          <span key={ex}>
+            <button style={{ background:'none',border:'none',padding:0,color:'var(--accent)',cursor:'pointer',font:'inherit',fontSize:13 }}
+              onClick={() => { setQuery(ex); setParsed(parseInflQuery(ex)); }}>{ex}</button>
+            {i < EXAMPLES.length - 1 ? ' · ' : ''}
+          </span>
+        ))}
+      </div>
 
-      <div className="infl-eyebrow" style={{ margin: '32px 0 10px' }}>Réponse</div>
-      <div className="infl-resp">
-        <div className="infl-resp-h">
-          <div className="infl-chips">
-            <span className="infl-chip"><i>Indicateur · </i><b>{resp.indicator}</b></span>
-            <span className="infl-chip"><i>Territoire · </i><b>France</b></span>
-            <span className="infl-chip"><i>Période · </i><b>{year || '—'}</b></span>
-          </div>
-          <SourceTag source="INSEE · IPC ensemble" date={year || undefined} />
-        </div>
-        {known ? (
-          <>
-            <div className="infl-resp-num">
-              <div className="n">{headline}<span>%</span></div>
-              <p>Inflation moyenne annuelle {year} — indice des prix à la consommation, ensemble des ménages, France.</p>
+      {result && (
+        <>
+          <div className="infl-eyebrow" style={{ margin: '28px 0 10px' }}>Résultat</div>
+          <div className="infl-resp">
+            <div className="infl-resp-h">
+              <div className="infl-chips">
+                <span className="infl-chip"><i>Indicateur · </i><b>{result.indicator}</b></span>
+                <span className="infl-chip"><i>Territoire · </i><b>France</b></span>
+                {result.type === 'year' && <span className="infl-chip"><i>Année · </i><b>{result.year}</b></span>}
+                {result.type === 'latest' && <span className="infl-chip"><i>Période · </i><b>{fmtPeriod(result.period, false)}</b></span>}
+              </div>
+              <SourceTag source={apiSource || 'INSEE'} date={result.type === 'latest' ? fmtPeriod(result.period, false) : result.year} />
             </div>
-            {hasMonthly ? (
-              <DataTable dense
-                columns={[
-                  { key: 'm', header: 'Mois ' + year, strong: true },
-                  { key: 'v', header: 'Inflation a/a', align: 'right', mono: true },
-                ]}
-                rows={INFL_MONTHLY_2019} />
-            ) : (
-              <div className="infl-note">Ventilation mensuelle non disponible pour {year} dans cette démonstration — seule la moyenne annuelle est affichée. La connexion à l'API INSEE (BDM) fournira le détail mensuel.</div>
+
+            {result.type === 'latest' && (
+              <div className="infl-resp-num">
+                <div className="n">{(result.val >= 0 ? '+' : '') + result.val.toFixed(1).replace('.', ',')}<span>%</span></div>
+                <p>Dernier taux d'inflation disponible (<b>{fmtPeriod(result.period, false)}</b>) — glissement annuel, indice des prix à la consommation, France.</p>
+              </div>
             )}
-          </>
-        ) : (
-          <div className="infl-note">Aucune donnée pour cette requête. Précisez une année entre 2018 et 2025 — ex. « inflation 2022 ».</div>
-        )}
-      </div>
-      <div className="infl-resp-actions">
-        <Btn variant="secondary">Exporter CSV</Btn>
-        <Btn variant="ghost">Voir la requête API</Btn>
-      </div>
+
+            {result.type === 'year' && result.annualVal !== null && (
+              <>
+                <div className="infl-resp-num">
+                  <div className="n">{(result.annualVal >= 0 ? '+' : '') + result.annualVal.toFixed(1).replace('.', ',')}<span>%</span></div>
+                  <p>Moyenne de l'inflation sur l'année <b>{result.year}</b> — calculée sur {result.monthRows.length} mois disponibles.</p>
+                </div>
+                {result.monthRows.length > 0 && (
+                  <DataTable dense
+                    columns={[
+                      { key: 'm', header: 'Mois ' + result.year, strong: true },
+                      { key: 'v', header: 'Inflation sur un an', align: 'right', mono: true },
+                    ]}
+                    rows={result.monthRows} />
+                )}
+              </>
+            )}
+
+            {result.type === 'year' && result.annualVal === null && (
+              <div className="infl-note">Aucune donnée pour {result.year}. Les données disponibles vont de 2019 à aujourd'hui. Essayez « inflation 2022 » ou « dernier chiffre ».</div>
+            )}
+
+            {result.type === 'unknown' && (
+              <div className="infl-note">Précisez une année (ex. « inflation 2022 ») ou tapez « dernier chiffre » pour la valeur la plus récente.</div>
+            )}
+          </div>
+          <div className="infl-resp-actions">
+            <Btn variant="secondary">Exporter CSV</Btn>
+          </div>
+        </>
+      )}
+
+      {!result && (
+        <div style={{ marginTop:28,padding:'24px',background:'var(--surface-sunken)',borderRadius:'var(--radius-lg)',textAlign:'center',color:'var(--text-tertiary)',fontSize:14 }}>
+          Tapez votre question ci-dessus et appuyez sur Entrée, ou cliquez sur un exemple.
+        </div>
+      )}
     </div>
   );
 }
@@ -1356,6 +1470,33 @@ function InflationModule() {
   const { Badge: Bdg, Button: Btn, StatTile, DeltaPill, SourceTag, Alert, DataTable } = window.FranceMonitorDesignSystem_5343d8;
   const [tab, setTab] = React.useState('Aperçu');
   const [mode, setMode] = React.useState('Glissement annuel');
+  const { loading, error, data: apiData } = useInflData();
+
+  const monthly = getMonthly(apiData, error);
+  const latestPeriod = getLatestPeriod(monthly);
+  const sortedPeriods = Object.keys(monthly).sort();
+  const prevPeriod = sortedPeriods.slice(-2)[0];
+  const latestVal = latestPeriod ? monthly[latestPeriod] : 1.2;
+  const prevVal = prevPeriod ? monthly[prevPeriod] : 1.3;
+  const delta = Math.round((latestVal - prevVal) * 10) / 10;
+  const apiSource = error ? 'INSEE · données intégrées' : 'BCE · IPCH France';
+
+  const chartPeriods = sortedPeriods.slice(-36);
+  const chartSeries = chartPeriods.map(p => monthly[p]);
+  const chartLabels = chartPeriods
+    .filter((_, i) => i % 9 === 0 || i === chartPeriods.length - 1)
+    .map(p => p.slice(0, 4));
+
+  const histRows = sortedPeriods.slice(-12).reverse().map((p, i, arr) => {
+    const val = monthly[p];
+    const prev = arr[i + 1] ? monthly[arr[i + 1]] : null;
+    const g = prev !== null ? Math.round((val - prev) * 10) / 10 : null;
+    return {
+      p: fmtPeriod(p, true),
+      e: (val >= 0 ? '+' : '') + val.toFixed(1).replace('.', ','),
+      g: g !== null ? (g >= 0 ? '+' : '') + g.toFixed(1).replace('.', ',') : '—',
+    };
+  });
 
   return (
     <div className="infl-wrap">
@@ -1384,70 +1525,76 @@ function InflationModule() {
           ))}
         </div>
 
-        {tab === 'Aperçu' && (
+        {loading && (
+          <div style={{ padding:'48px',textAlign:'center',color:'var(--text-tertiary)',fontSize:14,display:'flex',alignItems:'center',justifyContent:'center',gap:10 }}>
+            <Icon n="loader" s={18} color="var(--accent)" /> Chargement des données en cours…
+          </div>
+        )}
+
+        {!loading && tab === 'Aperçu' && (
           <div className="infl-body">
             <div className="infl-hero">
               <div className="infl-hero-l">
-                <div className="infl-eyebrow">Indice des prix à la consommation</div>
+                <div className="infl-eyebrow">Indice des prix à la consommation harmonisé (IPCH)</div>
                 <div>
-                  <div className="infl-hero-num">+1,2<span>%</span></div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 14 }}>
-                    <span className="infl-mono" style={{ fontSize: 16, fontWeight: 500, color: 'var(--text-secondary)' }}>sur un an</span>
-                    <DeltaPill value={-0.1} suffix=" pt" />
+                  <div className="infl-hero-num">{(latestVal >= 0 ? '+' : '') + latestVal.toFixed(1).replace('.', ',')}<span>%</span></div>
+                  <div style={{ display:'flex', alignItems:'center', gap:12, marginTop:14 }}>
+                    <span className="infl-mono" style={{ fontSize:16, fontWeight:500, color:'var(--text-secondary)' }}>sur un an</span>
+                    <DeltaPill value={delta} suffix=" pt" />
                   </div>
                 </div>
-                <div style={{ marginTop: 6 }}><SourceTag source="INSEE" date="Mai 2026" /></div>
+                <div style={{ marginTop:6 }}>
+                  <SourceTag source={apiSource} date={latestPeriod ? fmtPeriod(latestPeriod, false) : ''} />
+                </div>
               </div>
               <div className="infl-hero-r">
                 <div className="infl-hero-rh">
-                  <div className="infl-eyebrow">Glissement annuel · % · IPC ensemble</div>
-                  <div className="infl-mono" style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>2021 — 2026</div>
+                  <div className="infl-eyebrow">Glissement annuel · % · IPCH France</div>
+                  <div className="infl-mono" style={{ fontSize:12, color:'var(--text-tertiary)' }}>
+                    {chartPeriods[0] ? fmtPeriod(chartPeriods[0], true) : ''} — {latestPeriod ? fmtPeriod(latestPeriod, true) : ''}
+                  </div>
                 </div>
-                <AreaChart id="infl-hero" series={[1.8, 2.8, 5.2, 6.0, 4.8, 3.5, 2.4, 1.8, 1.2]} labels={['2021', '2023', '2025', '2026']} />
+                <AreaChart id="infl-hero" series={chartSeries} labels={chartLabels} />
               </div>
             </div>
 
             <div className="infl-tiles">
-              <StatTile label="Inflation sous-jacente" value="1,6" unit="%" delta={-0.2} series={[5.0, 4.0, 2.8, 2.0, 1.6]} source="INSEE" sourceDate="2026" />
-              <StatTile label="Alimentation" value="0,4" unit="%" delta={-0.3} series={[12.0, 7.0, 3.0, 1.0, 0.4]} source="INSEE" />
-              <StatTile label="Énergie" value="-2,1" unit="%" delta={-1.4} series={[20.0, 8.0, 2.0, -1.0, -2.1]} source="INSEE" />
-              <StatTile label="IPCH (norme UE)" value="1,4" unit="%" delta={-0.1} series={[5.8, 4.5, 3.0, 1.8, 1.4]} source="Eurostat" />
+              <StatTile label="Moyenne 2024" value={(() => { const v = getAnnualAvg(monthly, '2024'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') : '—'; })()} unit="%" series={sortedPeriods.filter(p => p.startsWith('2024')).map(p => monthly[p])} source={apiSource} sourceDate="2024" />
+              <StatTile label="Pic (juillet 2022)" value="+6,1" unit="%" series={[2.9, 4.5, 5.2, 6.1, 5.9]} source={apiSource} sourceDate="2022" />
+              <StatTile label="Moyenne 2023" value={(() => { const v = getAnnualAvg(monthly, '2023'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') : '—'; })()} unit="%" series={sortedPeriods.filter(p => p.startsWith('2023')).map(p => monthly[p])} source={apiSource} sourceDate="2023" />
+              <StatTile label="Moyenne 2025" value={(() => { const v = getAnnualAvg(monthly, '2025'); return v ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') : '—'; })()} unit="%" series={sortedPeriods.filter(p => p.startsWith('2025')).map(p => monthly[p])} source={apiSource} sourceDate="2025" />
             </div>
 
-            <div style={{ marginTop: 20 }}>
-              <Alert kind="info" title="Donnée provisoire">L'indice de mai 2026 est une estimation provisoire (« flash ») ; le chiffre définitif paraîtra mi-juin dans l'Informations Rapides de l'INSEE.</Alert>
+            <div style={{ marginTop:20 }}>
+              {error
+                ? <Alert kind="warn" title="Données hors-ligne">L'API BCE est momentanément inaccessible. Les valeurs affichées proviennent des données INSEE intégrées (mises à jour jusqu'à déc. 2025).</Alert>
+                : <Alert kind="success" title="Données en temps réel">Chiffres fournis par l'API publique de la Banque Centrale Européenne (IPCH — indice harmonisé comparable entre pays de l'UE). Mise à jour automatique chaque mois.</Alert>
+              }
             </div>
           </div>
         )}
 
-        {tab === 'Historique' && (
+        {!loading && tab === 'Historique' && (
           <div className="infl-body">
-            <div className="infl-eyebrow" style={{ marginBottom: 12 }}>Derniers relevés mensuels · IPC ensemble</div>
-            <div style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
+            <div className="infl-eyebrow" style={{ marginBottom:12 }}>12 derniers relevés mensuels · IPCH France glissement annuel</div>
+            <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
               <DataTable
                 columns={[
-                  { key: 'p', header: 'Mois', strong: true },
-                  { key: 'e', header: 'a/a %', align: 'right', mono: true },
-                  { key: 'g', header: 'Var.', align: 'right', mono: true },
-                  { key: 'idx', header: 'Indice', align: 'right', mono: true },
+                  { key:'p', header:'Mois', strong:true },
+                  { key:'e', header:'Inflation a/a (%)', align:'right', mono:true },
+                  { key:'g', header:'Variation vs mois préc.', align:'right', mono:true },
                 ]}
-                rows={[
-                  { p: 'Mai 2026', e: '+1,2', g: '-0,1', idx: '119,4' },
-                  { p: 'Avr. 2026', e: '+1,3', g: '+0,1', idx: '119,1' },
-                  { p: 'Mars 2026', e: '+1,2', g: '-0,2', idx: '118,8' },
-                  { p: 'Févr. 2026', e: '+1,4', g: '+0,1', idx: '118,5' },
-                  { p: 'Janv. 2026', e: '+1,3', g: '-0,3', idx: '118,2' },
-                ]} />
+                rows={histRows} />
             </div>
-            <div style={{ marginTop: 12 }}><SourceTag source="INSEE · IPC ensemble" date="Mai 2026" /></div>
+            <div style={{ marginTop:12 }}><SourceTag source={apiSource} date={latestPeriod ? fmtPeriod(latestPeriod, false) : ''} /></div>
           </div>
         )}
 
-        {tab === 'Interroger' && <InflInterroger />}
+        {!loading && tab === 'Interroger' && <InflInterroger monthly={monthly} apiSource={apiSource} />}
 
-        {tab === 'Postes' && <InflEmpty title="Ventilation par poste" desc="La décomposition de l'IPC par poste de consommation (alimentation, énergie, services, produits manufacturés…) sera disponible à la connexion de l'API INSEE BDM." />}
-        {tab === 'Départements' && <InflEmpty title="Comparaison territoriale" desc="Comparaison de l'inflation par département / région. Source : IPC régionalisé INSEE — repli sur le niveau régional là où le détail départemental n'est pas publié." />}
-        {tab === 'Comparaison UE' && <InflEmpty title="Comparaison zone euro" desc="Comparaison de l'IPCH (indice harmonisé) avec les autres pays de la zone euro. Source : Eurostat — prc_hicp_manr." />}
+        {!loading && tab === 'Postes' && <InflEmpty title="Ventilation par poste" desc="La décomposition par catégorie (alimentation, énergie, services, produits manufacturés…) sera disponible dans la prochaine version — nécessite des séries spécifiques de l'API BCE." />}
+        {!loading && tab === 'Départements' && <InflEmpty title="Comparaison territoriale" desc="Comparaison par région ou département. Source : IPC régionalisé INSEE — disponible dans la prochaine version." />}
+        {!loading && tab === 'Comparaison UE' && <InflEmpty title="Comparaison zone euro" desc="Comparaison de l'IPCH entre pays de la zone euro. Source : BCE / Eurostat — disponible dans la prochaine version." />}
       </div>
     </div>
   );

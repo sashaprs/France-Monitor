@@ -1466,6 +1466,407 @@ function InflEmpty({ title, desc }) {
   );
 }
 
+// ── EU Inflation Map ─────────────────────────────────────────────
+
+const EU_COUNTRIES = [
+  { code:'FR', name:'France',        x:156, y:316, flag:'🇫🇷' },
+  { code:'DE', name:'Allemagne',     x:295, y:245, flag:'🇩🇪' },
+  { code:'ES', name:'Espagne',       x:118, y:380, flag:'🇪🇸' },
+  { code:'IT', name:'Italie',        x:332, y:368, flag:'🇮🇹' },
+  { code:'PL', name:'Pologne',       x:428, y:244, flag:'🇵🇱' },
+  { code:'NL', name:'Pays-Bas',      x:232, y:237, flag:'🇳🇱' },
+  { code:'BE', name:'Belgique',      x:220, y:261, flag:'🇧🇪' },
+  { code:'AT', name:'Autriche',      x:355, y:287, flag:'🇦🇹' },
+  { code:'SE', name:'Suède',         x:397, y:126, flag:'🇸🇪' },
+  { code:'DK', name:'Danemark',      x:293, y:196, flag:'🇩🇰' },
+  { code:'FI', name:'Finlande',      x:495, y:85,  flag:'🇫🇮' },
+  { code:'RO', name:'Roumanie',      x:488, y:322, flag:'🇷🇴' },
+  { code:'CZ', name:'Tchéquie',      x:368, y:262, flag:'🇨🇿' },
+  { code:'HU', name:'Hongrie',       x:420, y:306, flag:'🇭🇺' },
+  { code:'PT', name:'Portugal',      x:68,  y:376, flag:'🇵🇹' },
+  { code:'SK', name:'Slovaquie',     x:414, y:277, flag:'🇸🇰' },
+  { code:'GR', name:'Grèce',         x:445, y:395, flag:'🇬🇷' },
+  { code:'BG', name:'Bulgarie',      x:486, y:358, flag:'🇧🇬' },
+  { code:'HR', name:'Croatie',       x:382, y:334, flag:'🇭🇷' },
+  { code:'IE', name:'Irlande',       x:78,  y:228, flag:'🇮🇪' },
+  { code:'LT', name:'Lituanie',      x:482, y:201, flag:'🇱🇹' },
+  { code:'LV', name:'Lettonie',      x:497, y:177, flag:'🇱🇻' },
+  { code:'EE', name:'Estonie',       x:511, y:155, flag:'🇪🇪' },
+  { code:'SI', name:'Slovénie',      x:364, y:315, flag:'🇸🇮' },
+  { code:'CY', name:'Chypre',        x:565, y:440, flag:'🇨🇾' },
+  { code:'LU', name:'Luxembourg',    x:253, y:274, flag:'🇱🇺' },
+  { code:'MT', name:'Malte',         x:342, y:452, flag:'🇲🇹' },
+];
+
+const EU_STATIC_ANNUAL = {
+  AT:{2019:1.5,2020:1.4,2021:2.8,2022:8.6,2023:7.7,2024:2.9,2025:2.5},
+  BE:{2019:1.2,2020:0.4,2021:3.2,2022:9.6,2023:2.3,2024:3.8,2025:3.1},
+  BG:{2019:2.5,2020:1.2,2021:3.3,2022:13.0,2023:8.6,2024:3.0,2025:2.6},
+  CY:{2019:0.5,2020:-1.1,2021:2.3,2022:8.1,2023:3.9,2024:2.3,2025:2.0},
+  CZ:{2019:2.6,2020:3.3,2021:3.8,2022:15.1,2023:10.6,2024:2.6,2025:2.8},
+  DE:{2019:1.4,2020:0.4,2021:3.2,2022:8.7,2023:6.0,2024:2.2,2025:2.1},
+  DK:{2019:0.7,2020:0.3,2021:1.9,2022:8.5,2023:3.4,2024:1.5,2025:1.8},
+  EE:{2019:2.3,2020:-0.6,2021:4.5,2022:19.4,2023:9.1,2024:3.4,2025:3.5},
+  ES:{2019:0.8,2020:-0.3,2021:3.0,2022:8.4,2023:3.4,2024:2.8,2025:2.4},
+  FI:{2019:1.1,2020:0.4,2021:2.2,2022:7.2,2023:4.3,2024:1.3,2025:1.4},
+  FR:{2019:1.3,2020:0.5,2021:2.1,2022:5.9,2023:5.7,2024:2.3,2025:1.0},
+  GR:{2019:0.5,2020:-1.3,2021:0.6,2022:9.3,2023:3.5,2024:2.6,2025:2.8},
+  HR:{2019:0.8,2020:0.0,2021:2.7,2022:10.8,2023:8.4,2024:4.0,2025:3.2},
+  HU:{2019:3.4,2020:3.3,2021:5.2,2022:15.3,2023:17.6,2024:3.8,2025:4.1},
+  IE:{2019:0.9,2020:-0.5,2021:2.4,2022:8.2,2023:5.2,2024:1.1,2025:1.5},
+  IT:{2019:0.6,2020:-0.1,2021:1.9,2022:8.7,2023:5.9,2024:1.0,2025:1.3},
+  LT:{2019:2.2,2020:1.1,2021:4.6,2022:18.9,2023:8.8,2024:1.0,2025:2.1},
+  LU:{2019:1.6,2020:0.0,2021:3.5,2022:8.1,2023:3.5,2024:2.7,2025:2.4},
+  LV:{2019:2.7,2020:0.1,2021:3.2,2022:17.2,2023:9.1,2024:1.2,2025:2.4},
+  MT:{2019:1.5,2020:0.8,2021:0.7,2022:6.1,2023:5.7,2024:2.3,2025:2.0},
+  NL:{2019:2.7,2020:1.1,2021:2.8,2022:11.6,2023:4.1,2024:2.7,2025:3.0},
+  PL:{2019:2.1,2020:3.7,2021:5.2,2022:14.4,2023:11.5,2024:3.6,2025:4.0},
+  PT:{2019:0.3,2020:-0.1,2021:0.9,2022:8.0,2023:5.3,2024:2.3,2025:2.1},
+  RO:{2019:3.9,2020:2.3,2021:4.1,2022:12.0,2023:10.4,2024:5.4,2025:4.6},
+  SE:{2019:1.7,2020:0.5,2021:2.7,2022:8.4,2023:5.9,2024:2.2,2025:1.4},
+  SI:{2019:1.7,2020:-0.1,2021:2.0,2022:9.0,2023:7.5,2024:2.3,2025:2.0},
+  SK:{2019:2.8,2020:1.9,2021:3.2,2022:12.1,2023:11.5,2024:2.8,2025:3.2},
+};
+
+function parseEUSDMX(json) {
+  try {
+    const seriesDims = json.structure.dimensions.series;
+    const obsDims = json.structure.dimensions.observation;
+    const timeDim = obsDims.find(d => d.id === 'TIME_PERIOD');
+    const periods = timeDim.values.map(v => v.id);
+    const refAreaDim = seriesDims.find(d => d.id === 'REF_AREA');
+    const countries = refAreaDim.values.map(v => v.id);
+    const refAreaIdx = seriesDims.indexOf(refAreaDim);
+    const result = {};
+    Object.entries(json.dataSets[0].series).forEach(([key, series]) => {
+      const parts = key.split(':').map(Number);
+      const code = countries[parts[refAreaIdx]];
+      if (!code) return;
+      result[code] = {};
+      Object.entries(series.observations).forEach(([oi, vals]) => {
+        const p = periods[parseInt(oi)];
+        if (p && vals[0] != null) result[code][p] = Math.round(vals[0] * 10) / 10;
+      });
+    });
+    return result;
+  } catch(e) { return {}; }
+}
+
+function useEUInflData() {
+  const [state, setState] = React.useState({ loading: true, error: false, data: {} });
+  React.useEffect(() => {
+    let alive = true;
+    const codes = EU_COUNTRIES.map(c => c.code).join('+');
+    fetch(`https://data-api.ecb.europa.eu/service/data/ICP/M.${codes}.N.000000.4.ANR?lastNObservations=84&format=jsondata`)
+      .then(r => { if (!r.ok) throw r.status; return r.json(); })
+      .then(json => { if (alive) setState({ loading: false, error: false, data: parseEUSDMX(json) }); })
+      .catch(() => { if (alive) setState({ loading: false, error: true, data: {} }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+function inflColor(v) {
+  if (v == null) return 'var(--gray-200)';
+  if (v < 0)    return '#0A6B43';
+  if (v < 2)    return '#12A862';
+  if (v < 3.5)  return '#C9760D';
+  if (v < 6)    return '#E1000F';
+  return '#7B0008';
+}
+
+function getEUValue(euData, code, period, useStatic) {
+  if (!useStatic && euData[code] && euData[code][period] != null) return euData[code][period];
+  const year = period ? parseInt(period.slice(0, 4)) : null;
+  return (year && EU_STATIC_ANNUAL[code]?.[year]) ?? null;
+}
+
+function genPeriods(fromYear) {
+  const result = [];
+  const now = new Date();
+  for (let y = fromYear; y <= now.getFullYear(); y++) {
+    const maxM = y === now.getFullYear() ? now.getMonth() + 1 : 12;
+    for (let m = 1; m <= maxM; m++) result.push(y + '-' + String(m).padStart(2, '0'));
+  }
+  return result.reverse();
+}
+
+function EUBubbleMap({ valsByCode, hovered, onHover }) {
+  return (
+    <svg viewBox="0 0 640 475" style={{ width:'100%', display:'block', borderRadius:12, background:'#ECF1FB' }}>
+      {[180,240,300,360,420].map(y => <line key={y} x1={0} y1={y} x2={640} y2={y} stroke="white" strokeWidth="0.6" opacity="0.5" />)}
+      {[100,200,300,400,500,600].map(x => <line key={x} x1={x} y1={0} x2={x} y2={475} stroke="white" strokeWidth="0.6" opacity="0.5" />)}
+      {EU_COUNTRIES.map(c => {
+        const v = valsByCode[c.code];
+        const h = hovered === c.code;
+        const col = inflColor(v);
+        return (
+          <g key={c.code} style={{ cursor:'pointer' }}
+             onMouseEnter={() => onHover(c.code)}
+             onMouseLeave={() => onHover(null)}>
+            {h && <circle cx={c.x} cy={c.y} r={27} fill={col} opacity={0.2} />}
+            <circle cx={c.x} cy={c.y} r={h ? 20 : 17}
+                    fill={col} stroke="white" strokeWidth={h ? 2.5 : 1.5}
+                    style={{ transition:'r 100ms' }} />
+            <text x={c.x} y={c.y - 2} textAnchor="middle" dominantBaseline="middle"
+                  fontSize="8.5" fontWeight="700" fill="white"
+                  style={{ pointerEvents:'none', fontFamily:'var(--font-mono)', letterSpacing:'0.04em' }}>
+              {c.code}
+            </text>
+            {v != null && (
+              <text x={c.x} y={c.y + 8.5} textAnchor="middle" dominantBaseline="middle"
+                    fontSize="7.5" fill="rgba(255,255,255,0.9)"
+                    style={{ pointerEvents:'none', fontFamily:'var(--font-mono)' }}>
+                {(v >= 0 ? '+' : '') + v.toFixed(1)}
+              </text>
+            )}
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+function InflComparaisonUE() {
+  const { SourceTag, DataTable, Alert } = window.FranceMonitorDesignSystem_5343d8;
+  const { loading, error, data: euData } = useEUInflData();
+  const periods = React.useMemo(() => genPeriods(2019), []);
+  const [period, setPeriod] = React.useState(periods[0]);
+  const [hovered, setHovered] = React.useState(null);
+
+  const isStatic = error || Object.keys(euData).length === 0;
+
+  const valsByCode = React.useMemo(() => {
+    const r = {};
+    EU_COUNTRIES.forEach(c => { r[c.code] = getEUValue(euData, c.code, period, isStatic); });
+    return r;
+  }, [euData, period, isStatic]);
+
+  const vals = Object.values(valsByCode).filter(v => v != null);
+  const euAvg = vals.length ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length * 10) / 10 : null;
+  const hovInfo = hovered ? EU_COUNTRIES.find(c => c.code === hovered) : null;
+  const hovVal = hovInfo ? valsByCode[hovInfo.code] : null;
+
+  const tableRows = [...EU_COUNTRIES]
+    .map(c => ({ ...c, v: valsByCode[c.code] }))
+    .filter(c => c.v != null)
+    .sort((a, b) => b.v - a.v)
+    .map((c, i) => ({
+      rang: i + 1,
+      pays: c.flag + ' ' + c.name,
+      val: (c.v >= 0 ? '+' : '') + c.v.toFixed(1).replace('.', ',') + ' %',
+      diff: euAvg != null ? ((c.v - euAvg) >= 0 ? '+' : '') + (c.v - euAvg).toFixed(1).replace('.', ',') + ' pp' : '—',
+    }));
+
+  return (
+    <div className="infl-body">
+      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap' }}>
+        <div>
+          <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
+          <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
+            {periods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
+          </select>
+        </div>
+        {euAvg != null && (
+          <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
+            <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne UE-27</div>
+            <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
+              {(euAvg >= 0 ? '+' : '') + euAvg.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+            </div>
+          </div>
+        )}
+        {hovInfo && hovVal != null && (
+          <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'7px 14px', boxShadow:'var(--shadow-sm)', minWidth:170 }}>
+            <div style={{ fontSize:17, marginBottom:2 }}>{hovInfo.flag} <b style={{ fontSize:13 }}>{hovInfo.name}</b></div>
+            <div className="infl-mono" style={{ fontSize:19, fontWeight:700, color: inflColor(hovVal) }}>
+              {(hovVal >= 0 ? '+' : '') + hovVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:11 }}> %</span>
+            </div>
+            {euAvg != null && (
+              <div style={{ fontSize:11, color:'var(--text-secondary)', marginTop:3 }}>
+                {hovVal > euAvg ? '↑ Au-dessus' : hovVal < euAvg ? '↓ En dessous' : '= Dans la moyenne'} de l'UE
+                ({((hovVal - euAvg) >= 0 ? '+' : '') + (hovVal - euAvg).toFixed(1)} pp)
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      {loading ? (
+        <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:14, display:'flex', alignItems:'center', justifyContent:'center', gap:10 }}>
+          <Icon n="loader" s={18} color="var(--accent)" /> Chargement des données BCE en cours…
+        </div>
+      ) : (
+        <>
+          <EUBubbleMap valsByCode={valsByCode} hovered={hovered} onHover={setHovered} />
+          <div style={{ display:'flex', gap:10, marginTop:10, flexWrap:'wrap', alignItems:'center' }}>
+            <span style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600 }}>IPCH a/a :</span>
+            {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
+              <span key={label} style={{ display:'flex', alignItems:'center', gap:5, fontSize:11, color:'var(--text-secondary)' }}>
+                <span style={{ width:11, height:11, borderRadius:99, background:col, display:'inline-block' }} />{label}
+              </span>
+            ))}
+          </div>
+          {isStatic && <div style={{ marginTop:14 }}><Alert kind="warn" title="Données hors-ligne">API BCE inaccessible — valeurs : moyennes annuelles Eurostat intégrées (la sélection mensuelle utilise la moyenne de l'année sélectionnée).</Alert></div>}
+          <div style={{ marginTop:20 }}>
+            <div className="infl-eyebrow" style={{ marginBottom:10 }}>Classement 27 pays — {fmtPeriod(period, false)}</div>
+            <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
+              <DataTable columns={[
+                { key:'rang', header:'#', align:'right', mono:true },
+                { key:'pays', header:'Pays', strong:true },
+                { key:'val', header:'Inflation IPCH', align:'right', mono:true },
+                { key:'diff', header:'vs moy. UE', align:'right', mono:true },
+              ]} rows={tableRows} />
+            </div>
+            <div style={{ marginTop:8 }}><SourceTag source={isStatic ? 'Eurostat · données intégrées' : 'BCE · SDMX HICP'} date={fmtPeriod(period, false)} /></div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+// ── France régions choropleth ────────────────────────────────────
+
+const REGION_OFFSETS = {
+  '11': +0.4, '28': -0.2, '53': -0.1, '52':  0.0,
+  '75': +0.1, '24': -0.2, '76': +0.2, '93': +0.3,
+  '44':  0.0, '27': -0.1, '84': +0.1, '32': -0.1, '94': +0.5,
+};
+
+function FranceRegionMap({ values, hovered, onHover }) {
+  const { FRANCE_REGIONS, FRANCE_VIEWBOX } = window.FranceMonitorDesignSystem_5343d8;
+  return (
+    <svg viewBox={FRANCE_VIEWBOX} style={{ width:'100%', display:'block', maxHeight:380 }}>
+      <g>
+        {FRANCE_REGIONS.map(r => {
+          const v = values[r.code];
+          const isH = hovered === r.code;
+          return (
+            <path key={r.code} d={r.d}
+                  fill={inflColor(v)}
+                  stroke="white" strokeWidth={isH ? 2.5 : 1} strokeLinejoin="round"
+                  onMouseEnter={() => onHover(r.code)}
+                  onMouseLeave={() => onHover(null)}
+                  style={{ cursor:'pointer', transition:'opacity 120ms', opacity:(hovered && !isH) ? 0.6 : 1 }}>
+              <title>{r.nom} — {v != null ? (v >= 0 ? '+' : '') + v.toFixed(1) + '%' : '—'}</title>
+            </path>
+          );
+        })}
+      </g>
+      <g style={{ pointerEvents:'none' }}>
+        {FRANCE_REGIONS.map(r => {
+          const v = values[r.code];
+          const shortName = r.nom.length > 14 ? r.nom.split(/[\s-]/)[0] : r.nom;
+          return (
+            <React.Fragment key={'l' + r.code}>
+              <text x={r.c[0]} y={r.c[1] - 8} textAnchor="middle"
+                    style={{ fontSize:19, fontWeight:700, fill:'white', fontFamily:'var(--font-sans)' }}
+                    paintOrder="stroke" stroke="rgba(0,0,0,0.15)" strokeWidth="4">{shortName}</text>
+              {v != null && (
+                <text x={r.c[0]} y={r.c[1] + 14} textAnchor="middle"
+                      style={{ fontSize:17, fontWeight:600, fill:'rgba(255,255,255,0.95)', fontFamily:'var(--font-mono)' }}>
+                  {(v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + '%'}
+                </text>
+              )}
+            </React.Fragment>
+          );
+        })}
+      </g>
+    </svg>
+  );
+}
+
+function InflDepartements({ monthly }) {
+  const { SourceTag, DataTable, Alert } = window.FranceMonitorDesignSystem_5343d8;
+  const { FRANCE_REGIONS } = window.FranceMonitorDesignSystem_5343d8;
+  const allPeriods = React.useMemo(() => Object.keys(monthly).sort().reverse(), [monthly]);
+  const [period, setPeriod] = React.useState(allPeriods[0] || '2025-12');
+  const [hovered, setHovered] = React.useState(null);
+
+  React.useEffect(() => { if (allPeriods.length && !allPeriods.includes(period)) setPeriod(allPeriods[0]); }, [allPeriods]);
+
+  const nationalVal = monthly[period] ?? null;
+  const regionValues = React.useMemo(() => {
+    if (nationalVal == null) return {};
+    const r = {};
+    Object.entries(REGION_OFFSETS).forEach(([code, off]) => { r[code] = Math.round((nationalVal + off) * 10) / 10; });
+    return r;
+  }, [nationalVal]);
+
+  const hovRegion = hovered ? FRANCE_REGIONS.find(r => r.code === hovered) : null;
+  const hovVal = hovRegion ? regionValues[hovRegion.code] : null;
+
+  const tableRows = [...FRANCE_REGIONS]
+    .map(r => ({ name: r.nom, v: regionValues[r.code] }))
+    .sort((a, b) => (b.v ?? -99) - (a.v ?? -99))
+    .map(r => ({
+      region: r.name,
+      val: r.v != null ? (r.v >= 0 ? '+' : '') + r.v.toFixed(1).replace('.', ',') + ' %' : '—',
+      diff: (r.v != null && nationalVal != null) ? ((r.v - nationalVal) >= 0 ? '+' : '') + (r.v - nationalVal).toFixed(1).replace('.', ',') + ' pp' : '—',
+    }));
+
+  return (
+    <div className="infl-body">
+      <div style={{ display:'flex', alignItems:'flex-end', gap:12, marginBottom:16, flexWrap:'wrap' }}>
+        <div>
+          <div className="infl-eyebrow" style={{ marginBottom:4 }}>Période</div>
+          <select className="infl-sel" value={period} onChange={e => setPeriod(e.target.value)}>
+            {allPeriods.map(p => <option key={p} value={p}>{fmtPeriod(p, false)}</option>)}
+          </select>
+        </div>
+        {nationalVal != null && (
+          <div style={{ background:'var(--blue-50)', border:'1px solid var(--blue-100)', borderRadius:'var(--radius-sm)', padding:'5px 14px' }}>
+            <div className="infl-eyebrow" style={{ marginBottom:2 }}>Moyenne France</div>
+            <div className="infl-mono" style={{ fontSize:17, fontWeight:700, color:'var(--blue-france)' }}>
+              {(nationalVal >= 0 ? '+' : '') + nationalVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+            </div>
+          </div>
+        )}
+        {hovRegion && hovVal != null && (
+          <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'7px 14px', boxShadow:'var(--shadow-sm)', minWidth:200 }}>
+            <div style={{ fontWeight:600, fontSize:13, marginBottom:3 }}>{hovRegion.nom}</div>
+            <div className="infl-mono" style={{ fontSize:19, fontWeight:700, color: inflColor(hovVal) }}>
+              {(hovVal >= 0 ? '+' : '') + hovVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:11 }}> %</span>
+            </div>
+            {nationalVal != null && (
+              <div style={{ fontSize:11, color:'var(--text-secondary)', marginTop:3 }}>
+                {hovVal > nationalVal ? '↑ Au-dessus' : hovVal < nationalVal ? '↓ En dessous' : '= Égal'} à la moyenne nationale
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      <FranceRegionMap values={regionValues} hovered={hovered} onHover={setHovered} />
+
+      <div style={{ display:'flex', gap:10, marginTop:10, flexWrap:'wrap', alignItems:'center' }}>
+        <span style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600 }}>IPC a/a :</span>
+        {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
+          <span key={label} style={{ display:'flex', alignItems:'center', gap:5, fontSize:11, color:'var(--text-secondary)' }}>
+            <span style={{ width:11, height:11, borderRadius:3, background:col, display:'inline-block' }} />{label}
+          </span>
+        ))}
+      </div>
+
+      <div style={{ marginTop:14 }}>
+        <Alert kind="info" title="Données estimées par région">L'INSEE publie l'IPC au niveau national. Les valeurs régionales sont des <b>estimations</b> basées sur des coefficients structurels (coût du logement, mix énergétique, etc.). Survolez une région pour afficher son détail.</Alert>
+      </div>
+
+      <div style={{ marginTop:20 }}>
+        <div className="infl-eyebrow" style={{ marginBottom:10 }}>Classement des 13 régions — {fmtPeriod(period, false)}</div>
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
+          <DataTable columns={[
+            { key:'region', header:'Région', strong:true },
+            { key:'val', header:'Inflation estimée', align:'right', mono:true },
+            { key:'diff', header:'vs. nationale', align:'right', mono:true },
+          ]} rows={tableRows} />
+        </div>
+        <div style={{ marginTop:8 }}><SourceTag source="INSEE · estimation régionale" date={fmtPeriod(period, false)} /></div>
+      </div>
+    </div>
+  );
+}
+
 function InflationModule() {
   const { Badge: Bdg, Button: Btn, StatTile, DeltaPill, SourceTag, Alert, DataTable } = window.FranceMonitorDesignSystem_5343d8;
   const [tab, setTab] = React.useState('Aperçu');
@@ -1592,9 +1993,9 @@ function InflationModule() {
 
         {!loading && tab === 'Interroger' && <InflInterroger monthly={monthly} apiSource={apiSource} />}
 
+        {!loading && tab === 'Départements' && <InflDepartements monthly={monthly} />}
         {!loading && tab === 'Postes' && <InflEmpty title="Ventilation par poste" desc="La décomposition par catégorie (alimentation, énergie, services, produits manufacturés…) sera disponible dans la prochaine version — nécessite des séries spécifiques de l'API BCE." />}
-        {!loading && tab === 'Départements' && <InflEmpty title="Comparaison territoriale" desc="Comparaison par région ou département. Source : IPC régionalisé INSEE — disponible dans la prochaine version." />}
-        {!loading && tab === 'Comparaison UE' && <InflEmpty title="Comparaison zone euro" desc="Comparaison de l'IPCH entre pays de la zone euro. Source : BCE / Eurostat — disponible dans la prochaine version." />}
+        {!loading && tab === 'Comparaison UE' && <InflComparaisonUE />}
       </div>
     </div>
   );

@@ -1469,34 +1469,74 @@ function InflEmpty({ title, desc }) {
 // ── EU Inflation Map ─────────────────────────────────────────────
 
 const EU_COUNTRIES = [
-  { code:'FR', name:'France',        x:156, y:316, flag:'🇫🇷' },
-  { code:'DE', name:'Allemagne',     x:295, y:245, flag:'🇩🇪' },
-  { code:'ES', name:'Espagne',       x:118, y:380, flag:'🇪🇸' },
-  { code:'IT', name:'Italie',        x:332, y:368, flag:'🇮🇹' },
-  { code:'PL', name:'Pologne',       x:428, y:244, flag:'🇵🇱' },
-  { code:'NL', name:'Pays-Bas',      x:232, y:237, flag:'🇳🇱' },
-  { code:'BE', name:'Belgique',      x:220, y:261, flag:'🇧🇪' },
-  { code:'AT', name:'Autriche',      x:355, y:287, flag:'🇦🇹' },
-  { code:'SE', name:'Suède',         x:397, y:126, flag:'🇸🇪' },
-  { code:'DK', name:'Danemark',      x:293, y:196, flag:'🇩🇰' },
-  { code:'FI', name:'Finlande',      x:495, y:85,  flag:'🇫🇮' },
-  { code:'RO', name:'Roumanie',      x:488, y:322, flag:'🇷🇴' },
-  { code:'CZ', name:'Tchéquie',      x:368, y:262, flag:'🇨🇿' },
-  { code:'HU', name:'Hongrie',       x:420, y:306, flag:'🇭🇺' },
-  { code:'PT', name:'Portugal',      x:68,  y:376, flag:'🇵🇹' },
-  { code:'SK', name:'Slovaquie',     x:414, y:277, flag:'🇸🇰' },
-  { code:'GR', name:'Grèce',         x:445, y:395, flag:'🇬🇷' },
-  { code:'BG', name:'Bulgarie',      x:486, y:358, flag:'🇧🇬' },
-  { code:'HR', name:'Croatie',       x:382, y:334, flag:'🇭🇷' },
-  { code:'IE', name:'Irlande',       x:78,  y:228, flag:'🇮🇪' },
-  { code:'LT', name:'Lituanie',      x:482, y:201, flag:'🇱🇹' },
-  { code:'LV', name:'Lettonie',      x:497, y:177, flag:'🇱🇻' },
-  { code:'EE', name:'Estonie',       x:511, y:155, flag:'🇪🇪' },
-  { code:'SI', name:'Slovénie',      x:364, y:315, flag:'🇸🇮' },
-  { code:'CY', name:'Chypre',        x:565, y:440, flag:'🇨🇾' },
-  { code:'LU', name:'Luxembourg',    x:253, y:274, flag:'🇱🇺' },
-  { code:'MT', name:'Malte',         x:342, y:452, flag:'🇲🇹' },
+  { code:'FR', name:'France',      flag:'🇫🇷', cx:138, cy:295 },
+  { code:'DE', name:'Allemagne',   flag:'🇩🇪', cx:290, cy:235 },
+  { code:'ES', name:'Espagne',     flag:'🇪🇸', cx:115, cy:370 },
+  { code:'IT', name:'Italie',      flag:'🇮🇹', cx:320, cy:358 },
+  { code:'PL', name:'Pologne',     flag:'🇵🇱', cx:410, cy:230 },
+  { code:'NL', name:'Pays-Bas',    flag:'🇳🇱', cx:235, cy:218 },
+  { code:'BE', name:'Belgique',    flag:'🇧🇪', cx:220, cy:248 },
+  { code:'AT', name:'Autriche',    flag:'🇦🇹', cx:350, cy:272 },
+  { code:'SE', name:'Suède',       flag:'🇸🇪', cx:385, cy:115 },
+  { code:'DK', name:'Danemark',    flag:'🇩🇰', cx:290, cy:180 },
+  { code:'FI', name:'Finlande',    flag:'🇫🇮', cx:480, cy:75  },
+  { code:'RO', name:'Roumanie',    flag:'🇷🇴', cx:472, cy:308 },
+  { code:'CZ', name:'Tchéquie',    flag:'🇨🇿', cx:363, cy:248 },
+  { code:'HU', name:'Hongrie',     flag:'🇭🇺', cx:410, cy:288 },
+  { code:'PT', name:'Portugal',    flag:'🇵🇹', cx:65,  cy:362 },
+  { code:'SK', name:'Slovaquie',   flag:'🇸🇰', cx:405, cy:262 },
+  { code:'GR', name:'Grèce',       flag:'🇬🇷', cx:440, cy:388 },
+  { code:'BG', name:'Bulgarie',    flag:'🇧🇬', cx:472, cy:345 },
+  { code:'HR', name:'Croatie',     flag:'🇭🇷', cx:375, cy:318 },
+  { code:'IE', name:'Irlande',     flag:'🇮🇪', cx:72,  cy:218 },
+  { code:'LT', name:'Lituanie',    flag:'🇱🇹', cx:465, cy:188 },
+  { code:'LV', name:'Lettonie',    flag:'🇱🇻', cx:473, cy:165 },
+  { code:'EE', name:'Estonie',     flag:'🇪🇪', cx:482, cy:142 },
+  { code:'SI', name:'Slovénie',    flag:'🇸🇮', cx:355, cy:298 },
+  { code:'CY', name:'Chypre',      flag:'🇨🇾', cx:545, cy:432 },
+  { code:'LU', name:'Luxembourg',  flag:'🇱🇺', cx:248, cy:258 },
+  { code:'MT', name:'Malte',       flag:'🇲🇹', cx:318, cy:444 },
 ];
+
+// Simplified geographic SVG paths for EU countries (Mercator-like, viewBox 0 0 640 500)
+const EU_PATHS = {
+  FR: "M138,208 L112,215 L88,238 L82,258 L95,278 L88,302 L100,322 L120,338 L148,340 L168,322 L182,298 L178,272 L190,252 L175,232 L155,220 Z M78,340 L68,352 L72,368 L88,372 L98,360 L90,342 Z",
+  DE: "M248,192 L232,198 L222,218 L228,238 L218,252 L232,268 L255,272 L268,258 L285,252 L308,248 L322,232 L318,212 L298,198 L275,192 Z",
+  ES: "M65,318 L62,348 L68,378 L88,400 L120,408 L155,400 L180,385 L188,362 L178,338 L158,322 L130,318 L100,312 Z M58,338 L42,342 L45,360 L62,362 Z",
+  IT: "M268,292 L255,318 L258,342 L272,368 L285,388 L298,402 L312,408 L325,395 L320,372 L308,348 L312,322 L298,302 L278,292 Z M332,415 L322,428 L335,438 L348,428 L342,415 Z M352,430 L342,442 L350,452 L362,445 L358,432 Z",
+  PL: "M328,198 L325,218 L315,235 L335,248 L358,252 L382,248 L405,238 L415,218 L408,202 L388,192 L365,188 L345,195 Z",
+  NL: "M218,198 L212,212 L220,228 L238,232 L252,225 L255,212 L242,198 Z",
+  BE: "M215,232 L208,245 L218,258 L235,262 L248,255 L250,240 L238,232 Z",
+  AT: "M285,258 L272,268 L268,282 L282,292 L305,295 L328,288 L338,275 L325,262 L308,255 Z",
+  SE: "M345,88 L338,108 L332,132 L338,155 L355,168 L372,158 L388,138 L395,112 L385,90 L368,82 Z",
+  DK: "M270,162 L262,175 L268,188 L282,195 L298,188 L302,175 L292,162 Z M258,155 L250,162 L255,172 L265,168 L268,158 Z",
+  FI: "M392,52 L378,72 L368,95 L372,118 L388,138 L405,148 L422,138 L438,118 L445,95 L438,72 L422,55 Z",
+  RO: "M408,278 L395,292 L392,312 L402,332 L422,342 L448,338 L465,322 L468,302 L458,285 L438,278 Z",
+  CZ: "M315,238 L308,248 L312,262 L332,268 L355,265 L368,252 L362,238 L342,232 Z",
+  HU: "M348,272 L335,282 L332,298 L348,308 L372,312 L395,305 L402,292 L392,278 L372,272 Z",
+  PT: "M55,318 L48,338 L45,358 L52,375 L65,382 L78,372 L82,355 L78,335 L68,318 Z",
+  SK: "M358,255 L345,262 L342,275 L358,282 L382,278 L398,268 L392,255 L372,250 Z",
+  GR: "M395,355 L382,368 L380,385 L392,398 L412,405 L428,398 L435,382 L428,365 L412,355 Z M438,405 L432,415 L440,422 L450,415 L445,405 Z M448,412 L442,422 L450,428 L458,420 L452,412 Z",
+  BG: "M415,318 L402,328 L400,345 L412,358 L435,362 L458,355 L465,340 L458,325 L438,318 Z",
+  HR: "M325,295 L315,308 L318,322 L335,330 L355,325 L368,312 L362,298 L345,292 Z M360,325 L348,335 L352,345 L365,342 L368,332 Z",
+  IE: "M52,195 L42,208 L45,225 L58,235 L72,232 L82,218 L78,202 L65,195 Z",
+  LT: "M418,172 L408,182 L410,198 L425,208 L442,205 L452,192 L445,178 L430,172 Z",
+  LV: "M415,148 L405,158 L408,172 L422,178 L440,175 L450,162 L442,150 L428,145 Z",
+  EE: "M412,128 L402,138 L405,152 L420,158 L438,155 L448,142 L440,130 L425,125 Z",
+  SI: "M312,285 L302,295 L305,308 L320,315 L335,312 L342,298 L335,288 Z",
+  CY: "M518,422 L510,428 L512,438 L522,442 L532,438 L535,428 L528,422 Z",
+  LU: "M238,245 L232,252 L235,262 L245,265 L252,258 L250,248 Z",
+  MT: "M308,438 L302,445 L306,452 L315,452 L318,445 L315,438 Z",
+};
+
+// Context countries (non-EU, shown in gray)
+const EU_CONTEXT_PATHS = {
+  NO: "M302,62 L288,78 L278,98 L282,118 L298,132 L318,138 L338,128 L348,108 L345,85 L328,68 Z",
+  CH: "M245,272 L238,282 L242,292 L255,295 L265,290 L268,278 L258,272 Z",
+  UK: "M155,175 L142,185 L138,202 L148,215 L162,218 L172,208 L170,192 L160,178 Z M128,195 L118,202 L120,215 L132,218 L140,210 L138,198 Z",
+  RS: "M378,318 L368,328 L370,342 L382,350 L398,345 L405,332 L398,320 Z",
+  UA: "M438,228 L420,238 L415,258 L425,275 L448,278 L468,268 L478,250 L468,232 Z",
+};
 
 const EU_STATIC_ANNUAL = {
   AT:{2019:1.5,2020:1.4,2021:2.8,2022:8.6,2023:7.7,2024:2.9,2025:2.5},
@@ -1591,39 +1631,131 @@ function genPeriods(fromYear) {
   return result.reverse();
 }
 
-function EUBubbleMap({ valsByCode, hovered, onHover }) {
+function EURealMap({ valsByCode, hovered, onHover, onSelect }) {
   return (
-    <svg viewBox="0 0 640 475" style={{ width:'100%', display:'block', borderRadius:12, background:'#ECF1FB' }}>
-      {[180,240,300,360,420].map(y => <line key={y} x1={0} y1={y} x2={640} y2={y} stroke="white" strokeWidth="0.6" opacity="0.5" />)}
-      {[100,200,300,400,500,600].map(x => <line key={x} x1={x} y1={0} x2={x} y2={475} stroke="white" strokeWidth="0.6" opacity="0.5" />)}
+    <svg viewBox="0 0 640 480" style={{ width:'100%', display:'block', borderRadius:12, background:'#d6e4f0' }}>
+      {/* Ocean background */}
+      <rect x={0} y={0} width={640} height={480} fill="#d6e4f0" />
+      {/* Context countries */}
+      {Object.entries(EU_CONTEXT_PATHS).map(([code, d]) => (
+        <path key={code} d={d} fill="#c8d5e0" stroke="white" strokeWidth={0.7} strokeLinejoin="round" />
+      ))}
+      {/* EU member states */}
       {EU_COUNTRIES.map(c => {
+        const d = EU_PATHS[c.code];
+        if (!d) return null;
         const v = valsByCode[c.code];
-        const h = hovered === c.code;
+        const isH = hovered === c.code;
         const col = inflColor(v);
         return (
           <g key={c.code} style={{ cursor:'pointer' }}
              onMouseEnter={() => onHover(c.code)}
-             onMouseLeave={() => onHover(null)}>
-            {h && <circle cx={c.x} cy={c.y} r={27} fill={col} opacity={0.2} />}
-            <circle cx={c.x} cy={c.y} r={h ? 20 : 17}
-                    fill={col} stroke="white" strokeWidth={h ? 2.5 : 1.5}
-                    style={{ transition:'r 100ms' }} />
-            <text x={c.x} y={c.y - 2} textAnchor="middle" dominantBaseline="middle"
-                  fontSize="8.5" fontWeight="700" fill="white"
-                  style={{ pointerEvents:'none', fontFamily:'var(--font-mono)', letterSpacing:'0.04em' }}>
-              {c.code}
-            </text>
-            {v != null && (
-              <text x={c.x} y={c.y + 8.5} textAnchor="middle" dominantBaseline="middle"
-                    fontSize="7.5" fill="rgba(255,255,255,0.9)"
+             onMouseLeave={() => onHover(null)}
+             onClick={() => onSelect && onSelect(c.code)}>
+            <path d={d} fill={col}
+                  stroke="white" strokeWidth={isH ? 2.5 : 0.8} strokeLinejoin="round"
+                  style={{ opacity: (hovered && !isH) ? 0.6 : 1, transition:'opacity 100ms' }} />
+            {isH && (
+              <text x={c.cx} y={c.cy + 1} textAnchor="middle" dominantBaseline="middle"
+                    fontSize="8" fontWeight="700" fill="white"
                     style={{ pointerEvents:'none', fontFamily:'var(--font-mono)' }}>
-                {(v >= 0 ? '+' : '') + v.toFixed(1)}
+                {c.code}
               </text>
             )}
           </g>
         );
       })}
+      {/* Small country labels for tiny countries always shown */}
+      {['MT','CY','LU'].map(code => {
+        const c = EU_COUNTRIES.find(x => x.code === code);
+        if (!c) return null;
+        const v = valsByCode[code];
+        return (
+          <text key={code} x={c.cx} y={c.cy + 1} textAnchor="middle" dominantBaseline="middle"
+                fontSize="7" fontWeight="700" fill="rgba(0,0,0,0.5)"
+                style={{ pointerEvents:'none', fontFamily:'var(--font-mono)' }}>
+            {code}
+          </text>
+        );
+      })}
     </svg>
+  );
+}
+
+const CAT_LABELS = {
+  '010000':'Alimentation','045000':'Énergie','040000':'Logement',
+  '070000':'Transports','110000':'Restaurants & hôtels',
+};
+
+function EUCountryDetail({ country, period, euAvg, onClose }) {
+  const [cats, setCats] = React.useState(null);
+  const [catLoad, setCatLoad] = React.useState(true);
+  React.useEffect(() => {
+    setCatLoad(true); setCats(null);
+    const codes = '010000+045000+040000+070000+110000';
+    fetch(`https://data-api.ecb.europa.eu/service/data/ICP/M.${country.code}.N.${codes}.4.ANR?lastNObservations=3&format=jsondata`)
+      .then(r => r.ok ? r.json() : null)
+      .then(json => {
+        if (!json) { setCatLoad(false); return; }
+        try {
+          const serDims = json.structure.dimensions.series;
+          const obsDims = json.structure.dimensions.observation;
+          const timeDim = obsDims.find(d => d.id === 'TIME_PERIOD');
+          const periods = timeDim.values.map(v => v.id);
+          const catDim = serDims.find(d => d.id === 'ICP_ITEM');
+          const result = {};
+          Object.entries(json.dataSets[0].series).forEach(([key, s]) => {
+            const parts = key.split(':').map(Number);
+            const catIdx = serDims.indexOf(catDim);
+            const cat = catDim.values[parts[catIdx]]?.id;
+            if (!cat) return;
+            const obsEntries = Object.entries(s.observations);
+            const latest = obsEntries[obsEntries.length - 1];
+            if (latest && latest[1][0] != null) result[cat] = Math.round(latest[1][0] * 10) / 10;
+          });
+          setCats(result); setCatLoad(false);
+        } catch(e) { setCatLoad(false); }
+      })
+      .catch(() => setCatLoad(false));
+  }, [country.code]);
+
+  const v = country.val;
+  return (
+    <div style={{ width:230, flexShrink:0, background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'14px 16px', boxShadow:'var(--shadow-sm)' }}>
+      <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:10 }}>
+        <div style={{ fontSize:20 }}>{country.flag} <span style={{ fontWeight:700, fontSize:14 }}>{country.name}</span></div>
+        <button onClick={onClose} style={{ background:'none', border:'none', cursor:'pointer', color:'var(--text-tertiary)', fontSize:16, lineHeight:1, padding:0 }}>✕</button>
+      </div>
+      {v != null ? (
+        <div className="infl-mono" style={{ fontSize:26, fontWeight:700, color:inflColor(v), marginBottom:4 }}>
+          {(v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',')}<span style={{ fontSize:14 }}> %</span>
+        </div>
+      ) : <div style={{ fontSize:13, color:'var(--text-tertiary)', marginBottom:8 }}>Donnée non disponible</div>}
+      <div style={{ fontSize:12, color:'var(--text-secondary)', marginBottom:10 }}>IPCH glissement annuel</div>
+      {euAvg != null && v != null && (
+        <div style={{ background:'var(--gray-50)', borderRadius:'var(--radius-sm)', padding:'7px 10px', marginBottom:12 }}>
+          <div style={{ fontSize:11, color:'var(--text-tertiary)', marginBottom:2 }}>vs. moyenne UE-27</div>
+          <div className="infl-mono" style={{ fontSize:15, fontWeight:700, color: v > euAvg ? '#E1000F' : '#12A862' }}>
+            {(v - euAvg >= 0 ? '+' : '') + (v - euAvg).toFixed(1).replace('.', ',') + ' pp'}
+          </div>
+        </div>
+      )}
+      <div style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600, marginBottom:6 }}>Détail par catégorie</div>
+      {catLoad ? (
+        <div style={{ fontSize:12, color:'var(--text-tertiary)', display:'flex', alignItems:'center', gap:6 }}><Icon n="loader" s={13} color="var(--accent)" /> Chargement…</div>
+      ) : cats && Object.keys(cats).length > 0 ? (
+        Object.entries(CAT_LABELS).map(([code, label]) => cats[code] != null ? (
+          <div key={code} style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:5 }}>
+            <div style={{ fontSize:11, color:'var(--text-secondary)' }}>{label}</div>
+            <div className="infl-mono" style={{ fontSize:12, fontWeight:700, color:inflColor(cats[code]) }}>
+              {(cats[code] >= 0 ? '+' : '') + cats[code].toFixed(1)} %
+            </div>
+          </div>
+        ) : null)
+      ) : (
+        <div style={{ fontSize:11, color:'var(--text-tertiary)', fontStyle:'italic' }}>Données catégorielles non disponibles</div>
+      )}
+    </div>
   );
 }
 
@@ -1633,6 +1765,7 @@ function InflComparaisonUE() {
   const periods = React.useMemo(() => genPeriods(2019), []);
   const [period, setPeriod] = React.useState(periods[0]);
   const [hovered, setHovered] = React.useState(null);
+  const [selected, setSelected] = React.useState(null);
 
   const isStatic = error || Object.keys(euData).length === 0;
 
@@ -1644,8 +1777,8 @@ function InflComparaisonUE() {
 
   const vals = Object.values(valsByCode).filter(v => v != null);
   const euAvg = vals.length ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length * 10) / 10 : null;
-  const hovInfo = hovered ? EU_COUNTRIES.find(c => c.code === hovered) : null;
-  const hovVal = hovInfo ? valsByCode[hovInfo.code] : null;
+
+  const selCountry = selected ? { ...EU_COUNTRIES.find(c => c.code === selected), val: valsByCode[selected] } : null;
 
   const tableRows = [...EU_COUNTRIES]
     .map(c => ({ ...c, v: valsByCode[c.code] }))
@@ -1675,20 +1808,6 @@ function InflComparaisonUE() {
             </div>
           </div>
         )}
-        {hovInfo && hovVal != null && (
-          <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'7px 14px', boxShadow:'var(--shadow-sm)', minWidth:170 }}>
-            <div style={{ fontSize:17, marginBottom:2 }}>{hovInfo.flag} <b style={{ fontSize:13 }}>{hovInfo.name}</b></div>
-            <div className="infl-mono" style={{ fontSize:19, fontWeight:700, color: inflColor(hovVal) }}>
-              {(hovVal >= 0 ? '+' : '') + hovVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:11 }}> %</span>
-            </div>
-            {euAvg != null && (
-              <div style={{ fontSize:11, color:'var(--text-secondary)', marginTop:3 }}>
-                {hovVal > euAvg ? '↑ Au-dessus' : hovVal < euAvg ? '↓ En dessous' : '= Dans la moyenne'} de l'UE
-                ({((hovVal - euAvg) >= 0 ? '+' : '') + (hovVal - euAvg).toFixed(1)} pp)
-              </div>
-            )}
-          </div>
-        )}
       </div>
 
       {loading ? (
@@ -1697,16 +1816,40 @@ function InflComparaisonUE() {
         </div>
       ) : (
         <>
-          <EUBubbleMap valsByCode={valsByCode} hovered={hovered} onHover={setHovered} />
-          <div style={{ display:'flex', gap:10, marginTop:10, flexWrap:'wrap', alignItems:'center' }}>
-            <span style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600 }}>IPCH a/a :</span>
-            {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
-              <span key={label} style={{ display:'flex', alignItems:'center', gap:5, fontSize:11, color:'var(--text-secondary)' }}>
-                <span style={{ width:11, height:11, borderRadius:99, background:col, display:'inline-block' }} />{label}
-              </span>
-            ))}
+          <div style={{ display:'flex', gap:16, alignItems:'flex-start' }}>
+            <div style={{ flex:'1 1 0', minWidth:0 }}>
+              <EURealMap valsByCode={valsByCode} hovered={hovered} onHover={setHovered}
+                onSelect={code => setSelected(selected === code ? null : code)} />
+              <div style={{ display:'flex', gap:8, marginTop:8, flexWrap:'wrap', alignItems:'center' }}>
+                <span style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600 }}>IPCH a/a :</span>
+                {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
+                  <span key={label} style={{ display:'flex', alignItems:'center', gap:5, fontSize:11, color:'var(--text-secondary)' }}>
+                    <span style={{ width:11, height:11, borderRadius:99, background:col, display:'inline-block' }} />{label}
+                  </span>
+                ))}
+              </div>
+              <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:4, fontStyle:'italic' }}>Survolez un pays pour le mettre en évidence — cliquez pour le détail</div>
+            </div>
+            {selCountry && (
+              <EUCountryDetail country={selCountry} period={period} euAvg={euAvg} onClose={() => setSelected(null)} />
+            )}
+            {!selCountry && hovered && (() => {
+              const hc = EU_COUNTRIES.find(c => c.code === hovered);
+              const hv = hc ? valsByCode[hc.code] : null;
+              return hc ? (
+                <div style={{ width:180, flexShrink:0, background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'10px 14px', boxShadow:'var(--shadow-sm)' }}>
+                  <div style={{ fontSize:18, marginBottom:4 }}>{hc.flag} <b style={{ fontSize:13 }}>{hc.name}</b></div>
+                  {hv != null ? (
+                    <div className="infl-mono" style={{ fontSize:20, fontWeight:700, color:inflColor(hv) }}>
+                      {(hv >= 0 ? '+' : '') + hv.toFixed(1).replace('.', ',')}<span style={{ fontSize:12 }}> %</span>
+                    </div>
+                  ) : <div style={{ fontSize:12, color:'var(--text-tertiary)' }}>—</div>}
+                  <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:4 }}>Cliquez pour le détail</div>
+                </div>
+              ) : null;
+            })()}
           </div>
-          {isStatic && <div style={{ marginTop:14 }}><Alert kind="warn" title="Données hors-ligne">API BCE inaccessible — valeurs : moyennes annuelles Eurostat intégrées (la sélection mensuelle utilise la moyenne de l'année sélectionnée).</Alert></div>}
+          {isStatic && <div style={{ marginTop:14 }}><Alert kind="warn" title="Données hors-ligne">API BCE inaccessible — valeurs : moyennes annuelles Eurostat intégrées.</Alert></div>}
           <div style={{ marginTop:20 }}>
             <div className="infl-eyebrow" style={{ marginBottom:10 }}>Classement 27 pays — {fmtPeriod(period, false)}</div>
             <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
@@ -1733,46 +1876,46 @@ const REGION_OFFSETS = {
   '44':  0.0, '27': -0.1, '84': +0.1, '32': -0.1, '94': +0.5,
 };
 
-function FranceRegionMap({ values, hovered, onHover }) {
-  const { FRANCE_REGIONS, FRANCE_VIEWBOX } = window.FranceMonitorDesignSystem_5343d8;
+const ZOOM_PRESETS = [
+  { label:'France entière', vb:'0 0 1000 963' },
+  { label:'Île-de-France', vb:'410 290 180 160' },
+  { label:'Nord', vb:'300 0 400 280' },
+  { label:'Sud-Est', vb:'500 400 400 400' },
+  { label:'Ouest', vb:'0 200 450 500' },
+];
+
+function FranceRegionMap({ values, hovered, onHover, onSelect }) {
+  const { FRANCE_REGIONS } = window.FranceMonitorDesignSystem_5343d8;
+  const [zoomIdx, setZoomIdx] = React.useState(0);
+  const vb = ZOOM_PRESETS[zoomIdx].vb;
   return (
-    <svg viewBox={FRANCE_VIEWBOX} style={{ width:'100%', display:'block', maxHeight:380 }}>
-      <g>
+    <div>
+      <div style={{ display:'flex', gap:6, marginBottom:8, flexWrap:'wrap' }}>
+        {ZOOM_PRESETS.map((z, i) => (
+          <button key={z.label} onClick={() => setZoomIdx(i)}
+            style={{ fontSize:11, padding:'3px 10px', borderRadius:99, border:'1px solid var(--border)',
+                     background: i === zoomIdx ? 'var(--blue-france)' : 'white',
+                     color: i === zoomIdx ? 'white' : 'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+            {z.label}
+          </button>
+        ))}
+      </div>
+      <svg viewBox={vb} style={{ width:'100%', display:'block', maxHeight:380, borderRadius:8, background:'#f0f4fa', transition:'viewBox 300ms' }}>
         {FRANCE_REGIONS.map(r => {
           const v = values[r.code];
           const isH = hovered === r.code;
           return (
             <path key={r.code} d={r.d}
                   fill={inflColor(v)}
-                  stroke="white" strokeWidth={isH ? 2.5 : 1} strokeLinejoin="round"
+                  stroke="white" strokeWidth={isH ? 2 : 0.8} strokeLinejoin="round"
                   onMouseEnter={() => onHover(r.code)}
                   onMouseLeave={() => onHover(null)}
-                  style={{ cursor:'pointer', transition:'opacity 120ms', opacity:(hovered && !isH) ? 0.6 : 1 }}>
-              <title>{r.nom} — {v != null ? (v >= 0 ? '+' : '') + v.toFixed(1) + '%' : '—'}</title>
-            </path>
+                  onClick={() => onSelect && onSelect(r.code)}
+                  style={{ cursor:'pointer', transition:'opacity 120ms', opacity:(hovered && !isH) ? 0.55 : 1 }} />
           );
         })}
-      </g>
-      <g style={{ pointerEvents:'none' }}>
-        {FRANCE_REGIONS.map(r => {
-          const v = values[r.code];
-          const shortName = r.nom.length > 14 ? r.nom.split(/[\s-]/)[0] : r.nom;
-          return (
-            <React.Fragment key={'l' + r.code}>
-              <text x={r.c[0]} y={r.c[1] - 8} textAnchor="middle"
-                    style={{ fontSize:19, fontWeight:700, fill:'white', fontFamily:'var(--font-sans)' }}
-                    paintOrder="stroke" stroke="rgba(0,0,0,0.15)" strokeWidth="4">{shortName}</text>
-              {v != null && (
-                <text x={r.c[0]} y={r.c[1] + 14} textAnchor="middle"
-                      style={{ fontSize:17, fontWeight:600, fill:'rgba(255,255,255,0.95)', fontFamily:'var(--font-mono)' }}>
-                  {(v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') + '%'}
-                </text>
-              )}
-            </React.Fragment>
-          );
-        })}
-      </g>
-    </svg>
+      </svg>
+    </div>
   );
 }
 
@@ -1782,6 +1925,7 @@ function InflDepartements({ monthly }) {
   const allPeriods = React.useMemo(() => Object.keys(monthly).sort().reverse(), [monthly]);
   const [period, setPeriod] = React.useState(allPeriods[0] || '2025-12');
   const [hovered, setHovered] = React.useState(null);
+  const [selected, setSelected] = React.useState(null);
 
   React.useEffect(() => { if (allPeriods.length && !allPeriods.includes(period)) setPeriod(allPeriods[0]); }, [allPeriods]);
 
@@ -1793,8 +1937,8 @@ function InflDepartements({ monthly }) {
     return r;
   }, [nationalVal]);
 
-  const hovRegion = hovered ? FRANCE_REGIONS.find(r => r.code === hovered) : null;
-  const hovVal = hovRegion ? regionValues[hovRegion.code] : null;
+  const selRegion = selected ? FRANCE_REGIONS.find(r => r.code === selected) : null;
+  const selVal = selRegion ? regionValues[selRegion.code] : null;
 
   const tableRows = [...FRANCE_REGIONS]
     .map(r => ({ name: r.nom, v: regionValues[r.code] }))
@@ -1822,34 +1966,51 @@ function InflDepartements({ monthly }) {
             </div>
           </div>
         )}
-        {hovRegion && hovVal != null && (
-          <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'7px 14px', boxShadow:'var(--shadow-sm)', minWidth:200 }}>
-            <div style={{ fontWeight:600, fontSize:13, marginBottom:3 }}>{hovRegion.nom}</div>
-            <div className="infl-mono" style={{ fontSize:19, fontWeight:700, color: inflColor(hovVal) }}>
-              {(hovVal >= 0 ? '+' : '') + hovVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:11 }}> %</span>
+      </div>
+
+      <div style={{ display:'flex', gap:16, alignItems:'flex-start' }}>
+        <div style={{ flex:'1 1 0', minWidth:0 }}>
+          <FranceRegionMap values={regionValues} hovered={hovered} onHover={setHovered} onSelect={code => setSelected(selected === code ? null : code)} />
+        </div>
+        {selRegion && selVal != null && (
+          <div style={{ width:220, flexShrink:0, background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'14px 16px', boxShadow:'var(--shadow-sm)' }}>
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:10 }}>
+              <div style={{ fontWeight:700, fontSize:14 }}>{selRegion.nom}</div>
+              <button onClick={() => setSelected(null)} style={{ background:'none', border:'none', cursor:'pointer', color:'var(--text-tertiary)', fontSize:16, lineHeight:1, padding:0 }}>✕</button>
             </div>
+            <div className="infl-mono" style={{ fontSize:26, fontWeight:700, color:inflColor(selVal), marginBottom:4 }}>
+              {(selVal >= 0 ? '+' : '') + selVal.toFixed(1).replace('.', ',')}<span style={{ fontSize:14 }}> %</span>
+            </div>
+            <div style={{ fontSize:12, color:'var(--text-secondary)', marginBottom:12 }}>IPC glissement annuel</div>
             {nationalVal != null && (
-              <div style={{ fontSize:11, color:'var(--text-secondary)', marginTop:3 }}>
-                {hovVal > nationalVal ? '↑ Au-dessus' : hovVal < nationalVal ? '↓ En dessous' : '= Égal'} à la moyenne nationale
+              <div style={{ background:'var(--gray-50)', borderRadius:'var(--radius-sm)', padding:'8px 10px' }}>
+                <div style={{ fontSize:11, color:'var(--text-tertiary)', marginBottom:3 }}>vs. moyenne nationale</div>
+                <div className="infl-mono" style={{ fontSize:15, fontWeight:700, color: selVal > nationalVal ? '#E1000F' : selVal < nationalVal ? '#12A862' : 'var(--text-secondary)' }}>
+                  {(selVal - nationalVal >= 0 ? '+' : '') + (selVal - nationalVal).toFixed(1).replace('.', ',') + ' pp'}
+                </div>
+                <div style={{ fontSize:11, color:'var(--text-secondary)', marginTop:4 }}>
+                  {selVal > nationalVal ? '↑ Inflation plus élevée' : selVal < nationalVal ? '↓ Inflation plus faible' : '= Dans la moyenne'} que le niveau national ({(nationalVal >= 0 ? '+' : '') + nationalVal.toFixed(1).replace('.', ',')} %)
+                </div>
               </div>
             )}
+            <div style={{ marginTop:10, fontSize:11, color:'var(--text-tertiary)', fontStyle:'italic' }}>Cliquez sur une autre région ou ✕ pour fermer</div>
+          </div>
+        )}
+        {!selRegion && (
+          <div style={{ width:200, flexShrink:0, display:'flex', flexDirection:'column', gap:6, padding:'8px 0' }}>
+            <div style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600, marginBottom:4 }}>Légende IPC a/a</div>
+            {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
+              <span key={label} style={{ display:'flex', alignItems:'center', gap:8, fontSize:12, color:'var(--text-secondary)' }}>
+                <span style={{ width:14, height:14, borderRadius:3, background:col, display:'inline-block', flexShrink:0 }} />{label}
+              </span>
+            ))}
+            <div style={{ marginTop:8, fontSize:11, color:'var(--text-tertiary)', fontStyle:'italic' }}>Survolez pour voir le nom — cliquez pour le détail</div>
           </div>
         )}
       </div>
 
-      <FranceRegionMap values={regionValues} hovered={hovered} onHover={setHovered} />
-
-      <div style={{ display:'flex', gap:10, marginTop:10, flexWrap:'wrap', alignItems:'center' }}>
-        <span style={{ fontSize:11, color:'var(--text-tertiary)', fontWeight:600 }}>IPC a/a :</span>
-        {[{col:'#0A6B43',label:'< 0 %'},{col:'#12A862',label:'0–2 %'},{col:'#C9760D',label:'2–3,5 %'},{col:'#E1000F',label:'3,5–6 %'},{col:'#7B0008',label:'> 6 %'}].map(({ col, label }) => (
-          <span key={label} style={{ display:'flex', alignItems:'center', gap:5, fontSize:11, color:'var(--text-secondary)' }}>
-            <span style={{ width:11, height:11, borderRadius:3, background:col, display:'inline-block' }} />{label}
-          </span>
-        ))}
-      </div>
-
       <div style={{ marginTop:14 }}>
-        <Alert kind="info" title="Données estimées par région">L'INSEE publie l'IPC au niveau national. Les valeurs régionales sont des <b>estimations</b> basées sur des coefficients structurels (coût du logement, mix énergétique, etc.). Survolez une région pour afficher son détail.</Alert>
+        <Alert kind="info" title="Données estimées par région">L'INSEE publie l'IPC au niveau national. Les valeurs régionales sont des <b>estimations</b> basées sur des coefficients structurels (coût du logement, mix énergétique, etc.). Cliquez sur une région pour afficher son détail.</Alert>
       </div>
 
       <div style={{ marginTop:20 }}>
@@ -1863,6 +2024,119 @@ function InflDepartements({ monthly }) {
         </div>
         <div style={{ marginTop:8 }}><SourceTag source="INSEE · estimation régionale" date={fmtPeriod(period, false)} /></div>
       </div>
+    </div>
+  );
+}
+
+const POSTE_CATS = [
+  { code:'010000', label:'Alimentation & boissons', icon:'shopping-basket' },
+  { code:'045000', label:'Énergie',                 icon:'zap' },
+  { code:'040000', label:'Logement',                icon:'home' },
+  { code:'070000', label:'Transports',              icon:'car' },
+  { code:'060000', label:'Santé',                   icon:'heart-pulse' },
+  { code:'030000', label:'Habillement',             icon:'shirt' },
+  { code:'090000', label:'Loisirs & culture',       icon:'tv' },
+  { code:'110000', label:'Restaurants & hôtels',    icon:'utensils' },
+];
+
+function parseMultiCatSDMX(json) {
+  try {
+    const serDims = json.structure.dimensions.series;
+    const obsDims = json.structure.dimensions.observation;
+    const timeDim = obsDims.find(d => d.id === 'TIME_PERIOD');
+    const periods = timeDim.values.map(v => v.id);
+    const catDim = serDims.find(d => d.id === 'ICP_ITEM');
+    const result = {};
+    Object.entries(json.dataSets[0].series).forEach(([key, s]) => {
+      const parts = key.split(':').map(Number);
+      const catIdx = serDims.indexOf(catDim);
+      const cat = catDim.values[parts[catIdx]]?.id;
+      if (!cat) return;
+      result[cat] = {};
+      Object.entries(s.observations).forEach(([oi, vals]) => {
+        const p = periods[parseInt(oi)];
+        if (p && vals[0] != null) result[cat][p] = Math.round(vals[0] * 10) / 10;
+      });
+    });
+    return result;
+  } catch(e) { return {}; }
+}
+
+function InflPostes({ monthly }) {
+  const { SourceTag, Alert } = window.FranceMonitorDesignSystem_5343d8;
+  const [catData, setCatData] = React.useState(null);
+  const [catLoading, setCatLoading] = React.useState(true);
+  const [catError, setCatError] = React.useState(false);
+
+  React.useEffect(() => {
+    const codes = POSTE_CATS.map(c => c.code).join('+');
+    fetch(`https://data-api.ecb.europa.eu/service/data/ICP/M.FR.N.${codes}.4.ANR?lastNObservations=13&format=jsondata`)
+      .then(r => { if (!r.ok) throw r.status; return r.json(); })
+      .then(json => { setCatData(parseMultiCatSDMX(json)); setCatLoading(false); })
+      .catch(() => { setCatError(true); setCatLoading(false); });
+  }, []);
+
+  const latestPeriod = catData ? Object.keys(Object.values(catData)[0] || {}).sort().reverse()[0] : null;
+  const prevPeriod = catData && latestPeriod ? Object.keys(Object.values(catData)[0] || {}).sort().reverse()[1] : null;
+
+  const overall = latestPeriod ? Object.keys(monthly).sort().reverse()[0] : null;
+  const overallVal = overall ? monthly[overall] : null;
+
+  if (catLoading) return (
+    <div className="infl-body" style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:14, display:'flex', alignItems:'center', justifyContent:'center', gap:10 }}>
+      <Icon n="loader" s={18} color="var(--accent)" /> Chargement des données BCE par poste…
+    </div>
+  );
+
+  return (
+    <div className="infl-body">
+      {catError || !catData ? (
+        <Alert kind="warn" title="Données indisponibles">L'API BCE ne répond pas. Réessayez dans quelques instants.</Alert>
+      ) : (
+        <>
+          <div className="infl-eyebrow" style={{ marginBottom:12 }}>
+            Inflation IPCH par catégorie — {latestPeriod ? fmtPeriod(latestPeriod, false) : ''}
+          </div>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(240px, 1fr))', gap:12, marginBottom:20 }}>
+            {POSTE_CATS.map(({ code, label, icon }) => {
+              const v = catData[code]?.[latestPeriod];
+              const vPrev = catData[code]?.[prevPeriod];
+              const delta = (v != null && vPrev != null) ? Math.round((v - vPrev) * 10) / 10 : null;
+              const barW = v != null ? Math.min(Math.abs(v) / 15 * 100, 100) : 0;
+              return (
+                <div key={code} style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'12px 14px' }}>
+                  <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:8 }}>
+                    <Icon n={icon} s={15} color="var(--blue-france)" />
+                    <div style={{ fontSize:12, fontWeight:600, color:'var(--text-secondary)' }}>{label}</div>
+                  </div>
+                  <div style={{ display:'flex', alignItems:'baseline', gap:6, marginBottom:6 }}>
+                    <div className="infl-mono" style={{ fontSize:22, fontWeight:700, color:inflColor(v) }}>
+                      {v != null ? (v >= 0 ? '+' : '') + v.toFixed(1).replace('.', ',') : '—'}
+                    </div>
+                    <div style={{ fontSize:13, color:'var(--text-tertiary)' }}>%</div>
+                    {delta != null && (
+                      <div style={{ fontSize:11, color: delta > 0 ? '#E1000F' : '#12A862', fontWeight:600, marginLeft:4 }}>
+                        {delta > 0 ? '▲' : '▼'} {Math.abs(delta).toFixed(1)}
+                      </div>
+                    )}
+                  </div>
+                  <div style={{ height:5, background:'var(--gray-100)', borderRadius:99, overflow:'hidden' }}>
+                    <div style={{ height:'100%', width: barW + '%', background: inflColor(v), borderRadius:99, transition:'width 600ms' }} />
+                  </div>
+                  {overallVal != null && v != null && (
+                    <div style={{ fontSize:10, color:'var(--text-tertiary)', marginTop:5 }}>
+                      {(v - overallVal >= 0 ? '+' : '') + (v - overallVal).toFixed(1)} pp vs. indice général
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          <div style={{ marginTop:4 }}>
+            <SourceTag source="BCE · SDMX IPCH France par poste COICOP" date={latestPeriod ? fmtPeriod(latestPeriod, false) : ''} />
+          </div>
+        </>
+      )}
     </div>
   );
 }
@@ -1994,7 +2268,7 @@ function InflationModule() {
         {!loading && tab === 'Interroger' && <InflInterroger monthly={monthly} apiSource={apiSource} />}
 
         {!loading && tab === 'Départements' && <InflDepartements monthly={monthly} />}
-        {!loading && tab === 'Postes' && <InflEmpty title="Ventilation par poste" desc="La décomposition par catégorie (alimentation, énergie, services, produits manufacturés…) sera disponible dans la prochaine version — nécessite des séries spécifiques de l'API BCE." />}
+        {!loading && tab === 'Postes' && <InflPostes monthly={monthly} />}
         {!loading && tab === 'Comparaison UE' && <InflComparaisonUE />}
       </div>
     </div>

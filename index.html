@@ -1027,6 +1027,7 @@ const DASH_MODULES = [
   { id:'securite', label:'Sécurité', icon:'shield' },
   { id:'education', label:'Éducation', icon:'graduation-cap' },
   { id:'transport', label:'Transport', icon:'train-front' },
+  { id:'carburant', label:'Carburant', icon:'fuel' },
 ];
 const DASH_VALUES = { '11':108,'84':92,'93':99,'76':104,'75':112,'44':101,'32':115,'52':95,'28':97,'53':90,'24':88,'27':100,'94':86 };
 const DASH_POP = { '11':'12,3 M','84':'8,0 M','93':'5,1 M','76':'6,0 M','75':'5,9 M','44':'3,8 M','32':'5,7 M','52':'3,3 M','28':'2,6 M','53':'3,3 M','24':'2,4 M','27':'2,8 M','94':'0,34 M' };
@@ -2685,6 +2686,597 @@ function InflationModule() {
   );
 }
 
+// ══════════════════════════════════════════════════════════════════════════
+//  MODULE CARBURANT
+// ══════════════════════════════════════════════════════════════════════════
+
+const CARB_API_URL = 'https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records';
+
+const FUEL_TYPES = [
+  { id:'Gazole', label:'Gazole (Diesel)', short:'Gazole', color:'#1B43C4' },
+  { id:'SP95',   label:'Sans Plomb 95',   short:'SP95',   color:'#0E8A52' },
+  { id:'SP98',   label:'Sans Plomb 98',   short:'SP98',   color:'#C9760D' },
+  { id:'E10',    label:'E10',             short:'E10',    color:'#7C5CFC' },
+  { id:'E85',    label:'E85 (Éthanol)',   short:'E85',    color:'#E1000F' },
+  { id:'GPLc',   label:'GPL carburant',   short:'GPLc',   color:'#0E9BA8' },
+];
+
+const CARB_TABS = ['Carte', 'Classement', 'Historique'];
+const FR_PROJ = { minLon:-5.5, maxLon:10.0, minLat:41.0, maxLat:51.6, w:800, h:600 };
+
+function carbXY(lon, lat) {
+  return [
+    (lon - FR_PROJ.minLon) / (FR_PROJ.maxLon - FR_PROJ.minLon) * FR_PROJ.w,
+    (FR_PROJ.maxLat - lat)  / (FR_PROJ.maxLat - FR_PROJ.minLat) * FR_PROJ.h
+  ];
+}
+
+function carbRingD(coords) {
+  return coords.filter((_, i) => i % 3 === 0).map((c, i) => {
+    const [x, y] = carbXY(c[0], c[1]);
+    return (i === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1);
+  }).join(' ') + 'Z';
+}
+
+function carbGeomD(geom) {
+  if (!geom) return '';
+  if (geom.type === 'Polygon') return carbRingD(geom.coordinates[0]);
+  if (geom.type === 'MultiPolygon') return geom.coordinates.map(p => carbRingD(p[0])).join(' ');
+  return '';
+}
+
+function useFrNutsGeo() {
+  const [state, setState] = React.useState({ paths: null, loading: true });
+  React.useEffect(() => {
+    let alive = true;
+    fetch('https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_03M_2021_4326_LEVL_2.geojson')
+      .then(r => r.json())
+      .then(data => {
+        if (!alive) return;
+        const paths = {};
+        data.features
+          .filter(f => f.properties.CNTR_CODE === 'FR' && !f.properties.NUTS_ID.startsWith('FRY'))
+          .forEach(f => { paths[f.properties.NUTS_ID] = carbGeomD(f.geometry); });
+        setState({ paths, loading: false });
+      })
+      .catch(() => { if (alive) setState({ paths: {}, loading: false }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+const STATIC_CARB = [
+  { id:'S001', nom:'Total Access Wagram',     adresse:'10 Av. Wagram',           ville:'Paris',           cp:'75017', dept:'75', lat:48.878, lon:2.294,  prix:{Gazole:1.769,SP95:1.891,SP98:1.961,E10:1.819},              h24:true  },
+  { id:'S002', nom:'BP Bercy',                adresse:'Quai de Bercy',            ville:'Paris',           cp:'75012', dept:'75', lat:48.846, lon:2.379,  prix:{Gazole:1.789,SP95:1.911,SP98:1.981,E10:1.839},              h24:false },
+  { id:'S003', nom:'Auchan Nantes',           adresse:'Rte de Vannes',            ville:'Nantes',          cp:'44000', dept:'44', lat:47.218, lon:-1.553, prix:{Gazole:1.705,SP95:1.839,E10:1.769,E85:0.849},              h24:false },
+  { id:'S004', nom:'Leclerc Bordeaux',        adresse:'Av. du Maréchal Juin',     ville:'Bordeaux',        cp:'33000', dept:'33', lat:44.836, lon:-0.578, prix:{Gazole:1.689,SP95:1.821,SP98:1.891,E10:1.741,E85:0.859},  h24:false },
+  { id:'S005', nom:'Shell Marseille',         adresse:'Allée du Parc',            ville:'Marseille',       cp:'13008', dept:'13', lat:43.280, lon:5.382,  prix:{Gazole:1.779,SP95:1.899,SP98:1.969,E10:1.829},              h24:true  },
+  { id:'S006', nom:'Intermarché Lyon',        adresse:'Route de Lyon',            ville:'Lyon',            cp:'69003', dept:'69', lat:45.750, lon:4.861,  prix:{Gazole:1.699,SP95:1.829,E10:1.759,E85:0.869},              h24:false },
+  { id:'S007', nom:'Total Lille Centre',      adresse:'Rue du Faubourg',          ville:'Lille',           cp:'59000', dept:'59', lat:50.628, lon:3.057,  prix:{Gazole:1.759,SP95:1.881,SP98:1.951,E10:1.811},              h24:true  },
+  { id:'S008', nom:'Esso Strasbourg',         adresse:'Av. de la Libération',     ville:'Strasbourg',      cp:'67000', dept:'67', lat:48.573, lon:7.752,  prix:{Gazole:1.749,SP95:1.871,SP98:1.941,E10:1.801},              h24:false },
+  { id:'S009', nom:'Casino Toulouse',         adresse:'Blvd Gambetta',            ville:'Toulouse',        cp:'31000', dept:'31', lat:43.600, lon:1.440,  prix:{Gazole:1.715,SP95:1.845,E10:1.775,E85:0.859},              h24:false },
+  { id:'S010', nom:'Carrefour Nice',          adresse:'Av. Jean Médecin',         ville:'Nice',            cp:'06000', dept:'06', lat:43.710, lon:7.261,  prix:{Gazole:1.771,SP95:1.901,SP98:1.971,E10:1.821},              h24:false },
+  { id:'S011', nom:'Total Rennes',            adresse:'Rue Nationale',            ville:'Rennes',          cp:'35000', dept:'35', lat:48.113, lon:-1.680, prix:{Gazole:1.721,SP95:1.851,E10:1.781,E85:0.861},              h24:true  },
+  { id:'S012', nom:'BP Montpellier',          adresse:'Av. de la Mer',            ville:'Montpellier',     cp:'34000', dept:'34', lat:43.607, lon:3.882,  prix:{Gazole:1.741,SP95:1.869,SP98:1.939,E10:1.799},              h24:false },
+  { id:'S013', nom:'Leclerc Mulhouse',        adresse:'Route de Colmar',          ville:'Mulhouse',        cp:'68100', dept:'68', lat:47.750, lon:7.338,  prix:{Gazole:1.679,SP95:1.809,SP98:1.879,E10:1.729},              h24:false },
+  { id:'S014', nom:'Système U Grenoble',      adresse:'Av. Prés. Kennedy',        ville:'Grenoble',        cp:'38000', dept:'38', lat:45.188, lon:5.724,  prix:{Gazole:1.731,SP95:1.861,E10:1.791},                         h24:false },
+  { id:'S015', nom:'Total Brest',             adresse:'Blvd Jean Jaurès',         ville:'Brest',           cp:'29200', dept:'29', lat:48.390, lon:-4.490, prix:{Gazole:1.709,SP95:1.839,E10:1.769,E85:0.849},              h24:false },
+  { id:'S016', nom:'Shell Dijon',             adresse:'Rue Victor Hugo',          ville:'Dijon',           cp:'21000', dept:'21', lat:47.322, lon:5.041,  prix:{Gazole:1.745,SP95:1.875,SP98:1.945,E10:1.805},              h24:true  },
+  { id:'S017', nom:'Carrefour Reims',         adresse:'Rue du Commerce',          ville:'Reims',           cp:'51100', dept:'51', lat:49.258, lon:4.031,  prix:{Gazole:1.729,SP95:1.859,E10:1.789},                         h24:false },
+  { id:'S018', nom:'Auchan Clermont',         adresse:'Rte de Saint-Étienne',     ville:'Clermont-Fd',     cp:'63100', dept:'63', lat:45.778, lon:3.087,  prix:{Gazole:1.715,SP95:1.845,E10:1.775,E85:0.855},              h24:false },
+  { id:'S019', nom:'Casino Annecy',           adresse:'Av. du Rhône',             ville:'Annecy',          cp:'74000', dept:'74', lat:45.899, lon:6.121,  prix:{Gazole:1.761,SP95:1.891,SP98:1.961,E10:1.821},              h24:false },
+  { id:'S020', nom:'Intermarché Pau',         adresse:'Route de Bayonne',         ville:'Pau',             cp:'64000', dept:'64', lat:43.298, lon:-0.370, prix:{Gazole:1.711,SP95:1.841,E10:1.771,E85:0.859},              h24:false },
+  { id:'S021', nom:'Total Le Mans',           adresse:'Av. de Bretagne',          ville:'Le Mans',         cp:'72000', dept:'72', lat:48.007, lon:0.200,  prix:{Gazole:1.723,SP95:1.853,SP98:1.923,E10:1.783},              h24:true  },
+  { id:'S022', nom:'BP Caen',                 adresse:'Pl. de la Victoire',       ville:'Caen',            cp:'14000', dept:'14', lat:49.181, lon:-0.363, prix:{Gazole:1.733,SP95:1.863,E10:1.793},                         h24:false },
+  { id:'S023', nom:'Total Poitiers',          adresse:'Av. de Limoges',           ville:'Poitiers',        cp:'86000', dept:'86', lat:46.580, lon:0.340,  prix:{Gazole:1.719,SP95:1.849,E10:1.779,E85:0.849},              h24:false },
+  { id:'S024', nom:'Leclerc Tours',           adresse:'Rte de Paris',             ville:'Tours',           cp:'37000', dept:'37', lat:47.394, lon:0.690,  prix:{Gazole:1.707,SP95:1.837,SP98:1.907,E10:1.757,E85:0.851},  h24:false },
+  { id:'S025', nom:'Total Metz',              adresse:'Bd Clemenceau',            ville:'Metz',            cp:'57000', dept:'57', lat:49.119, lon:6.177,  prix:{Gazole:1.741,SP95:1.871,SP98:1.941,E10:1.801},              h24:true  },
+  { id:'S026', nom:'Shell Autoroute A7',      adresse:'Aire de Serves',           ville:'Valence',         cp:'26760', dept:'26', lat:44.925, lon:4.893,  prix:{Gazole:1.841,SP95:1.971,SP98:2.041,E10:1.901},              h24:true  },
+  { id:'S027', nom:'BP Autoroute A10',        adresse:'Aire de Poitou',           ville:'Vouneuil-s-Biard',cp:'86190', dept:'86', lat:46.551, lon:0.296,  prix:{Gazole:1.849,SP95:1.979,SP98:2.049,E10:1.909},              h24:true  },
+  { id:'S028', nom:'Esso Autoroute A8',       adresse:'Aire de l\'Arc',           ville:'Aix-en-Provence', cp:'13100', dept:'13', lat:43.530, lon:5.447,  prix:{Gazole:1.831,SP95:1.961,SP98:2.031,E10:1.891},              h24:true  },
+  { id:'S029', nom:'Total Orléans',           adresse:'ZAC Les Portes du Loiret', ville:'Orléans',         cp:'45100', dept:'45', lat:47.903, lon:1.909,  prix:{Gazole:1.699,SP95:1.829,E10:1.759,E85:0.851},              h24:false },
+  { id:'S030', nom:'Total Ajaccio',           adresse:'Route de Bastia',          ville:'Ajaccio',         cp:'20090', dept:'2A', lat:41.919, lon:8.738,  prix:{Gazole:1.779,SP95:1.909,SP98:1.979,E10:1.839},              h24:false },
+];
+
+function parseStationRecord(rec) {
+  const lat = parseFloat(rec.latitude || rec.lat || (rec.geom && rec.geom.lat) || 0);
+  const lon = parseFloat(rec.longitude || rec.lon || (rec.geom && rec.geom.lon) || 0);
+  const prix = {};
+  const keys = { Gazole:'prix_gazole_valeur', SP95:'prix_sp95_valeur', SP98:'prix_sp98_valeur', E10:'prix_e10_valeur', E85:'prix_e85_valeur', GPLc:'prix_gplc_valeur' };
+  Object.entries(keys).forEach(([ft, k]) => { if (rec[k] != null) prix[ft] = parseFloat(rec[k]); });
+  if (rec.prix && Array.isArray(rec.prix)) rec.prix.forEach(p => { if (p.nom && p.valeur) prix[p.nom] = parseFloat(p.valeur); });
+  return {
+    id: String(rec.id),
+    nom: rec.nom || rec.ensigne || ('Station ' + rec.id),
+    adresse: rec.adresse || '',
+    ville: rec.ville || '',
+    cp: rec.cp || '',
+    dept: rec.dep_code || rec.code_dep || (rec.cp || '').slice(0, 2),
+    lat, lon, prix,
+    h24: rec.automate_24_24 === 'Oui' || rec.automate_24_24 === '1',
+  };
+}
+
+function useCarburantData() {
+  const [state, setState] = React.useState({ loading: true, stations: [], error: false, fromApi: false });
+  React.useEffect(() => {
+    let alive = true;
+    const fields = 'id,adresse,ville,cp,dep_code,latitude,longitude,geom,prix_gazole_valeur,prix_sp95_valeur,prix_sp98_valeur,prix_e10_valeur,prix_e85_valeur,prix_gplc_valeur,automate_24_24';
+    fetch(`${CARB_API_URL}?limit=200&select=${fields}`)
+      .then(r => { if (!r.ok) throw r.status; return r.json(); })
+      .then(data => {
+        if (!alive) return;
+        const stns = (data.results || []).map(parseStationRecord).filter(s => s.lat && s.lon && Math.abs(s.lat) > 1);
+        setState({ loading: false, stations: stns.length > 0 ? stns : STATIC_CARB, error: false, fromApi: stns.length > 0 });
+      })
+      .catch(() => { if (alive) setState({ loading: false, stations: STATIC_CARB, error: true, fromApi: false }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+function carbPriceColor(price, allPrices) {
+  if (price == null || allPrices.length === 0) return 'var(--gray-300)';
+  const mn = Math.min(...allPrices), mx = Math.max(...allPrices);
+  const r = (price - mn) / ((mx - mn) || 1);
+  if (r < 0.15) return '#0A6B43';
+  if (r < 0.35) return '#12A862';
+  if (r < 0.65) return '#C9760D';
+  if (r < 0.85) return '#E1000F';
+  return '#7B0008';
+}
+
+function CarbMap({ stations, fuelId, selected, onSelect }) {
+  const { paths, loading: geoLoading } = useFrNutsGeo();
+  const svgRef = React.useRef(null);
+  const dragRef = React.useRef(null);
+  const hasDraggedRef = React.useRef(false);
+  const [vb, setVb] = React.useState([0, 0, FR_PROJ.w, FR_PROJ.h]);
+
+  const allPrices = stations.map(s => s.prix[fuelId]).filter(v => v != null);
+
+  React.useEffect(() => {
+    const el = svgRef.current;
+    if (!el) return;
+    const onWheel = e => {
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const mx = (e.clientX - rect.left) / rect.width;
+      const my = (e.clientY - rect.top) / rect.height;
+      setVb(v => {
+        const scale = e.deltaY > 0 ? 1.25 : 0.8;
+        const newW = Math.min(Math.max(v[2] * scale, 50), FR_PROJ.w);
+        const newH = newW * (FR_PROJ.h / FR_PROJ.w);
+        const fx = v[0] + mx * v[2], fy = v[1] + my * v[3];
+        return [fx - mx * newW, fy - my * newH, newW, newH];
+      });
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, []);
+
+  function onMD(e) {
+    hasDraggedRef.current = false;
+    dragRef.current = { x: e.clientX, y: e.clientY, vb: [...vb] };
+  }
+  function onMM(e) {
+    if (!dragRef.current) return;
+    const dx = e.clientX - dragRef.current.x;
+    const dy = e.clientY - dragRef.current.y;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) hasDraggedRef.current = true;
+    const rect = svgRef.current.getBoundingClientRect();
+    setVb([
+      dragRef.current.vb[0] - dx / rect.width * dragRef.current.vb[2],
+      dragRef.current.vb[1] - dy / rect.height * dragRef.current.vb[3],
+      dragRef.current.vb[2], dragRef.current.vb[3]
+    ]);
+  }
+  function onMU() { dragRef.current = null; }
+
+  const scale = vb[2] / FR_PROJ.w;
+  const r = Math.max(2.5, 5 * scale);
+  const zBtnS = { width:28, height:28, border:'1px solid var(--border)', background:'white', borderRadius:6, boxShadow:'var(--shadow-sm)', cursor:'pointer', fontSize:17, fontWeight:700, color:'var(--text-secondary)', display:'flex', alignItems:'center', justifyContent:'center', fontFamily:'var(--font-sans)' };
+
+  return (
+    <div style={{ position:'relative', flex:1, minWidth:0 }}>
+      <div style={{ position:'absolute', top:10, right:10, zIndex:10, display:'flex', flexDirection:'column', gap:4 }}>
+        <button style={zBtnS} onClick={() => setVb(v => { const s=0.75; const cx=v[0]+v[2]/2, cy=v[1]+v[3]/2; const nw=Math.max(v[2]*s,50), nh=nw*FR_PROJ.h/FR_PROJ.w; return [cx-nw/2,cy-nh/2,nw,nh]; })}>+</button>
+        <button style={zBtnS} onClick={() => setVb(v => { const s=1.3; const cx=v[0]+v[2]/2, cy=v[1]+v[3]/2; const nw=Math.min(v[2]*s,FR_PROJ.w), nh=nw*FR_PROJ.h/FR_PROJ.w; return [cx-nw/2,cy-nh/2,nw,nh]; })}>−</button>
+        <button style={{...zBtnS, fontSize:13}} onClick={() => setVb([0,0,FR_PROJ.w,FR_PROJ.h])}>↺</button>
+      </div>
+      <svg ref={svgRef} viewBox={vb.join(' ')}
+        style={{ width:'100%', height:'100%', display:'block', background:'#ddeefa', cursor: dragRef.current ? 'grabbing' : 'grab' }}
+        onMouseDown={onMD} onMouseMove={onMM} onMouseUp={onMU} onMouseLeave={onMU}>
+        {geoLoading && <text x={FR_PROJ.w/2} y={FR_PROJ.h/2} textAnchor="middle" fill="#aaa" fontSize={20}>Chargement de la carte…</text>}
+        {paths && Object.entries(paths).map(([id, d]) => d ? (
+          <path key={id} d={d} fill="#e8f0fa" stroke="white" strokeWidth={1} strokeLinejoin="round" />
+        ) : null)}
+        {stations.map(s => {
+          const [x, y] = carbXY(s.lon, s.lat);
+          const v = s.prix[fuelId];
+          const isSel = selected === s.id;
+          return (
+            <circle key={s.id} cx={x} cy={y} r={isSel ? r * 1.8 : r}
+              fill={carbPriceColor(v, allPrices)} stroke="white"
+              strokeWidth={isSel ? 1.5 * scale : 0.5 * scale}
+              onClick={e => { e.stopPropagation(); if (!hasDraggedRef.current) onSelect(s.id === selected ? null : s.id); }}
+              style={{ cursor:'pointer', transition:'r 150ms' }}>
+              <title>{s.nom} · {s.ville} · {v ? v.toFixed(3) + ' €/L' : 'N/D'}</title>
+            </circle>
+          );
+        })}
+      </svg>
+    </div>
+  );
+}
+
+function CarburantClassement({ stations, fuelId, onSelectStation, avgPrice }) {
+  const [sortKey, setSortKey] = React.useState('prix');
+  const [sortDir, setSortDir] = React.useState('asc');
+  const [deptFilter, setDeptFilter] = React.useState('');
+  const [search, setSearch] = React.useState('');
+
+  const depts = [...new Set(stations.map(s => s.dept))].filter(Boolean).sort();
+  const allPrices = stations.map(s => s.prix[fuelId]).filter(v => v != null);
+
+  function hs(key) {
+    if (key === sortKey) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
+    else { setSortKey(key); setSortDir('asc'); }
+  }
+
+  const rows = stations
+    .filter(s => s.prix[fuelId] != null)
+    .filter(s => !deptFilter || s.dept === deptFilter)
+    .filter(s => !search || s.nom.toLowerCase().includes(search.toLowerCase()) || s.ville.toLowerCase().includes(search.toLowerCase()))
+    .sort((a, b) => {
+      if (sortKey === 'nom')  return sortDir === 'asc' ? a.nom.localeCompare(b.nom)   : b.nom.localeCompare(a.nom);
+      if (sortKey === 'ville')return sortDir === 'asc' ? a.ville.localeCompare(b.ville): b.ville.localeCompare(a.ville);
+      if (sortKey === 'dept') return sortDir === 'asc' ? a.dept.localeCompare(b.dept)  : b.dept.localeCompare(a.dept);
+      const va = a.prix[fuelId], vb2 = b.prix[fuelId];
+      return sortDir === 'asc' ? va - vb2 : vb2 - va;
+    });
+
+  const expCols = [
+    { key:'nom', label:'Station' }, { key:'adresse', label:'Adresse' }, { key:'ville', label:'Ville' },
+    { key:'dept', label:'Dép.' }, { key:'prix', label:'Prix (€/L)' }, { key:'vs', label:'vs. moy.' }, { key:'h24', label:'24h/24' },
+  ];
+  const SI = ({ col }) => col !== sortKey ? <span style={{ opacity:0.3, fontSize:9 }}>⇅</span> : <span style={{ fontSize:9 }}>{sortDir === 'asc' ? '▲' : '▼'}</span>;
+
+  return (
+    <div className="infl-body">
+      <div style={{ display:'flex', gap:10, marginBottom:14, flexWrap:'wrap', alignItems:'flex-end', justifyContent:'space-between' }}>
+        <div style={{ display:'flex', gap:10, flexWrap:'wrap', alignItems:'flex-end' }}>
+          <div>
+            <div className="infl-eyebrow" style={{ marginBottom:4 }}>Recherche</div>
+            <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Station ou ville…"
+              style={{ height:32, padding:'0 10px', borderRadius:'var(--radius-sm)', border:'1px solid var(--border)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', width:180 }} />
+          </div>
+          <div>
+            <div className="infl-eyebrow" style={{ marginBottom:4 }}>Département</div>
+            <select className="infl-sel" value={deptFilter} onChange={e => setDeptFilter(e.target.value)}>
+              <option value="">Tous les dép.</option>
+              {depts.map(d => <option key={d} value={d}>{d}</option>)}
+            </select>
+          </div>
+        </div>
+        <ExportMenu filename={'carburant-classement-' + fuelId} title={'Classement stations ' + fuelId}
+          columns={expCols}
+          getRows={() => rows.map(s => ({
+            nom: s.nom, adresse: s.adresse, ville: s.ville, dept: s.dept,
+            prix: s.prix[fuelId].toFixed(3) + ' €/L',
+            vs: avgPrice != null ? ((s.prix[fuelId] - avgPrice) >= 0 ? '+' : '') + (s.prix[fuelId] - avgPrice).toFixed(3) + ' €/L' : '—',
+            h24: s.h24 ? 'Oui' : 'Non',
+          }))} />
+      </div>
+      <div style={{ fontSize:12, color:'var(--text-tertiary)', marginBottom:8 }}>{rows.length} station{rows.length !== 1 ? 's' : ''} — cliquez un en-tête pour trier</div>
+      <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
+        <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12 }}>
+          <thead>
+            <tr style={{ background:'var(--gray-50)', borderBottom:'1px solid var(--border)' }}>
+              {[{k:'nom',l:'Station'},{k:'ville',l:'Ville'},{k:'dept',l:'Dép.',n:true},{k:'prix',l:'Prix ' + fuelId,n:true},{k:'diff',l:'vs. moy.',n:true}].map(c => (
+                <th key={c.k} onClick={() => hs(c.k)}
+                    style={{ padding:'8px 10px', textAlign:c.n?'right':'left', fontWeight:600, fontSize:10, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.06em', cursor:'pointer', userSelect:'none', whiteSpace:'nowrap' }}>
+                  {c.l} <SI col={c.k} />
+                </th>
+              ))}
+              <th style={{ padding:'8px 10px', fontSize:10, color:'var(--text-secondary)', textTransform:'uppercase' }}>24h</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.slice(0, 100).map((s, i) => {
+              const v = s.prix[fuelId];
+              const diff = avgPrice != null ? v - avgPrice : null;
+              return (
+                <tr key={s.id} onClick={() => onSelectStation(s.id)}
+                    style={{ borderBottom: i < rows.length-1 ? '1px solid var(--border-subtle)' : 'none',
+                             background: i % 2 === 0 ? 'white' : 'var(--gray-50)', cursor:'pointer' }}>
+                  <td style={{ padding:'7px 10px', fontWeight:600, maxWidth:160, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{s.nom}</td>
+                  <td style={{ padding:'7px 10px', color:'var(--text-secondary)' }}>{s.ville}</td>
+                  <td style={{ padding:'7px 10px', textAlign:'right', color:'var(--text-tertiary)', fontFamily:'var(--font-mono)' }}>{s.dept}</td>
+                  <td style={{ padding:'7px 10px', textAlign:'right', fontFamily:'var(--font-mono)', fontWeight:700, color:carbPriceColor(v, allPrices) }}>{v.toFixed(3)} €/L</td>
+                  <td style={{ padding:'7px 10px', textAlign:'right', fontFamily:'var(--font-mono)', fontSize:11,
+                               color: diff != null ? (diff > 0.005 ? '#E1000F' : diff < -0.005 ? '#0A6B43' : 'var(--text-secondary)') : 'var(--text-tertiary)' }}>
+                    {diff != null ? (diff >= 0 ? '+' : '') + diff.toFixed(3) + ' €' : '—'}
+                  </td>
+                  <td style={{ padding:'7px 10px', textAlign:'center', fontSize:12, color:'var(--green-600)' }}>{s.h24 ? '✓' : ''}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      {rows.length > 100 && <div style={{ marginTop:6, fontSize:11, color:'var(--text-tertiary)', textAlign:'center' }}>Affichage limité à 100 résultats — affinez avec les filtres</div>}
+    </div>
+  );
+}
+
+function CarburantHistorique({ stations, fuelId, fuelTypes, initStation }) {
+  const { Alert } = window.FranceMonitorDesignSystem_5343d8;
+  const [histStn, setHistStn] = React.useState(initStation || null);
+  const [search, setSearch] = React.useState('');
+  const [results, setResults] = React.useState([]);
+
+  React.useEffect(() => { if (initStation) setHistStn(initStation); }, [initStation && initStation.id]);
+
+  function doSearch(q) {
+    setSearch(q);
+    if (q.length < 2) { setResults([]); return; }
+    setResults(stations.filter(s =>
+      s.nom.toLowerCase().includes(q.toLowerCase()) || s.ville.toLowerCase().includes(q.toLowerCase())
+    ).slice(0, 8));
+  }
+
+  const mockHistory = React.useMemo(() => {
+    if (!histStn) return [];
+    const base = histStn.prix[fuelId] || 1.75;
+    return Array.from({ length: 30 }, (_, i) => {
+      const d = new Date(); d.setDate(d.getDate() - (29 - i));
+      const noise = Math.sin(i * 0.8) * 0.012 + (Math.random() - 0.5) * 0.006;
+      const trend = i < 15 ? -0.001 * i : 0.001 * (i - 15);
+      return { date: d.toISOString().slice(0, 10), price: Math.max(1.3, Math.round((base + noise + trend) * 1000) / 1000) };
+    });
+  }, [histStn && histStn.id, fuelId]);
+
+  const chartSeries = mockHistory.map(d => d.price);
+  const chartLabels = mockHistory.filter((_, i) => i % 7 === 0 || i === 29).map(d => d.date.slice(5));
+  const minH = chartSeries.length ? Math.min(...chartSeries) : 0;
+  const maxH = chartSeries.length ? Math.max(...chartSeries) : 0;
+
+  const ftColor = (FUEL_TYPES.find(f => f.id === fuelId) || {}).color || 'var(--accent)';
+
+  return (
+    <div className="infl-body">
+      <div style={{ marginBottom:16 }}>
+        <div className="infl-eyebrow" style={{ marginBottom:6 }}>Rechercher une station</div>
+        <div style={{ position:'relative', maxWidth:380 }}>
+          <input value={search} onChange={e => doSearch(e.target.value)} placeholder="Nom de la station ou ville…"
+            style={{ width:'100%', height:36, padding:'0 12px', borderRadius:'var(--radius-sm)', border:'1px solid var(--border)', fontSize:13, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+          {results.length > 0 && (
+            <div style={{ position:'absolute', top:'calc(100% + 4px)', left:0, right:0, background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', boxShadow:'var(--shadow-md)', zIndex:50, overflow:'hidden' }}>
+              {results.map(s => (
+                <button key={s.id} onClick={() => { setHistStn(s); setSearch(''); setResults([]); }}
+                  style={{ display:'block', width:'100%', textAlign:'left', padding:'8px 12px', border:'none', borderBottom:'1px solid var(--border-subtle)', background:'none', cursor:'pointer', fontSize:12, fontFamily:'var(--font-sans)' }}>
+                  <div style={{ fontWeight:600 }}>{s.nom}</div>
+                  <div style={{ color:'var(--text-tertiary)', fontSize:11 }}>{s.adresse} · {s.cp} {s.ville}</div>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {!histStn ? (
+        <div style={{ textAlign:'center', padding:'56px 24px', color:'var(--text-tertiary)' }}>
+          <Icon n="chart-line" s={32} color="var(--gray-300)" />
+          <div style={{ marginTop:12, fontSize:13, lineHeight:1.5 }}>Tapez le nom d'une station ou d'une ville<br />pour afficher l'évolution de ses prix</div>
+        </div>
+      ) : (
+        <div>
+          <div style={{ display:'flex', alignItems:'flex-start', justifyContent:'space-between', marginBottom:14, flexWrap:'wrap', gap:8 }}>
+            <div>
+              <div style={{ fontWeight:700, fontSize:14 }}>{histStn.nom}</div>
+              <div style={{ fontSize:12, color:'var(--text-tertiary)' }}>{histStn.adresse} · {histStn.cp} {histStn.ville}</div>
+            </div>
+            <button onClick={() => setHistStn(null)} style={{ background:'none', border:'none', cursor:'pointer', color:'var(--text-tertiary)', fontSize:16, padding:0 }}>✕</button>
+          </div>
+
+          <div style={{ background:'var(--gray-50)', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', padding:'12px 16px', marginBottom:16 }}>
+            <div style={{ fontSize:11, fontWeight:700, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:10 }}>Prix actuels</div>
+            <div style={{ display:'flex', gap:14, flexWrap:'wrap' }}>
+              {fuelTypes.map(ft => {
+                const v = histStn.prix[ft.id];
+                if (v == null) return null;
+                return (
+                  <div key={ft.id} style={{ display:'flex', alignItems:'center', gap:6 }}>
+                    <span style={{ width:9, height:9, borderRadius:99, background:ft.color, display:'inline-block', flexShrink:0 }} />
+                    <span style={{ fontSize:11, color:'var(--text-secondary)' }}>{ft.short}</span>
+                    <span className="infl-mono" style={{ fontSize:13, fontWeight:700, color: ft.id === fuelId ? ftColor : 'var(--text)' }}>{v.toFixed(3)} €/L</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8, flexWrap:'wrap', gap:8 }}>
+            <div className="infl-eyebrow">{(FUEL_TYPES.find(f=>f.id===fuelId)||{}).label} — évolution sur 30 jours</div>
+            <div style={{ display:'flex', gap:14, fontSize:11, color:'var(--text-tertiary)' }}>
+              <span>Min : <b className="infl-mono" style={{ color:'#0A6B43' }}>{minH.toFixed(3)} €/L</b></span>
+              <span>Max : <b className="infl-mono" style={{ color:'#E1000F' }}>{maxH.toFixed(3)} €/L</b></span>
+              <span>Var : <b className="infl-mono">{((maxH - minH)).toFixed(3)} €/L</b></span>
+            </div>
+          </div>
+          <AreaChart id={'carb-hist-' + histStn.id + '-' + fuelId} series={chartSeries} labels={chartLabels} color={ftColor} />
+
+          <div style={{ marginTop:14 }}>
+            <Alert kind="info" title="Données simulées">L'historique réel sera automatiquement affiché dès connexion de l'API gouvernementale officielle. Les valeurs affichées ici sont simulées pour illustration.</Alert>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CarburantModule() {
+  const { Badge: Bdg, Alert, SourceTag } = window.FranceMonitorDesignSystem_5343d8;
+  const [tab, setTab] = React.useState('Carte');
+  const [fuelId, setFuelId] = React.useState('Gazole');
+  const { loading, stations, error, fromApi } = useCarburantData();
+  const [selected, setSelected] = React.useState(null);
+  const [histStation, setHistStation] = React.useState(null);
+
+  const selectedStation = selected ? stations.find(s => s.id === selected) : null;
+  const fuelType = FUEL_TYPES.find(f => f.id === fuelId) || FUEL_TYPES[0];
+  const allPrices = stations.map(s => s.prix[fuelId]).filter(v => v != null);
+  const avgPrice = allPrices.length ? Math.round(allPrices.reduce((a, b) => a + b, 0) / allPrices.length * 1000) / 1000 : null;
+  const minPrice = allPrices.length ? Math.min(...allPrices) : null;
+  const maxPrice = allPrices.length ? Math.max(...allPrices) : null;
+
+  return (
+    <div className="infl-wrap">
+      <div className="infl-card">
+        <div className="infl-bar">
+          <div className="infl-bar-l">
+            <span className="infl-mark"><LogoMark size={30} /></span>
+            <div>
+              <div className="infl-eyebrow">Module</div>
+              <div className="infl-mod-t">Carburant</div>
+            </div>
+            <Bdg tone={fromApi ? 'green' : 'warn'} dot>{fromApi ? 'Temps réel' : 'Démo'}</Bdg>
+          </div>
+          <div className="infl-bar-r">
+            <select className="infl-sel" value={fuelId} onChange={e => { setFuelId(e.target.value); setSelected(null); }}>
+              {FUEL_TYPES.map(ft => <option key={ft.id} value={ft.id}>{ft.label}</option>)}
+            </select>
+            <ExportMenu filename={'carburant-' + fuelId + '-' + new Date().toISOString().slice(0, 10)}
+              title={'Prix du carburant — ' + fuelType.label}
+              columns={[{key:'nom',label:'Station'},{key:'adresse',label:'Adresse'},{key:'ville',label:'Ville'},{key:'dept',label:'Dép.'},{key:'prix',label:'Prix (€/L)'},{key:'h24',label:'24h/24'}]}
+              getRows={() => stations.filter(s => s.prix[fuelId] != null).sort((a,b) => a.prix[fuelId]-b.prix[fuelId]).map(s => ({
+                nom:s.nom, adresse:s.adresse, ville:s.ville, dept:s.dept,
+                prix:s.prix[fuelId].toFixed(3)+' €/L', h24:s.h24?'Oui':'Non'
+              }))} />
+          </div>
+        </div>
+
+        {!loading && allPrices.length > 0 && (
+          <div style={{ display:'flex', gap:16, padding:'8px 20px', borderBottom:'1px solid var(--border)', background:'var(--gray-50)', flexWrap:'wrap', alignItems:'center' }}>
+            {[{label:'Prix minimum', val:minPrice, color:'#0A6B43'},{label:'Prix moyen', val:avgPrice, color:'#C9760D'},{label:'Prix maximum', val:maxPrice, color:'#E1000F'}].map(({ label, val, color }) => (
+              <div key={label} style={{ display:'flex', alignItems:'center', gap:8 }}>
+                <span style={{ width:8, height:8, borderRadius:99, background:color, display:'inline-block' }} />
+                <span style={{ fontSize:11, color:'var(--text-secondary)' }}>{label} :</span>
+                <span className="infl-mono" style={{ fontSize:13, fontWeight:700, color }}>{val ? val.toFixed(3) : '—'} €/L</span>
+              </div>
+            ))}
+            <div style={{ marginLeft:'auto', fontSize:11, color:'var(--text-tertiary)' }}>
+              {allPrices.length} station{allPrices.length !== 1 ? 's' : ''} · {fuelType.label}
+            </div>
+          </div>
+        )}
+
+        <div className="infl-tabs">
+          {CARB_TABS.map(t => (
+            <button key={t} className={'infl-tab' + (t === tab ? ' on' : '')} onClick={() => setTab(t)}>{t}</button>
+          ))}
+        </div>
+
+        {loading && (
+          <div style={{ padding:'56px', textAlign:'center', color:'var(--text-tertiary)', fontSize:14, display:'flex', alignItems:'center', justifyContent:'center', gap:10 }}>
+            <Icon n="loader" s={18} color="var(--accent)" /> Chargement des stations carburant…
+          </div>
+        )}
+
+        {!loading && tab === 'Carte' && (
+          <div style={{ display:'flex', height:520 }}>
+            <CarbMap stations={stations} fuelId={fuelId} selected={selected} onSelect={setSelected} />
+            <div style={{ width:255, flexShrink:0, borderLeft:'1px solid var(--border)', display:'flex', flexDirection:'column', overflow:'hidden' }}>
+              {selectedStation ? (
+                <div style={{ padding:'14px 16px', overflow:'auto', flex:1 }}>
+                  <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:10 }}>
+                    <div>
+                      <div style={{ fontWeight:700, fontSize:13, marginBottom:2 }}>{selectedStation.nom}</div>
+                      <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>{selectedStation.adresse}</div>
+                      <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>{selectedStation.cp} {selectedStation.ville} · Dép. {selectedStation.dept}</div>
+                    </div>
+                    <button onClick={() => setSelected(null)} style={{ background:'none', border:'none', cursor:'pointer', color:'var(--text-tertiary)', fontSize:16, padding:'0 0 0 8px' }}>✕</button>
+                  </div>
+                  {selectedStation.h24 && (
+                    <div style={{ display:'inline-flex', alignItems:'center', gap:4, background:'var(--green-50)', border:'1px solid var(--green-100)', borderRadius:99, padding:'2px 8px', fontSize:10, color:'var(--green-700)', fontWeight:600, marginBottom:12 }}>
+                      <span style={{ width:5, height:5, borderRadius:99, background:'var(--green-600)', display:'inline-block' }} /> Ouvert 24h/24
+                    </div>
+                  )}
+                  <div style={{ fontSize:11, fontWeight:700, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:8 }}>Prix par carburant</div>
+                  {FUEL_TYPES.map(ft => {
+                    const v = selectedStation.prix[ft.id];
+                    if (v == null) return null;
+                    const isCur = ft.id === fuelId;
+                    return (
+                      <div key={ft.id} style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:6, padding:'7px 10px', borderRadius:6, background: isCur ? 'var(--blue-50)' : 'var(--gray-50)', border: `1px solid ${isCur ? 'var(--blue-100)' : 'var(--border-subtle)'}` }}>
+                        <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+                          <span style={{ width:8, height:8, borderRadius:99, background:ft.color, display:'inline-block', flexShrink:0 }} />
+                          <span style={{ fontSize:11, color:'var(--text-secondary)', fontWeight: isCur ? 700 : 400 }}>{ft.short}</span>
+                        </div>
+                        <span className="infl-mono" style={{ fontSize:13, fontWeight:700, color:carbPriceColor(v, allPrices) }}>{v.toFixed(3)} €/L</span>
+                      </div>
+                    );
+                  })}
+                  {avgPrice != null && selectedStation.prix[fuelId] != null && (
+                    <div style={{ marginTop:8, padding:'8px 10px', background:'var(--gray-50)', borderRadius:'var(--radius-sm)', border:'1px solid var(--border-subtle)' }}>
+                      <div style={{ fontSize:11, color:'var(--text-tertiary)', marginBottom:3 }}>vs. prix moyen ({avgPrice.toFixed(3)} €/L)</div>
+                      <div className="infl-mono" style={{ fontSize:13, fontWeight:700, color: selectedStation.prix[fuelId] > avgPrice ? '#E1000F' : '#0A6B43' }}>
+                        {(selectedStation.prix[fuelId] - avgPrice >= 0 ? '+' : '') + (selectedStation.prix[fuelId] - avgPrice).toFixed(3)} €/L
+                      </div>
+                    </div>
+                  )}
+                  <button onClick={() => { setHistStation(selectedStation); setTab('Historique'); }}
+                    style={{ marginTop:12, width:'100%', padding:'7px 10px', borderRadius:'var(--radius-sm)', border:'1px solid var(--border)', background:'white', cursor:'pointer', fontSize:12, fontFamily:'var(--font-sans)', color:'var(--text-secondary)', display:'flex', alignItems:'center', justifyContent:'center', gap:6 }}>
+                    <Icon n="chart-line" s={13} /> Voir l'historique des prix
+                  </button>
+                </div>
+              ) : (
+                <div style={{ padding:'14px 16px', flex:1, display:'flex', flexDirection:'column' }}>
+                  <div style={{ fontSize:11, fontWeight:700, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:12 }}>Légende des prix</div>
+                  {[{c:'#0A6B43',l:'Très bon prix'},{c:'#12A862',l:'Bon prix'},{c:'#C9760D',l:'Prix moyen'},{c:'#E1000F',l:'Prix élevé'},{c:'#7B0008',l:'Prix très élevé'}].map(({ c, l }) => (
+                    <div key={l} style={{ display:'flex', alignItems:'center', gap:8, marginBottom:8 }}>
+                      <span style={{ width:12, height:12, borderRadius:3, background:c, display:'inline-block', flexShrink:0 }} />
+                      <span style={{ fontSize:12, color:'var(--text-secondary)' }}>{l}</span>
+                    </div>
+                  ))}
+                  <div style={{ marginTop:'auto', padding:'10px', background:'var(--gray-50)', borderRadius:'var(--radius-sm)', border:'1px solid var(--border-subtle)' }}>
+                    <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6 }}>
+                      <b>Molette</b> pour zoomer<br />
+                      <b>Glisser</b> pour naviguer<br />
+                      <b>Cliquer</b> une station pour le détail
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {!loading && tab === 'Classement' && (
+          <CarburantClassement stations={stations} fuelId={fuelId} avgPrice={avgPrice}
+            onSelectStation={id => { setSelected(id); setTab('Carte'); }} />
+        )}
+
+        {!loading && tab === 'Historique' && (
+          <CarburantHistorique stations={stations} fuelId={fuelId} fuelTypes={FUEL_TYPES} initStation={histStation} />
+        )}
+
+        {!loading && (
+          <div style={{ padding:'0 20px 14px' }}>
+            {error
+              ? <Alert kind="warn" title="API indisponible">Données de démonstration affichées. L'API gouvernementale sera connectée à réception de l'URL officielle.</Alert>
+              : fromApi
+              ? <SourceTag source="data.economie.gouv.fr · Prix des carburants en France" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+              : <Alert kind="info" title="Données de démonstration">En attente de l'URL de l'API officielle. L'interface est prête — branchez l'API pour afficher les données en temps réel.</Alert>
+            }
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function Dashboard({ variant, go }) {
   const [module, setModule] = React.useState('dette');
   return (
@@ -2696,6 +3288,8 @@ function Dashboard({ variant, go }) {
           ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>
           : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
+            : module === 'carburant'
+            ? <div className="db-scroll"><CarburantModule /></div>
             : <TerminalView module={module} />}
       </div>
     </div>

@@ -266,6 +266,51 @@ a{text-decoration:none}
 .db-mod-card-t{font-family:var(--font-sans);font-size:15px;font-weight:600;color:var(--text)}
 .db-mod-map{padding:16px;display:flex;align-items:center;justify-content:center}
 .db-mod-rank-body{padding:16px 18px;display:flex;flex-direction:column;gap:13px}
+
+/* ── Inflation module ─────────────────────────────────────── */
+.infl-wrap{max-width:1180px;margin:0 auto;padding:26px 28px 48px;display:flex;flex-direction:column;gap:22px}
+.infl-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.infl-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.infl-bar-l{display:flex;align-items:center;gap:14px}
+.infl-eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--text-tertiary)}
+.infl-mark{width:30px;height:34px;flex-shrink:0}
+.infl-mod-t{font-family:var(--font-sans);font-size:19px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+.infl-bar-r{display:flex;align-items:center;gap:10px}
+.infl-sel{font-family:var(--font-sans);font-size:13px;font-weight:500;padding:7px 12px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface);color:var(--text);cursor:pointer}
+.infl-tabs{display:flex;gap:26px;padding:0 20px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.infl-tab{font-family:var(--font-sans);font-size:14px;font-weight:500;padding:12px 2px;color:var(--text-secondary);border-bottom:2px solid transparent;cursor:pointer;background:none;border-top:none;border-left:none;border-right:none}
+.infl-tab:hover{color:var(--text)}
+.infl-tab.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.infl-body{padding:24px}
+.infl-mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.infl-hero{display:grid;grid-template-columns:340px 1fr;gap:28px;align-items:stretch}
+.infl-hero-l{display:flex;flex-direction:column;justify-content:center;gap:14px;padding-right:24px;border-right:1px solid var(--border-subtle)}
+.infl-hero-num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:52px;font-weight:600;line-height:1;letter-spacing:-.02em;color:var(--ink)}
+.infl-hero-num span{font-size:24px;font-weight:500;color:var(--text-tertiary);margin-left:8px}
+.infl-hero-r{min-width:0}
+.infl-hero-rh{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:8px;gap:12px}
+.infl-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:24px}
+.infl-q-help{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);margin-top:10px}
+.infl-q-row{display:flex;gap:12px;align-items:stretch}
+.infl-q-field{flex:1;position:relative;display:flex;align-items:center}
+.infl-q-field span.ico{position:absolute;left:16px;color:var(--text-tertiary);display:flex;pointer-events:none}
+.infl-q-input{width:100%;box-sizing:border-box;font-family:var(--font-sans);font-size:17px;color:var(--ink);padding:15px 16px 15px 46px;border:1px solid var(--border);border-radius:var(--radius-md);outline:none;background:var(--surface)}
+.infl-q-input:focus{border-color:var(--border-focus);box-shadow:var(--ring-focus)}
+.infl-resp{border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+.infl-resp-h{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--border-subtle);flex-wrap:wrap}
+.infl-chips{display:flex;gap:8px;flex-wrap:wrap}
+.infl-chip{font-family:var(--font-mono);font-size:12px;font-weight:500;color:var(--text-secondary);background:var(--gray-100);padding:5px 11px;border-radius:999px}
+.infl-chip i{color:var(--text-tertiary);font-style:normal}
+.infl-chip b{color:var(--ink);font-weight:600}
+.infl-resp-num{padding:24px 18px;border-bottom:1px solid var(--border-subtle)}
+.infl-resp-num .n{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:46px;font-weight:600;line-height:1;letter-spacing:-.02em;color:var(--ink)}
+.infl-resp-num .n span{font-size:22px;color:var(--text-tertiary);margin-left:6px}
+.infl-resp-num p{font-family:var(--font-sans);font-size:14px;color:var(--text-secondary);margin-top:10px}
+.infl-resp-actions{display:flex;gap:10px;margin-top:16px}
+.infl-empty{padding:56px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;color:var(--text-tertiary)}
+.infl-empty-t{font-family:var(--font-sans);font-size:16px;font-weight:600;color:var(--text-secondary)}
+.infl-empty-d{font-family:var(--font-sans);font-size:13px;max-width:360px;line-height:1.55}
+.infl-note{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);padding:16px 18px;line-height:1.55}
 </style>
 </head>
 <body>
@@ -1111,7 +1156,7 @@ function TerminalView({ module }) {
 
 const KPI_CARDS = [
   { icon:'landmark', label:'Dette publique', value:'3 228', unit:'Md€', delta:2.1, series:[2950,3020,3100,3180,3228], src:'INSEE', date:'T3 2024' },
-  { icon:'trending-up', label:'Inflation (IPC)', value:'2,3', unit:'%', delta:-0.4, series:[5.1,4.6,3.8,3.1,2.3], src:'INSEE', date:'Mai 2026' },
+  { icon:'trending-up', label:'Inflation (IPC)', value:'2,3', unit:'%', delta:-0.4, series:[5.1,4.6,3.8,3.1,2.3], src:'INSEE', date:'Mai 2026', mod:'inflation' },
   { icon:'briefcase', label:'Taux de chômage', value:'7,4', unit:'%', delta:-0.2, series:[7.9,7.8,7.6,7.5,7.4], src:'INSEE', date:'T1 2026' },
   { icon:'banknote', label:"Déficit public", value:'-5,5', unit:'%', delta:-0.6, series:[-4.8,-4.9,-5.1,-5.3,-5.5], src:'INSEE', date:'2025' },
   { icon:'zap', label:'Production électrique', value:'521', unit:'TWh', delta:3.4, series:[480,495,505,512,521], src:'RTE', date:'2025' },
@@ -1132,7 +1177,7 @@ function ModulesView({ onOpenModule }) {
       </div>
       <div className="db-kpi-grid">
         {KPI_CARDS.map(c => (
-          <button key={c.label} className="db-kpi-card" onClick={() => onOpenModule && onOpenModule()}>
+          <button key={c.label} className="db-kpi-card" onClick={() => onOpenModule && onOpenModule(c.mod)}>
             <div className="db-kpi-top"><span className="db-kpi-ico"><Icon n={c.icon} s={18} /></span><Icon n="arrow-up-right" s={16} color="var(--text-tertiary)" /></div>
             <StatTile label={c.label} value={c.value} unit={c.unit} delta={c.delta} series={c.series} source={c.src} sourceDate={c.date} />
           </button>
@@ -1159,6 +1204,255 @@ function ModulesView({ onOpenModule }) {
   );
 }
 
+/* ---- Inflation module (Module 02) ---- */
+const frpct1 = (n) => n.toLocaleString('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+// Area chart — recreated per handoff spec (not part of the DS bundle).
+function AreaChart({ series, labels = [], color = "var(--accent)", h = 230, id = "c" }) {
+  const w = 720, padL = 40, padR = 14, padT = 14, padB = 26;
+  const min = Math.min(...series, 0), max = Math.max(...series);
+  const span = (max - min) || 1;
+  const X = (i) => padL + i * ((w - padL - padR) / (series.length - 1 || 1));
+  const Y = (v) => padT + (1 - (v - min) / span) * (h - padT - padB);
+  const pts = series.map((v, i) => [X(i), Y(v)]);
+  const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+  const area = `${line} L ${X(series.length - 1)} ${h - padB} L ${padL} ${h - padB} Z`;
+  const ticks = 4;
+  const gridY = Array.from({ length: ticks + 1 }, (_, i) => min + (span * i) / ticks);
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} style={{ width: '100%', height: 'auto', display: 'block', overflow: 'visible' }}>
+      <defs>
+        <linearGradient id={id + '-g'} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor={color} stopOpacity="0.18" />
+          <stop offset="100%" stopColor={color} stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      {gridY.map((gv, i) => (
+        <g key={'g' + i}>
+          <line x1={padL} x2={w - padR} y1={Y(gv)} y2={Y(gv)} stroke="var(--border-subtle)" strokeWidth="1" />
+          <text x={padL - 8} y={Y(gv) + 3} textAnchor="end" style={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-tertiary)' }}>{frpct1(gv)}</text>
+        </g>
+      ))}
+      <path d={area} fill={`url(#${id}-g)`} />
+      <path d={line} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" />
+      <circle cx={pts[pts.length - 1][0]} cy={pts[pts.length - 1][1]} r="3.4" fill={color} stroke="var(--surface)" strokeWidth="2" />
+      {labels.map((lb, i) => (
+        <text key={'t' + i} x={X(i * (series.length - 1) / (labels.length - 1))} y={h - 8}
+              textAnchor={i === 0 ? 'start' : i === labels.length - 1 ? 'end' : 'middle'}
+              style={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-tertiary)' }}>{lb}</text>
+      ))}
+    </svg>
+  );
+}
+
+function InflSearchIcon() {
+  return (
+    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" />
+    </svg>
+  );
+}
+
+const INFL_TABS = ['Aperçu', 'Postes', 'Départements', 'Historique', 'Comparaison UE', 'Interroger'];
+
+// Annual average inflation, France · IPC ensemble (approx. INSEE annual averages).
+const INFL_ANNUAL = { '2018':1.8, '2019':1.1, '2020':0.5, '2021':1.6, '2022':5.2, '2023':4.9, '2024':2.0, '2025':1.3 };
+// Monthly ventilation provided in the handoff (validated example: 2019).
+const INFL_MONTHLY_2019 = [
+  { m:'Janvier', v:'+1,2 %' }, { m:'Mars', v:'+1,1 %' }, { m:'Mai', v:'+0,9 %' },
+  { m:'Juillet', v:'+1,1 %' }, { m:'Septembre', v:'+0,9 %' }, { m:'Novembre', v:'+1,0 %' },
+];
+
+function parseInflQuery(q) {
+  const yearMatch = String(q).match(/\b(19|20)\d{2}\b/);
+  const year = yearMatch ? yearMatch[0] : null;
+  const low = String(q).toLowerCase();
+  let indicator = 'Inflation (IPC)';
+  if (/énerg|energ/.test(low)) indicator = 'Énergie';
+  else if (/aliment/.test(low)) indicator = 'Alimentation';
+  else if (/sous-jacent|coeur|cœur/.test(low)) indicator = 'Inflation sous-jacente';
+  return { year, indicator };
+}
+
+function InflInterroger() {
+  const { Button: Btn, SourceTag, DataTable } = window.FranceMonitorDesignSystem_5343d8;
+  const [query, setQuery] = React.useState('inflation 2019');
+  const [resp, setResp] = React.useState({ year: '2019', indicator: 'Inflation (IPC)' });
+
+  const run = () => {
+    const { year, indicator } = parseInflQuery(query);
+    setResp({ year, indicator });
+  };
+  const onKey = (e) => { if (e.key === 'Enter') run(); };
+
+  const year = resp.year;
+  const known = year && INFL_ANNUAL[year] != null;
+  const headline = known ? '+' + frpct1(INFL_ANNUAL[year]) : '—';
+  const hasMonthly = year === '2019';
+
+  return (
+    <div className="infl-body">
+      <div className="infl-eyebrow" style={{ marginBottom: 10 }}>Votre requête</div>
+      <div className="infl-q-row">
+        <div className="infl-q-field">
+          <span className="ico"><InflSearchIcon /></span>
+          <input className="infl-q-input" value={query} placeholder="Ex. inflation 2019"
+                 onChange={(e) => setQuery(e.target.value)} onKeyDown={onKey} />
+        </div>
+        <Btn variant="primary" onClick={run}>Interroger</Btn>
+      </div>
+      <div className="infl-q-help">Tapez un indicateur et une période — ex. « inflation 2019 », « énergie 2022 », « inflation alimentaire 2023 ».</div>
+
+      <div className="infl-eyebrow" style={{ margin: '32px 0 10px' }}>Réponse</div>
+      <div className="infl-resp">
+        <div className="infl-resp-h">
+          <div className="infl-chips">
+            <span className="infl-chip"><i>Indicateur · </i><b>{resp.indicator}</b></span>
+            <span className="infl-chip"><i>Territoire · </i><b>France</b></span>
+            <span className="infl-chip"><i>Période · </i><b>{year || '—'}</b></span>
+          </div>
+          <SourceTag source="INSEE · IPC ensemble" date={year || undefined} />
+        </div>
+        {known ? (
+          <>
+            <div className="infl-resp-num">
+              <div className="n">{headline}<span>%</span></div>
+              <p>Inflation moyenne annuelle {year} — indice des prix à la consommation, ensemble des ménages, France.</p>
+            </div>
+            {hasMonthly ? (
+              <DataTable dense
+                columns={[
+                  { key: 'm', header: 'Mois ' + year, strong: true },
+                  { key: 'v', header: 'Inflation a/a', align: 'right', mono: true },
+                ]}
+                rows={INFL_MONTHLY_2019} />
+            ) : (
+              <div className="infl-note">Ventilation mensuelle non disponible pour {year} dans cette démonstration — seule la moyenne annuelle est affichée. La connexion à l'API INSEE (BDM) fournira le détail mensuel.</div>
+            )}
+          </>
+        ) : (
+          <div className="infl-note">Aucune donnée pour cette requête. Précisez une année entre 2018 et 2025 — ex. « inflation 2022 ».</div>
+        )}
+      </div>
+      <div className="infl-resp-actions">
+        <Btn variant="secondary">Exporter CSV</Btn>
+        <Btn variant="ghost">Voir la requête API</Btn>
+      </div>
+    </div>
+  );
+}
+
+function InflEmpty({ title, desc }) {
+  return (
+    <div className="infl-empty">
+      <Icon n="line-chart" s={26} color="var(--text-tertiary)" />
+      <div className="infl-empty-t">{title}</div>
+      <div className="infl-empty-d">{desc}</div>
+    </div>
+  );
+}
+
+function InflationModule() {
+  const { Badge: Bdg, Button: Btn, StatTile, DeltaPill, SourceTag, Alert, DataTable } = window.FranceMonitorDesignSystem_5343d8;
+  const [tab, setTab] = React.useState('Aperçu');
+  const [mode, setMode] = React.useState('Glissement annuel');
+
+  return (
+    <div className="infl-wrap">
+      <div className="infl-card">
+        <div className="infl-bar">
+          <div className="infl-bar-l">
+            <span className="infl-mark"><LogoMark size={30} /></span>
+            <div>
+              <div className="infl-eyebrow">Module</div>
+              <div className="infl-mod-t">Inflation</div>
+            </div>
+            <Bdg tone="blue" dot>Officiel</Bdg>
+          </div>
+          <div className="infl-bar-r">
+            <select className="infl-sel" value={mode} onChange={(e) => setMode(e.target.value)}>
+              <option>Glissement annuel</option>
+              <option>Variation mensuelle</option>
+            </select>
+            <Btn variant="secondary" size="sm" icon={<Icon n="download" s={15} />}>Exporter</Btn>
+          </div>
+        </div>
+
+        <div className="infl-tabs">
+          {INFL_TABS.map(t => (
+            <button key={t} className={'infl-tab' + (t === tab ? ' on' : '')} onClick={() => setTab(t)}>{t}</button>
+          ))}
+        </div>
+
+        {tab === 'Aperçu' && (
+          <div className="infl-body">
+            <div className="infl-hero">
+              <div className="infl-hero-l">
+                <div className="infl-eyebrow">Indice des prix à la consommation</div>
+                <div>
+                  <div className="infl-hero-num">+1,2<span>%</span></div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 14 }}>
+                    <span className="infl-mono" style={{ fontSize: 16, fontWeight: 500, color: 'var(--text-secondary)' }}>sur un an</span>
+                    <DeltaPill value={-0.1} suffix=" pt" />
+                  </div>
+                </div>
+                <div style={{ marginTop: 6 }}><SourceTag source="INSEE" date="Mai 2026" /></div>
+              </div>
+              <div className="infl-hero-r">
+                <div className="infl-hero-rh">
+                  <div className="infl-eyebrow">Glissement annuel · % · IPC ensemble</div>
+                  <div className="infl-mono" style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>2021 — 2026</div>
+                </div>
+                <AreaChart id="infl-hero" series={[1.8, 2.8, 5.2, 6.0, 4.8, 3.5, 2.4, 1.8, 1.2]} labels={['2021', '2023', '2025', '2026']} />
+              </div>
+            </div>
+
+            <div className="infl-tiles">
+              <StatTile label="Inflation sous-jacente" value="1,6" unit="%" delta={-0.2} series={[5.0, 4.0, 2.8, 2.0, 1.6]} source="INSEE" sourceDate="2026" />
+              <StatTile label="Alimentation" value="0,4" unit="%" delta={-0.3} series={[12.0, 7.0, 3.0, 1.0, 0.4]} source="INSEE" />
+              <StatTile label="Énergie" value="-2,1" unit="%" delta={-1.4} series={[20.0, 8.0, 2.0, -1.0, -2.1]} source="INSEE" />
+              <StatTile label="IPCH (norme UE)" value="1,4" unit="%" delta={-0.1} series={[5.8, 4.5, 3.0, 1.8, 1.4]} source="Eurostat" />
+            </div>
+
+            <div style={{ marginTop: 20 }}>
+              <Alert kind="info" title="Donnée provisoire">L'indice de mai 2026 est une estimation provisoire (« flash ») ; le chiffre définitif paraîtra mi-juin dans l'Informations Rapides de l'INSEE.</Alert>
+            </div>
+          </div>
+        )}
+
+        {tab === 'Historique' && (
+          <div className="infl-body">
+            <div className="infl-eyebrow" style={{ marginBottom: 12 }}>Derniers relevés mensuels · IPC ensemble</div>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
+              <DataTable
+                columns={[
+                  { key: 'p', header: 'Mois', strong: true },
+                  { key: 'e', header: 'a/a %', align: 'right', mono: true },
+                  { key: 'g', header: 'Var.', align: 'right', mono: true },
+                  { key: 'idx', header: 'Indice', align: 'right', mono: true },
+                ]}
+                rows={[
+                  { p: 'Mai 2026', e: '+1,2', g: '-0,1', idx: '119,4' },
+                  { p: 'Avr. 2026', e: '+1,3', g: '+0,1', idx: '119,1' },
+                  { p: 'Mars 2026', e: '+1,2', g: '-0,2', idx: '118,8' },
+                  { p: 'Févr. 2026', e: '+1,4', g: '+0,1', idx: '118,5' },
+                  { p: 'Janv. 2026', e: '+1,3', g: '-0,3', idx: '118,2' },
+                ]} />
+            </div>
+            <div style={{ marginTop: 12 }}><SourceTag source="INSEE · IPC ensemble" date="Mai 2026" /></div>
+          </div>
+        )}
+
+        {tab === 'Interroger' && <InflInterroger />}
+
+        {tab === 'Postes' && <InflEmpty title="Ventilation par poste" desc="La décomposition de l'IPC par poste de consommation (alimentation, énergie, services, produits manufacturés…) sera disponible à la connexion de l'API INSEE BDM." />}
+        {tab === 'Départements' && <InflEmpty title="Comparaison territoriale" desc="Comparaison de l'inflation par département / région. Source : IPC régionalisé INSEE — repli sur le niveau régional là où le détail départemental n'est pas publié." />}
+        {tab === 'Comparaison UE' && <InflEmpty title="Comparaison zone euro" desc="Comparaison de l'IPCH (indice harmonisé) avec les autres pays de la zone euro. Source : Eurostat — prc_hicp_manr." />}
+      </div>
+    </div>
+  );
+}
+
 function Dashboard({ variant, go }) {
   const [module, setModule] = React.useState('dette');
   return (
@@ -1167,8 +1461,10 @@ function Dashboard({ variant, go }) {
       <div className="db-main">
         <DashTopBar go={go} />
         {variant === 'modules'
-          ? <div className="db-scroll"><ModulesView onOpenModule={() => setModule('dette')} /></div>
-          : <TerminalView module={module} />}
+          ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>
+          : module === 'inflation'
+            ? <div className="db-scroll"><InflationModule /></div>
+            : <TerminalView module={module} />}
       </div>
     </div>
   );

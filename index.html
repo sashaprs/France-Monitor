@@ -131,8 +131,8 @@ a{text-decoration:none}
 
 /* Hero visual card */
 .ln-herovis-wrap{position:relative}
-.ln-herovis{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-xl);box-shadow:0 0 0 1px rgba(255,255,255,.04),0 24px 64px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.1);padding:22px;transition:box-shadow .35s var(--ease-out),transform .35s var(--ease-out)}
-.ln-herovis:hover{box-shadow:0 0 0 1px rgba(79,142,247,.25),0 32px 80px rgba(0,0,0,.6),0 0 70px rgba(79,142,247,.12),inset 0 1px 0 rgba(255,255,255,.12);transform:translateY(-6px)}
+.ln-herovis{background:transparent;border:none;border-radius:var(--radius-xl);padding:22px;transition:transform .35s var(--ease-out)}
+.ln-herovis:hover{transform:translateY(-6px)}
 .ln-hv-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 .ln-hv-lbl{font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:rgba(255,255,255,.35)}
 
@@ -970,7 +970,7 @@ function Hero({ go }) {
             <Icon n="circle-check-big" s={14} />
             Données publiques · 100 % officielles
           </span>
-          <h1 className="ln-h1">Le terminal des données <span className="accent">publiques françaises</span>.</h1>
+          <h1 className="ln-h1">Le terminal des données <span className="accent">publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
           <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
@@ -1055,7 +1055,6 @@ function SectionSteps() {
       </div>
       <div className="ln-steps-section" style={{ marginTop: 40 }}>
         <div className="ln-steps">
-          <div className="ln-step-connector" />
           {STEPS_LAND.map((s, i) => (
             <div className={`ln-step reveal${inView ? ' in-view' : ''}`} key={s.n} style={{'--i': i + 1}}>
               <div className="ln-step-n">{s.n}</div>

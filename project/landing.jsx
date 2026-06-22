@@ -158,7 +158,7 @@ function Hero({ go }) {
             <Icon n="circle-check-big" s={14} />
             Données publiques · 100 % officielles
           </span>
-          <h1 className="ln-h1">Le terminal des données <span className="accent">publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
+          <h1 className="ln-h1">Le terminal des données <span style={{color:'#fff'}}>publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
           <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>

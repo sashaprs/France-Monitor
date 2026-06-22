@@ -103,7 +103,7 @@ a{text-decoration:none}
 .ln-nav-cta{margin-left:auto;display:flex;gap:8px;align-items:center}
 
 /* Hero */
-.ln-hero-wrap{position:relative;overflow:hidden;padding:0}
+.ln-hero-wrap{position:relative;overflow:visible;padding:0}
 .ln-hero-blobs{position:absolute;inset:0;pointer-events:none;z-index:0}
 .ln-blob{position:absolute;border-radius:50%;filter:blur(100px);opacity:.42}
 .ln-blob.b1{width:580px;height:580px;background:radial-gradient(circle,#1B43C4 0%,transparent 70%);top:-200px;left:-140px;animation:lnblob1 18s ease-in-out infinite}
@@ -970,7 +970,7 @@ function Hero({ go }) {
             <Icon n="circle-check-big" s={14} />
             Données publiques · 100 % officielles
           </span>
-          <h1 className="ln-h1">Le terminal des données <span className="accent">publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
+          <h1 className="ln-h1">Le terminal des données <span style={{color:'#fff'}}>publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
           <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>

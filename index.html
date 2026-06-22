@@ -3508,6 +3508,10 @@ function AssembleeModule() {
 /* ============================================================
    SHARED HELPERS (Sénat / Partis / Personnalités)
    ============================================================ */
+function SourceTag(props) {
+  const C = window.FranceMonitorDesignSystem_5343d8 && window.FranceMonitorDesignSystem_5343d8.SourceTag;
+  return C ? React.createElement(C, props) : null;
+}
 function hexRgba(hex, a) {
   const h = hex.replace('#','');
   const r = parseInt(h.slice(0,2),16), g = parseInt(h.slice(2,4),16), b = parseInt(h.slice(4,6),16);
@@ -3568,7 +3572,7 @@ function buildSenatSeats() {
   for (let row = 0; row < ROWS; row++) {
     const t = row / (ROWS - 1);
     const r = rI + (rO - rI) * t;
-    const seatsInRow = Math.round(16 + 20 * t);
+    const seatsInRow = Math.round(22 + 20 * t);
     const spanAng = Math.PI * 0.92;
     const startAng = Math.PI + (Math.PI - spanAng) / 2;
     for (let s = 0; s < seatsInRow; s++) {

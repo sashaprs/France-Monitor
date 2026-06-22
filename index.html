@@ -4011,7 +4011,7 @@ function SenatModule() {
 
       <div style={{ display:'grid', gridTemplateColumns:'1fr 320px', gap:20, marginBottom:20 }}>
         {/* Hemicycle */}
-        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px 16px' }}>
+        <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'20px 16px' }}>
           <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:16 }}>Composition</div>
           <SenatHemicycle seats={seats} hoveredGroup={hoveredGroup} onHoverGroup={setHoveredGroup} />
           {hovered && (
@@ -4022,7 +4022,7 @@ function SenatModule() {
         </div>
 
         {/* Groups list */}
-        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+        <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
           <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:12 }}>Groupes politiques</div>
           {SENAT_GROUPS.map(g => {
             const pct = (g.seats / SENAT_TOTAL * 100).toFixed(1);
@@ -4047,7 +4047,7 @@ function SenatModule() {
       </div>
 
       {/* Next vote intentions */}
-      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px', marginBottom:20 }}>
+      <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'20px', marginBottom:20 }}>
         <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:4 }}>Prochain vote — intentions de vote</div>
         <div style={{ fontSize:12, color:'var(--text-tertiary)', marginBottom:16 }}>Projet de loi de programme de recherche · Positions déclarées par groupe</div>
 
@@ -4096,7 +4096,7 @@ function SenatModule() {
       </div>
 
       {/* Scrutins */}
-      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px' }}>
+      <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'20px' }}>
         <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:14 }}>Derniers scrutins publics</div>
         <table style={{ width:'100%', borderCollapse:'collapse' }}>
           <thead>
@@ -4363,7 +4363,7 @@ function PartiCard({ parti, onClick }) {
       onClick={() => onClick(parti.id)}
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
-      style={{ background:'white', borderRadius:'var(--radius)', border:`1px solid ${hov ? parti.color : 'var(--border-subtle)'}`, padding:'18px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 16px rgba(0,0,0,0.08)' : 'none' }}>
+      style={{ background:'white', borderRadius:'var(--radius-lg)', border:`1px solid ${hov ? parti.color : 'var(--border-subtle)'}`, padding:'18px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 16px rgba(0,0,0,0.08)' : 'none' }}>
       <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:14 }}>
         <div style={{ width:44, height:44, borderRadius:10, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.25)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
           <span style={{ fontSize:13, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
@@ -4400,7 +4400,7 @@ function PartiDetail({ parti, onBack }) {
       </div>
 
       {/* Hero */}
-      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:20 }}>
+      <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:20 }}>
         <div style={{ display:'flex', alignItems:'flex-start', gap:20 }}>
           <div style={{ width:64, height:64, borderRadius:14, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.3)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
             <span style={{ fontSize:18, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
@@ -4431,13 +4431,13 @@ function PartiDetail({ parti, onBack }) {
         {/* LEFT COL */}
         <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
           {/* Bio */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Présentation</Eyebrow>
             <p style={{ margin:0, fontSize:13, color:'var(--text-secondary)', lineHeight:1.7 }}>{parti.bio}</p>
           </div>
 
           {/* Timeline */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Histoire</Eyebrow>
             <div style={{ position:'relative', paddingLeft:20 }}>
               <div style={{ position:'absolute', left:6, top:6, bottom:6, width:2, background:'var(--border-subtle)', borderRadius:99 }} />
@@ -4452,7 +4452,7 @@ function PartiDetail({ parti, onBack }) {
           </div>
 
           {/* Votes */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Votes récents</Eyebrow>
             <table style={{ width:'100%', borderCollapse:'collapse' }}>
               <thead>
@@ -4484,7 +4484,7 @@ function PartiDetail({ parti, onBack }) {
         {/* RIGHT COL */}
         <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
           {/* Direction */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Direction</Eyebrow>
             {parti.figures.map((f,i) => (
               <div key={i} style={{ display:'flex', alignItems:'center', gap:10, padding:'8px 0', borderBottom: i < parti.figures.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
@@ -4500,7 +4500,7 @@ function PartiDetail({ parti, onBack }) {
           </div>
 
           {/* Deputies */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Personnalités notables</Eyebrow>
             <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>
               {parti.deputies.map((d,i) => (
@@ -4510,7 +4510,7 @@ function PartiDetail({ parti, onBack }) {
           </div>
 
           {/* News */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Actualités</Eyebrow>
             {parti.news.map((n,i) => (
               <div key={i} style={{ padding:'9px 0', borderBottom: i < parti.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
@@ -4923,7 +4923,7 @@ function PPDetailA({ f }) {
   return (
     <div>
       {/* Hero */}
-      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:16, display:'flex', alignItems:'flex-start', gap:20 }}>
+      <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:16, display:'flex', alignItems:'flex-start', gap:20 }}>
         <PPMonogram f={f} size={72} />
         <div style={{ flex:1 }}>
           <div style={{ fontSize:20, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
@@ -4941,7 +4941,7 @@ function PPDetailA({ f }) {
       {f.bilan && <BilanGrid bilan={f.bilan} />}
       {/* News + votes */}
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
-        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+        <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
           <Eyebrow>Actualités récentes</Eyebrow>
           {f.news.map((n,i) => (
             <div key={i} style={{ padding:'8px 0', borderBottom: i < f.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
@@ -4951,7 +4951,7 @@ function PPDetailA({ f }) {
           ))}
         </div>
         {f.votes && f.votes.length > 0 && (
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
             <Eyebrow>Votes récents</Eyebrow>
             <PPTimeline items={f.votes} />
           </div>
@@ -4963,7 +4963,7 @@ function PPDetailA({ f }) {
 
 function PPDetailB({ f }) {
   return (
-    <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', overflow:'hidden' }}>
+    <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', overflow:'hidden' }}>
       {/* Header bar */}
       <div style={{ background:f.color, padding:'12px 18px', display:'flex', alignItems:'center', gap:14 }}>
         <PPMonogram f={f} size={40} />
@@ -5020,7 +5020,7 @@ function PPDetailC({ f }) {
       <div style={{ display:'grid', gridTemplateColumns:'280px 1fr', gap:16 }}>
         {/* Identity card */}
         <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px', textAlign:'center' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'20px', textAlign:'center' }}>
             <PPMonogram f={f} size={80} />
             <div style={{ marginTop:12, fontSize:16, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
             <div style={{ fontSize:12, color:'var(--text-secondary)', marginTop:4 }}>{f.role}</div>
@@ -5031,7 +5031,7 @@ function PPDetailC({ f }) {
             </div>
             {f.president && <div style={{ marginTop:10 }}><PPCrest term={f.president.term} /></div>}
           </div>
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
             <Eyebrow>Biographie</Eyebrow>
             <p style={{ margin:0, fontSize:11, color:'var(--text-secondary)', lineHeight:1.7 }}>{f.bio}</p>
           </div>
@@ -5041,13 +5041,13 @@ function PPDetailC({ f }) {
         <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
           {/* Bilan */}
           {f.bilan && (
-            <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+            <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
               <Eyebrow>Bilan</Eyebrow>
               <BilanGrid bilan={f.bilan} />
             </div>
           )}
           {/* News */}
-          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
             <Eyebrow>Actualités</Eyebrow>
             {f.news.map((n,i) => (
               <div key={i} style={{ padding:'7px 0', borderBottom: i < f.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
@@ -5058,7 +5058,7 @@ function PPDetailC({ f }) {
           </div>
           {/* Votes */}
           {f.votes && f.votes.length > 0 && (
-            <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+            <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
               <Eyebrow>Votes</Eyebrow>
               <PPTimeline items={f.votes} />
             </div>
@@ -5102,7 +5102,7 @@ function PPCard({ f, onClick }) {
   const [hov, setHov] = React.useState(false);
   return (
     <div onClick={() => onClick(f.id)} onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}
-      style={{ background:'white', borderRadius:'var(--radius)', border:`1px solid ${hov ? f.color : 'var(--border-subtle)'}`, padding:'16px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 14px rgba(0,0,0,0.07)' : 'none', position:'relative' }}>
+      style={{ background:'white', borderRadius:'var(--radius-lg)', border:`1px solid ${hov ? f.color : 'var(--border-subtle)'}`, padding:'16px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 14px rgba(0,0,0,0.07)' : 'none', position:'relative' }}>
       {/* Rank badge */}
       <div style={{ position:'absolute', top:10, right:10, width:22, height:22, borderRadius:99, background: f.rank <= 3 ? f.color : 'var(--gray-100)', display:'flex', alignItems:'center', justifyContent:'center' }}>
         <span style={{ fontSize:10, fontWeight:800, color: f.rank <= 3 ? 'white' : 'var(--text-tertiary)' }}>{f.rank}</span>

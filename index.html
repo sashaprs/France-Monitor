@@ -3824,9 +3824,33 @@ function ANVotes() {
   );
 }
 
+function useANScrutins() {
+  const [state, setState] = React.useState({ loading: true, scrutins: [], updatedAt: null });
+  React.useEffect(() => {
+    fetch('/data/scrutins.json')
+      .then(r => r.json())
+      .then(d => setState({ loading: false, scrutins: d.scrutins || [], updatedAt: d.updatedAt }))
+      .catch(() => setState({ loading: false, scrutins: [], updatedAt: null }));
+  }, []);
+  return state;
+}
+
+function useANAgenda() {
+  const [state, setState] = React.useState({ loading: true, reunions: [], updatedAt: null });
+  React.useEffect(() => {
+    fetch('/data/agenda.json')
+      .then(r => r.json())
+      .then(d => setState({ loading: false, reunions: d.reunions || [], updatedAt: d.updatedAt }))
+      .catch(() => setState({ loading: false, reunions: [], updatedAt: null }));
+  }, []);
+  return state;
+}
+
 function AssembleeModule() {
   const { SourceTag } = window.FranceMonitorDesignSystem_5343d8;
   const [hovered, setHovered] = React.useState(null);
+  const { loading: scrutinsLoading, scrutins, updatedAt } = useANScrutins();
+  const { loading: agendaLoading, reunions } = useANAgenda();
 
   return (
     <div style={{ maxWidth:1480, margin:'0 auto', padding:'36px 24px 64px' }}>
@@ -3873,9 +3897,59 @@ function AssembleeModule() {
       <div style={{ marginTop:22, border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
         <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)' }}>
           <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Dernières réformes votées</div>
-          <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>Source : Assemblée nationale · scrutins publics</span>
+          {updatedAt && <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>Mis à jour {new Date(updatedAt).toLocaleString('fr-FR', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' })}</span>}
         </div>
-        <ANVotes />
+        {scrutinsLoading ? (
+          <div style={{ padding:'24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+            Chargement des scrutins…
+          </div>
+        ) : scrutins.length === 0 ? (
+          <div style={{ padding:'24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+            Aucun scrutin disponible — les données sont mises à jour toutes les heures.
+          </div>
+        ) : scrutins.slice(0, 6).map((s, i) => {
+          const tot = (s.pour || 0) + (s.contre || 0);
+          const ok = (s.sort || '').toLowerCase().includes('adopt');
+          return (
+            <div key={s.numero} style={{ display:'grid', gridTemplateColumns:'90px 1fr 150px 96px', gap:16, alignItems:'center', padding:'14px 18px', borderBottom: i < 5 ? '1px solid var(--border-subtle)' : 'none' }}>
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{s.date}</span>
+              <span style={{ fontFamily:'var(--font-sans)', fontSize:14, fontWeight:600, color:'var(--ink)' }}>{s.titre}</span>
+              <div style={{ display:'flex', flexDirection:'column', gap:4 }}>
+                <div style={{ display:'flex', height:8, borderRadius:4, overflow:'hidden', background:'var(--gray-100)' }}>
+                  {tot > 0 && <>
+                    <div style={{ width:((s.pour||0)/tot*100)+'%', background:'var(--pos)' }} />
+                    <div style={{ width:((s.contre||0)/tot*100)+'%', background:'var(--neg)' }} />
+                  </>}
+                </div>
+                <div style={{ display:'flex', justifyContent:'space-between', fontFamily:'var(--font-mono)', fontSize:11 }}>
+                  <span style={{ color:'var(--pos)', fontWeight:600 }}>{s.pour} pour</span>
+                  <span style={{ color:'var(--neg)', fontWeight:600 }}>{s.contre} contre</span>
+                </div>
+              </div>
+              <span style={{ justifySelf:'end', fontFamily:'var(--font-sans)', fontSize:11.5, fontWeight:600, color: ok ? 'var(--pos)' : 'var(--neg)', background: ok ? 'var(--green-50)' : 'var(--red-50)', padding:'4px 11px', borderRadius:999 }}>{s.sort}</span>
+            </div>
+          );
+        })}
+      </div>
+
+      <div style={{ marginTop:22, border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)' }}>
+          <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Agenda — réunions à venir</div>
+          {updatedAt && <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>Mis à jour {new Date(updatedAt).toLocaleString('fr-FR', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' })}</span>}
+        </div>
+        {agendaLoading ? (
+          <div style={{ padding:'24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement de l'agenda…</div>
+        ) : reunions.filter(r => new Date(r.dateDebut) >= new Date()).slice(0, 8).length === 0 ? (
+          <div style={{ padding:'24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Aucune réunion à venir dans les données disponibles.</div>
+        ) : reunions.filter(r => new Date(r.dateDebut) >= new Date()).slice(0, 8).map((r, i, arr) => (
+          <div key={r.uid || i} style={{ display:'grid', gridTemplateColumns:'120px 1fr 140px', gap:16, alignItems:'center', padding:'12px 18px', borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none' }}>
+            <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>
+              {new Date(r.dateDebut).toLocaleString('fr-FR', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' })}
+            </span>
+            <span style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:600, color:'var(--ink)' }}>{r.titre || 'Réunion sans titre'}</span>
+            <span style={{ fontFamily:'var(--font-sans)', fontSize:11, color:'var(--text-secondary)', textAlign:'right' }}>{r.lieu || ''}</span>
+          </div>
+        ))}
       </div>
 
       <div style={{ marginTop:16 }}>

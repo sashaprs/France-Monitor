@@ -1,12 +1,18 @@
-// landing.jsx — marketing landing page with hero variants
-const { Button, Badge } = window.FranceMonitorDesignSystem_5343d8;
+// landing.jsx — marketing landing page
+const { Button } = window.FranceMonitorDesignSystem_5343d8;
+
 const VALUES_LAND = { '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 };
 const SOURCES_LAND = ['INSEE','Banque de France','data.gouv.fr','DGFiP','Assemblée nationale','Sénat','Ministère de l\'Intérieur','Ministère de l\'Économie'];
+
 const FEATURES_LAND = [
-  { icon:'map', t:'Carte interactive', d:"Explorez la France région par région. Couches activables, points d'intérêt, choroplèthes dynamiques." },
-  { icon:'shield-check', t:'Sources officielles uniquement', d:"INSEE, Banque de France, ministères, data.gouv.fr. Aucune donnée non vérifiée." },
-  { icon:'git-branch', t:'Traçabilité totale', d:"Chaque indicateur affiche son origine et sa date de référence, vérifiable jusqu'au producteur." },
+  { icon:'map', t:'Carte interactive', d:"Explorez la France région par région. Couches activables, choroplèthes dynamiques, zoom département." },
+  { icon:'shield-check', t:'Sources officielles', d:"INSEE, Banque de France, ministères, data.gouv.fr. Aucune donnée non vérifiée." },
+  { icon:'git-branch', t:'Traçabilité totale', d:"Chaque indicateur documente son origine jusqu'au producteur, avec date de référence." },
+  { icon:'trending-up', t:'Indicateurs macro', d:"PIB, inflation, dette, emploi, balance commerciale — suivis en continu." },
+  { icon:'download', t:'Export structuré', d:"CSV et PDF avec métadonnées sources incluses. Prêt pour vos présentations." },
+  { icon:'bell', t:'Alertes personnalisées', d:"Notification dès qu'un indicateur franchit un seuil que vous définissez." },
 ];
+
 const USERS_LAND = [
   { icon:'line-chart', n:'Analystes & investisseurs', d:'Suivre les indicateurs macro et territoriaux en temps réel.' },
   { icon:'newspaper', n:'Journalistes', d:'Sourcer des chiffres fiables et tracés en quelques secondes.' },
@@ -14,13 +20,73 @@ const USERS_LAND = [
   { icon:'landmark', n:'Collectivités & administrations', d:'Comparer sa région aux moyennes nationales.' },
 ];
 
+const STATS_LAND = [
+  { n:'100+', label:'Indicateurs', sub:'macro, territoriaux, sectoriels' },
+  { n:'8', label:'Sources officielles', sub:'toutes tracées et vérifiées' },
+  { n:'96', label:'Territoires', sub:'départements et régions couverts' },
+  { n:'10 ans', label:'Historique', sub:'de recul sur chaque indicateur' },
+];
+
+const TESTIMONIALS_LAND = [
+  { q:"France Monitor m'a économisé des heures de sourcing par semaine. Je cite les chiffres directement avec la source officielle — aucune double vérification manuelle.", name:"Claire Fontaine", role:"Journaliste économique", org:"Le Monde", init:"CF" },
+  { q:"Pour nos missions de conseil territorial, c'est devenu le premier réflexe. La profondeur des données départementales et la carte interactive sont vraiment différenciantes.", name:"Thomas Renard", role:"Directeur associé", org:"Roland Berger", init:"TR" },
+  { q:"En tant qu'analyste macro, la traçabilité est non-négociable. France Monitor est le seul outil qui documente chaque donnée jusqu'à l'organisme producteur original.", name:"Sophie Lecomte", role:"Analyste senior", org:"Société Générale CIB", init:"SL" },
+];
+
+const PRICING_LAND = [
+  {
+    name:"Découverte", price:"Gratuit", period:"", sub:"Pour explorer le terminal", highlight:false, badge:null, ctaVariant:"secondary", cta:"Créer un compte",
+    features:["5 indicateurs au choix","Carte interactive nationale","Sources officielles liées","Mise à jour mensuelle"],
+  },
+  {
+    name:"Analyste", price:"29€", period:"/mois", sub:"Pour les professionnels", highlight:true, badge:"Le plus populaire", ctaVariant:"primary", cta:"Commencer — 14 jours gratuits",
+    features:["Tous les indicateurs disponibles","Carte interactive complète","Export CSV & PDF avec sources","Alertes par e-mail","Historique sur 10 ans","Mise à jour en temps réel"],
+  },
+  {
+    name:"Institution", price:"Sur devis", period:"", sub:"Pour les équipes & organismes", highlight:false, badge:null, ctaVariant:"secondary", cta:"Nous contacter",
+    features:["Tout le plan Analyste","Multi-utilisateurs illimités","API REST documentée","SSO / SAML","Support prioritaire dédié","SLA garanti 99,9 %"],
+  },
+];
+
+const FAQ_LAND = [
+  { q:"D'où proviennent les données ?", a:"Exclusivement de sources officielles françaises : INSEE, Banque de France, DGFiP, data.gouv.fr, Assemblée nationale, Sénat et ministères. Chaque indicateur affiche sa source et sa date de référence, vérifiable jusqu'au producteur original." },
+  { q:"Les données sont-elles mises à jour en temps réel ?", a:"La fréquence dépend de l'indicateur. Certaines données (taux, marchés obligataires) sont quotidiennes, d'autres trimestrielles ou annuelles — comme les publie leur organisme producteur. La date de dernière mise à jour est toujours visible." },
+  { q:"Puis-je exporter les données pour mes analyses ?", a:"Oui, à partir du plan Analyste. Chaque indicateur peut être exporté en CSV ou PDF, avec les métadonnées et références sources incluses pour garantir la traçabilité." },
+  { q:"France Monitor est-il adapté aux administrations publiques ?", a:"Oui. Le plan Institution inclut SSO/SAML, accès multi-utilisateurs et une API REST documentée. Nous accompagnons déjà plusieurs collectivités territoriales et organismes publics." },
+  { q:"Y a-t-il un engagement minimum ?", a:"Non. Le plan Analyste est mensuel, sans engagement, résiliable à tout moment. Le plan Institution est sur devis annuel, avec une période d'essai négociable selon vos besoins." },
+];
+
+const STEPS_LAND = [
+  { n:'01', t:'Choisissez un territoire', d:"Cliquez sur la carte ou recherchez un département, une région ou la France entière." },
+  { n:'02', t:'Sélectionnez vos indicateurs', d:"PIB, emploi, démographie, énergie — plus de 100 indicateurs officiels disponibles." },
+  { n:'03', t:'Analysez et exportez', d:"Comparez, créez des alertes, exportez avec les sources en un clic." },
+];
+
+function useReveal() {
+  const ref = React.useRef(null);
+  const [inView, setInView] = React.useState(false);
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { setInView(true); obs.disconnect(); }
+    }, { threshold: 0.1 });
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+  return [ref, inView];
+}
+
 function LandingNav({ go }) {
   return (
     <div className="ln-nav">
       <div className="ln-nav-in">
         <BrandLogo size={26} />
         <div className="ln-links">
-          <a href="#features">Modules</a><a href="#sources">Sources</a><a href="#pos">Positionnement</a><a href="#users">Pour qui</a>
+          <a href="#features">Modules</a>
+          <a href="#sources">Sources</a>
+          <a href="#pricing">Tarifs</a>
+          <a href="#users">Pour qui</a>
         </div>
         <div className="ln-nav-cta">
           <Button variant="ghost" size="sm" onClick={() => go('login')}>Se connecter</Button>
@@ -61,7 +127,6 @@ function Hero({ variant, go }) {
       <span className="ln-not"><Icon n="check" s={15} /> France entière</span>
     </div>
   );
-
   if (variant === 'centered') {
     return (
       <div className="ln-hero-centered">
@@ -90,11 +155,172 @@ function Hero({ variant, go }) {
       </div>
     );
   }
-  // split (default)
   return (
     <div className="ln-hero">
       <div>{eyebrow}{title}{lead}{ctas}{nots}</div>
       <HeroVisual height={360} />
+    </div>
+  );
+}
+
+function SourcesMarquee() {
+  const doubled = [...SOURCES_LAND, ...SOURCES_LAND];
+  return (
+    <div className="ln-sources" id="sources">
+      <div className="ln-src-eyebrow">Sources exclusivement officielles</div>
+      <div className="ln-marquee-wrap">
+        <div className="ln-marquee" aria-hidden="true">
+          {doubled.map((s, i) => (
+            <span className="ln-src" key={i}>{s}</span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function StatBar() {
+  const [ref, inView] = useReveal();
+  return (
+    <div ref={ref} className="ln-stats">
+      {STATS_LAND.map((s, i) => (
+        <div key={s.label} className={`ln-stat reveal${inView ? ' in-view' : ''}`} style={{'--i': i}}>
+          <div className="ln-stat-n">{s.n}</div>
+          <div className="ln-stat-l">{s.label}</div>
+          <div className="ln-stat-s">{s.sub}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SectionFeatures() {
+  const [ref, inView] = useReveal();
+  return (
+    <div className="ln-section" id="features" ref={ref}>
+      <div className={`reveal${inView ? ' in-view' : ''}`}>
+        <div className="ln-eyebrow">Pourquoi France Monitor</div>
+        <h2 className="ln-sec-title">La fiabilité au cœur du produit</h2>
+        <p className="ln-sec-sub">Un terminal de données décisionnelles qui combine la puissance d'un Bloomberg, la précision d'une plateforme géospatiale et la fiabilité de la donnée publique française.</p>
+      </div>
+      <div className="ln-feat ln-feat-6">
+        {FEATURES_LAND.map((f, i) => (
+          <div className={`ln-fcard reveal${inView ? ' in-view' : ''}`} key={f.t} style={{'--i': i + 1}}>
+            <div className="ln-ficon"><Icon n={f.icon} s={20} /></div>
+            <div className="ln-ftitle">{f.t}</div>
+            <div className="ln-ftext">{f.d}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SectionSteps() {
+  const [ref, inView] = useReveal();
+  return (
+    <div className="ln-section ln-steps-section" ref={ref}>
+      <div className={`reveal${inView ? ' in-view' : ''}`}>
+        <div className="ln-eyebrow">Comment ça marche</div>
+        <h2 className="ln-sec-title">Opérationnel en trois étapes</h2>
+      </div>
+      <div className="ln-steps">
+        {STEPS_LAND.map((s, i) => (
+          <div className={`reveal${inView ? ' in-view' : ''}`} key={s.n} style={{'--i': i + 1}}>
+            <div className="ln-step-n">{s.n}</div>
+            <div className="ln-step-t">{s.t}</div>
+            <div className="ln-step-d">{s.d}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SectionTestimonials() {
+  const [ref, inView] = useReveal();
+  return (
+    <div className="ln-section" ref={ref}>
+      <div className={`reveal${inView ? ' in-view' : ''}`}>
+        <div className="ln-eyebrow">Ce qu'ils en disent</div>
+        <h2 className="ln-sec-title">Utilisé par des professionnels exigeants</h2>
+      </div>
+      <div className="ln-testimonials">
+        {TESTIMONIALS_LAND.map((t, i) => (
+          <div className={`ln-tcard reveal${inView ? ' in-view' : ''}`} key={t.name} style={{'--i': i + 1}}>
+            <span className="ln-tquote-mark">"</span>
+            <p className="ln-tquote">{t.q}</p>
+            <div className="ln-tauthor">
+              <div className="ln-tavatar">{t.init}</div>
+              <div>
+                <div className="ln-tname">{t.name}</div>
+                <div className="ln-trole">{t.role} · <span className="ln-torg">{t.org}</span></div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SectionPricing({ go }) {
+  const [ref, inView] = useReveal();
+  return (
+    <div className="ln-section" id="pricing" ref={ref}>
+      <div className={`reveal${inView ? ' in-view' : ''}`}>
+        <div className="ln-eyebrow">Tarification</div>
+        <h2 className="ln-sec-title">Simple et transparent</h2>
+        <p className="ln-sec-sub">Commencez gratuitement, évoluez selon vos besoins. Aucun engagement, résiliable à tout moment.</p>
+      </div>
+      <div className="ln-pricing">
+        {PRICING_LAND.map((p, i) => (
+          <div className={`ln-pcard${p.highlight ? ' featured' : ''} reveal${inView ? ' in-view' : ''}`} key={p.name} style={{'--i': i + 1}}>
+            {p.badge && <div className="ln-pbadge">{p.badge}</div>}
+            <div className="ln-pname">{p.name}</div>
+            <div className="ln-psub">{p.sub}</div>
+            <div className="ln-pprice">
+              <span className="ln-pprice-n">{p.price}</span>
+              {p.period && <span className="ln-pprice-per">{p.period}</span>}
+            </div>
+            <ul className="ln-pfeatures">
+              {p.features.map(f => (
+                <li key={f}>
+                  <span className="ln-pcheck"><Icon n="check" s={14} /></span>
+                  {f}
+                </li>
+              ))}
+            </ul>
+            <div className="ln-pmt">
+              <Button variant={p.ctaVariant} size="lg" fullWidth onClick={() => go('signup')}>{p.cta}</Button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SectionFAQ() {
+  const [open, setOpen] = React.useState(null);
+  const [ref, inView] = useReveal();
+  return (
+    <div className="ln-section" ref={ref}>
+      <div className={`reveal${inView ? ' in-view' : ''}`}>
+        <div className="ln-eyebrow">Questions fréquentes</div>
+        <h2 className="ln-sec-title">Tout ce que vous devez savoir</h2>
+      </div>
+      <div className="ln-faq">
+        {FAQ_LAND.map((item, i) => (
+          <div className={`ln-faq-item reveal${inView ? ' in-view' : ''}`} key={i} style={{'--i': i + 1}}>
+            <button className={`ln-faq-q${open === i ? ' open' : ''}`} onClick={() => setOpen(open === i ? null : i)}>
+              {item.q}
+              <span className="ln-faq-icon"><Icon n={open === i ? 'minus' : 'plus'} s={17} /></span>
+            </button>
+            {open === i && <div className="ln-faq-a">{item.a}</div>}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -105,26 +331,10 @@ function Landing({ heroVariant, go }) {
       <LandingNav go={go} />
       <div className="ln-wrap">
         <Hero variant={heroVariant} go={go} />
+        <SourcesMarquee />
+        <StatBar />
 
-        <div className="ln-sources" id="sources">
-          <div className="ln-src-h">Des sources exclusivement officielles</div>
-          <div className="ln-src-row">{SOURCES_LAND.map(s => <span className="ln-src" key={s}>{s}</span>)}</div>
-        </div>
-
-        <div className="ln-section" id="features">
-          <div className="ln-eyebrow">Pourquoi France Monitor</div>
-          <h2 className="ln-sec-title">La fiabilité au cœur du produit</h2>
-          <p className="ln-sec-sub">Un terminal de données décisionnelles qui combine un terminal Bloomberg, une plateforme géospatiale et un moteur de données publiques.</p>
-          <div className="ln-feat">
-            {FEATURES_LAND.map(f => (
-              <div className="ln-fcard" key={f.t}>
-                <div className="ln-ficon"><Icon n={f.icon} s={20} /></div>
-                <div className="ln-ftitle">{f.t}</div>
-                <div className="ln-ftext">{f.d}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <SectionFeatures />
 
         <div className="ln-section" id="pos" style={{ paddingTop: 0 }}>
           <div className="ln-eyebrow">Positionnement</div>
@@ -135,6 +345,11 @@ function Landing({ heroVariant, go }) {
             <div className="ln-poscard yes"><div className="ln-pos-k">✓ UN TERMINAL</div><div className="ln-pos-t">Un terminal de données décisionnelles</div><div className="ln-pos-d">Explorer et analyser la France à travers ses indicateurs officiels.</div></div>
           </div>
         </div>
+
+        <SectionSteps />
+        <SectionTestimonials />
+        <SectionPricing go={go} />
+        <SectionFAQ />
 
         <div className="ln-section" id="users" style={{ paddingTop: 0 }}>
           <div className="ln-eyebrow">Pour qui</div>
@@ -161,6 +376,12 @@ function Landing({ heroVariant, go }) {
 
         <div className="ln-foot">
           <BrandLogo size={22} />
+          <div className="ln-foot-links">
+            <a href="#features">Modules</a>
+            <a href="#pricing">Tarifs</a>
+            <a href="#sources">Sources</a>
+            <a href="#users">Pour qui</a>
+          </div>
           <span className="ln-meta">© 2026 France Monitor · Données publiques officielles · Licence Ouverte</span>
         </div>
       </div>

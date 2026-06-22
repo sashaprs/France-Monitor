@@ -1,4 +1,4 @@
-// landing.jsx — marketing landing page
+// landing.jsx — marketing landing page (dark theme)
 const { Button } = window.FranceMonitorDesignSystem_5343d8;
 
 const VALUES_LAND = { '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 };
@@ -70,18 +70,41 @@ function useReveal() {
     if (!el) return;
     const obs = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) { setInView(true); obs.disconnect(); }
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08 });
     obs.observe(el);
     return () => obs.disconnect();
   }, []);
   return [ref, inView];
 }
 
+function AnimCounter({ target, inView }) {
+  const [display, setDisplay] = React.useState('0');
+  React.useEffect(() => {
+    if (!inView) return;
+    const raw = target.replace(/[^0-9]/g, '');
+    if (!raw) { setDisplay(target); return; }
+    const num = parseInt(raw, 10);
+    const suffix = target.replace(/[0-9]/g, '');
+    let start = null;
+    const dur = 1400;
+    const raf = (ts) => {
+      if (!start) start = ts;
+      const p = Math.min((ts - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      setDisplay(Math.floor(eased * num) + suffix);
+      if (p < 1) requestAnimationFrame(raf);
+      else setDisplay(target);
+    };
+    requestAnimationFrame(raf);
+  }, [inView, target]);
+  return display;
+}
+
 function LandingNav({ go }) {
   return (
     <div className="ln-nav">
       <div className="ln-nav-in">
-        <BrandLogo size={26} />
+        <BrandLogo size={26} mono />
         <div className="ln-links">
           <a href="#features">Modules</a>
           <a href="#sources">Sources</a>
@@ -89,7 +112,10 @@ function LandingNav({ go }) {
           <a href="#users">Pour qui</a>
         </div>
         <div className="ln-nav-cta">
-          <Button variant="ghost" size="sm" onClick={() => go('login')}>Se connecter</Button>
+          <button onClick={() => go('login')} style={{ background:'none',border:'none',cursor:'pointer',fontFamily:'var(--font-sans)',fontSize:14,fontWeight:600,color:'rgba(255,255,255,.65)',padding:'8px 14px',borderRadius:'var(--radius-md)',transition:'color .18s' }}
+            onMouseEnter={e=>e.target.style.color='#fff'} onMouseLeave={e=>e.target.style.color='rgba(255,255,255,.65)'}>
+            Se connecter
+          </button>
           <Button variant="primary" size="sm" onClick={() => go('signup')}>Créer un compte</Button>
         </div>
       </div>
@@ -100,65 +126,56 @@ function LandingNav({ go }) {
 function HeroVisual({ height = 360 }) {
   const { FranceMap, Badge } = window.FranceMonitorDesignSystem_5343d8;
   return (
-    <div className="ln-herovis">
-      <div className="ln-hv-top">
-        <span className="ln-hv-lbl">Indicateur · Densité de PME</span>
-        <Badge tone="blue" dot>Officiel</Badge>
+    <div className="ln-herovis-wrap">
+      <div className="ln-herovis">
+        <div className="ln-hv-top">
+          <span className="ln-hv-lbl">Indicateur · Densité de PME</span>
+          <Badge tone="blue" dot>Officiel</Badge>
+        </div>
+        <FranceMap values={VALUES_LAND} selected="11" height={height} />
       </div>
-      <FranceMap values={VALUES_LAND} selected="11" height={height} />
+      <div className="ln-float-badge f1">
+        <span className="ln-fbdot pos" />PIB 2024 · <strong>+1.4 %</strong>
+      </div>
+      <div className="ln-float-badge f2">
+        <span className="ln-fbdot neg" />Chômage · <strong>7.3 %</strong>
+      </div>
     </div>
   );
 }
 
-function Hero({ variant, go }) {
-  const eyebrow = <span className="ln-pill"><Icon n="circle-check-big" s={14} /> Données publiques · 100 % officielles</span>;
-  const title = <h1 className="ln-h1">Le terminal des données <span className="accent">publiques françaises</span>.</h1>;
-  const lead = <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>;
-  const ctas = (
-    <div className="ln-hero-cta">
-      <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
-      <Button variant="secondary" size="lg" icon={<Icon n="play" />} onClick={() => go('login')}>Voir une démo</Button>
-    </div>
-  );
-  const nots = (
-    <div className="ln-nots">
-      <span className="ln-not"><Icon n="check" s={15} /> Sources tracées</span>
-      <span className="ln-not"><Icon n="check" s={15} /> Temps réel</span>
-      <span className="ln-not"><Icon n="check" s={15} /> France entière</span>
-    </div>
-  );
-  if (variant === 'centered') {
-    return (
-      <div className="ln-hero-centered">
-        {eyebrow}{title}{lead}{ctas}{nots}
-        <div className="ln-hero-centered-vis"><HeroVisual height={420} /></div>
-      </div>
-    );
-  }
-  if (variant === 'dark') {
-    return (
-      <div className="ln-hero-dark">
-        <div className="ln-hero-dark-grid">
-          <div>
-            <span className="ln-pill dark"><Icon n="circle-check-big" s={14} /> Données publiques · 100 % officielles</span>
-            <h1 className="ln-h1 ondark">Le terminal des données <span className="accent-light">publiques françaises</span>.</h1>
-            <p className="ln-lead ondark">France Monitor centralise, structure et visualise en temps réel les données officielles de la France.</p>
-            {ctas}
-            <div className="ln-nots ondark">
-              <span className="ln-not ondark"><Icon n="check" s={15} /> Sources tracées</span>
-              <span className="ln-not ondark"><Icon n="check" s={15} /> Temps réel</span>
-              <span className="ln-not ondark"><Icon n="check" s={15} /> France entière</span>
-            </div>
-          </div>
-          <HeroVisual height={360} />
-        </div>
-      </div>
-    );
-  }
+function Hero({ go }) {
   return (
-    <div className="ln-hero">
-      <div>{eyebrow}{title}{lead}{ctas}{nots}</div>
-      <HeroVisual height={360} />
+    <div className="ln-hero-wrap">
+      <div className="ln-hero-blobs">
+        <div className="ln-blob b1" />
+        <div className="ln-blob b2" />
+        <div className="ln-blob b3" />
+      </div>
+      <div className="ln-hero">
+        <div>
+          <span className="ln-pill">
+            <Icon n="circle-check-big" s={14} />
+            Données publiques · 100 % officielles
+          </span>
+          <h1 className="ln-h1">Le terminal des données <span className="accent">publiques françaises</span>.</h1>
+          <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
+          <div className="ln-hero-cta">
+            <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
+            <button onClick={() => go('login')} style={{ display:'flex',alignItems:'center',gap:8,background:'rgba(255,255,255,.07)',color:'#fff',border:'1px solid rgba(255,255,255,.14)',borderRadius:'var(--radius-md)',padding:'10px 20px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s,border-color .2s' }}
+              onMouseEnter={e=>{e.currentTarget.style.background='rgba(255,255,255,.12)';e.currentTarget.style.borderColor='rgba(255,255,255,.25)'}}
+              onMouseLeave={e=>{e.currentTarget.style.background='rgba(255,255,255,.07)';e.currentTarget.style.borderColor='rgba(255,255,255,.14)'}}>
+              <Icon n="play" s={16} /> Voir une démo
+            </button>
+          </div>
+          <div className="ln-nots">
+            <span className="ln-not"><Icon n="check" s={15} /> Sources tracées</span>
+            <span className="ln-not"><Icon n="check" s={15} /> Temps réel</span>
+            <span className="ln-not"><Icon n="check" s={15} /> France entière</span>
+          </div>
+        </div>
+        <HeroVisual height={360} />
+      </div>
     </div>
   );
 }
@@ -185,7 +202,7 @@ function StatBar() {
     <div ref={ref} className="ln-stats">
       {STATS_LAND.map((s, i) => (
         <div key={s.label} className={`ln-stat reveal${inView ? ' in-view' : ''}`} style={{'--i': i}}>
-          <div className="ln-stat-n">{s.n}</div>
+          <div className="ln-stat-n"><AnimCounter target={s.n} inView={inView} /></div>
           <div className="ln-stat-l">{s.label}</div>
           <div className="ln-stat-s">{s.sub}</div>
         </div>
@@ -219,19 +236,22 @@ function SectionFeatures() {
 function SectionSteps() {
   const [ref, inView] = useReveal();
   return (
-    <div className="ln-section ln-steps-section" ref={ref}>
+    <div className="ln-section" ref={ref}>
       <div className={`reveal${inView ? ' in-view' : ''}`}>
         <div className="ln-eyebrow">Comment ça marche</div>
         <h2 className="ln-sec-title">Opérationnel en trois étapes</h2>
       </div>
-      <div className="ln-steps">
-        {STEPS_LAND.map((s, i) => (
-          <div className={`reveal${inView ? ' in-view' : ''}`} key={s.n} style={{'--i': i + 1}}>
-            <div className="ln-step-n">{s.n}</div>
-            <div className="ln-step-t">{s.t}</div>
-            <div className="ln-step-d">{s.d}</div>
-          </div>
-        ))}
+      <div className="ln-steps-section" style={{ marginTop: 40 }}>
+        <div className="ln-steps">
+          <div className="ln-step-connector" />
+          {STEPS_LAND.map((s, i) => (
+            <div className={`ln-step reveal${inView ? ' in-view' : ''}`} key={s.n} style={{'--i': i + 1}}>
+              <div className="ln-step-n">{s.n}</div>
+              <div className="ln-step-t">{s.t}</div>
+              <div className="ln-step-d">{s.d}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -315,7 +335,7 @@ function SectionFAQ() {
           <div className={`ln-faq-item reveal${inView ? ' in-view' : ''}`} key={i} style={{'--i': i + 1}}>
             <button className={`ln-faq-q${open === i ? ' open' : ''}`} onClick={() => setOpen(open === i ? null : i)}>
               {item.q}
-              <span className="ln-faq-icon"><Icon n={open === i ? 'minus' : 'plus'} s={17} /></span>
+              <span className="ln-faq-icon"><Icon n="plus" s={17} /></span>
             </button>
             {open === i && <div className="ln-faq-a">{item.a}</div>}
           </div>
@@ -325,12 +345,21 @@ function SectionFAQ() {
   );
 }
 
-function Landing({ heroVariant, go }) {
+function Landing({ heroVariant: _heroVariant, go }) {
+  React.useEffect(() => {
+    const glow = document.querySelector('.ln-cursor-glow');
+    if (!glow) return;
+    const h = (e) => { glow.style.transform = `translate(${e.clientX - 350}px,${e.clientY - 350}px)`; };
+    window.addEventListener('mousemove', h, { passive: true });
+    return () => window.removeEventListener('mousemove', h);
+  }, []);
+
   return (
     <div className="landing">
+      <div className="ln-cursor-glow" aria-hidden="true" />
       <LandingNav go={go} />
       <div className="ln-wrap">
-        <Hero variant={heroVariant} go={go} />
+        <Hero go={go} />
         <SourcesMarquee />
         <StatBar />
 
@@ -370,12 +399,16 @@ function Landing({ heroVariant, go }) {
           <p className="ln-cta-s">Créez un compte et explorez les données publiques françaises en temps réel.</p>
           <div className="ln-cta-b">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
-            <Button size="lg" style={{ background:'transparent', color:'#fff', border:'1px solid var(--gray-700)' }} onClick={() => go('login')}>Se connecter</Button>
+            <button onClick={() => go('login')} style={{ background:'rgba(255,255,255,.08)',color:'#fff',border:'1px solid rgba(255,255,255,.18)',borderRadius:'var(--radius-md)',padding:'10px 22px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s' }}
+              onMouseEnter={e=>e.currentTarget.style.background='rgba(255,255,255,.14)'}
+              onMouseLeave={e=>e.currentTarget.style.background='rgba(255,255,255,.08)'}>
+              Se connecter
+            </button>
           </div>
         </div>
 
         <div className="ln-foot">
-          <BrandLogo size={22} />
+          <BrandLogo size={22} mono />
           <div className="ln-foot-links">
             <a href="#features">Modules</a>
             <a href="#pricing">Tarifs</a>
@@ -388,5 +421,3 @@ function Landing({ heroVariant, go }) {
     </div>
   );
 }
-
-Object.assign(window, { Landing });

@@ -3838,9 +3838,15 @@ const AGENDA_TYPES = {
 };
 
 function getAgendaType(r) {
+  // Priorité au champ type (xsiType réel de l'API AN)
+  const type = (r.type || '').toLowerCase();
+  if (type.includes('seance')) return 'seance';
+  if (type.includes('commission')) return 'commission';
+  if (type.includes('init') || type.includes('delegation')) return 'delegation';
+  // Fallback sur titre / lieu
   const t = (r.titre || '').toLowerCase();
   const l = (r.lieu || '').toLowerCase();
-  if (t.includes('séance publique') || l.includes('hémicycle') || l.includes('hemicycle')) return 'seance';
+  if (t.includes('séance') || l.includes('hémicycle') || l.includes('hemicycle')) return 'seance';
   if (t.includes('commission')) return 'commission';
   if (t.includes('délégation') || t.includes('delegation')) return 'delegation';
   if (t.includes('conférence des présidents')) return 'conference';
@@ -4080,7 +4086,7 @@ function AgendaPolitiqueModule() {
 function useANScrutins() {
   const [state, setState] = React.useState({ loading: true, scrutins: [], updatedAt: null });
   React.useEffect(() => {
-    fetch('/data/scrutins.json')
+    fetch('/public/data/scrutins.json')
       .then(r => r.json())
       .then(d => setState({ loading: false, scrutins: d.scrutins || [], updatedAt: d.updatedAt }))
       .catch(() => setState({ loading: false, scrutins: [], updatedAt: null }));
@@ -4091,7 +4097,7 @@ function useANScrutins() {
 function useANAgenda() {
   const [state, setState] = React.useState({ loading: true, reunions: [], updatedAt: null });
   React.useEffect(() => {
-    fetch('/data/agenda.json')
+    fetch('/public/data/agenda.json')
       .then(r => r.json())
       .then(d => setState({ loading: false, reunions: d.reunions || [], updatedAt: d.updatedAt }))
       .catch(() => setState({ loading: false, reunions: [], updatedAt: null }));

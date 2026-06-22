@@ -4072,6 +4072,61 @@ function AgendaPolitiqueModule() {
         </div>
       )}
 
+      {/* Tableau des prochains événements */}
+      {!loading && reunions.length > 0 && (() => {
+        const nowTs = Date.now();
+        const upcoming = reunions
+          .filter(r => new Date(r.dateDebut).getTime() >= nowTs - 3600000)
+          .slice(0, 40);
+        if (upcoming.length === 0) return null;
+        const typeLabel = { seance_type:'Séance', reunionCommission_type:'Commission', reunionInitParlementaire_type:'Initiative parl.', reunionOrgane_type:'Organe' };
+        return (
+          <div style={{ marginTop:32 }}>
+            <h2 style={{ fontFamily:'var(--font-sans)', fontSize:17, fontWeight:700, color:'var(--ink)', margin:'0 0 14px' }}>Prochains événements</h2>
+            <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', overflow:'hidden' }}>
+              {/* Header */}
+              <div style={{ display:'grid', gridTemplateColumns:'130px 90px 1fr 180px', gap:12, padding:'10px 18px', background:'var(--surface-sunken)', borderBottom:'1px solid var(--border)' }}>
+                {['Date & heure','Type','Titre / Ordre du jour','Lieu'].map(h => (
+                  <span key={h} style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'.07em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>{h}</span>
+                ))}
+              </div>
+              {upcoming.map((e, i) => {
+                const cat = getAgendaType(e);
+                const color = AGENDA_TYPES[cat]?.color || '#9AA3AF';
+                const dt = new Date(e.dateDebut);
+                const isToday2 = isoDateStr(dt) === isoDateStr(new Date());
+                return (
+                  <div key={e.uid || i} style={{ display:'grid', gridTemplateColumns:'130px 90px 1fr 180px', gap:12, alignItems:'start', padding:'13px 18px', borderBottom: i < upcoming.length - 1 ? '1px solid var(--border-subtle)' : 'none', background: isToday2 ? 'var(--blue-50)' : 'var(--surface)', transition:'background .12s' }}
+                    onMouseEnter={ev => ev.currentTarget.style.background = 'var(--surface-hover)'}
+                    onMouseLeave={ev => ev.currentTarget.style.background = isToday2 ? 'var(--blue-50)' : 'var(--surface)'}>
+                    <div>
+                      <div style={{ fontFamily:'var(--font-mono)', fontSize:12, fontWeight:600, color: isToday2 ? 'var(--accent)' : 'var(--ink)' }}>
+                        {dt.toLocaleDateString('fr-FR', { day:'2-digit', month:'short' })}
+                      </div>
+                      <div style={{ fontFamily:'var(--font-mono)', fontSize:12, color:'var(--text-tertiary)', marginTop:2 }}>
+                        {dt.toLocaleTimeString('fr-FR', { hour:'2-digit', minute:'2-digit' })}
+                      </div>
+                    </div>
+                    <div style={{ display:'flex', alignItems:'center', gap:6, paddingTop:1 }}>
+                      <span style={{ width:7, height:7, borderRadius:'50%', background:color, flexShrink:0 }} />
+                      <span style={{ fontFamily:'var(--font-sans)', fontSize:12, color:'var(--text-secondary)', fontWeight:500 }}>
+                        {typeLabel[e.type] || AGENDA_TYPES[cat]?.label || 'Autre'}
+                      </span>
+                    </div>
+                    <span style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:500, color:'var(--ink)', lineHeight:1.5 }}>
+                      {e.titre || <span style={{ color:'var(--text-tertiary)', fontStyle:'italic' }}>Réunion sans titre</span>}
+                    </span>
+                    <span style={{ fontFamily:'var(--font-sans)', fontSize:12, color:'var(--text-secondary)', lineHeight:1.4, paddingTop:1 }}>
+                      {e.lieu || '—'}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })()}
+
       {updatedAt && (
         <div style={{ marginTop:14 }}>
           <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>
@@ -4086,7 +4141,7 @@ function AgendaPolitiqueModule() {
 function useANScrutins() {
   const [state, setState] = React.useState({ loading: true, scrutins: [], updatedAt: null });
   React.useEffect(() => {
-    fetch('/public/data/scrutins.json')
+    fetch('public/data/scrutins.json')
       .then(r => r.json())
       .then(d => setState({ loading: false, scrutins: d.scrutins || [], updatedAt: d.updatedAt }))
       .catch(() => setState({ loading: false, scrutins: [], updatedAt: null }));
@@ -4097,7 +4152,7 @@ function useANScrutins() {
 function useANAgenda() {
   const [state, setState] = React.useState({ loading: true, reunions: [], updatedAt: null });
   React.useEffect(() => {
-    fetch('/public/data/agenda.json')
+    fetch('public/data/agenda.json')
       .then(r => r.json())
       .then(d => setState({ loading: false, reunions: d.reunions || [], updatedAt: d.updatedAt }))
       .catch(() => setState({ loading: false, reunions: [], updatedAt: null }));

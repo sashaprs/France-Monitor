@@ -1029,6 +1029,9 @@ const DASH_MODULES = [
   { id:'transport', label:'Transport', icon:'train-front' },
   { id:'carburant', label:'Carburant', icon:'fuel' },
   { id:'assemblee', label:'Assemblée nationale', icon:'landmark' },
+  { id:'senat', label:'Sénat', icon:'building' },
+  { id:'partis', label:'Partis politiques', icon:'flag' },
+  { id:'personnalites', label:'Personnalités', icon:'user' },
 ];
 const DASH_VALUES = { '11':108,'84':92,'93':99,'76':104,'75':112,'44':101,'32':115,'52':95,'28':97,'53':90,'24':88,'27':100,'94':86 };
 const DASH_POP = { '11':'12,3 M','84':'8,0 M','93':'5,1 M','76':'6,0 M','75':'5,9 M','44':'3,8 M','32':'5,7 M','52':'3,3 M','28':'2,6 M','53':'3,3 M','24':'2,4 M','27':'2,8 M','94':'0,34 M' };
@@ -3502,6 +3505,1291 @@ function AssembleeModule() {
   );
 }
 
+/* ============================================================
+   SHARED HELPERS (Sénat / Partis / Personnalités)
+   ============================================================ */
+function hexRgba(hex, a) {
+  const h = hex.replace('#','');
+  const r = parseInt(h.slice(0,2),16), g = parseInt(h.slice(2,4),16), b = parseInt(h.slice(4,6),16);
+  return `rgba(${r},${g},${b},${a})`;
+}
+function Eyebrow({ children, style }) {
+  return <div style={{ fontSize:10, fontWeight:700, textTransform:'uppercase', letterSpacing:'0.08em', color:'var(--text-tertiary)', marginBottom:6, ...style }}>{children}</div>;
+}
+function Spark({ series, tone, width=60, height=24 }) {
+  if (!series || series.length < 2) return null;
+  const mn = Math.min(...series), mx = Math.max(...series);
+  const rng = mx - mn || 1;
+  const pts = series.map((v,i) => {
+    const x = (i / (series.length-1)) * width;
+    const y = height - ((v - mn) / rng) * height;
+    return `${x},${y}`;
+  }).join(' ');
+  const color = tone === 'pos' ? '#0E8A52' : tone === 'neg' ? '#E1000F' : '#9AA3AF';
+  return (
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} style={{ display:'block' }}>
+      <polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinejoin="round" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+/* ============================================================
+   SÉNAT MODULE
+   ============================================================ */
+const SENAT_GROUPS = [
+  { id:'crce', label:'CRCE-K', seats:17, color:'#D6001C' },
+  { id:'gest', label:'GEST', seats:15, color:'#2E9E5B' },
+  { id:'ser',  label:'SER', seats:64, color:'#E5447A' },
+  { id:'rdse', label:'RDSE', seats:16, color:'#E8A33D' },
+  { id:'rdpi', label:'RDPI', seats:23, color:'#2563EB' },
+  { id:'indep',label:'Les Indépendants', seats:13, color:'#7FB3D5' },
+  { id:'uc',   label:'UC', seats:57, color:'#E67E22' },
+  { id:'lr',   label:'LR', seats:135, color:'#1F6FB2' },
+  { id:'ni',   label:'NI', seats:8, color:'#9AA3AF' },
+];
+const SENAT_TOTAL = 348;
+const SENAT_NEXT_INTENTIONS = { crce:'contre', gest:'contre', ser:'contre', rdse:'partage', rdpi:'abst', indep:'pour', uc:'pour', lr:'pour', ni:'partage' };
+const SENAT_POS = { pour:{label:'Pour',c:'#0E8A52'}, contre:{label:'Contre',c:'#E1000F'}, abst:{label:'Abstention',c:'#9AA3AF'}, partage:{label:'Partagé',c:'#E8A33D'} };
+const SENAT_SCRUTINS = [
+  { date:'14/05/2025', title:'Projet de loi finances rectificative', pour:231, contre:102, result:'Adopté' },
+  { date:'05/05/2025', title:'Proposition de loi sécurité routière', pour:189, contre:144, result:'Adopté' },
+  { date:'22/04/2025', title:'Projet de loi immigration', pour:148, contre:185, result:'Rejeté' },
+  { date:'10/04/2025', title:'Proposition de loi retraites', pour:165, contre:171, result:'Rejeté' },
+  { date:'02/04/2025', title:'Projet de loi numérique', pour:244, contre:88, result:'Adopté' },
+  { date:'18/03/2025', title:'Proposition de résolution européenne', pour:278, contre:52, result:'Adopté' },
+];
+
+function buildSenatSeats() {
+  const CX=420, CY=432, rI=158, rO=402, ROWS=11;
+  const seats = [];
+  let idx = 0;
+  const groupOrder = ['crce','gest','ser','rdse','rdpi','indep','uc','lr','ni'];
+  const allSeats = [];
+  for (let row = 0; row < ROWS; row++) {
+    const t = row / (ROWS - 1);
+    const r = rI + (rO - rI) * t;
+    const seatsInRow = Math.round(16 + 20 * t);
+    const spanAng = Math.PI * 0.92;
+    const startAng = Math.PI + (Math.PI - spanAng) / 2;
+    for (let s = 0; s < seatsInRow; s++) {
+      const ang = startAng + (s / (seatsInRow - 1)) * spanAng;
+      allSeats.push({ x: CX + r * Math.cos(ang), y: CY + r * Math.sin(ang) });
+    }
+  }
+  let seatIdx = 0;
+  return groupOrder.flatMap(gid => {
+    const g = SENAT_GROUPS.find(x => x.id === gid);
+    return Array.from({length: g.seats}, () => ({ ...allSeats[seatIdx++], group: gid, color: g.color }));
+  });
+}
+
+function SenatHemicycle({ seats, hoveredGroup, onHoverGroup }) {
+  const W=840, H=440;
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} style={{ width:'100%', maxWidth:560, display:'block', margin:'0 auto' }}>
+      {seats.map((s,i) => {
+        const dim = hoveredGroup && s.group !== hoveredGroup;
+        return (
+          <circle key={i} cx={s.x} cy={s.y} r={7.2}
+            fill={dim ? hexRgba(s.color, 0.22) : s.color}
+            stroke="white" strokeWidth="1"
+            style={{ cursor:'pointer', transition:'fill 0.15s' }}
+            onMouseEnter={() => onHoverGroup(s.group)}
+            onMouseLeave={() => onHoverGroup(null)}
+          />
+        );
+      })}
+      <text x={420} y={428} textAnchor="middle" fontSize={11} fill="#9AA3AF" fontFamily="var(--font-sans)">Plateau</text>
+    </svg>
+  );
+}
+
+function SenatModule() {
+  const [hoveredGroup, setHoveredGroup] = React.useState(null);
+  const seats = React.useMemo(() => buildSenatSeats(), []);
+
+  // Compute next vote tally
+  const nextTally = { pour:0, contre:0, abst:0, partage:0 };
+  SENAT_GROUPS.forEach(g => {
+    const pos = SENAT_NEXT_INTENTIONS[g.id] || 'abst';
+    nextTally[pos] = (nextTally[pos] || 0) + g.seats;
+  });
+  const totalForTally = Object.values(nextTally).reduce((a,b) => a+b, 0);
+
+  const hovered = hoveredGroup ? SENAT_GROUPS.find(g => g.id === hoveredGroup) : null;
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1100, margin:'0 auto' }}>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Sénat</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>348 sièges · Chambre haute du Parlement</div>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 320px', gap:20, marginBottom:20 }}>
+        {/* Hemicycle */}
+        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px 16px' }}>
+          <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:16 }}>Composition</div>
+          <SenatHemicycle seats={seats} hoveredGroup={hoveredGroup} onHoverGroup={setHoveredGroup} />
+          {hovered && (
+            <div style={{ textAlign:'center', marginTop:8, fontSize:13, fontWeight:600, color:hovered.color }}>
+              {hovered.label} — {hovered.seats} sièges
+            </div>
+          )}
+        </div>
+
+        {/* Groups list */}
+        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+          <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:12 }}>Groupes politiques</div>
+          {SENAT_GROUPS.map(g => {
+            const pct = (g.seats / SENAT_TOTAL * 100).toFixed(1);
+            const isHov = hoveredGroup === g.id;
+            return (
+              <div key={g.id}
+                onMouseEnter={() => setHoveredGroup(g.id)}
+                onMouseLeave={() => setHoveredGroup(null)}
+                style={{ display:'flex', alignItems:'center', gap:10, padding:'7px 8px', borderRadius:6, marginBottom:2, background: isHov ? hexRgba(g.color,0.08) : 'transparent', cursor:'default', transition:'background 0.15s' }}>
+                <span style={{ width:10, height:10, borderRadius:99, background:g.color, flexShrink:0 }} />
+                <span style={{ flex:1, fontSize:12, color:'var(--text-primary)', fontWeight: isHov ? 600 : 400 }}>{g.label}</span>
+                <span style={{ fontSize:12, fontWeight:700, color:g.color }}>{g.seats}</span>
+                <span style={{ fontSize:11, color:'var(--text-tertiary)', minWidth:36, textAlign:'right' }}>{pct}%</span>
+              </div>
+            );
+          })}
+          <div style={{ marginTop:10, padding:'8px', background:'var(--gray-50)', borderRadius:6, display:'flex', justifyContent:'space-between' }}>
+            <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Total</span>
+            <span style={{ fontSize:12, fontWeight:700, color:'var(--text-primary)' }}>{SENAT_TOTAL} sièges</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Next vote intentions */}
+      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px', marginBottom:20 }}>
+        <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:4 }}>Prochain vote — intentions de vote</div>
+        <div style={{ fontSize:12, color:'var(--text-tertiary)', marginBottom:16 }}>Projet de loi de programme de recherche · Positions déclarées par groupe</div>
+
+        {/* Tally bar */}
+        <div style={{ display:'flex', height:12, borderRadius:6, overflow:'hidden', marginBottom:12 }}>
+          {Object.entries(nextTally).map(([pos, n]) => n > 0 && (
+            <div key={pos} style={{ flex:n, background:SENAT_POS[pos].c, transition:'flex 0.3s' }} title={`${SENAT_POS[pos].label}: ${n}`} />
+          ))}
+        </div>
+
+        {/* Legend */}
+        <div style={{ display:'flex', gap:16, flexWrap:'wrap', marginBottom:16 }}>
+          {Object.entries(nextTally).map(([pos, n]) => n > 0 && (
+            <div key={pos} style={{ display:'flex', alignItems:'center', gap:5 }}>
+              <span style={{ width:8, height:8, borderRadius:99, background:SENAT_POS[pos].c, display:'inline-block' }} />
+              <span style={{ fontSize:11, color:'var(--text-secondary)' }}>{SENAT_POS[pos].label}: <b>{n}</b></span>
+            </div>
+          ))}
+        </div>
+
+        {/* Group intentions table */}
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:6 }}>
+          {SENAT_GROUPS.map(g => {
+            const pos = SENAT_NEXT_INTENTIONS[g.id];
+            const posData = SENAT_POS[pos];
+            return (
+              <div key={g.id} style={{ display:'flex', alignItems:'center', gap:8, padding:'7px 10px', borderRadius:6, background:'var(--gray-50)', border:'1px solid var(--border-subtle)' }}>
+                <span style={{ width:8, height:8, borderRadius:99, background:g.color, flexShrink:0 }} />
+                <span style={{ flex:1, fontSize:11, color:'var(--text-primary)', fontWeight:500 }}>{g.label}</span>
+                <span style={{ fontSize:10, fontWeight:700, color:posData.c, background:hexRgba(posData.c,0.1), padding:'2px 6px', borderRadius:99 }}>{posData.label}</span>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Projected result */}
+        <div style={{ marginTop:14, padding:'10px 14px', background: nextTally.pour > SENAT_TOTAL/2 ? '#F0FDF4' : '#FFF1F2', border:`1px solid ${nextTally.pour > SENAT_TOTAL/2 ? '#BBF7D0' : '#FECDD3'}`, borderRadius:8, display:'flex', alignItems:'center', gap:10 }}>
+          <span style={{ fontSize:20 }}>{nextTally.pour > SENAT_TOTAL/2 ? '✓' : '✗'}</span>
+          <div>
+            <div style={{ fontSize:12, fontWeight:700, color: nextTally.pour > SENAT_TOTAL/2 ? '#0E8A52' : '#E1000F' }}>
+              Résultat projeté : {nextTally.pour > SENAT_TOTAL/2 ? 'Adoption probable' : 'Rejet probable'}
+            </div>
+            <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>Pour : {nextTally.pour} · Contre : {nextTally.contre} · Majorité absolue : {Math.ceil(SENAT_TOTAL/2)}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scrutins */}
+      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px' }}>
+        <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', marginBottom:14 }}>Derniers scrutins publics</div>
+        <table style={{ width:'100%', borderCollapse:'collapse' }}>
+          <thead>
+            <tr style={{ borderBottom:'2px solid var(--border-subtle)' }}>
+              {['Date','Texte','Pour','Contre','Résultat'].map(h => (
+                <th key={h} style={{ textAlign:'left', padding:'6px 10px', fontSize:10, fontWeight:700, textTransform:'uppercase', letterSpacing:'0.06em', color:'var(--text-tertiary)' }}>{h}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {SENAT_SCRUTINS.map((s,i) => (
+              <tr key={i} style={{ borderBottom:'1px solid var(--border-subtle)' }}>
+                <td style={{ padding:'9px 10px', fontSize:12, color:'var(--text-tertiary)', whiteSpace:'nowrap' }}>{s.date}</td>
+                <td style={{ padding:'9px 10px', fontSize:12, color:'var(--text-primary)', fontWeight:500 }}>{s.title}</td>
+                <td style={{ padding:'9px 10px', fontSize:12, fontWeight:700, color:'#0E8A52' }}>{s.pour}</td>
+                <td style={{ padding:'9px 10px', fontSize:12, fontWeight:700, color:'#E1000F' }}>{s.contre}</td>
+                <td style={{ padding:'9px 10px' }}>
+                  <span style={{ fontSize:11, fontWeight:700, padding:'2px 8px', borderRadius:99, background: s.result==='Adopté' ? '#F0FDF4' : '#FFF1F2', color: s.result==='Adopté' ? '#0E8A52' : '#E1000F', border:`1px solid ${s.result==='Adopté' ? '#BBF7D0' : '#FECDD3'}` }}>
+                    {s.result}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div style={{ marginTop:16 }}>
+        <SourceTag source="Sénat · senat.fr · scrutins publics" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   PARTIS POLITIQUES MODULE
+   ============================================================ */
+const PARTIS_DATA = [
+  {
+    id:'re', abbr:'RE', name:'Renaissance', color:'#2563EB', orientation:'Centre',
+    founded:2016, leader:'Gabriel Attal', leaderInitials:'GA', leaderRole:'Président',
+    seatsAN:99, seatsSenat:23, members:120000,
+    bio:"Renaissance (anciennement La République En Marche) est un parti politique français fondé en 2016 par Emmanuel Macron. Parti de gouvernement au centre de l'échiquier politique, il a remporté la présidentielle et les législatives de 2017 et 2022.",
+    history:[
+      { year:2016, event:'Fondation du mouvement En Marche par Emmanuel Macron' },
+      { year:2017, event:'Victoire à la présidentielle et majorité absolue à l\'AN' },
+      { year:2022, event:'Rebaptisé Renaissance, majorité relative à l\'AN' },
+      { year:2024, event:'Dissolution de l\'AN, pertes significatives aux législatives' },
+    ],
+    figures:[{name:'Emmanuel Macron',role:'Président de la République'},{name:'Gabriel Attal',role:'Président du parti'},{name:'Élisabeth Borne',role:'Ancienne Première ministre'}],
+    deputies:['Gabriel Attal','Sylvain Maillard','Aurore Bergé','Marc Fesneau'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Pour', result:'Adopté' },
+      { date:'05/04/2025', chambre:'AN', texte:'Loi travail', position:'Pour', result:'Adopté' },
+      { date:'12/03/2025', chambre:'Sénat', texte:'Immigration', position:'Pour', result:'Rejeté' },
+    ],
+    news:[
+      { date:'20/06/2025', title:'Attal annonce un congrès extraordinaire en septembre' },
+      { date:'10/06/2025', title:'Renaissance signe un accord programmatique avec le MoDem' },
+      { date:'01/06/2025', title:'Sondage : Renaissance remonte à 22% des intentions de vote' },
+    ],
+  },
+  {
+    id:'rn', abbr:'RN', name:'Rassemblement National', color:'#14385F', orientation:'Droite nationaliste',
+    founded:1972, leader:'Marine Le Pen', leaderInitials:'ML', leaderRole:'Présidente',
+    seatsAN:126, seatsSenat:19, members:90000,
+    bio:"Le Rassemblement National, fondé en 1972 sous le nom de Front National par Jean-Marie Le Pen, est le principal parti d'opposition de droite nationale en France. Depuis 2022, il constitue le plus grand groupe d'opposition à l'Assemblée nationale.",
+    history:[
+      { year:1972, event:'Fondation du Front National par Jean-Marie Le Pen' },
+      { year:2002, event:'Jean-Marie Le Pen accède au second tour de la présidentielle' },
+      { year:2018, event:'Rebaptisé Rassemblement National' },
+      { year:2022, event:'Marine Le Pen au second tour, 89 puis 143 députés' },
+    ],
+    figures:[{name:'Marine Le Pen',role:'Présidente, députée'},{name:'Jordan Bardella',role:'Président du groupe AN'},{name:'Louis Aliot',role:'Maire de Perpignan'}],
+    deputies:['Jordan Bardella','Julien Odoul','Laure Lavalette','Grégoire de Fournas'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+      { date:'05/04/2025', chambre:'AN', texte:'Loi travail', position:'Contre', result:'Adopté' },
+      { date:'12/03/2025', chambre:'Sénat', texte:'Immigration', position:'Pour', result:'Rejeté' },
+    ],
+    news:[
+      { date:'21/06/2025', title:'Le Pen confirme sa candidature à la présidentielle 2027' },
+      { date:'15/06/2025', title:'Sondage : RN en tête à 31% des intentions de vote' },
+      { date:'05/06/2025', title:'Bardella élu président du groupe à l\'Assemblée nationale' },
+    ],
+  },
+  {
+    id:'lfi', abbr:'LFI', name:'La France Insoumise', color:'#C0392B', orientation:'Gauche radicale',
+    founded:2016, leader:'Jean-Luc Mélenchon', leaderInitials:'JM', leaderRole:'Fondateur',
+    seatsAN:72, seatsSenat:0, members:60000,
+    bio:"La France Insoumise est un mouvement politique de gauche radicale fondé en 2016 par Jean-Luc Mélenchon. Il est à l'origine de la coalition NUPES en 2022 et du Nouveau Front Populaire en 2024.",
+    history:[
+      { year:2016, event:'Fondation par Jean-Luc Mélenchon, candidat à la présidentielle 2017' },
+      { year:2022, event:'Mélenchon 3e au 1er tour (22%), constitution de la NUPES' },
+      { year:2024, event:'Cofondateur du Nouveau Front Populaire, 1er groupe à l\'AN' },
+    ],
+    figures:[{name:'Jean-Luc Mélenchon',role:'Fondateur'},{name:'Mathilde Panot',role:'Présidente du groupe AN'},{name:'Manuel Bompard',role:'Coordinateur national'}],
+    deputies:['Mathilde Panot','Manuel Bompard','Alexis Corbière','Clémentine Autain'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+      { date:'05/04/2025', chambre:'AN', texte:'Loi travail', position:'Contre', result:'Adopté' },
+    ],
+    news:[
+      { date:'18/06/2025', title:'LFI dépose une motion de censure contre le gouvernement' },
+      { date:'08/06/2025', title:'Mélenchon annonce son retrait de la direction du mouvement' },
+      { date:'28/05/2025', title:'LFI et PS en désaccord sur la stratégie d\'alliance pour 2027' },
+    ],
+  },
+  {
+    id:'lr', abbr:'LR', name:'Les Républicains', color:'#1F6FB2', orientation:'Droite',
+    founded:2015, leader:'Éric Ciotti', leaderInitials:'EC', leaderRole:'Président',
+    seatsAN:61, seatsSenat:135, members:150000,
+    bio:"Les Républicains (anciennement UMP) est le principal parti de droite classique en France, fondé en 2015. Après des résultats décevants aux présidentielles de 2017 et 2022, le parti connaît des turbulences internes et reste influent au Sénat.",
+    history:[
+      { year:2002, event:'Fondation de l\'UMP par Jacques Chirac' },
+      { year:2015, event:'Rebaptisé Les Républicains sous Sarkozy' },
+      { year:2022, event:'Valérie Pécresse candidate à la présidentielle (4,78%)' },
+      { year:2023, event:'Crise interne, Ciotti prend la présidence' },
+    ],
+    figures:[{name:'Éric Ciotti',role:'Président'},{name:'Bruno Retailleau',role:'Sénateur, ex-président du groupe'},{name:'Valérie Pécresse',role:'Présidente d\'Île-de-France'}],
+    deputies:['Éric Ciotti','Annie Genevard','Xavier Breton','Julien Dive'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Pour', result:'Adopté' },
+      { date:'12/03/2025', chambre:'Sénat', texte:'Immigration', position:'Pour', result:'Rejeté' },
+    ],
+    news:[
+      { date:'19/06/2025', title:'LR tient son congrès, Ciotti réélu à la tête du parti' },
+      { date:'09/06/2025', title:'LR signe un accord de gouvernement avec Renaissance' },
+      { date:'29/05/2025', title:'Retailleau nommé ministre de l\'Intérieur' },
+    ],
+  },
+  {
+    id:'ps', abbr:'PS', name:'Parti Socialiste', color:'#E5447A', orientation:'Centre-gauche',
+    founded:1969, leader:'Olivier Faure', leaderInitials:'OF', leaderRole:'Premier secrétaire',
+    seatsAN:64, seatsSenat:64, members:90000,
+    bio:"Le Parti Socialiste est le principal parti de gauche modérée en France, fondé en 1969. Après deux mandats à l'Élysée (Mitterrand, Hollande), il connaît une recomposition et participe au Nouveau Front Populaire en 2024.",
+    history:[
+      { year:1969, event:'Fondation du PS au congrès d\'Épinay sous Mitterrand' },
+      { year:1981, event:'Première victoire présidentielle de Mitterrand' },
+      { year:2012, event:'Hollande élu président de la République' },
+      { year:2024, event:'Participation au Nouveau Front Populaire aux législatives' },
+    ],
+    figures:[{name:'Olivier Faure',role:'Premier secrétaire'},{name:'Boris Vallaud',role:'Président du groupe AN'},{name:'François Hollande',role:'Ancien président'}],
+    deputies:['Boris Vallaud','Valérie Rabault','Arthur Delaporte','Cédric Roussel'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+      { date:'05/04/2025', chambre:'AN', texte:'Loi travail', position:'Contre', result:'Adopté' },
+    ],
+    news:[
+      { date:'16/06/2025', title:'Faure propose une primaire de la gauche pour 2027' },
+      { date:'06/06/2025', title:'PS et LFI en désaccord sur la motion de censure' },
+      { date:'25/05/2025', title:'Le PS ouvre ses statuts pour accueillir Place Publique' },
+    ],
+  },
+  {
+    id:'eco', abbr:'ECO', name:'Les Écologistes', color:'#2E9E5B', orientation:'Gauche écologiste',
+    founded:2021, leader:'Marine Tondelier', leaderInitials:'MT', leaderRole:'Secrétaire nationale',
+    seatsAN:23, seatsSenat:15, members:13000,
+    bio:"Les Écologistes (anciennement Europe Écologie Les Verts) est le principal parti écologiste français. Fondé en 2021 après la fusion des Verts et du mouvement Europe Écologie, il participe au Nouveau Front Populaire.",
+    history:[
+      { year:1984, event:'Fondation des Verts' },
+      { year:2010, event:'Création d\'Europe Écologie Les Verts' },
+      { year:2021, event:'Rebaptisé Les Écologistes' },
+      { year:2022, event:'Yannick Jadot candidat à la présidentielle (4,63%)' },
+    ],
+    figures:[{name:'Marine Tondelier',role:'Secrétaire nationale'},{name:'Yannick Jadot',role:'Sénateur, ex-candidat présidentiel'},{name:'Sandra Regol',role:'Députée'}],
+    deputies:['Sandrine Rousseau','Eva Sas','Julien Bayou','Delphine Batho'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+      { date:'05/04/2025', chambre:'AN', texte:'Loi travail', position:'Contre', result:'Adopté' },
+    ],
+    news:[
+      { date:'17/06/2025', title:'Tondelier réélue secrétaire nationale au congrès de Lyon' },
+      { date:'07/06/2025', title:'Les Écologistes publient leur programme pour 2027' },
+      { date:'27/05/2025', title:'Fusion annoncée avec Génération.s' },
+    ],
+  },
+  {
+    id:'hor', abbr:'HOR', name:'Horizons', color:'#2E86C1', orientation:'Centre',
+    founded:2021, leader:'Édouard Philippe', leaderInitials:'EP', leaderRole:'Président',
+    seatsAN:30, seatsSenat:12, members:15000,
+    bio:"Horizons est un parti politique français fondé en 2021 par Édouard Philippe. Allié de Renaissance, il participe à la coalition de gouvernement et soutient le bilan d'Emmanuel Macron tout en portant une ligne propre sur les questions de finances publiques.",
+    history:[
+      { year:2021, event:'Fondation par Édouard Philippe, ancien Premier ministre' },
+      { year:2022, event:'Alliance avec Renaissance aux législatives' },
+      { year:2024, event:'Maintien dans la coalition malgré les pertes aux législatives' },
+    ],
+    figures:[{name:'Édouard Philippe',role:'Président, maire du Havre'},{name:'Gilles Le Gendre',role:'Délégué général'},{name:'Charlotte Parmentier-Lecocq',role:'Députée'}],
+    deputies:['Laurent Marcangeli','Pierre-Henri Dumont','Stéphane Buchou','Luc Geismar'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Pour', result:'Adopté' },
+    ],
+    news:[
+      { date:'15/06/2025', title:'Philippe annonce sa candidature pour la présidentielle 2027' },
+      { date:'05/06/2025', title:'Horizons et MoDem renforcent leur alliance' },
+    ],
+  },
+  {
+    id:'modem', abbr:'MoDem', name:'Mouvement Démocrate', color:'#E67E22', orientation:'Centre',
+    founded:2007, leader:'François Bayrou', leaderInitials:'FB', leaderRole:'Président',
+    seatsAN:35, seatsSenat:17, members:25000,
+    bio:"Le Mouvement Démocrate (MoDem) est un parti politique centriste fondé en 2007 par François Bayrou. Allié de longue date de Renaissance, François Bayrou a été nommé Premier ministre en décembre 2024.",
+    history:[
+      { year:2007, event:'Fondation du MoDem par François Bayrou' },
+      { year:2017, event:'Alliance avec En Marche, Bayrou nommé ministre de la Justice' },
+      { year:2024, event:'Bayrou nommé Premier ministre de cohabitation' },
+    ],
+    figures:[{name:'François Bayrou',role:'Premier ministre, président du parti'},{name:'Patrick Mignola',role:'Président du groupe AN'},{name:'Marielle de Sarnez',role:'Ancienne dirigeante'}],
+    deputies:['Patrick Mignola','Erwan Balanant','Sarah El Haïry','Cyrille Isaac-Sibille'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Pour', result:'Adopté' },
+    ],
+    news:[
+      { date:'22/06/2025', title:'Bayrou présente son plan de redressement des finances publiques' },
+      { date:'12/06/2025', title:'Le MoDem publie son bilan d\'un an de cohabitation' },
+    ],
+  },
+  {
+    id:'pcf', abbr:'PCF', name:'Parti Communiste Français', color:'#D6001C', orientation:'Gauche',
+    founded:1920, leader:'Fabien Roussel', leaderInitials:'FR', leaderRole:'Secrétaire national',
+    seatsAN:22, seatsSenat:17, members:50000,
+    bio:"Le Parti Communiste Français est l'un des plus anciens partis politiques de France, fondé en 1920 à Tours. Ancré dans la tradition de la gauche ouvrière, il participe au Nouveau Front Populaire tout en maintenant son indépendance.",
+    history:[
+      { year:1920, event:'Fondation au Congrès de Tours, scission de la SFIO' },
+      { year:1981, event:'Participation au gouvernement Mauroy' },
+      { year:2022, event:'Fabien Roussel candidat à la présidentielle (2,28%)' },
+      { year:2024, event:'Participation au Nouveau Front Populaire' },
+    ],
+    figures:[{name:'Fabien Roussel',role:'Secrétaire national, député'},{name:'André Chassaigne',role:'Président du groupe GDR à l\'AN'},{name:'Eliane Assassi',role:'Ex-sénatrice'}],
+    deputies:['André Chassaigne','Fabien Roussel','Pierre Dharréville','Stéphane Peu'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+    ],
+    news:[
+      { date:'14/06/2025', title:'Roussel propose une nationalisation des autoroutes' },
+      { date:'04/06/2025', title:'Le PCF célèbre son 105e anniversaire' },
+    ],
+  },
+  {
+    id:'pp', abbr:'PP', name:'Place Publique', color:'#8E44AD', orientation:'Centre-gauche',
+    founded:2018, leader:'Raphaël Glucksmann', leaderInitials:'RG', leaderRole:'Fondateur',
+    seatsAN:11, seatsSenat:0, members:8000,
+    bio:"Place Publique est un mouvement politique fondé en 2018 par Raphaël Glucksmann et des intellectuels engagés. Europhile et social-démocrate, il a réalisé une percée aux élections européennes de 2024 et participe au Nouveau Front Populaire.",
+    history:[
+      { year:2018, event:'Fondation par Raphaël Glucksmann et Claire Nouvian' },
+      { year:2024, event:'13,8% aux européennes, alliance avec le PS au NFP' },
+    ],
+    figures:[{name:'Raphaël Glucksmann',role:'Fondateur, député européen'},{name:'Hélène Geoffroy',role:'Coordinatrice nationale'},{name:'Thomas Portes',role:'Député'}],
+    deputies:['Thomas Portes','Claire Lejeune','Antoine Villedieu'],
+    votes:[
+      { date:'14/05/2025', chambre:'AN', texte:'PLF rectificatif 2025', position:'Contre', result:'Adopté' },
+    ],
+    news:[
+      { date:'11/06/2025', title:'Glucksmann annonce la fusion avec le PS' },
+      { date:'01/06/2025', title:'Place Publique ouvre son congrès fondateur' },
+    ],
+  },
+];
+
+function PartiCard({ parti, onClick }) {
+  const [hov, setHov] = React.useState(false);
+  return (
+    <div
+      onClick={() => onClick(parti.id)}
+      onMouseEnter={() => setHov(true)}
+      onMouseLeave={() => setHov(false)}
+      style={{ background:'white', borderRadius:'var(--radius)', border:`1px solid ${hov ? parti.color : 'var(--border-subtle)'}`, padding:'18px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 16px rgba(0,0,0,0.08)' : 'none' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:14 }}>
+        <div style={{ width:44, height:44, borderRadius:10, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.25)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+          <span style={{ fontSize:13, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
+        </div>
+        <div>
+          <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)' }}>{parti.name}</div>
+          <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>{parti.orientation}</div>
+        </div>
+      </div>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8 }}>
+        {[{label:'Députés AN',val:parti.seatsAN},{label:'Sénateurs',val:parti.seatsSenat},{label:'Adhérents',val:(parti.members/1000).toFixed(0)+'k'}].map(({label,val}) => (
+          <div key={label} style={{ textAlign:'center', padding:'8px 4px', background:'var(--gray-50)', borderRadius:6 }}>
+            <div style={{ fontSize:14, fontWeight:700, color:parti.color }}>{val}</div>
+            <div style={{ fontSize:9, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.05em', marginTop:1 }}>{label}</div>
+          </div>
+        ))}
+      </div>
+      <div style={{ marginTop:12, display:'flex', alignItems:'center', gap:6 }}>
+        <span style={{ fontSize:11, color:'var(--text-secondary)' }}>Leader : <b style={{ color:'var(--text-primary)' }}>{parti.leader}</b></span>
+      </div>
+    </div>
+  );
+}
+
+function PartiDetail({ parti, onBack }) {
+  return (
+    <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
+      {/* Sticky sub-bar */}
+      <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:20 }}>
+        <button onClick={onBack} style={{ display:'flex', alignItems:'center', gap:6, padding:'6px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer', fontSize:12, color:'var(--text-secondary)', fontFamily:'var(--font-sans)' }}>
+          <Icon n="arrow-left" s={12} /> Retour
+        </button>
+        <SourceTag source="Partis politiques · france-politique.fr" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+
+      {/* Hero */}
+      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:20 }}>
+        <div style={{ display:'flex', alignItems:'flex-start', gap:20 }}>
+          <div style={{ width:64, height:64, borderRadius:14, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.3)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+            <span style={{ fontSize:18, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
+          </div>
+          <div style={{ flex:1 }}>
+            <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap' }}>
+              <h2 style={{ fontSize:22, fontWeight:800, color:'var(--text-primary)', margin:0 }}>{parti.name}</h2>
+              <span style={{ fontSize:11, fontWeight:700, padding:'3px 10px', borderRadius:99, background:hexRgba(parti.color,0.1), color:parti.color, border:`1px solid ${hexRgba(parti.color,0.25)}` }}>{parti.orientation}</span>
+            </div>
+            <div style={{ display:'flex', gap:16, marginTop:10, flexWrap:'wrap' }}>
+              {[{l:'Fondé en',v:parti.founded},{l:'Leader',v:`${parti.leader} (${parti.leaderRole})`},{l:'Adhérents',v:parti.members.toLocaleString('fr-FR')}].map(({l,v}) => (
+                <div key={l} style={{ fontSize:12, color:'var(--text-secondary)' }}><span style={{ color:'var(--text-tertiary)' }}>{l} : </span><b style={{ color:'var(--text-primary)' }}>{v}</b></div>
+              ))}
+            </div>
+            <div style={{ display:'flex', gap:12, marginTop:12 }}>
+              {[{l:'Députés AN',v:parti.seatsAN,c:parti.color},{l:'Sénateurs',v:parti.seatsSenat,c:parti.color}].map(({l,v,c}) => (
+                <div key={l} style={{ padding:'8px 16px', background:hexRgba(c,0.08), borderRadius:8, border:`1px solid ${hexRgba(c,0.2)}`, textAlign:'center' }}>
+                  <div style={{ fontSize:18, fontWeight:800, color:c }}>{v}</div>
+                  <div style={{ fontSize:10, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.05em' }}>{l}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:20 }}>
+        {/* LEFT COL */}
+        <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
+          {/* Bio */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Présentation</Eyebrow>
+            <p style={{ margin:0, fontSize:13, color:'var(--text-secondary)', lineHeight:1.7 }}>{parti.bio}</p>
+          </div>
+
+          {/* Timeline */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Histoire</Eyebrow>
+            <div style={{ position:'relative', paddingLeft:20 }}>
+              <div style={{ position:'absolute', left:6, top:6, bottom:6, width:2, background:'var(--border-subtle)', borderRadius:99 }} />
+              {parti.history.map((h,i) => (
+                <div key={i} style={{ position:'relative', marginBottom:14 }}>
+                  <div style={{ position:'absolute', left:-17, top:4, width:10, height:10, borderRadius:99, background:parti.color, border:'2px solid white', zIndex:1 }} />
+                  <div style={{ fontSize:11, fontWeight:700, color:parti.color }}>{h.year}</div>
+                  <div style={{ fontSize:12, color:'var(--text-secondary)', marginTop:1 }}>{h.event}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Votes */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Votes récents</Eyebrow>
+            <table style={{ width:'100%', borderCollapse:'collapse' }}>
+              <thead>
+                <tr style={{ borderBottom:'1px solid var(--border-subtle)' }}>
+                  {['Date','Chambre','Texte','Position','Résultat'].map(h => (
+                    <th key={h} style={{ textAlign:'left', padding:'4px 6px', fontSize:9, fontWeight:700, textTransform:'uppercase', letterSpacing:'0.06em', color:'var(--text-tertiary)' }}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {parti.votes.map((v,i) => (
+                  <tr key={i} style={{ borderBottom:'1px solid var(--border-subtle)' }}>
+                    <td style={{ padding:'7px 6px', fontSize:11, color:'var(--text-tertiary)', whiteSpace:'nowrap' }}>{v.date}</td>
+                    <td style={{ padding:'7px 6px', fontSize:11, color:'var(--text-secondary)' }}>{v.chambre}</td>
+                    <td style={{ padding:'7px 6px', fontSize:11, color:'var(--text-primary)' }}>{v.texte}</td>
+                    <td style={{ padding:'7px 6px' }}>
+                      <span style={{ fontSize:10, fontWeight:700, padding:'1px 6px', borderRadius:99, background: v.position==='Pour' ? '#F0FDF4' : '#FFF1F2', color: v.position==='Pour' ? '#0E8A52' : '#E1000F' }}>{v.position}</span>
+                    </td>
+                    <td style={{ padding:'7px 6px' }}>
+                      <span style={{ fontSize:10, fontWeight:700, padding:'1px 6px', borderRadius:99, background: v.result==='Adopté' ? '#F0FDF4' : '#FFF1F2', color: v.result==='Adopté' ? '#0E8A52' : '#E1000F' }}>{v.result}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* RIGHT COL */}
+        <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
+          {/* Direction */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Direction</Eyebrow>
+            {parti.figures.map((f,i) => (
+              <div key={i} style={{ display:'flex', alignItems:'center', gap:10, padding:'8px 0', borderBottom: i < parti.figures.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                <div style={{ width:32, height:32, borderRadius:99, background:hexRgba(parti.color,0.12), border:`1px solid ${hexRgba(parti.color,0.25)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+                  <span style={{ fontSize:10, fontWeight:700, color:parti.color }}>{f.name.split(' ').map(w=>w[0]).join('').slice(0,2)}</span>
+                </div>
+                <div>
+                  <div style={{ fontSize:12, fontWeight:600, color:'var(--text-primary)' }}>{f.name}</div>
+                  <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>{f.role}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Deputies */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Personnalités notables</Eyebrow>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>
+              {parti.deputies.map((d,i) => (
+                <span key={i} style={{ fontSize:11, padding:'4px 10px', borderRadius:99, background:'var(--gray-50)', border:'1px solid var(--border-subtle)', color:'var(--text-secondary)' }}>{d}</span>
+              ))}
+            </div>
+          </div>
+
+          {/* News */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Actualités</Eyebrow>
+            {parti.news.map((n,i) => (
+              <div key={i} style={{ padding:'9px 0', borderBottom: i < parti.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:3 }}>{n.date}</div>
+                <div style={{ fontSize:12, color:'var(--text-primary)', fontWeight:500, lineHeight:1.5 }}>{n.title}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PartisModule() {
+  const [view, setView] = React.useState('list');
+  const [selectedId, setSelectedId] = React.useState(null);
+  const [search, setSearch] = React.useState('');
+  const [sort, setSort] = React.useState('seats');
+
+  const filtered = PARTIS_DATA
+    .filter(p => p.name.toLowerCase().includes(search.toLowerCase()) || p.abbr.toLowerCase().includes(search.toLowerCase()))
+    .sort((a,b) => sort === 'seats' ? b.seatsAN - a.seatsAN : a.name.localeCompare(b.name));
+
+  if (view === 'detail') {
+    const parti = PARTIS_DATA.find(p => p.id === selectedId);
+    return <PartiDetail parti={parti} onBack={() => setView('list')} />;
+  }
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1100, margin:'0 auto' }}>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Partis politiques</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>Principaux partis représentés au Parlement</div>
+      </div>
+
+      <div style={{ display:'flex', gap:10, marginBottom:20 }}>
+        <div style={{ position:'relative', flex:1 }}>
+          <Icon n="search" s={13} style={{ position:'absolute', left:10, top:'50%', transform:'translateY(-50%)', color:'var(--text-tertiary)' }} />
+          <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Rechercher un parti…"
+            style={{ width:'100%', padding:'8px 10px 8px 30px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        </div>
+        <select value={sort} onChange={e => setSort(e.target.value)}
+          style={{ padding:'8px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none' }}>
+          <option value="seats">Trier par sièges AN</option>
+          <option value="alpha">Trier par ordre alphabétique</option>
+        </select>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:14 }}>
+        {filtered.map(p => <PartiCard key={p.id} parti={p} onClick={id => { setSelectedId(id); setView('detail'); }} />)}
+      </div>
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Partis politiques · france-politique.fr · Assemblée nationale" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   PERSONNALITÉS POLITIQUES MODULE
+   ============================================================ */
+const PERSONNALITES_DATA = [
+  {
+    id:'macron', name:'Emmanuel Macron', role:'Président de la République', party:'Renaissance', color:'#2563EB', initials:'EM',
+    rank:1, score:97, born:'1977', president:{ term:'2017–present' },
+    bio:"Emmanuel Macron est un homme politique français, 25e président de la République française depuis mai 2017. Ancien ministre de l'Économie sous François Hollande, il fonde En Marche en 2016 et remporte la présidentielle face à Marine Le Pen.",
+    bilan:[
+      { label:'Taux de chômage', value:'7,3', unit:'%', delta:'-2,1 pts', tone:'pos', series:[9.4,9.0,8.4,8.0,7.4,7.3,7.3], caption:'vs 2017' },
+      { label:'Dette publique', value:'112', unit:'% PIB', delta:'+22 pts', tone:'neg', series:[98,100,115,114,111,112,112], caption:'vs 2017' },
+      { label:'Croissance PIB', value:'1,1', unit:'%', delta:'+0,3 pt', tone:'pos', series:[2.4,1.8,-7.9,6.4,2.5,0.9,1.1], caption:'2024' },
+      { label:'Popularité', value:'26', unit:'%', delta:'-14 pts', tone:'neg', series:[66,45,36,41,36,29,26], caption:'Baromètre IFOP' },
+      { label:'Pouvoir d\'achat', value:'+4,2', unit:'% cum.', delta:'', tone:'pos', series:[1.2,1.8,0.5,2.1,0.8,0.3,0.4], caption:'2017–2024' },
+      { label:'Déficit public', value:'-5,5', unit:'% PIB', delta:'-2,7 pts', tone:'neg', series:[-2.8,-2.3,-9,-7,-4.7,-5.5,-5.5], caption:'2024' },
+    ],
+    news:[
+      { date:'20/06/2025', title:'Macron reçoit les leaders européens à l\'Élysée pour un sommet de défense' },
+      { date:'10/06/2025', title:'Allocution télévisée : Macron défend son bilan à mi-mandat' },
+      { date:'01/06/2025', title:'Sondage : popularité de Macron remonte légèrement à 28%' },
+    ],
+    votes:[
+      { date:'—', title:'Promulgation loi immigration', result:'Promulguée', position:'Promulguée' },
+      { date:'—', title:'Promulgation réforme des retraites', result:'Promulguée', position:'Promulguée' },
+    ],
+  },
+  {
+    id:'lepen', name:'Marine Le Pen', role:'Députée, présidente RN', party:'Rassemblement National', color:'#14385F', initials:'ML',
+    rank:2, score:91, born:'1968', president:null, bilan:null,
+    bio:"Marine Le Pen est une femme politique française, fille de Jean-Marie Le Pen. Elle préside le Rassemblement National de 2011 à 2021 puis en devient figure tutélaire. Candidate à trois reprises à la présidentielle (2012, 2017, 2022), elle est aujourd'hui cheffe de file de l'opposition.",
+    news:[
+      { date:'21/06/2025', title:'Le Pen confirme sa candidature à la présidentielle 2027' },
+      { date:'15/06/2025', title:'Sondage présidentielle 2027 : Le Pen en tête à 35%' },
+      { date:'05/06/2025', title:'Le Pen plaide pour un référendum sur l\'immigration' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+      { date:'05/04/2025', title:'Loi travail', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'melenchon', name:'Jean-Luc Mélenchon', role:'Fondateur LFI', party:'La France Insoumise', color:'#C0392B', initials:'JM',
+    rank:3, score:84, born:'1951', president:null, bilan:null,
+    bio:"Jean-Luc Mélenchon est un homme politique français, fondateur de La France Insoumise. Ancien ministre de l'Éducation nationale sous Lionel Jospin, il quitte le PS en 2008. Candidat à la présidentielle en 2012, 2017 et 2022, il reste une figure majeure de la gauche radicale.",
+    news:[
+      { date:'18/06/2025', title:'Mélenchon annonce son retrait de la vie politique en 2027' },
+      { date:'08/06/2025', title:'Interview : Mélenchon dresse son bilan à la tête de LFI' },
+      { date:'29/05/2025', title:'Mélenchon soutient Panot pour lui succéder à la tête de LFI' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'philippe', name:'Édouard Philippe', role:'Premier ministre (2017-2020), Président Horizons', party:'Horizons', color:'#2E86C1', initials:'EP',
+    rank:4, score:82, born:'1970', president:null, bilan:null,
+    bio:"Édouard Philippe est un homme politique français, membre du parti Horizons qu'il a fondé en 2021. Maire du Havre depuis 2010, il a été Premier ministre de mai 2017 à juillet 2020 sous la présidence d'Emmanuel Macron et est candidat déclaré à la présidentielle de 2027.",
+    news:[
+      { date:'15/06/2025', title:'Philippe annonce officiellement sa candidature pour 2027' },
+      { date:'05/06/2025', title:'Sondage : Philippe 2e pour la présidentielle 2027 à 19%' },
+      { date:'25/05/2025', title:'Philippe publie un livre-programme pour 2027' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'bardella', name:'Jordan Bardella', role:'Président du groupe AN, RN', party:'Rassemblement National', color:'#14385F', initials:'JB',
+    rank:5, score:79, born:'1995', president:null, bilan:null,
+    bio:"Jordan Bardella est un homme politique français, président du Rassemblement National depuis 2022. Député européen depuis 2019, il est également président du groupe RN à l'Assemblée nationale. Figure montante de la droite nationale, il ambitionne de devenir Premier ministre.",
+    news:[
+      { date:'20/06/2025', title:'Bardella présente le projet économique du RN pour 2027' },
+      { date:'10/06/2025', title:'Bardella auditionné à la commission des finances de l\'AN' },
+      { date:'31/05/2025', title:'Sondage : Bardella approuvé par 42% des Français comme futur PM' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'bayrou', name:'François Bayrou', role:'Premier ministre, Président MoDem', party:'Mouvement Démocrate', color:'#E67E22', initials:'FB',
+    rank:6, score:76, born:'1951', president:null, bilan:null,
+    bio:"François Bayrou est un homme politique français, Premier ministre depuis décembre 2024. Fondateur du Mouvement Démocrate en 2007, il a été candidat à trois présidentielles (2002, 2007, 2012). Allié de longue date d'Emmanuel Macron, il dirige le gouvernement en période de cohabitation.",
+    news:[
+      { date:'22/06/2025', title:'Bayrou présente son plan de rigueur budgétaire au Parlement' },
+      { date:'12/06/2025', title:'Interview : Bayrou défend sa méthode de dialogue' },
+      { date:'02/06/2025', title:'Bayrou engage la confiance du gouvernement sur la loi de finances' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'faure', name:'Olivier Faure', role:'Premier secrétaire du PS', party:'Parti Socialiste', color:'#E5447A', initials:'OF',
+    rank:7, score:68, born:'1972', president:null, bilan:null,
+    bio:"Olivier Faure est un homme politique français, premier secrétaire du Parti Socialiste depuis 2018. Député de Seine-et-Marne, il a guidé le PS dans la constitution du Nouveau Front Populaire en 2024 et défend une ligne de gauche modérée et européiste.",
+    news:[
+      { date:'16/06/2025', title:'Faure propose une primaire populaire à gauche pour 2027' },
+      { date:'06/06/2025', title:'PS et LFI en désaccord sur la stratégie électorale' },
+      { date:'27/05/2025', title:'Faure accueille favorablement la fusion PS-Place Publique' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'tondelier', name:'Marine Tondelier', role:'Secrétaire nationale des Écologistes', party:'Les Écologistes', color:'#2E9E5B', initials:'MT',
+    rank:8, score:65, born:'1986', president:null, bilan:null,
+    bio:"Marine Tondelier est une femme politique française, secrétaire nationale des Écologistes depuis 2022. Ancienne conseillère municipale à Hénin-Beaumont, elle a contribué à repositionner le parti écologiste et à renforcer son influence au sein de la gauche.",
+    news:[
+      { date:'17/06/2025', title:'Tondelier réélue secrétaire nationale avec 78% des voix' },
+      { date:'07/06/2025', title:'Les Écologistes publient leur manifeste présidentiel 2027' },
+      { date:'28/05/2025', title:'Tondelier plaide pour un Green New Deal à la française' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'ciotti', name:'Éric Ciotti', role:'Président de LR', party:'Les Républicains', color:'#1F6FB2', initials:'EC',
+    rank:9, score:62, born:'1965', president:null, bilan:null,
+    bio:"Éric Ciotti est un homme politique français, président des Républicains depuis 2022. Député des Alpes-Maritimes, il défend une ligne conservatrice et souverainiste et a conduit le parti vers une alliance avec le gouvernement Philippe-Macron.",
+    news:[
+      { date:'19/06/2025', title:'Ciotti réélu à la présidence de LR au congrès de Paris' },
+      { date:'09/06/2025', title:'LR et Renaissance signent un accord de gouvernement' },
+      { date:'30/05/2025', title:'Ciotti propose une loi sur l\'assimilation républicaine' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'panot', name:'Mathilde Panot', role:'Présidente du groupe LFI à l\'AN', party:'La France Insoumise', color:'#C0392B', initials:'MP',
+    rank:10, score:61, born:'1989', president:null, bilan:null,
+    bio:"Mathilde Panot est une femme politique française, présidente du groupe La France Insoumise à l'Assemblée nationale depuis 2020. Proche de Jean-Luc Mélenchon, elle défend les positions du mouvement insoumis avec pugnacité et est pressentie pour prendre la direction du parti.",
+    news:[
+      { date:'18/06/2025', title:'Panot dépose une motion de censure contre le gouvernement Bayrou' },
+      { date:'08/06/2025', title:'Panot annonce sa candidature à la direction de LFI' },
+      { date:'29/05/2025', title:'Panot interpelle Bayrou sur les services publics' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'attal', name:'Gabriel Attal', role:'Président de Renaissance', party:'Renaissance', color:'#2563EB', initials:'GA',
+    rank:11, score:59, born:'1989', president:null, bilan:null,
+    bio:"Gabriel Attal est un homme politique français, président du parti Renaissance depuis 2024. Il a été Premier ministre de janvier à septembre 2024, devenant ainsi le plus jeune chef de gouvernement de la Ve République. Député des Hauts-de-Seine, il ambitionne la présidentielle de 2027.",
+    news:[
+      { date:'20/06/2025', title:'Attal annonce un congrès Renaissance en septembre 2025' },
+      { date:'10/06/2025', title:'Attal publie son programme pour 2027 : "France en avant"' },
+      { date:'01/06/2025', title:'Sondage présidentielle : Attal 3e à 15% des intentions de vote' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'roussel', name:'Fabien Roussel', role:'Secrétaire national du PCF', party:'Parti Communiste Français', color:'#D6001C', initials:'FR',
+    rank:12, score:54, born:'1969', president:null, bilan:null,
+    bio:"Fabien Roussel est un homme politique français, secrétaire national du Parti Communiste Français depuis 2018. Député du Nord, il a été candidat à la présidentielle de 2022 avec 2,28% des voix. Il défend un communisme républicain et laïc.",
+    news:[
+      { date:'14/06/2025', title:'Roussel propose la nationalisation des autoroutes et de l\'énergie' },
+      { date:'04/06/2025', title:'PCF : 105 ans d\'histoire célébrés à Nanterre' },
+      { date:'25/05/2025', title:'Roussel défend l\'augmentation du SMIC à 1800€ net' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'glucksmann', name:'Raphaël Glucksmann', role:'Fondateur de Place Publique', party:'Place Publique', color:'#8E44AD', initials:'RG',
+    rank:13, score:52, born:'1979', president:null, bilan:null,
+    bio:"Raphaël Glucksmann est un homme politique et essayiste français, fondateur du mouvement Place Publique. Député européen, il a réalisé 13,8% aux élections européennes de 2024 sur une liste PS-PP. Europhile et social-démocrate, il incarne un renouveau de la gauche.",
+    news:[
+      { date:'11/06/2025', title:'Glucksmann annonce la fusion de Place Publique avec le PS' },
+      { date:'01/06/2025', title:'Glucksmann publie un essai sur la souveraineté européenne' },
+      { date:'22/05/2025', title:'Sondage : Glucksmann à 9% en cas de candidature en 2027' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'retailleau', name:'Bruno Retailleau', role:'Ministre de l\'Intérieur', party:'Les Républicains', color:'#1F6FB2', initials:'BR',
+    rank:14, score:50, born:'1960', president:null, bilan:null,
+    bio:"Bruno Retailleau est un homme politique français, ministre de l'Intérieur depuis 2024. Ancien président du groupe LR au Sénat, il est sénateur de Vendée et défend une ligne conservatrice et catholique sur les questions de société et de sécurité.",
+    news:[
+      { date:'19/06/2025', title:'Retailleau annonce un plan de renforcement de la police nationale' },
+      { date:'09/06/2025', title:'Retailleau défend le projet de loi sur la sécurité publique' },
+      { date:'30/05/2025', title:'Retailleau auditionné au Sénat sur la réforme de la police' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'vallaud', name:'Boris Vallaud', role:'Président du groupe PS à l\'AN', party:'Parti Socialiste', color:'#E5447A', initials:'BV',
+    rank:15, score:48, born:'1976', president:null, bilan:null,
+    bio:"Boris Vallaud est un homme politique français, président du groupe Socialistes et apparentés à l'Assemblée nationale. Ancien secrétaire général adjoint de l'Élysée, époux de Najat Vallaud-Belkacem, il incarne une social-démocratie pragmatique.",
+    news:[
+      { date:'16/06/2025', title:'Vallaud propose un plan de relance par l\'investissement public' },
+      { date:'06/06/2025', title:'Vallaud coordonne la stratégie du groupe PS face au gouvernement' },
+      { date:'27/05/2025', title:'Vallaud publie une tribune sur la réindustrialisation de la France' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+  {
+    id:'jadot', name:'Yannick Jadot', role:'Sénateur, ex-candidat présidentiel', party:'Les Écologistes', color:'#2E9E5B', initials:'YJ',
+    rank:16, score:46, born:'1967', president:null, bilan:null,
+    bio:"Yannick Jadot est un homme politique français, sénateur de Paris depuis 2023. Ancien eurodéputé, il a été le candidat d'EELV à la présidentielle de 2022 (4,63%). Spécialiste des questions climatiques et énergétiques, il défend une écologie politique radicale.",
+    news:[
+      { date:'15/06/2025', title:'Jadot interpelle Bayrou sur la sortie du nucléaire' },
+      { date:'05/06/2025', title:'Jadot publie un rapport sur la biodiversité en France' },
+      { date:'26/05/2025', title:'Jadot plaide pour une taxe carbone aux frontières de l\'UE' },
+    ],
+    votes:[
+      { date:'12/03/2025', title:'Loi énergie et climat', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'wauquiez', name:'Laurent Wauquiez', role:'Président de la région AURA', party:'Les Républicains', color:'#1F6FB2', initials:'LW',
+    rank:17, score:44, born:'1975', president:null, bilan:null,
+    bio:"Laurent Wauquiez est un homme politique français, président de la région Auvergne-Rhône-Alpes depuis 2016. Ancien président de LR de 2017 à 2019, il est revenu en politique nationale et est souvent cité comme candidat potentiel à la présidentielle de 2027.",
+    news:[
+      { date:'12/06/2025', title:'Wauquiez lance une initiative régionale sur la sécurité' },
+      { date:'02/06/2025', title:'Wauquiez auditionné sur le bilan de la région AURA' },
+      { date:'23/05/2025', title:'Sondage : Wauquiez à 8% en cas de candidature présidentielle' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Pour' },
+    ],
+  },
+  {
+    id:'sarkozy', name:'Nicolas Sarkozy', role:'Ancien Président de la République', party:'Les Républicains', color:'#1F6FB2', initials:'NS',
+    rank:18, score:41, born:'1955', president:{ term:'2007–2012' },
+    bio:"Nicolas Sarkozy est un homme politique français, 23e président de la République de 2007 à 2012. Fondateur de l'UMP, il a marqué la Ve République par sa personnalité volontariste et ses réformes (carte judiciaire, régimes spéciaux, retraites). Il reste une figure influente de la droite malgré ses démêlés judiciaires.",
+    bilan:[
+      { label:'Chômage (mandat)', value:'10,0', unit:'%', delta:'+2,4 pts', tone:'neg', series:[8.0,7.5,7.8,9.5,9.8,10.0], caption:'2007–2012' },
+      { label:'Croissance PIB', value:'-0,1', unit:'%', delta:'', tone:'neg', series:[2.4,0.3,-2.9,1.9,2.1,-0.1], caption:'Moy. mandat' },
+      { label:'Dette publique', value:'89,6', unit:'% PIB', delta:'+21 pts', tone:'neg', series:[64.3,68.1,79.0,81.6,85.2,89.6], caption:'vs 2007' },
+      { label:'Pouvoir d\'achat', value:'+0,8', unit:'%/an', delta:'', tone:'pos', series:[3.2,0.5,0.5,1.8,0.6,0.4], caption:'Moy. mandat' },
+      { label:'Popularité finale', value:'36', unit:'%', delta:'-29 pts', tone:'neg', series:[65,50,42,47,39,36], caption:'Baromètre TNS' },
+      { label:'Déficit public', value:'-4,8', unit:'% PIB', delta:'-2,1 pts', tone:'neg', series:[-2.7,-3.3,-7.5,-7.1,-5.2,-4.8], caption:'2012' },
+    ],
+    news:[
+      { date:'10/06/2025', title:'Sarkozy publie ses mémoires "Le temps des combats II"' },
+      { date:'01/06/2025', title:'Sarkozy reçoit Nicolas Dupont-Aignan à son domicile' },
+    ],
+    votes:[],
+  },
+  {
+    id:'hollande', name:'François Hollande', role:'Ancien Président de la République', party:'Parti Socialiste', color:'#E5447A', initials:'FH',
+    rank:19, score:38, born:'1954', president:{ term:'2012–2017' },
+    bio:"François Hollande est un homme politique français, 24e président de la République de 2012 à 2017. Premier secrétaire du PS de 1997 à 2008, il bat Nicolas Sarkozy à la présidentielle de 2012. Confronté à une crise économique persistante et à des attentats terroristes, il renonce à briguer un second mandat.",
+    bilan:[
+      { label:'Chômage (mandat)', value:'9,4', unit:'%', delta:'+0,2 pt', tone:'neg', series:[10.0,10.2,10.4,10.3,10.0,9.4], caption:'2012–2017' },
+      { label:'Croissance PIB', value:'1,1', unit:'%', delta:'', tone:'pos', series:[0.3,0.6,0.9,1.0,1.1,1.1], caption:'Moy. mandat' },
+      { label:'Dette publique', value:'96,6', unit:'% PIB', delta:'+7 pts', tone:'neg', series:[89.6,90.6,92.3,94.9,95.6,96.6], caption:'vs 2012' },
+      { label:'Chômage jeunes', value:'24,6', unit:'%', delta:'-0,4 pt', tone:'neg', series:[22.8,24.8,24.1,25.9,24.6,24.6], caption:'15-24 ans' },
+      { label:'Popularité finale', value:'14', unit:'%', delta:'-64 pts', tone:'neg', series:[60,37,22,18,17,14], caption:'Baromètre IFOP' },
+      { label:'Déficit public', value:'-2,7', unit:'% PIB', delta:'+2,1 pts', tone:'pos', series:[-4.8,-4.1,-3.9,-3.6,-3.4,-2.7], caption:'2017' },
+    ],
+    news:[
+      { date:'12/06/2025', title:'Hollande publie un article sur la gauche et l\'Europe' },
+      { date:'03/06/2025', title:'Hollande préside une conférence sur la démocratie sociale' },
+    ],
+    votes:[],
+  },
+  {
+    id:'bompard', name:'Manuel Bompard', role:'Coordinateur national de LFI', party:'La France Insoumise', color:'#C0392B', initials:'MB',
+    rank:20, score:36, born:'1987', president:null, bilan:null,
+    bio:"Manuel Bompard est un homme politique français, coordinateur national de La France Insoumise. Député des Bouches-du-Rhône, ancien directeur de campagne de Jean-Luc Mélenchon, il est l'un des principaux organisateurs du mouvement insoumis et de ses campagnes électorales.",
+    news:[
+      { date:'18/06/2025', title:'Bompard coordonne la stratégie de LFI pour les régionales' },
+      { date:'08/06/2025', title:'Bompard défend la motion de censure contre le gouvernement Bayrou' },
+    ],
+    votes:[
+      { date:'14/05/2025', title:'PLF rectificatif 2025', result:'Adopté', position:'Contre' },
+    ],
+  },
+];
+
+function PPMonogram({ f, size=56 }) {
+  return (
+    <div style={{ width:size, height:size, borderRadius:99, background:hexRgba(f.color,0.12), border:`2.5px solid ${hexRgba(f.color,0.35)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+      <span style={{ fontSize:size*0.3, fontWeight:800, color:f.color }}>{f.initials}</span>
+    </div>
+  );
+}
+
+function PPCrest({ term }) {
+  return (
+    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:4, padding:'10px 16px', background:'linear-gradient(135deg,#f9f7f3,#ede9e0)', border:'1px solid #d4c9a8', borderRadius:10 }}>
+      <div style={{ fontSize:22 }}>🔵</div>
+      <div style={{ fontSize:9, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'#5a4e3a', textAlign:'center', lineHeight:1.4 }}>Présidence<br/>de la République</div>
+      <div style={{ fontSize:10, color:'#8a7a5a', fontWeight:600 }}>{term}</div>
+    </div>
+  );
+}
+
+function BilanGrid({ bilan }) {
+  return (
+    <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:10, marginBottom:16 }}>
+      {bilan.map((tile,i) => (
+        <div key={i} style={{ background:'white', borderRadius:8, border:'1px solid var(--border-subtle)', padding:'12px 14px' }}>
+          <Eyebrow style={{ marginBottom:4 }}>{tile.label}</Eyebrow>
+          <div style={{ display:'flex', alignItems:'flex-end', gap:8, marginBottom:6 }}>
+            <span style={{ fontSize:22, fontWeight:800, color:'var(--text-primary)', lineHeight:1 }}>{tile.value}</span>
+            <span style={{ fontSize:11, color:'var(--text-tertiary)', paddingBottom:2 }}>{tile.unit}</span>
+            {tile.delta && (
+              <span style={{ fontSize:10, fontWeight:700, padding:'1px 6px', borderRadius:99, background: tile.tone==='pos' ? '#F0FDF4' : tile.tone==='neg' ? '#FFF1F2' : 'var(--gray-50)', color: tile.tone==='pos' ? '#0E8A52' : tile.tone==='neg' ? '#E1000F' : 'var(--text-tertiary)', marginLeft:'auto' }}>{tile.delta}</span>
+            )}
+          </div>
+          <Spark series={tile.series} tone={tile.tone} width={80} height={22} />
+          <div style={{ fontSize:10, color:'var(--text-tertiary)', marginTop:4 }}>{tile.caption}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PPTimeline({ items }) {
+  return (
+    <div>
+      {items.map((item,i) => {
+        const isOk = item.result === 'Adopté' || item.result === 'Promulguée';
+        const isPour = item.position === 'Pour' || item.position === 'Promulguée';
+        return (
+          <div key={i} style={{ display:'flex', gap:10, padding:'9px 0', borderBottom: i < items.length-1 ? '1px solid var(--border-subtle)' : 'none', alignItems:'flex-start' }}>
+            <div style={{ flexShrink:0, width:6, height:6, borderRadius:99, background: isPour ? '#0E8A52' : '#E1000F', marginTop:5 }} />
+            <div style={{ flex:1 }}>
+              <div style={{ fontSize:12, color:'var(--text-primary)', fontWeight:500 }}>{item.title}</div>
+              {item.date && item.date !== '—' && <div style={{ fontSize:10, color:'var(--text-tertiary)', marginTop:2 }}>{item.date}</div>}
+            </div>
+            <div style={{ display:'flex', gap:4, flexShrink:0 }}>
+              <span style={{ fontSize:10, fontWeight:700, padding:'1px 6px', borderRadius:99, background: isPour ? '#F0FDF4' : '#FFF1F2', color: isPour ? '#0E8A52' : '#E1000F' }}>{item.position}</span>
+              <span style={{ fontSize:10, padding:'1px 6px', borderRadius:99, background: isOk ? '#F0FDF4' : '#FFF1F2', color: isOk ? '#0E8A52' : '#E1000F' }}>{item.result}</span>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function PPDetailA({ f }) {
+  return (
+    <div>
+      {/* Hero */}
+      <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:16, display:'flex', alignItems:'flex-start', gap:20 }}>
+        <PPMonogram f={f} size={72} />
+        <div style={{ flex:1 }}>
+          <div style={{ fontSize:20, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
+          <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>{f.role}</div>
+          <div style={{ display:'flex', alignItems:'center', gap:8, marginTop:8, flexWrap:'wrap' }}>
+            <span style={{ fontSize:11, fontWeight:700, padding:'3px 10px', borderRadius:99, background:hexRgba(f.color,0.1), color:f.color, border:`1px solid ${hexRgba(f.color,0.25)}` }}>{f.party}</span>
+            <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Né·e en {f.born}</span>
+            <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Score d'influence : <b style={{ color:'var(--text-primary)' }}>{f.score}/100</b></span>
+          </div>
+          <p style={{ margin:'12px 0 0', fontSize:13, color:'var(--text-secondary)', lineHeight:1.7 }}>{f.bio}</p>
+        </div>
+        {f.president && <PPCrest term={f.president.term} />}
+      </div>
+      {/* Bilan */}
+      {f.bilan && <BilanGrid bilan={f.bilan} />}
+      {/* News + votes */}
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
+        <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+          <Eyebrow>Actualités récentes</Eyebrow>
+          {f.news.map((n,i) => (
+            <div key={i} style={{ padding:'8px 0', borderBottom: i < f.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
+              <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:2 }}>{n.date}</div>
+              <div style={{ fontSize:12, color:'var(--text-primary)', lineHeight:1.5 }}>{n.title}</div>
+            </div>
+          ))}
+        </div>
+        {f.votes && f.votes.length > 0 && (
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+            <Eyebrow>Votes récents</Eyebrow>
+            <PPTimeline items={f.votes} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function PPDetailB({ f }) {
+  return (
+    <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', overflow:'hidden' }}>
+      {/* Header bar */}
+      <div style={{ background:f.color, padding:'12px 18px', display:'flex', alignItems:'center', gap:14 }}>
+        <PPMonogram f={f} size={40} />
+        <div>
+          <div style={{ fontSize:15, fontWeight:800, color:'white' }}>{f.name}</div>
+          <div style={{ fontSize:11, color:'rgba(255,255,255,0.75)', marginTop:1 }}>{f.role} · {f.party}</div>
+        </div>
+        <div style={{ marginLeft:'auto', background:'rgba(255,255,255,0.15)', borderRadius:8, padding:'6px 12px', textAlign:'center' }}>
+          <div style={{ fontSize:18, fontWeight:800, color:'white' }}>{f.score}</div>
+          <div style={{ fontSize:9, color:'rgba(255,255,255,0.7)', textTransform:'uppercase', letterSpacing:'0.05em' }}>Influence</div>
+        </div>
+      </div>
+      {/* Bilan ticker */}
+      {f.bilan && (
+        <div style={{ background:'var(--gray-50)', borderBottom:'1px solid var(--border-subtle)', padding:'8px 18px', display:'flex', gap:20, overflowX:'auto' }}>
+          {f.bilan.map((tile,i) => (
+            <div key={i} style={{ flexShrink:0, textAlign:'center' }}>
+              <div style={{ fontSize:16, fontWeight:800, color: tile.tone==='pos' ? '#0E8A52' : tile.tone==='neg' ? '#E1000F' : 'var(--text-primary)' }}>{tile.value}<span style={{ fontSize:10 }}>{tile.unit}</span></div>
+              <div style={{ fontSize:9, color:'var(--text-tertiary)', textTransform:'uppercase' }}>{tile.label}</div>
+            </div>
+          ))}
+        </div>
+      )}
+      {/* 3 cols */}
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:0 }}>
+        <div style={{ padding:'16px', borderRight:'1px solid var(--border-subtle)' }}>
+          <Eyebrow>Actualités</Eyebrow>
+          {f.news.map((n,i) => (
+            <div key={i} style={{ marginBottom:10 }}>
+              <div style={{ fontSize:9, color:'var(--text-tertiary)', marginBottom:2 }}>{n.date}</div>
+              <div style={{ fontSize:11, color:'var(--text-primary)', lineHeight:1.5 }}>{n.title}</div>
+            </div>
+          ))}
+        </div>
+        <div style={{ padding:'16px', borderRight:'1px solid var(--border-subtle)' }}>
+          <Eyebrow>Votes</Eyebrow>
+          {f.votes && f.votes.length > 0 ? <PPTimeline items={f.votes} /> : <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>Aucun vote enregistré</div>}
+        </div>
+        <div style={{ padding:'16px' }}>
+          <Eyebrow>Biographie</Eyebrow>
+          <p style={{ margin:0, fontSize:11, color:'var(--text-secondary)', lineHeight:1.7 }}>{f.bio}</p>
+          <div style={{ marginTop:10 }}>
+            <div style={{ fontSize:10, color:'var(--text-tertiary)' }}>Né·e en {f.born} · Score {f.score}/100</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PPDetailC({ f }) {
+  return (
+    <div>
+      <div style={{ display:'grid', gridTemplateColumns:'280px 1fr', gap:16 }}>
+        {/* Identity card */}
+        <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'20px', textAlign:'center' }}>
+            <PPMonogram f={f} size={80} />
+            <div style={{ marginTop:12, fontSize:16, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
+            <div style={{ fontSize:12, color:'var(--text-secondary)', marginTop:4 }}>{f.role}</div>
+            <span style={{ display:'inline-block', marginTop:8, fontSize:11, fontWeight:700, padding:'3px 10px', borderRadius:99, background:hexRgba(f.color,0.1), color:f.color, border:`1px solid ${hexRgba(f.color,0.25)}` }}>{f.party}</span>
+            <div style={{ marginTop:12, padding:'8px', background:'var(--gray-50)', borderRadius:6 }}>
+              <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>Né·e en {f.born}</div>
+              <div style={{ fontSize:12, fontWeight:700, color:f.color, marginTop:2 }}>Score {f.score}/100</div>
+            </div>
+            {f.president && <div style={{ marginTop:10 }}><PPCrest term={f.president.term} /></div>}
+          </div>
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+            <Eyebrow>Biographie</Eyebrow>
+            <p style={{ margin:0, fontSize:11, color:'var(--text-secondary)', lineHeight:1.7 }}>{f.bio}</p>
+          </div>
+        </div>
+
+        {/* Cards col */}
+        <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
+          {/* Bilan */}
+          {f.bilan && (
+            <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+              <Eyebrow>Bilan</Eyebrow>
+              <BilanGrid bilan={f.bilan} />
+            </div>
+          )}
+          {/* News */}
+          <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+            <Eyebrow>Actualités</Eyebrow>
+            {f.news.map((n,i) => (
+              <div key={i} style={{ padding:'7px 0', borderBottom: i < f.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:2 }}>{n.date}</div>
+                <div style={{ fontSize:12, color:'var(--text-primary)', lineHeight:1.5 }}>{n.title}</div>
+              </div>
+            ))}
+          </div>
+          {/* Votes */}
+          {f.votes && f.votes.length > 0 && (
+            <div style={{ background:'white', borderRadius:'var(--radius)', border:'1px solid var(--border-subtle)', padding:'16px' }}>
+              <Eyebrow>Votes</Eyebrow>
+              <PPTimeline items={f.votes} />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PPDetail({ f, onBack }) {
+  const [variant, setVariant] = React.useState('A');
+  return (
+    <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
+      {/* Sticky sub-bar */}
+      <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:20, flexWrap:'wrap' }}>
+        <button onClick={onBack} style={{ display:'flex', alignItems:'center', gap:6, padding:'6px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer', fontSize:12, color:'var(--text-secondary)', fontFamily:'var(--font-sans)' }}>
+          <Icon n="arrow-left" s={12} /> Retour
+        </button>
+        <div style={{ display:'flex', gap:4, background:'var(--gray-100)', borderRadius:'var(--radius-sm)', padding:3 }}>
+          {['A','B','C'].map(v => (
+            <button key={v} onClick={() => setVariant(v)}
+              style={{ padding:'4px 14px', borderRadius:6, border:'none', cursor:'pointer', fontSize:12, fontWeight: variant===v ? 700 : 400, background: variant===v ? 'white' : 'transparent', color: variant===v ? 'var(--text-primary)' : 'var(--text-tertiary)', fontFamily:'var(--font-sans)', boxShadow: variant===v ? '0 1px 3px rgba(0,0,0,0.12)' : 'none', transition:'all 0.15s' }}>
+              {v === 'A' ? 'Institutionnel' : v === 'B' ? 'Terminal' : 'Cartes'}
+            </button>
+          ))}
+        </div>
+        <div style={{ marginLeft:'auto' }}>
+          <SourceTag source="Personnalités politiques · france-monitor" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+        </div>
+      </div>
+
+      {variant === 'A' && <PPDetailA f={f} />}
+      {variant === 'B' && <PPDetailB f={f} />}
+      {variant === 'C' && <PPDetailC f={f} />}
+    </div>
+  );
+}
+
+function PPCard({ f, onClick }) {
+  const [hov, setHov] = React.useState(false);
+  return (
+    <div onClick={() => onClick(f.id)} onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}
+      style={{ background:'white', borderRadius:'var(--radius)', border:`1px solid ${hov ? f.color : 'var(--border-subtle)'}`, padding:'16px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 14px rgba(0,0,0,0.07)' : 'none', position:'relative' }}>
+      {/* Rank badge */}
+      <div style={{ position:'absolute', top:10, right:10, width:22, height:22, borderRadius:99, background: f.rank <= 3 ? f.color : 'var(--gray-100)', display:'flex', alignItems:'center', justifyContent:'center' }}>
+        <span style={{ fontSize:10, fontWeight:800, color: f.rank <= 3 ? 'white' : 'var(--text-tertiary)' }}>{f.rank}</span>
+      </div>
+      {/* Monogram */}
+      <PPMonogram f={f} size={44} />
+      <div style={{ marginTop:10, marginBottom:6 }}>
+        <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', paddingRight:26 }}>{f.name}</div>
+        <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>{f.role}</div>
+      </div>
+      <span style={{ fontSize:10, fontWeight:700, padding:'2px 8px', borderRadius:99, background:hexRgba(f.color,0.1), color:f.color, border:`1px solid ${hexRgba(f.color,0.2)}` }}>{f.party}</span>
+      {/* Influence bar */}
+      <div style={{ marginTop:10 }}>
+        <div style={{ display:'flex', justifyContent:'space-between', marginBottom:3 }}>
+          <span style={{ fontSize:9, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.05em' }}>Influence</span>
+          <span style={{ fontSize:9, fontWeight:700, color:f.color }}>{f.score}/100</span>
+        </div>
+        <div style={{ height:3, borderRadius:99, background:'var(--gray-100)' }}>
+          <div style={{ height:3, borderRadius:99, background:f.color, width:`${f.score}%`, transition:'width 0.3s' }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PersonnalitesModule() {
+  const [view, setView] = React.useState('list');
+  const [selectedId, setSelectedId] = React.useState(null);
+  const [search, setSearch] = React.useState('');
+  const [sort, setSort] = React.useState('influence');
+
+  const filtered = PERSONNALITES_DATA
+    .filter(f => f.name.toLowerCase().includes(search.toLowerCase()) || f.party.toLowerCase().includes(search.toLowerCase()))
+    .sort((a,b) => sort === 'influence' ? a.rank - b.rank : a.name.localeCompare(b.name));
+
+  if (view === 'detail') {
+    const f = PERSONNALITES_DATA.find(p => p.id === selectedId);
+    return <PPDetail f={f} onBack={() => setView('list')} />;
+  }
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1200, margin:'0 auto' }}>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Personnalités politiques</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>Classement par score d'influence · {PERSONNALITES_DATA.length} personnalités</div>
+      </div>
+
+      <div style={{ display:'flex', gap:10, marginBottom:20 }}>
+        <div style={{ position:'relative', flex:1 }}>
+          <Icon n="search" s={13} style={{ position:'absolute', left:10, top:'50%', transform:'translateY(-50%)', color:'var(--text-tertiary)' }} />
+          <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Rechercher une personnalité…"
+            style={{ width:'100%', padding:'8px 10px 8px 30px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        </div>
+        <select value={sort} onChange={e => setSort(e.target.value)}
+          style={{ padding:'8px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none' }}>
+          <option value="influence">Trier par influence</option>
+          <option value="alpha">Trier alphabétiquement</option>
+        </select>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(5,1fr)', gap:12 }}>
+        {filtered.map(f => <PPCard key={f.id} f={f} onClick={id => { setSelectedId(id); setView('detail'); }} />)}
+      </div>
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Personnalités politiques · france-monitor · IFOP" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
 function Dashboard({ variant, go }) {
   const [module, setModule] = React.useState('dette');
   return (
@@ -3517,6 +4805,12 @@ function Dashboard({ variant, go }) {
             ? <div className="db-scroll"><CarburantModule /></div>
             : module === 'assemblee'
             ? <div className="db-scroll"><AssembleeModule /></div>
+            : module === 'senat'
+            ? <div className="db-scroll"><SenatModule /></div>
+            : module === 'partis'
+            ? <div className="db-scroll"><PartisModule /></div>
+            : module === 'personnalites'
+            ? <div className="db-scroll"><PersonnalitesModule /></div>
             : <TerminalView module={module} />}
       </div>
     </div>

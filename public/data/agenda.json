@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T09:38:55.764Z",
+  "updatedAt": "2026-06-23T12:32:47.650Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2026IDS30872",
@@ -87,7 +87,7 @@
       "titre": "suite de l'ordre du jour de l'après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-22T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-22T21:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO59051"
     },
@@ -462,7 +462,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30764",
-      "titre": "Discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, sur la nécessité d’une politique nataliste ambitieuse pour enrayer le déclin démographique français",
+      "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l'état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T07:00:00.000Z",
       "dateFin": null,
@@ -543,7 +543,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30765",
-      "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, sur la nécessité d’une politique nataliste ambitieuse pour enrayer le déclin démographique français",
+      "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l’état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T13:00:00.000Z",
       "dateFin": null,
@@ -561,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30766",
-      "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, sur la nécessité d’une politique nataliste ambitieuse pour enrayer le déclin démographique français",
+      "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l’état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T19:30:00.000Z",
       "dateFin": null,

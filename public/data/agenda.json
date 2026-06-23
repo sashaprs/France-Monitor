@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T15:51:36.708Z",
+  "updatedAt": "2026-06-23T17:55:54.186Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2026IDS30872",
@@ -632,6 +632,60 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDS30866",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-27T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30867",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-27T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30868",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-27T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30869",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-28T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30870",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-28T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30871",
+      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-06-28T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460642",
       "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (n° 2797) (M. Belkhir Belhaddad, M. Lionel Duparay, Mme Sophie Mette, Mme Véronique Riotton, rapporteurs).",
       "type": "reunionCommission_type",
@@ -729,6 +783,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2026IDFL460686",
+      "titre": "Table ronde sur la place de l'habitat léger dans l'accès au logement des gens du voyage, en présence de : - M. Jérôme Weinhard, juriste à la Fédération Nationale des Associations Solidaires d'Action avec les Tsiganes et les Gens du voyage (FNASAT) ;- M. Thomas Longhi, directeur de l'entreprise Cahute ;- M. Michel Cool, fondateur du service public citoyen pour la reconnaissance de l'habitat non-ordinaire et responsable du site internet habitat-pc-sos.fr.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-06-30T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4085",
+      "organisateur": "PO854465"
     },
     {
       "uid": "RUANR5L17S2026IDS30781",
@@ -1415,6 +1478,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2026IDS30858",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-07-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460570",
       "titre": "audition de M. Benjamin Haddad, ministre délégué, chargé de l’Europe sur l’actualité de Union européenne.",
       "type": "reunionCommission_type",
@@ -1422,6 +1494,69 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30859",
+      "titre": "Suite de la lecture définitive de la proposition de loi relative au droit à l'aide à mourir",
+      "type": "seance_type",
+      "dateDebut": "2026-07-15T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30860",
+      "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l'approbation de l'accord entre la France et les Pays-Bas portant délimitation de la frontière entre Saint-Martin et Sint Maarten",
+      "type": "seance_type",
+      "dateDebut": "2026-07-16T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30861",
+      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-07-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30862",
+      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-07-16T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30863",
+      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-07-17T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30864",
+      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-07-17T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30865",
+      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-07-17T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDFL460004",

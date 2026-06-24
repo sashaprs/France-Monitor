@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-23T23:57:40.159Z",
+  "updatedAt": "2026-06-24T04:11:01.538Z",
   "scrutins": [
+    {
+      "numero": "7465",
+      "titre": "l'amendement n° 270 de Mme Dubré-Chirat et les amendements identiques suivants à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "153",
+      "pour": "52",
+      "contre": "80",
+      "abstentions": "21",
+      "nonVotants": "1"
+    },
     {
       "numero": "7455",
       "titre": "l'amendement n° 220 de Mme Lorho à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
@@ -10,6 +21,17 @@
       "pour": "44",
       "contre": "56",
       "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7485",
+      "titre": "l'amendement n° 179 de M. Le Fur et les amendements identiques suivants à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "92",
+      "contre": "117",
+      "abstentions": "4",
       "nonVotants": "1"
     },
     {
@@ -24,6 +46,72 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7491",
+      "titre": "l'amendement n° 880 de M. Juvin à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "229",
+      "pour": "99",
+      "contre": "125",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7488",
+      "titre": "l'amendement n° 205 de M. Hetzel à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "217",
+      "pour": "93",
+      "contre": "122",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7461",
+      "titre": "l'amendement n° 1124 de Mme Pollet et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "152",
+      "pour": "62",
+      "contre": "86",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7474",
+      "titre": "l'amendement n° 879 de M. Juvin à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "208",
+      "pour": "85",
+      "contre": "119",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7472",
+      "titre": "l'amendement n° 381 de Mme Gruet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "202",
+      "pour": "83",
+      "contre": "117",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7466",
+      "titre": "l'amendement n° 798 de Mme Dupont et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "173",
+      "pour": "58",
+      "contre": "100",
+      "abstentions": "15",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7456",
       "titre": "l'amendement n° 105 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-23",
@@ -32,6 +120,94 @@
       "pour": "48",
       "contre": "72",
       "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7492",
+      "titre": "l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "230",
+      "pour": "124",
+      "contre": "102",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7486",
+      "titre": "l'amendement n° 881 de M. Juvin à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "217",
+      "pour": "96",
+      "contre": "118",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7482",
+      "titre": "l'amendement n° 141 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "205",
+      "pour": "83",
+      "contre": "114",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7477",
+      "titre": "l'amendement n° 1281 de Mme Battistel à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "179",
+      "pour": "46",
+      "contre": "121",
+      "abstentions": "12",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7490",
+      "titre": "l'amendement n° 390 de Mme Gruet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "220",
+      "pour": "96",
+      "contre": "121",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7463",
+      "titre": "l'amendement n° 26 de M. Hetzel et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "166",
+      "pour": "77",
+      "contre": "88",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7489",
+      "titre": "l'amendement n° 389 de Mme Gruet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "221",
+      "pour": "96",
+      "contre": "122",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7464",
+      "titre": "l'amendement n° 178 de M. Le Fur et les amendements identiques suivants à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "166",
+      "pour": "79",
+      "contre": "86",
+      "abstentions": "1",
       "nonVotants": "1"
     },
     {
@@ -46,6 +222,72 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7469",
+      "titre": "l'amendement n° 677 de Mme Battistel à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "131",
+      "pour": "15",
+      "contre": "88",
+      "abstentions": "28",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7481",
+      "titre": "l'amendement n° 115 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "87",
+      "contre": "118",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7462",
+      "titre": "l'amendement n° 1031 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "147",
+      "pour": "58",
+      "contre": "82",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7459",
+      "titre": "l'amendement n° 108 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "135",
+      "pour": "54",
+      "contre": "78",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7460",
+      "titre": "l'amendement n° 109 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "60",
+      "contre": "81",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7471",
+      "titre": "l'amendement n° 92 de M. Hetzel et les amendements identiques suivants à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "187",
+      "pour": "72",
+      "contre": "111",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7454",
       "titre": "l'ensemble du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
       "date": "2026-06-23",
@@ -55,6 +297,138 @@
       "contre": "202",
       "abstentions": "64",
       "nonVotants": "0"
+    },
+    {
+      "numero": "7473",
+      "titre": "l'amendement n° 114 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "206",
+      "pour": "82",
+      "contre": "121",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7480",
+      "titre": "l'amendement n° 1370 de M. de Lépinau à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "214",
+      "pour": "92",
+      "contre": "121",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7487",
+      "titre": "l'amendement n° 29 de M. Hetzel et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "215",
+      "pour": "96",
+      "contre": "117",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7470",
+      "titre": "l'amendement n° 379 de Mme Gruet et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "134",
+      "pour": "61",
+      "contre": "71",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7478",
+      "titre": "l'amendement n° 320 de Mme Corneloup à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "188",
+      "pour": "84",
+      "contre": "100",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7476",
+      "titre": "l'amendement n° 153 de Mme Hamelet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "204",
+      "pour": "84",
+      "contre": "117",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7479",
+      "titre": "l'amendement n° 27 de M. Hetzel et les amendements identiques suivants à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "224",
+      "pour": "97",
+      "contre": "124",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7467",
+      "titre": "l'amendement n° 675 de Mme Battistel et l'amendement identique suivant à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "142",
+      "pour": "37",
+      "contre": "98",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7475",
+      "titre": "l'amendement n° 1125 de Mme Pollet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "203",
+      "pour": "78",
+      "contre": "122",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7468",
+      "titre": "l'amendement n° 641 de M. Monnet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "142",
+      "pour": "36",
+      "contre": "102",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7483",
+      "titre": "l'amendement n° 222 de Mme Lorho à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "214",
+      "pour": "92",
+      "contre": "119",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7484",
+      "titre": "l'amendement n° 140 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-23",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "90",
+      "contre": "119",
+      "abstentions": "2",
+      "nonVotants": "1"
     },
     {
       "numero": "7443",
@@ -176,380 +550,6 @@
       "contre": "110",
       "abstentions": "2",
       "nonVotants": "2"
-    },
-    {
-      "numero": "7453",
-      "titre": "l'amendement n° 384 de Mme Gruet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "113",
-      "pour": "37",
-      "contre": "76",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7445",
-      "titre": "l'amendement n° 350 de Mme Mansouri à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "137",
-      "pour": "56",
-      "contre": "80",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7447",
-      "titre": "l'amendement n° 1083 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "136",
-      "pour": "56",
-      "contre": "79",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7440",
-      "titre": "l'amendement n° 372 de Mme Gruet à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "127",
-      "pour": "44",
-      "contre": "82",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7451",
-      "titre": "l'amendement n° 1891 de M. Verny à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "124",
-      "pour": "44",
-      "contre": "79",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7448",
-      "titre": "l'amendement n° 1437 de M. Golliot à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "131",
-      "pour": "51",
-      "contre": "79",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7437",
-      "titre": "l'article premier de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "175",
-      "pour": "93",
-      "contre": "80",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7434",
-      "titre": "l'amendement n° 622 de M. Sitzenstuhl à l'article premier de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "157",
-      "pour": "77",
-      "contre": "78",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7436",
-      "titre": "l'amendement n° 1073 de M. Bentz à l'article premier de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "173",
-      "pour": "78",
-      "contre": "92",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7435",
-      "titre": "l'amendement n° 16 de M. Hetzel à l'article premier de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "157",
-      "pour": "76",
-      "contre": "81",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7439",
-      "titre": "l'amendement n° 1291 de M. Bentz à l'article 2 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-22",
-      "sort": null,
-      "nombreVotants": "122",
-      "pour": "40",
-      "contre": "81",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7419",
-      "titre": "l'amendement n° 84 de M. Ceccoli à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "74",
-      "pour": "8",
-      "contre": "58",
-      "abstentions": "8",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7426",
-      "titre": "l'amendement n° 115 de M. Boudié et l'amendement identique suivant à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "96",
-      "pour": "57",
-      "contre": "22",
-      "abstentions": "17",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7423",
-      "titre": "le sous-amendement n° 117 de M. Pierre Cazeneuve à l'amendement n° 115 de M. Boudié et à l'amendement identique suivant à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "101",
-      "pour": "52",
-      "contre": "49",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7422",
-      "titre": "l'amendement n° 3 de la commission des lois et les amendements identiques suivants à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "81",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7420",
-      "titre": "l'amendement n° 72 de Mme Regol à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "64",
-      "pour": "19",
-      "contre": "31",
-      "abstentions": "14",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7424",
-      "titre": "le sous-amendement n° 119 du Gouvernement à l'amendement n° 115 de M. Boudié et à l'amendement identique suivant à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "99",
-      "pour": "75",
-      "contre": "23",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7429",
-      "titre": "l'amendement n° 42 de M. Coquerel à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "53",
-      "pour": "29",
-      "contre": "23",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7430",
-      "titre": "l'amendement n° 88 de M. Ceccoli à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "47",
-      "pour": "9",
-      "contre": "30",
-      "abstentions": "8",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7428",
-      "titre": "l'amendement n° 86 de M. Ceccoli à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "45",
-      "pour": "4",
-      "contre": "41",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7427",
-      "titre": "l'amendement n° 25 de M. Pena à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "5",
-      "contre": "37",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7425",
-      "titre": "le sous-amendement n° 118 de M. Bernalicis à l'amendement n° 115 de M. Boudié et à l'amendement identique suivant à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "98",
-      "pour": "76",
-      "contre": "21",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7421",
-      "titre": "l'amendement n° 73 de Mme Regol à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "75",
-      "pour": "38",
-      "contre": "28",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7431",
-      "titre": "l'amendement n° 5 de la commission des lois et les amendements identiques suivants à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-18",
-      "sort": null,
-      "nombreVotants": "49",
-      "pour": "48",
-      "contre": "0",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7412",
-      "titre": "l'amendement n° 68 de M. Cormier-Bouligeon à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "143",
-      "pour": "2",
-      "contre": "140",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7418",
-      "titre": "l'amendement n° 18 de M. Colombani à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "101",
-      "pour": "22",
-      "contre": "75",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7415",
-      "titre": "l'amendement n° 32 de M. Rambaud à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "103",
-      "pour": "29",
-      "contre": "74",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7411",
-      "titre": "l'amendement n° 55 de M. Cormier-Bouligeon à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "121",
-      "pour": "3",
-      "contre": "115",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7413",
-      "titre": "l'amendement n° 105 du Gouvernement et les amendements identiques suivants à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "143",
-      "pour": "107",
-      "contre": "32",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7409",
-      "titre": "l'ensemble de la proposition de loi visant à relancer les investissements dans le secteur de l'hydroélectricité pour contribuer à la transition énergétique (texte de la commission mixte paritaire).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "465",
-      "pour": "290",
-      "contre": "59",
-      "abstentions": "116",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7416",
-      "titre": "l'amendement n° 33 de M. Rambaud à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "25",
-      "contre": "103",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7408",
-      "titre": "l'ensemble de la proposition de loi visant à améliorer l'accès au logement des travailleurs des services publics (texte de la commission mixte paritaire).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "466",
-      "pour": "292",
-      "contre": "160",
-      "abstentions": "14",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7417",
-      "titre": "l'amendement n° 97 de M. Ceccoli à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "124",
-      "pour": "10",
-      "contre": "94",
-      "abstentions": "20",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7410",
-      "titre": "l'amendement n° 16 de M. Colombani et l'amendement identique suivant à l'article unique du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture).",
-      "date": "2026-06-17",
-      "sort": null,
-      "nombreVotants": "106",
-      "pour": "29",
-      "contre": "69",
-      "abstentions": "8",
-      "nonVotants": "1"
     }
   ]
 }

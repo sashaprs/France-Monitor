@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-06-25T13:18:29.346Z",
+  "updatedAt": "2026-06-25T16:24:33.060Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460581",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi relative au droit à l’aide à mourir (n° 2915) (M. Philippe Vigier, rapporteur général ; Mme Brigitte Liso, Mme Audrey Abadie Amiel, M. Stéphane Delautrette et Mme Élise Leboucher, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-22T13:50:00.000Z",
-      "dateFin": "2026-06-22T13:55:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460487",
-      "titre": "audition de M. Laurent Nunez, ministre de l’Intérieur, et discussion générale sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-22T14:00:00.000Z",
-      "dateFin": "2026-06-22T17:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30758",
-      "titre": "Nouvelle lecture de la proposition de loi relative à la fin de vie",
-      "type": "seance_type",
-      "dateDebut": "2026-06-22T14:00:00.000Z",
-      "dateFin": "2026-06-22T18:05:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460666",
-      "titre": "audition de Mme Karen Virapin, directrice générale de Air Caraïbes.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-22T14:30:00.000Z",
-      "dateFin": "2026-06-22T15:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460667",
-      "titre": "audition de MM. Laurent Timsit, délégué général de la Fédération nationale de l’aviation et de ses métiers (FNAM) et Romain Schulz, responsable Économie et Transition écologie.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-22T16:00:00.000Z",
-      "dateFin": "2026-06-22T17:30:00.000Z",
-      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO879674"
-    },
     {
       "uid": "RUANR5L17S2026IDC460488",
       "titre": "suite de l'ordre du jour de l'après-midi.",
@@ -357,7 +312,7 @@
       "titre": "suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-24T12:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-24T18:10:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO59051"
     },
@@ -1046,6 +1001,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460646",
+      "titre": "examen, ouvert à la presse, du rapport de la mission flash sur le discernement des mineurs présenté par Mmes Sylvie Bonnet et Ayda Hadizadeh rapporteures.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO804431"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460672",
       "titre": "examen du rapport suivi d’un vote, à huis clos.",
       "type": "reunionCommission_type",
@@ -1055,17 +1019,8 @@
       "organisateur": "PO878313"
     },
     {
-      "uid": "RUANR5L17S2026IDC460646",
-      "titre": "examen, ouvert à la presse, du rapport de la mission flash sur le discernement des mineurs présenté par Mmes Sylvie Bonnet et Ayda Hadizadeh rapporteures.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO804431"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460361",
-      "titre": "abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur);",
+      "titre": "Abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) :  examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
@@ -1380,7 +1335,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460644",
-      "titre": "–  La guerre en Ukraine, quel nouveau paradigme pour l'Europe de la Défense ? : examen du rapport d’information de M. Maxime Michelet) et Mme Michèle Tabarot (rapporteurs d’information)",
+      "titre": "–  La guerre en Ukraine, quel nouveau paradigme pour l'Europe de la Défense ? : examen du rapport d’information de M. Maxime Michelet et Mme Michèle Tabarot (rapporteurs d’information)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-07T14:30:00.000Z",
       "dateFin": null,
@@ -1524,7 +1479,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460645",
-      "titre": "lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738) : examen de la proposition de résolution européenne de M. Vincent Ledoux (M. Vincent Ledoux, rapporteur);",
+      "titre": "Lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738) : examen de la proposition de résolution européenne de M. Vincent Ledoux (M. Vincent Ledoux, rapporteur);",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T13:00:00.000Z",
       "dateFin": null,
@@ -1650,7 +1605,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460570",
-      "titre": "audition de M. Benjamin Haddad, ministre délégué, chargé de l’Europe sur l’actualité de Union européenne.",
+      "titre": "Audition de M. Benjamin Haddad, ministre délégué chargé de l’Europe, sur l’actualité de Union européenne.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T14:30:00.000Z",
       "dateFin": null,

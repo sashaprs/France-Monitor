@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-06-25T19:05:05.074Z",
+  "updatedAt": "2026-06-25T21:43:00.104Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30759",
-      "titre": "Suite de la discussion en nouvelle lecture de la proposition de loi relative à la fin de vie",
-      "type": "seance_type",
-      "dateDebut": "2026-06-22T19:30:00.000Z",
-      "dateFin": "2026-06-22T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460673",
       "titre": "audition",

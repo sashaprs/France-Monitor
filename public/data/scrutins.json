@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-06-25T19:05:03.582Z",
+  "updatedAt": "2026-06-25T21:42:58.288Z",
   "scrutins": [
+    {
+      "numero": "7577",
+      "titre": "la demande de suspension de séance formulée par M. Piquemal en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à renforcer les prérogatives des officiers de l'état civil et du ministère public pour lutter contre les mariages simulés ou arrangés) (première lecture).",
+      "date": "2026-06-25",
+      "sort": null,
+      "nombreVotants": "71",
+      "pour": "42",
+      "contre": "29",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7575",
+      "titre": "la demande de suspension de séance formulée par M. Boyard en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à renforcer les prérogatives des officiers de l'état civil et du ministère public pour lutter contre les mariages simulés ou arrangés) (première lecture).",
+      "date": "2026-06-25",
+      "sort": null,
+      "nombreVotants": "99",
+      "pour": "50",
+      "contre": "49",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7576",
+      "titre": "la demande de suspension de séance formulée par M. Piquemal en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à renforcer les prérogatives des officiers de l'état civil et du ministère public pour lutter contre les mariages simulés ou arrangés) (première lecture).",
+      "date": "2026-06-25",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "42",
+      "contre": "50",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
     {
       "numero": "7532",
       "titre": "l'amendement n° 682 de Mme Bamana à l’article 4 de la proposition de loi relative au droit à l’aide à mourir (nouvelle lecture).",
@@ -516,39 +549,6 @@
       "pour": "115",
       "contre": "135",
       "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7544",
-      "titre": "l'amendement n° 229 de Mme Lorho et l'amendement identique suivant à l’article 4 de la proposition de loi relative au droit à l’aide à mourir (nouvelle lecture).",
-      "date": "2026-06-24",
-      "sort": null,
-      "nombreVotants": "192",
-      "pour": "76",
-      "contre": "113",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7535",
-      "titre": "l'amendement n° 1113 de M. Bernhardt à l’article 4 de la proposition de loi relative au droit à l’aide à mourir (nouvelle lecture).",
-      "date": "2026-06-24",
-      "sort": null,
-      "nombreVotants": "172",
-      "pour": "68",
-      "contre": "100",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7502",
-      "titre": "l’amendement n° 715 de M. Bentz à l’article 3 de la proposition de loi relative au droit à l’aide à mourir (nouvelle lecture).",
-      "date": "2026-06-24",
-      "sort": null,
-      "nombreVotants": "180",
-      "pour": "70",
-      "contre": "107",
-      "abstentions": "3",
       "nonVotants": "1"
     }
   ]

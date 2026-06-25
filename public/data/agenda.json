@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-06-25T16:24:33.060Z",
+  "updatedAt": "2026-06-25T19:05:05.074Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460488",
-      "titre": "suite de l'ordre du jour de l'après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-22T19:00:00.000Z",
-      "dateFin": "2026-06-22T21:50:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2026IDS30759",
       "titre": "Suite de la discussion en nouvelle lecture de la proposition de loi relative à la fin de vie",
@@ -429,7 +420,7 @@
       "titre": "examen du rapport d’évaluation de la loi de bioéthique de 2021 (Gérard Leseul et Dominique Voynet, députés, Martine Berthet et Florence Lassarade, sénatrices, rapporteurs) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-25T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-25T10:00:00.000Z",
       "lieu": "Sénat (Salle Olympe de Gouges – 4 rue Casimir Delavigne)",
       "organisateur": "PO273589"
     },
@@ -482,8 +473,8 @@
       "uid": "RUANR5L17S2026IDC460629",
       "titre": "audition de Mme Carine Camby, présidente de la 1ère chambre de la Cour des comptes, sur le rapport de la Cour sur la situation et les perspectives des finances publiques ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-06-25T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-06-25T09:05:00.000Z",
+      "dateFin": "2026-06-25T11:15:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -587,6 +578,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460713",
+      "titre": "fédération nationale des lieux de vie et d’accueil – M. Yannick Paquereau, directeur général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-26T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460498",
       "titre": "suite de l'ordre du jour du matin.",
       "type": "reunionCommission_type",
@@ -687,7 +687,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460642",
-      "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (n° 2797) (M. Belkhir Belhaddad, M. Lionel Duparay, Mme Sophie Mette, Mme Véronique Riotton, rapporteurs).",
+      "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, relative à l’organisation, à la gestion et au financement du sport professionnel (n° 2797) (M. Belkhir Belhaddad, M. Lionel Duparay, Mme Sophie Mette, Mme Véronique Riotton, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-29T07:15:00.000Z",
       "dateFin": null,
@@ -930,7 +930,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460643",
-      "titre": "examen du rapport de la mission d’information sur « Création, diffusion et acquisition des connaissances : comment l’intelligence artificielle transforme notre éducation et notre culture » (M. Roger Chudeau, président, et Mme Céline Calvez, rapporteure).",
+      "titre": "examen du rapport de la mission d’information sur « Création, diffusion et acquisition des connaissances : comment l’intelligence artificielle transforme notre éducation et notre culture » (M. Roger Chudeau, président, et Mme Céline Calvez, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:30:00.000Z",
       "dateFin": null,
@@ -941,7 +941,7 @@
       "uid": "RUANR5L17S2026IDC460483",
       "titre": "examen, ouvert à la presse, et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Royaume des Pays-Bas portant délimitation de la frontière entre la République française (Saint-Martin) et le Royaume des Pays-Bas (Sint Maarten) (n° 2688) (M. Bertrand Bouyx, rapporteur).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T08:00:00.000Z",
+      "dateDebut": "2026-07-01T08:15:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
@@ -954,6 +954,15 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460714",
+      "titre": "échange de vues, conjoint avec le groupe d’études à vocation internationale sur la Biélorussie, avec une délégation du Conseil de coordination du Belarus en exil, conduite par Mme Alena Prykhodzka, présidente de la commission électorale, chargée de l’organisation des élections.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2026IDC460631",
@@ -1020,7 +1029,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460361",
-      "titre": "Abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) :  examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur) ;",
+      "titre": "abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) :  examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
@@ -1065,7 +1074,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460484",
-      "titre": "audition, ouverte à la presse, de M. Nicolas Forissier, ministre délégué au commerce extérieur et à l'attractivité, sur l'impact du contexte géopolitique sur les performances françaises à l'exportation, la mise en œuvre de nouveaux accords conclus par la Commission européenne ainsi que les réunions des ministres chargés du commerce du G7 le 6 mai et du Conseil des affaires étrangères (commerce) du 22 mai.",
+      "titre": "audition, ouverte à la presse, de M. Nicolas Forissier, ministre délégué auprès du ministre de l’Europe et des affaires étrangères, chargé du commerce extérieur et de l’attractivité, sur l’impact du contexte géopolitique sur les performances françaises à l’exportation, la mise en oeuvre de nouveaux accords conclus par la Commission européenne ainsi que les réunions des ministres chargés du commerce du G7, le 6 mai, et du Conseil des affaires étrangères (commerce), le 22 mai.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T14:30:00.000Z",
       "dateFin": null,
@@ -1152,6 +1161,24 @@
       "dateFin": null,
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO883517"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460711",
+      "titre": "- audition",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "3ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460712",
+      "titre": "audition",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "3ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
     },
     {
       "uid": "RUANR5L17S2026IDS30786",
@@ -1433,6 +1460,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC460710",
+      "titre": "table ronde sur les stages dans le cadre de la scolarité générale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460656",
       "titre": "audition, ouverte à la presse, de M. Christophe Lecourtier, directeur général de l’Agence française de développement (AFD), sur les activités et les perspectives du groupe AFD.",
       "type": "reunionCommission_type",
@@ -1458,6 +1494,15 @@
       "dateFin": null,
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO804431"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460709",
+      "titre": "examen du rapport, à huis clos.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6566 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO878304"
     },
     {
       "uid": "RUANR5L17S2026IDC460466",

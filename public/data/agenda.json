@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-06-25T03:34:36.954Z",
+  "updatedAt": "2026-06-25T07:43:00.807Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2026IDS30872",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-06-22T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2026IDC460668",
       "titre": "Réunion du bureau de l'APFA - Préparation de la séance plénière de l’Assemblée parlementaire franco-allemande du 22 juin 2026 - Examen du rapport de la mission flash sur la mise en oeuvre des stratégies pour le développement de l’apprentissage de la langue du partenaire - Examen d’un projet de délibération du bureau portant création d’une mission flash sur la coopération franco-allemande dans le domaine de l’industrie de défense - Points divers",
@@ -245,6 +236,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUSNR5L17S2026IDS30873",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-06-24T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460627",
       "titre": "nomination du rapporteur d’une mission flash sur les taxes sur les services vidéo dans la perspective du projet de loi de finances pour 2027 ;",
       "type": "reunionCommission_type",
@@ -366,7 +366,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-06-24T12:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-24T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -447,7 +447,7 @@
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de la convention d’entraide judiciaire en matière pénale entre la France et le Suriname",
       "type": "seance_type",
       "dateDebut": "2026-06-24T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-24T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

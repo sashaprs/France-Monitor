@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T23:03:42.232Z",
+  "updatedAt": "2026-06-25T03:34:36.954Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2026IDS30872",
@@ -525,7 +525,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460691",
-      "titre": "table ronde des représentants des personnels de l’Éducation nationale, périscolaire, sports :\r- union nationale des syndicats autonomes (UNSA) – sous réserve de confirmation\r- syndicat unitaire des personnels des administrations parisiennes (SUPAP) – M. Nicolas Léger\r- fédération syndicale unitaire (FSU) – M. Brice Catel, Mme Béatrice Fauvinet et Mme Elise Arnol, secrétaires nationaux\r- unsa éducation – sous réserve de confirmation\r- SNAPS Education (sports) – sous réserve de confirmation.",
+      "titre": "- table ronde des représentants des personnels de l’éducation nationale, du périscolaire et des sports",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-25T08:15:00.000Z",
       "dateFin": null,
@@ -606,9 +606,18 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460694",
-      "titre": "- table Ronde « assistants familiaux » \r–  l’Association nationale des assistants maternels, assistants et accueillants familiaux (ANAMAAF), \r– fédération nationale des assistants familiaux et de la protection de l’enfance (FNAF-PE),\r– Union fédérative nationale des associations de familles d’accueil et assistants maternels (UFNAFAAM) – M. Thierry Herrant, chargé de mission, membre du Conseil national de la protection de l’enfance\r– Confédération associative syndicale des assistants maternels, assistants et accueillants familiaux (Casamaaf) – sous réserve de confirmation\r–  Syndicat professionnel des assistants maternels et des assistants familiaux (Spamaf).",
+      "titre": "- table Ronde « assistants familiaux »",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-25T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883517"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460695",
+      "titre": "direction générale des relations humaines du ministère de l’éducation nationale et de la jeunesse (DGRH) – M. Christophe Géhin, directeur général, Mme Marine Lamotte D’incamps, cheffe de service, Mme Sophie Chatonnay, directrice de cabinet, M. Laurent Belleguic, sous-directeur, M. Benoit Martin, chef de département",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-25T15:00:00.000Z",
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO883517"
@@ -822,12 +831,21 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460519",
-      "titre": "Audition de Mme Saida Laârouchi Engström, présidente de la Commission nationale d’évaluation des recherches et études relatives à la gestion des matières et des déchets radioactifs (CNE2), sur le dernier rapport annuel de la Commission",
+      "titre": "audition de Mme Saida Laârouchi Engström, présidente de la Commission nationale d’évaluation des recherches et études relatives à la gestion des matières et des déchets radioactifs (CNE2), sur le dernier rapport annuel de la Commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T11:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale (Salle 7040 – 103 rue de l'Université, 2ème sous-sol)",
       "organisateur": "PO273589"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460697",
+      "titre": "audition, ouverte à la presse, de M. Gérald Darmanin, garde des sceaux, ministre de la justice.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T11:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDFL459333",
@@ -920,6 +938,15 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2026IDC460698",
+      "titre": "audition, ouverte à la presse, de M. Édouard Geffray, ministre de l’éducation nationale, et Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460575",
       "titre": "suite de l’ordre du jour de l’après-midi.",
       "type": "reunionCommission_type",
@@ -954,6 +981,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460699",
+      "titre": "examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDC460588",
@@ -1074,7 +1110,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460689",
-      "titre": "présentation, ouverte à la presse, du rapport d’information sur l’autonomie financière des collectivités territoriales, constituant un bilan d’étape du groupe de travail sur le financement des territoires, et de la proposition de loi organique, annexée à ce rapport, visant à renforcer l’autonomie financière des collectivités territoriales (M. Stéphane DELAUTRETTE, rapporteur).",
+      "titre": "présentation, ouverte à la presse, du rapport d’information sur l’autonomie financière des collectivités territoriales, constituant un bilan d’étape du groupe de travail sur le financement des territoires, et de la proposition de loi organique, annexée à ce rapport, visant à renforcer l’autonomie financière des collectivités territoriales (M. Stéphane Delautrette, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
@@ -1164,7 +1200,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460520",
-      "titre": "Examen du rapport d’évaluation de la décarbonation du secteur des transports terrestres, en application de l’article 73 de la loi d’orientation des mobilités (LOM) du 26 décembre 2019 (Jean-Luc Fugit, député, et Pierre Médevielle, sénateur, rapporteurs)",
+      "titre": "examen du rapport d’évaluation de la décarbonation du secteur des transports terrestres, en application de l’article 73 de la loi d’orientation des mobilités (LOM) du 26 décembre 2019 (Jean-Luc Fugit, député, et Pierre Médevielle, sénateur, rapporteurs) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T07:00:00.000Z",
       "dateFin": null,
@@ -1181,6 +1217,15 @@
       "organisateur": "PO273589"
     },
     {
+      "uid": "RUANR5L17S2026IDC460700",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30786",
       "titre": "Suite de la discussion du projet de loi organique, adopté par le Sénat, relatif au renforcement des juridictions criminelles",
       "type": "seance_type",
@@ -1188,6 +1233,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460701",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDC460579",
@@ -1206,6 +1260,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460702",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30823",
@@ -1253,6 +1316,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460703",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-03T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30789",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
@@ -1260,6 +1332,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460704",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-03T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30790",
@@ -1271,6 +1352,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460705",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-06T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30825",
       "titre": "Discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
@@ -1278,6 +1368,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460706",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-06T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30826",
@@ -1296,6 +1395,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460707",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-07T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDC460644",
@@ -1350,6 +1458,15 @@
       "dateFin": "2026-07-07T17:00:00.000Z",
       "lieu": "3e Bureau",
       "organisateur": "PO851971"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460708",
+      "titre": "suite de l’examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-07T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30828",

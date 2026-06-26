@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-06-26T13:11:57.981Z",
+  "updatedAt": "2026-06-26T16:17:10.953Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460565",
-      "titre": "audition de M. Christophe Leribault, président de l’établissement public du musée du Louvre;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T14:30:00.000Z",
-      "dateFin": "2026-06-23T16:30:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460367",
-      "titre": "audition, ouverte à la presse, de M. Benjamin Haddad, ministre délégué auprès du ministre de l’Europe et des affaires étrangères, chargé de l’Europe, sur le sommet de la Communauté politique européenne (CPE) à Erevan et les grands dossiers européens du moment.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T14:35:00.000Z",
-      "dateFin": "2026-06-23T16:20:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460676",
-      "titre": "nomination du Bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T15:30:00.000Z",
-      "dateFin": "2026-06-23T17:15:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460626",
-      "titre": "présentation, par M. Emmanuel Mandon, rapporteur spécial de la mission Relations avec les collectivités territoriales, du rapport d’évaluation des politiques publiques portant sur la péréquation, et audition de M. Jean-François Debat, président du comité des finances locales (CFL), sur les conclusions de ce rapport.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T15:50:00.000Z",
-      "dateFin": "2026-06-23T17:05:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460489",
-      "titre": "suite de l’examen du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T16:00:00.000Z",
-      "dateFin": "2026-06-23T18:00:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2026IDC460490",
       "titre": "suite de l'ordre du jour de l'après-midi.",

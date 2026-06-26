@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-06-26T18:51:25.862Z",
+  "updatedAt": "2026-06-26T20:46:47.166Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460490",
-      "titre": "suite de l'ordre du jour de l'après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T19:00:00.000Z",
-      "dateFin": "2026-06-23T21:45:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30761",
-      "titre": "Suite de la discussion en nouvelle lecture de la proposition de loi relative à la fin de vie",
-      "type": "seance_type",
-      "dateDebut": "2026-06-23T19:30:00.000Z",
-      "dateFin": "2026-06-23T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460491",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs) ;",
@@ -36,6 +18,15 @@
       "dateFin": null,
       "lieu": "Sénat",
       "organisateur": "PO78718"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460725",
+      "titre": "Déplacement à l'École supérieur de Cavalerie à Saumur.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-24T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Déplacement",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2026IDC460627",
@@ -452,6 +443,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460738",
+      "titre": "audition de M. Pascal de Izaguirre, président-directeur général de Corsair.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460713",
       "titre": "fédération nationale des lieux de vie et d’accueil – M. Yannick Paquereau, directeur général.",
       "type": "reunionCommission_type",
@@ -606,7 +606,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460572",
-      "titre": "audition de M. Philippe Tabarot, ministre des transports, et discussion générale sur le projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure). Examen du projet de loi-cadre.",
+      "titre": "audition de M. Philippe Tabarot, ministre des transports, et discussion générale sur le projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure). Examen des articles du projet de loi-cadre.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-29T14:00:00.000Z",
       "dateFin": null,
@@ -624,7 +624,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460573",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-29T19:30:00.000Z",
       "dateFin": null,
@@ -659,6 +659,15 @@
       "organisateur": "PO883517"
     },
     {
+      "uid": "RUANR5L17S2026IDC460733",
+      "titre": "fédération française du bâtiment (FFB) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T11:45:00.000Z",
+      "dateFin": "2026-06-30T12:45:00.000Z",
+      "lieu": "Salle 1 – 95, rue de l’Université",
+      "organisateur": "PO883858"
+    },
+    {
       "uid": "RUANR5L17S2026IDFL459333",
       "titre": "Audition de la Fédération pour la gestion du Livre officiel des origines félines (LOOF) sur le thème de la gestion dudit Livre et ses problématiques.",
       "type": "reunionInitParlementaire_type",
@@ -666,6 +675,15 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460726",
+      "titre": "audition de la Direction générale de l'armement, représenté par l'IGA Erwan SALMON, directeur unité de management combat terrestre et l'ICA Aurelie GAUCI-SCHILTZ, directrice de programme SCORPION.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2026IDC460663",
@@ -713,6 +731,24 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC460734",
+      "titre": "audition",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880370"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460678",
+      "titre": "présentation, par M. Emmanuel Maurel et Mme Estelle Mercier, rapporteurs spéciaux de la mission Travail, emploi et administration des ministères sociaux, du rapport d’évaluation des poiltiques publiques portant sur les effets de la baisse des crédits liés à l’apprentissage, et audition de Mme Sabrina Roubache, ministre déléguée chargée de l’enseignement et de la formation professionnels et de l’apprentissage, sur les conclusions de ce rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460587",
       "titre": "audition de M. Éric Lelong, président de l’interprofession des produits de la ruche InterApi, M. Éric Le Mélinaire, administrateur d’InterApi et membre du Syndicat français des miels, et Mme Elsa Ricote, directrice d’InterApi.",
       "type": "reunionCommission_type",
@@ -749,8 +785,17 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2026IDC460735",
+      "titre": "- audition en visioconférence",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880370"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460574",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T15:45:00.000Z",
       "dateFin": null,
@@ -785,8 +830,17 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460739",
+      "titre": "nomination du rapporteur d’une mission flash sur les taxes sur les services vidéo dans la perspective du projet de loi de finances pour 2027 ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460516",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:00:00.000Z",
       "dateFin": null,
@@ -795,7 +849,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460585",
-      "titre": "audition de la commission.",
+      "titre": "audition, à huis clos, de M. Emmanuel Puig, délégué à la planification stratégique à la direction générale des relations internationales et de la stratégie (DGRIS) du Ministère des Armées, sur l’actualité géopolitique et géostratégique.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:00:00.000Z",
       "dateFin": null,
@@ -812,8 +866,17 @@
       "organisateur": "PO883517"
     },
     {
+      "uid": "RUANR5L17S2026IDC460730",
+      "titre": "audition de M. Xavier Tytelman, consultant aéronautique & défense.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T07:30:00.000Z",
+      "dateFin": "2026-07-01T09:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460588",
-      "titre": "- nomination d’un rapporteur sur le projet de loi visant la relance et la décentralisation du logement (n° 2981) ;",
+      "titre": "nomination d’un rapporteur sur le projet de loi visant la relance et la décentralisation du logement (n° 2981) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:30:00.000Z",
       "dateFin": null,
@@ -848,6 +911,15 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2026IDC460741",
+      "titre": "nomination du rapporteur d’une mission flash sur l’adaptation des outils d’évaluation des recettes fiscales ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460714",
       "titre": "échange de vues, conjoint avec le groupe d’études à vocation internationale sur la Biélorussie, avec une délégation du Conseil de coordination du Belarus en exil, conduite par Mme Alena Prykhodzka, présidente de la commission électorale, chargée de l’organisation des élections.",
       "type": "reunionCommission_type",
@@ -855,15 +927,6 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460631",
-      "titre": "présentation du rapport d’information de la mission d’information relative aux services publics de la Poste en vue d'une nouvelle loi postale (MM. Jean-René Cazeneuve et Jacques Oberti, rapporteurs), et audition de Mme Marie-Ange Debon, présidente-directrice générale du groupe La Poste",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC460671",
@@ -929,8 +992,17 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2026IDC460729",
+      "titre": "audition conjointe de M. Patrick Coder, président de la Fédération française des associations de réservistes pour un service national opérationnel (FFAR-SNO), et MM. Paul Mumbach, président de la Fédération française du bénévolat et de la vie associative (FFBA), et William Messi, porte-parole.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO878768"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460576",
-      "titre": "suite de l’examen du projet de loi cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
@@ -966,12 +1038,30 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460632",
-      "titre": "audition de M. Philippe Michaud, président exécutif du mouvement E. Leclerc, sur les prix et la fiscalité des carburants",
+      "titre": "audition de MM. Philippe Michaud, président exécutif du mouvement E. Leclerc, Pacôme Lesage, directeur général de Siplec E. Leclerc, et Rémi Thomas, directeur carburants et services, sur les prix et la fiscalité des carburants.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460736",
+      "titre": "- audition",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880370"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460740",
+      "titre": "agence nationale de rénovation urbaine (ANRU) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:30:00.000Z",
+      "dateFin": "2026-07-01T14:15:00.000Z",
+      "lieu": "Salle 3 – 95, rue de l’Université",
+      "organisateur": "PO878743"
     },
     {
       "uid": "RUANR5L17S2026IDC460484",
@@ -1056,12 +1146,21 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460578",
-      "titre": "suite de l’examen du projet de loi cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460679",
+      "titre": "présentation, par M. Kévin Mauvieux, rapporteur spécial de la mission Engagements financiers de l’État, du rapport d’évaluation des politiques publiques portant sur l’effet boule de neige de la dette, et audition de M. Roland Lescure, ministre de l’économie, des finances et de la souveraineté industrielle, énergétique et numérique, sur les conclusions de ce rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDS30821",
@@ -1071,6 +1170,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460743",
+      "titre": "audition de la Conférence des doyens de facultés de médecine représentée par la Professeure Marie-France Seronde, PU/PH, doyenne de la faculté de médecine de Besançon, et le Professeur Denis Angoulvant, PU/PH, doyen de la faculté de médecine de Tours, secrétaire du bureau de la conférence des doyens.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 8838",
+      "organisateur": "PO876645"
     },
     {
       "uid": "RUANR5L17S2026IDC460520",
@@ -1118,6 +1226,24 @@
       "organisateur": "PO882110"
     },
     {
+      "uid": "RUANR5L17S2026IDC460744",
+      "titre": "audition du Professeur Olivier Turrini, PU/PH, chef du service de chirurgie digestive, Institut Paoli-Calmettes (cancérologie) de Marseille, et de la Professeure Charline Bertholdt, PU/PH, cheffe du pôle gynécologie-obstétrique du CHRU de Nancy.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 8838",
+      "organisateur": "PO876645"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460631",
+      "titre": "présentation, par M. Charles Sitzenstuhl, rapporteur spécial de la mission Recherche et enseignement supérieur, du rapport d’évaluation des politiques publiques sur la mise en œuvre des repas à 1 euro pour les boursiers, et audition de M. Julien Meimon, président de l’association d’aide alimentaire aux étudiants Linkee-Entraide étudiante, sur les conclusions de ce rapport",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30786",
       "titre": "Suite de la discussion du projet de loi organique, adopté par le Sénat, relatif au renforcement des juridictions criminelles",
       "type": "seance_type",
@@ -1137,7 +1263,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460579",
-      "titre": "suite de l’examen du projet de loi cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T13:00:00.000Z",
       "dateFin": null,
@@ -1152,6 +1278,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460742",
+      "titre": "audition :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T15:00:00.000Z",
+      "dateFin": "2026-07-02T16:00:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO878743"
     },
     {
       "uid": "RUANR5L17S2026IDC460702",
@@ -1182,7 +1317,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460580",
-      "titre": "éventuellement, suite de l’examen du projet de loi cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
+      "titre": "éventuellement, suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T19:30:00.000Z",
       "dateFin": null,
@@ -1389,7 +1524,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460586",
-      "titre": "audition, à huis clos, sur l’actualité géopolitique et géostratégique.",
+      "titre": "audition, ouverte à la presse, de M. Clément Beaune, Haut-commissaire à la Stratégie et au Plan, sur les travaux du Haut-commissariat relatifs à la défense.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:00:00.000Z",
       "dateFin": null,
@@ -1451,6 +1586,15 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2026IDC460745",
+      "titre": "– Examen du rapport, à huis clos",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO878968"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460709",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
@@ -1467,6 +1611,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460731",
+      "titre": "audition conjointe, ouverte à la presse, réunissant des chercheurs / économistes :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDS30829",
@@ -1494,6 +1647,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460732",
+      "titre": "audition, ouverte à la presse, de représentants de la Fondation pour le logement (sous réserve)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDS30836",

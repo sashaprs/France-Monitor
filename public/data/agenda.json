@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-06-26T10:51:46.739Z",
+  "updatedAt": "2026-06-26T13:11:57.981Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460480",
-      "titre": "auditions, ouvertes à la presse, dans le cadre du projet de loi relatif à la protection des enfants ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T12:00:00.000Z",
-      "dateFin": "2026-06-23T15:15:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO804431"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460649",
-      "titre": "association des maires de France et des présidents d'intercommunalité (AMF) – M. Antoine Jouenne, adjoint au maire de Châtillon et co-président de la commission éducation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880339"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460684",
-      "titre": "audition de M. Emmanuel Touzé, conseiller spécial santé auprès du Cabinet de M. Philippe Baptiste, ministre de l’Enseignement supérieur, de la Recherche et de l’Espace.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879259"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460650",
-      "titre": "audition conjointe :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880339"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30760",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-06-23T13:00:00.000Z",
-      "dateFin": "2026-06-23T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460664",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T13:00:00.000Z",
-      "dateFin": "2026-06-23T17:30:00.000Z",
-      "lieu": "en salle René Monory au Sénat, 15 rue de Vaugirard, Paris 6e",
-      "organisateur": "PO883169"
-    },
     {
       "uid": "RUANR5L17S2026IDC460565",
       "titre": "audition de M. Christophe Leribault, président de l’établissement public du musée du Louvre;",
@@ -186,7 +132,7 @@
       "titre": "examen, ouvert à la presse, du rapport d’information « flash » sur le bilan du plan Osez l’export (Mme Pascale Got et Mme Amélia Lakrafi, rapporteures) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-24T07:50:00.000Z",
-      "dateFin": "2026-06-24T08:35:00.000Z",
+      "dateFin": "2026-06-24T09:30:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -686,6 +632,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460723",
+      "titre": "–-à huis-clos, présentation et vote sur le rapport d’information.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-29T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO874906"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30778",
       "titre": "Discussion de la proposition de loi, adoptée par le Sénat, relative à l’organisation, à la gestion et au financement du sport professionnel",
       "type": "seance_type",
@@ -804,7 +759,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460587",
-      "titre": "– Audition de M. Éric Lelong, président de l’interprofession des produits de la ruche InterApi.",
+      "titre": "audition de M. Éric Lelong, président de l’interprofession des produits de la ruche InterApi, M. Éric Le Mélinaire, administrateur d’InterApi et membre du Syndicat français des miels, et Mme Elsa Ricote, directrice d’InterApi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T14:30:00.000Z",
       "dateFin": null,
@@ -903,7 +858,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460588",
-      "titre": "– présentation, en application de l’article 148, alinéa 3 du Règlement, de pétitions renvoyées à la commission et décision sur leur classement ou leur examen",
+      "titre": "- nomination d’un rapporteur sur le projet de loi visant la relance et la décentralisation du logement (n° 2981) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:30:00.000Z",
       "dateFin": null,
@@ -1028,6 +983,15 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2026IDC460654",
+      "titre": "audition, ouverte à la presse, de M. Jean-Louis Duprez, président de la Fédération française des banques alimentaires (FFBA), et de Mme Gabrielle Fontaine, chargée de projets à la direction des relations institutionnelles et du secrétariat général de la Fédération",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 6826 (3e étage du Palais Bourbon)",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460720",
       "titre": "examen des articles du projet de loi.",
       "type": "reunionCommission_type",
@@ -1053,15 +1017,6 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460654",
-      "titre": "audition, ouverte à la presse, de M. Jean-Louis Duprez, président de la Fédération française des banques alimentaires (FFBA)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 6826 (3e étage du Palais Bourbon)",
-      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC460484",
@@ -1674,6 +1629,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460724",
+      "titre": "audition de M. Olivier Le Nézet, président du Comité national des pêches et des élevages marins.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2026IDC460569",

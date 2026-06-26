@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:18:13.087Z",
+  "updatedAt": "2026-06-26T03:42:00.726Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460673",
@@ -375,7 +375,7 @@
       "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l'état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-25T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -510,7 +510,7 @@
       "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l’état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-25T17:55:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -546,7 +546,7 @@
       "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l’état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
       "type": "seance_type",
       "dateDebut": "2026-06-25T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-25T21:55:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -848,6 +848,15 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2026IDC460715",
+      "titre": "audition, ouverte à la presse, de Mmes Caroline Pascal, directrice générale de l’enseignement scolaire (Dgesco), et Céline Kerenflec’h, cheffe du service du pilotage, du budget et des territoires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460574",
       "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
       "type": "reunionCommission_type",
@@ -1037,12 +1046,21 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2026IDC460720",
+      "titre": "examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460689",
       "titre": "présentation, ouverte à la presse, du rapport d’information sur l’autonomie financière des collectivités territoriales, constituant un bilan d’étape du groupe de travail sur le financement des territoires, et de la proposition de loi organique, annexée à ce rapport, visant à renforcer l’autonomie financière des collectivités territoriales (M. Stéphane Delautrette, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
-      "lieu": "6756 - 3ème étage du Palais Bourbon - Bâtiment Colbert",
+      "lieu": "Salle 6756, Palais Bourbon, 3ème étage",
       "organisateur": "PO744127"
     },
     {
@@ -1071,6 +1089,42 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460716",
+      "titre": "audition, ouverte à la presse, de MM. Frédéric Leturque, co-président de la commission éducation de l’Association des maires de France et des présidents d’intercommunalité (AMF), Sébastien Ferriby, conseiller éducation et culture, et Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460717",
+      "titre": "audition, ouverte à la presse, de M. Jean-Paul Carteret, premier vice-président de l’Association des maires ruraux de France (AMRF) en charge de l’éducation, et de Mme Anne-Marie Lailheugue, présidente de l’Association des maires ruraux des Landes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460718",
+      "titre": "audition, ouverte à la presse, de MM. Jean-Michel Morer, vice-président de l’Association des petites villes de France (APVF), et André Robert, délégué général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460721",
+      "titre": "examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDC460577",
@@ -1280,6 +1334,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460722",
+      "titre": "suite de l'examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-03T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460704",
       "titre": "suite de l’examen des articles du projet de loi.",
       "type": "reunionCommission_type",
@@ -1422,6 +1485,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460719",
+      "titre": "sous réserve de son dépôt, examen de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC460586",

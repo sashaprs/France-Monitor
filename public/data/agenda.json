@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-06-26T03:42:00.726Z",
+  "updatedAt": "2026-06-26T07:53:24.020Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460673",
-      "titre": "audition",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-23T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880370"
-    },
     {
       "uid": "RUANR5L17S2026IDC460648",
       "titre": "conférence nationale des inspecteurs d’académie (CNIA) – Mme Sandrine Lair, inspectrice d’académie, directrice académique des services de l'éducation nationale et, M. Christophe Mauny, inspecteur d’académie.",

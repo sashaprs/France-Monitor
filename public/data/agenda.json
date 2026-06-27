@@ -1,78 +1,6 @@
 {
-  "updatedAt": "2026-06-27T04:53:24.420Z",
+  "updatedAt": "2026-06-27T07:49:24.994Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460491",
-      "titre": "suite de l’examen du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": "2026-06-24T10:55:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUSNR5L17S2026IDS30873",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460725",
-      "titre": "Déplacement à l'École supérieur de Cavalerie à Saumur.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Déplacement",
-      "organisateur": "PO880763"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460627",
-      "titre": "nomination du rapporteur d’une mission flash sur les taxes sur les services vidéo dans la perspective du projet de loi de finances pour 2027 ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460583",
-      "titre": "présentation, ouverte à la presse et commune avec la commission du développement durable et de l’aménagement du territoire, du rapport de la mission d’information sur les changements environnementaux et les enjeux de défense (Mmes Sophie Errante et Murielle Lepvraud, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": "2026-06-24T08:25:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460571",
-      "titre": "présentation des conclusions de la mission d’information commune avec la commission de la défense, sur les changements environnementaux et les enjeux de défense (Mmes Murielle Lepvraud et Sophie Errante, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:00:00.000Z",
-      "dateFin": "2026-06-24T08:35:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460566",
-      "titre": "table ronde sur le thème « Diriger un établissement scolaire en 2026 : difficultés et perspectives » réunissant : M. Bruno Bobkiewicz, secrétaire général du Syndicat national des personnels de direction de l’éducation nationale (SNPDEN-UNSA), M. Cédric Carraro, secrétaire général adjoint, et Mme Christelle Kauffmann, secrétaire générale adjointe ; M. Laurent Kaufmann, secrétaire général de la Confédération française démocratique du travail (CFDT) Éducation formation recherche publiques, et Mme Anne Panvier, membre du conseil syndical de l’académie de Versailles ; Mme Agnès Andersen, secrétaire générale d’Indépendance et direction (ID-FO), et M. Alain Mallet, secrétaire général adjoint ; M. Jérémy Torresan, président du Syndicat national des chefs d’établissement de l’enseignement libre (SNCEEL), et Mme Catherine Redon, vice-présidente ; M. Bertrand Van Nedervelde, président du Synadic ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:30:00.000Z",
-      "dateFin": "2026-06-24T09:45:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460504",
-      "titre": "audition, en application des dispositions de l’article L. 1451 1 du code de la santé publique, de Mme Suzette Delaloge, dont la nomination est envisagée aux fonctions de président du conseil d’administration de l’Institut national du cancer.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T07:30:00.000Z",
-      "dateFin": "2026-06-24T10:25:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
     {
       "uid": "RUANR5L17S2026IDC460368",
       "titre": "examen, ouvert à la presse, du rapport d’information « flash » sur le bilan du plan Osez l’export (Mme Pascale Got et Mme Amélia Lakrafi, rapporteures) ;",
@@ -474,7 +402,7 @@
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
       "type": "seance_type",
       "dateDebut": "2026-06-26T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-26T18:10:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -501,7 +429,7 @@
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
       "type": "seance_type",
       "dateDebut": "2026-06-26T19:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-26T21:45:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

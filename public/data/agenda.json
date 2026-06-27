@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-06-27T14:41:48.544Z",
+  "updatedAt": "2026-06-27T16:04:47.390Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460665",
-      "titre": "audition conjointe :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T15:00:00.000Z",
-      "dateFin": "2026-06-24T16:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO878743"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460677",
-      "titre": "présentation, par M. François Jolivet, rapporteur spécial de la mission Cohésion des territoires : logement et hébergement d’urgence, du rapport d’évaluation des politiques publiques sur l’encadrement du crédit immobilier par le Haut Conseil de stabilité financière, et audition de MM. Philippe Mongars, directeur général adjoint de la stabilité financière et des opérations à la Banque de France et Édouard Vidon, directeur de la stabilité financière, sur les conclusions de ce rapport.;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T15:05:00.000Z",
-      "dateFin": "2026-06-24T16:20:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2026IDC460493",
       "titre": "suite de l’ordre du jour de l'après-midi.",

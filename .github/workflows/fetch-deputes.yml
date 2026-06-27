@@ -1,0 +1,149 @@
+name: Fetch Députés Data & Photos
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'   # chaque dimanche à 3h UTC
+  workflow_dispatch:        # déclenchement manuel possible
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download deputies CSV
+        run: |
+          curl -sL "https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_csv_opendata/liste_deputes_libre_office.csv" \
+            -o deputes_raw.csv
+
+      - name: Generate deputes.json with local photo paths
+        run: |
+          python3 - << 'PYEOF'
+          import csv, json
+
+          GROUP_MAP = {
+              'LFI-NFP': {'id':'lfi-nfp', 'short':'LFI-NFP', 'name':'La France insoumise - Nouveau Front Populaire', 'color':'#C0392B'},
+              'EcoS':    {'id':'ecos',    'short':'EcoS',     'name':'Écologiste et Social',                          'color':'#2E9E5B'},
+              'GDR':     {'id':'gdr',     'short':'GDR',      'name':'Gauche Démocrate et Républicaine',              'color':'#D6001C'},
+              'SOC':     {'id':'soc',     'short':'SOC',      'name':'Socialistes et apparentés',                    'color':'#E5447A'},
+              'LIOT':    {'id':'liot',    'short':'LIOT',     'name':'Libertés, Indépendants, Outre-mer',             'color':'#7FB3D5'},
+              'EPR':     {'id':'epr',     'short':'EPR',      'name':'Ensemble pour la République',                   'color':'#2563EB'},
+              'Dem':     {'id':'dem',     'short':'Dem',      'name':'Les Démocrates',                               'color':'#E67E22'},
+              'HOR':     {'id':'hor',     'short':'HOR',      'name':'Horizons & Indépendants',                      'color':'#2E86C1'},
+              'DR':      {'id':'dr',      'short':'DR',       'name':'Droite Républicaine',                          'color':'#1F6FB2'},
+              'UDR':     {'id':'udr',     'short':'UDR',      'name':'Union des droites pour la République',         'color':'#6B4FA0'},
+              'RN':      {'id':'rn',      'short':'RN',       'name':'Rassemblement National',                       'color':'#14385F'},
+              'NI':      {'id':'ni',      'short':'NI',       'name':'Non inscrits',                                 'color':'#9AA3AF'},
+          }
+
+          FEMININE_ENDINGS = ('e', 'ie', 'ée', 'ine', 'ène', 'ine', 'ette')
+          FEMININE_NAMES = {'Marie', 'Sophie', 'Claire', 'Julie', 'Hélène', 'Nathalie', 'Camille',
+                            'Sandrine', 'Aurélie', 'Céline', 'Valérie', 'Isabelle', 'Caroline',
+                            'Christine', 'Émeline', 'Farida', 'Mathilde', 'Clémentine', 'Ségolène',
+                            'Nadège', 'Fadila', 'Stéphanie', 'Virginie', 'Agnès', 'Muriel', 'Sylvie',
+                            'Brigitte', 'Edwige', 'Josiane', 'Michèle', 'Danièle', 'Nicole', 'Monique',
+                            'Béatrice', 'Véronique', 'Laetitia', 'Fatiha', 'Karine', 'Perrine',
+                            'Delphine', 'Florence', 'Pascale', 'Régine', 'Jacqueline', 'Claudine',
+                            'Geneviève', 'Arlette', 'Marguerite', 'Simone', 'Françoise', 'Christiane',
+                            'Chantal', 'Dominique', 'Martine', 'Catherine', 'Patricia', 'Nadia',
+                            'Sabine', 'Corinne', 'Laurence', 'Élodie', 'Anaïs', 'Maëlle', 'Manon',
+                            'Léa', 'Emma', 'Léonie', 'Inès', 'Lucie', 'Alice', 'Amandine', 'Justine',
+                            'Charlotte', 'Élise', 'Éléonore', 'Victoire', 'Aurore', 'Clémence',
+                            'Marine', 'Karima', 'Naïma', 'Séverine', 'Gwenaëlle', 'Typhanie',
+                            'Estelle', 'Nathalie', 'Océane', 'Hélène', 'Séraphine', 'Cécile',
+                            'Raphaëlle', 'Sandrine', 'Audrey', 'Laure', 'Constance', 'Adèle',
+                            'Émilie', 'Gaëlle', 'Nolwenn', 'Romane', 'Alma', 'Aude', 'Élisabeth'}
+
+          with open('deputes_raw.csv', newline='', encoding='utf-8') as f:
+              rows = list(csv.DictReader(f))
+
+          deputes = []
+          for r in rows:
+              idf = r['identifiant']
+              prenom = r['Prénom']
+              nom = r['Nom']
+              groupe_abr = r['Groupe politique (abrégé)']
+              g = GROUP_MAP.get(groupe_abr, {
+                  'id': groupe_abr.lower(), 'short': groupe_abr,
+                  'name': r['Groupe politique (complet)'], 'color': '#9AA3AF'
+              })
+              circ_num = r['Numéro de circonscription']
+              circ_str = circ_num + ('re' if circ_num == '1' else 'e') + ' circonscription'
+              female = prenom in FEMININE_NAMES or prenom.endswith(('elle', 'ette', 'ine', 'ène'))
+              deputes.append({
+                  'id': idf,
+                  'prenom': prenom,
+                  'nom': nom,
+                  'nomComplet': prenom + ' ' + nom,
+                  'initiales': (prenom[0] + nom[0]) if prenom and nom else '??',
+                  'groupe': g,
+                  'female': female,
+                  'dept': r['Département'],
+                  'region': r['Région'],
+                  'circonscription': circ_str,
+                  'profession': r['Profession'],
+                  'photoUrl': 'public/photos/' + idf + '.jpg',
+              })
+
+          deputes.sort(key=lambda d: d['nom'])
+
+          import datetime
+          output = {'updatedAt': datetime.date.today().isoformat(), 'deputes': deputes}
+          with open('public/data/deputes.json', 'w', encoding='utf-8') as f:
+              json.dump(output, f, ensure_ascii=False)
+
+          print(f"Generated {len(deputes)} deputies")
+          PYEOF
+
+      - name: Create photos directory
+        run: mkdir -p public/photos
+
+      - name: Download deputy photos (skip existing)
+        run: |
+          python3 - << 'PYEOF'
+          import json, urllib.request, os, time, sys
+
+          with open('public/data/deputes.json', encoding='utf-8') as f:
+              deputes = json.load(f)['deputes']
+
+          PHOTO_BASE = 'https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/'
+          downloaded = 0
+          skipped = 0
+          failed = 0
+
+          for i, dep in enumerate(deputes):
+              idf = dep['id']
+              dest = f"public/photos/{idf}.jpg"
+              if os.path.exists(dest) and os.path.getsize(dest) > 1000:
+                  skipped += 1
+                  continue
+              url = PHOTO_BASE + idf + '.jpg'
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'FranceMonitor/1.0'})
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      data = resp.read()
+                  if len(data) > 500:
+                      with open(dest, 'wb') as f:
+                          f.write(data)
+                      downloaded += 1
+                  else:
+                      failed += 1
+              except Exception as e:
+                  failed += 1
+              # Respectful rate limit
+              if i % 50 == 49:
+                  time.sleep(1)
+
+          print(f"Photos: {downloaded} downloaded, {skipped} skipped, {failed} failed")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/deputes.json public/photos/
+          git diff --staged --quiet || git commit -m "data: update députés & photos $(date -u +%Y-%m-%d)"
+          git push

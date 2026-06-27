@@ -4288,15 +4288,22 @@ function useANDeputes() {
   return state;
 }
 
+const AN_PHOTO_BASE = 'https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/';
+
 function DepAvatar({ dep, size = 46 }) {
-  const [err, setErr] = React.useState(false);
+  const [triedLocal, setTriedLocal] = React.useState(false);
+  const [triedRemote, setTriedRemote] = React.useState(false);
   const color = dep.groupe ? dep.groupe.color : '#9AA3AF';
-  if (!err && dep.photoUrl) {
+  const localUrl = 'public/photos/' + dep.id + '.jpg';
+  const remoteUrl = AN_PHOTO_BASE + dep.id + '.jpg';
+
+  if (!triedRemote) {
+    const src = !triedLocal ? localUrl : remoteUrl;
     return (
       <img
-        src={dep.photoUrl}
+        src={src}
         alt={dep.nomComplet}
-        onError={() => setErr(true)}
+        onError={() => { if (!triedLocal) { setTriedLocal(true); } else { setTriedRemote(true); } }}
         style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top', border:'2px solid ' + color + '33', flex:'none', display:'block' }}
       />
     );

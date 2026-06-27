@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-06-27T12:08:58.815Z",
+  "updatedAt": "2026-06-27T14:41:48.544Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460492",
-      "titre": "suite de l’ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T12:45:00.000Z",
-      "dateFin": "2026-06-24T18:10:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460360",
-      "titre": "octroyer le statut d’animaux de compagnie aux animaux de rente dès lors qu’ils sont sortis définitivement du circuit de la chaîne alimentaire du fait de leur viande ou produit d’origine animale déclarés impropres à la consommation (n° 1774) : examen de la proposition de résolution européenne (M. Gabriel Amard, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T13:00:00.000Z",
-      "dateFin": "2026-06-24T13:40:00.000Z",
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460606",
-      "titre": "audition, non ouverte à la presse, de classes des départements d’Ille-et-Vilaine et de Seine-Saint-Denis autour de la question du handicap et du harcèlement scolaire.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO804431"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460500",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T13:30:00.000Z",
-      "dateFin": "2026-06-24T13:40:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2026IDC460665",
       "titre": "audition conjointe :",

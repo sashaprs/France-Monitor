@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-06-27T10:08:45.356Z",
+  "updatedAt": "2026-06-27T12:08:58.815Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30762",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-06-24T12:00:00.000Z",
-      "dateFin": "2026-06-24T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460652",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Les Petits frères des pauvres : Mme Anne Géneau, présidente, M. Yann Lasnier, délégué général, et Mme Hélène Gilquin, directrice des affaires institutionnelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-24T12:05:00.000Z",
-      "dateFin": "2026-06-24T14:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
     {
       "uid": "RUANR5L17S2026IDC460492",
       "titre": "suite de l’ordre du jour du matin.",

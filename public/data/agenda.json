@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T22:13:16.402Z",
+  "updatedAt": "2026-06-27T00:07:34.469Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460491",
@@ -438,7 +438,7 @@
       "titre": "suite de la discussion, en nouvelle lecture, de la proposition de loi relative à la fin de vie",
       "type": "seance_type",
       "dateDebut": "2026-06-26T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-26T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -500,7 +500,7 @@
       "uid": "RUANR5L17S2026IDS30769",
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
       "type": "seance_type",
-      "dateDebut": "2026-06-26T19:30:00.000Z",
+      "dateDebut": "2026-06-26T19:45:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -974,6 +974,15 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2026IDC460747",
+      "titre": "- Refashion :\rMme Maud Hardy, directrice générale\rMme Virginie Marseille, directrice des opérations de Refashion\rM. Lucien Grandval, directeur des Affaires publiques de Refashion",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T12:15:00.000Z",
+      "dateFin": "2026-07-01T13:15:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO878513"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460672",
       "titre": "examen du rapport suivi d’un vote, à huis clos.",
       "type": "reunionCommission_type",
@@ -1044,6 +1053,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460748",
+      "titre": "Table ronde « Filière REP textile », avec la participation de :\r- Refashion :\rMme Maud Hardy, directrice générale, accompagnée de :\rMme Virginie Marseille, directrice des opérations de Refashion\rM. Lucien Grandval, directeur des Affaires publiques de Refashion\r- Fédération du prêt à porter féminin :\rM. François-Marie Grau, délégué général adjoint de l’Union Française des Industries de la Mode et de l’Habillement, délégué général de la Fédération Française du Prêt à Porter Féminin\r- Alliance du commerce :\rM. Yohann Petiot, directeur général\r- Reju :\rM. Alain Poincheval, directeur général\rMme Aude Paris, responsable Affaires Publiques",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:15:00.000Z",
+      "dateFin": "2026-07-01T14:15:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO878513"
     },
     {
       "uid": "RUANR5L17S2026IDC460736",

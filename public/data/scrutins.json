@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T22:13:14.329Z",
+  "updatedAt": "2026-06-27T00:07:32.579Z",
   "scrutins": [
     {
       "numero": "7655",
@@ -10,6 +10,17 @@
       "pour": "36",
       "contre": "64",
       "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7682",
+      "titre": "l'amendement n° 1334 de M. Ray à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "31",
+      "contre": "60",
+      "abstentions": "2",
       "nonVotants": "1"
     },
     {
@@ -24,6 +35,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7671",
+      "titre": "l'amendement n° 1391 de M. Neuder à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "25",
+      "contre": "68",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7718",
+      "titre": "l'amendement n° 456 de Mme Gruet à l'article 7 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "91",
+      "pour": "33",
+      "contre": "58",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7583",
       "titre": "l'amendement n° 753 de Mme Blin  à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -31,6 +64,28 @@
       "nombreVotants": "67",
       "pour": "24",
       "contre": "43",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7685",
+      "titre": "l'amendement n° 7 de M. Bazin à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "33",
+      "contre": "64",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7681",
+      "titre": "l'amendement n° 914 de M. Juvin à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "31",
+      "contre": "71",
       "abstentions": "0",
       "nonVotants": "1"
     },
@@ -79,6 +134,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7688",
+      "titre": "l'amendement n° 23 de M. Frappé et les amendements identiques suivants à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "35",
+      "contre": "63",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7620",
       "titre": "l'amendement n° 206 de M. Hetzel et l'amendement identique suivant à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -98,6 +164,17 @@
       "pour": "26",
       "contre": "44",
       "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7678",
+      "titre": "l'amendement n° 321 de Mme Corneloup à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "105",
+      "pour": "32",
+      "contre": "72",
+      "abstentions": "1",
       "nonVotants": "1"
     },
     {
@@ -200,6 +277,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7695",
+      "titre": "l'amendement n° 450 de Mme Gruet à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "37",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7639",
       "titre": "l'amendement n° 428 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -218,6 +306,17 @@
       "nombreVotants": "113",
       "pour": "39",
       "contre": "74",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7680",
+      "titre": "l'amendement n° 1251 de Mme Gruet à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "101",
+      "pour": "31",
+      "contre": "70",
       "abstentions": "0",
       "nonVotants": "1"
     },
@@ -277,6 +376,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7677",
+      "titre": "l'amendement n° 207 de M. Hetzel et l'amendement identique suivant à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "98",
+      "pour": "36",
+      "contre": "62",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7619",
       "titre": "l'amendement n° 726 de Mme Colin-Oesterlé à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -296,6 +406,17 @@
       "pour": "28",
       "contre": "64",
       "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7686",
+      "titre": "l'amendement n° 446 de Mme Gruet à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "32",
+      "contre": "64",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -354,6 +475,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7673",
+      "titre": "l'amendement n° 910 de M. Juvin à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "29",
+      "contre": "57",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7605",
       "titre": "l'amendement n° 416 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -387,6 +519,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7668",
+      "titre": "l'amendement n° 907 de M. Juvin à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-26",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "25",
+      "contre": "67",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7659",
       "titre": "l'amendement n° 58 de M. Hetzel à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
@@ -398,156 +541,13 @@
       "nonVotants": "1"
     },
     {
-      "numero": "7591",
-      "titre": "l'amendement n° 894 de M. Juvin à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "numero": "7705",
+      "titre": "l'amendement n° 1360 de Mme Leboucher à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-26",
       "sort": null,
-      "nombreVotants": "75",
-      "pour": "25",
-      "contre": "50",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7595",
-      "titre": "l'amendement n° 897 de M. Juvin à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "31",
-      "contre": "55",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7633",
-      "titre": "l'amendement n° 1213 de Mme Joncour à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "83",
-      "pour": "27",
-      "contre": "56",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7652",
-      "titre": "l'amendement n° 434 de Mme Gruet à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "25",
-      "contre": "46",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7590",
-      "titre": "l'amendement n° 893 de M. Juvin à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "79",
-      "pour": "27",
-      "contre": "52",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7628",
-      "titre": "l'amendement n° 368 de Mme Corneloup à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "99",
-      "pour": "34",
-      "contre": "64",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7582",
-      "titre": "l'amendement n° 729 de M. Bentz à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "68",
-      "pour": "24",
-      "contre": "44",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7636",
-      "titre": "l'amendement n° 426 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "97",
-      "pour": "33",
-      "contre": "64",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7581",
-      "titre": "l'amendement n° 1158 de M. Lenoir à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "70",
-      "pour": "26",
-      "contre": "44",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7665",
-      "titre": "l'amendement n° 59 de M. Hetzel à l'article 6 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "100",
-      "pour": "33",
-      "contre": "66",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7589",
-      "titre": "l'amendement n° 839 de M. Trébuchet à l'article 4 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "79",
-      "pour": "27",
-      "contre": "52",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7618",
-      "titre": "l'amendement n° 419 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "19",
-      "contre": "50",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7644",
-      "titre": "l'amendement n° 429 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "114",
-      "pour": "39",
-      "contre": "75",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7609",
-      "titre": "l'amendement n° 417 de Mme Gruet à l'article 5 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-26",
-      "sort": null,
-      "nombreVotants": "90",
-      "pour": "31",
-      "contre": "57",
+      "nombreVotants": "82",
+      "pour": "17",
+      "contre": "63",
       "abstentions": "2",
       "nonVotants": "1"
     }

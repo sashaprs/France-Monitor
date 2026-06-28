@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:02:24.374Z",
+  "updatedAt": "2026-06-28T00:02:37.094Z",
   "scrutins": [
     {
       "numero": "7788",
@@ -101,6 +101,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7811",
+      "titre": "l'amendement n° 535 de Mme Gruet à l'article 18 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "81",
+      "pour": "22",
+      "contre": "59",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7786",
       "titre": "l'amendement n° 1144 de Mme Pollet à l'article 12 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -178,6 +189,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7810",
+      "titre": "l'amendement n° 1278 de M. Meurin de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "25",
+      "contre": "59",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7798",
       "titre": "l'amendement n° 1585 de M. Potier à l'article 15 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -207,6 +229,17 @@
       "nombreVotants": "84",
       "pour": "26",
       "contre": "57",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7815",
+      "titre": "l'article 19 bis de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "78",
+      "pour": "56",
+      "contre": "21",
       "abstentions": "1",
       "nonVotants": "1"
     },
@@ -244,6 +277,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7809",
+      "titre": "l'amendement n° 1112 de M. Bernhardt et l'amendement identique suivant de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "89",
+      "pour": "27",
+      "contre": "61",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7776",
       "titre": "l'amendement n° 1198 de M. Bentz à l'article 10 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -251,6 +295,17 @@
       "nombreVotants": "90",
       "pour": "28",
       "contre": "61",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7813",
+      "titre": "l'amendement n° 1154 de Mme Pollet l'article 19 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "78",
+      "pour": "20",
+      "contre": "57",
       "abstentions": "1",
       "nonVotants": "1"
     },
@@ -299,6 +354,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7818",
+      "titre": "l'article 2 de la proposition de loi relative au droit à l'aide à mourir (seconde délibération) (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "56",
+      "contre": "19",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7795",
       "titre": "l'amendement n° 508 de Mme Gruet et les amendements identiques suivants à l'article 14 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -321,6 +387,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7804",
+      "titre": "l'amendement n° 1111 de M. Bernhardt de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "29",
+      "contre": "57",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7773",
       "titre": "l'amendement n° 1562 de M. Potier à l'article 10 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -329,6 +406,17 @@
       "pour": "33",
       "contre": "59",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7812",
+      "titre": "l'article 18 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "83",
+      "pour": "59",
+      "contre": "10",
+      "abstentions": "14",
       "nonVotants": "1"
     },
     {
@@ -365,6 +453,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7806",
+      "titre": "l'amendement n° 5 de M. Simion de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "88",
+      "pour": "24",
+      "contre": "53",
+      "abstentions": "11",
+      "nonVotants": "0"
+    },
+    {
       "numero": "7783",
       "titre": "l'amendement n° 1204 de M. Bentz à l'article 12 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
@@ -384,6 +483,39 @@
       "pour": "27",
       "contre": "52",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7814",
+      "titre": "l'article 19 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "81",
+      "pour": "59",
+      "contre": "21",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7808",
+      "titre": "l'amendement n° 1362 de M. Clouet de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "79",
+      "pour": "23",
+      "contre": "54",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7805",
+      "titre": "l'amendement n° 4 de M. Simion et l'amendement identique suivant de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-27",
+      "sort": null,
+      "nombreVotants": "88",
+      "pour": "25",
+      "contre": "53",
+      "abstentions": "10",
       "nonVotants": "1"
     },
     {
@@ -416,138 +548,6 @@
       "nombreVotants": "73",
       "pour": "20",
       "contre": "53",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7771",
-      "titre": "l'amendement n° 1197 (rect.) de M. Bentz à l'article 10 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "25",
-      "contre": "55",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7790",
-      "titre": "l'amendement n° 713 de Mme Colin-Oesterlé et les amendements identique suivants à l'article 14 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "27",
-      "contre": "60",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7802",
-      "titre": "l'article 16 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "54",
-      "contre": "26",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7752",
-      "titre": "l'amendement n° 1309 de Mme Loir à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "75",
-      "pour": "25",
-      "contre": "49",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7759",
-      "titre": "l'amendement n° 1190 de M. Bentz à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "75",
-      "pour": "21",
-      "contre": "54",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7751",
-      "titre": "l'amendement n° 271 de Mme Dubré-Chirat et les amendements identiques suivants à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "20",
-      "contre": "55",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7794",
-      "titre": "l'amendement n° 134 de Mme Dogor-Such à l'article 14 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "30",
-      "contre": "58",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7734",
-      "titre": "l'amendement n° 466 de Mme Gruet à l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "23",
-      "contre": "49",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7737",
-      "titre": "l'amendement n° 145 de Mme Dogor-Such à l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "24",
-      "contre": "45",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7801",
-      "titre": "l'amendement n° 789 de Mme Blin et l'amendement identique suivant de suppression de l'article 16 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "31",
-      "contre": "58",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7792",
-      "titre": "l'amendement n° 1150 de Mme Pollet à l'article 14 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "28",
-      "contre": "58",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7739",
-      "titre": "l'amendement n° 66 de M. Hetzel à l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "23",
-      "contre": "50",
       "abstentions": "0",
       "nonVotants": "1"
     }

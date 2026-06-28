@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:02:25.296Z",
+  "updatedAt": "2026-06-28T00:02:39.308Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460494",
@@ -276,7 +276,7 @@
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
       "type": "seance_type",
       "dateDebut": "2026-06-27T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-27T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -285,7 +285,7 @@
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
       "type": "seance_type",
       "dateDebut": "2026-06-27T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-27T17:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

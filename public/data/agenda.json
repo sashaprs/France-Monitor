@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-06-28T08:51:58.110Z",
+  "updatedAt": "2026-06-28T11:07:32.242Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460670",
-      "titre": "audition de M. Bruno Giorgianni, secrétaire du comité de direction, directeur des affaires publiques et sûreté de Dassault Aviation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-25T09:00:00.000Z",
-      "dateFin": "2026-06-25T10:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460688",
-      "titre": "audition",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-25T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460629",
-      "titre": "audition de Mme Carine Camby, présidente de la 1ère chambre de la Cour des comptes, sur le rapport de la Cour sur la situation et les perspectives des finances publiques ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-25T09:05:00.000Z",
-      "dateFin": "2026-06-25T11:15:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDFL460550",
-      "titre": "Audition de Mme Nonna Mayer, directrice de recherche émérite au Centre national de la recherche scientifique (CNRS) et membre de la Commission nationale consultative des droits de l’homme (CNCDH)",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-06-25T11:00:00.000Z",
-      "dateFin": null,
-      "lieu": "5e Bureau",
-      "organisateur": "PO854578"
-    },
     {
       "uid": "RUANR5L17S2026IDC460692",
       "titre": "Direction de la protection judiciaire de la jeunesse (DPJJ) – Mme Marie Léon, adjointe au directeur de la protection judiciaire de la jeunesse, M. Méhidine Faroudj, sous-directeur des Missions de Protection Judiciaire et d’Education, M. Charles Barbetti, adjoint au sous-directeur des Missions de Protection Judiciaire et d’Education, Mme Claire Paillassou, Adjointe à la cheffe de bureau de la législation et des affaires juridiques, sous-direction des Missions de Protection Judiciaire et d’Education",

@@ -4561,6 +4561,11 @@ function DeputesModule() {
   const [mode, setMode] = React.useState('deputes');
   const [query, setQuery] = React.useState('');
   const [selectedDep, setSelectedDep] = React.useState(null);
+  const [page, setPage] = React.useState(0);
+  const [sortBy, setSortBy] = React.useState('nom-az');
+  const [filterSexe, setFilterSexe] = React.useState('tous');
+  const [filterGroupe, setFilterGroupe] = React.useState(null);
+  const PER_PAGE = 60;
 
   const groupStats = React.useMemo(() => {
     const counts = {};
@@ -4574,17 +4579,29 @@ function DeputesModule() {
   const maxN = Math.max(...groupStats.map(g => g.realN));
 
   const filteredDeps = React.useMemo(() => {
-    if (!query.trim()) return deputes;
-    const q = query.toLowerCase();
-    return deputes.filter(d =>
-      d.nomComplet.toLowerCase().includes(q) ||
-      d.nom.toLowerCase().includes(q) ||
-      d.prenom.toLowerCase().includes(q) ||
-      (d.groupe && (d.groupe.name.toLowerCase().includes(q) || d.groupe.short.toLowerCase().includes(q))) ||
-      d.dept.toLowerCase().includes(q) ||
-      (d.profession && d.profession.toLowerCase().includes(q))
-    );
-  }, [query, deputes]);
+    let result = [...deputes];
+    if (filterGroupe) result = result.filter(d => d.groupe?.id === filterGroupe);
+    if (filterSexe === 'femme') result = result.filter(d => d.female);
+    else if (filterSexe === 'homme') result = result.filter(d => !d.female);
+    if (query.trim()) {
+      const q = query.toLowerCase();
+      result = result.filter(d =>
+        d.nomComplet.toLowerCase().includes(q) ||
+        d.nom.toLowerCase().includes(q) ||
+        d.prenom.toLowerCase().includes(q) ||
+        (d.groupe && (d.groupe.name.toLowerCase().includes(q) || d.groupe.short.toLowerCase().includes(q))) ||
+        d.dept.toLowerCase().includes(q) ||
+        (d.profession && d.profession.toLowerCase().includes(q))
+      );
+    }
+    if (sortBy === 'nom-az')    result.sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+    else if (sortBy === 'nom-za')    result.sort((a, b) => b.nom.localeCompare(a.nom, 'fr'));
+    else if (sortBy === 'prenom-az') result.sort((a, b) => a.prenom.localeCompare(b.prenom, 'fr'));
+    else if (sortBy === 'groupe')    result.sort((a, b) => (a.groupe?.name||'zzz').localeCompare(b.groupe?.name||'zzz', 'fr'));
+    return result;
+  }, [query, deputes, filterGroupe, filterSexe, sortBy]);
+
+  React.useEffect(() => { setPage(0); }, [query, filterGroupe, filterSexe, sortBy]);
 
   const filteredScrutins = React.useMemo(() => {
     if (!query.trim()) return scrutins.slice(0, 12);
@@ -4606,8 +4623,16 @@ function DeputesModule() {
         .dep-mode-btn.on{background:var(--ink);color:var(--white)}
         .dep-mode-btn:not(.on){color:var(--text-secondary)}
         .dep-mode-btn:not(.on):hover{background:var(--surface-hover);color:var(--text)}
+        .dep-grp-row{cursor:pointer;transition:background 120ms}
         .dep-grp-row:hover{background:var(--surface-hover)}
+        .dep-grp-row.active{background:var(--blue-france)08}
         .dep-scrutin-row:hover{background:var(--surface-hover)}
+        .dep-fpill{border:1px solid var(--border);background:var(--surface);border-radius:999px;padding:5px 13px;font-family:var(--font-sans);font-size:12px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 100ms;white-space:nowrap}
+        .dep-fpill:hover{border-color:var(--border-strong);color:var(--ink)}
+        .dep-fpill.on{background:var(--ink);border-color:var(--ink);color:var(--white);font-weight:600}
+        .dep-pg-btn{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 18px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 120ms;display:flex;align-items:center;gap:7px}
+        .dep-pg-btn:hover:not(:disabled){border-color:var(--border-strong);color:var(--ink)}
+        .dep-pg-btn:disabled{opacity:0.35;cursor:not-allowed}
       `}</style>
 
       <div style={{ marginBottom:24 }}>
@@ -4642,6 +4667,34 @@ function DeputesModule() {
             )}
           </div>
         </div>
+        {mode === 'deputes' && (
+          <div style={{ padding:'10px 16px', display:'flex', gap:7, flexWrap:'wrap', alignItems:'center', borderTop:'1px solid var(--border-subtle)' }}>
+            <span style={{ fontSize:10.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.08em', flex:'none' }}>Trier</span>
+            {[
+              { id:'nom-az',    label:'Nom A→Z'  },
+              { id:'nom-za',    label:'Nom Z→A'  },
+              { id:'prenom-az', label:'Prénom A→Z'},
+              { id:'groupe',    label:'Groupe'    },
+            ].map(s => (
+              <button key={s.id} className={'dep-fpill' + (sortBy === s.id ? ' on' : '')} onClick={() => setSortBy(s.id)}>{s.label}</button>
+            ))}
+            <div style={{ width:1, height:16, background:'var(--border)', margin:'0 4px', flex:'none' }} />
+            <span style={{ fontSize:10.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.08em', flex:'none' }}>Sexe</span>
+            {[
+              { id:'tous',  label:'Tous'   },
+              { id:'homme', label:'Hommes' },
+              { id:'femme', label:'Femmes' },
+            ].map(s => (
+              <button key={s.id} className={'dep-fpill' + (filterSexe === s.id ? ' on' : '')} onClick={() => setFilterSexe(s.id)}>{s.label}</button>
+            ))}
+            {(sortBy !== 'nom-az' || filterSexe !== 'tous' || filterGroupe) && (
+              <button onClick={() => { setSortBy('nom-az'); setFilterSexe('tous'); setFilterGroupe(null); }}
+                style={{ marginLeft:'auto', fontSize:12, fontWeight:500, color:'var(--blue-france)', background:'none', border:'none', cursor:'pointer', flex:'none' }}>
+                Réinitialiser les filtres
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {mode === 'votes' ? (
@@ -4694,12 +4747,15 @@ function DeputesModule() {
             </div>
             <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', padding:'8px 0 12px' }}>
               {groupStats.map(g => (
-                <div key={g.id} className="dep-grp-row" style={{ padding:'9px 18px', transition:'background 120ms' }}>
+                <div key={g.id}
+                  className={'dep-grp-row' + (filterGroupe === g.id ? ' active' : '')}
+                  style={{ padding:'9px 18px', outline: filterGroupe === g.id ? '2px solid ' + g.c + '55' : 'none', outlineOffset:-2 }}
+                  onClick={() => { setFilterGroupe(filterGroupe === g.id ? null : g.id); setPage(0); }}>
                   <div style={{ display:'flex', alignItems:'center', gap:9, marginBottom:6 }}>
                     <span style={{ width:10, height:10, borderRadius:2, background:g.c, flex:'none', display:'inline-block' }} />
                     <span style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:600, color:'var(--ink)', flex:1, minWidth:0, lineHeight:1.3 }}>{g.name}</span>
                     <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:'var(--text-tertiary)', flex:'none', marginLeft:6 }}>{g.short}</span>
-                    <span style={{ fontFamily:'var(--font-mono)', fontSize:15, fontWeight:700, color:'var(--ink)', flex:'none', minWidth:32, textAlign:'right' }}>{g.realN}</span>
+                    <span style={{ fontFamily:'var(--font-mono)', fontSize:15, fontWeight:700, color: filterGroupe === g.id ? g.c : 'var(--ink)', flex:'none', minWidth:32, textAlign:'right' }}>{g.realN}</span>
                   </div>
                   <div style={{ height:5, borderRadius:3, background:'var(--gray-100)', overflow:'hidden', marginLeft:19 }}>
                     <div style={{ width:(g.realN / maxN * 100)+'%', height:'100%', borderRadius:3, background:g.c }} />
@@ -4710,49 +4766,74 @@ function DeputesModule() {
           </div>
 
           <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
-            <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-              <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>
-                {query ? `Résultats pour « ${query} »` : 'Tous les députés'}
+            <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:8 }}>
+              <div style={{ display:'flex', alignItems:'center', gap:10 }}>
+                <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>
+                  {filterGroupe ? groupStats.find(g => g.id === filterGroupe)?.name || 'Groupe filtré' : query ? `Résultats pour « ${query} »` : 'Tous les députés'}
+                </div>
+                {filterGroupe && (
+                  <button onClick={() => setFilterGroupe(null)} style={{ border:'none', background:'var(--gray-100)', borderRadius:999, cursor:'pointer', padding:'2px 8px', fontSize:11, color:'var(--text-secondary)', display:'flex', alignItems:'center', gap:4 }}>
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    Effacer
+                  </button>
+                )}
               </div>
               <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>
-                {depLoading ? '…' : `${Math.min(filteredDeps.length, 120)} / ${filteredDeps.length} député${filteredDeps.length !== 1 ? 's' : ''}`}
+                {depLoading ? '…' : `${filteredDeps.length} député${filteredDeps.length !== 1 ? 's' : ''}`}
               </span>
             </div>
             <div style={{ padding:'18px' }}>
               {depLoading ? (
                 <div style={{ textAlign:'center', color:'var(--text-tertiary)', fontSize:13, padding:'32px 0' }}>Chargement des députés…</div>
               ) : filteredDeps.length === 0 ? (
-                <div style={{ textAlign:'center', color:'var(--text-tertiary)', fontSize:13, padding:'24px 0' }}>Aucun député trouvé pour « {query} ».</div>
+                <div style={{ textAlign:'center', color:'var(--text-tertiary)', fontSize:13, padding:'24px 0' }}>Aucun député trouvé.</div>
               ) : (
-                <div className="dep-grid">
-                  {filteredDeps.slice(0, 120).map(d => {
-                    const gc = d.groupe ? d.groupe.color : '#9AA3AF';
-                    return (
-                      <div key={d.id} className="dep-card" onClick={() => setSelectedDep(d)}>
-                        <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:12 }}>
-                          <DepAvatar dep={d} size={46} />
-                          <div style={{ minWidth:0 }}>
-                            <div style={{ fontFamily:'var(--font-sans)', fontSize:14, fontWeight:700, color:'var(--ink)', marginBottom:5, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{d.nomComplet}</div>
-                            <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
-                              {d.groupe && <span style={{ fontSize:10.5, fontWeight:700, color:gc, background:gc + '18', border:'1px solid ' + gc + '30', borderRadius:999, padding:'2px 8px', letterSpacing:'0.02em' }}>{d.groupe.short}</span>}
-                              <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'2px 8px' }}>{d.female ? 'Députée' : 'Député'}</span>
+                <>
+                  <div className="dep-grid">
+                    {filteredDeps.slice(page * PER_PAGE, (page + 1) * PER_PAGE).map(d => {
+                      const gc = d.groupe ? d.groupe.color : '#9AA3AF';
+                      return (
+                        <div key={d.id} className="dep-card" onClick={() => setSelectedDep(d)}>
+                          <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:12 }}>
+                            <DepAvatar dep={d} size={46} />
+                            <div style={{ minWidth:0 }}>
+                              <div style={{ fontFamily:'var(--font-sans)', fontSize:14, fontWeight:700, color:'var(--ink)', marginBottom:5, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{d.nomComplet}</div>
+                              <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
+                                {d.groupe && <span style={{ fontSize:10.5, fontWeight:700, color:gc, background:gc + '18', border:'1px solid ' + gc + '30', borderRadius:999, padding:'2px 8px', letterSpacing:'0.02em' }}>{d.groupe.short}</span>}
+                                <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'2px 8px' }}>{d.female ? 'Députée' : 'Député'}</span>
+                              </div>
                             </div>
                           </div>
+                          <div style={{ fontSize:12, color:'var(--text-secondary)', marginBottom:4, display:'flex', alignItems:'flex-start', gap:5 }}>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>{d.circonscription} — {d.dept}</span>
+                          </div>
+                          {d.profession && <div style={{ fontSize:11.5, color:'var(--text-tertiary)', lineHeight:1.4 }}>{d.profession}</div>}
                         </div>
-                        <div style={{ fontSize:12, color:'var(--text-secondary)', marginBottom:4, display:'flex', alignItems:'flex-start', gap:5 }}>
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                          <span>{d.circonscription} — {d.dept}</span>
+                      );
+                    })}
+                  </div>
+                  {filteredDeps.length > PER_PAGE && (
+                    <div style={{ marginTop:22, display:'flex', alignItems:'center', justifyContent:'space-between', gap:12 }}>
+                      <button className="dep-pg-btn" disabled={page === 0} onClick={() => { setPage(p => p - 1); window.scrollTo({top:0,behavior:'smooth'}); }}>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+                        Précédent
+                      </button>
+                      <div style={{ textAlign:'center' }}>
+                        <div style={{ fontFamily:'var(--font-mono)', fontSize:13, fontWeight:600, color:'var(--ink)' }}>
+                          Page {page + 1} / {Math.ceil(filteredDeps.length / PER_PAGE)}
                         </div>
-                        {d.profession && <div style={{ fontSize:11.5, color:'var(--text-tertiary)', lineHeight:1.4 }}>{d.profession}</div>}
+                        <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>
+                          {page * PER_PAGE + 1}–{Math.min((page + 1) * PER_PAGE, filteredDeps.length)} sur {filteredDeps.length} députés
+                        </div>
                       </div>
-                    );
-                  })}
-                </div>
-              )}
-              {!depLoading && !query && filteredDeps.length > 120 && (
-                <div style={{ marginTop:18, textAlign:'center', fontSize:13, color:'var(--text-tertiary)', paddingBottom:4 }}>
-                  Affichage de 120 sur {filteredDeps.length} députés — utilisez la recherche pour filtrer
-                </div>
+                      <button className="dep-pg-btn" disabled={page >= Math.ceil(filteredDeps.length / PER_PAGE) - 1} onClick={() => { setPage(p => p + 1); window.scrollTo({top:0,behavior:'smooth'}); }}>
+                        Suivant
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                      </button>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>

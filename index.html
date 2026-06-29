@@ -4943,71 +4943,120 @@ function SenatHemicycle({ seats, hoveredGroup, onHoverGroup }) {
 }
 
 /* ============================================================
-   GOUVERNEMENT MODULE — Gouvernement Bayrou (depuis jan. 2025)
+   GOUVERNEMENT MODULE — Gouvernement Lecornu II (depuis oct. 2025)
    ============================================================ */
 const GOUV_PARTI_COLORS = {
-  'MoDem':'#E67E22','Renaissance':'#2563EB','LR':'#1F6FB2','Horizons':'#2E86C1',
-  'PS':'#E5447A','Divers gauche':'#E5447A','Divers droite':'#7B8794',
-  'Indépendant':'#9AA3AF','Fédération progressiste':'#E5447A',
+  'Renaissance':'#2563EB','MoDem':'#E67E22','LR':'#1F6FB2','Horizons':'#2E86C1',
+  'UC':'#2E86C1','Populaires':'#2563EB','DVG':'#E5447A',
+  'Indépendant':'#9AA3AF','SE':'#9AA3AF',
 };
 
 const GOUV_MEMBRES = [
-  { id:'bayrou',    rang:'pm', prenom:'François',   nom:'Bayrou',
-    titre:'Premier ministre', parti:'MoDem',
-    bio:"Né en 1951, François Bayrou est fondateur du Mouvement Démocrate (MoDem). Candidat à trois élections présidentielles (2002, 2007, 2012), il est nommé Premier ministre le 13 décembre 2024 par le Président Emmanuel Macron et forme son gouvernement le 13 janvier 2025." },
-  { id:'borne',     rang:'me', prenom:'Élisabeth',  nom:'Borne',
-    titre:'Éducation nationale, Enseignement supérieur et Recherche', parti:'Renaissance',
-    bio:"Haute fonctionnaire et femme politique, Élisabeth Borne a été Première ministre de mai 2022 à janvier 2024, devenant la deuxième femme à diriger le gouvernement sous la Ve République. Elle est nommée Ministre d'État à l'Éducation dans le gouvernement Bayrou." },
-  { id:'valls',     rang:'me', prenom:'Manuel',     nom:'Valls',
-    titre:'Outre-mer', parti:'Renaissance',
-    bio:"Homme politique franco-espagnol, Manuel Valls a été Premier ministre de France de 2014 à 2016 sous la présidence de François Hollande. Après une parenthèse en Espagne, il revient en politique française et est nommé Ministre d'État chargé de l'Outre-mer." },
-  { id:'darmanin',  rang:'me', prenom:'Gérald',     nom:'Darmanin',
-    titre:'Justice, Garde des Sceaux', parti:'Renaissance',
-    bio:"Homme politique né en 1982, Gérald Darmanin a été ministre de l'Intérieur de 2020 à 2024. Ancien maire de Tourcoing, il est nommé Garde des Sceaux, ministre de la Justice dans le gouvernement Bayrou." },
-  { id:'retailleau',rang:'me', prenom:'Bruno',      nom:'Retailleau',
-    titre:'Intérieur, Outre-mer et Collectivités territoriales', parti:'LR',
-    bio:"Sénateur de Vendée et ex-président du groupe LR au Sénat, Bruno Retailleau incarne la ligne conservatrice des Républicains. Il est nommé Ministre d'État de l'Intérieur dans le gouvernement Bayrou, poste confirmé après le vote de confiance." },
+  // ── Premier ministre ──
+  { id:'lecornu',   rang:'pm', prenom:'Sébastien',  nom:'Lecornu',
+    titre:'Premier ministre', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Portrait_officiel_de_S%C3%A9bastien_Lecornu_-_Ministre_des_Arm%C3%A9es_%28cropped%29.jpg/250px-Portrait_officiel_de_S%C3%A9bastien_Lecornu_-_Ministre_des_Arm%C3%A9es_%28cropped%29.jpg',
+    bio:"Né en 1987 à Vernon, Sébastien Lecornu est un homme politique français, membre de Renaissance. Ancien ministre des Armées de 2022 à 2025, il est nommé Premier ministre par le Président Emmanuel Macron en septembre 2025 et forme le gouvernement Lecornu II le 12 octobre 2025." },
+  // ── Ministres ──
+  { id:'nunez',     rang:'m',  prenom:'Laurent',    nom:'Nuñez',
+    titre:'Intérieur', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nunez_Beauvau_%28cropped%29.jpg/250px-Nunez_Beauvau_%28cropped%29.jpg',
+    bio:"Laurent Nuñez est un haut fonctionnaire français, préfet de police de Paris de 2022 à 2025. Il est nommé ministre de l'Intérieur dans le gouvernement Lecornu II, apportant son expertise en matière de sécurité publique." },
   { id:'vautrin',   rang:'m',  prenom:'Catherine',  nom:'Vautrin',
-    titre:'Travail, Santé, Solidarité et Familles', parti:'Renaissance',
-    bio:"Catherine Vautrin, ancienne vice-présidente de l'Assemblée nationale et plusieurs fois ministre déléguée, est nommée ministre du Travail, de la Santé, de la Solidarité et des Familles dans le gouvernement Bayrou." },
-  { id:'lombard',   rang:'m',  prenom:'Éric',       nom:'Lombard',
-    titre:'Économie, Finances et Souveraineté industrielle', parti:'Divers gauche',
-    bio:"Haut fonctionnaire et dirigeant d'entreprise, Éric Lombard a été directeur général de la Caisse des dépôts et consignations depuis 2017. Nommé ministre de l'Économie dans le gouvernement Bayrou, il incarne un profil technocratique apolitique." },
-  { id:'lecornu',   rang:'m',  prenom:'Sébastien',  nom:'Lecornu',
     titre:'Armées', parti:'Renaissance',
-    bio:"Homme politique né en 1987, Sébastien Lecornu est ministre des Armées depuis mai 2022. Proche d'Emmanuel Macron depuis ses débuts en politique, il est reconduit à ce poste dans le gouvernement Bayrou." },
-  { id:'dati',      rang:'m',  prenom:'Rachida',    nom:'Dati',
-    titre:'Culture', parti:'LR',
-    bio:"Rachida Dati, ancienne Garde des Sceaux (2007-2009) et députée européenne, est nommée ministre de la Culture dans le gouvernement Attal puis reconduite dans le gouvernement Bayrou. Maire du VIIe arrondissement de Paris depuis 2008." },
-  { id:'rebsamen',  rang:'m',  prenom:'François',   nom:'Rebsamen',
-    titre:'Aménagement du territoire et Décentralisation', parti:'Fédération progressiste',
-    bio:"François Rebsamen, maire de Dijon depuis 2001 et ex-ministre du Travail (2014-2015) sous Hollande, est nommé ministre de l'Aménagement du territoire dans le gouvernement Bayrou, apportant une sensibilité de gauche à la coalition." },
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg/250px-Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg',
+    bio:"Catherine Vautrin, ancienne vice-présidente de l'Assemblée nationale, a été ministre du Travail dans le gouvernement Bayrou. Elle est nommée ministre des Armées dans le gouvernement Lecornu II." },
+  { id:'farandou',  rang:'m',  prenom:'Jean-Pierre',nom:'Farandou',
+    titre:'Travail et Solidarité', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Farandou_Portrait_officiel_%28cropped%29.jpg/250px-Farandou_Portrait_officiel_%28cropped%29.jpg',
+    bio:"Jean-Pierre Farandou est un dirigeant d'entreprise français, ancien PDG de la SNCF (2019-2025). Nommé ministre du Travail et de la Solidarité dans le gouvernement Lecornu II, il apporte son expertise du monde du travail." },
+  { id:'barbut',    rang:'m',  prenom:'Monique',    nom:'Barbut',
+    titre:'Transition écologique, Biodiversité, Forêt, Mer et Pêche', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Monique_Barbut_Portrait_%28cropped%29.jpg/250px-Monique_Barbut_Portrait_%28cropped%29.jpg',
+    bio:"Monique Barbut est une haute fonctionnaire internationale, ancienne directrice de la Convention des Nations Unies sur la lutte contre la désertification (UNCCD). Elle est nommée ministre de la Transition écologique dans le gouvernement Lecornu II." },
+  { id:'darmanin',  rang:'m',  prenom:'Gérald',     nom:'Darmanin',
+    titre:'Justice, Garde des Sceaux', parti:'Populaires',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg/250px-French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg',
+    bio:"Né en 1982 à Valenciennes, Gérald Darmanin a été ministre de l'Intérieur de 2020 à 2024, puis Garde des Sceaux dans le gouvernement Bayrou. Il est reconduit comme ministre de la Justice dans le gouvernement Lecornu II." },
+  { id:'lescure',   rang:'m',  prenom:'Roland',     nom:'Lescure',
+    titre:'Économie, Finances et Souveraineté industrielle et numérique', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg/250px-Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg',
+    bio:"Roland Lescure, économiste et homme politique français, a été ministre délégué à l'Industrie. Il est nommé ministre de l'Économie et des Finances dans le gouvernement Lecornu II." },
+  { id:'papin',     rang:'m',  prenom:'Serge',      nom:'Papin',
+    titre:'PME, Commerce, Artisanat et Tourisme', parti:'Indépendant',
+    photo:null,
+    bio:"Serge Papin est un dirigeant d'entreprise français, ancien PDG de Système U (2007-2017). Nommé ministre des PME et du Commerce dans le gouvernement Lecornu II, il apporte son expérience du secteur de la distribution et du commerce." },
+  { id:'genevard',  rang:'m',  prenom:'Annie',      nom:'Genevard',
+    titre:'Agriculture et Souveraineté alimentaire', parti:'LR',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg/250px-Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg',
+    bio:"Annie Genevard, ancienne présidente du groupe LR à l'Assemblée nationale et secrétaire générale du parti, est reconduite ministre de l'Agriculture dans le gouvernement Lecornu II." },
+  { id:'geffray',   rang:'m',  prenom:'Édouard',    nom:'Geffray',
+    titre:'Éducation nationale', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Portrait_Geffrey_%28cropped%29.jpg/250px-Portrait_Geffrey_%28cropped%29.jpg',
+    bio:"Édouard Geffray est un haut fonctionnaire français, directeur général de l'enseignement scolaire (DGESCO). Nommé ministre de l'Éducation nationale dans le gouvernement Lecornu II, il succède à Élisabeth Borne." },
   { id:'barrot',    rang:'m',  prenom:'Jean-Noël',  nom:'Barrot',
     titre:'Europe et Affaires étrangères', parti:'MoDem',
-    bio:"Fils de Jacques Barrot, Jean-Noël Barrot est membre du MoDem et a été secrétaire d'État puis ministre délégué au Numérique. Il est nommé ministre de l'Europe et des Affaires étrangères dans le gouvernement Bayrou." },
-  { id:'pannier',   rang:'m',  prenom:'Agnès',      nom:'Pannier-Runacher',
-    titre:'Transition écologique, Énergie et Climat', parti:'Renaissance',
-    bio:"Haute fonctionnaire et femme politique, Agnès Pannier-Runacher a occupé plusieurs postes ministériels depuis 2019 (Industrie, Énergie). Elle est nommée ministre de la Transition écologique dans le gouvernement Bayrou." },
-  { id:'genevard',  rang:'m',  prenom:'Annie',      nom:'Genevard',
-    titre:'Agriculture, Souveraineté alimentaire et Forêt', parti:'LR',
-    bio:"Annie Genevard, ancienne présidente du groupe LR à l'Assemblée et secrétaire générale du parti, est nommée ministre de l'Agriculture dans le gouvernement Bayrou, signe de l'alliance gouvernementale avec Les Républicains." },
-  { id:'marcangeli',rang:'m',  prenom:'Laurent',    nom:'Marcangeli',
-    titre:'Action publique et Fonction publique', parti:'Horizons',
-    bio:"Laurent Marcangeli, ancien maire d'Ajaccio et figure d'Horizons (parti d'Édouard Philippe), est nommé ministre de l'Action publique et de la Fonction publique dans le gouvernement Bayrou." },
-  { id:'barsacq',   rang:'m',  prenom:'Marie',      nom:'Barsacq',
-    titre:'Sports, Jeunesse et Vie civique', parti:'Indépendant',
-    bio:"Marie Barsacq est une dirigeante du monde sportif, nommée ministre des Sports, de la Jeunesse et de la Vie civique dans le gouvernement Bayrou en janvier 2025 dans la continuité de la dynamique des Jeux olympiques de Paris 2024." },
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Jean-No%C3%ABl_Barrot_2023_cropped.jpg/250px-Jean-No%C3%ABl_Barrot_2023_cropped.jpg',
+    bio:"Fils de Jacques Barrot, Jean-Noël Barrot est membre du MoDem. Ministre de l'Europe et des Affaires étrangères depuis le gouvernement Bayrou, il est reconduit dans le gouvernement Lecornu II." },
+  { id:'rist',      rang:'m',  prenom:'Stéphanie',  nom:'Rist',
+    titre:'Santé et Affaires familiales', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg/250px-Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg',
+    bio:"Stéphanie Rist est médecin et femme politique française, membre de Renaissance. Députée du Loiret, elle a été rapporteure de plusieurs réformes de la Sécurité sociale. Elle est nommée ministre de la Santé dans le gouvernement Lecornu II." },
+  { id:'pegard',    rang:'m',  prenom:'Catherine',  nom:'Pégard',
+    titre:'Culture', parti:'Indépendant',
+    photo:null,
+    bio:"Catherine Pégard est une journaliste et haute fonctionnaire française, présidente du château de Versailles de 2011 à 2025. Elle est nommée ministre de la Culture dans le gouvernement Lecornu II en février 2026." },
+  { id:'moutchou',  rang:'m',  prenom:'Naïma',      nom:'Moutchou',
+    titre:'Outre-mer', parti:'Horizons',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg/250px-Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg',
+    bio:"Naïma Moutchou est une femme politique française, membre d'Horizons. Vice-présidente de l'Assemblée nationale, elle est nommée ministre de l'Outre-mer dans le gouvernement Lecornu II." },
+  { id:'gatel',     rang:'m',  prenom:'Françoise',  nom:'Gatel',
+    titre:'Aménagement des territoires et Décentralisation', parti:'UC',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg/250px-Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg',
+    bio:"Françoise Gatel est une sénatrice française, membre de l'Union Centriste. Présidente de la délégation sénatoriale aux collectivités territoriales, elle est nommée ministre de l'Aménagement des territoires dans le gouvernement Lecornu II." },
+  { id:'amiel',     rang:'m',  prenom:'David',      nom:'Amiel',
+    titre:'Action publique et Budget', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/David-amiel_%28cropped%29.jpg/250px-David-amiel_%28cropped%29.jpg',
+    bio:"David Amiel est un homme politique français, membre de Renaissance. Député de Paris et membre de la commission des Finances, il est nommé ministre de l'Action publique et du Budget dans le gouvernement Lecornu II." },
+  { id:'baptiste',  rang:'m',  prenom:'Philippe',   nom:'Baptiste',
+    titre:'Enseignement supérieur et Recherche', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg/250px-Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg',
+    bio:"Philippe Baptiste est un haut fonctionnaire et scientifique français, président du CNRS puis du CEA. Il est nommé ministre de l'Enseignement supérieur et de la Recherche dans le gouvernement Lecornu II." },
+  { id:'ferrari',   rang:'m',  prenom:'Marina',     nom:'Ferrari',
+    titre:'Sports, Jeunesse et Vie associative', parti:'MoDem',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg/250px-20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg',
+    bio:"Marina Ferrari est une femme politique française, membre du MoDem. Sénatrice de la Savoie, elle est nommée ministre des Sports et de la Jeunesse dans le gouvernement Lecornu II." },
+  { id:'tabarot',   rang:'m',  prenom:'Philippe',   nom:'Tabarot',
+    titre:'Transports', parti:'LR',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Philippe_Tabarot%2C_2025_%28cropped%29.jpg/250px-Philippe_Tabarot%2C_2025_%28cropped%29.jpg',
+    bio:"Philippe Tabarot est un homme politique français, membre des Républicains. Sénateur des Alpes-Maritimes et président de la commission des transports au Sénat, il est nommé ministre des Transports dans le gouvernement Lecornu II." },
+  { id:'jeanbrun',  rang:'m',  prenom:'Vincent',    nom:'Jeanbrun',
+    titre:'Logement et Ville', parti:'Indépendant',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg/250px-20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg',
+    bio:"Vincent Jeanbrun est un homme politique français, maire de L'Haÿ-les-Roses (Val-de-Marne). Spécialiste des questions urbaines, il est nommé ministre du Logement et de la Ville dans le gouvernement Lecornu II." },
+  // ── Ministres délégués ──
+  { id:'berge',     rang:'md', prenom:'Aurore',     nom:'Bergé',
+    titre:'Égalité femmes-hommes · Porte-parole du Gouvernement', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Aurore_Berg%C3%A9_2022_%28cropped%29.jpg/250px-Aurore_Berg%C3%A9_2022_%28cropped%29.jpg',
+    bio:"Aurore Bergé est une femme politique française, membre de Renaissance. Ancienne présidente du groupe Renaissance à l'Assemblée nationale, elle est nommée porte-parole du gouvernement et ministre déléguée à l'Égalité femmes-hommes dans le gouvernement Lecornu II." },
+  { id:'lefebvre',  rang:'md', prenom:'Mathieu',    nom:'Lefèvre',
+    titre:'Relations avec le Parlement', parti:'Renaissance',
+    photo:null,
+    bio:"Mathieu Lefèvre est un homme politique français, membre de Renaissance. Député du Val-de-Marne, il est nommé ministre délégué aux Relations avec le Parlement dans le gouvernement Lecornu II." },
+  { id:'haddad',    rang:'md', prenom:'Benjamin',   nom:'Haddad',
+    titre:'Europe', parti:'Renaissance',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Benjamin_Haddad_%28cropped%29.jpg/250px-Benjamin_Haddad_%28cropped%29.jpg',
+    bio:"Benjamin Haddad est un homme politique et chercheur franco-américain, membre de Renaissance. Député de Paris, spécialiste des affaires européennes et transatlantiques, il est nommé ministre délégué chargé de l'Europe." },
 ];
 
 function GouvAvatar({ membre, size = 52 }) {
   const [err, setErr] = React.useState(false);
   const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
   const initiales = (membre.prenom[0] + membre.nom[0]).toUpperCase();
-  const photoUrl = `public/photos/gouv/${membre.id}.jpg`;
-  if (!err) {
+  if (membre.photo && !err) {
     return (
-      <img src={photoUrl} alt={membre.prenom + ' ' + membre.nom} onError={() => setErr(true)}
-        style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top',
+      <img src={membre.photo} alt={membre.prenom + ' ' + membre.nom} onError={() => setErr(true)}
+        style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top center',
           border:'2px solid ' + color + '40', flex:'none', display:'block' }} />
     );
   }
@@ -5079,7 +5128,7 @@ function GouvPersonneView({ membre, onBack }) {
           </div>
           <div style={{ width:'100%', height:1, background:'var(--border)' }} />
           <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6 }}>
-            Gouvernement Bayrou · XVIIIe législature<br/>depuis le 13 janvier 2025
+            Gouvernement Lecornu II<br/>depuis le 12 octobre 2025
           </div>
         </div>
         <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'28px 24px' }}>
@@ -5090,7 +5139,7 @@ function GouvPersonneView({ membre, onBack }) {
             ['Portefeuille', membre.titre],
             ['Rang', rangLabel],
             ['Parti', membre.parti],
-            ['Gouvernement', 'Bayrou (depuis jan. 2025)'],
+            ['Gouvernement', 'Lecornu II (depuis oct. 2025)'],
           ].map(([label, val]) => (
             <div key={label} style={{ display:'grid', gridTemplateColumns:'160px 1fr', gap:16, padding:'13px 0', borderBottom:'1px solid var(--border-subtle)' }}>
               <span style={{ fontSize:11.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.06em', paddingTop:2 }}>{label}</span>
@@ -5111,9 +5160,10 @@ function GouvernementModule() {
     return <GouvPersonneView membre={selected} onBack={() => setSelected(null)} />;
   }
 
-  const pm      = GOUV_MEMBRES.filter(m => m.rang === 'pm');
-  const me      = GOUV_MEMBRES.filter(m => m.rang === 'me');
-  const mins    = GOUV_MEMBRES.filter(m => m.rang === 'm');
+  const pm   = GOUV_MEMBRES.filter(m => m.rang === 'pm');
+  const mins = GOUV_MEMBRES.filter(m => m.rang === 'm');
+  const mds  = GOUV_MEMBRES.filter(m => m.rang === 'md');
+  const [showMD, setShowMD] = React.useState(false);
 
   const SectionLabel = ({ children, count }) => (
     <div style={{ marginBottom:16, display:'flex', alignItems:'center', gap:10 }}>
@@ -5137,7 +5187,7 @@ function GouvernementModule() {
         <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Institutions</div>
         <h1 style={{ fontFamily:'var(--font-sans)', fontSize:34, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 6px' }}>Gouvernement</h1>
         <p style={{ fontFamily:'var(--font-sans)', fontSize:15, color:'var(--text-secondary)', margin:0, maxWidth:680 }}>
-          Gouvernement Bayrou · {GOUV_MEMBRES.length} membres · en fonction depuis le 13 janvier 2025. Cliquez sur une fiche pour afficher le détail.
+          Gouvernement Lecornu II · {GOUV_MEMBRES.length} membres · en fonction depuis le 12 octobre 2025. Cliquez sur une fiche pour afficher le détail.
         </p>
       </div>
 
@@ -5147,20 +5197,33 @@ function GouvernementModule() {
         {pm.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} big />)}
       </div>
 
-      {/* Ministres d'État */}
-      <SectionLabel count={me.length}>Ministres d'État</SectionLabel>
-      <div className="gouv-me-grid" style={{ marginBottom:40 }}>
-        {me.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
-      </div>
-
       {/* Ministres */}
       <SectionLabel count={mins.length}>Ministres</SectionLabel>
-      <div className="gouv-grid">
+      <div className="gouv-grid" style={{ marginBottom:32 }}>
         {mins.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
       </div>
 
+      {/* Ministres délégués */}
+      {mds.length > 0 && (
+        <>
+          <div style={{ marginBottom:16, display:'flex', alignItems:'center', gap:10 }}>
+            <div style={{ height:1, background:'var(--border)', flex:1 }} />
+            <button onClick={() => setShowMD(v => !v)} style={{ display:'flex', alignItems:'center', gap:8, background:'none', border:'1px solid var(--border)', borderRadius:999, cursor:'pointer', padding:'5px 14px', fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:'var(--text-secondary)', letterSpacing:'0.06em', textTransform:'uppercase', transition:'all 120ms' }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{ transform: showMD ? 'rotate(180deg)' : 'none', transition:'transform 200ms' }}><polyline points="6 9 12 15 18 9"/></svg>
+              Ministres délégués · {mds.length}
+            </button>
+            <div style={{ height:1, background:'var(--border)', flex:1 }} />
+          </div>
+          {showMD && (
+            <div className="gouv-grid">
+              {mds.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
+            </div>
+          )}
+        </>
+      )}
+
       <div style={{ marginTop:28 }}>
-        <SourceTag source="Gouvernement de la République française · info.gouv.fr · données officielles" date="13 janvier 2025" />
+        <SourceTag source="Gouvernement de la République française · info.gouv.fr · données officielles" date="12 octobre 2025" />
       </div>
     </div>
   );

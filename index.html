@@ -4635,6 +4635,33 @@ function DeputesModule() {
         </p>
       </div>
 
+      {mode === 'deputes' && groupStats.length > 0 && (
+        <div style={{ marginBottom:20, border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+          <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+            <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Répartition par groupe politique</div>
+            <span style={{ fontFamily:'var(--font-mono)', fontSize:12, color:'var(--text-secondary)' }}>{deputes.length || 577} députés · Majorité absolue : 289</span>
+          </div>
+          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', padding:'8px 0 12px' }}>
+            {groupStats.map(g => (
+              <div key={g.id}
+                className={'dep-grp-row' + (filterGroupe === g.id ? ' active' : '')}
+                style={{ padding:'9px 18px', outline: filterGroupe === g.id ? '2px solid ' + g.c + '55' : 'none', outlineOffset:-2 }}
+                onClick={() => { setFilterGroupe(filterGroupe === g.id ? null : g.id); setPage(0); }}>
+                <div style={{ display:'flex', alignItems:'center', gap:9, marginBottom:6 }}>
+                  <span style={{ width:10, height:10, borderRadius:2, background:g.c, flex:'none', display:'inline-block' }} />
+                  <span style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:600, color:'var(--ink)', flex:1, minWidth:0, lineHeight:1.3 }}>{g.name}</span>
+                  <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:'var(--text-tertiary)', flex:'none', marginLeft:6 }}>{g.short}</span>
+                  <span style={{ fontFamily:'var(--font-mono)', fontSize:15, fontWeight:700, color: filterGroupe === g.id ? g.c : 'var(--ink)', flex:'none', minWidth:32, textAlign:'right' }}>{g.realN}</span>
+                </div>
+                <div style={{ height:5, borderRadius:3, background:'var(--gray-100)', overflow:'hidden', marginLeft:19 }}>
+                  <div style={{ width:(g.realN / maxN * 100)+'%', height:'100%', borderRadius:3, background:g.c }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div style={{ marginBottom:20, border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
         <div style={{ padding:'12px 16px', borderBottom:'1px solid var(--border-subtle)', display:'flex', alignItems:'center', gap:12 }}>
           <div style={{ display:'flex', gap:3, background:'var(--gray-100)', borderRadius:'var(--radius-pill)', padding:3, flex:'none' }}>
@@ -4732,31 +4759,6 @@ function DeputesModule() {
         </div>
       ) : (
         <>
-          <div style={{ marginBottom:20, border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
-            <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-              <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Répartition par groupe politique</div>
-              <span style={{ fontFamily:'var(--font-mono)', fontSize:12, color:'var(--text-secondary)' }}>{deputes.length || 577} députés · Majorité absolue : 289</span>
-            </div>
-            <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', padding:'8px 0 12px' }}>
-              {groupStats.map(g => (
-                <div key={g.id}
-                  className={'dep-grp-row' + (filterGroupe === g.id ? ' active' : '')}
-                  style={{ padding:'9px 18px', outline: filterGroupe === g.id ? '2px solid ' + g.c + '55' : 'none', outlineOffset:-2 }}
-                  onClick={() => { setFilterGroupe(filterGroupe === g.id ? null : g.id); setPage(0); }}>
-                  <div style={{ display:'flex', alignItems:'center', gap:9, marginBottom:6 }}>
-                    <span style={{ width:10, height:10, borderRadius:2, background:g.c, flex:'none', display:'inline-block' }} />
-                    <span style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:600, color:'var(--ink)', flex:1, minWidth:0, lineHeight:1.3 }}>{g.name}</span>
-                    <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:'var(--text-tertiary)', flex:'none', marginLeft:6 }}>{g.short}</span>
-                    <span style={{ fontFamily:'var(--font-mono)', fontSize:15, fontWeight:700, color: filterGroupe === g.id ? g.c : 'var(--ink)', flex:'none', minWidth:32, textAlign:'right' }}>{g.realN}</span>
-                  </div>
-                  <div style={{ height:5, borderRadius:3, background:'var(--gray-100)', overflow:'hidden', marginLeft:19 }}>
-                    <div style={{ width:(g.realN / maxN * 100)+'%', height:'100%', borderRadius:3, background:g.c }} />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
           <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
             <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:8 }}>
               <div style={{ display:'flex', alignItems:'center', gap:10 }}>
@@ -6526,6 +6528,61 @@ function PPTimeline({ items }) {
   );
 }
 
+function PPNewsLive({ name }) {
+  const [state, setState] = React.useState({ loading: true, items: [], error: false });
+  React.useEffect(() => {
+    let alive = true;
+    const query = encodeURIComponent(name);
+    const rss = encodeURIComponent(`https://news.google.com/rss/search?q=${query}&hl=fr&gl=FR&ceid=FR:fr`);
+    fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rss}&count=6`)
+      .then(r => r.json())
+      .then(d => {
+        if (!alive) return;
+        if (d.status === 'ok' && d.items) {
+          setState({ loading: false, items: d.items, error: false });
+        } else {
+          setState({ loading: false, items: [], error: true });
+        }
+      })
+      .catch(() => { if (alive) setState({ loading: false, items: [], error: true }); });
+    return () => { alive = false; };
+  }, [name]);
+
+  if (state.loading) {
+    return (
+      <div style={{ display:'flex', alignItems:'center', gap:8, padding:'16px 0', color:'var(--text-tertiary)', fontSize:12 }}>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ animation:'fmspin .8s linear infinite' }}><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+        Chargement des actualités…
+      </div>
+    );
+  }
+  if (state.error || state.items.length === 0) {
+    return <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'12px 0' }}>Aucune actualité récente trouvée.</div>;
+  }
+  return (
+    <div>
+      {state.items.map((item, i) => {
+        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '';
+        const source = item.author || (item.link ? new URL(item.link).hostname.replace('www.','') : '');
+        return (
+          <div key={i} style={{ padding:'9px 0', borderBottom: i < state.items.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:3 }}>
+              <span style={{ fontSize:10, color:'var(--text-tertiary)' }}>{date}</span>
+              {source && <span style={{ fontSize:9.5, color:'var(--text-tertiary)', fontStyle:'italic' }}>{source}</span>}
+            </div>
+            <a href={item.link} target="_blank" rel="noopener noreferrer"
+              style={{ fontSize:12.5, color:'var(--text-primary)', lineHeight:1.5, fontWeight:500, textDecoration:'none', display:'block' }}
+              onMouseEnter={e => e.currentTarget.style.textDecoration='underline'}
+              onMouseLeave={e => e.currentTarget.style.textDecoration='none'}>
+              {item.title}
+            </a>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function PPDetailA({ f }) {
   return (
     <div>
@@ -6549,13 +6606,11 @@ function PPDetailA({ f }) {
       {/* News + votes */}
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
         <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
-          <Eyebrow>Actualités récentes</Eyebrow>
-          {f.news.map((n,i) => (
-            <div key={i} style={{ padding:'8px 0', borderBottom: i < f.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
-              <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:2 }}>{n.date}</div>
-              <div style={{ fontSize:12, color:'var(--text-primary)', lineHeight:1.5 }}>{n.title}</div>
-            </div>
-          ))}
+          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+            <Eyebrow style={{ margin:0 }}>Actualités récentes</Eyebrow>
+            <span style={{ fontSize:9.5, color:'var(--text-tertiary)', fontStyle:'italic' }}>via Google News</span>
+          </div>
+          <PPNewsLive name={f.name} />
         </div>
         {f.votes && f.votes.length > 0 && (
           <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>

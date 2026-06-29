@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-06-29T09:01:46.956Z",
+  "updatedAt": "2026-06-29T14:04:02.828Z",
   "scrutins": [
+    {
+      "numero": "7824",
+      "titre": "l'amendement n° 188 de M. Piquemal après l'article 1er AA de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "56",
+      "pour": "12",
+      "contre": "39",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7826",
+      "titre": "l'amendement n° 276 de M. Viry à l'article 1er A de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "57",
+      "pour": "19",
+      "contre": "30",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7821",
+      "titre": "le sous-amendement n° 384 de M. Duparay à l'amendement n° 362 du Gouvernement à l'article 1er AA de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "47",
+      "pour": "31",
+      "contre": "9",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7820",
+      "titre": "l'amendement n° 362 du Gouvernement et l'amendement identique suivant à l'article 9 ter (examen prioritaire) de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "47",
+      "pour": "25",
+      "contre": "15",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7825",
+      "titre": "l'amendement n° 87 de M. Duparay à l'article 1er A de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "56",
+      "pour": "47",
+      "contre": "1",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7819",
+      "titre": "l'amendement n° 253 de M. Courbon de rétablissement de l'article 2 bis A (supprimé) (examen prioritaire) de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "44",
+      "pour": "12",
+      "contre": "29",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7823",
+      "titre": "l'article 1er AA de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "50",
+      "pour": "41",
+      "contre": "1",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7822",
+      "titre": "l'amendement n° 362 du Gouvernement à l'article 1er AA de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
+      "date": "2026-06-29",
+      "sort": null,
+      "nombreVotants": "48",
+      "pour": "41",
+      "contre": "0",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
     {
       "numero": "7788",
       "titre": "l'article 12 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
@@ -58,7 +146,7 @@
     },
     {
       "numero": "7730",
-      "titre": "l'amendement n° 1046 de M. Bentz et l'amendement identique suivant de suppression de l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
+      "titre": "l'amendement n° 1046 de M. Bentz de suppression de l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-27",
       "sort": null,
       "nombreVotants": "41",
@@ -462,94 +550,6 @@
       "contre": "53",
       "abstentions": "11",
       "nonVotants": "0"
-    },
-    {
-      "numero": "7783",
-      "titre": "l'amendement n° 1204 de M. Bentz à l'article 12 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "62",
-      "pour": "19",
-      "contre": "43",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7753",
-      "titre": "l'amendement n° 68 de M. Hetzel à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "27",
-      "contre": "52",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7814",
-      "titre": "l'article 19 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "59",
-      "contre": "21",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7808",
-      "titre": "l'amendement n° 1362 de M. Clouet de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "79",
-      "pour": "23",
-      "contre": "54",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7805",
-      "titre": "l'amendement n° 4 de M. Simion et l'amendement identique suivant de rétablissement de l'article 17 (supprimé) de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "25",
-      "contre": "53",
-      "abstentions": "10",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7731",
-      "titre": "l'amendement n° 64 de M. Hetzel à l'article 8 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "52",
-      "pour": "20",
-      "contre": "32",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7748",
-      "titre": "l'amendement n° 572 de Mme Lorho à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "23",
-      "contre": "49",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7754",
-      "titre": "l'amendement n° 468 de Mme Gruet à l'article 9 de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
-      "date": "2026-06-27",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "20",
-      "contre": "53",
-      "abstentions": "0",
-      "nonVotants": "1"
     }
   ]
 }

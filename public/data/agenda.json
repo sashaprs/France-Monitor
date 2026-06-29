@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-06-29T09:01:48.920Z",
+  "updatedAt": "2026-06-29T14:04:04.918Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460498",
-      "titre": "suite de l'ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-26T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30768",
-      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
-      "type": "seance_type",
-      "dateDebut": "2026-06-26T13:00:00.000Z",
-      "dateFin": "2026-06-26T18:10:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460651",
       "titre": "audition conjointe :",
@@ -105,7 +87,7 @@
       "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, relative à l’organisation, à la gestion et au financement du sport professionnel (n° 2797) (M. Belkhir Belhaddad, M. Lionel Duparay, Mme Sophie Mette, Mme Véronique Riotton, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-29T07:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-29T07:20:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -543,7 +525,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460729",
-      "titre": "audition conjointe de M. Patrick Coder, président de la Fédération française des associations de réservistes pour un service national opérationnel (FFAR-SNO), et MM. Paul Mumbach, président de la Fédération française du bénévolat et de la vie associative (FFBA), et William Messi, porte-parole.",
+      "titre": "audition conjointe de M. Patrick Coder, vice-président de la Fédération française des associations de réservistes pour un service national opérationnel (FFAR-SNO), et MM. Paul Mumbach, président de la Fédération française du bénévolat et de la vie associative (FFBA), et William Messi, porte-parole.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,

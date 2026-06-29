@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-06-29T17:37:00.142Z",
+  "updatedAt": "2026-06-29T19:58:11.561Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460499",
-      "titre": "suite de l'ordre du jour de l'après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-26T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30769",
-      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
-      "type": "seance_type",
-      "dateDebut": "2026-06-26T19:45:00.000Z",
-      "dateFin": "2026-06-26T21:45:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDS30866",
       "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",

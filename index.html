@@ -4951,163 +4951,317 @@ const GOUV_PARTI_COLORS = {
   'Indépendant':'#9AA3AF','SE':'#9AA3AF',
 };
 
+// statut: 'pm'|'plein'|'delegue_pm'|'delegue'|'nouveau'
+// superviseur: id du supérieur hiérarchique (null pour PM et pleins)
 const GOUV_MEMBRES = [
-  // ── Premier ministre ──
-  { id:'lecornu',   rang:'pm', prenom:'Sébastien',  nom:'Lecornu',
-    titre:'Premier ministre', parti:'Renaissance',
+  // ══ Premier ministre ══
+  { id:'lecornu',  statut:'pm',         superviseur:null,
+    prenom:'Sébastien', nom:'Lecornu',
+    titre:'Premier ministre', parti:'Renaissance', email:'contact@pm.gouv.fr',
     photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Portrait_officiel_de_S%C3%A9bastien_Lecornu_-_Ministre_des_Arm%C3%A9es_%28cropped%29.jpg/250px-Portrait_officiel_de_S%C3%A9bastien_Lecornu_-_Ministre_des_Arm%C3%A9es_%28cropped%29.jpg',
-    bio:"Né en 1987 à Vernon, Sébastien Lecornu est un homme politique français, membre de Renaissance. Ancien ministre des Armées de 2022 à 2025, il est nommé Premier ministre par le Président Emmanuel Macron en septembre 2025 et forme le gouvernement Lecornu II le 12 octobre 2025." },
-  // ── Ministres ──
-  { id:'nunez',     rang:'m',  prenom:'Laurent',    nom:'Nuñez',
-    titre:'Intérieur', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nunez_Beauvau_%28cropped%29.jpg/250px-Nunez_Beauvau_%28cropped%29.jpg',
-    bio:"Laurent Nuñez est un haut fonctionnaire français, préfet de police de Paris de 2022 à 2025. Il est nommé ministre de l'Intérieur dans le gouvernement Lecornu II, apportant son expertise en matière de sécurité publique." },
-  { id:'vautrin',   rang:'m',  prenom:'Catherine',  nom:'Vautrin',
-    titre:'Armées', parti:'Renaissance',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg/250px-Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg',
-    bio:"Catherine Vautrin, ancienne vice-présidente de l'Assemblée nationale, a été ministre du Travail dans le gouvernement Bayrou. Elle est nommée ministre des Armées dans le gouvernement Lecornu II." },
-  { id:'farandou',  rang:'m',  prenom:'Jean-Pierre',nom:'Farandou',
-    titre:'Travail et Solidarité', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Farandou_Portrait_officiel_%28cropped%29.jpg/250px-Farandou_Portrait_officiel_%28cropped%29.jpg',
-    bio:"Jean-Pierre Farandou est un dirigeant d'entreprise français, ancien PDG de la SNCF (2019-2025). Nommé ministre du Travail et de la Solidarité dans le gouvernement Lecornu II, il apporte son expertise du monde du travail." },
-  { id:'barbut',    rang:'m',  prenom:'Monique',    nom:'Barbut',
-    titre:'Transition écologique, Biodiversité, Forêt, Mer et Pêche', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Monique_Barbut_Portrait_%28cropped%29.jpg/250px-Monique_Barbut_Portrait_%28cropped%29.jpg',
-    bio:"Monique Barbut est une haute fonctionnaire internationale, ancienne directrice de la Convention des Nations Unies sur la lutte contre la désertification (UNCCD). Elle est nommée ministre de la Transition écologique dans le gouvernement Lecornu II." },
-  { id:'darmanin',  rang:'m',  prenom:'Gérald',     nom:'Darmanin',
-    titre:'Justice, Garde des Sceaux', parti:'Populaires',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg/250px-French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg',
-    bio:"Né en 1982 à Valenciennes, Gérald Darmanin a été ministre de l'Intérieur de 2020 à 2024, puis Garde des Sceaux dans le gouvernement Bayrou. Il est reconduit comme ministre de la Justice dans le gouvernement Lecornu II." },
-  { id:'lescure',   rang:'m',  prenom:'Roland',     nom:'Lescure',
-    titre:'Économie, Finances et Souveraineté industrielle et numérique', parti:'Renaissance',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg/250px-Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg',
-    bio:"Roland Lescure, économiste et homme politique français, a été ministre délégué à l'Industrie. Il est nommé ministre de l'Économie et des Finances dans le gouvernement Lecornu II." },
-  { id:'papin',     rang:'m',  prenom:'Serge',      nom:'Papin',
-    titre:'PME, Commerce, Artisanat et Tourisme', parti:'Indépendant',
-    photo:null,
-    bio:"Serge Papin est un dirigeant d'entreprise français, ancien PDG de Système U (2007-2017). Nommé ministre des PME et du Commerce dans le gouvernement Lecornu II, il apporte son expérience du secteur de la distribution et du commerce." },
-  { id:'genevard',  rang:'m',  prenom:'Annie',      nom:'Genevard',
-    titre:'Agriculture et Souveraineté alimentaire', parti:'LR',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg/250px-Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg',
-    bio:"Annie Genevard, ancienne présidente du groupe LR à l'Assemblée nationale et secrétaire générale du parti, est reconduite ministre de l'Agriculture dans le gouvernement Lecornu II." },
-  { id:'geffray',   rang:'m',  prenom:'Édouard',    nom:'Geffray',
-    titre:'Éducation nationale', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Portrait_Geffrey_%28cropped%29.jpg/250px-Portrait_Geffrey_%28cropped%29.jpg',
-    bio:"Édouard Geffray est un haut fonctionnaire français, directeur général de l'enseignement scolaire (DGESCO). Nommé ministre de l'Éducation nationale dans le gouvernement Lecornu II, il succède à Élisabeth Borne." },
-  { id:'barrot',    rang:'m',  prenom:'Jean-Noël',  nom:'Barrot',
-    titre:'Europe et Affaires étrangères', parti:'MoDem',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Jean-No%C3%ABl_Barrot_2023_cropped.jpg/250px-Jean-No%C3%ABl_Barrot_2023_cropped.jpg',
-    bio:"Fils de Jacques Barrot, Jean-Noël Barrot est membre du MoDem. Ministre de l'Europe et des Affaires étrangères depuis le gouvernement Bayrou, il est reconduit dans le gouvernement Lecornu II." },
-  { id:'rist',      rang:'m',  prenom:'Stéphanie',  nom:'Rist',
-    titre:'Santé et Affaires familiales', parti:'Renaissance',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg/250px-Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg',
-    bio:"Stéphanie Rist est médecin et femme politique française, membre de Renaissance. Députée du Loiret, elle a été rapporteure de plusieurs réformes de la Sécurité sociale. Elle est nommée ministre de la Santé dans le gouvernement Lecornu II." },
-  { id:'pegard',    rang:'m',  prenom:'Catherine',  nom:'Pégard',
-    titre:'Culture', parti:'Indépendant',
-    photo:null,
-    bio:"Catherine Pégard est une journaliste et haute fonctionnaire française, présidente du château de Versailles de 2011 à 2025. Elle est nommée ministre de la Culture dans le gouvernement Lecornu II en février 2026." },
-  { id:'moutchou',  rang:'m',  prenom:'Naïma',      nom:'Moutchou',
-    titre:'Outre-mer', parti:'Horizons',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg/250px-Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg',
-    bio:"Naïma Moutchou est une femme politique française, membre d'Horizons. Vice-présidente de l'Assemblée nationale, elle est nommée ministre de l'Outre-mer dans le gouvernement Lecornu II." },
-  { id:'gatel',     rang:'m',  prenom:'Françoise',  nom:'Gatel',
-    titre:'Aménagement des territoires et Décentralisation', parti:'UC',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg/250px-Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg',
-    bio:"Françoise Gatel est une sénatrice française, membre de l'Union Centriste. Présidente de la délégation sénatoriale aux collectivités territoriales, elle est nommée ministre de l'Aménagement des territoires dans le gouvernement Lecornu II." },
-  { id:'amiel',     rang:'m',  prenom:'David',      nom:'Amiel',
-    titre:'Action publique et Budget', parti:'Renaissance',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/David-amiel_%28cropped%29.jpg/250px-David-amiel_%28cropped%29.jpg',
-    bio:"David Amiel est un homme politique français, membre de Renaissance. Député de Paris et membre de la commission des Finances, il est nommé ministre de l'Action publique et du Budget dans le gouvernement Lecornu II." },
-  { id:'baptiste',  rang:'m',  prenom:'Philippe',   nom:'Baptiste',
-    titre:'Enseignement supérieur et Recherche', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg/250px-Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg',
-    bio:"Philippe Baptiste est un haut fonctionnaire et scientifique français, président du CNRS puis du CEA. Il est nommé ministre de l'Enseignement supérieur et de la Recherche dans le gouvernement Lecornu II." },
-  { id:'ferrari',   rang:'m',  prenom:'Marina',     nom:'Ferrari',
-    titre:'Sports, Jeunesse et Vie associative', parti:'MoDem',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg/250px-20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg',
-    bio:"Marina Ferrari est une femme politique française, membre du MoDem. Sénatrice de la Savoie, elle est nommée ministre des Sports et de la Jeunesse dans le gouvernement Lecornu II." },
-  { id:'tabarot',   rang:'m',  prenom:'Philippe',   nom:'Tabarot',
-    titre:'Transports', parti:'LR',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Philippe_Tabarot%2C_2025_%28cropped%29.jpg/250px-Philippe_Tabarot%2C_2025_%28cropped%29.jpg',
-    bio:"Philippe Tabarot est un homme politique français, membre des Républicains. Sénateur des Alpes-Maritimes et président de la commission des transports au Sénat, il est nommé ministre des Transports dans le gouvernement Lecornu II." },
-  { id:'jeanbrun',  rang:'m',  prenom:'Vincent',    nom:'Jeanbrun',
-    titre:'Logement et Ville', parti:'Indépendant',
-    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg/250px-20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg',
-    bio:"Vincent Jeanbrun est un homme politique français, maire de L'Haÿ-les-Roses (Val-de-Marne). Spécialiste des questions urbaines, il est nommé ministre du Logement et de la Ville dans le gouvernement Lecornu II." },
-  // ── Ministres délégués ──
-  { id:'berge',     rang:'md', prenom:'Aurore',     nom:'Bergé',
-    titre:'Égalité femmes-hommes · Porte-parole du Gouvernement', parti:'Renaissance',
+    bio:"Né en 1987 à Vernon (Eure), Sébastien Lecornu est un homme politique français, membre de Renaissance et proche collaborateur d'Emmanuel Macron. Conseiller régional d'Île-de-France à 19 ans, il est élu député en 2017. Il occupe plusieurs postes ministériels : Écologie (2018), Collectivités (2019), Outre-mer (2020), puis Armées de 2022 à 2025. Nommé Premier ministre le 9 septembre 2025, il forme le gouvernement Lecornu III le 26 février 2026." },
+  // ── Délégués directs du PM ──
+  { id:'panifous', statut:'delegue_pm', superviseur:'lecornu',
+    prenom:'Laurent', nom:'Panifous',
+    titre:'Relations avec le Parlement', parti:'PRG', email:'contact@pm.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Panifous_Matignon_%28cropped%29.jpg/250px-Panifous_Matignon_%28cropped%29.jpg',
+    bio:"Laurent Panifous est un homme politique français, membre du Parti Radical de Gauche. Ancien maire d'Ax-les-Thermes et conseiller régional d'Occitanie, il est élu député de l'Ariège en 2022. Nommé ministre délégué chargé des Relations avec le Parlement dans le gouvernement Lecornu III." },
+  { id:'bregeon',  statut:'delegue_pm', superviseur:'lecornu',
+    prenom:'Maud', nom:'Brégeon',
+    titre:'Porte-parole du Gouvernement · Énergie (auprès de Roland Lescure)', parti:'Renaissance', email:'contact@pm.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Maud_Bregeon_%282023%29.jpg/250px-Maud_Bregeon_%282023%29.jpg',
+    bio:"Maud Brégeon est une femme politique française, membre de Renaissance. Députée des Hauts-de-Seine depuis 2022, elle est nommée porte-parole du Gouvernement et ministre déléguée chargée de l'Énergie auprès du ministre de l'Économie dans le gouvernement Lecornu III." },
+  { id:'berge',    statut:'delegue_pm', superviseur:'lecornu',
+    prenom:'Aurore', nom:'Bergé',
+    titre:'Égalité femmes-hommes et Lutte contre les discriminations', parti:'Renaissance', email:'contact@pm.gouv.fr',
     photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Aurore_Berg%C3%A9_2022_%28cropped%29.jpg/250px-Aurore_Berg%C3%A9_2022_%28cropped%29.jpg',
-    bio:"Aurore Bergé est une femme politique française, membre de Renaissance. Ancienne présidente du groupe Renaissance à l'Assemblée nationale, elle est nommée porte-parole du gouvernement et ministre déléguée à l'Égalité femmes-hommes dans le gouvernement Lecornu II." },
-  { id:'lefebvre',  rang:'md', prenom:'Mathieu',    nom:'Lefèvre',
-    titre:'Relations avec le Parlement', parti:'Renaissance',
+    bio:"Aurore Bergé est une femme politique française, membre de Renaissance. Ancienne présidente du groupe Renaissance à l'Assemblée nationale (2022-2023), elle est nommée ministre déléguée chargée de l'Égalité entre les femmes et les hommes dans le gouvernement Lecornu III." },
+  // ══ Intérieur ══
+  { id:'nunez',    statut:'plein',      superviseur:null,
+    prenom:'Laurent', nom:'Nuñez',
+    titre:'Ministre de l\'Intérieur', parti:'Indépendant', email:'contact@interieur.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nunez_Beauvau_%28cropped%29.jpg/250px-Nunez_Beauvau_%28cropped%29.jpg',
+    bio:"Laurent Nuñez est un haut fonctionnaire français. Préfet hors classe, il a été directeur général de la sécurité intérieure (DGSI) de 2017 à 2020, secrétaire d'État auprès du ministre de l'Intérieur (2020), puis coordinateur national du renseignement. Il est nommé Préfet de police de Paris en 2022, puis ministre de l'Intérieur dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  { id:'berger',   statut:'delegue',    superviseur:'nunez',
+    prenom:'Jean-Didier', nom:'Berger',
+    titre:'Ministre délégué (Intérieur)', parti:'LR', email:'contact@interieur.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MINDEL_JD_BERGER.jpg/250px-MINDEL_JD_BERGER.jpg',
+    bio:"Jean-Didier Berger est un homme politique français, membre des Républicains. Maire de Créteil depuis 2017 et sénateur du Val-de-Marne, il est nommé ministre délégué auprès du ministre de l'Intérieur dans le gouvernement Lecornu III." },
+  { id:'vedrenne', statut:'delegue',    superviseur:'nunez',
+    prenom:'Marie-Pierre', nom:'Védrenne',
+    titre:'Citoyenneté', parti:'MoDem', email:'contact@interieur.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Vedrenne_Portrait_officiel_%28cropped%29.jpg/250px-Vedrenne_Portrait_officiel_%28cropped%29.jpg',
+    bio:"Marie-Pierre Védrenne est une femme politique française, membre du MoDem. Députée européenne de 2019 à 2025, elle est nommée ministre déléguée chargée de la Citoyenneté auprès du ministre de l'Intérieur dans le gouvernement Lecornu III." },
+  // ══ Armées ══
+  { id:'vautrin',  statut:'plein',      superviseur:null,
+    prenom:'Catherine', nom:'Vautrin',
+    titre:'Ministre des Armées et des Anciens combattants', parti:'Renaissance', email:'contact@defense.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg/250px-Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg',
+    bio:"Catherine Vautrin est une femme politique française, membre de Renaissance. Ancienne vice-présidente de l'Assemblée nationale et ministre déléguée, elle a été ministre du Travail dans le gouvernement Bayrou. Elle est nommée ministre des Armées et des Anciens combattants dans le gouvernement Lecornu III." },
+  { id:'rufo',     statut:'delegue',    superviseur:'vautrin',
+    prenom:'Alice', nom:'Rufo',
+    titre:'Ministre déléguée (Armées)', parti:'Renaissance', email:'contact@defense.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Portrait_officiel_de_Alice_Rufo_700x700.jpg/250px-Portrait_officiel_de_Alice_Rufo_700x700.jpg',
+    bio:"Alice Rufo est une haut fonctionnaire et femme politique française. Spécialiste des questions de défense et de sécurité internationale, elle est nommée ministre déléguée auprès de la ministre des Armées dans le gouvernement Lecornu III." },
+  // ══ Travail ══
+  { id:'farandou', statut:'plein',      superviseur:null,
+    prenom:'Jean-Pierre', nom:'Farandou',
+    titre:'Ministre du Travail et des Solidarités', parti:'Indépendant', email:'contact@travail.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Farandou_Portrait_officiel_%28cropped%29.jpg/250px-Farandou_Portrait_officiel_%28cropped%29.jpg',
+    bio:"Jean-Pierre Farandou est un ingénieur et dirigeant d'entreprise français. PDG de la SNCF de 2019 à 2025, il a mené la transformation du groupe ferroviaire public. Nommé ministre du Travail et des Solidarités dans le gouvernement Lecornu II, il est reconduit dans Lecornu III." },
+  { id:'roubache', statut:'delegue',    superviseur:'farandou',
+    prenom:'Sabrina', nom:'Roubache',
+    titre:'Enseignement et Formation professionnels et Apprentissage', parti:'Renaissance', email:'contact@travail.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Portrait_de_Madame_Sabrina_Agresti-Roubache.jpg/250px-Portrait_de_Madame_Sabrina_Agresti-Roubache.jpg',
+    bio:"Sabrina Roubache est une femme politique française, membre de Renaissance. Conseillère régionale de Provence-Alpes-Côte d'Azur, elle est nommée ministre déléguée chargée de l'Enseignement et de la Formation professionnels dans le gouvernement Lecornu III." },
+  // ══ Transition écologique ══
+  { id:'barbut',   statut:'plein',      superviseur:null,
+    prenom:'Monique', nom:'Barbut',
+    titre:'Ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature', parti:'Indépendant', email:'contact@ecologie.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Monique_Barbut_Portrait_%28cropped%29.jpg/250px-Monique_Barbut_Portrait_%28cropped%29.jpg',
+    bio:"Monique Barbut est une haute fonctionnaire internationale française. Directrice exécutive de la Convention des Nations Unies sur la lutte contre la désertification (UNCCD) de 2010 à 2019, elle a consacré sa carrière aux questions environnementales. Elle est nommée ministre de la Transition écologique dans le gouvernement Lecornu II et reconduite dans Lecornu III." },
+  { id:'chabaud',  statut:'delegue',    superviseur:'barbut',
+    prenom:'Catherine', nom:'Chabaud',
+    titre:'Mer et Pêche', parti:'Renaissance', email:'contact@mer.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Chabaud_Portrait_officiel_%28cropped%29.jpg/250px-Chabaud_Portrait_officiel_%28cropped%29.jpg',
+    bio:"Catherine Chabaud est une navigatrice et femme politique française, membre de Renaissance. Première femme à avoir effectué un tour du monde à la voile en solitaire (1998), elle est élue au Parlement européen en 2019. Elle est nommée ministre déléguée chargée de la Mer et de la Pêche dans le gouvernement Lecornu III." },
+  { id:'lefevre_t',statut:'delegue',    superviseur:'barbut',
+    prenom:'Mathieu', nom:'Lefèvre',
+    titre:'Transition écologique', parti:'Renaissance', email:'contact@ecologie.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mathieu_Lef%C3%A8vre_%28cropped%29.jpg/250px-Mathieu_Lef%C3%A8vre_%28cropped%29.jpg',
+    bio:"Mathieu Lefèvre est un homme politique français, membre de Renaissance. Député du Val-de-Marne depuis 2022, il est nommé ministre délégué chargé de la Transition écologique auprès de la ministre de la Transition écologique dans le gouvernement Lecornu III." },
+  // ══ Économie ══
+  { id:'lescure',  statut:'plein',      superviseur:null,
+    prenom:'Roland', nom:'Lescure',
+    titre:'Ministre de l\'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique', parti:'Renaissance', email:'contact@finances.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg/250px-Visit_of_Roland_Lescure%2C_Minister_attached_to_the_French_Minister_for_Economics%2C_to_the_European_Commission_-_2022_%28cropped%29.jpg',
+    bio:"Roland Lescure est un économiste et homme politique français, membre de Renaissance. Ancien directeur des investissements à la Caisse de dépôt et placement du Québec, il est élu député des Français établis hors de France en 2017. Ministre délégué à l'Industrie (2022-2024), il est nommé ministre de l'Économie dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  { id:'martin_s', statut:'delegue',    superviseur:'lescure',
+    prenom:'Sébastien', nom:'Martin',
+    titre:'Industrie', parti:'Divers droite', email:'contact@entreprises.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Visit_of_S%C3%A9bastien_Martin%2C_French_Minister_Delegate_for_Industry%2C_to_the_European_Commission_-_2025_%28cropped%29.jpg/250px-Visit_of_S%C3%A9bastien_Martin%2C_French_Minister_Delegate_for_Industry%2C_to_the_European_Commission_-_2025_%28cropped%29.jpg',
+    bio:"Sébastien Martin est un homme politique français. Président de la communauté urbaine du Grand Chalon, il est vice-président d'Intercommunalités de France. Nommé ministre délégué chargé de l'Industrie auprès du ministre de l'Économie dans le gouvernement Lecornu III." },
+  { id:'lehenanff',statut:'delegue',    superviseur:'lescure',
+    prenom:'Anne', nom:'Le Hénanff',
+    titre:'Intelligence artificielle et Numérique', parti:'Horizons', email:'contact@numerique.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Anne_Le_H%C3%A9nanff_TTE_council_5Dec2025_%28cropped_2%29.jpg/250px-Anne_Le_H%C3%A9nanff_TTE_council_5Dec2025_%28cropped_2%29.jpg',
+    bio:"Anne Le Hénanff est une femme politique française, membre d'Horizons. Députée du Morbihan depuis 2022, ancienne chercheuse en cybersécurité, elle est nommée ministre déléguée chargée de l'Intelligence artificielle et du Numérique dans le gouvernement Lecornu III." },
+  // ══ PME / Commerce ══
+  { id:'papin',    statut:'plein',      superviseur:null,
+    prenom:'Serge', nom:'Papin',
+    titre:'Ministre des Petites et moyennes entreprises, du Commerce, de l\'Artisanat, du Tourisme et du Pouvoir d\'achat', parti:'Indépendant', email:'contact@entreprises.gouv.fr',
     photo:null,
-    bio:"Mathieu Lefèvre est un homme politique français, membre de Renaissance. Député du Val-de-Marne, il est nommé ministre délégué aux Relations avec le Parlement dans le gouvernement Lecornu II." },
-  { id:'haddad',    rang:'md', prenom:'Benjamin',   nom:'Haddad',
-    titre:'Europe', parti:'Renaissance',
+    bio:"Serge Papin est un dirigeant d'entreprise français. PDG de Système U de 2007 à 2017, il a profondément transformé la coopérative. Auteur de l'ouvrage \"Ces entreprises qui font confiance\" (2016), il est nommé ministre des PME, du Commerce et du Tourisme dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  // ══ Agriculture ══
+  { id:'genevard', statut:'plein',      superviseur:null,
+    prenom:'Annie', nom:'Genevard',
+    titre:'Ministre de l\'Agriculture, de l\'Agro-alimentaire et de la Souveraineté alimentaire', parti:'LR', email:'contact@agriculture.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg/250px-Agriculture_and_Fisheries_Council._Bilateral_meeting%2C_FR-HR._2025-07-14_-_Annie_Genevard_%28cropped%29.jpg',
+    bio:"Annie Genevard est une femme politique française, membre des Républicains. Ancienne professeure de lettres classiques, elle est élue députée du Doubs en 2012. Elle a présidé le groupe LR à l'Assemblée nationale et en a été secrétaire générale. Nommée ministre de l'Agriculture dans le gouvernement Attal, elle est reconduite dans Lecornu III." },
+  // ══ Éducation nationale ══
+  { id:'geffray',  statut:'plein',      superviseur:null,
+    prenom:'Édouard', nom:'Geffray',
+    titre:'Ministre de l\'Éducation nationale', parti:'Indépendant', email:'contact@education.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Portrait_Geffrey_%28cropped%29.jpg/250px-Portrait_Geffrey_%28cropped%29.jpg',
+    bio:"Édouard Geffray est un haut fonctionnaire français, inspecteur général de l'éducation nationale. Directeur général de l'enseignement scolaire (DGESCO) de 2020 à 2025, il a piloté la mise en œuvre du choc des savoirs. Il est nommé ministre de l'Éducation nationale dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  // ══ Justice ══
+  { id:'darmanin', statut:'plein',      superviseur:null,
+    prenom:'Gérald', nom:'Darmanin',
+    titre:'Garde des Sceaux, Ministre de la Justice', parti:'Populaires', email:'contact@justice.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg/250px-French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_%28cropped_2%29.jpg',
+    bio:"Gérald Darmanin est un homme politique français, membre des Populaires. Né en 1982 à Valenciennes, il est élu député du Nord en 2012. Ministre de l'Action et des Comptes publics (2017-2020), puis ministre de l'Intérieur (2020-2024), il est nommé Garde des Sceaux dans le gouvernement Bayrou, puis reconduit dans Lecornu II et III." },
+  // ══ Culture ══
+  { id:'pegard',   statut:'nouveau',    superviseur:null,
+    prenom:'Catherine', nom:'Pégard',
+    titre:'Ministre de la Culture', parti:'Indépendant', email:'contact@culture.gouv.fr',
+    photo:null,
+    bio:"Catherine Pégard est une journaliste et haute fonctionnaire française. Ancienne correspondante du Point à l'Élysée (1995-2007) puis conseillère de Nicolas Sarkozy, elle préside le château de Versailles depuis 2011. Nommée ministre de la Culture dans le gouvernement Lecornu II le 26 février 2026, elle est reconduite dans Lecornu III." },
+  // ══ Affaires étrangères ══
+  { id:'barrot',   statut:'plein',      superviseur:null,
+    prenom:'Jean-Noël', nom:'Barrot',
+    titre:'Ministre de l\'Europe et des Affaires étrangères', parti:'MoDem', email:'contact@diplomatie.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Jean-No%C3%ABl_Barrot_2023_cropped.jpg/250px-Jean-No%C3%ABl_Barrot_2023_cropped.jpg',
+    bio:"Jean-Noël Barrot est un homme politique français, membre du MoDem. Fils du commissaire européen Jacques Barrot, il est élu député d'Yvelines en 2017. Secrétaire d'État chargé du Numérique (2022-2024), il est nommé ministre de l'Europe et des Affaires étrangères dans le gouvernement Bayrou, et reconduit dans Lecornu II et III." },
+  { id:'haddad',   statut:'delegue',    superviseur:'barrot',
+    prenom:'Benjamin', nom:'Haddad',
+    titre:'Europe', parti:'Renaissance', email:'contact@diplomatie.gouv.fr',
     photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Benjamin_Haddad_%28cropped%29.jpg/250px-Benjamin_Haddad_%28cropped%29.jpg',
-    bio:"Benjamin Haddad est un homme politique et chercheur franco-américain, membre de Renaissance. Député de Paris, spécialiste des affaires européennes et transatlantiques, il est nommé ministre délégué chargé de l'Europe." },
+    bio:"Benjamin Haddad est un homme politique et chercheur franco-américain, membre de Renaissance. Chercheur au Atlantic Council à Washington (2016-2021), il est élu député de Paris en 2022 et se spécialise en politique européenne et relations transatlantiques. Il est nommé ministre délégué chargé de l'Europe dans le gouvernement Lecornu III." },
+  { id:'forissier', statut:'delegue',   superviseur:'barrot',
+    prenom:'Nicolas', nom:'Forissier',
+    titre:'Commerce extérieur et Attractivité', parti:'LR', email:'contact@diplomatie.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Portrait_Forissier_2025_%28cropped%29.jpg/250px-Portrait_Forissier_2025_%28cropped%29.jpg',
+    bio:"Nicolas Forissier est un homme politique français, membre des Républicains. Député de l'Indre depuis 2002 (avec interruptions), il est spécialiste des questions économiques et d'exportation. Il est nommé ministre délégué chargé du Commerce extérieur dans le gouvernement Lecornu III." },
+  { id:'caroit',   statut:'delegue',    superviseur:'barrot',
+    prenom:'Éléonore', nom:'Caroit',
+    titre:'Francophonie, Partenariats internationaux et Français de l\'étranger', parti:'Renaissance', email:'contact@diplomatie.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Visit_of_%C3%89l%C3%A9onore_Caroit%2C_French_Minister_Delegate_to_the_Minister_for_Europe_and_Foreign_Affairs%2C_to_the_EC_-_2026_%2801%29_%28cropped%29.jpg/250px-Visit_of_%C3%89l%C3%A9onore_Caroit%2C_French_Minister_Delegate_to_the_Minister_for_Europe_and_Foreign_Affairs%2C_to_the_EC_-_2026_%2801%29_%28cropped%29.jpg',
+    bio:"Éléonore Caroit est une femme politique française, membre de Renaissance. Née au Mexique, elle est élue députée représentant les Français établis en Amérique latine en 2017. Elle est nommée ministre déléguée chargée de la Francophonie et des Français de l'étranger dans le gouvernement Lecornu III." },
+  // ══ Santé ══
+  { id:'rist',     statut:'plein',      superviseur:null,
+    prenom:'Stéphanie', nom:'Rist',
+    titre:'Ministre de la Santé, des Familles, de l\'Autonomie et des Personnes handicapées', parti:'Renaissance', email:'contact@sante.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg/250px-Rist_Minist%C3%A8re_Sant%C3%A9_%28cropped%29.jpg',
+    bio:"Stéphanie Rist est médecin rhumatologue et femme politique française, membre de Renaissance. Élue députée du Loiret en 2017, elle a été rapporteure générale des lois de financement de la Sécurité sociale. Elle est nommée ministre de la Santé dans le gouvernement Lecornu II et reconduite dans Lecornu III." },
+  { id:'galliard', statut:'delegue',    superviseur:'rist',
+    prenom:'Camille', nom:'Galliard-Minier',
+    titre:'Autonomie et Personnes handicapées', parti:'Renaissance', email:'contact@sante.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Photo_Camille_Galliard-Minier.jpeg/250px-Photo_Camille_Galliard-Minier.jpeg',
+    bio:"Camille Galliard-Minier est une femme politique française, membre de Renaissance. Consultante en stratégie et affaires publiques, elle est nommée ministre déléguée chargée de l'Autonomie et des Personnes handicapées dans le gouvernement Lecornu III." },
+  // ══ Outre-mer ══
+  { id:'moutchou', statut:'plein',      superviseur:null,
+    prenom:'Naïma', nom:'Moutchou',
+    titre:'Ministre des Outre-mer', parti:'Horizons', email:'contact@outremer.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg/250px-Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg',
+    bio:"Naïma Moutchou est une femme politique française, membre d'Horizons. Avocate de formation, elle est élue députée du Val-d'Oise en 2017. Vice-présidente de l'Assemblée nationale (2022-2025), elle est nommée ministre des Outre-mer dans le gouvernement Lecornu II et reconduite dans Lecornu III." },
+  // ══ Aménagement territoire ══
+  { id:'gatel',    statut:'plein',      superviseur:null,
+    prenom:'Françoise', nom:'Gatel',
+    titre:'Ministre de l\'Aménagement du territoire et de la Décentralisation', parti:'UC', email:'contact@cohesion-territoires.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg/250px-Fran%C3%A7oise_Gatel_2025_%28cropped%29.jpg',
+    bio:"Françoise Gatel est une femme politique française, membre de l'Union Centriste. Sénatrice d'Ille-et-Vilaine depuis 2014, elle a présidé la délégation sénatoriale aux collectivités territoriales. Elle est nommée ministre de l'Aménagement du territoire dans le gouvernement Lecornu II et reconduite dans Lecornu III." },
+  { id:'fournier', statut:'delegue',    superviseur:'gatel',
+    prenom:'Michel', nom:'Fournier',
+    titre:'Ruralité', parti:'UC', email:'contact@cohesion-territoires.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fournier_Matignon_%28cropped%29.jpg/250px-Fournier_Matignon_%28cropped%29.jpg',
+    bio:"Michel Fournier est un homme politique français. Sénateur des Ardennes, ancien président de l'Association des maires ruraux de France (AMRF), il est un défenseur reconnu du monde rural. Il est nommé ministre délégué chargé de la Ruralité dans le gouvernement Lecornu III." },
+  // ══ Enseignement supérieur ══
+  { id:'baptiste', statut:'plein',      superviseur:null,
+    prenom:'Philippe', nom:'Baptiste',
+    titre:'Ministre de l\'Enseignement supérieur, de la Recherche et de l\'Espace', parti:'Indépendant', email:'contact@recherche.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg/250px-Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg',
+    bio:"Philippe Baptiste est un scientifique et haut fonctionnaire français. Chercheur en informatique et mathématiques appliquées, il a dirigé le CNRS puis le Commissariat à l'énergie atomique (CEA). Il est nommé ministre de l'Enseignement supérieur, de la Recherche et de l'Espace dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  // ══ Action publique / Budget ══
+  { id:'amiel',    statut:'nouveau',    superviseur:null,
+    prenom:'David', nom:'Amiel',
+    titre:'Ministre de l\'Action et des Comptes publics', parti:'Renaissance', email:'contact@budget.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/David-amiel_%28cropped%29.jpg/250px-David-amiel_%28cropped%29.jpg',
+    bio:"David Amiel est un homme politique français, membre de Renaissance. Énarque et inspecteur des finances, il est élu député de Paris en 2022 et siège à la commission des Finances de l'Assemblée. Conseiller d'Emmanuel Macron pour les questions économiques, il est promu ministre de l'Action et des Comptes publics dans le gouvernement Lecornu III — une promotion notable qui lui vaut d'être classé parmi les nouveaux entrants." },
+  // ══ Sports ══
+  { id:'ferrari',  statut:'plein',      superviseur:null,
+    prenom:'Marina', nom:'Ferrari',
+    titre:'Ministre des Sports, de la Jeunesse et de la Vie associative', parti:'MoDem', email:'contact@sports.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg/250px-20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_%28cropped%29.jpg',
+    bio:"Marina Ferrari est une femme politique française, membre du MoDem. Ancienne cadre dans le secteur bancaire, elle est élue sénatrice de la Savoie en 2023. Elle est nommée ministre des Sports et de la Jeunesse dans le gouvernement Lecornu II et reconduite dans Lecornu III." },
+  // ══ Transports ══
+  { id:'tabarot',  statut:'plein',      superviseur:null,
+    prenom:'Philippe', nom:'Tabarot',
+    titre:'Ministre des Transports', parti:'LR', email:'contact@transport.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Philippe_Tabarot%2C_2025_%28cropped%29.jpg/250px-Philippe_Tabarot%2C_2025_%28cropped%29.jpg',
+    bio:"Philippe Tabarot est un homme politique français, membre des Républicains. Sénateur des Alpes-Maritimes depuis 2020, il a présidé la commission de l'aménagement du territoire et du développement durable au Sénat. Il est nommé ministre des Transports dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
+  // ══ Logement / Ville ══
+  { id:'jeanbrun', statut:'plein',      superviseur:null,
+    prenom:'Vincent', nom:'Jeanbrun',
+    titre:'Ministre de la Ville et du Logement', parti:'DVD', email:'contact@logement.gouv.fr',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg/250px-20241008-P1120704_Jeanbrun_Vincent_Wikipedia_%28cropped%29.jpg',
+    bio:"Vincent Jeanbrun est un homme politique français, classé divers droite. Maire de L'Haÿ-les-Roses depuis 2020 (Val-de-Marne), il s'est fait connaître lors des émeutes de juillet 2023. Spécialiste des questions urbaines, il est nommé ministre de la Ville et du Logement dans le gouvernement Lecornu II et reconduit dans Lecornu III." },
 ];
+
+// Couleur du cercle selon statut
+const GOUV_RING = {
+  pm:          '#D4AF37',
+  plein:       '#DC2626',
+  delegue_pm:  '#2563EB',
+  delegue:     '#2563EB',
+  nouveau:     '#16A34A',
+};
 
 function GouvAvatar({ membre, size = 52 }) {
   const [err, setErr] = React.useState(false);
-  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const partiColor = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const ring = GOUV_RING[membre.statut] || partiColor;
   const initiales = (membre.prenom[0] + membre.nom[0]).toUpperCase();
-  if (membre.photo && !err) {
-    return (
-      <img src={membre.photo} alt={membre.prenom + ' ' + membre.nom} onError={() => setErr(true)}
-        style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top center',
-          border:'2px solid ' + color + '40', flex:'none', display:'block' }} />
-    );
-  }
+  const thickness = size >= 90 ? 4 : 3;
+  const gap = 3;
+  const outer = size + (thickness + gap) * 2;
+  const inner = (
+    membre.photo && !err
+      ? <img src={membre.photo} alt={membre.prenom + ' ' + membre.nom} onError={() => setErr(true)}
+          style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top center', display:'block', flex:'none' }} />
+      : <div style={{ width:size, height:size, borderRadius:'50%', background:partiColor+'20', display:'flex', alignItems:'center', justifyContent:'center', flex:'none' }}>
+          <span style={{ fontFamily:'var(--font-sans)', fontSize:Math.round(size*0.3), fontWeight:700, color:partiColor }}>{initiales}</span>
+        </div>
+  );
   return (
-    <div style={{ width:size, height:size, borderRadius:'50%', background:color+'20',
-      border:'2px solid '+color+'40', display:'flex', alignItems:'center', justifyContent:'center', flex:'none' }}>
-      <span style={{ fontFamily:'var(--font-sans)', fontSize:Math.round(size*0.3), fontWeight:700, color }}>{initiales}</span>
+    <div style={{ position:'relative', width:outer, height:outer, flex:'none' }}>
+      <div style={{ position:'absolute', inset:0, borderRadius:'50%', border:`${thickness}px solid ${ring}`, opacity:0.85 }} />
+      <div style={{ position:'absolute', inset:thickness+gap, borderRadius:'50%', overflow:'hidden' }}>
+        {inner}
+      </div>
     </div>
   );
 }
 
-function GouvCard({ membre, onClick, big }) {
-  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+function GouvCard({ membre, onClick, big, compact }) {
+  const partiColor = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const ring = GOUV_RING[membre.statut] || partiColor;
   const [hov, setHov] = React.useState(false);
-  const size = big ? 80 : 52;
+  const avatarSize = compact ? 42 : (big ? 84 : 54);
+  const isNew = membre.statut === 'nouveau';
   return (
     <div onClick={() => onClick(membre)} onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}
-      style={{ background:'var(--surface)', border:'1px solid ' + (hov ? color+'80' : 'var(--border)'),
-        borderRadius:'var(--radius-lg)', padding: big ? '24px 20px' : '16px 14px',
-        cursor:'pointer', transition:'all 140ms', boxShadow: hov ? '0 4px 16px '+color+'22' : 'none',
+      style={{ background: isNew ? '#F0FDF4' : 'var(--surface)',
+        border:'1px solid ' + (hov ? ring+'90' : (isNew ? '#BBF7D0' : 'var(--border)')),
+        borderRadius:'var(--radius-lg)',
+        padding: compact ? '10px 10px' : (big ? '28px 20px 20px' : '14px 12px'),
+        cursor:'pointer', transition:'all 140ms', boxShadow: hov ? '0 4px 20px '+ring+'25' : 'none',
         transform: hov ? 'translateY(-2px)' : 'none',
-        display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center', gap: big ? 14 : 10 }}>
-      <GouvAvatar membre={membre} size={size} />
+        display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center',
+        gap: compact ? 7 : (big ? 14 : 9) }}>
+      <GouvAvatar membre={membre} size={avatarSize} />
       <div>
-        <div style={{ fontFamily:'var(--font-sans)', fontSize: big ? 16 : 13, fontWeight:700, color:'var(--ink)', marginBottom:4, lineHeight:1.25 }}>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize: compact ? 11.5 : (big ? 16 : 13), fontWeight:700, color: isNew ? '#15803D' : 'var(--ink)', marginBottom:3, lineHeight:1.2 }}>
           {membre.prenom} {membre.nom}
+          {isNew && <span style={{ marginLeft:5, fontSize:9, fontWeight:800, color:'#16A34A', background:'#DCFCE7', borderRadius:999, padding:'1px 6px', verticalAlign:'middle' }}>NOUVEAU</span>}
         </div>
-        <div style={{ fontSize: big ? 12.5 : 11, color:'var(--text-secondary)', lineHeight:1.4, marginBottom:8,
-          display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>
+        <div style={{ fontSize: compact ? 10 : (big ? 12.5 : 11), color:'var(--text-secondary)', lineHeight:1.35, marginBottom: compact ? 0 : 6,
+          display:'-webkit-box', WebkitLineClamp: compact ? 2 : 3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>
           {membre.titre}
         </div>
-        <span style={{ fontSize:10.5, fontWeight:700, color, background:color+'18',
-          border:'1px solid '+color+'35', borderRadius:999, padding:'3px 9px' }}>{membre.parti}</span>
+        {!compact && <span style={{ fontSize:10, fontWeight:700, color:partiColor, background:partiColor+'18', border:'1px solid '+partiColor+'35', borderRadius:999, padding:'2px 8px' }}>{membre.parti}</span>}
       </div>
     </div>
   );
 }
 
 function GouvPersonneView({ membre, onBack }) {
-  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const partiColor = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const ring = GOUV_RING[membre.statut] || partiColor;
   React.useEffect(() => {
     const onKey = e => { if (e.key === 'Escape') onBack(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [onBack]);
-  const rangLabel = { pm:'Premier ministre', me:"Ministre d'État", m:'Ministre', md:'Ministre délégué' }[membre.rang] || membre.rang;
+  const statutLabel = {
+    pm:         'Premier ministre',
+    plein:      'Ministre de plein exercice',
+    delegue_pm: 'Ministre délégué auprès du PM',
+    delegue:    'Ministre délégué',
+    nouveau:    'Nouveau entrant',
+  }[membre.statut] || membre.statut;
+  const statutBadge = {
+    pm:         { bg:'#FEF9C3', border:'#FDE047', color:'#A16207', label:'Premier ministre' },
+    plein:      { bg:'#FEE2E2', border:'#FECACA', color:'#DC2626', label:'Plein exercice' },
+    delegue_pm: { bg:'#DBEAFE', border:'#BFDBFE', color:'#1D4ED8', label:'Délégué PM' },
+    delegue:    { bg:'#DBEAFE', border:'#BFDBFE', color:'#1D4ED8', label:'Délégué' },
+    nouveau:    { bg:'#DCFCE7', border:'#BBF7D0', color:'#16A34A', label:'Nouveau entrant' },
+  }[membre.statut] || { bg:'var(--gray-100)', border:'var(--border)', color:'var(--text-secondary)', label:membre.statut };
+
+  const superviseur = membre.superviseur ? GOUV_MEMBRES.find(m => m.id === membre.superviseur) : null;
+
+  const InfoRow = ({ label, val, link }) => (
+    <div style={{ display:'grid', gridTemplateColumns:'180px 1fr', gap:16, padding:'12px 0', borderBottom:'1px solid var(--border-subtle)' }}>
+      <span style={{ fontSize:11, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.07em', paddingTop:3 }}>{label}</span>
+      {link
+        ? <a href={'mailto:'+val} style={{ fontSize:13.5, color:'#2563EB', textDecoration:'none', wordBreak:'break-all' }}>{val}</a>
+        : <span style={{ fontSize:13.5, color:'var(--ink)', lineHeight:1.5 }}>{val}</span>
+      }
+    </div>
+  );
 
   return (
-    <div style={{ maxWidth:900, margin:'0 auto', padding:'28px 24px 64px' }}>
-      <style>{`.gouv-info-row{display:grid;gridTemplateColumns:'160px 1fr';gap:16;padding:13px 0;borderBottom:1px solid var(--border-subtle)}`}</style>
-      <div style={{ marginBottom:28, display:'flex', alignItems:'center', gap:12 }}>
+    <div style={{ maxWidth:960, margin:'0 auto', padding:'28px 24px 64px' }}>
+      <div style={{ marginBottom:28 }}>
         <button onClick={onBack} style={{ background:'none', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', cursor:'pointer', padding:'8px 16px', display:'flex', alignItems:'center', gap:7, color:'var(--text-secondary)', fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:500 }}
           onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--border-strong)'; e.currentTarget.style.color='var(--ink)'; }}
           onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--text-secondary)'; }}>
@@ -5115,37 +5269,42 @@ function GouvPersonneView({ membre, onBack }) {
           Retour au gouvernement
         </button>
       </div>
-      <div style={{ display:'grid', gridTemplateColumns:'260px 1fr', gap:20, alignItems:'start' }}>
+
+      <div style={{ display:'grid', gridTemplateColumns:'280px 1fr', gap:20, alignItems:'start' }}>
         <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'32px 20px 24px', display:'flex', flexDirection:'column', alignItems:'center', gap:14, textAlign:'center' }}>
           <GouvAvatar membre={membre} size={110} />
           <div>
-            <div style={{ fontFamily:'var(--font-sans)', fontSize:22, fontWeight:800, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1.25, marginBottom:6 }}>{membre.prenom} {membre.nom}</div>
-            <div style={{ fontSize:13, color:'var(--text-secondary)', lineHeight:1.45 }}>{membre.titre}</div>
+            <div style={{ fontFamily:'var(--font-sans)', fontSize:22, fontWeight:800, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1.25, marginBottom:7 }}>{membre.prenom} {membre.nom}</div>
+            <div style={{ fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.5 }}>{membre.titre}</div>
           </div>
           <div style={{ display:'flex', gap:7, flexWrap:'wrap', justifyContent:'center' }}>
-            <span style={{ fontSize:11.5, fontWeight:700, color, background:color+'18', border:'1px solid '+color+'35', borderRadius:999, padding:'4px 12px' }}>{membre.parti}</span>
-            <span style={{ fontSize:11.5, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'4px 12px' }}>{rangLabel}</span>
+            <span style={{ fontSize:11, fontWeight:700, color:partiColor, background:partiColor+'18', border:'1px solid '+partiColor+'35', borderRadius:999, padding:'4px 11px' }}>{membre.parti}</span>
+            <span style={{ fontSize:11, fontWeight:700, color:statutBadge.color, background:statutBadge.bg, border:'1px solid '+statutBadge.border, borderRadius:999, padding:'4px 11px' }}>{statutBadge.label}</span>
           </div>
           <div style={{ width:'100%', height:1, background:'var(--border)' }} />
-          <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6 }}>
-            Gouvernement Lecornu II<br/>depuis le 12 octobre 2025
+          <div style={{ fontSize:11.5, color:'var(--text-tertiary)', lineHeight:1.7 }}>
+            <span style={{ fontWeight:700, color:'var(--text-secondary)' }}>Gouvernement Lecornu III</span><br />
+            depuis le 26 février 2026
           </div>
+          {membre.email && (
+            <a href={'mailto:'+membre.email}
+               style={{ fontSize:11.5, color:'#2563EB', display:'flex', alignItems:'center', gap:6, textDecoration:'none', padding:'7px 12px', border:'1px solid #BFDBFE', borderRadius:8, background:'#EFF6FF', width:'100%', justifyContent:'center', boxSizing:'border-box', wordBreak:'break-all' }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+              {membre.email}
+            </a>
+          )}
         </div>
+
         <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'28px 24px' }}>
           <div style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:16 }}>Biographie</div>
-          <p style={{ fontFamily:'var(--font-sans)', fontSize:14.5, color:'var(--ink)', lineHeight:1.7, margin:'0 0 24px' }}>{membre.bio}</p>
+          <p style={{ fontFamily:'var(--font-sans)', fontSize:14.5, color:'var(--ink)', lineHeight:1.75, margin:'0 0 24px' }}>{membre.bio || 'Biographie en cours de rédaction.'}</p>
           <div style={{ height:1, background:'var(--border)', marginBottom:20 }} />
-          {[
-            ['Portefeuille', membre.titre],
-            ['Rang', rangLabel],
-            ['Parti', membre.parti],
-            ['Gouvernement', 'Lecornu II (depuis oct. 2025)'],
-          ].map(([label, val]) => (
-            <div key={label} style={{ display:'grid', gridTemplateColumns:'160px 1fr', gap:16, padding:'13px 0', borderBottom:'1px solid var(--border-subtle)' }}>
-              <span style={{ fontSize:11.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.06em', paddingTop:2 }}>{label}</span>
-              <span style={{ fontSize:14, color:'var(--ink)', lineHeight:1.45 }}>{val}</span>
-            </div>
-          ))}
+          <InfoRow label="Portefeuille" val={membre.titre} />
+          <InfoRow label="Statut" val={statutLabel} />
+          <InfoRow label="Parti" val={membre.parti} />
+          {superviseur && <InfoRow label="Rattaché à" val={superviseur.prenom + ' ' + superviseur.nom + ' (' + superviseur.titre + ')'} />}
+          <InfoRow label="Gouvernement" val="Lecornu III (depuis le 26 fév. 2026)" />
+          <InfoRow label="Contact officiel" val={membre.email} link />
         </div>
       </div>
     </div>
@@ -5160,71 +5319,132 @@ function GouvernementModule() {
     return <GouvPersonneView membre={selected} onBack={() => setSelected(null)} />;
   }
 
-  const pm   = GOUV_MEMBRES.filter(m => m.rang === 'pm');
-  const mins = GOUV_MEMBRES.filter(m => m.rang === 'm');
-  const mds  = GOUV_MEMBRES.filter(m => m.rang === 'md');
-  const [showMD, setShowMD] = React.useState(false);
-
-  const SectionLabel = ({ children, count }) => (
-    <div style={{ marginBottom:16, display:'flex', alignItems:'center', gap:10 }}>
-      <div style={{ height:1, background:'var(--border)', flex:1 }} />
-      <span style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)', whiteSpace:'nowrap' }}>{children}</span>
-      <span style={{ fontSize:10.5, fontWeight:700, color:'var(--text-tertiary)', background:'var(--gray-100)', borderRadius:999, padding:'2px 8px' }}>{count}</span>
-      <div style={{ height:1, background:'var(--border)', flex:1 }} />
-    </div>
-  );
+  const pm         = GOUV_MEMBRES.find(m => m.statut === 'pm');
+  const pmDelegues = GOUV_MEMBRES.filter(m => m.statut === 'delegue_pm');
+  const pleins     = GOUV_MEMBRES.filter(m => m.statut === 'plein' || m.statut === 'nouveau');
+  const getDeleguES = (id) => GOUV_MEMBRES.filter(m => m.superviseur === id);
+  const total      = GOUV_MEMBRES.length;
 
   return (
     <div style={{ maxWidth:1400, margin:'0 auto', padding:'36px 24px 64px' }}>
       <style>{`
-        .gouv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
-        .gouv-pm-grid{display:grid;grid-template-columns:280px;justify-content:center;gap:14px;margin-bottom:32px}
-        .gouv-me-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:32px}
-        @media(max-width:900px){.gouv-me-grid{grid-template-columns:repeat(2,1fr)}}
+        .gouv-groups{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+        .gouv-group{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
+        .gouv-group-main{padding:16px;border-bottom:1px solid var(--border-subtle);cursor:pointer;transition:background 120ms}
+        .gouv-group-main:hover{background:var(--gray-50)}
+        .gouv-group-del{padding:0 8px 8px}
+        .gouv-del-card{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;cursor:pointer;transition:background 120ms}
+        .gouv-del-card:hover{background:var(--gray-50)}
+        @media(max-width:768px){.gouv-groups{grid-template-columns:repeat(2,1fr)}}
+        @media(max-width:480px){.gouv-groups{grid-template-columns:1fr}}
       `}</style>
 
-      <div style={{ marginBottom:32 }}>
+      <div style={{ marginBottom:36 }}>
         <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Institutions</div>
-        <h1 style={{ fontFamily:'var(--font-sans)', fontSize:34, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 6px' }}>Gouvernement</h1>
-        <p style={{ fontFamily:'var(--font-sans)', fontSize:15, color:'var(--text-secondary)', margin:0, maxWidth:680 }}>
-          Gouvernement Lecornu II · {GOUV_MEMBRES.length} membres · en fonction depuis le 12 octobre 2025. Cliquez sur une fiche pour afficher le détail.
+        <h1 style={{ fontFamily:'var(--font-sans)', fontSize:32, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 4px' }}>
+          Gouvernement Lecornu III
+        </h1>
+        <div style={{ display:'flex', alignItems:'center', gap:12, flexWrap:'wrap', marginBottom:8 }}>
+          <span style={{ fontSize:14, fontWeight:600, color:'var(--text-secondary)' }}>Nommé le 26 février 2026</span>
+          <span style={{ width:4, height:4, borderRadius:'50%', background:'var(--border-strong)', display:'inline-block' }} />
+          <span style={{ fontSize:14, color:'var(--text-secondary)' }}>{total} membres</span>
+        </div>
+        <p style={{ fontFamily:'var(--font-sans)', fontSize:14, color:'var(--text-tertiary)', margin:0, maxWidth:680 }}>
+          Cliquez sur une fiche pour afficher la biographie et les coordonnées officielles.
         </p>
       </div>
 
-      {/* Premier ministre */}
-      <SectionLabel count={pm.length}>Premier ministre</SectionLabel>
-      <div className="gouv-pm-grid" style={{ marginBottom:40 }}>
-        {pm.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} big />)}
-      </div>
-
-      {/* Ministres */}
-      <SectionLabel count={mins.length}>Ministres</SectionLabel>
-      <div className="gouv-grid" style={{ marginBottom:32 }}>
-        {mins.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
-      </div>
-
-      {/* Ministres délégués */}
-      {mds.length > 0 && (
-        <>
-          <div style={{ marginBottom:16, display:'flex', alignItems:'center', gap:10 }}>
-            <div style={{ height:1, background:'var(--border)', flex:1 }} />
-            <button onClick={() => setShowMD(v => !v)} style={{ display:'flex', alignItems:'center', gap:8, background:'none', border:'1px solid var(--border)', borderRadius:999, cursor:'pointer', padding:'5px 14px', fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:'var(--text-secondary)', letterSpacing:'0.06em', textTransform:'uppercase', transition:'all 120ms' }}>
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{ transform: showMD ? 'rotate(180deg)' : 'none', transition:'transform 200ms' }}><polyline points="6 9 12 15 18 9"/></svg>
-              Ministres délégués · {mds.length}
-            </button>
-            <div style={{ height:1, background:'var(--border)', flex:1 }} />
-          </div>
-          {showMD && (
-            <div className="gouv-grid">
-              {mds.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
+      <div style={{ marginBottom:40, display:'grid', gridTemplateColumns:'1fr', gap:16, justifyItems:'center' }}>
+        {pm && (
+          <div onClick={() => setSelected(pm)} style={{ width:300, background:'var(--surface)', border:'2px solid #D4AF3760', borderRadius:'var(--radius-lg)', padding:'28px 24px 20px', cursor:'pointer', transition:'all 140ms', display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center', gap:14 }}
+            onMouseEnter={e=>{ e.currentTarget.style.boxShadow='0 6px 24px #D4AF3730'; e.currentTarget.style.transform='translateY(-2px)'; }}
+            onMouseLeave={e=>{ e.currentTarget.style.boxShadow='none'; e.currentTarget.style.transform='none'; }}>
+            <GouvAvatar membre={pm} size={100} />
+            <div>
+              <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'#B7950B', marginBottom:6 }}>Premier ministre</div>
+              <div style={{ fontFamily:'var(--font-sans)', fontSize:20, fontWeight:800, color:'var(--ink)', marginBottom:5, letterSpacing:'-0.01em' }}>{pm.prenom} {pm.nom}</div>
+              <div style={{ fontSize:12, color:'var(--text-secondary)', marginBottom:10 }}>{pm.titre}</div>
+              <span style={{ fontSize:11, fontWeight:700, color:GOUV_PARTI_COLORS[pm.parti]||'#888', background:(GOUV_PARTI_COLORS[pm.parti]||'#888')+'18', border:'1px solid '+(GOUV_PARTI_COLORS[pm.parti]||'#888')+'35', borderRadius:999, padding:'3px 10px' }}>{pm.parti}</span>
             </div>
-          )}
-        </>
-      )}
+          </div>
+        )}
 
-      <div style={{ marginTop:28 }}>
-        <SourceTag source="Gouvernement de la République française · info.gouv.fr · données officielles" date="12 octobre 2025" />
+        {pmDelegues.length > 0 && (
+          <div style={{ display:'flex', gap:14, flexWrap:'wrap', justifyContent:'center', maxWidth:780 }}>
+            {pmDelegues.map(m => (
+              <div key={m.id} onClick={() => setSelected(m)} style={{ width:200, background:'#EFF6FF', border:'1px solid #BFDBFE', borderRadius:'var(--radius-lg)', padding:'14px 12px', cursor:'pointer', transition:'all 120ms', display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center', gap:9 }}
+                onMouseEnter={e=>{ e.currentTarget.style.boxShadow='0 4px 14px #2563EB20'; e.currentTarget.style.transform='translateY(-2px)'; }}
+                onMouseLeave={e=>{ e.currentTarget.style.boxShadow='none'; e.currentTarget.style.transform='none'; }}>
+                <GouvAvatar membre={m} size={48} />
+                <div>
+                  <div style={{ fontSize:12.5, fontWeight:700, color:'#1E40AF', marginBottom:3, lineHeight:1.25 }}>{m.prenom} {m.nom}</div>
+                  <div style={{ fontSize:10.5, color:'#3B82F6', lineHeight:1.3, display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{m.titre}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
+
+      <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:24 }}>
+        <div style={{ flex:1, height:1, background:'var(--border)' }} />
+        <span style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Membres du gouvernement · {pleins.length} portefeuilles</span>
+        <div style={{ flex:1, height:1, background:'var(--border)' }} />
+      </div>
+
+      <div className="gouv-groups" style={{ marginBottom:36 }}>
+        {pleins.map(m => {
+          const delegues = getDeleguES(m.id);
+          const isNew = m.statut === 'nouveau';
+          const partiC = GOUV_PARTI_COLORS[m.parti] || '#888';
+          return (
+            <div key={m.id} className="gouv-group" style={{ border:'1px solid '+(isNew ? '#BBF7D0' : 'var(--border)'), background: isNew ? '#F0FDF4' : 'var(--surface)' }}>
+              <div className="gouv-group-main" onClick={() => setSelected(m)}
+                style={{ display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center', padding:'20px 14px 16px', gap:10 }}>
+                <GouvAvatar membre={m} size={60} />
+                <div>
+                  <div style={{ fontSize:13, fontWeight:800, color: isNew ? '#15803D' : 'var(--ink)', marginBottom:3, lineHeight:1.2 }}>
+                    {m.prenom} {m.nom}
+                    {isNew && <span style={{ display:'block', fontSize:9, fontWeight:800, color:'#16A34A', marginTop:3 }}>NOUVEAU ENTRANT</span>}
+                  </div>
+                  <div style={{ fontSize:10.5, color:'var(--text-secondary)', lineHeight:1.35, display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden', marginBottom:7 }}>{m.titre}</div>
+                  <span style={{ fontSize:10, fontWeight:700, color:partiC, background:partiC+'18', border:'1px solid '+partiC+'35', borderRadius:999, padding:'2px 8px' }}>{m.parti}</span>
+                </div>
+              </div>
+              {delegues.length > 0 && (
+                <div className="gouv-group-del" style={{ borderTop:'1px solid #E0EAFF', background:'#F5F8FF', padding:'8px' }}>
+                  {delegues.map(d => (
+                    <div key={d.id} className="gouv-del-card" onClick={() => setSelected(d)}>
+                      <GouvAvatar membre={d} size={28} />
+                      <div style={{ flex:1, minWidth:0 }}>
+                        <div style={{ fontSize:11, fontWeight:700, color:'#1E40AF', lineHeight:1.2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{d.prenom} {d.nom}</div>
+                        <div style={{ fontSize:10, color:'#3B82F6', lineHeight:1.25, display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{d.titre}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      <div style={{ display:'flex', flexWrap:'wrap', gap:14, alignItems:'center', padding:'16px 20px', background:'var(--gray-50)', border:'1px solid var(--border)', borderRadius:10, marginBottom:24 }}>
+        <span style={{ fontSize:11, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.08em', marginRight:4 }}>Légende</span>
+        {[
+          { color:'#D4AF37', label:'Premier ministre' },
+          { color:'#DC2626', label:'Ministre de plein exercice' },
+          { color:'#2563EB', label:'Ministre délégué' },
+          { color:'#16A34A', label:'Nouveau entrant' },
+        ].map(({ color, label }) => (
+          <div key={label} style={{ display:'flex', alignItems:'center', gap:6 }}>
+            <div style={{ width:14, height:14, borderRadius:'50%', border:'3px solid '+color, flex:'none' }} />
+            <span style={{ fontSize:12, color:'var(--text-secondary)' }}>{label}</span>
+          </div>
+        ))}
+      </div>
+
+      <SourceTag source="Gouvernement de la République française · info.gouv.fr · données officielles" date="26 février 2026" />
     </div>
   );
 }

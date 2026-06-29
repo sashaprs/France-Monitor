@@ -6470,10 +6470,13 @@ function PPAvatar({ f, size=56 }) {
 
 function PPCrest({ term }) {
   return (
-    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:4, padding:'10px 16px', background:'linear-gradient(135deg,#f9f7f3,#ede9e0)', border:'1px solid #d4c9a8', borderRadius:10 }}>
-      <div style={{ fontSize:22 }}>🔵</div>
-      <div style={{ fontSize:9, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'#5a4e3a', textAlign:'center', lineHeight:1.4 }}>Présidence<br/>de la République</div>
-      <div style={{ fontSize:10, color:'#8a7a5a', fontWeight:600 }}>{term}</div>
+    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:6, padding:'12px 18px', background:'#fafafa', border:'1px solid #e5e0d8', borderRadius:10, minWidth:110 }}>
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7a6d5c" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="8" r="4" />
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+      </svg>
+      <div style={{ fontSize:9, fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase', color:'#5a4e3a', textAlign:'center', lineHeight:1.5 }}>Présidence<br/>de la République</div>
+      <div style={{ fontSize:10, color:'#9a8a6a', fontWeight:500 }}>{term}</div>
     </div>
   );
 }
@@ -6674,30 +6677,19 @@ function PPDetailC({ f }) {
 }
 
 function PPDetail({ f, onBack }) {
-  const [variant, setVariant] = React.useState('A');
   return (
     <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
       {/* Sticky sub-bar */}
-      <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:20, flexWrap:'wrap' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:20 }}>
         <button onClick={onBack} style={{ display:'flex', alignItems:'center', gap:6, padding:'6px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer', fontSize:12, color:'var(--text-secondary)', fontFamily:'var(--font-sans)' }}>
           <Icon n="arrow-left" s={12} /> Retour
         </button>
-        <div style={{ display:'flex', gap:4, background:'var(--gray-100)', borderRadius:'var(--radius-sm)', padding:3 }}>
-          {['A','B','C'].map(v => (
-            <button key={v} onClick={() => setVariant(v)}
-              style={{ padding:'4px 14px', borderRadius:6, border:'none', cursor:'pointer', fontSize:12, fontWeight: variant===v ? 700 : 400, background: variant===v ? 'white' : 'transparent', color: variant===v ? 'var(--text-primary)' : 'var(--text-tertiary)', fontFamily:'var(--font-sans)', boxShadow: variant===v ? '0 1px 3px rgba(0,0,0,0.12)' : 'none', transition:'all 0.15s' }}>
-              {v === 'A' ? 'Institutionnel' : v === 'B' ? 'Terminal' : 'Cartes'}
-            </button>
-          ))}
-        </div>
         <div style={{ marginLeft:'auto' }}>
           <SourceTag source="Personnalités politiques · france-monitor" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
         </div>
       </div>
 
-      {variant === 'A' && <PPDetailA f={f} />}
-      {variant === 'B' && <PPDetailB f={f} />}
-      {variant === 'C' && <PPDetailC f={f} />}
+      <PPDetailA f={f} />
     </div>
   );
 }

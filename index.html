@@ -5598,6 +5598,7 @@ function SenatModule() {
 const PARTIS_DATA = [
   {
     id:'re', abbr:'RE', name:'Renaissance', color:'#2563EB', orientation:'Centre',
+    groupeAN:'epr',
     founded:2016, leader:'Gabriel Attal', leaderInitials:'GA', leaderRole:'Président',
     seatsAN:99, seatsSenat:23, members:120000,
     bio:"Renaissance (anciennement La République En Marche) est un parti politique français fondé en 2016 par Emmanuel Macron. Parti de gouvernement au centre de l'échiquier politique, il a remporté la présidentielle et les législatives de 2017 et 2022.",
@@ -5622,6 +5623,7 @@ const PARTIS_DATA = [
   },
   {
     id:'rn', abbr:'RN', name:'Rassemblement National', color:'#14385F', orientation:'Droite nationaliste',
+    groupeAN:'rn',
     founded:1972, leader:'Marine Le Pen', leaderInitials:'ML', leaderRole:'Présidente',
     seatsAN:126, seatsSenat:19, members:90000,
     bio:"Le Rassemblement National, fondé en 1972 sous le nom de Front National par Jean-Marie Le Pen, est le principal parti d'opposition de droite nationale en France. Depuis 2022, il constitue le plus grand groupe d'opposition à l'Assemblée nationale.",
@@ -5646,6 +5648,7 @@ const PARTIS_DATA = [
   },
   {
     id:'lfi', abbr:'LFI', name:'La France Insoumise', color:'#C0392B', orientation:'Gauche radicale',
+    groupeAN:'lfi-nfp',
     founded:2016, leader:'Jean-Luc Mélenchon', leaderInitials:'JM', leaderRole:'Fondateur',
     seatsAN:72, seatsSenat:0, members:60000,
     bio:"La France Insoumise est un mouvement politique de gauche radicale fondé en 2016 par Jean-Luc Mélenchon. Il est à l'origine de la coalition NUPES en 2022 et du Nouveau Front Populaire en 2024.",
@@ -5668,6 +5671,7 @@ const PARTIS_DATA = [
   },
   {
     id:'lr', abbr:'LR', name:'Les Républicains', color:'#1F6FB2', orientation:'Droite',
+    groupeAN:'dr',
     founded:2015, leader:'Éric Ciotti', leaderInitials:'EC', leaderRole:'Président',
     seatsAN:61, seatsSenat:135, members:150000,
     bio:"Les Républicains (anciennement UMP) est le principal parti de droite classique en France, fondé en 2015. Après des résultats décevants aux présidentielles de 2017 et 2022, le parti connaît des turbulences internes et reste influent au Sénat.",
@@ -5691,6 +5695,7 @@ const PARTIS_DATA = [
   },
   {
     id:'ps', abbr:'PS', name:'Parti Socialiste', color:'#E5447A', orientation:'Centre-gauche',
+    groupeAN:'soc',
     founded:1969, leader:'Olivier Faure', leaderInitials:'OF', leaderRole:'Premier secrétaire',
     seatsAN:64, seatsSenat:64, members:90000,
     bio:"Le Parti Socialiste est le principal parti de gauche modérée en France, fondé en 1969. Après deux mandats à l'Élysée (Mitterrand, Hollande), il connaît une recomposition et participe au Nouveau Front Populaire en 2024.",
@@ -5714,6 +5719,7 @@ const PARTIS_DATA = [
   },
   {
     id:'eco', abbr:'ECO', name:'Les Écologistes', color:'#2E9E5B', orientation:'Gauche écologiste',
+    groupeAN:'ecos',
     founded:2021, leader:'Marine Tondelier', leaderInitials:'MT', leaderRole:'Secrétaire nationale',
     seatsAN:23, seatsSenat:15, members:13000,
     bio:"Les Écologistes (anciennement Europe Écologie Les Verts) est le principal parti écologiste français. Fondé en 2021 après la fusion des Verts et du mouvement Europe Écologie, il participe au Nouveau Front Populaire.",
@@ -5737,6 +5743,7 @@ const PARTIS_DATA = [
   },
   {
     id:'hor', abbr:'HOR', name:'Horizons', color:'#2E86C1', orientation:'Centre',
+    groupeAN:'hor',
     founded:2021, leader:'Édouard Philippe', leaderInitials:'EP', leaderRole:'Président',
     seatsAN:30, seatsSenat:12, members:15000,
     bio:"Horizons est un parti politique français fondé en 2021 par Édouard Philippe. Allié de Renaissance, il participe à la coalition de gouvernement et soutient le bilan d'Emmanuel Macron tout en portant une ligne propre sur les questions de finances publiques.",
@@ -5757,6 +5764,7 @@ const PARTIS_DATA = [
   },
   {
     id:'modem', abbr:'MoDem', name:'Mouvement Démocrate', color:'#E67E22', orientation:'Centre',
+    groupeAN:'dem',
     founded:2007, leader:'François Bayrou', leaderInitials:'FB', leaderRole:'Président',
     seatsAN:35, seatsSenat:17, members:25000,
     bio:"Le Mouvement Démocrate (MoDem) est un parti politique centriste fondé en 2007 par François Bayrou. Allié de longue date de Renaissance, François Bayrou a été nommé Premier ministre en décembre 2024.",
@@ -5777,6 +5785,7 @@ const PARTIS_DATA = [
   },
   {
     id:'pcf', abbr:'PCF', name:'Parti Communiste Français', color:'#D6001C', orientation:'Gauche',
+    groupeAN:'gdr',
     founded:1920, leader:'Fabien Roussel', leaderInitials:'FR', leaderRole:'Secrétaire national',
     seatsAN:22, seatsSenat:17, members:50000,
     bio:"Le Parti Communiste Français est l'un des plus anciens partis politiques de France, fondé en 1920 à Tours. Ancré dans la tradition de la gauche ouvrière, il participe au Nouveau Front Populaire tout en maintenant son indépendance.",
@@ -5798,6 +5807,7 @@ const PARTIS_DATA = [
   },
   {
     id:'pp', abbr:'PP', name:'Place Publique', color:'#8E44AD', orientation:'Centre-gauche',
+    groupeAN:'soc',
     founded:2018, leader:'Raphaël Glucksmann', leaderInitials:'RG', leaderRole:'Fondateur',
     seatsAN:11, seatsSenat:0, members:8000,
     bio:"Place Publique est un mouvement politique fondé en 2018 par Raphaël Glucksmann et des intellectuels engagés. Europhile et social-démocrate, il a réalisé une percée aux élections européennes de 2024 et participe au Nouveau Front Populaire.",
@@ -5849,7 +5859,18 @@ function PartiCard({ parti, onClick }) {
   );
 }
 
-function PartiDetail({ parti, onBack }) {
+function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
+  const [membreSearch, setMembreSearch] = React.useState('');
+  const [membreTab, setMembreTab] = React.useState('an');
+
+  const partiDeps = React.useMemo(() => {
+    if (!parti.groupeAN || !deputes.length) return [];
+    return deputes
+      .filter(d => d.groupe && d.groupe.id === parti.groupeAN)
+      .filter(d => !membreSearch || d.nomComplet.toLowerCase().includes(membreSearch.toLowerCase()) || (d.dept || '').toLowerCase().includes(membreSearch.toLowerCase()))
+      .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  }, [parti.groupeAN, deputes, membreSearch]);
+
   return (
     <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
       {/* Sticky sub-bar */}
@@ -6009,6 +6030,72 @@ function PartiDetail({ parti, onBack }) {
           </div>
         </div>
       </div>
+
+      {/* ── Section membres ── */}
+      <div style={{ marginTop:24, background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', overflow:'hidden' }}>
+        {/* Onglets AN / Sénat */}
+        <div style={{ display:'flex', alignItems:'center', borderBottom:'1px solid var(--border-subtle)', padding:'0 18px', gap:0 }}>
+          {[
+            { key:'an', label:`Assemblée nationale · ${partiDeps.length > 0 || parti.groupeAN ? (deputesLoading ? '…' : partiDeps.length) : parti.seatsAN} membres` },
+            { key:'senat', label:`Sénat · ${parti.seatsSenat} sénateurs` },
+          ].map(tab => (
+            <button key={tab.key} onClick={() => setMembreTab(tab.key)}
+              style={{ padding:'12px 16px', background:'none', border:'none', borderBottom:`2px solid ${membreTab === tab.key ? parti.color : 'transparent'}`, cursor:'pointer', fontSize:12.5, fontWeight: membreTab === tab.key ? 700 : 500, color: membreTab === tab.key ? parti.color : 'var(--text-tertiary)', fontFamily:'var(--font-sans)', marginBottom:'-1px', transition:'all 120ms' }}>
+              {tab.label}
+            </button>
+          ))}
+          {membreTab === 'an' && parti.groupeAN && (
+            <div style={{ marginLeft:'auto', position:'relative' }}>
+              <Icon n="search" s={12} style={{ position:'absolute', left:8, top:'50%', transform:'translateY(-50%)', color:'var(--text-tertiary)' }} />
+              <input value={membreSearch} onChange={e => setMembreSearch(e.target.value)} placeholder="Rechercher…"
+                style={{ padding:'6px 10px 6px 26px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:11.5, fontFamily:'var(--font-sans)', outline:'none', width:180 }} />
+            </div>
+          )}
+        </div>
+
+        {membreTab === 'an' && (
+          <div style={{ padding:'16px 18px' }}>
+            {!parti.groupeAN ? (
+              <div style={{ fontSize:12, color:'var(--text-tertiary)', textAlign:'center', padding:'24px 0' }}>
+                Données individuelles non disponibles pour ce parti.
+              </div>
+            ) : deputesLoading ? (
+              <div style={{ fontSize:12, color:'var(--text-tertiary)', textAlign:'center', padding:'24px 0' }}>Chargement des données…</div>
+            ) : partiDeps.length === 0 ? (
+              <div style={{ fontSize:12, color:'var(--text-tertiary)', textAlign:'center', padding:'24px 0' }}>Aucun résultat.</div>
+            ) : (
+              <div style={{ maxHeight:480, overflowY:'auto', paddingRight:4 }}>
+                <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(90px,1fr))', gap:10 }}>
+                  {partiDeps.map(dep => {
+                    const color = dep.groupe ? dep.groupe.color : parti.color;
+                    return (
+                      <div key={dep.id} style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:5, padding:'10px 6px', borderRadius:8, border:'1px solid var(--border-subtle)', background:'var(--gray-50)', textAlign:'center' }}>
+                        <DepAvatar dep={dep} size={52} />
+                        <div>
+                          <div style={{ fontSize:10.5, fontWeight:700, color:'var(--text-primary)', lineHeight:1.2 }}>{dep.prenom}</div>
+                          <div style={{ fontSize:10.5, fontWeight:700, color:'var(--text-primary)', lineHeight:1.2 }}>{dep.nom}</div>
+                          <div style={{ fontSize:9.5, color:'var(--text-tertiary)', marginTop:2, lineHeight:1.2 }}>{dep.dept}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {membreTab === 'senat' && (
+          <div style={{ padding:'28px 18px', textAlign:'center' }}>
+            <div style={{ fontSize:36, fontWeight:800, color:parti.color, marginBottom:8 }}>{parti.seatsSenat}</div>
+            <div style={{ fontSize:13, color:'var(--text-secondary)', marginBottom:16 }}>sénateurs appartenant à {parti.name}</div>
+            <div style={{ maxWidth:480, margin:'0 auto', fontSize:12, color:'var(--text-tertiary)', lineHeight:1.7, background:'var(--gray-50)', borderRadius:8, padding:'14px 18px', border:'1px solid var(--border-subtle)' }}>
+              Les données nominatives individuelles des sénateurs ne sont pas encore disponibles dans ce portail. Rendez-vous sur&nbsp;
+              <span style={{ color:parti.color, fontWeight:600 }}>senat.fr</span> pour consulter la liste complète.
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -6018,6 +6105,7 @@ function PartisModule() {
   const [selectedId, setSelectedId] = React.useState(null);
   const [search, setSearch] = React.useState('');
   const [sort, setSort] = React.useState('seats');
+  const { deputes, loading: deputesLoading } = useANDeputes();
 
   const filtered = PARTIS_DATA
     .filter(p => p.name.toLowerCase().includes(search.toLowerCase()) || p.abbr.toLowerCase().includes(search.toLowerCase()))
@@ -6025,7 +6113,7 @@ function PartisModule() {
 
   if (view === 'detail') {
     const parti = PARTIS_DATA.find(p => p.id === selectedId);
-    return <PartiDetail parti={parti} onBack={() => setView('list')} />;
+    return <PartiDetail parti={parti} onBack={() => setView('list')} deputes={deputes} deputesLoading={deputesLoading} />;
   }
 
   return (

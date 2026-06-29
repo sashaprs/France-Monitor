@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-06-28T15:18:10.873Z",
+  "updatedAt": "2026-06-29T09:01:48.920Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460496",
-      "titre": "suite de l'ordre du jour de l'après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-25T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30766",
-      "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à renforcer les prérogatives des officiers de l’état civil et du ministère public pour lutter contre les mariages simulés ou arrangés",
-      "type": "seance_type",
-      "dateDebut": "2026-06-25T19:30:00.000Z",
-      "dateFin": "2026-06-25T21:55:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460497",
-      "titre": "suite de l’examen du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-26T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30767",
-      "titre": "suite de la discussion, en nouvelle lecture, de la proposition de loi relative à la fin de vie",
-      "type": "seance_type",
-      "dateDebut": "2026-06-26T07:00:00.000Z",
-      "dateFin": "2026-06-26T11:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460738",
-      "titre": "audition de M. Pascal de Izaguirre, président-directeur général de Corsair.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-26T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460713",
-      "titre": "fédération nationale des lieux de vie et d’accueil – M. Yannick Paquereau, directeur général.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-26T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO883517"
-    },
     {
       "uid": "RUANR5L17S2026IDC460498",
       "titre": "suite de l'ordre du jour du matin.",

@@ -5960,15 +5960,42 @@ function PartiDetail({ parti, onBack }) {
             ))}
           </div>
 
-          {/* Deputies */}
-          <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
-            <Eyebrow>Personnalités notables</Eyebrow>
-            <div style={{ display:'flex', flexWrap:'wrap', gap:6 }}>
-              {parti.deputies.map((d,i) => (
-                <span key={i} style={{ fontSize:11, padding:'4px 10px', borderRadius:99, background:'var(--gray-50)', border:'1px solid var(--border-subtle)', color:'var(--text-secondary)' }}>{d}</span>
-              ))}
-            </div>
-          </div>
+          {/* Personnalités avec photos */}
+          {(() => {
+            const persos = PERSONNALITES_DATA.filter(f => f.party === parti.name);
+            return (
+              <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
+                <Eyebrow>Personnalités du parti ({persos.length > 0 ? persos.length : parti.deputies.length})</Eyebrow>
+                {persos.length > 0 ? (
+                  <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:12, marginTop:4 }}>
+                    {persos.map(f => (
+                      <div key={f.id} style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:8, padding:'12px 8px', borderRadius:10, border:'1px solid var(--border-subtle)', background:'var(--gray-50)' }}>
+                        <PPAvatar f={f} size={52} />
+                        <div style={{ textAlign:'center' }}>
+                          <div style={{ fontSize:11.5, fontWeight:700, color:'var(--text-primary)', lineHeight:1.25 }}>{f.name}</div>
+                          <div style={{ fontSize:10, color:'var(--text-tertiary)', marginTop:2, lineHeight:1.3 }}>{f.role}</div>
+                          <div style={{ marginTop:5 }}>
+                            <div style={{ display:'flex', justifyContent:'center', gap:2, alignItems:'center' }}>
+                              <div style={{ height:3, borderRadius:99, background:hexRgba(f.color,0.2), width:40 }}>
+                                <div style={{ height:3, borderRadius:99, background:f.color, width:`${f.score*40/100}px` }} />
+                              </div>
+                              <span style={{ fontSize:9, fontWeight:700, color:f.color }}>{f.score}</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginTop:4 }}>
+                    {parti.deputies.map((d,i) => (
+                      <span key={i} style={{ fontSize:11, padding:'4px 10px', borderRadius:99, background:'var(--gray-50)', border:'1px solid var(--border-subtle)', color:'var(--text-secondary)' }}>{d}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })()}
 
           {/* News */}
           <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
@@ -6038,6 +6065,7 @@ function PartisModule() {
 const PERSONNALITES_DATA = [
   {
     id:'macron', name:'Emmanuel Macron', role:'Président de la République', party:'Renaissance', color:'#2563EB', initials:'EM',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg/250px-Emmanuel_Macron_2025_%28cropped%29.jpg',
     rank:1, score:97, born:'1977', president:{ term:'2017–present' },
     bio:"Emmanuel Macron est un homme politique français, 25e président de la République française depuis mai 2017. Ancien ministre de l'Économie sous François Hollande, il fonde En Marche en 2016 et remporte la présidentielle face à Marine Le Pen.",
     bilan:[
@@ -6060,6 +6088,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'lepen', name:'Marine Le Pen', role:'Députée, présidente RN', party:'Rassemblement National', color:'#14385F', initials:'ML',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg/250px-Marine_Le_Pen_2025_%28cropped%29.jpg',
     rank:2, score:91, born:'1968', president:null, bilan:null,
     bio:"Marine Le Pen est une femme politique française, fille de Jean-Marie Le Pen. Elle préside le Rassemblement National de 2011 à 2021 puis en devient figure tutélaire. Candidate à trois reprises à la présidentielle (2012, 2017, 2022), elle est aujourd'hui cheffe de file de l'opposition.",
     news:[
@@ -6074,6 +6103,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'melenchon', name:'Jean-Luc Mélenchon', role:'Fondateur LFI', party:'La France Insoumise', color:'#C0392B', initials:'JM',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/M%C3%A9lenchon_2027_-_55263136641_%28cropped_3-4%2C_2%29.png/250px-M%C3%A9lenchon_2027_-_55263136641_%28cropped_3-4%2C_2%29.png',
     rank:3, score:84, born:'1951', president:null, bilan:null,
     bio:"Jean-Luc Mélenchon est un homme politique français, fondateur de La France Insoumise. Ancien ministre de l'Éducation nationale sous Lionel Jospin, il quitte le PS en 2008. Candidat à la présidentielle en 2012, 2017 et 2022, il reste une figure majeure de la gauche radicale.",
     news:[
@@ -6087,6 +6117,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'philippe', name:'Édouard Philippe', role:'Premier ministre (2017-2020), Président Horizons', party:'Horizons', color:'#2E86C1', initials:'EP',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Edouard_Philippe_3x4_crop.jpg/250px-Edouard_Philippe_3x4_crop.jpg',
     rank:4, score:82, born:'1970', president:null, bilan:null,
     bio:"Édouard Philippe est un homme politique français, membre du parti Horizons qu'il a fondé en 2021. Maire du Havre depuis 2010, il a été Premier ministre de mai 2017 à juillet 2020 sous la présidence d'Emmanuel Macron et est candidat déclaré à la présidentielle de 2027.",
     news:[
@@ -6100,6 +6131,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'bardella', name:'Jordan Bardella', role:'Président du groupe AN, RN', party:'Rassemblement National', color:'#14385F', initials:'JB',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MEP_Jordan_Bardella.jpg/250px-MEP_Jordan_Bardella.jpg',
     rank:5, score:79, born:'1995', president:null, bilan:null,
     bio:"Jordan Bardella est un homme politique français, président du Rassemblement National depuis 2022. Député européen depuis 2019, il est également président du groupe RN à l'Assemblée nationale. Figure montante de la droite nationale, il ambitionne de devenir Premier ministre.",
     news:[
@@ -6113,6 +6145,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'bayrou', name:'François Bayrou', role:'Premier ministre, Président MoDem', party:'Mouvement Démocrate', color:'#E67E22', initials:'FB',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bayrou_Matignon_%28cropped%29.jpg/250px-Bayrou_Matignon_%28cropped%29.jpg',
     rank:6, score:76, born:'1951', president:null, bilan:null,
     bio:"François Bayrou est un homme politique français, Premier ministre depuis décembre 2024. Fondateur du Mouvement Démocrate en 2007, il a été candidat à trois présidentielles (2002, 2007, 2012). Allié de longue date d'Emmanuel Macron, il dirige le gouvernement en période de cohabitation.",
     news:[
@@ -6126,6 +6159,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'faure', name:'Olivier Faure', role:'Premier secrétaire du PS', party:'Parti Socialiste', color:'#E5447A', initials:'OF',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png/250px-OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png',
     rank:7, score:68, born:'1972', president:null, bilan:null,
     bio:"Olivier Faure est un homme politique français, premier secrétaire du Parti Socialiste depuis 2018. Député de Seine-et-Marne, il a guidé le PS dans la constitution du Nouveau Front Populaire en 2024 et défend une ligne de gauche modérée et européiste.",
     news:[
@@ -6139,6 +6173,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'tondelier', name:'Marine Tondelier', role:'Secrétaire nationale des Écologistes', party:'Les Écologistes', color:'#2E9E5B', initials:'MT',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/20210819_tondelier.m-cr3.jpg/250px-20210819_tondelier.m-cr3.jpg',
     rank:8, score:65, born:'1986', president:null, bilan:null,
     bio:"Marine Tondelier est une femme politique française, secrétaire nationale des Écologistes depuis 2022. Ancienne conseillère municipale à Hénin-Beaumont, elle a contribué à repositionner le parti écologiste et à renforcer son influence au sein de la gauche.",
     news:[
@@ -6152,6 +6187,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'ciotti', name:'Éric Ciotti', role:'Président de LR', party:'Les Républicains', color:'#1F6FB2', initials:'EC',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%C3%89ric_Ciotti_%28cropped%29.jpg/250px-%C3%89ric_Ciotti_%28cropped%29.jpg',
     rank:9, score:62, born:'1965', president:null, bilan:null,
     bio:"Éric Ciotti est un homme politique français, président des Républicains depuis 2022. Député des Alpes-Maritimes, il défend une ligne conservatrice et souverainiste et a conduit le parti vers une alliance avec le gouvernement Philippe-Macron.",
     news:[
@@ -6165,6 +6201,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'panot', name:'Mathilde Panot', role:'Présidente du groupe LFI à l\'AN', party:'La France Insoumise', color:'#C0392B', initials:'MP',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mathilde_Panot_2021-3.jpg/250px-Mathilde_Panot_2021-3.jpg',
     rank:10, score:61, born:'1989', president:null, bilan:null,
     bio:"Mathilde Panot est une femme politique française, présidente du groupe La France Insoumise à l'Assemblée nationale depuis 2020. Proche de Jean-Luc Mélenchon, elle défend les positions du mouvement insoumis avec pugnacité et est pressentie pour prendre la direction du parti.",
     news:[
@@ -6178,6 +6215,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'attal', name:'Gabriel Attal', role:'Président de Renaissance', party:'Renaissance', color:'#2563EB', initials:'GA',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Gabriel_Attal_2025_%28close_crop%29.jpg/250px-Gabriel_Attal_2025_%28close_crop%29.jpg',
     rank:11, score:59, born:'1989', president:null, bilan:null,
     bio:"Gabriel Attal est un homme politique français, président du parti Renaissance depuis 2024. Il a été Premier ministre de janvier à septembre 2024, devenant ainsi le plus jeune chef de gouvernement de la Ve République. Député des Hauts-de-Seine, il ambitionne la présidentielle de 2027.",
     news:[
@@ -6191,6 +6229,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'roussel', name:'Fabien Roussel', role:'Secrétaire national du PCF', party:'Parti Communiste Français', color:'#D6001C', initials:'FR',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Roussel_Fabien_1.jpg/250px-Roussel_Fabien_1.jpg',
     rank:12, score:54, born:'1969', president:null, bilan:null,
     bio:"Fabien Roussel est un homme politique français, secrétaire national du Parti Communiste Français depuis 2018. Député du Nord, il a été candidat à la présidentielle de 2022 avec 2,28% des voix. Il défend un communisme républicain et laïc.",
     news:[
@@ -6204,6 +6243,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'glucksmann', name:'Raphaël Glucksmann', role:'Fondateur de Place Publique', party:'Place Publique', color:'#8E44AD', initials:'RG',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg/250px-1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg',
     rank:13, score:52, born:'1979', president:null, bilan:null,
     bio:"Raphaël Glucksmann est un homme politique et essayiste français, fondateur du mouvement Place Publique. Député européen, il a réalisé 13,8% aux élections européennes de 2024 sur une liste PS-PP. Europhile et social-démocrate, il incarne un renouveau de la gauche.",
     news:[
@@ -6217,6 +6257,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'retailleau', name:'Bruno Retailleau', role:'Ministre de l\'Intérieur', party:'Les Républicains', color:'#1F6FB2', initials:'BR',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg/250px-Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg',
     rank:14, score:50, born:'1960', president:null, bilan:null,
     bio:"Bruno Retailleau est un homme politique français, ministre de l'Intérieur depuis 2024. Ancien président du groupe LR au Sénat, il est sénateur de Vendée et défend une ligne conservatrice et catholique sur les questions de société et de sécurité.",
     news:[
@@ -6230,6 +6271,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'vallaud', name:'Boris Vallaud', role:'Président du groupe PS à l\'AN', party:'Parti Socialiste', color:'#E5447A', initials:'BV',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Boris_Vallaud_%28cropped%29.jpg/250px-Boris_Vallaud_%28cropped%29.jpg',
     rank:15, score:48, born:'1976', president:null, bilan:null,
     bio:"Boris Vallaud est un homme politique français, président du groupe Socialistes et apparentés à l'Assemblée nationale. Ancien secrétaire général adjoint de l'Élysée, époux de Najat Vallaud-Belkacem, il incarne une social-démocratie pragmatique.",
     news:[
@@ -6243,6 +6285,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'jadot', name:'Yannick Jadot', role:'Sénateur, ex-candidat présidentiel', party:'Les Écologistes', color:'#2E9E5B', initials:'YJ',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/20210819_jadot.yannick_5704.jpg/250px-20210819_jadot.yannick_5704.jpg',
     rank:16, score:46, born:'1967', president:null, bilan:null,
     bio:"Yannick Jadot est un homme politique français, sénateur de Paris depuis 2023. Ancien eurodéputé, il a été le candidat d'EELV à la présidentielle de 2022 (4,63%). Spécialiste des questions climatiques et énergétiques, il défend une écologie politique radicale.",
     news:[
@@ -6256,6 +6299,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'wauquiez', name:'Laurent Wauquiez', role:'Président de la région AURA', party:'Les Républicains', color:'#1F6FB2', initials:'LW',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Laurent_Wauquiez_2021.jpg/250px-Laurent_Wauquiez_2021.jpg',
     rank:17, score:44, born:'1975', president:null, bilan:null,
     bio:"Laurent Wauquiez est un homme politique français, président de la région Auvergne-Rhône-Alpes depuis 2016. Ancien président de LR de 2017 à 2019, il est revenu en politique nationale et est souvent cité comme candidat potentiel à la présidentielle de 2027.",
     news:[
@@ -6269,6 +6313,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'sarkozy', name:'Nicolas Sarkozy', role:'Ancien Président de la République', party:'Les Républicains', color:'#1F6FB2', initials:'NS',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nicolas_Sarkozy_20220927.jpg/250px-Nicolas_Sarkozy_20220927.jpg',
     rank:18, score:41, born:'1955', president:{ term:'2007–2012' },
     bio:"Nicolas Sarkozy est un homme politique français, 23e président de la République de 2007 à 2012. Fondateur de l'UMP, il a marqué la Ve République par sa personnalité volontariste et ses réformes (carte judiciaire, régimes spéciaux, retraites). Il reste une figure influente de la droite malgré ses démêlés judiciaires.",
     bilan:[
@@ -6287,6 +6332,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'hollande', name:'François Hollande', role:'Ancien Président de la République', party:'Parti Socialiste', color:'#E5447A', initials:'FH',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg/250px-Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg',
     rank:19, score:38, born:'1954', president:{ term:'2012–2017' },
     bio:"François Hollande est un homme politique français, 24e président de la République de 2012 à 2017. Premier secrétaire du PS de 1997 à 2008, il bat Nicolas Sarkozy à la présidentielle de 2012. Confronté à une crise économique persistante et à des attentats terroristes, il renonce à briguer un second mandat.",
     bilan:[
@@ -6305,6 +6351,7 @@ const PERSONNALITES_DATA = [
   },
   {
     id:'bompard', name:'Manuel Bompard', role:'Coordinateur national de LFI', party:'La France Insoumise', color:'#C0392B', initials:'MB',
+    photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Manuel_Bompard_Manifestation_Liban_%28cropped%29.jpg/250px-Manuel_Bompard_Manifestation_Liban_%28cropped%29.jpg',
     rank:20, score:36, born:'1987', president:null, bilan:null,
     bio:"Manuel Bompard est un homme politique français, coordinateur national de La France Insoumise. Député des Bouches-du-Rhône, ancien directeur de campagne de Jean-Luc Mélenchon, il est l'un des principaux organisateurs du mouvement insoumis et de ses campagnes électorales.",
     news:[
@@ -6317,7 +6364,15 @@ const PERSONNALITES_DATA = [
   },
 ];
 
-function PPMonogram({ f, size=56 }) {
+function PPAvatar({ f, size=56 }) {
+  const [err, setErr] = React.useState(false);
+  if (f.photo && !err) {
+    return (
+      <img src={f.photo} alt={f.name} onError={() => setErr(true)}
+        style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top center',
+          border:`2.5px solid ${hexRgba(f.color,0.4)}`, flexShrink:0, display:'block' }} />
+    );
+  }
   return (
     <div style={{ width:size, height:size, borderRadius:99, background:hexRgba(f.color,0.12), border:`2.5px solid ${hexRgba(f.color,0.35)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
       <span style={{ fontSize:size*0.3, fontWeight:800, color:f.color }}>{f.initials}</span>
@@ -6385,7 +6440,7 @@ function PPDetailA({ f }) {
     <div>
       {/* Hero */}
       <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:16, display:'flex', alignItems:'flex-start', gap:20 }}>
-        <PPMonogram f={f} size={72} />
+        <PPAvatar f={f} size={72} />
         <div style={{ flex:1 }}>
           <div style={{ fontSize:20, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
           <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>{f.role}</div>
@@ -6427,7 +6482,7 @@ function PPDetailB({ f }) {
     <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', overflow:'hidden' }}>
       {/* Header bar */}
       <div style={{ background:f.color, padding:'12px 18px', display:'flex', alignItems:'center', gap:14 }}>
-        <PPMonogram f={f} size={40} />
+        <PPAvatar f={f} size={40} />
         <div>
           <div style={{ fontSize:15, fontWeight:800, color:'white' }}>{f.name}</div>
           <div style={{ fontSize:11, color:'rgba(255,255,255,0.75)', marginTop:1 }}>{f.role} · {f.party}</div>
@@ -6482,7 +6537,7 @@ function PPDetailC({ f }) {
         {/* Identity card */}
         <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
           <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'20px', textAlign:'center' }}>
-            <PPMonogram f={f} size={80} />
+            <PPAvatar f={f} size={80} />
             <div style={{ marginTop:12, fontSize:16, fontWeight:800, color:'var(--text-primary)' }}>{f.name}</div>
             <div style={{ fontSize:12, color:'var(--text-secondary)', marginTop:4 }}>{f.role}</div>
             <span style={{ display:'inline-block', marginTop:8, fontSize:11, fontWeight:700, padding:'3px 10px', borderRadius:99, background:hexRgba(f.color,0.1), color:f.color, border:`1px solid ${hexRgba(f.color,0.25)}` }}>{f.party}</span>
@@ -6569,7 +6624,7 @@ function PPCard({ f, onClick }) {
         <span style={{ fontSize:10, fontWeight:800, color: f.rank <= 3 ? 'white' : 'var(--text-tertiary)' }}>{f.rank}</span>
       </div>
       {/* Monogram */}
-      <PPMonogram f={f} size={44} />
+      <PPAvatar f={f} size={44} />
       <div style={{ marginTop:10, marginBottom:6 }}>
         <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)', paddingRight:26 }}>{f.name}</div>
         <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>{f.role}</div>

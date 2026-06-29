@@ -6532,17 +6532,20 @@ function PPNewsLive({ name }) {
   const [state, setState] = React.useState({ loading: true, items: [], error: false });
   React.useEffect(() => {
     let alive = true;
-    const query = encodeURIComponent(name);
-    const rss = encodeURIComponent(`https://news.google.com/rss/search?q=${query}&hl=fr&gl=FR&ceid=FR:fr`);
-    fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rss}&count=6`)
+    const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(name)}&hl=fr&gl=FR&ceid=FR:fr`;
+    fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`)
       .then(r => r.json())
       .then(d => {
         if (!alive) return;
-        if (d.status === 'ok' && d.items) {
-          setState({ loading: false, items: d.items, error: false });
-        } else {
-          setState({ loading: false, items: [], error: true });
-        }
+        const xml = new DOMParser().parseFromString(d.contents, 'text/xml');
+        const nodes = [...xml.querySelectorAll('item')].slice(0, 6);
+        const items = nodes.map(el => ({
+          title: el.querySelector('title')?.textContent || '',
+          link: el.querySelector('link')?.nextSibling?.textContent || el.querySelector('link')?.textContent || '',
+          pubDate: el.querySelector('pubDate')?.textContent || '',
+          source: el.querySelector('source')?.textContent || '',
+        }));
+        setState({ loading: false, items, error: items.length === 0 });
       })
       .catch(() => { if (alive) setState({ loading: false, items: [], error: true }); });
     return () => { alive = false; };

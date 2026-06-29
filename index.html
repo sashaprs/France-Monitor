@@ -6454,6 +6454,244 @@ const PERSONNALITES_DATA = [
   },
 ];
 
+/* ── Données carrière par personnalité ── */
+const PP_CAREER = {
+  macron:[
+    { year:2004, label:'Diplômé de l\'ENA – Inspecteur des Finances', type:'start' },
+    { year:2012, label:'Secrétaire général adjoint de l\'Élysée', type:'key' },
+    { year:2014, label:'Ministre de l\'Économie, de l\'Industrie et du Numérique', type:'key' },
+    { year:2016, label:'Fonde le mouvement En Marche !', type:'key' },
+    { year:2017, label:'Élu Président de la République (66,1 %)', type:'key' },
+    { year:2022, label:'Réélu Président de la République (58,6 %)', type:'key' },
+  ],
+  lepen:[
+    { year:1998, label:'Première candidature au conseil régional Nord-Pas-de-Calais', type:'start' },
+    { year:2004, label:'Eurodéputée (premier mandat)', type:'key' },
+    { year:2011, label:'Élue présidente du Front National', type:'key' },
+    { year:2017, label:'Présidentielle : accède au second tour (33,9 %)', type:'key' },
+    { year:2022, label:'Présidentielle : 41,5 % au second tour (record)', type:'key' },
+    { year:2024, label:'Mis en examen dans l\'affaire des assistants parlementaires européens', type:'milestone' },
+  ],
+  melenchon:[
+    { year:2000, label:'Ministre délégué à l\'Enseignement professionnel (gouvernement Jospin)', type:'key' },
+    { year:2008, label:'Quitte le Parti Socialiste, fonde le Parti de Gauche', type:'key' },
+    { year:2012, label:'Fondateur de La France Insoumise, présidentielle 11,1 %', type:'key' },
+    { year:2017, label:'Présidentielle 19,6 % — meilleur score de la gauche radicale', type:'key' },
+    { year:2022, label:'Présidentielle 22 % – 3e candidat, qualifié de justesse', type:'key' },
+  ],
+  philippe:[
+    { year:2010, label:'Élu maire du Havre', type:'key' },
+    { year:2017, label:'Nommé Premier ministre par Emmanuel Macron', type:'key' },
+    { year:2020, label:'Démissionne du gouvernement après les municipales', type:'milestone' },
+    { year:2021, label:'Fonde le parti Horizons', type:'key' },
+    { year:2024, label:'Annonce sa candidature à la présidentielle 2027', type:'key' },
+  ],
+  bardella:[
+    { year:2019, label:'Élu eurodéputé à 23 ans (plus jeune de la délégation RN)', type:'key' },
+    { year:2022, label:'Élu président du Rassemblement National', type:'key' },
+    { year:2024, label:'Désigné candidat Premier ministre lors de la dissolution', type:'key' },
+    { year:2024, label:'Nommé président du groupe RN à l\'Assemblée nationale', type:'milestone' },
+  ],
+  bayrou:[
+    { year:1993, label:'Ministre de l\'Éducation nationale (gouvernement Balladur)', type:'key' },
+    { year:2002, label:'Présidentielle : 6,8 %', type:'milestone' },
+    { year:2007, label:'Fonde le Mouvement Démocrate – Présidentielle 18,6 %', type:'key' },
+    { year:2017, label:'Soutient Macron et rejoint la majorité', type:'key' },
+    { year:2024, label:'Nommé Premier ministre de France', type:'key' },
+  ],
+  faure:[
+    { year:2007, label:'Élu député de Seine-et-Marne', type:'key' },
+    { year:2012, label:'Conseiller au cabinet du président Hollande', type:'milestone' },
+    { year:2018, label:'Élu Premier secrétaire du Parti Socialiste', type:'key' },
+    { year:2024, label:'Dirige le PS dans le cadre du Nouveau Front Populaire', type:'key' },
+  ],
+  tondelier:[
+    { year:2014, label:'Conseillère municipale à Hénin-Beaumont (seule opposante à Steeve Briois)', type:'start' },
+    { year:2022, label:'Élue secrétaire nationale des Écologistes', type:'key' },
+    { year:2024, label:'Conduit la liste écologiste aux européennes', type:'milestone' },
+    { year:2025, label:'Réélue secrétaire nationale avec 78 % des voix', type:'key' },
+  ],
+  ciotti:[
+    { year:2007, label:'Élu député des Alpes-Maritimes', type:'key' },
+    { year:2014, label:'Secrétaire général de l\'UMP', type:'milestone' },
+    { year:2022, label:'Élu président des Républicains', type:'key' },
+    { year:2024, label:'Alliance controversée avec le RN lors des législatives', type:'key' },
+  ],
+  panot:[
+    { year:2017, label:'Élue députée du Val-de-Marne sous l\'étiquette LFI', type:'key' },
+    { year:2020, label:'Nommée présidente du groupe LFI à l\'Assemblée nationale', type:'key' },
+    { year:2024, label:'Réélue présidente du groupe LFI', type:'key' },
+    { year:2025, label:'Candidate à la direction nationale de LFI', type:'milestone' },
+  ],
+  attal:[
+    { year:2017, label:'Élu député des Hauts-de-Seine à 28 ans', type:'key' },
+    { year:2022, label:'Secrétaire d\'État chargé de la Mer', type:'milestone' },
+    { year:2023, label:'Ministre de l\'Éducation nationale', type:'key' },
+    { year:2024, label:'Nommé Premier ministre (plus jeune de la Ve République, 34 ans)', type:'key' },
+    { year:2024, label:'Élu président de Renaissance après la dissolution', type:'key' },
+  ],
+  roussel:[
+    { year:2017, label:'Élu député du Nord', type:'key' },
+    { year:2018, label:'Élu secrétaire national du PCF', type:'key' },
+    { year:2022, label:'Candidat présidentiel PCF : 2,3 %', type:'key' },
+    { year:2024, label:'Réélu secrétaire national', type:'milestone' },
+  ],
+  glucksmann:[
+    { year:2018, label:'Fonde le mouvement Place Publique', type:'key' },
+    { year:2019, label:'Élu eurodéputé sur une liste PS-PP', type:'key' },
+    { year:2024, label:'Européennes : 13,8 % — percée notable', type:'key' },
+    { year:2025, label:'Annonce la fusion de Place Publique avec le PS', type:'milestone' },
+  ],
+  retailleau:[
+    { year:2004, label:'Élu sénateur de Vendée', type:'key' },
+    { year:2014, label:'Président du groupe LR au Sénat', type:'key' },
+    { year:2024, label:'Nommé ministre de l\'Intérieur', type:'key' },
+  ],
+  vallaud:[
+    { year:2012, label:'Secrétaire général adjoint de l\'Élysée (sous Hollande)', type:'start' },
+    { year:2017, label:'Élu député des Landes', type:'key' },
+    { year:2022, label:'Nommé président du groupe Socialistes à l\'AN', type:'key' },
+    { year:2024, label:'Coordonne la stratégie du PS dans le NFP', type:'milestone' },
+  ],
+  jadot:[
+    { year:2009, label:'Élu eurodéputé EELV', type:'key' },
+    { year:2016, label:'Élu secrétaire national d\'EELV', type:'key' },
+    { year:2022, label:'Candidat présidentiel EELV : 4,6 %', type:'key' },
+    { year:2023, label:'Élu sénateur de Paris', type:'key' },
+  ],
+  wauquiez:[
+    { year:2004, label:'Élu député de Haute-Loire (28 ans)', type:'key' },
+    { year:2010, label:'Secrétaire d\'État aux Affaires européennes', type:'milestone' },
+    { year:2016, label:'Élu président de la région Auvergne-Rhône-Alpes', type:'key' },
+    { year:2017, label:'Élu président de LR', type:'key' },
+    { year:2019, label:'Démissionne de LR, retour en politique régionale', type:'milestone' },
+  ],
+  sarkozy:[
+    { year:1988, label:'Élu maire de Neuilly-sur-Seine', type:'start' },
+    { year:1993, label:'Ministre du Budget et porte-parole du gouvernement Balladur', type:'key' },
+    { year:2002, label:'Ministre de l\'Intérieur (gouvernement Raffarin)', type:'key' },
+    { year:2004, label:'Président de l\'UMP', type:'key' },
+    { year:2007, label:'Élu Président de la République (53,1 %)', type:'key' },
+    { year:2012, label:'Battu par François Hollande au second tour (48,4 %)', type:'milestone' },
+  ],
+  hollande:[
+    { year:1997, label:'Premier secrétaire du Parti Socialiste', type:'key' },
+    { year:2002, label:'Candidat PS soutenant Jospin au 1er tour', type:'milestone' },
+    { year:2012, label:'Élu Président de la République (51,6 %)', type:'key' },
+    { year:2016, label:'Annonce qu\'il ne se représentera pas', type:'milestone' },
+    { year:2024, label:'Élu député de Corrèze (retour à l\'AN)', type:'key' },
+  ],
+  bompard:[
+    { year:2017, label:'Directeur de campagne de Jean-Luc Mélenchon', type:'key' },
+    { year:2022, label:'Élu eurodéputé', type:'key' },
+    { year:2022, label:'Nommé coordinateur national de LFI', type:'key' },
+    { year:2024, label:'Réélu député des Bouches-du-Rhône', type:'milestone' },
+  ],
+};
+
+/* ── Positions politiques [immigration, économie, écologie, europe, social, autorité] val ∈ [-5,+5] ── */
+const PP_POSITIONS = {
+  macron:     [0,  4,  2,  5,  1,  2],
+  lepen:      [5,  1, -3, -5,  2,  5],
+  melenchon:  [-4,-5,  4, -2,  5, -3],
+  philippe:   [2,  3,  1,  3,  1,  3],
+  bardella:   [5,  0, -3, -5,  2,  5],
+  bayrou:     [1,  2,  2,  4,  2,  2],
+  faure:      [-1,-2,  3,  4,  4,  1],
+  tondelier:  [-2,-3,  5,  3,  4, -1],
+  ciotti:     [5,  3, -1,  0,  1,  5],
+  panot:      [-4,-5,  4, -3,  5, -3],
+  attal:      [2,  4,  2,  4,  1,  3],
+  roussel:    [-1,-5,  3, -1,  5,  1],
+  glucksmann: [-1,-1,  3,  5,  4,  1],
+  retailleau: [5,  2,  0,  0,  1,  5],
+  vallaud:    [0, -2,  3,  3,  4,  1],
+  jadot:      [-2,-3,  5,  4,  4, -1],
+  wauquiez:   [4,  3, -1,  0,  1,  4],
+  sarkozy:    [4,  3,  1,  2,  1,  5],
+  hollande:   [0, -1,  2,  3,  4,  2],
+  bompard:    [-4,-5,  4, -3,  5, -3],
+};
+
+const PP_THEMES = [
+  { key:'imm',  label:'Immigration', left:'Ouvert',      right:'Restrictif',   colors:['#3B82F6','#DC2626'] },
+  { key:'eco',  label:'Économie',    left:'Étatiste',    right:'Libéral',      colors:['#C0392B','#2563EB'] },
+  { key:'ecol', label:'Écologie',    left:'Faible',      right:'Prioritaire',  colors:['#9AA3AF','#2E9E5B'] },
+  { key:'eur',  label:'Europe',      left:'Souverainiste',right:'Fédéraliste', colors:['#E67E22','#3B82F6'] },
+  { key:'soc',  label:'Social',      left:'Inégalitaire',right:'Redistributif',colors:['#9AA3AF','#C0392B'] },
+  { key:'auth', label:'Autorité',    left:'Permissif',   right:'Sécuritaire',  colors:['#2E9E5B','#E67E22'] },
+];
+
+function ppPositionLabel(themeKey, val) {
+  const m = {
+    imm:  ['Très ouvert','Ouvert','Modéré','Modéré restrictif','Restrictif','Très restrictif'],
+    eco:  ['Ultra-étatiste','Étatiste','Mixte gauche','Centre','Libéral modéré','Libéral','Ultra-libéral'],
+    ecol: ['Indifférent','Faible','Tiède','Modéré','Sensible','Prioritaire','Écologiste'],
+    eur:  ['Anti-UE','Eurosceptique','Souverainiste','Prudent','Pro-européen','Européiste','Fédéraliste'],
+    soc:  ['Inégalitaire','Libéral','Modéré','Centre-gauche','Solidaire','Redistributif'],
+    auth: ['Libertaire','Permissif','Souple','Équilibré','Ferme','Sécuritaire','Autoritaire'],
+  };
+  const arr = m[themeKey] || [];
+  const idx = Math.round(((val + 5) / 10) * (arr.length - 1));
+  return arr[Math.min(arr.length - 1, Math.max(0, idx))] || '';
+}
+
+function PPCareerTimeline({ f }) {
+  const items = PP_CAREER[f.id] || [];
+  if (!items.length) return null;
+  return (
+    <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px', height:'100%', boxSizing:'border-box' }}>
+      <Eyebrow>Parcours politique</Eyebrow>
+      <div style={{ position:'relative', paddingLeft:20, marginTop:8 }}>
+        <div style={{ position:'absolute', left:5, top:6, bottom:6, width:2, background:'var(--gray-100)', borderRadius:1 }} />
+        {items.map((item, i) => (
+          <div key={i} style={{ display:'flex', gap:10, alignItems:'flex-start', paddingBottom: i < items.length-1 ? 14 : 0 }}>
+            <div style={{ position:'relative', zIndex:1, width:12, height:12, borderRadius:'50%', flexShrink:0, marginTop:3,
+              background: item.type === 'key' ? f.color : 'white',
+              border:`2px solid ${item.type === 'key' ? f.color : 'var(--border)'}` }} />
+            <div>
+              <span style={{ fontSize:10.5, fontWeight:700, color:f.color, fontFamily:'var(--font-mono)', letterSpacing:'0.02em' }}>{item.year}</span>
+              <div style={{ fontSize:12, color:'var(--text-primary)', lineHeight:1.45, marginTop:1 }}>{item.label}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function PPPositions({ f }) {
+  const vals = PP_POSITIONS[f.id];
+  if (!vals) return null;
+  return (
+    <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px', height:'100%', boxSizing:'border-box' }}>
+      <Eyebrow>Positions politiques</Eyebrow>
+      <div style={{ display:'flex', flexDirection:'column', gap:13, marginTop:10 }}>
+        {PP_THEMES.map((theme, i) => {
+          const val = vals[i];
+          const pct = Math.round(((val + 5) / 10) * 100);
+          const label = ppPositionLabel(theme.key, val);
+          return (
+            <div key={theme.key}>
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:5 }}>
+                <span style={{ fontSize:10.5, fontWeight:700, color:'var(--text-secondary)', textTransform:'uppercase', letterSpacing:'0.07em' }}>{theme.label}</span>
+                <span style={{ fontSize:10.5, fontWeight:600, color:f.color, background:hexRgba(f.color,0.08), padding:'1px 8px', borderRadius:99, border:`1px solid ${hexRgba(f.color,0.2)}` }}>{label}</span>
+              </div>
+              <div style={{ position:'relative', height:5, borderRadius:3, background:`linear-gradient(to right,${theme.colors[0]}30,${theme.colors[1]}30)` }}>
+                <div style={{ position:'absolute', top:'50%', left:`${pct}%`, transform:'translate(-50%,-50%)', width:11, height:11, borderRadius:'50%', background:f.color, border:'2px solid white', boxShadow:'0 1px 4px rgba(0,0,0,0.25)', zIndex:1 }} />
+              </div>
+              <div style={{ display:'flex', justifyContent:'space-between', marginTop:3 }}>
+                <span style={{ fontSize:9, color:'var(--text-tertiary)' }}>{theme.left}</span>
+                <span style={{ fontSize:9, color:'var(--text-tertiary)' }}>{theme.right}</span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 function PPAvatar({ f, size=56 }) {
   const [err, setErr] = React.useState(false);
   if (f.photo && !err) {
@@ -6606,6 +6844,11 @@ function PPDetailA({ f }) {
       </div>
       {/* Bilan */}
       {f.bilan && <BilanGrid bilan={f.bilan} />}
+      {/* Carrière + Positions */}
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16, marginBottom:16 }}>
+        <PPCareerTimeline f={f} />
+        <PPPositions f={f} />
+      </div>
       {/* News + votes */}
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
         <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>

@@ -1292,6 +1292,7 @@ function LoginScreen({ go }) {
   const [pw, setPw] = React.useState("");
   return (
     <AuthLayout>
+      <button className="auth-back" onClick={() => go('landing')}><Icon n="arrow-left" s={16} /> Retour à l'accueil</button>
       <div className="auth-eyebrow">Accès terminal</div>
       <h1 className="auth-title">Se connecter</h1>
       <p className="auth-sub">Accédez à votre terminal de données publiques françaises.</p>
@@ -1395,25 +1396,16 @@ function AuthStatus({ phase }) {
    DASHBOARD
    ============================================================ */
 const DASH_MODULES = [
-  { id:'dette', label:'Dette publique', icon:'landmark' },
-  { id:'inflation', label:'Inflation', icon:'trending-up' },
-  { id:'emploi', label:'Emploi', icon:'briefcase' },
-  { id:'budget', label:"Budget de l'État", icon:'banknote' },
-  { id:'energie', label:'Énergie', icon:'zap' },
-  { id:'demographie', label:'Démographie', icon:'users' },
-  { id:'sante', label:'Santé', icon:'activity' },
-  { id:'logement', label:'Logement', icon:'house' },
-  { id:'entreprises', label:'Entreprises', icon:'building-2' },
-  { id:'securite', label:'Sécurité', icon:'shield' },
-  { id:'education', label:'Éducation', icon:'graduation-cap' },
-  { id:'transport', label:'Transport', icon:'train-front' },
-  { id:'carburant', label:'Carburant', icon:'fuel' },
-  { id:'assemblee', label:'Assemblée nationale', icon:'landmark' },
-  { id:'senat', label:'Sénat', icon:'building' },
-  { id:'partis', label:'Partis politiques', icon:'flag' },
-  { id:'personnalites', label:'Personnalités', icon:'user' },
-  { id:'agenda', label:'Agenda politique', icon:'calendar' },
-  { id:'deputes', label:'Députés', icon:'users-round' },
+  { id:'dette',         label:'Dette publique',       icon:'landmark'    },
+  { id:'inflation',     label:'Inflation',            icon:'trending-up' },
+  { id:'carburant',     label:'Carburant',            icon:'fuel'        },
+  { id:'gouvernement',  label:'Gouvernement',         icon:'shield'      },
+  { id:'assemblee',     label:'Assemblée nationale',  icon:'landmark'    },
+  { id:'senat',         label:'Sénat',                icon:'building'    },
+  { id:'deputes',       label:'Députés',              icon:'users-round' },
+  { id:'partis',        label:'Partis politiques',    icon:'flag'        },
+  { id:'personnalites', label:'Personnalités',        icon:'user'        },
+  { id:'agenda',        label:'Agenda politique',     icon:'calendar'    },
 ];
 const DASH_VALUES = { '11':108,'84':92,'93':99,'76':104,'75':112,'44':101,'32':115,'52':95,'28':97,'53':90,'24':88,'27':100,'94':86 };
 const DASH_POP = { '11':'12,3 M','84':'8,0 M','93':'5,1 M','76':'6,0 M','75':'5,9 M','44':'3,8 M','32':'5,7 M','52':'3,3 M','28':'2,6 M','53':'3,3 M','24':'2,4 M','27':'2,8 M','94':'0,34 M' };
@@ -4950,6 +4942,230 @@ function SenatHemicycle({ seats, hoveredGroup, onHoverGroup }) {
   );
 }
 
+/* ============================================================
+   GOUVERNEMENT MODULE — Gouvernement Bayrou (depuis jan. 2025)
+   ============================================================ */
+const GOUV_PARTI_COLORS = {
+  'MoDem':'#E67E22','Renaissance':'#2563EB','LR':'#1F6FB2','Horizons':'#2E86C1',
+  'PS':'#E5447A','Divers gauche':'#E5447A','Divers droite':'#7B8794',
+  'Indépendant':'#9AA3AF','Fédération progressiste':'#E5447A',
+};
+
+const GOUV_MEMBRES = [
+  { id:'bayrou',    rang:'pm', prenom:'François',   nom:'Bayrou',
+    titre:'Premier ministre', parti:'MoDem',
+    bio:"Né en 1951, François Bayrou est fondateur du Mouvement Démocrate (MoDem). Candidat à trois élections présidentielles (2002, 2007, 2012), il est nommé Premier ministre le 13 décembre 2024 par le Président Emmanuel Macron et forme son gouvernement le 13 janvier 2025." },
+  { id:'borne',     rang:'me', prenom:'Élisabeth',  nom:'Borne',
+    titre:'Éducation nationale, Enseignement supérieur et Recherche', parti:'Renaissance',
+    bio:"Haute fonctionnaire et femme politique, Élisabeth Borne a été Première ministre de mai 2022 à janvier 2024, devenant la deuxième femme à diriger le gouvernement sous la Ve République. Elle est nommée Ministre d'État à l'Éducation dans le gouvernement Bayrou." },
+  { id:'valls',     rang:'me', prenom:'Manuel',     nom:'Valls',
+    titre:'Outre-mer', parti:'Renaissance',
+    bio:"Homme politique franco-espagnol, Manuel Valls a été Premier ministre de France de 2014 à 2016 sous la présidence de François Hollande. Après une parenthèse en Espagne, il revient en politique française et est nommé Ministre d'État chargé de l'Outre-mer." },
+  { id:'darmanin',  rang:'me', prenom:'Gérald',     nom:'Darmanin',
+    titre:'Justice, Garde des Sceaux', parti:'Renaissance',
+    bio:"Homme politique né en 1982, Gérald Darmanin a été ministre de l'Intérieur de 2020 à 2024. Ancien maire de Tourcoing, il est nommé Garde des Sceaux, ministre de la Justice dans le gouvernement Bayrou." },
+  { id:'retailleau',rang:'me', prenom:'Bruno',      nom:'Retailleau',
+    titre:'Intérieur, Outre-mer et Collectivités territoriales', parti:'LR',
+    bio:"Sénateur de Vendée et ex-président du groupe LR au Sénat, Bruno Retailleau incarne la ligne conservatrice des Républicains. Il est nommé Ministre d'État de l'Intérieur dans le gouvernement Bayrou, poste confirmé après le vote de confiance." },
+  { id:'vautrin',   rang:'m',  prenom:'Catherine',  nom:'Vautrin',
+    titre:'Travail, Santé, Solidarité et Familles', parti:'Renaissance',
+    bio:"Catherine Vautrin, ancienne vice-présidente de l'Assemblée nationale et plusieurs fois ministre déléguée, est nommée ministre du Travail, de la Santé, de la Solidarité et des Familles dans le gouvernement Bayrou." },
+  { id:'lombard',   rang:'m',  prenom:'Éric',       nom:'Lombard',
+    titre:'Économie, Finances et Souveraineté industrielle', parti:'Divers gauche',
+    bio:"Haut fonctionnaire et dirigeant d'entreprise, Éric Lombard a été directeur général de la Caisse des dépôts et consignations depuis 2017. Nommé ministre de l'Économie dans le gouvernement Bayrou, il incarne un profil technocratique apolitique." },
+  { id:'lecornu',   rang:'m',  prenom:'Sébastien',  nom:'Lecornu',
+    titre:'Armées', parti:'Renaissance',
+    bio:"Homme politique né en 1987, Sébastien Lecornu est ministre des Armées depuis mai 2022. Proche d'Emmanuel Macron depuis ses débuts en politique, il est reconduit à ce poste dans le gouvernement Bayrou." },
+  { id:'dati',      rang:'m',  prenom:'Rachida',    nom:'Dati',
+    titre:'Culture', parti:'LR',
+    bio:"Rachida Dati, ancienne Garde des Sceaux (2007-2009) et députée européenne, est nommée ministre de la Culture dans le gouvernement Attal puis reconduite dans le gouvernement Bayrou. Maire du VIIe arrondissement de Paris depuis 2008." },
+  { id:'rebsamen',  rang:'m',  prenom:'François',   nom:'Rebsamen',
+    titre:'Aménagement du territoire et Décentralisation', parti:'Fédération progressiste',
+    bio:"François Rebsamen, maire de Dijon depuis 2001 et ex-ministre du Travail (2014-2015) sous Hollande, est nommé ministre de l'Aménagement du territoire dans le gouvernement Bayrou, apportant une sensibilité de gauche à la coalition." },
+  { id:'barrot',    rang:'m',  prenom:'Jean-Noël',  nom:'Barrot',
+    titre:'Europe et Affaires étrangères', parti:'MoDem',
+    bio:"Fils de Jacques Barrot, Jean-Noël Barrot est membre du MoDem et a été secrétaire d'État puis ministre délégué au Numérique. Il est nommé ministre de l'Europe et des Affaires étrangères dans le gouvernement Bayrou." },
+  { id:'pannier',   rang:'m',  prenom:'Agnès',      nom:'Pannier-Runacher',
+    titre:'Transition écologique, Énergie et Climat', parti:'Renaissance',
+    bio:"Haute fonctionnaire et femme politique, Agnès Pannier-Runacher a occupé plusieurs postes ministériels depuis 2019 (Industrie, Énergie). Elle est nommée ministre de la Transition écologique dans le gouvernement Bayrou." },
+  { id:'genevard',  rang:'m',  prenom:'Annie',      nom:'Genevard',
+    titre:'Agriculture, Souveraineté alimentaire et Forêt', parti:'LR',
+    bio:"Annie Genevard, ancienne présidente du groupe LR à l'Assemblée et secrétaire générale du parti, est nommée ministre de l'Agriculture dans le gouvernement Bayrou, signe de l'alliance gouvernementale avec Les Républicains." },
+  { id:'marcangeli',rang:'m',  prenom:'Laurent',    nom:'Marcangeli',
+    titre:'Action publique et Fonction publique', parti:'Horizons',
+    bio:"Laurent Marcangeli, ancien maire d'Ajaccio et figure d'Horizons (parti d'Édouard Philippe), est nommé ministre de l'Action publique et de la Fonction publique dans le gouvernement Bayrou." },
+  { id:'barsacq',   rang:'m',  prenom:'Marie',      nom:'Barsacq',
+    titre:'Sports, Jeunesse et Vie civique', parti:'Indépendant',
+    bio:"Marie Barsacq est une dirigeante du monde sportif, nommée ministre des Sports, de la Jeunesse et de la Vie civique dans le gouvernement Bayrou en janvier 2025 dans la continuité de la dynamique des Jeux olympiques de Paris 2024." },
+];
+
+function GouvAvatar({ membre, size = 52 }) {
+  const [err, setErr] = React.useState(false);
+  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const initiales = (membre.prenom[0] + membre.nom[0]).toUpperCase();
+  const photoUrl = `public/photos/gouv/${membre.id}.jpg`;
+  if (!err) {
+    return (
+      <img src={photoUrl} alt={membre.prenom + ' ' + membre.nom} onError={() => setErr(true)}
+        style={{ width:size, height:size, borderRadius:'50%', objectFit:'cover', objectPosition:'top',
+          border:'2px solid ' + color + '40', flex:'none', display:'block' }} />
+    );
+  }
+  return (
+    <div style={{ width:size, height:size, borderRadius:'50%', background:color+'20',
+      border:'2px solid '+color+'40', display:'flex', alignItems:'center', justifyContent:'center', flex:'none' }}>
+      <span style={{ fontFamily:'var(--font-sans)', fontSize:Math.round(size*0.3), fontWeight:700, color }}>{initiales}</span>
+    </div>
+  );
+}
+
+function GouvCard({ membre, onClick, big }) {
+  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  const [hov, setHov] = React.useState(false);
+  const size = big ? 80 : 52;
+  return (
+    <div onClick={() => onClick(membre)} onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}
+      style={{ background:'var(--surface)', border:'1px solid ' + (hov ? color+'80' : 'var(--border)'),
+        borderRadius:'var(--radius-lg)', padding: big ? '24px 20px' : '16px 14px',
+        cursor:'pointer', transition:'all 140ms', boxShadow: hov ? '0 4px 16px '+color+'22' : 'none',
+        transform: hov ? 'translateY(-2px)' : 'none',
+        display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center', gap: big ? 14 : 10 }}>
+      <GouvAvatar membre={membre} size={size} />
+      <div>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize: big ? 16 : 13, fontWeight:700, color:'var(--ink)', marginBottom:4, lineHeight:1.25 }}>
+          {membre.prenom} {membre.nom}
+        </div>
+        <div style={{ fontSize: big ? 12.5 : 11, color:'var(--text-secondary)', lineHeight:1.4, marginBottom:8,
+          display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>
+          {membre.titre}
+        </div>
+        <span style={{ fontSize:10.5, fontWeight:700, color, background:color+'18',
+          border:'1px solid '+color+'35', borderRadius:999, padding:'3px 9px' }}>{membre.parti}</span>
+      </div>
+    </div>
+  );
+}
+
+function GouvPersonneView({ membre, onBack }) {
+  const color = GOUV_PARTI_COLORS[membre.parti] || '#9AA3AF';
+  React.useEffect(() => {
+    const onKey = e => { if (e.key === 'Escape') onBack(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onBack]);
+  const rangLabel = { pm:'Premier ministre', me:"Ministre d'État", m:'Ministre', md:'Ministre délégué' }[membre.rang] || membre.rang;
+
+  return (
+    <div style={{ maxWidth:900, margin:'0 auto', padding:'28px 24px 64px' }}>
+      <style>{`.gouv-info-row{display:grid;gridTemplateColumns:'160px 1fr';gap:16;padding:13px 0;borderBottom:1px solid var(--border-subtle)}`}</style>
+      <div style={{ marginBottom:28, display:'flex', alignItems:'center', gap:12 }}>
+        <button onClick={onBack} style={{ background:'none', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', cursor:'pointer', padding:'8px 16px', display:'flex', alignItems:'center', gap:7, color:'var(--text-secondary)', fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:500 }}
+          onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--border-strong)'; e.currentTarget.style.color='var(--ink)'; }}
+          onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--text-secondary)'; }}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          Retour au gouvernement
+        </button>
+      </div>
+      <div style={{ display:'grid', gridTemplateColumns:'260px 1fr', gap:20, alignItems:'start' }}>
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'32px 20px 24px', display:'flex', flexDirection:'column', alignItems:'center', gap:14, textAlign:'center' }}>
+          <GouvAvatar membre={membre} size={110} />
+          <div>
+            <div style={{ fontFamily:'var(--font-sans)', fontSize:22, fontWeight:800, color:'var(--ink)', letterSpacing:'-0.02em', lineHeight:1.25, marginBottom:6 }}>{membre.prenom} {membre.nom}</div>
+            <div style={{ fontSize:13, color:'var(--text-secondary)', lineHeight:1.45 }}>{membre.titre}</div>
+          </div>
+          <div style={{ display:'flex', gap:7, flexWrap:'wrap', justifyContent:'center' }}>
+            <span style={{ fontSize:11.5, fontWeight:700, color, background:color+'18', border:'1px solid '+color+'35', borderRadius:999, padding:'4px 12px' }}>{membre.parti}</span>
+            <span style={{ fontSize:11.5, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'4px 12px' }}>{rangLabel}</span>
+          </div>
+          <div style={{ width:'100%', height:1, background:'var(--border)' }} />
+          <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6 }}>
+            Gouvernement Bayrou · XVIIIe législature<br/>depuis le 13 janvier 2025
+          </div>
+        </div>
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'28px 24px' }}>
+          <div style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:16 }}>Biographie</div>
+          <p style={{ fontFamily:'var(--font-sans)', fontSize:14.5, color:'var(--ink)', lineHeight:1.7, margin:'0 0 24px' }}>{membre.bio}</p>
+          <div style={{ height:1, background:'var(--border)', marginBottom:20 }} />
+          {[
+            ['Portefeuille', membre.titre],
+            ['Rang', rangLabel],
+            ['Parti', membre.parti],
+            ['Gouvernement', 'Bayrou (depuis jan. 2025)'],
+          ].map(([label, val]) => (
+            <div key={label} style={{ display:'grid', gridTemplateColumns:'160px 1fr', gap:16, padding:'13px 0', borderBottom:'1px solid var(--border-subtle)' }}>
+              <span style={{ fontSize:11.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.06em', paddingTop:2 }}>{label}</span>
+              <span style={{ fontSize:14, color:'var(--ink)', lineHeight:1.45 }}>{val}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GouvernementModule() {
+  const { SourceTag } = window.FranceMonitorDesignSystem_5343d8;
+  const [selected, setSelected] = React.useState(null);
+
+  if (selected) {
+    return <GouvPersonneView membre={selected} onBack={() => setSelected(null)} />;
+  }
+
+  const pm      = GOUV_MEMBRES.filter(m => m.rang === 'pm');
+  const me      = GOUV_MEMBRES.filter(m => m.rang === 'me');
+  const mins    = GOUV_MEMBRES.filter(m => m.rang === 'm');
+
+  const SectionLabel = ({ children, count }) => (
+    <div style={{ marginBottom:16, display:'flex', alignItems:'center', gap:10 }}>
+      <div style={{ height:1, background:'var(--border)', flex:1 }} />
+      <span style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)', whiteSpace:'nowrap' }}>{children}</span>
+      <span style={{ fontSize:10.5, fontWeight:700, color:'var(--text-tertiary)', background:'var(--gray-100)', borderRadius:999, padding:'2px 8px' }}>{count}</span>
+      <div style={{ height:1, background:'var(--border)', flex:1 }} />
+    </div>
+  );
+
+  return (
+    <div style={{ maxWidth:1400, margin:'0 auto', padding:'36px 24px 64px' }}>
+      <style>{`
+        .gouv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+        .gouv-pm-grid{display:grid;grid-template-columns:280px;justify-content:center;gap:14px;margin-bottom:32px}
+        .gouv-me-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:32px}
+        @media(max-width:900px){.gouv-me-grid{grid-template-columns:repeat(2,1fr)}}
+      `}</style>
+
+      <div style={{ marginBottom:32 }}>
+        <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Institutions</div>
+        <h1 style={{ fontFamily:'var(--font-sans)', fontSize:34, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 6px' }}>Gouvernement</h1>
+        <p style={{ fontFamily:'var(--font-sans)', fontSize:15, color:'var(--text-secondary)', margin:0, maxWidth:680 }}>
+          Gouvernement Bayrou · {GOUV_MEMBRES.length} membres · en fonction depuis le 13 janvier 2025. Cliquez sur une fiche pour afficher le détail.
+        </p>
+      </div>
+
+      {/* Premier ministre */}
+      <SectionLabel count={pm.length}>Premier ministre</SectionLabel>
+      <div className="gouv-pm-grid" style={{ marginBottom:40 }}>
+        {pm.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} big />)}
+      </div>
+
+      {/* Ministres d'État */}
+      <SectionLabel count={me.length}>Ministres d'État</SectionLabel>
+      <div className="gouv-me-grid" style={{ marginBottom:40 }}>
+        {me.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
+      </div>
+
+      {/* Ministres */}
+      <SectionLabel count={mins.length}>Ministres</SectionLabel>
+      <div className="gouv-grid">
+        {mins.map(m => <GouvCard key={m.id} membre={m} onClick={setSelected} />)}
+      </div>
+
+      <div style={{ marginTop:28 }}>
+        <SourceTag source="Gouvernement de la République française · info.gouv.fr · données officielles" date="13 janvier 2025" />
+      </div>
+    </div>
+  );
+}
+
 function SenatModule() {
   const [hoveredGroup, setHoveredGroup] = React.useState(null);
   const seats = React.useMemo(() => buildSenatSeats(), []);
@@ -6149,6 +6365,8 @@ function Dashboard({ variant, go }) {
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
             ? <div className="db-scroll"><CarburantModule /></div>
+            : module === 'gouvernement'
+            ? <div className="db-scroll"><GouvernementModule /></div>
             : module === 'assemblee'
             ? <div className="db-scroll"><AssembleeModule /></div>
             : module === 'senat'

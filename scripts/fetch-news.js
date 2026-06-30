@@ -6,28 +6,38 @@
 const fs = require('fs');
 const path = require('path');
 
+// `match` : termes (normalisés sans accent, en minuscules) dont AU MOINS UN doit
+// figurer dans le titre de l'article pour qu'il soit retenu. Garantit que la news
+// concerne bien la personnalité et non une autre du même cluster Google News.
 const PERSOS = [
-  { id: 'macron', name: 'Emmanuel Macron' },
-  { id: 'lepen', name: 'Marine Le Pen' },
-  { id: 'melenchon', name: 'Jean-Luc Mélenchon' },
-  { id: 'philippe', name: 'Édouard Philippe' },
-  { id: 'bardella', name: 'Jordan Bardella' },
-  { id: 'bayrou', name: 'François Bayrou' },
-  { id: 'faure', name: 'Olivier Faure' },
-  { id: 'tondelier', name: 'Marine Tondelier' },
-  { id: 'ciotti', name: 'Éric Ciotti' },
-  { id: 'panot', name: 'Mathilde Panot' },
-  { id: 'attal', name: 'Gabriel Attal' },
-  { id: 'roussel', name: 'Fabien Roussel' },
-  { id: 'glucksmann', name: 'Raphaël Glucksmann' },
-  { id: 'retailleau', name: 'Bruno Retailleau' },
-  { id: 'vallaud', name: 'Boris Vallaud' },
-  { id: 'jadot', name: 'Yannick Jadot' },
-  { id: 'wauquiez', name: 'Laurent Wauquiez' },
-  { id: 'sarkozy', name: 'Nicolas Sarkozy' },
-  { id: 'hollande', name: 'François Hollande' },
-  { id: 'bompard', name: 'Manuel Bompard' },
+  { id: 'macron', name: 'Emmanuel Macron', match: ['macron'] },
+  { id: 'lepen', name: 'Marine Le Pen', match: ['marine le pen', 'le pen'] },
+  { id: 'melenchon', name: 'Jean-Luc Mélenchon', match: ['melenchon'] },
+  { id: 'philippe', name: 'Édouard Philippe', match: ['edouard philippe'] },
+  { id: 'bardella', name: 'Jordan Bardella', match: ['bardella'] },
+  { id: 'bayrou', name: 'François Bayrou', match: ['bayrou'] },
+  { id: 'faure', name: 'Olivier Faure', match: ['olivier faure', 'faure'] },
+  { id: 'tondelier', name: 'Marine Tondelier', match: ['tondelier'] },
+  { id: 'ciotti', name: 'Éric Ciotti', match: ['ciotti'] },
+  { id: 'panot', name: 'Mathilde Panot', match: ['panot'] },
+  { id: 'attal', name: 'Gabriel Attal', match: ['attal'] },
+  { id: 'roussel', name: 'Fabien Roussel', match: ['fabien roussel', 'roussel'] },
+  { id: 'glucksmann', name: 'Raphaël Glucksmann', match: ['glucksmann'] },
+  { id: 'retailleau', name: 'Bruno Retailleau', match: ['retailleau'] },
+  { id: 'vallaud', name: 'Boris Vallaud', match: ['vallaud'] },
+  { id: 'jadot', name: 'Yannick Jadot', match: ['jadot'] },
+  { id: 'wauquiez', name: 'Laurent Wauquiez', match: ['wauquiez'] },
+  { id: 'sarkozy', name: 'Nicolas Sarkozy', match: ['sarkozy'] },
+  { id: 'hollande', name: 'François Hollande', match: ['hollande'] },
+  { id: 'bompard', name: 'Manuel Bompard', match: ['bompard'] },
 ];
+
+function normalize(str) {
+  return (str || '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase();
+}
 
 const MAX_ITEMS = 6;
 const UA = 'Mozilla/5.0 (compatible; FranceMonitorBot/1.0; +https://github.com/sashaprs/France-Monitor)';
@@ -81,6 +91,9 @@ async function fetchPerso(perso) {
     const link = decodeEntities(tag(block, 'link'));
     const pubDate = tag(block, 'pubDate').trim();
     if (!title || !link) continue;
+    // On ne retient que les titres mentionnant explicitement la personnalité.
+    const nTitle = normalize(title);
+    if (!perso.match.some((m) => nTitle.includes(m))) continue;
     news.push({
       date: formatDate(pubDate),
       title,

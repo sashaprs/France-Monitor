@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T16:23:06.840Z",
+  "updatedAt": "2026-06-30T18:56:39.437Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30868",
@@ -155,22 +155,22 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460519",
-      "titre": "audition de Mme Saida Laârouchi Engström, présidente de la Commission nationale d’évaluation des recherches et études relatives à la gestion des matières et des déchets radioactifs (CNE2), sur le dernier rapport annuel de la Commission.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T11:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale (Salle 7040 – 103 rue de l'Université, 2ème sous-sol)",
-      "organisateur": "PO273589"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460697",
       "titre": "audition, ouverte à la presse, de M. Gérald Darmanin, garde des sceaux, ministre de la justice.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T11:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-30T13:10:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460519",
+      "titre": "audition de Mme Saida Laârouchi Engström, présidente de la Commission nationale d’évaluation des recherches et études relatives à la gestion des matières et des déchets radioactifs (CNE2), sur le dernier rapport annuel de la Commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T11:35:00.000Z",
+      "dateFin": "2026-06-30T12:45:00.000Z",
+      "lieu": "Assemblée nationale (Salle 7040 – 103 rue de l'Université, 2ème sous-sol)",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2026IDC460733",
@@ -203,8 +203,8 @@
       "uid": "RUANR5L17S2026IDC460663",
       "titre": "examen, en deuxième lecture, en application de l’article 88 du Règlement, des amendements à la proposition de loi, modifiée par le Sénat, visant à assurer le droit de chaque enfant à être assisté d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance (n° 2934) (Mme Ayda Hadizadeh, rapporteure) ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T12:45:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-06-30T12:50:00.000Z",
+      "dateFin": "2026-06-30T12:55:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -267,7 +267,7 @@
       "titre": "audition de M. Éric Lelong, président de l’interprofession des produits de la ruche InterApi, M. Éric Le Mélinaire, administrateur d’InterApi et membre du Syndicat français des miels, et Mme Elsa Ricote, directrice d’InterApi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-30T16:10:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -632,6 +632,15 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2026IDC460760",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO883966"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460717",
       "titre": "audition, ouverte à la presse, de M. Jean-Paul Carteret, premier vice-président de l’Association des maires ruraux de France (AMRF) en charge de l’éducation, et de Mme Anne-Marie Lailheugue, présidente de l’Association des maires ruraux des Landes.",
       "type": "reunionCommission_type",
@@ -684,6 +693,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460756",
+      "titre": "conférence nationale des procureurs de la République – Mmes Magali Josse, procureure de la République à Charleville-Mézières, et Marion Lozach’Meur, procureure de la République à Gap.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T06:15:00.000Z",
+      "dateFin": "2026-07-02T07:15:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30785",
@@ -792,6 +810,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460757",
+      "titre": "direction des affaires criminelles et des grâces – M. Julien Morino-Ros, sous-directeur de la négociation et de la législation pénales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDS30786",
@@ -945,6 +972,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460758",
+      "titre": "Réception par le groupe d'amitié France - Allemagne, présidé par Mme Sabine Thillaye, d'une délégation du groupe d'amitié Allemagne - France conduite par M. Roland Theis, Président »",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-05T22:00:00.000Z",
+      "dateFin": "2026-07-06T21:59:59.000Z",
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO851673"
     },
     {
       "uid": "RUANR5L17S2026IDC460696",
@@ -1200,7 +1236,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30829",
-      "titre": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l’État",
+      "titre": "Éventuellement, discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l’État",
       "type": "seance_type",
       "dateDebut": "2026-07-08T13:00:00.000Z",
       "dateFin": null,

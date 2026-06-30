@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-30T16:23:04.969Z",
+  "updatedAt": "2026-06-30T18:56:37.257Z",
   "scrutins": [
+    {
+      "numero": "7894",
+      "titre": "l'ensemble de la proposition de loi relative au droit à l'aide à l'aide à mourir (nouvelle lecture).",
+      "date": "2026-06-30",
+      "sort": null,
+      "nombreVotants": "562",
+      "pour": "295",
+      "contre": "232",
+      "abstentions": "35",
+      "nonVotants": "0"
+    },
     {
       "numero": "7849",
       "titre": "l'amendement n° 165 de M. Belhaddad et l'amendement identique suivant à l'article 3 de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
@@ -539,17 +550,6 @@
       "contre": "0",
       "abstentions": "0",
       "nonVotants": "1"
-    },
-    {
-      "numero": "7843",
-      "titre": "l'amendement n° 241 de M. Courbon à l'article 2 bis de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
-      "date": "2026-06-29",
-      "sort": null,
-      "nombreVotants": "38",
-      "pour": "13",
-      "contre": "18",
-      "abstentions": "7",
-      "nonVotants": "2"
     }
   ]
 }

@@ -6766,60 +6766,18 @@ function PPTimeline({ items }) {
   );
 }
 
-function PPNewsLive({ name }) {
-  const [state, setState] = React.useState({ loading: true, items: [], error: false });
-  React.useEffect(() => {
-    let alive = true;
-    const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(name)}&hl=fr&gl=FR&ceid=FR:fr`;
-    fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`)
-      .then(r => r.json())
-      .then(d => {
-        if (!alive) return;
-        const xml = new DOMParser().parseFromString(d.contents, 'text/xml');
-        const nodes = [...xml.querySelectorAll('item')].slice(0, 6);
-        const items = nodes.map(el => ({
-          title: el.querySelector('title')?.textContent || '',
-          link: el.querySelector('link')?.nextSibling?.textContent || el.querySelector('link')?.textContent || '',
-          pubDate: el.querySelector('pubDate')?.textContent || '',
-          source: el.querySelector('source')?.textContent || '',
-        }));
-        setState({ loading: false, items, error: items.length === 0 });
-      })
-      .catch(() => { if (alive) setState({ loading: false, items: [], error: true }); });
-    return () => { alive = false; };
-  }, [name]);
-
-  if (state.loading) {
-    return (
-      <div style={{ display:'flex', alignItems:'center', gap:8, padding:'16px 0', color:'var(--text-tertiary)', fontSize:12 }}>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ animation:'fmspin .8s linear infinite' }}><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
-        Chargement des actualités…
-      </div>
-    );
-  }
-  if (state.error || state.items.length === 0) {
-    return <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'12px 0' }}>Aucune actualité récente trouvée.</div>;
+function PPNewsSection({ news }) {
+  if (!news || news.length === 0) {
+    return <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'12px 0' }}>Aucune actualité disponible.</div>;
   }
   return (
     <div>
-      {state.items.map((item, i) => {
-        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '';
-        const source = item.author || (item.link ? new URL(item.link).hostname.replace('www.','') : '');
-        return (
-          <div key={i} style={{ padding:'9px 0', borderBottom: i < state.items.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
-            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:3 }}>
-              <span style={{ fontSize:10, color:'var(--text-tertiary)' }}>{date}</span>
-              {source && <span style={{ fontSize:9.5, color:'var(--text-tertiary)', fontStyle:'italic' }}>{source}</span>}
-            </div>
-            <a href={item.link} target="_blank" rel="noopener noreferrer"
-              style={{ fontSize:12.5, color:'var(--text-primary)', lineHeight:1.5, fontWeight:500, textDecoration:'none', display:'block' }}
-              onMouseEnter={e => e.currentTarget.style.textDecoration='underline'}
-              onMouseLeave={e => e.currentTarget.style.textDecoration='none'}>
-              {item.title}
-            </a>
-          </div>
-        );
-      })}
+      {news.map((n, i) => (
+        <div key={i} style={{ padding:'9px 0', borderBottom: i < news.length - 1 ? '1px solid var(--border-subtle)' : 'none' }}>
+          <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:3 }}>{n.date}</div>
+          <div style={{ fontSize:12.5, color:'var(--text-primary)', lineHeight:1.5, fontWeight:500 }}>{n.title}</div>
+        </div>
+      ))}
     </div>
   );
 }
@@ -6852,11 +6810,8 @@ function PPDetailA({ f }) {
       {/* News + votes */}
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
         <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
-          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
-            <Eyebrow style={{ margin:0 }}>Actualités récentes</Eyebrow>
-            <span style={{ fontSize:9.5, color:'var(--text-tertiary)', fontStyle:'italic' }}>via Google News</span>
-          </div>
-          <PPNewsLive name={f.name} />
+          <Eyebrow>Actualités récentes</Eyebrow>
+          <PPNewsSection news={f.news} />
         </div>
         {f.votes && f.votes.length > 0 && (
           <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>

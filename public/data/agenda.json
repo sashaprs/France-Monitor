@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:22:59.443Z",
+  "updatedAt": "2026-07-01T00:05:54.107Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30869",
@@ -213,7 +213,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-06-30T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-30T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -321,7 +321,7 @@
       "titre": "audition, ouverte à la presse, de M. Édouard Geffray, ministre de l’éducation nationale, et Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-06-30T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-30T20:45:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
     },
@@ -342,6 +342,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460761",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T06:00:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle 213 (commission des affaires sociales)",
+      "organisateur": "PO883933"
     },
     {
       "uid": "RUANR5L17S2026IDC460739",
@@ -551,13 +560,13 @@
       "organisateur": "PO881988"
     },
     {
-      "uid": "RUANR5L17S2026IDC460720",
-      "titre": "examen des articles du projet de loi.",
+      "uid": "RUANR5L17S2026IDC460716",
+      "titre": "audition, ouverte à la presse, de MM. Frédéric Leturque, co-président de la commission éducation de l’Association des maires de France et des présidents d’intercommunalité (AMF), Sébastien Ferriby, conseiller éducation et culture, et Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2026IDC460689",
@@ -605,6 +614,15 @@
       "organisateur": "PO878743"
     },
     {
+      "uid": "RUANR5L17S2026IDC460720",
+      "titre": "examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460484",
       "titre": "audition, ouverte à la presse, de M. Nicolas Forissier, ministre délégué auprès du ministre de l’Europe et des affaires étrangères, chargé du commerce extérieur et de l’attractivité, sur l’impact du contexte géopolitique sur les performances françaises à l’exportation, la mise en oeuvre de nouveaux accords conclus par la Commission européenne ainsi que les réunions des ministres chargés du commerce du G7, le 6 mai, et du Conseil des affaires étrangères (commerce), le 22 mai.",
       "type": "reunionCommission_type",
@@ -612,15 +630,6 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460716",
-      "titre": "audition, ouverte à la presse, de MM. Frédéric Leturque, co-président de la commission éducation de l’Association des maires de France et des présidents d’intercommunalité (AMF), Sébastien Ferriby, conseiller éducation et culture, et Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2026IDC460760",
@@ -1029,7 +1038,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30827",
-      "titre": "Questions au Gouvernement",
+      "titre": "Éloge funèbre de Béatrice Bellamy",
       "type": "seance_type",
       "dateDebut": "2026-07-07T13:00:00.000Z",
       "dateFin": null,
@@ -1407,7 +1416,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30860",
-      "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l'approbation de l'accord entre la France et les Pays-Bas portant délimitation de la frontière entre Saint-Martin et Sint Maarten",
+      "titre": "Discussion de la proposition de résolution tendant à modifier le Règlement de l'Assemblée nationale",
       "type": "seance_type",
       "dateDebut": "2026-07-16T07:00:00.000Z",
       "dateFin": null,
@@ -1455,6 +1464,42 @@
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
       "dateDebut": "2026-07-17T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30878",
+      "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
+      "type": "seance_type",
+      "dateDebut": "2026-07-20T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30879",
+      "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi relative à l’organisation, à la gestion et au financement du sport professionnel",
+      "type": "seance_type",
+      "dateDebut": "2026-07-20T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30880",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-07-21T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30881",
+      "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
+      "type": "seance_type",
+      "dateDebut": "2026-07-21T19:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"

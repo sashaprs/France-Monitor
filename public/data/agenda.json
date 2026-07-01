@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:43:41.934Z",
+  "updatedAt": "2026-07-01T23:15:56.606Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2026IDS30882",
@@ -537,7 +537,7 @@
       "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T18:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -608,8 +608,8 @@
       "uid": "RUANR5L17S2026IDC460720",
       "titre": "examen des articles du projet de loi.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T14:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-01T14:25:00.000Z",
+      "dateFin": "2026-07-01T17:55:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
     },
@@ -636,7 +636,7 @@
       "titre": "audition, ouverte à la presse, de M. Jean-Paul Carteret, premier vice-président de l’Association des maires ruraux de France (AMRF) en charge de l’éducation, et de Mme Anne-Marie Lailheugue, présidente de l’Association des maires ruraux des Landes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T16:30:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -644,8 +644,8 @@
       "uid": "RUANR5L17S2026IDC460718",
       "titre": "audition, ouverte à la presse, de MM. Jean-Michel Morer, vice-président de l’Association des petites villes de France (APVF), et André Robert, délégué général, et Mme Emma Chenillat, responsable finances et fiscalité locales.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T16:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-01T16:35:00.000Z",
+      "dateFin": "2026-07-01T17:25:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },

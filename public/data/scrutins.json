@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-07-01T17:55:59.986Z",
+  "updatedAt": "2026-07-01T19:59:02.132Z",
   "scrutins": [
+    {
+      "numero": "7905",
+      "titre": "l'ensemble du projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (texte de la commission mixte paritaire).",
+      "date": "2026-07-01",
+      "sort": null,
+      "nombreVotants": "490",
+      "pour": "375",
+      "contre": "113",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7904",
+      "titre": "l'ensemble de la proposition de loi visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance (deuxième lecture).",
+      "date": "2026-07-01",
+      "sort": null,
+      "nombreVotants": "292",
+      "pour": "292",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7906",
+      "titre": "l'amendement n° 56 de Mme Thiébault-Martinez et l'amendement identique suivant à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-01",
+      "sort": null,
+      "nombreVotants": "101",
+      "pour": "42",
+      "contre": "38",
+      "abstentions": "21",
+      "nonVotants": "1"
+    },
     {
       "numero": "7903",
       "titre": "l'amendement n° 18 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
@@ -91,7 +124,7 @@
     },
     {
       "numero": "7894",
-      "titre": "l'ensemble de la proposition de loi relative au droit à l'aide à l'aide à mourir (nouvelle lecture).",
+      "titre": "l'ensemble de la proposition de loi relative au droit à l'aide à mourir (nouvelle lecture).",
       "date": "2026-06-30",
       "sort": null,
       "nombreVotants": "562",
@@ -516,39 +549,6 @@
       "pour": "11",
       "contre": "49",
       "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7888",
-      "titre": "l'amendement n° 135 de M. Duplessy après l'article 10 bis de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
-      "date": "2026-06-29",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "19",
-      "contre": "43",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7831",
-      "titre": "l'amendement n° 315 de M. Odoul à l'article 1er de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
-      "date": "2026-06-29",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "10",
-      "contre": "38",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7845",
-      "titre": "l'amendement n° 96 de M. Duparay à l'article 2 bis de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (première lecture).",
-      "date": "2026-06-29",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "45",
-      "contre": "0",
-      "abstentions": "3",
       "nonVotants": "1"
     }
   ]

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-01T17:56:00.945Z",
+  "updatedAt": "2026-07-01T19:59:03.978Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30871",
-      "titre": "Suite de la discussion, en nouvelle lecture, de la proposition de loi relative au droit à l'aide à mourir",
-      "type": "seance_type",
-      "dateDebut": "2026-06-28T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUSNR5L17S2026IDS30882",
       "titre": "Discussion",
@@ -272,15 +263,6 @@
       "organisateur": "PO804431"
     },
     {
-      "uid": "RUANR5L17S2026IDC460715",
-      "titre": "audition, ouverte à la presse, de Mmes Caroline Pascal, directrice générale de l’enseignement scolaire (Dgesco), et Céline Kerenflec’h, cheffe du service du pilotage, du budget et des territoires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460735",
       "titre": "- audition en visioconférence",
       "type": "reunionCommission_type",
@@ -288,6 +270,15 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO880370"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460715",
+      "titre": "audition, ouverte à la presse, de Mmes Caroline Pascal, directrice générale de l’enseignement scolaire (Dgesco), et Céline Kerenflec’h, cheffe du service du pilotage, du budget et des territoires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-06-30T15:40:00.000Z",
+      "dateFin": "2026-06-30T17:10:00.000Z",
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2026IDC460574",
@@ -344,24 +335,6 @@
       "organisateur": "PO883933"
     },
     {
-      "uid": "RUANR5L17S2026IDC460739",
-      "titre": "nomination du rapporteur d’une mission flash sur les taxes sur les services vidéo dans la perspective du projet de loi de finances pour 2027 ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460516",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460585",
       "titre": "audition, à huis clos, de M. Emmanuel Puig, délégué à la planification stratégique à la direction générale des relations internationales et de la stratégie (DGRIS) du Ministère des Armées, sur l’actualité géopolitique et géostratégique.",
       "type": "reunionCommission_type",
@@ -371,13 +344,22 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2026IDC460699",
-      "titre": "examen des articles du projet de loi.",
+      "uid": "RUANR5L17S2026IDC460739",
+      "titre": "nomination du rapporteur d’une mission flash sur les taxes sur les services vidéo dans la perspective du projet de loi de finances pour 2027 ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
+      "dateDebut": "2026-07-01T07:05:00.000Z",
+      "dateFin": "2026-07-01T08:25:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460516",
+      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T07:05:00.000Z",
+      "dateFin": "2026-07-01T11:00:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2026IDC460730",
@@ -393,7 +375,7 @@
       "titre": "nomination d’un rapporteur sur le projet de loi visant la relance et la décentralisation du logement (n° 2981) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T09:10:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -407,11 +389,20 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2026IDC460699",
+      "titre": "examen des articles du projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T07:40:00.000Z",
+      "dateFin": "2026-07-01T11:05:00.000Z",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460483",
       "titre": "examen, ouvert à la presse, et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement du Royaume des Pays-Bas portant délimitation de la frontière entre la République française (Saint-Martin) et le Royaume des Pays-Bas (Sint Maarten) (n° 2688) (M. Bertrand Bouyx, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T08:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T08:55:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -429,7 +420,7 @@
       "titre": "nomination du rapporteur d’une mission flash sur l’adaptation des outils d’évaluation des recettes fiscales ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T11:15:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -438,7 +429,7 @@
       "titre": "échange de vues, conjoint avec le groupe d’études à vocation internationale sur la Biélorussie, avec une délégation du Conseil de coordination du Belarus en exil, conduite par Mme Alena Prykhodzka, présidente de la commission électorale, chargée de l’organisation des élections.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T10:00:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -492,7 +483,7 @@
       "titre": "examen, ouvert à la presse, du rapport de la mission flash sur le discernement des mineurs présenté par Mmes Sylvie Bonnet et Ayda Hadizadeh rapporteures.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T12:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T12:45:00.000Z",
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO804431"
     },
@@ -528,7 +519,7 @@
       "titre": "abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) :  examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T14:20:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
     },
@@ -560,29 +551,29 @@
       "organisateur": "PO881988"
     },
     {
-      "uid": "RUANR5L17S2026IDC460716",
-      "titre": "audition, ouverte à la presse, de MM. Frédéric Leturque, co-président de la commission éducation de l’Association des maires de France et des présidents d’intercommunalité (AMF), Sébastien Ferriby, conseiller éducation et culture, et Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460689",
       "titre": "présentation, ouverte à la presse, du rapport d’information sur l’autonomie financière des collectivités territoriales, constituant un bilan d’étape du groupe de travail sur le financement des territoires, et de la proposition de loi organique, annexée à ce rapport, visant à renforcer l’autonomie financière des collectivités territoriales (M. Stéphane Delautrette, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T14:10:00.000Z",
       "lieu": "Salle 6756, Palais Bourbon, 3ème étage",
       "organisateur": "PO744127"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460716",
+      "titre": "audition, ouverte à la presse, de MM. Frédéric Leturque, co-président de la commission éducation de l’Association des maires de France et des présidents d’intercommunalité (AMF), Sébastien Ferriby, conseiller éducation et culture, Arthur Bart, conseiller, et Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:05:00.000Z",
+      "dateFin": "2026-07-01T14:30:00.000Z",
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2026IDC460632",
       "titre": "audition de MM. Philippe Michaud, président exécutif du mouvement E. Leclerc, Pacôme Lesage, directeur général de Siplec E. Leclerc, et Rémi Thomas, directeur carburants et services, sur les prix et la fiscalité des carburants.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-01T13:05:00.000Z",
+      "dateFin": "2026-07-01T14:15:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -596,15 +587,6 @@
       "organisateur": "PO878513"
     },
     {
-      "uid": "RUANR5L17S2026IDC460736",
-      "titre": "- audition",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880370"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460740",
       "titre": "agence nationale de rénovation urbaine (ANRU) :",
       "type": "reunionCommission_type",
@@ -612,6 +594,15 @@
       "dateFin": "2026-07-01T14:15:00.000Z",
       "lieu": "Salle 3 – 95, rue de l’Université",
       "organisateur": "PO878743"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460736",
+      "titre": "- audition",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880370"
     },
     {
       "uid": "RUANR5L17S2026IDC460720",
@@ -626,8 +617,8 @@
       "uid": "RUANR5L17S2026IDC460484",
       "titre": "audition, ouverte à la presse, de M. Nicolas Forissier, ministre délégué auprès du ministre de l’Europe et des affaires étrangères, chargé du commerce extérieur et de l’attractivité, sur l’impact du contexte géopolitique sur les performances françaises à l’exportation, la mise en oeuvre de nouveaux accords conclus par la Commission européenne ainsi que les réunions des ministres chargés du commerce du G7, le 6 mai, et du Conseil des affaires étrangères (commerce), le 22 mai.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T14:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-01T14:40:00.000Z",
+      "dateFin": "2026-07-01T15:45:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -636,7 +627,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T16:00:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO883966"
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T00:05:54.107Z",
+  "updatedAt": "2026-07-01T05:21:47.008Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30869",
@@ -27,6 +27,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUSNR5L17S2026IDS30882",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-06-29T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2026IDC460642",
@@ -339,7 +348,7 @@
       "titre": "Suite de la discussion, en 2e lecture de la proposition de loi, modifiée par le Sénat, visant à assurer le droit de chaque enfant à disposer d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance",
       "type": "seance_type",
       "dateDebut": "2026-06-30T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-06-30T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

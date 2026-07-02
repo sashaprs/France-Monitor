@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-02T10:40:32.548Z",
+  "updatedAt": "2026-07-02T12:58:31.678Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460723",
-      "titre": "–-à huis-clos, présentation et vote sur le rapport d’information.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO874906"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460749",
-      "titre": "audition, non ouverte à la presse, du Collège national des gynécologues et obstétriciens français (CNGOF) en présence du Pr Joëlle Belaisch-Allart, présidente d’honneur du CNGOF, professeur au Collège de Médecine des Hôpitaux de Paris et membre du Comité consultatif national d’éthique – siège également au sein du COPIL du plan fertilité du Gouvernement et le Pr Pietro Santulli, chirurgien gynécologique et responsable du centre d'assistance à la procréation à l'hôpital Cochin Port-Royal.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882950"
-    },
     {
       "uid": "RUANR5L17S2026IDC460750",
       "titre": "audition, non ouverte à la presse, du Pr Fabien Reyal, chef du service de chirurgie gynécologique sénologique et reconstructrice de l’Institut Curie.",
@@ -515,15 +497,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2026IDC460654",
-      "titre": "audition, ouverte à la presse, de M. Jean-Louis Duprez, président de la Fédération française des banques alimentaires (FFBA), et de Mme Gabrielle Fontaine, chargée de projets à la direction des relations institutionnelles et du secrétariat général de la Fédération",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 6826 (3e étage du Palais Bourbon)",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460689",
       "titre": "présentation, ouverte à la presse, du rapport d’information sur l’autonomie financière des collectivités territoriales, constituant un bilan d’étape du groupe de travail sur le financement des territoires, et de la proposition de loi organique, annexée à ce rapport, visant à renforcer l’autonomie financière des collectivités territoriales (M. Stéphane Delautrette, rapporteur).",
       "type": "reunionCommission_type",
@@ -531,6 +504,15 @@
       "dateFin": "2026-07-01T14:10:00.000Z",
       "lieu": "Salle 6756, Palais Bourbon, 3ème étage",
       "organisateur": "PO744127"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460654",
+      "titre": "audition, ouverte à la presse, de M. Jean-Louis Duprez, président de la Fédération française des banques alimentaires (FFBA), et de Mme Gabrielle Fontaine, chargée de projets à la direction des relations institutionnelles et du secrétariat général de la Fédération",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T13:05:00.000Z",
+      "dateFin": "2026-07-01T15:10:00.000Z",
+      "lieu": "salle 6826 (3e étage du Palais Bourbon)",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC460716",
@@ -627,7 +609,7 @@
       "titre": "examen des articles du projet de loi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T22:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
     },
@@ -686,15 +668,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2026IDC460679",
-      "titre": "présentation, par M. Kévin Mauvieux, rapporteur spécial de la mission Engagements financiers de l’État, du rapport d’évaluation des politiques publiques portant sur l’effet boule de neige de la dette, et audition de M. Roland Lescure, ministre de l’économie, des finances et de la souveraineté industrielle, énergétique et numérique, sur les conclusions de ce rapport.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30821",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
@@ -717,9 +690,18 @@
       "titre": "examen du rapport d’évaluation de la décarbonation du secteur des transports terrestres, en application de l’article 73 de la loi d’orientation des mobilités (LOM) du 26 décembre 2019 (Jean-Luc Fugit, député, et Pierre Médevielle, sénateur, rapporteurs) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-02T09:10:00.000Z",
       "lieu": "Sénat (Salle Olympe de Gouges – 4 rue Casimir Delavigne)",
       "organisateur": "PO273589"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460679",
+      "titre": "présentation, par M. Kévin Mauvieux, rapporteur spécial de la mission Engagements financiers de l’État, du rapport d’évaluation des politiques publiques portant sur l’effet boule de neige de la dette, et audition de M. Roland Lescure, ministre de l’économie, des finances et de la souveraineté industrielle, énergétique et numérique, sur les conclusions de ce rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T07:05:00.000Z",
+      "dateFin": "2026-07-02T08:10:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC459572",
@@ -770,8 +752,8 @@
       "uid": "RUANR5L17S2026IDC460631",
       "titre": "présentation, par M. Charles Sitzenstuhl, rapporteur spécial de la mission Recherche et enseignement supérieur, du rapport d’évaluation des politiques publiques sur la mise en œuvre des repas à 1 euro pour les boursiers, et audition de M. Julien Meimon, président de l’association d’aide alimentaire aux étudiants Linkee-Entraide étudiante, sur les conclusions de ce rapport",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-02T09:05:00.000Z",
+      "dateFin": "2026-07-02T10:10:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -1091,6 +1073,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460772",
+      "titre": "audition du GDI Philippe Le Carff, sous-chef d’état-major « plans et programmes » de l’état-major de l'armée de terre",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T06:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460719",
       "titre": "sous réserve de son dépôt, examen de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale.",
       "type": "reunionCommission_type",
@@ -1190,6 +1181,15 @@
       "organisateur": "PO878304"
     },
     {
+      "uid": "RUANR5L17S2026IDC460773",
+      "titre": "audition de M. Jean-Pierre Maulny, directeur adjoint de l’Institut de relations internationales et stratégiques",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO880668"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460466",
       "titre": "– Lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738) : examen de la proposition de résolution européenne (M. Vincent Ledoux, rapporteur) ;\r\r– La guerre en Ukraine, quel nouveau paradigme pour l'Europe de la Défense ? : examen du rapport d’information de M. Maxime Michelet et Mme Michèle Tabarot.",
       "type": "reunionCommission_type",
@@ -1200,7 +1200,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460731",
-      "titre": "audition conjointe, ouverte à la presse, réunissant des chercheurs / économistes :",
+      "titre": "audition conjointe, ouverte à la presse, réunissant des chercheurs / économistes travaillant sur les sujets de la pauvreté, des personnes âgées et de la dépendance :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T13:00:00.000Z",
       "dateFin": null,
@@ -1218,12 +1218,21 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460645",
-      "titre": "Lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738) : examen de la proposition de résolution européenne de M. Vincent Ledoux (M. Vincent Ledoux, rapporteur);",
+      "titre": "examen de la proposition de résolution européenne de M. Vincent Ledoux visant à lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T13:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460774",
+      "titre": "audition du Général de brigade Mathieu FROMAGET et du Colonel Ronan CHIPON,  attachés de défense",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDC460683",
@@ -1236,12 +1245,30 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460732",
-      "titre": "audition, ouverte à la presse, de représentants de la Fondation pour le logement (sous réserve)",
+      "titre": "audition, ouverte à la presse, de représentants du mouvement ATD Quart Monde : Mme Anne-Marie De Pasquale, déléguée nationale, Mme Mélina Marcoux, coordinatrice du pôle politique, et M. Louis Jurietti, membre de l’équipe d’animation du pôle politique.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T15:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460768",
+      "titre": "audition conjointe, ouverte à la presse, de M. Bernard DELCROS, sénateur du Cantal, président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation, de Mme Nadine BELLUROT, sénatrice de l’Indre, et de M. Thierry COZIC, sénateur de la Sarthe, rapporteurs d’une mission d’information relative à l'état des lieux de la compensation financière résultant des exonérations, dégrèvements et suppressions de fiscalité locale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO744127"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460767",
+      "titre": "audition de Mme Anne Cochou et M. Jean-Paul Goasguen, co-présidents de Sonerion Penn Ar Bed.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO878768"
     },
     {
       "uid": "RUANR5L17S2026IDS30836",
@@ -1352,6 +1379,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC460770",
+      "titre": "audition, ouverte à la presse, de Mme Nathalie Latour, directrice générale de la Fédération des acteurs de la solidarité (FAS).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460775",
+      "titre": "audition de la Direction générale de l'armement",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460569",
       "titre": "universalité des droits conférés aux élus des zones transfrontalières : examen de la proposition de résolution européenne de Mme Isabelle Rauch",
       "type": "reunionCommission_type",
@@ -1370,13 +1415,40 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460771",
+      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) – service statistique du ministère des solidarités et de la santé : M. Thomas Wanecq, directeur, et Mme Julie Labarthe, sous-directrice de l’observation de la solidarité.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460570",
-      "titre": "Audition de M. Benjamin Haddad, ministre délégué chargé de l’Europe, sur l’actualité de Union européenne.",
+      "titre": "audition de M. Benjamin Haddad, ministre délégué chargé de l’Europe, sur l’actualité de Union européenne.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T14:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460776",
+      "titre": "audition de la Direction générale des relations internationales et de la stratégie",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460777",
+      "titre": "audition de l'IGA Cordier-Lallouet, directeur adjoint de l’Agence de l’innovation de défense",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDS30859",
@@ -1476,6 +1548,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460778",
+      "titre": "audition du SC-PLANS",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2027IDFL460004",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T15:24:05.088Z",
+  "updatedAt": "2026-07-02T17:48:05.854Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30779",
@@ -366,7 +366,7 @@
       "titre": "examen du rapport suivi d’un vote, à huis clos.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-01T11:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-01T12:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO877518"
     },
@@ -536,7 +536,7 @@
       "uid": "RUANR5L17S2026IDC460484",
       "titre": "audition, ouverte à la presse, de M. Nicolas Forissier, ministre délégué auprès du ministre de l’Europe et des affaires étrangères, chargé du commerce extérieur et de l’attractivité, sur l’impact du contexte géopolitique sur les performances françaises à l’exportation, la mise en oeuvre de nouveaux accords conclus par la Commission européenne ainsi que les réunions des ministres chargés du commerce du G7, le 6 mai, et du Conseil des affaires étrangères (commerce), le 22 mai.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T14:40:00.000Z",
+      "dateDebut": "2026-07-01T14:50:00.000Z",
       "dateFin": "2026-07-01T15:45:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
@@ -627,7 +627,7 @@
       "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-02T11:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -636,7 +636,7 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
       "dateDebut": "2026-07-02T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-02T10:55:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -681,7 +681,7 @@
       "titre": "suite de l’examen des articles du projet de loi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-02T10:55:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO883517"
     },
@@ -744,7 +744,7 @@
       "titre": "suite de l’examen des articles du projet de loi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-02T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-02T14:35:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
     },
@@ -902,6 +902,15 @@
       "organisateur": "PO851673"
     },
     {
+      "uid": "RUANR5L17S2026IDS30825",
+      "titre": "Discussion et vote sur la motion de censure déposée par Mmes Chatelain, Abomangoli et 56 députés, en application de l'article 49, alinéa 2 de la Constitution",
+      "type": "seance_type",
+      "dateDebut": "2026-07-06T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460705",
       "titre": "suite de l’examen des articles du projet de loi.",
       "type": "reunionCommission_type",
@@ -909,15 +918,6 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30825",
-      "titre": "Discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-06T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2026IDC460706",
@@ -984,7 +984,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460582",
-      "titre": "audition de M. Gilbert Cette, président du Conseil d’orientation des retraites.",
+      "titre": "audition de M. Gilbert Cette, président du Conseil d’orientation des retraites ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-07T14:30:00.000Z",
       "dateFin": null,
@@ -1074,7 +1074,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460660",
-      "titre": "communication de Mme Anchya Bamana, Mme Nicole Dubré-Chirat, Mme Josiane Corneloup et M. Stéphane Viry, rapporteurs de la mission « flash » sur les infirmiers en pratique avancée.",
+      "titre": "nomination des rapporteurs sur le projet de loi de financement de la sécurité sociale pour 2027.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
       "dateFin": null,
@@ -1083,7 +1083,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460710",
-      "titre": "table ronde sur les stages dans le cadre de la scolarité générale.",
+      "titre": "table ronde sur les stages dans le cadre de la scolarité générale réunissant M. Jean Hubac, chef du service de la vie de l’élève et des établissements à la direction générale de l’enseignement scolaire (Dgesco), Mme Christelle Meslé-Génin, présidente-fondatrice de JobIRL, et M. Stéphane Treppoz, entrepreneur ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
       "dateFin": null,
@@ -1092,7 +1092,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460656",
-      "titre": "audition, ouverte à la presse, de M. Christophe Lecourtier, directeur général de l’Agence française de développement (AFD), sur les activités et les perspectives du groupe AFD.",
+      "titre": "audition, ouverte à la presse, de M. Christophe Lecourtier, directeur général de l’Agence française de développement (AFD), sur les activités et les perspectives du groupe AFD ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
       "dateFin": null,
@@ -1107,6 +1107,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460787",
+      "titre": "audition de Mme Anne Laure Torresin, directrice générale de la Caisse centrale de la Mutualité sociale agricole, Mme Magali Rascle, directrice déléguée aux politiques sociales, et Mme Nadia Joubert, directrice des statistiques et de la science des données, sur le rapport transmis au ministre chargé de la sécurité sociale et au Parlement, en application de l’article L. 111 11 du code de la sécurité sociale, sur l’évolution des charges et des produits au titre de 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2026IDC460647",
@@ -1173,7 +1182,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30829",
-      "titre": "Éventuellement, discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l’État",
+      "titre": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l’État",
       "type": "seance_type",
       "dateDebut": "2026-07-08T13:00:00.000Z",
       "dateFin": null,
@@ -1218,7 +1227,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460768",
-      "titre": "audition conjointe, ouverte à la presse, de M. Bernard DELCROS, sénateur du Cantal, président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation, de Mme Nadine BELLUROT, sénatrice de l’Indre, et de M. Thierry COZIC, sénateur de la Sarthe, rapporteurs d’une mission d’information relative à l'état des lieux de la compensation financière résultant des exonérations, dégrèvements et suppressions de fiscalité locale.",
+      "titre": "audition conjointe, ouverte à la presse, de M. Bernard Delcros, sénateur du Cantal, président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation, de Mme Nadine Bellurot, sénatrice de l’Indre, et de M. Thierry Cozic, sénateur de la Sarthe, rapporteurs d’une mission d’information relative à l'état des lieux de la compensation financière résultant des exonérations, dégrèvements et suppressions de fiscalité locale.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T15:30:00.000Z",
       "dateFin": null,
@@ -1317,7 +1326,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460657",
-      "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (NNN., rapporteur).",
+      "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (M. Pierre Pribetich, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T07:30:00.000Z",
       "dateFin": null,
@@ -1325,8 +1334,17 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2026IDC460782",
+      "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (COJOP) Alpes françaises 2030, et M. Vincent Roberti, directeur général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460503",
-      "titre": "audition de M. Thomas Fatôme, directeur général de la Caisse nationale de l’assurance maladie (Cnam), sur le rapport « Améliorer la qualité du système de santé et maîtriser les dépenses. Propositions de l’assurance maladie pour 2027 », transmis au ministre chargé de la sécurité sociale et au Parlement en application de l’article L. 111 11 du code de la sécurité sociale (sous réserve de son adoption par le conseil de la Cnam.",
+      "titre": "audition de M. Thomas Fatôme, directeur général de la Caisse nationale de l’assurance maladie (Cnam), sur le rapport « Améliorer la qualité du système de santé et maîtriser les dépenses. Propositions de l’assurance maladie pour 2027 », transmis au ministre chargé de la sécurité sociale et au Parlement en application de l’article L. 111 11 du code de la sécurité sociale (sous réserve de son adoption par le conseil de la Cnam).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T09:00:00.000Z",
       "dateFin": null,
@@ -1341,6 +1359,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460786",
+      "titre": "communication conclusive, ouverte à la presse, des rapporteurs d’information sur les réseaux criminels internationaux opérant en France (Mme Sylvie Josserand et M. Vincent Ledoux, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2026IDC460770",
@@ -1514,10 +1541,28 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460788",
+      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant, sous réserve de sa communication à la commission des affaires sociales en application de l’article L.O. 132-3-1 du code des juridictions financières.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460778",
       "titre": "audition du SC-PLANS",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460779",
+      "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le VA Jean-Marc DURANDAU,  directeur, et  l'IGETA Jacques Sueur, directeur adjoint",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T16:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"

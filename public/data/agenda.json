@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-02T12:58:31.678Z",
+  "updatedAt": "2026-07-02T15:24:05.088Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460750",
-      "titre": "audition, non ouverte à la presse, du Pr Fabien Reyal, chef du service de chirurgie gynécologique sénologique et reconstructrice de l’Institut Curie.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882950"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30778",
-      "titre": "Discussion de la proposition de loi, adoptée par le Sénat, relative à l’organisation, à la gestion et au financement du sport professionnel",
-      "type": "seance_type",
-      "dateDebut": "2026-06-29T13:00:00.000Z",
-      "dateFin": "2026-06-29T18:05:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460751",
-      "titre": "audition, non ouverte à la presse, du Pr Mikaël Agopiantz, chef de Service de Médecine de la Fertilité, coordinateur du Centre d'AMP du CHRU de Nancy.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882950"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460572",
-      "titre": "audition de M. Philippe Tabarot, ministre des transports, et discussion générale sur le projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure). Examen des articles du projet de loi-cadre.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T14:00:00.000Z",
-      "dateFin": "2026-06-29T18:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
     {
       "uid": "RUANR5L17S2026IDS30779",
       "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, relative à l’organisation, à la gestion et au financement du sport professionnel",

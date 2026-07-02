@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-02T21:07:54.355Z",
+  "updatedAt": "2026-07-02T23:07:27.932Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460753",
-      "titre": "Mission du groupe d'amitié France - Danemark",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-29T22:00:00.000Z",
-      "dateFin": "2026-07-02T21:59:59.000Z",
-      "lieu": "Copenhague au Danemark",
-      "organisateur": "PO851658"
-    },
     {
       "uid": "RUANR5L17S2026IDS30780",
       "titre": "Questions orales sans débat (salle Lamartine)",

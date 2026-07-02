@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-02T17:48:03.986Z",
+  "updatedAt": "2026-07-02T19:27:42.678Z",
   "scrutins": [
+    {
+      "numero": "7978",
+      "titre": "l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "86",
+      "pour": "62",
+      "contre": "24",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
     {
       "numero": "7950",
       "titre": "l'aticle 6 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
@@ -21,6 +32,28 @@
       "pour": "45",
       "contre": "69",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7971",
+      "titre": "l'amendement n° 208 de M. Coulomme après l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "17",
+      "contre": "68",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7973",
+      "titre": "l'amendement n° 96 de Mme Capdevielle après l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "33",
+      "contre": "63",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -145,6 +178,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7975",
+      "titre": "l'article premier du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "82",
+      "pour": "55",
+      "contre": "27",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7936",
       "titre": "l'amendement n° 76 de Mme Capdevielle et l'amendement identique suivant à l'article 3 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
       "date": "2026-07-02",
@@ -175,6 +219,39 @@
       "pour": "31",
       "contre": "51",
       "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7970",
+      "titre": "l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "62",
+      "contre": "29",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7977",
+      "titre": "l'amendement n° 22 de M. Coulomme de suppression de l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "83",
+      "pour": "28",
+      "contre": "55",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7974",
+      "titre": "l'amendement n° 164 de M. Coulomme après l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "31",
+      "contre": "62",
+      "abstentions": "4",
       "nonVotants": "1"
     },
     {
@@ -263,6 +340,17 @@
       "pour": "24",
       "contre": "61",
       "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7976",
+      "titre": "l'amendement n° 8 de Mme Thiébault-Martinez à l'article 1er bis du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "81",
+      "pour": "59",
+      "contre": "1",
+      "abstentions": "21",
       "nonVotants": "1"
     },
     {
@@ -409,6 +497,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7972",
+      "titre": "l'amendement n° 95 de Mme Capdevielle après l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
+      "date": "2026-07-02",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "32",
+      "contre": "57",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7919",
       "titre": "l'amendement n° 22 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 2 bis du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
       "date": "2026-07-01",
@@ -450,105 +549,6 @@
       "pour": "375",
       "contre": "113",
       "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7909",
-      "titre": "l'amendement n° 58 de Mme Thiébault-Martinez et l'amendement identique suivant à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "101",
-      "pour": "28",
-      "contre": "72",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7913",
-      "titre": "l'amendement n° 377 de Mme Josserand à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "115",
-      "pour": "22",
-      "contre": "93",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7931",
-      "titre": "l'amendement n° 99 de M. Gery à l'article 3 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "85",
-      "pour": "14",
-      "contre": "68",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7904",
-      "titre": "l'ensemble de la proposition de loi visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance (deuxième lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "292",
-      "pour": "292",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7916",
-      "titre": "l'amendement n° 62 de Mme Thiébault-Martinez et l'amendement identique suivant à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "40",
-      "contre": "70",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7908",
-      "titre": "l'amendement n° 57 de Mme Thiébault-Martinez à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "121",
-      "pour": "35",
-      "contre": "64",
-      "abstentions": "22",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7927",
-      "titre": "l'amendement n° 187 de Mme Cathala à l'article 3 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "35",
-      "contre": "46",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7912",
-      "titre": "l'amendement n° 61 de Mme Thiébault-Martinez et l'amendement identique suivant à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "115",
-      "pour": "41",
-      "contre": "52",
-      "abstentions": "22",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7914",
-      "titre": "l'amendement n° 167 de Mme Cathala à l'article 2 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "115",
-      "pour": "18",
-      "contre": "58",
-      "abstentions": "39",
       "nonVotants": "1"
     }
   ]

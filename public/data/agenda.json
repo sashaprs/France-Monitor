@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-03T17:26:02.828Z",
+  "updatedAt": "2026-07-03T19:22:41.327Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460655",
-      "titre": "Dîner en l'honneur de M. Serge Bounda, ministre des Affaires étrangères de la République du Congo",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T18:00:00.000Z",
-      "dateFin": "2026-06-30T21:00:00.000Z",
-      "lieu": "Petit Hôtel",
-      "organisateur": "PO851577"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460698",
-      "titre": "audition, ouverte à la presse, de M. Édouard Geffray, ministre de l’éducation nationale, et Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T19:00:00.000Z",
-      "dateFin": "2026-06-30T20:45:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
     {
       "uid": "RUANR5L17S2026IDC460575",
       "titre": "suite de l’ordre du jour de l’après-midi.",

@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-03T19:22:41.327Z",
+  "updatedAt": "2026-07-03T21:06:37.116Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460575",
-      "titre": "suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30782",
-      "titre": "Suite de la discussion, en 2e lecture de la proposition de loi, modifiée par le Sénat, visant à assurer le droit de chaque enfant à disposer d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance",
-      "type": "seance_type",
-      "dateDebut": "2026-06-30T19:30:00.000Z",
-      "dateFin": "2026-06-30T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460761",
       "titre": "nomination du bureau ;",

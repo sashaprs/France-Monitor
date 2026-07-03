@@ -4315,6 +4315,23 @@ function useDeputesNews() {
   return state;
 }
 
+/* Actualités des partis, rafraîchies par GitHub Actions (Google News RSS). */
+let _partiNewsCachePromise = null;
+function usePartisNews() {
+  const [state, setState] = React.useState({ loading: true, news: {}, updatedAt: null });
+  React.useEffect(() => {
+    const load = _partiNewsCachePromise
+      ? _partiNewsCachePromise
+      : (_partiNewsCachePromise = fetch('public/data/news_partis.json')
+          .then(r => r.json())
+          .catch(() => ({ news: {}, updatedAt: null })));
+    let alive = true;
+    load.then(d => { if (alive) setState({ loading: false, news: d.news || {}, updatedAt: d.updatedAt }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
 const AN_PHOTO_BASE = 'https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/';
 
 /* Cache partagé pour éviter de recharger votes_deputes.json à chaque clic */
@@ -6547,6 +6564,9 @@ function PartiCard({ parti, onClick }) {
 function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
   const [membreSearch, setMembreSearch] = React.useState('');
   const [membreTab, setMembreTab] = React.useState('an');
+  const [selectedPerso, setSelectedPerso] = React.useState(null);
+  const { news: allPartiNews, loading: partiNewsLoading } = usePartisNews();
+  const partiNews = (allPartiNews && allPartiNews[parti.id] && allPartiNews[parti.id].length) ? allPartiNews[parti.id] : (parti.news || []);
 
   const partiDeps = React.useMemo(() => {
     if (!parti.groupeAN || !deputes.length) return [];
@@ -6555,6 +6575,10 @@ function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
       .filter(d => !membreSearch || d.nomComplet.toLowerCase().includes(membreSearch.toLowerCase()) || (d.dept || '').toLowerCase().includes(membreSearch.toLowerCase()))
       .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
   }, [parti.groupeAN, deputes, membreSearch]);
+
+  if (selectedPerso) {
+    return <PPDetail f={selectedPerso} onBack={() => setSelectedPerso(null)} />;
+  }
 
   return (
     <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
@@ -6675,7 +6699,10 @@ function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
                 {persos.length > 0 ? (
                   <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:12, marginTop:4 }}>
                     {persos.map(f => (
-                      <div key={f.id} style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:8, padding:'12px 8px', borderRadius:10, border:'1px solid var(--border-subtle)', background:'var(--gray-50)' }}>
+                      <div key={f.id} onClick={() => setSelectedPerso(f)} title={'Voir la fiche de ' + f.name}
+                        style={{ display:'flex', flexDirection:'column', alignItems:'center', gap:8, padding:'12px 8px', borderRadius:10, border:'1px solid var(--border-subtle)', background:'var(--gray-50)', cursor:'pointer', transition:'border-color 140ms, box-shadow 140ms, transform 140ms' }}
+                        onMouseEnter={e => { e.currentTarget.style.borderColor = f.color; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.07)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                        onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-subtle)'; e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}>
                         <PPAvatar f={f} size={52} />
                         <div style={{ textAlign:'center' }}>
                           <div style={{ fontSize:11.5, fontWeight:700, color:'var(--text-primary)', lineHeight:1.25 }}>{f.name}</div>
@@ -6703,15 +6730,19 @@ function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
             );
           })()}
 
-          {/* News */}
+          {/* News (live, cliquable) */}
           <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'18px' }}>
-            <Eyebrow>Actualités</Eyebrow>
-            {parti.news.map((n,i) => (
-              <div key={i} style={{ padding:'9px 0', borderBottom: i < parti.news.length-1 ? '1px solid var(--border-subtle)' : 'none' }}>
-                <div style={{ fontSize:10, color:'var(--text-tertiary)', marginBottom:3 }}>{n.date}</div>
-                <div style={{ fontSize:12, color:'var(--text-primary)', fontWeight:500, lineHeight:1.5 }}>{n.title}</div>
-              </div>
-            ))}
+            <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', gap:8 }}>
+              <Eyebrow style={{ margin:0 }}>Actualités récentes</Eyebrow>
+              <span style={{ fontSize:9, color:'var(--text-tertiary)' }}>Google Actualités</span>
+            </div>
+            <div style={{ marginTop:8 }}>
+              {partiNewsLoading
+                ? <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'12px 0' }}>Chargement des actualités…</div>
+                : partiNews.length === 0
+                  ? <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'12px 0' }}>Aucune actualité disponible.</div>
+                  : partiNews.map((n, i) => <PPNewsItem key={i} n={n} last={i === partiNews.length - 1} />)}
+            </div>
           </div>
         </div>
       </div>

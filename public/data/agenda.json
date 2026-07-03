@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-03T06:38:36.575Z",
+  "updatedAt": "2026-07-03T09:58:54.658Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30780",
-      "titre": "Questions orales sans débat (salle Lamartine)",
-      "type": "seance_type",
-      "dateDebut": "2026-06-30T07:00:00.000Z",
-      "dateFin": "2026-06-30T10:35:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUSNR5L17S2026IDS30883",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-06-30T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2026IDC460697",
       "titre": "audition, ouverte à la presse, de M. Gérald Darmanin, garde des sceaux, ministre de la justice.",

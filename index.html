@@ -4298,6 +4298,23 @@ function usePersonnalitesNews() {
   return state;
 }
 
+/* Actualités des députés, rafraîchies par GitHub Actions (Google News RSS). */
+let _depNewsCachePromise = null;
+function useDeputesNews() {
+  const [state, setState] = React.useState({ loading: true, news: {}, updatedAt: null });
+  React.useEffect(() => {
+    const load = _depNewsCachePromise
+      ? _depNewsCachePromise
+      : (_depNewsCachePromise = fetch('public/data/news_deputes.json')
+          .then(r => r.json())
+          .catch(() => ({ news: {}, updatedAt: null })));
+    let alive = true;
+    load.then(d => { if (alive) setState({ loading: false, news: d.news || {}, updatedAt: d.updatedAt }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
 const AN_PHOTO_BASE = 'https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/';
 
 /* Cache partagé pour éviter de recharger votes_deputes.json à chaque clic */
@@ -4336,294 +4353,355 @@ function useDeputeVotes(depId) {
   return { stats, loading };
 }
 
-/* ── Export de la fiche député (PDF / Excel / Word) ─────────────
-   Les librairies sont chargées à la demande (CDN) au premier clic. */
-const DEP_EXPORT_LIBS = {
+/* ── Export des fiches (députés & personnalités) en PDF / Excel / Word ──
+   Système générique : un modèle de « fiche » normalisé est rendu dans les trois
+   formats. Les librairies sont chargées à la demande (CDN) au premier clic. */
+const EXPORT_LIBS = {
   jspdf:     'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
   autotable: 'https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js',
   xlsx:      'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js',
   docx:      'https://unpkg.com/docx@9.7.1/dist/index.iife.js',
 };
-const _depScriptCache = {};
-function loadDepScript(src) {
-  if (_depScriptCache[src]) return _depScriptCache[src];
-  _depScriptCache[src] = new Promise((resolve, reject) => {
+const _exportScriptCache = {};
+function loadExportScript(src) {
+  if (_exportScriptCache[src]) return _exportScriptCache[src];
+  _exportScriptCache[src] = new Promise((resolve, reject) => {
     const s = document.createElement('script');
     s.src = src; s.async = true;
     s.onload = () => resolve();
-    s.onerror = () => { delete _depScriptCache[src]; reject(new Error('Échec du chargement : ' + src)); };
+    s.onerror = () => { delete _exportScriptCache[src]; reject(new Error('Échec du chargement : ' + src)); };
     document.head.appendChild(s);
   });
-  return _depScriptCache[src];
+  return _exportScriptCache[src];
 }
-
-const DEP_VOTE_LABELS = { pour:'Pour', contre:'Contre', abstention:'Abstention', absent:'Non-vote' };
-
-function depSlug(dep) {
-  return 'fiche-depute-' + (dep.nomComplet || 'depute')
-    .toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+function slugify(prefix, s) {
+  return prefix + '-' + (s || 'x').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-}
-function depHexToRgb(hex) {
-  const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex || '');
-  return m ? [parseInt(m[1], 16), parseInt(m[2], 16), parseInt(m[3], 16)] : [11, 14, 20];
 }
 function triggerDownload(blob, filename) {
   const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url; a.download = filename; a.click();
+  const a = document.createElement('a'); a.href = url; a.download = filename; a.click();
   setTimeout(() => URL.revokeObjectURL(url), 4000);
 }
-async function fetchDepPhotoBuffer(dep) {
-  try {
-    const res = await fetch('public/photos/' + dep.id + '.jpg');
-    if (!res.ok) return null;
-    return await res.arrayBuffer();
-  } catch (e) { return null; }
+async function fetchImageBuffer(url) {
+  try { const res = await fetch(url); if (!res.ok) return null; return await res.arrayBuffer(); }
+  catch (e) { return null; }
 }
-function depBufToDataURL(buf) {
+function bufToDataURL(buf) {
   let bin = ''; const bytes = new Uint8Array(buf);
   for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
   return 'data:image/jpeg;base64,' + btoa(bin);
 }
 
-/* Données normalisées communes aux trois formats */
-function buildDepExportData(dep, stats) {
+/* Couleur d'une position de vote (colorisation PDF / Word). */
+const VOTE_POS_RGB = {
+  'Pour':[14,138,82], 'Promulguée':[14,138,82], 'Adopté':[14,138,82], 'Adoptée':[14,138,82],
+  'Contre':[225,0,15], 'Rejeté':[225,0,15], 'Rejetée':[225,0,15],
+  'Abstention':[201,118,13],
+};
+function votePosRgb(label) { return VOTE_POS_RGB[label] || [86,93,103]; }
+function votePosHex(label) { return votePosRgb(label).map(x => x.toString(16).padStart(2,'0')).join(''); }
+
+const DEP_VOTE_LABELS = { pour:'Pour', contre:'Contre', abstention:'Abstention', absent:'Non-vote' };
+
+/* Modèle de fiche normalisé à partir d'un député. */
+function buildDeputeFiche(dep, stats, news) {
   const s = stats || { pour:0, contre:0, abstention:0, absent:0, votes:[] };
   const total = s.pour + s.contre + s.abstention + s.absent;
   const exprimes = s.pour + s.contre + s.abstention;
   const txParticip = total > 0 ? Math.round(exprimes / total * 100) : 0;
   const parDeleg = (s.votes || []).filter(v => v.parDelegation).length;
-  const identite = [
-    ['Nom complet',      dep.nomComplet || '—'],
-    ['Qualité',          dep.female ? 'Députée' : 'Député'],
-    ['Groupe politique', dep.groupe?.name || '—'],
-    ['Sigle du groupe',  dep.groupe?.short || '—'],
-    ['Département',       dep.dept || '—'],
-    ['Région',           dep.region || '—'],
-    ['Circonscription',  dep.circonscription || '—'],
-    ['Profession',       dep.profession || '—'],
-    ['Législature',      'XVIIe (depuis juillet 2024)'],
-  ];
-  const participation = [
-    ['Taux de participation', txParticip + ' %'],
-    ['Scrutins au total',     String(total)],
-    ['Votes exprimés',        String(exprimes)],
-    ['Pour',                  String(s.pour)],
-    ['Contre',                String(s.contre)],
-    ['Abstention',            String(s.abstention)],
-    ['Non-votes / absences',  String(s.absent)],
-    ['Votes par délégation',  String(parDeleg)],
-  ];
-  const votes = (s.votes || []).map(v => [
-    v.date || '',
-    v.titre || '',
-    DEP_VOTE_LABELS[v.position] || v.position || '',
-    v.parDelegation ? 'Oui' : '',
-  ]);
-  return { identite, participation, votes,
-    dateStr: new Date().toLocaleDateString('fr-FR', { year:'numeric', month:'long', day:'numeric' }) };
+  return {
+    docTitle: 'Fiche député',
+    eyebrow: 'France Monitor · Assemblée nationale · XVIIe législature',
+    name: dep.nomComplet || '',
+    subtitle: [
+      (dep.female ? 'Députée' : 'Député') + (dep.groupe ? ' · ' + dep.groupe.short : ''),
+      dep.groupe?.name || '',
+      (dep.circonscription || '') + (dep.dept ? ' - ' + dep.dept : '') + (dep.region ? ', ' + dep.region : ''),
+      dep.profession ? 'Profession : ' + dep.profession : '',
+    ].filter(Boolean),
+    photoUrl: 'public/photos/' + dep.id + '.jpg',
+    sections: [
+      { title:'Identité', rows: [
+        ['Nom complet', dep.nomComplet || '—'],
+        ['Qualité', dep.female ? 'Députée' : 'Député'],
+        ['Groupe politique', dep.groupe?.name || '—'],
+        ['Sigle du groupe', dep.groupe?.short || '—'],
+        ['Département', dep.dept || '—'],
+        ['Région', dep.region || '—'],
+        ['Circonscription', dep.circonscription || '—'],
+        ['Profession', dep.profession || '—'],
+        ['Législature', 'XVIIe (depuis juillet 2024)'],
+      ] },
+      { title:'Participation aux votes', rows: [
+        ['Taux de participation', txParticip + ' %'],
+        ['Scrutins au total', String(total)],
+        ['Votes exprimés', String(exprimes)],
+        ['Pour', String(s.pour)],
+        ['Contre', String(s.contre)],
+        ['Abstention', String(s.abstention)],
+        ['Non-votes / absences', String(s.absent)],
+        ['Votes par délégation', String(parDeleg)],
+      ] },
+    ],
+    votes: {
+      title: 'Détail des votes',
+      columns: ['Date','Scrutin','Position','Délégation'],
+      colorCol: 2,
+      rows: (s.votes || []).map(v => [ v.date || '', v.titre || '', DEP_VOTE_LABELS[v.position] || v.position || '', v.parDelegation ? 'Oui' : '' ]),
+      widths: { pdf: { 0:62, 2:70, 3:58 }, word: [14,58,16,12] },
+    },
+    news: (news || []).map(n => ({ date:n.date||'', source:n.source||'', title:n.title||'', link:n.link||'' })),
+    source: 'Assemblée nationale — XVIIe législature',
+    slug: slugify('fiche-depute', dep.nomComplet),
+  };
 }
 
-/* ── PDF (jsPDF + autoTable) ── */
-async function exportDepPDF(dep, stats) {
-  await loadDepScript(DEP_EXPORT_LIBS.jspdf);
-  await loadDepScript(DEP_EXPORT_LIBS.autotable);
+/* Modèle de fiche normalisé à partir d'une personnalité politique. */
+function buildPersoFiche(f, news) {
+  const bilanRows = (f.bilan || []).map(b => [ b.label,
+    (b.value != null ? b.value : '') + (b.unit ? ' ' + b.unit : '') + (b.delta ? ' (' + b.delta + ')' : '') ]);
+  const sections = [
+    { title:'Identité', rows: [
+      ['Nom', f.name || '—'],
+      ['Fonction', f.role || '—'],
+      ['Parti', f.party || '—'],
+      ['Année de naissance', f.born || '—'],
+      ["Score d'influence", f.score != null ? f.score + '/100' : '—'],
+      ['Rang', f.rank != null ? '#' + f.rank : '—'],
+    ] },
+  ];
+  if (bilanRows.length) sections.push({ title:'Bilan', rows: bilanRows });
+  return {
+    docTitle: 'Fiche personnalité',
+    eyebrow: 'France Monitor · Personnalités politiques',
+    name: f.name || '',
+    subtitle: [ f.role || '', f.party || '', f.born ? 'Né·e en ' + f.born : '' ].filter(Boolean),
+    photoUrl: f.photo || '',
+    bio: f.bio || '',
+    sections,
+    votes: (f.votes && f.votes.length) ? {
+      title: 'Votes récents',
+      columns: ['Date','Intitulé','Position','Résultat'],
+      colorCol: 2,
+      rows: f.votes.map(v => [ (v.date && v.date !== '—') ? v.date : '', v.title || '', v.position || '', v.result || '' ]),
+      widths: { pdf: { 0:62, 2:74, 3:74 }, word: [14,50,18,18] },
+    } : null,
+    news: (news || []).map(n => ({ date:n.date||'', source:n.source||'', title:n.title||'', link:n.link||'' })),
+    source: 'France Monitor · Personnalités politiques',
+    slug: slugify('fiche-personnalite', f.name),
+  };
+}
+
+/* ── Rendu PDF (jsPDF + autoTable) ── */
+async function exportFichePDF(fiche) {
+  await loadExportScript(EXPORT_LIBS.jspdf);
+  await loadExportScript(EXPORT_LIBS.autotable);
   const { jsPDF } = window.jspdf;
-  const data = buildDepExportData(dep, stats);
   const doc = new jsPDF({ unit:'pt', format:'a4' });
   const pageW = doc.internal.pageSize.getWidth();
   const M = 40;
-  const INK = [11, 14, 20];
+  const INK = [11,14,20];
+  const dateStr = new Date().toLocaleDateString('fr-FR', { year:'numeric', month:'long', day:'numeric' });
 
-  // Bandeau
-  doc.setFillColor(INK[0], INK[1], INK[2]);
-  doc.rect(0, 0, pageW, 66, 'F');
-  doc.setTextColor(255, 255, 255);
-  doc.setFont('helvetica', 'bold'); doc.setFontSize(18);
-  doc.text('Fiche député', M, 32);
-  doc.setFont('helvetica', 'normal'); doc.setFontSize(9.5);
-  doc.setTextColor(190, 196, 208);
-  doc.text('France Monitor · Assemblée nationale · XVIIe législature', M, 50);
+  doc.setFillColor(INK[0],INK[1],INK[2]); doc.rect(0,0,pageW,66,'F');
+  doc.setTextColor(255,255,255);
+  doc.setFont('helvetica','bold'); doc.setFontSize(18);
+  doc.text(fiche.docTitle, M, 32);
+  doc.setFont('helvetica','normal'); doc.setFontSize(9.5); doc.setTextColor(190,196,208);
+  doc.text(fiche.eyebrow, M, 50);
 
-  // En-tête : nom + photo
   const photoW = 70, photoH = 88, headTop = 88;
-  const buf = await fetchDepPhotoBuffer(dep);
-  if (buf) { try { doc.addImage(depBufToDataURL(buf), 'JPEG', pageW - M - photoW, headTop, photoW, photoH); } catch (e) {} }
-  doc.setTextColor(INK[0], INK[1], INK[2]);
-  doc.setFont('helvetica', 'bold'); doc.setFontSize(16);
-  doc.text(dep.nomComplet || '', M, headTop + 16);
-  doc.setFont('helvetica', 'normal'); doc.setFontSize(10.5);
-  doc.setTextColor(90, 97, 107);
-  const subLines = [
-    (dep.female ? 'Députée' : 'Député') + (dep.groupe ? ' · ' + dep.groupe.short : ''),
-    dep.groupe?.name || '',
-    (dep.circonscription || '') + (dep.dept ? ' - ' + dep.dept : '') + (dep.region ? ', ' + dep.region : ''),
-    dep.profession ? 'Profession : ' + dep.profession : '',
-  ].filter(Boolean);
-  doc.text(subLines, M, headTop + 34, { lineHeightFactor: 1.5 });
+  if (fiche.photoUrl) {
+    const buf = await fetchImageBuffer(fiche.photoUrl);
+    if (buf) { try { doc.addImage(bufToDataURL(buf), 'JPEG', pageW - M - photoW, headTop, photoW, photoH); } catch (e) {} }
+  }
+  doc.setTextColor(INK[0],INK[1],INK[2]); doc.setFont('helvetica','bold'); doc.setFontSize(16);
+  doc.text(fiche.name, M, headTop + 16, { maxWidth: pageW - 2*M - photoW - 16 });
+  doc.setFont('helvetica','normal'); doc.setFontSize(10.5); doc.setTextColor(90,97,107);
+  doc.text(fiche.subtitle, M, headTop + 34, { lineHeightFactor: 1.5, maxWidth: pageW - 2*M - photoW - 16 });
 
-  const sectionHead = (label, span) => [[{ content: label, colSpan: span, styles: { halign:'left', fillColor: INK, textColor: [255,255,255], fontStyle:'bold', fontSize: 11 } }]];
-  const baseStyles = { font:'helvetica', fontSize:9.5, cellPadding:5, textColor:[35,41,49], lineColor:[225,229,234], lineWidth:0.5 };
+  let y = headTop + photoH + 20;
+  if (fiche.bio) {
+    doc.setFontSize(9.5); doc.setTextColor(60,66,74);
+    const lines = doc.splitTextToSize(fiche.bio, pageW - 2*M);
+    doc.text(lines, M, y, { lineHeightFactor: 1.45 });
+    y += lines.length * 12 + 14;
+  }
 
-  doc.autoTable({
-    startY: headTop + photoH + 20,
-    head: sectionHead('Identité', 2),
-    body: data.identite,
-    theme: 'grid',
-    styles: baseStyles,
-    columnStyles: { 0: { cellWidth: 160, fontStyle:'bold', textColor:[90,97,107] } },
-    margin: { left: M, right: M },
+  const baseStyles = { font:'helvetica', fontSize:9.5, cellPadding:5, textColor:[35,41,49], lineColor:[225,229,234], lineWidth:0.5, overflow:'linebreak' };
+  const sectionHead = (label, span) => [[{ content:label, colSpan:span, styles:{ halign:'left', fillColor:INK, textColor:[255,255,255], fontStyle:'bold', fontSize:11 } }]];
+
+  fiche.sections.forEach(sec => {
+    doc.autoTable({
+      startY: y,
+      head: sectionHead(sec.title, 2),
+      body: sec.rows,
+      theme:'grid', styles: baseStyles,
+      columnStyles: { 0:{ cellWidth:160, fontStyle:'bold', textColor:[90,97,107] } },
+      margin:{ left:M, right:M },
+    });
+    y = doc.lastAutoTable.finalY + 16;
   });
 
-  doc.autoTable({
-    startY: doc.lastAutoTable.finalY + 16,
-    head: sectionHead('Participation aux votes', 2),
-    body: data.participation,
-    theme: 'grid',
-    styles: baseStyles,
-    columnStyles: { 0: { cellWidth: 160, fontStyle:'bold', textColor:[90,97,107] } },
-    margin: { left: M, right: M },
-  });
+  if (fiche.votes) {
+    const v = fiche.votes;
+    const cols = {};
+    if (v.widths?.pdf) Object.entries(v.widths.pdf).forEach(([k,w]) => { cols[k] = { cellWidth:w }; });
+    cols[v.colorCol] = Object.assign(cols[v.colorCol] || {}, { fontStyle:'bold' });
+    doc.autoTable({
+      startY: y,
+      head: [
+        [{ content: v.title + ' (' + v.rows.length + ')', colSpan: v.columns.length, styles:{ halign:'left', fillColor:INK, textColor:[255,255,255], fontStyle:'bold', fontSize:11 } }],
+        v.columns.map(c => ({ content:c, styles:{ fillColor:[240,242,246], textColor:[60,66,74], fontStyle:'bold' } })),
+      ],
+      body: v.rows.length ? v.rows : [[{ content:'Aucune donnée disponible.', colSpan:v.columns.length, styles:{ halign:'center', textColor:[120,120,120] } }]],
+      theme:'grid', styles: baseStyles, columnStyles: cols, margin:{ left:M, right:M },
+      didParseCell: (d) => { if (d.section === 'body' && d.column.index === v.colorCol) d.cell.styles.textColor = votePosRgb(d.cell.raw); },
+    });
+    y = doc.lastAutoTable.finalY + 16;
+  }
 
-  const votesBody = data.votes.length
-    ? data.votes
-    : [[{ content: 'Aucune donnée de vote disponible.', colSpan: 4, styles: { halign:'center', textColor:[120,120,120] } }]];
-  doc.autoTable({
-    startY: doc.lastAutoTable.finalY + 16,
-    head: [
-      [{ content: 'Détail des votes (' + data.votes.length + ')', colSpan: 4, styles: { halign:'left', fillColor: INK, textColor:[255,255,255], fontStyle:'bold', fontSize: 11 } }],
-      ['Date', 'Scrutin', 'Position', 'Délégation'].map(t => ({ content: t, styles: { fillColor:[240,242,246], textColor:[60,66,74], fontStyle:'bold' } })),
-    ],
-    body: votesBody,
-    theme: 'grid',
-    styles: baseStyles,
-    columnStyles: { 0: { cellWidth: 62 }, 2: { cellWidth: 70, fontStyle:'bold' }, 3: { cellWidth: 58, halign:'center' } },
-    margin: { left: M, right: M },
-    didParseCell: (d) => {
-      if (d.section === 'body' && d.column.index === 2) {
-        const t = d.cell.raw;
-        if (t === 'Pour') d.cell.styles.textColor = [14, 138, 82];
-        else if (t === 'Contre') d.cell.styles.textColor = [225, 0, 15];
-        else if (t === 'Abstention') d.cell.styles.textColor = [201, 118, 13];
-      }
-    },
-    didDrawPage: () => {
-      const h = doc.internal.pageSize.getHeight();
-      doc.setFont('helvetica', 'normal'); doc.setFontSize(8); doc.setTextColor(150, 150, 150);
-      doc.text('France Monitor - Source : Assemblée nationale · Exporté le ' + data.dateStr, M, h - 20);
-      doc.text('Page ' + doc.internal.getNumberOfPages(), pageW - M, h - 20, { align:'right' });
-    },
-  });
+  {
+    const links = fiche.news.map(n => n.link);
+    const newsRows = fiche.news.length
+      ? fiche.news.map(n => [ n.date, n.source, n.title ])
+      : [[{ content:'Aucune actualité récente.', colSpan:3, styles:{ halign:'center', textColor:[120,120,120] } }]];
+    doc.autoTable({
+      startY: y,
+      head: [
+        [{ content:'Actualités récentes (' + fiche.news.length + ')', colSpan:3, styles:{ halign:'left', fillColor:INK, textColor:[255,255,255], fontStyle:'bold', fontSize:11 } }],
+        ['Date','Source','Titre'].map(c => ({ content:c, styles:{ fillColor:[240,242,246], textColor:[60,66,74], fontStyle:'bold' } })),
+      ],
+      body: newsRows,
+      theme:'grid', styles: baseStyles,
+      columnStyles: { 0:{ cellWidth:60 }, 1:{ cellWidth:95, textColor:[110,116,126] }, 2:{ textColor:[37,99,235] } },
+      margin:{ left:M, right:M },
+      didDrawCell: (d) => {
+        if (d.section === 'body' && d.column.index === 2 && links[d.row.index]) {
+          doc.link(d.cell.x, d.cell.y, d.cell.width, d.cell.height, { url: links[d.row.index] });
+        }
+      },
+    });
+  }
 
-  doc.save(depSlug(dep) + '.pdf');
+  const pages = doc.internal.getNumberOfPages();
+  for (let p = 1; p <= pages; p++) {
+    doc.setPage(p);
+    const h = doc.internal.pageSize.getHeight();
+    doc.setFont('helvetica','normal'); doc.setFontSize(8); doc.setTextColor(150,150,150);
+    doc.text('France Monitor - Source : ' + fiche.source + ' · Exporté le ' + dateStr, M, h - 20);
+    doc.text('Page ' + p + '/' + pages, pageW - M, h - 20, { align:'right' });
+  }
+
+  doc.save(fiche.slug + '.pdf');
 }
 
-/* ── Excel (SheetJS) ── */
-async function exportDepExcel(dep, stats) {
-  await loadDepScript(DEP_EXPORT_LIBS.xlsx);
+/* ── Rendu Excel (SheetJS) ── */
+async function exportFicheExcel(fiche) {
+  await loadExportScript(EXPORT_LIBS.xlsx);
   const XLSX = window.XLSX;
-  const data = buildDepExportData(dep, stats);
+  const dateStr = new Date().toLocaleDateString('fr-FR', { year:'numeric', month:'long', day:'numeric' });
   const wb = XLSX.utils.book_new();
 
-  const ficheAOA = [
-    ['FICHE DÉPUTÉ — FRANCE MONITOR'],
-    [dep.nomComplet || ''],
-    [],
-    ['IDENTITÉ', ''],
-    ...data.identite,
-    [],
-    ['PARTICIPATION AUX VOTES', ''],
-    ...data.participation,
-    [],
-    ['Source', 'Assemblée nationale — XVIIe législature'],
-    ['Exporté le', data.dateStr],
-  ];
-  const ws1 = XLSX.utils.aoa_to_sheet(ficheAOA);
-  ws1['!cols'] = [{ wch: 26 }, { wch: 60 }];
+  const aoa = [ [fiche.docTitle.toUpperCase() + ' — FRANCE MONITOR'], [fiche.name], [] ];
+  if (fiche.bio) aoa.push(['Biographie', fiche.bio], []);
+  fiche.sections.forEach(sec => {
+    aoa.push([sec.title.toUpperCase(), '']);
+    sec.rows.forEach(r => aoa.push(r));
+    aoa.push([]);
+  });
+  aoa.push(['Source', fiche.source], ['Exporté le', dateStr]);
+  const ws1 = XLSX.utils.aoa_to_sheet(aoa);
+  ws1['!cols'] = [{ wch:28 }, { wch:72 }];
   XLSX.utils.book_append_sheet(wb, ws1, 'Fiche');
 
-  const votesAOA = [['Date', 'Scrutin', 'Position', 'Par délégation'], ...data.votes];
-  const ws2 = XLSX.utils.aoa_to_sheet(votesAOA);
-  ws2['!cols'] = [{ wch: 13 }, { wch: 72 }, { wch: 14 }, { wch: 15 }];
-  ws2['!autofilter'] = { ref: 'A1:D1' };
-  XLSX.utils.book_append_sheet(wb, ws2, 'Votes');
+  if (fiche.votes) {
+    const ws = XLSX.utils.aoa_to_sheet([ fiche.votes.columns, ...fiche.votes.rows ]);
+    ws['!cols'] = fiche.votes.columns.map((c, i) => ({ wch: i === 1 ? 70 : 16 }));
+    if (fiche.votes.rows.length) ws['!autofilter'] = { ref: XLSX.utils.encode_range({ s:{ r:0, c:0 }, e:{ r:0, c:fiche.votes.columns.length - 1 } }) };
+    XLSX.utils.book_append_sheet(wb, ws, 'Votes');
+  }
 
-  XLSX.writeFile(wb, depSlug(dep) + '.xlsx');
+  const ws3 = XLSX.utils.aoa_to_sheet([ ['Date','Source','Titre','Lien'], ...fiche.news.map(n => [n.date, n.source, n.title, n.link]) ]);
+  ws3['!cols'] = [{ wch:13 }, { wch:24 }, { wch:70 }, { wch:42 }];
+  if (fiche.news.length) ws3['!autofilter'] = { ref:'A1:D1' };
+  XLSX.utils.book_append_sheet(wb, ws3, 'Actualités');
+
+  XLSX.writeFile(wb, fiche.slug + '.xlsx');
 }
 
-/* ── Word (docx) ── */
-async function exportDepWord(dep, stats) {
-  await loadDepScript(DEP_EXPORT_LIBS.docx);
+/* ── Rendu Word (docx) ── */
+async function exportFicheWord(fiche) {
+  await loadExportScript(EXPORT_LIBS.docx);
   const D = window.docx;
-  const data = buildDepExportData(dep, stats);
+  const dateStr = new Date().toLocaleDateString('fr-FR', { year:'numeric', month:'long', day:'numeric' });
 
   const cell = (text, o = {}) => new D.TableCell({
-    width: o.width ? { size: o.width, type: D.WidthType.PERCENTAGE } : undefined,
-    shading: o.fill ? { type: D.ShadingType.CLEAR, color: 'auto', fill: o.fill } : undefined,
-    margins: { top: 60, bottom: 60, left: 110, right: 110 },
-    children: [new D.Paragraph({ children: [new D.TextRun({ text: String(text ?? ''), bold: o.bold, color: o.color, size: 20 })] })],
+    width: o.width ? { size:o.width, type:D.WidthType.PERCENTAGE } : undefined,
+    shading: o.fill ? { type:D.ShadingType.CLEAR, color:'auto', fill:o.fill } : undefined,
+    margins: { top:60, bottom:60, left:110, right:110 },
+    children: [ new D.Paragraph({ children:[ new D.TextRun({ text:String(text ?? ''), bold:o.bold, color:o.color, size:20 }) ] }) ],
   });
   const kvTable = (rows) => new D.Table({
-    width: { size: 100, type: D.WidthType.PERCENTAGE },
-    rows: rows.map(([k, v]) => new D.TableRow({ children: [
-      cell(k, { bold: true, width: 34, fill: 'F3F4F6', color: '3B414A' }),
-      cell(v, { width: 66 }),
-    ] })),
+    width: { size:100, type:D.WidthType.PERCENTAGE },
+    rows: rows.map(([k, v]) => new D.TableRow({ children:[ cell(k, { bold:true, width:34, fill:'F3F4F6', color:'3B414A' }), cell(v, { width:66 }) ] })),
   });
-  const heading = (text) => new D.Paragraph({ spacing: { before: 320, after: 140 },
-    children: [new D.TextRun({ text, bold: true, size: 26, color: '0B0E14' })] });
+  const heading = (text) => new D.Paragraph({ spacing:{ before:320, after:140 }, children:[ new D.TextRun({ text, bold:true, size:26, color:'0B0E14' }) ] });
 
   const children = [
-    new D.Paragraph({ children: [new D.TextRun({ text: 'Fiche député', bold: true, size: 22, color: '565D67' })] }),
-    new D.Paragraph({ spacing: { after: 40 }, children: [new D.TextRun({ text: dep.nomComplet || '', bold: true, size: 40, color: '0B0E14' })] }),
-    new D.Paragraph({ children: [new D.TextRun({ text: (dep.female ? 'Députée' : 'Député') + (dep.groupe ? ' · ' + dep.groupe.name + ' (' + dep.groupe.short + ')' : ''), color: '565D67', size: 22 })] }),
-    new D.Paragraph({ spacing: { after: 60 }, children: [new D.TextRun({ text: (dep.circonscription || '') + (dep.dept ? ' — ' + dep.dept : '') + (dep.region ? ', ' + dep.region : ''), color: '565D67', size: 20 })] }),
+    new D.Paragraph({ children:[ new D.TextRun({ text:fiche.docTitle, bold:true, size:22, color:'565D67' }) ] }),
+    new D.Paragraph({ spacing:{ after:40 }, children:[ new D.TextRun({ text:fiche.name, bold:true, size:40, color:'0B0E14' }) ] }),
   ];
+  fiche.subtitle.forEach((line, i) => children.push(new D.Paragraph({
+    spacing: i === fiche.subtitle.length - 1 ? { after:80 } : undefined,
+    children:[ new D.TextRun({ text:line, color:'565D67', size: i === 0 ? 22 : 20 }) ],
+  })));
 
-  const buf = await fetchDepPhotoBuffer(dep);
-  if (buf) {
-    try {
-      children.splice(4, 0, new D.Paragraph({ spacing: { after: 80 },
-        children: [new D.ImageRun({ type: 'jpg', data: buf, transformation: { width: 96, height: 120 } })] }));
-    } catch (e) {}
+  if (fiche.photoUrl) {
+    const buf = await fetchImageBuffer(fiche.photoUrl);
+    if (buf) { try { children.splice(2, 0, new D.Paragraph({ spacing:{ before:40, after:80 }, children:[ new D.ImageRun({ type:'jpg', data:buf, transformation:{ width:96, height:120 } }) ] })); } catch (e) {} }
+  }
+  if (fiche.bio) children.push(new D.Paragraph({ spacing:{ after:60 }, children:[ new D.TextRun({ text:fiche.bio, size:20, color:'3B414A' }) ] }));
+
+  fiche.sections.forEach(sec => { children.push(heading(sec.title), kvTable(sec.rows)); });
+
+  if (fiche.votes) {
+    const v = fiche.votes;
+    children.push(heading(v.title + ' (' + v.rows.length + ')'));
+    if (v.rows.length) {
+      const w = v.widths?.word || v.columns.map(() => Math.floor(100 / v.columns.length));
+      const headRow = new D.TableRow({ tableHeader:true, children: v.columns.map((c, i) => cell(c, { bold:true, fill:'0B0E14', color:'FFFFFF', width:w[i] })) });
+      const rows = v.rows.map(r => new D.TableRow({ children: r.map((val, i) => cell(val, { width:w[i], bold: i === v.colorCol, color: i === v.colorCol ? votePosHex(val) : undefined })) }));
+      children.push(new D.Table({ width:{ size:100, type:D.WidthType.PERCENTAGE }, rows:[headRow, ...rows] }));
+    } else {
+      children.push(new D.Paragraph({ children:[ new D.TextRun({ text:'Aucune donnée disponible.', italics:true, color:'8A9099', size:20 }) ] }));
+    }
   }
 
-  children.push(heading('Identité'), kvTable(data.identite));
-  children.push(heading('Participation aux votes'), kvTable(data.participation));
-  children.push(heading('Détail des votes (' + data.votes.length + ')'));
-
-  if (data.votes.length) {
-    const headRow = new D.TableRow({ tableHeader: true, children: [
-      cell('Date',       { bold: true, fill: '0B0E14', color: 'FFFFFF', width: 14 }),
-      cell('Scrutin',    { bold: true, fill: '0B0E14', color: 'FFFFFF', width: 58 }),
-      cell('Position',   { bold: true, fill: '0B0E14', color: 'FFFFFF', width: 16 }),
-      cell('Délégation', { bold: true, fill: '0B0E14', color: 'FFFFFF', width: 12 }),
-    ] });
-    const voteRows = data.votes.map(([d, t, p, del]) => new D.TableRow({ children: [
-      cell(d, { width: 14 }),
-      cell(t, { width: 58 }),
-      cell(p, { width: 16, bold: true, color: p === 'Pour' ? '0E8A52' : p === 'Contre' ? 'E1000F' : p === 'Abstention' ? 'C9760D' : '565D67' }),
-      cell(del, { width: 12 }),
-    ] }));
-    children.push(new D.Table({ width: { size: 100, type: D.WidthType.PERCENTAGE }, rows: [headRow, ...voteRows] }));
+  children.push(heading('Actualités récentes (' + fiche.news.length + ')'));
+  if (fiche.news.length) {
+    fiche.news.forEach((n, i) => {
+      children.push(new D.Paragraph({ spacing:{ before: i ? 120 : 0 }, children:[ new D.TextRun({ text:(n.date || '') + (n.source ? '  ·  ' + n.source : ''), color:'8A9099', size:16 }) ] }));
+      const titleRun = n.link
+        ? new D.ExternalHyperlink({ link:n.link, children:[ new D.TextRun({ text:n.title, color:'2563EB', underline:{}, size:20 }) ] })
+        : new D.TextRun({ text:n.title, size:20, color:'0B0E14' });
+      children.push(new D.Paragraph({ children:[ titleRun ] }));
+    });
   } else {
-    children.push(new D.Paragraph({ children: [new D.TextRun({ text: 'Aucune donnée de vote disponible.', italics: true, color: '8A9099', size: 20 })] }));
+    children.push(new D.Paragraph({ children:[ new D.TextRun({ text:'Aucune actualité récente.', italics:true, color:'8A9099', size:20 }) ] }));
   }
 
-  children.push(new D.Paragraph({ spacing: { before: 320 },
-    children: [new D.TextRun({ text: 'Source : Assemblée nationale — XVIIe législature · Exporté le ' + data.dateStr + ' via France Monitor', italics: true, color: '8A9099', size: 18 })] }));
+  children.push(new D.Paragraph({ spacing:{ before:320 }, children:[ new D.TextRun({ text:'Source : ' + fiche.source + ' · Exporté le ' + dateStr + ' via France Monitor', italics:true, color:'8A9099', size:18 }) ] }));
 
-  const docFile = new D.Document({
-    creator: 'France Monitor',
-    title: 'Fiche député — ' + (dep.nomComplet || ''),
-    sections: [{ properties: {}, children }],
-  });
+  const docFile = new D.Document({ creator:'France Monitor', title: fiche.docTitle + ' — ' + fiche.name, sections:[{ properties:{}, children }] });
   const blob = await D.Packer.toBlob(docFile);
-  triggerDownload(blob, depSlug(dep) + '.docx');
+  triggerDownload(blob, fiche.slug + '.docx');
 }
 
-function DepExportMenu({ dep, stats }) {
+/* Menu déroulant d'export réutilisable. `getFiche` retourne le modèle au clic. */
+function FicheExportMenu({ getFiche }) {
   const [open, setOpen] = React.useState(false);
   const [busy, setBusy] = React.useState(null);
   const ref = React.useRef(null);
@@ -4639,12 +4717,13 @@ function DepExportMenu({ dep, stats }) {
     if (busy) return;
     setBusy(fmt);
     try {
-      if (fmt === 'pdf')   await exportDepPDF(dep, stats);
-      if (fmt === 'excel') await exportDepExcel(dep, stats);
-      if (fmt === 'word')  await exportDepWord(dep, stats);
+      const fiche = getFiche();
+      if (fmt === 'pdf')   await exportFichePDF(fiche);
+      if (fmt === 'excel') await exportFicheExcel(fiche);
+      if (fmt === 'word')  await exportFicheWord(fiche);
       setOpen(false);
     } catch (e) {
-      console.error('[export député]', e);
+      console.error('[export fiche]', e);
       alert("L'export a échoué. Vérifiez votre connexion internet puis réessayez.");
     } finally {
       setBusy(null);
@@ -4658,7 +4737,7 @@ function DepExportMenu({ dep, stats }) {
   ];
 
   return (
-    <div ref={ref} style={{ position:'relative', marginLeft:'auto' }}>
+    <div ref={ref} style={{ position:'relative' }}>
       <button onClick={() => setOpen(o => !o)} disabled={!!busy}
         style={{ display:'flex', alignItems:'center', gap:7, padding:'8px 16px', borderRadius:'var(--radius-md)',
                  border:'1px solid var(--border)', background:'var(--surface)', cursor: busy ? 'default' : 'pointer',
@@ -4700,6 +4779,8 @@ function DepExportMenu({ dep, stats }) {
 
 function DeputeView({ dep, onBack }) {
   const { stats, loading: votesLoading } = useDeputeVotes(dep?.id);
+  const { news: allDepNews, loading: newsLoading } = useDeputesNews();
+  const depNews = (dep && allDepNews[dep.id]) || [];
   const [tab, setTab] = React.useState('votes');
   const gc = dep?.groupe?.color || '#9AA3AF';
 
@@ -4719,6 +4800,7 @@ function DeputeView({ dep, onBack }) {
 
   const TABS = [
     { id:'votes', label:'Tous les votes' },
+    { id:'news',  label:'Actualités' + (depNews.length ? ' (' + depNews.length + ')' : '') },
     { id:'info',  label:'Informations'   },
   ];
 
@@ -4743,7 +4825,9 @@ function DeputeView({ dep, onBack }) {
           Retour aux députés
         </button>
         <span style={{ fontSize:12, color:'var(--text-tertiary)', fontFamily:'var(--font-sans)' }}>Assemblée nationale · XVIIe législature</span>
-        <DepExportMenu dep={dep} stats={stats} />
+        <div style={{ marginLeft:'auto' }}>
+          <FicheExportMenu getFiche={() => buildDeputeFiche(dep, stats, depNews)} />
+        </div>
       </div>
 
       <div style={{ display:'grid', gridTemplateColumns:'300px 1fr', gap:20, alignItems:'start' }}>
@@ -4871,6 +4955,33 @@ function DeputeView({ dep, onBack }) {
                   </div>
                 );
               })}
+            </div>
+          )}
+
+          {/* Actualités */}
+          {tab === 'news' && (
+            <div>
+              <div style={{ padding:'18px 24px 12px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'baseline' }}>
+                <div style={{ fontFamily:'var(--font-sans)', fontSize:17, fontWeight:700, color:'var(--ink)' }}>Actualités récentes</div>
+                <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Google Actualités</span>
+              </div>
+              {newsLoading ? (
+                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des actualités…</div>
+              ) : depNews.length === 0 ? (
+                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Aucune actualité récente pour ce député.</div>
+              ) : depNews.map((n, i) => (
+                <a key={i} href={n.link} target="_blank" rel="noopener noreferrer" className="dep-vote-row"
+                   style={{ display:'block', textDecoration:'none' }}>
+                  <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5 }}>
+                    <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{n.date}</span>
+                    {n.source && <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.03em' }}>· {n.source}</span>}
+                  </div>
+                  <div style={{ fontSize:14, fontWeight:600, color:'var(--ink)', lineHeight:1.45 }}>
+                    {n.title}
+                    <span style={{ marginLeft:6, fontSize:11, color:'var(--text-tertiary)' }}>↗</span>
+                  </div>
+                </a>
+              ))}
             </div>
           )}
 
@@ -7344,6 +7455,8 @@ function PPDetailC({ f }) {
 }
 
 function PPDetail({ f, onBack }) {
+  const { news: liveNews } = usePersonnalitesNews();
+  const personNews = (liveNews && liveNews[f.id] && liveNews[f.id].length) ? liveNews[f.id] : (f.news || []);
   return (
     <div style={{ padding:'20px 28px', maxWidth:1100, margin:'0 auto' }}>
       {/* Sticky sub-bar */}
@@ -7351,7 +7464,8 @@ function PPDetail({ f, onBack }) {
         <button onClick={onBack} style={{ display:'flex', alignItems:'center', gap:6, padding:'6px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer', fontSize:12, color:'var(--text-secondary)', fontFamily:'var(--font-sans)' }}>
           <Icon n="arrow-left" s={12} /> Retour
         </button>
-        <div style={{ marginLeft:'auto' }}>
+        <div style={{ marginLeft:'auto', display:'flex', alignItems:'center', gap:12 }}>
+          <FicheExportMenu getFiche={() => buildPersoFiche(f, personNews)} />
           <SourceTag source="Personnalités politiques · france-monitor" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
         </div>
       </div>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T02:58:45.317Z",
+  "updatedAt": "2026-07-03T06:38:36.575Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30780",
@@ -585,6 +585,15 @@
       "dateFin": "2026-07-02T07:15:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO883517"
+    },
+    {
+      "uid": "RUSNR5L17S2026IDS30884",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-07-02T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2026IDS30785",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:07:27.932Z",
+  "updatedAt": "2026-07-03T02:58:45.317Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30780",
@@ -398,15 +398,6 @@
       "organisateur": "PO878513"
     },
     {
-      "uid": "RUANR5L17S2026IDC460672",
-      "titre": "examen du rapport suivi d’un vote, à huis clos.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO878313"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460361",
       "titre": "abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire (n° 2639) :  examen de la proposition de résolution européenne (M. Fabrice Brun, rapporteur) ;",
       "type": "reunionCommission_type",
@@ -513,6 +504,15 @@
       "dateFin": "2026-07-01T15:45:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460672",
+      "titre": "examen du rapport suivi d’un vote, à huis clos.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-01T15:10:00.000Z",
+      "dateFin": "2026-07-01T15:40:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO878313"
     },
     {
       "uid": "RUANR5L17S2026IDC460760",
@@ -893,6 +893,15 @@
       "organisateur": "PO883517"
     },
     {
+      "uid": "RUANR5L17S2026IDC460789",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-06T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460706",
       "titre": "suite de l’examen des articles du projet de loi.",
       "type": "reunionCommission_type",
@@ -1019,15 +1028,6 @@
       "organisateur": "PO880668"
     },
     {
-      "uid": "RUANR5L17S2026IDC460719",
-      "titre": "sous réserve de son dépôt, examen de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460586",
       "titre": "audition, ouverte à la presse, de M. Clément Beaune, Haut-commissaire à la Stratégie et au Plan, sur les travaux du Haut-commissariat relatifs à la défense.",
       "type": "reunionCommission_type",
@@ -1047,7 +1047,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460660",
-      "titre": "nomination des rapporteurs sur le projet de loi de financement de la sécurité sociale pour 2027.",
+      "titre": "nomination des rapporteurs sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
       "dateFin": null,
@@ -1073,13 +1073,22 @@
       "organisateur": "PO59047"
     },
     {
-      "uid": "RUANR5L17S2026IDC460589",
-      "titre": "création d’une mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers ;",
+      "uid": "RUANR5L17S2026IDC460791",
+      "titre": "audition conjointe, sur l’évaluation environnementale, de M. Mathieu Lefèvre, ministre délégué chargé de la Transition écologique et de M. Laurent Michel, président de la formation d’autorité environnementale de l’inspection générale de l’environnement et du développement durable.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T07:30:00.000Z",
+      "dateDebut": "2026-07-08T08:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460719",
+      "titre": "examen, selon la procédure de législation en Commission, de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale (n° 2990) (M. Pierre Cazeneuve, rapporteur) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC460787",
@@ -1098,6 +1107,15 @@
       "dateFin": null,
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO804431"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460589",
+      "titre": "création d’une mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2026IDC460763",
@@ -1307,6 +1325,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2026IDC460792",
+      "titre": "-désignation des membres de la mission d’information sur les réseaux de collecte, d’acheminement et de distribution de l’eau.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460782",
       "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (COJOP) Alpes françaises 2030, et M. Vincent Roberti, directeur général.",
       "type": "reunionCommission_type",
@@ -1314,6 +1341,15 @@
       "dateFin": null,
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460790",
+      "titre": "audition commune avec la commission des Affaires européennes de M. Laurent Nuñez, ministre de l’Intérieur, et discussion générale sur le projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n° 2024/1347, 2024/1348, 2024/1349, 2024/1350, 2024/1351, 2024/1352, 2024/1356, 2024/1358, 2024/1359 du Parlement européen et du Conseil du 14 mai 2024, et les dispositions nécessaires à la transposition de la directive (UE) 2024/1346 du Parlement européen et du Conseil du 14 mai 2024 (n° 2820).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC460503",

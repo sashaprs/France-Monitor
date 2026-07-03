@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-03T15:11:54.899Z",
+  "updatedAt": "2026-07-03T17:26:02.828Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460735",
-      "titre": "- audition en visioconférence",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880370"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460715",
-      "titre": "audition, ouverte à la presse, de Mmes Caroline Pascal, directrice générale de l’enseignement scolaire (Dgesco), et Céline Kerenflec’h, cheffe du service du pilotage, du budget et des territoires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T15:40:00.000Z",
-      "dateFin": "2026-06-30T17:10:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460574",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-06-30T15:45:00.000Z",
-      "dateFin": "2026-06-30T18:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
     {
       "uid": "RUANR5L17S2026IDC460655",
       "titre": "Dîner en l'honneur de M. Serge Bounda, ministre des Affaires étrangères de la République du Congo",
@@ -524,6 +497,15 @@
       "organisateur": "PO882110"
     },
     {
+      "uid": "RUANR5L17S2026IDC460738",
+      "titre": "audition de M. Pascal de Izaguirre, président-directeur général de Corsair.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-02T08:00:00.000Z",
+      "dateFin": "2026-07-02T09:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460712",
       "titre": "audition",
       "type": "reunionCommission_type",
@@ -794,6 +776,15 @@
       "organisateur": "PO420375"
     },
     {
+      "uid": "RUANR5L17S2026IDC460803",
+      "titre": "aIMCC :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-07T11:45:00.000Z",
+      "dateFin": "2026-07-07T12:45:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883858"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30827",
       "titre": "Éloge funèbre de Béatrice Bellamy",
       "type": "seance_type",
@@ -808,7 +799,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-07T14:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO883517"
     },
     {
@@ -912,7 +903,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460682",
-      "titre": "- nomination des rapporteurs spéciaux sur le projet de loi de finances pour 2027 ;",
+      "titre": "nomination des rapporteurs spéciaux sur le projet de loi de finances pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:00:00.000Z",
       "dateFin": null,
@@ -1001,6 +992,15 @@
       "organisateur": "PO880428"
     },
     {
+      "uid": "RUANR5L17S2026IDC460807",
+      "titre": "La répartition des dépenses entre l’assurance maladie obligatoire  et l’assurance maladie complémentaire (MM. Thibault Bazin, Thierry Frappé et Jérôme Guedj, rapporteurs) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T12:15:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO847238"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460745",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
@@ -1017,6 +1017,24 @@
       "dateFin": null,
       "lieu": "Salle 6566 – Palais Bourbon, 2ème étage",
       "organisateur": "PO878304"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460804",
+      "titre": "INSEE :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:00:00.000Z",
+      "dateFin": "2026-07-08T14:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883858"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460764",
+      "titre": "audition de Mme Christine Trouvé, mère d’une victime et M. David Trouvé",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "7ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO880428"
     },
     {
       "uid": "RUANR5L17S2026IDC460773",
@@ -1116,6 +1134,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460805",
+      "titre": "audition de Mme Julie Lassébie, économiste, autrice du chapitre IV « Besoins et politiques en matière de compétences à l’ère de l’intelligence artificielle » du rapport 2023 de l’OCDE sur l’IA au travail.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460806",
+      "titre": "table ronde avec le Conservatoire national des arts et métiers\r- mme Cécile Dejoux, professeure des universités au Conservatoire national des arts et métiers (Cnam), directrice de l’Observatoire des transformations managériales et RH.\r- mme Nathalie Greenan, économiste, professeure des universités au Cnam.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-09T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
     },
     {
       "uid": "RUANR5L17S2026IDC460055",

@@ -6497,6 +6497,23 @@ const PARTIS_DATA = [
   },
 ];
 
+/* Logos officiels des partis (fichiers locaux dans public/logos). */
+const PARTI_LOGOS = {
+  re:'public/logos/re.svg',    rn:'public/logos/rn.svg',    lfi:'public/logos/lfi.png',
+  lr:'public/logos/lr.svg',    ps:'public/logos/ps.svg',    eco:'public/logos/eco.png',
+  hor:'public/logos/hor.svg',  modem:'public/logos/modem.svg', pcf:'public/logos/pcf.svg',
+  pp:'public/logos/pp.svg',
+};
+function PartiLogo({ parti, maxH = 40, fallbackSize = 14 }) {
+  const [err, setErr] = React.useState(false);
+  const src = PARTI_LOGOS[parti.id];
+  if (src && !err) {
+    return <img src={src} alt={'Logo ' + parti.name} onError={() => setErr(true)}
+      style={{ maxHeight:maxH, maxWidth:'100%', objectFit:'contain', display:'block' }} />;
+  }
+  return <span style={{ fontSize:fallbackSize, fontWeight:800, color:parti.color }}>{parti.abbr}</span>;
+}
+
 function PartiCard({ parti, onClick }) {
   const [hov, setHov] = React.useState(false);
   return (
@@ -6505,14 +6522,12 @@ function PartiCard({ parti, onClick }) {
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
       style={{ background:'white', borderRadius:'var(--radius-lg)', border:`1px solid ${hov ? parti.color : 'var(--border-subtle)'}`, padding:'18px', cursor:'pointer', transition:'all 0.15s', transform: hov ? 'translateY(-2px)' : 'none', boxShadow: hov ? '0 4px 16px rgba(0,0,0,0.08)' : 'none' }}>
-      <div style={{ display:'flex', alignItems:'center', gap:12, marginBottom:14 }}>
-        <div style={{ width:44, height:44, borderRadius:10, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.25)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
-          <span style={{ fontSize:13, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
-        </div>
-        <div>
-          <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)' }}>{parti.name}</div>
-          <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>{parti.orientation}</div>
-        </div>
+      <div style={{ height:54, display:'flex', alignItems:'center', justifyContent:'center', marginBottom:12, padding:'8px 12px', background:'#fff', border:'1px solid var(--border-subtle)', borderRadius:10 }}>
+        <PartiLogo parti={parti} maxH={38} fallbackSize={16} />
+      </div>
+      <div style={{ marginBottom:14 }}>
+        <div style={{ fontSize:13.5, fontWeight:700, color:'var(--text-primary)' }}>{parti.name}</div>
+        <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>{parti.orientation}</div>
       </div>
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8 }}>
         {[{label:'Députés AN',val:parti.seatsAN},{label:'Sénateurs',val:parti.seatsSenat},{label:'Adhérents',val:(parti.members/1000).toFixed(0)+'k'}].map(({label,val}) => (
@@ -6554,8 +6569,8 @@ function PartiDetail({ parti, onBack, deputes = [], deputesLoading = false }) {
       {/* Hero */}
       <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'24px', marginBottom:20 }}>
         <div style={{ display:'flex', alignItems:'flex-start', gap:20 }}>
-          <div style={{ width:64, height:64, borderRadius:14, background:hexRgba(parti.color,0.12), border:`2px solid ${hexRgba(parti.color,0.3)}`, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
-            <span style={{ fontSize:18, fontWeight:800, color:parti.color }}>{parti.abbr}</span>
+          <div style={{ width:110, height:64, borderRadius:12, background:'#fff', border:'1px solid var(--border-subtle)', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0, padding:'8px 12px' }}>
+            <PartiLogo parti={parti} maxH={44} fallbackSize={20} />
           </div>
           <div style={{ flex:1 }}>
             <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap' }}>

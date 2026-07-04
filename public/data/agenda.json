@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-04T09:23:27.015Z",
+  "updatedAt": "2026-07-04T11:27:04.597Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460746",
-      "titre": "Table ronde « Consigne » :\r\rRéseau vrac et réemploi (RVR)\rMme Celia Rennesson, cofondatrice et directrice générale\rMme Lucia Pereira, directrice des affaires règlementaires\rIntercommunalités de France\rMme Odile Begorre, membre associée du bureau, maire\rM. Paul Clement, conseiller « Eau et déchets » \rMme Montaine Blonsard, chargée des relations avec le Parlement\r\rCiteo\rM. Jean Hornain, directeur général\rMme Anne-Sophie Louvel, directrice « Opérations et territoires »\rM. Adrien Da Fonseca, conseiller « Affaires publique »\rFédération nationale des boissons (FNB)\rM. Laurent Tribouillet, président\r\rFrance urbaine\rM. Philippe Bolo, maire d’Avrillé et vice-président de la communauté urbaine Angers Loire Métropole\rM. Bastien Taloc, conseiller à France urbaine \r\rAssociation des maires de France (AMF)\rM. Jean-François Vigier, maire de Bures-sur-Yvette, vice-président de l’AMF et co président de la commission transition écologique de l’AMF\rMme Sylviane Oberlé, chargée de mission prévention des pollutions",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T11:00:00.000Z",
-      "dateFin": "2026-07-01T12:15:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO878513"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460671",
-      "titre": "examen du rapport suivi d’un vote, à huis clos.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T11:00:00.000Z",
-      "dateFin": "2026-07-01T12:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO877518"
-    },
     {
       "uid": "RUANR5L17S2026IDC460595",
       "titre": "Audition de Mme Fatiha Dazi-Héni, politologue française, spécialiste de la péninsule Arabique et du Golfe persique, chercheuse à l’Institut de recherche stratégique de l’École militaire (IRSEM) et enseignante à Sciences Po Lille",

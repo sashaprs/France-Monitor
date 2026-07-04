@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-04T15:05:34.932Z",
+  "updatedAt": "2026-07-04T17:05:52.867Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460672",
-      "titre": "examen du rapport suivi d’un vote, à huis clos.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T15:10:00.000Z",
-      "dateFin": "2026-07-01T15:40:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO878313"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460760",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T15:30:00.000Z",
-      "dateFin": "2026-07-01T16:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO883966"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460717",
-      "titre": "audition, ouverte à la presse, de M. Jean-Paul Carteret, premier vice-président de l’Association des maires ruraux de France (AMRF) en charge de l’éducation, et de Mme Anne-Marie Lailheugue, présidente de l’Association des maires ruraux des Landes.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T15:30:00.000Z",
-      "dateFin": "2026-07-01T16:30:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460718",
-      "titre": "audition, ouverte à la presse, de MM. Jean-Michel Morer, vice-président de l’Association des petites villes de France (APVF), et André Robert, délégué général, et Mme Emma Chenillat, responsable finances et fiscalité locales.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T16:35:00.000Z",
-      "dateFin": "2026-07-01T17:25:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
     {
       "uid": "RUANR5L17S2026IDC460721",
       "titre": "examen des articles du projet de loi.",

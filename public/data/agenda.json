@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-04T19:13:35.376Z",
+  "updatedAt": "2026-07-04T20:58:01.353Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460577",
-      "titre": "suite de l’examen du projet de loi cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (Mme Olga Givernet, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-01T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30820",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
-      "type": "seance_type",
-      "dateDebut": "2026-07-01T19:30:00.000Z",
-      "dateFin": "2026-07-01T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30784",
-      "titre": "Suite de la discussion du projet de loi organique, adopté par le Sénat, relatif au renforcement des juridictions criminelles",
-      "type": "seance_type",
-      "dateDebut": "2026-07-01T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460756",
       "titre": "conférence nationale des procureurs de la République – Mmes Magali Josse, procureure de la République à Charleville-Mézières, et Marion Lozach’Meur, procureure de la République à Gap.",

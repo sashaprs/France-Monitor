@@ -1547,6 +1547,7 @@ function AuthScreen({ go, initialMode = 'signin' }) {
    DASHBOARD
    ============================================================ */
 const DASH_MODULES = [
+  { id:'veille',        label:'Veille médiatique',    icon:'radar'       },
   { id:'dette',         label:'Dette publique',       icon:'landmark'    },
   { id:'inflation',     label:'Inflation',            icon:'trending-up' },
   { id:'carburant',     label:'Carburant',            icon:'fuel'        },
@@ -7929,8 +7930,651 @@ function PersonnalitesModule() {
   );
 }
 
+/* ============================================================
+   VEILLE MÉDIATIQUE MODULE
+   ------------------------------------------------------------
+   Deux volets :
+   • « À la une »   — actualités générales par rubrique, pré-rafraîchies
+                      par GitHub Actions (public/data/veille_generale.json).
+   • « Ma watchlist » — sujets et personnalités choisis par l'utilisateur ;
+                      flux Google Actualités récupérés côté navigateur via
+                      un proxy CORS, avec fréquence d'actualisation réglable.
+   Les préférences vivent en localStorage et, si l'utilisateur est connecté,
+   sont synchronisées dans la table Supabase `veille_preferences`
+   (voir supabase/veille.sql) — socle du futur récap quotidien par e-mail.
+   ============================================================ */
+const veilleRssSearchUrl = (q) => 'https://news.google.com/rss/search?q=' + encodeURIComponent(q) + '&hl=fr&gl=FR&ceid=FR:fr';
+const veilleRssTopicUrl  = (t) => 'https://news.google.com/rss/headlines/section/topic/' + t + '?hl=fr&gl=FR&ceid=FR:fr';
+
+const VEILLE_RUBRIQUES = [
+  { id:'une',           label:'À la une',        icon:'newspaper',   url:'https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr' },
+  { id:'politique',     label:'Politique',       icon:'landmark',    url: veilleRssSearchUrl('politique France gouvernement Assemblée') },
+  { id:'economie',      label:'Économie',        icon:'trending-up', url: veilleRssTopicUrl('BUSINESS') },
+  { id:'international', label:'International',   icon:'globe',       url: veilleRssTopicUrl('WORLD') },
+  { id:'ecologie',      label:'Écologie',        icon:'leaf',        url: veilleRssSearchUrl('écologie OR climat OR "transition énergétique" France') },
+  { id:'societe',       label:'Société',         icon:'users-round', url: veilleRssTopicUrl('NATION') },
+  { id:'sante',         label:'Santé',           icon:'heart-pulse', url: veilleRssTopicUrl('HEALTH') },
+  { id:'tech',          label:'Tech & Sciences', icon:'cpu',         url: veilleRssTopicUrl('TECHNOLOGY') },
+];
+
+const VEILLE_SUJETS_SUGGESTIONS = [
+  { id:'ecologie',     label:'Écologie & climat',  q:'écologie OR climat OR "transition énergétique" France' },
+  { id:'immigration',  label:'Immigration',        q:'immigration France politique' },
+  { id:'retraites',    label:'Retraites',          q:'"réforme des retraites" OR retraites France' },
+  { id:'pouvoir-achat',label:"Pouvoir d'achat",    q:'"pouvoir d\'achat" France' },
+  { id:'securite',     label:'Sécurité',           q:'sécurité délinquance police France' },
+  { id:'education',    label:'Éducation',          q:'éducation nationale école France' },
+  { id:'sante',        label:'Santé publique',     q:'santé hôpital France' },
+  { id:'logement',     label:'Logement',           q:'logement immobilier crise France' },
+  { id:'agriculture',  label:'Agriculture',        q:'agriculture agriculteurs France' },
+  { id:'energie',      label:'Énergie',            q:'énergie nucléaire électricité France' },
+  { id:'europe',       label:'Union européenne',   q:'"Union européenne" France' },
+  { id:'justice',      label:'Justice',            q:'justice procès France politique' },
+  { id:'fiscalite',    label:'Fiscalité & impôts', q:'impôts fiscalité budget France' },
+  { id:'numerique',    label:'Numérique & IA',     q:'"intelligence artificielle" OR numérique France' },
+  { id:'defense',      label:'Défense',            q:'défense armée militaire France' },
+  { id:'lois',         label:'Lois & Parlement',   q:'loi adoptée Assemblée nationale Sénat' },
+];
+
+const VEILLE_FREQS = [
+  { id:'manuel', label:'Actualisation manuelle', ms:0 },
+  { id:'5min',   label:'Toutes les 5 min',       ms:5*60*1000 },
+  { id:'15min',  label:'Toutes les 15 min',      ms:15*60*1000 },
+  { id:'30min',  label:'Toutes les 30 min',      ms:30*60*1000 },
+  { id:'1h',     label:'Toutes les heures',      ms:60*60*1000 },
+];
+
+const VEILLE_COLORS = ['#2563EB','#0E9BA8','#7C3AED','#0E8A52','#D97706','#E11D48','#14385F','#C0392B'];
+function veilleColor(key) {
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return VEILLE_COLORS[h % VEILLE_COLORS.length];
+}
+
+function veilleNorm(str) {
+  return (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
+function veilleSlug(str) {
+  return veilleNorm(str).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || ('item-' + Date.now());
+}
+
+function veilleAgo(ts) {
+  if (!ts) return '';
+  const m = Math.round((Date.now() - ts) / 60000);
+  if (m < 1) return "à l'instant";
+  if (m < 60) return 'il y a ' + m + ' min';
+  const h = Math.floor(m / 60);
+  if (h < 24) return 'il y a ' + h + ' h';
+  return 'il y a ' + Math.floor(h / 24) + ' j';
+}
+
+function veilleTsFromDate(dateStr) {
+  const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(dateStr || '');
+  return m ? new Date(+m[3], +m[2] - 1, +m[1]).getTime() : 0;
+}
+
+/* Proxys CORS publics essayés dans l'ordre (Google News RSS n'expose pas
+   d'en-têtes CORS ; côté navigateur, un relais est indispensable). */
+const VEILLE_PROXIES = [
+  (u) => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+  (u) => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
+  (u) => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u),
+];
+
+function veilleParseRss(xml, matchTerms) {
+  const doc = new DOMParser().parseFromString(xml, 'text/xml');
+  const items = Array.from(doc.querySelectorAll('item'));
+  const news = [];
+  for (const it of items) {
+    const get = (name) => { const el = it.querySelector(name); return el ? el.textContent.trim() : ''; };
+    const source = get('source');
+    let title = get('title');
+    if (source && title.endsWith(' - ' + source)) title = title.slice(0, -(source.length + 3)).trim();
+    else title = title.replace(/ - [^-]+$/, '').trim();
+    const link = get('link');
+    const pubDate = get('pubDate');
+    if (!title || !link) continue;
+    if (matchTerms && matchTerms.length) {
+      const nt = veilleNorm(title);
+      if (!matchTerms.some(m => nt.includes(m))) continue;
+    }
+    const d = new Date(pubDate);
+    news.push({
+      date: isNaN(d) ? '' : String(d.getUTCDate()).padStart(2,'0') + '/' + String(d.getUTCMonth()+1).padStart(2,'0') + '/' + d.getUTCFullYear(),
+      title, source: source || 'Google Actualités', link, ts: d.getTime() || 0,
+    });
+  }
+  news.sort((a, b) => b.ts - a.ts);
+  const seen = new Set(); const out = [];
+  for (const n of news) {
+    const k = n.title.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k); out.push(n);
+    if (out.length >= 12) break;
+  }
+  return out;
+}
+
+async function veilleFetchLive(rssUrl, matchTerms) {
+  let lastErr = null;
+  for (const proxy of VEILLE_PROXIES) {
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 12000);
+      const res = await fetch(proxy(rssUrl), { signal: ctrl.signal });
+      clearTimeout(timer);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const xml = await res.text();
+      if (!xml.includes('<rss') && !xml.includes('<item')) throw new Error('Réponse invalide');
+      return veilleParseRss(xml, matchTerms);
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error('Aucun proxy disponible');
+}
+
+/* Cache local des flux (borné à 40 requêtes pour ne pas gonfler localStorage). */
+const VEILLE_CACHE_KEY = 'fm_veille_cache_v1';
+function veilleCacheRead() {
+  try { return JSON.parse(localStorage.getItem(VEILLE_CACHE_KEY)) || {}; } catch (e) { return {}; }
+}
+function veilleCacheWrite(key, items) {
+  try {
+    const c = veilleCacheRead();
+    c[key] = { ts: Date.now(), items };
+    const keys = Object.keys(c);
+    if (keys.length > 40) keys.sort((a, b) => c[a].ts - c[b].ts).slice(0, keys.length - 40).forEach(k => delete c[k]);
+    localStorage.setItem(VEILLE_CACHE_KEY, JSON.stringify(c));
+  } catch (e) {}
+}
+
+/* Actualités générales pré-rafraîchies par GitHub Actions. */
+let _veilleGenCachePromise = null;
+function useVeilleGenerale() {
+  const [state, setState] = React.useState({ loading: true, rubriques: {}, updatedAt: null });
+  React.useEffect(() => {
+    const load = _veilleGenCachePromise
+      ? _veilleGenCachePromise
+      : (_veilleGenCachePromise = fetch('public/data/veille_generale.json')
+          .then(r => r.json())
+          .catch(() => ({ rubriques: {}, updatedAt: null })));
+    let alive = true;
+    load.then(d => { if (alive) setState({ loading: false, rubriques: d.rubriques || {}, updatedAt: d.updatedAt }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+/* Préférences : localStorage toujours, Supabase en plus si connecté.
+   La copie distante prime au chargement (multi-appareils) ; chaque
+   modification est ré-envoyée (debounce) vers `veille_preferences`. */
+const VEILLE_PREFS_KEY = 'fm_veille_prefs_v1';
+const VEILLE_PREFS_DEFAULT = { sujets: [], personnalites: [], frequence: '30min', digestEmail: false, digestHeure: '08:00' };
+
+function useVeillePrefs(user) {
+  const [prefs, setPrefsState] = React.useState(() => {
+    try { return { ...VEILLE_PREFS_DEFAULT, ...(JSON.parse(localStorage.getItem(VEILLE_PREFS_KEY)) || {}) }; }
+    catch (e) { return VEILLE_PREFS_DEFAULT; }
+  });
+  const [remoteReady, setRemoteReady] = React.useState(false);
+  const saveTimer = React.useRef(null);
+  const userId = user && user.id;
+
+  React.useEffect(() => {
+    if (!userId || !isSupabaseConfigured()) { setRemoteReady(true); return; }
+    let alive = true;
+    supabaseClient.from('veille_preferences').select('*').eq('user_id', userId).maybeSingle()
+      .then(({ data, error }) => {
+        if (!alive) return;
+        if (!error && data) {
+          const p = {
+            sujets: Array.isArray(data.sujets) ? data.sujets : [],
+            personnalites: Array.isArray(data.personnalites) ? data.personnalites : [],
+            frequence: data.frequence || '30min',
+            digestEmail: !!data.digest_email,
+            digestHeure: data.digest_heure || '08:00',
+          };
+          setPrefsState(p);
+          try { localStorage.setItem(VEILLE_PREFS_KEY, JSON.stringify(p)); } catch (e) {}
+        }
+        setRemoteReady(true);
+      })
+      .catch(() => { if (alive) setRemoteReady(true); });
+    return () => { alive = false; };
+  }, [userId]);
+
+  const setPrefs = React.useCallback((updater) => {
+    setPrefsState(prev => {
+      const next = typeof updater === 'function' ? updater(prev) : updater;
+      try { localStorage.setItem(VEILLE_PREFS_KEY, JSON.stringify(next)); } catch (e) {}
+      if (userId && isSupabaseConfigured()) {
+        clearTimeout(saveTimer.current);
+        saveTimer.current = setTimeout(() => {
+          supabaseClient.from('veille_preferences').upsert({
+            user_id: userId, sujets: next.sujets, personnalites: next.personnalites,
+            frequence: next.frequence, digest_email: next.digestEmail, digest_heure: next.digestHeure,
+          }).then(({ error }) => { if (error) console.warn('Veille : sauvegarde Supabase impossible —', error.message); });
+        }, 800);
+      }
+      return next;
+    });
+  }, [userId]);
+
+  return { prefs, setPrefs, remoteReady };
+}
+
+/* ---- Sous-composants ---- */
+
+function VeilleNewsCard({ n }) {
+  const [hover, setHover] = React.useState(false);
+  return (
+    <a href={n.link} target="_blank" rel="noopener noreferrer"
+       onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+       style={{ display:'block', background:'white', borderRadius:'var(--radius-sm)', border:'1px solid var(--border-subtle)',
+                padding:'12px 14px', textDecoration:'none', transition:'border-color .12s, box-shadow .12s',
+                borderColor: hover ? 'var(--accent, #2563EB)' : 'var(--border-subtle)',
+                boxShadow: hover ? '0 2px 8px rgba(37,99,235,0.08)' : 'none' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:6, marginBottom:4 }}>
+        <span style={{ fontSize:10, color:'var(--text-tertiary)' }}>{n.date}</span>
+        {n.source && <span style={{ fontSize:9.5, fontWeight:600, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.03em' }}>· {n.source}</span>}
+      </div>
+      <div style={{ fontSize:12.5, fontWeight:500, lineHeight:1.5, color: hover ? 'var(--accent, #2563EB)' : 'var(--text-primary)', transition:'color .12s' }}>
+        {n.title}<span style={{ marginLeft:5, fontSize:10, color:'var(--text-tertiary)' }}>↗</span>
+      </div>
+    </a>
+  );
+}
+
+function VeilleFeedRow({ n, origin, last }) {
+  const [hover, setHover] = React.useState(false);
+  const color = veilleColor(origin.key);
+  return (
+    <a href={n.link} target="_blank" rel="noopener noreferrer"
+       onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+       style={{ display:'block', padding:'10px 0', borderBottom: last ? 'none' : '1px solid var(--border-subtle)', textDecoration:'none' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:6, marginBottom:3, flexWrap:'wrap' }}>
+        <span style={{ fontSize:9.5, fontWeight:700, padding:'1px 8px', borderRadius:99, background:hexRgba(color,0.1), color, border:'1px solid ' + hexRgba(color,0.25) }}>
+          {origin.label}
+        </span>
+        <span style={{ fontSize:10, color:'var(--text-tertiary)' }}>{n.date}</span>
+        {n.source && <span style={{ fontSize:9.5, fontWeight:600, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.03em' }}>· {n.source}</span>}
+      </div>
+      <div style={{ fontSize:12.5, fontWeight:500, lineHeight:1.5, color: hover ? 'var(--accent, #2563EB)' : 'var(--text-primary)', transition:'color .12s' }}>
+        {n.title}<span style={{ marginLeft:5, fontSize:10, color:'var(--text-tertiary)' }}>↗</span>
+      </div>
+    </a>
+  );
+}
+
+function VeilleAddSujetPanel({ existing, onAdd, onClose }) {
+  const [custom, setCustom] = React.useState('');
+  const available = VEILLE_SUJETS_SUGGESTIONS.filter(s => !existing.some(e => e.id === s.id));
+  const submitCustom = () => {
+    const label = custom.trim();
+    if (!label) return;
+    onAdd({ id: veilleSlug(label), label, q: label + ' France' });
+    setCustom('');
+  };
+  return (
+    <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', padding:'14px 16px', marginBottom:14 }}>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:10 }}>
+        <span style={{ fontSize:12, fontWeight:700, color:'var(--text-primary)' }}>Suivre un sujet</span>
+        <button onClick={onClose} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:2, display:'flex' }}><Icon n="x" s={14} /></button>
+      </div>
+      {available.length > 0 && (
+        <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:12 }}>
+          {available.map(s => (
+            <button key={s.id} onClick={() => onAdd(s)}
+              style={{ display:'inline-flex', alignItems:'center', gap:4, padding:'5px 12px', borderRadius:99, border:'1px solid var(--border)', background:'var(--surface)', fontSize:11.5, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+              <Icon n="plus" s={11} />{s.label}
+            </button>
+          ))}
+        </div>
+      )}
+      <div style={{ display:'flex', gap:8 }}>
+        <input value={custom} onChange={e => setCustom(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') submitCustom(); }}
+          placeholder="Sujet libre — ex. « intelligence artificielle », « loi immigration »…"
+          style={{ flex:1, padding:'8px 10px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        <button onClick={submitCustom} disabled={!custom.trim()}
+          style={{ padding:'8px 16px', borderRadius:'var(--radius-sm)', border:'none', background: custom.trim() ? 'var(--accent, #2563EB)' : 'var(--gray-200, #e5e7eb)', color:'white', fontSize:12, fontWeight:700, cursor: custom.trim() ? 'pointer' : 'default', fontFamily:'var(--font-sans)' }}>
+          Ajouter
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function VeilleAddPersoPanel({ existing, onAdd, onClose }) {
+  const [custom, setCustom] = React.useState('');
+  const available = PERSONNALITES_DATA.filter(p => !existing.some(e => e.id === p.id));
+  const submitCustom = () => {
+    const name = custom.trim();
+    if (!name) return;
+    onAdd({ id: veilleSlug(name), name });
+    setCustom('');
+  };
+  return (
+    <div style={{ background:'white', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', padding:'14px 16px', marginBottom:14 }}>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:10 }}>
+        <span style={{ fontSize:12, fontWeight:700, color:'var(--text-primary)' }}>Suivre une personnalité politique</span>
+        <button onClick={onClose} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:2, display:'flex' }}><Icon n="x" s={14} /></button>
+      </div>
+      {available.length > 0 && (
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:6, marginBottom:12 }}>
+          {available.map(p => (
+            <button key={p.id} onClick={() => onAdd({ id: p.id, name: p.name })}
+              style={{ display:'flex', alignItems:'center', gap:8, padding:'6px 10px', borderRadius:'var(--radius-sm)', border:'1px solid var(--border)', background:'var(--surface)', cursor:'pointer', fontFamily:'var(--font-sans)', textAlign:'left' }}>
+              <PPAvatar f={p} size={26} />
+              <span style={{ flex:1, minWidth:0 }}>
+                <span style={{ display:'block', fontSize:11.5, fontWeight:600, color:'var(--text-primary)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{p.name}</span>
+                <span style={{ display:'block', fontSize:9.5, color:'var(--text-tertiary)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{p.party}</span>
+              </span>
+              <Icon n="plus" s={12} color="var(--text-tertiary)" />
+            </button>
+          ))}
+        </div>
+      )}
+      <div style={{ display:'flex', gap:8 }}>
+        <input value={custom} onChange={e => setCustom(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') submitCustom(); }}
+          placeholder="Autre personnalité — ex. « Gérald Darmanin »…"
+          style={{ flex:1, padding:'8px 10px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        <button onClick={submitCustom} disabled={!custom.trim()}
+          style={{ padding:'8px 16px', borderRadius:'var(--radius-sm)', border:'none', background: custom.trim() ? 'var(--accent, #2563EB)' : 'var(--gray-200, #e5e7eb)', color:'white', fontSize:12, fontWeight:700, cursor: custom.trim() ? 'pointer' : 'default', fontFamily:'var(--font-sans)' }}>
+          Ajouter
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function VeilleDigestCard({ prefs, setPrefs, user }) {
+  const { Toggle } = window.FranceMonitorDesignSystem_5343d8;
+  const synced = user && isSupabaseConfigured();
+  return (
+    <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'16px 18px', marginTop:16 }}>
+      <div style={{ display:'flex', alignItems:'flex-start', gap:12, flexWrap:'wrap' }}>
+        <span style={{ width:34, height:34, borderRadius:8, background:hexRgba('#2563EB',0.08), display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>
+          <Icon n="mail" s={17} color="var(--accent, #2563EB)" />
+        </span>
+        <div style={{ flex:1, minWidth:220 }}>
+          <div style={{ fontSize:13, fontWeight:700, color:'var(--text-primary)' }}>Récap quotidien par e-mail</div>
+          <div style={{ fontSize:11.5, color:'var(--text-secondary)', marginTop:2, lineHeight:1.6 }}>
+            Chaque matin : les articles marquants de votre watchlist et les dernières lois adoptées au Parlement.
+            {' '}<span style={{ color:'var(--text-tertiary)' }}>Vos préférences sont enregistrées dès maintenant — l'envoi des e-mails sera activé prochainement.</span>
+          </div>
+          {!synced && (
+            <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:6 }}>
+              <Icon n="info" s={11} style={{ verticalAlign:'-1px', marginRight:4 }} />
+              Connectez-vous pour synchroniser votre watchlist entre appareils et recevoir le récap.
+            </div>
+          )}
+        </div>
+        <div style={{ display:'flex', alignItems:'center', gap:12, flexShrink:0 }}>
+          <select value={prefs.digestHeure} onChange={e => setPrefs(p => ({ ...p, digestHeure: e.target.value }))} disabled={!prefs.digestEmail}
+            style={{ padding:'6px 10px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:11.5, fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none', opacity: prefs.digestEmail ? 1 : 0.5 }}>
+            {['06:00','07:00','08:00','09:00','10:00'].map(h => <option key={h} value={h}>{h}</option>)}
+          </select>
+          <Toggle checked={prefs.digestEmail} onChange={(v) => setPrefs(p => ({ ...p, digestEmail: v }))} label="Activer" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function VeilleModule({ user }) {
+  const { SourceTag } = window.FranceMonitorDesignSystem_5343d8;
+  const { prefs, setPrefs, remoteReady } = useVeillePrefs(user);
+  const gen = useVeilleGenerale();
+  const { news: ppNews } = usePersonnalitesNews();
+
+  const [tab, setTab] = React.useState('une');            // 'une' | 'watch'
+  const [rubrique, setRubrique] = React.useState('une');
+  const [filter, setFilter] = React.useState('all');
+  const [addPanel, setAddPanel] = React.useState(null);   // null | 'sujet' | 'perso'
+  const [feeds, setFeeds] = React.useState({});           // clé -> { loading, items, ts, error }
+  const [refreshing, setRefreshing] = React.useState(false);
+  const [lastRefresh, setLastRefresh] = React.useState(null);
+
+  const watchItems = React.useMemo(() => ([
+    ...prefs.sujets.map(s => ({ key:'s:'+s.id, kind:'sujet', label:s.label, url: veilleRssSearchUrl(s.q || (s.label + ' France')), match: null })),
+    ...prefs.personnalites.map(p => ({
+      key:'p:'+p.id, kind:'perso', label:p.name, persoId:p.id,
+      url: veilleRssSearchUrl('"' + p.name + '"'),
+      match: [veilleNorm((p.name || '').split(' ').pop())].filter(Boolean),
+    })),
+  ]), [prefs.sujets, prefs.personnalites]);
+
+  const freq = VEILLE_FREQS.find(f => f.id === prefs.frequence) || VEILLE_FREQS[3];
+
+  const refreshAll = React.useCallback(async (opts) => {
+    const force = !!(opts && opts.force);
+    const includeRubrique = !!(opts && opts.includeRubrique);
+    const ttl = freq.ms || Infinity;   // en manuel : on ne re-télécharge que sur demande
+    const cache = veilleCacheRead();
+    const targets = [...watchItems];
+    if (includeRubrique) {
+      const r = VEILLE_RUBRIQUES.find(x => x.id === rubrique) || VEILLE_RUBRIQUES[0];
+      targets.push({ key:'r:'+r.id, kind:'rub', label:r.label, url:r.url, match:null });
+    }
+    const stale = targets.filter(t => force || !cache[t.key] || (Date.now() - cache[t.key].ts) > ttl);
+    if (!stale.length) return;
+    setRefreshing(true);
+    await Promise.all(stale.map(async t => {
+      setFeeds(f => ({ ...f, [t.key]: { ...(f[t.key] || {}), loading: true } }));
+      try {
+        const items = await veilleFetchLive(t.url, t.match);
+        veilleCacheWrite(t.key, items);
+        setFeeds(f => ({ ...f, [t.key]: { loading: false, items, ts: Date.now() } }));
+      } catch (e) {
+        setFeeds(f => ({ ...f, [t.key]: { ...(f[t.key] || {}), loading: false, error: true } }));
+      }
+    }));
+    setRefreshing(false);
+    setLastRefresh(Date.now());
+  }, [watchItems, freq.ms, rubrique]);
+
+  // Au montage / à chaque évolution de la watchlist : cache local puis réseau si périmé.
+  React.useEffect(() => {
+    if (!remoteReady) return;
+    const cache = veilleCacheRead();
+    setFeeds(f => {
+      const next = { ...f };
+      for (const it of watchItems) {
+        if (!next[it.key] && cache[it.key]) next[it.key] = { loading:false, items: cache[it.key].items, ts: cache[it.key].ts };
+      }
+      return next;
+    });
+    refreshAll({ force: false, includeRubrique: false });
+  }, [remoteReady, refreshAll]);
+
+  // Actualisation périodique selon la fréquence choisie.
+  React.useEffect(() => {
+    if (!freq.ms) return;
+    const t = setInterval(() => refreshAll({ force: false, includeRubrique: true }), Math.max(freq.ms, 60000));
+    return () => clearInterval(t);
+  }, [freq.ms, refreshAll]);
+
+  const resolveFeed = React.useCallback((it) => {
+    const live = feeds[it.key];
+    if (live && live.items) return live;
+    if (it.kind === 'perso' && ppNews && ppNews[it.persoId] && ppNews[it.persoId].length) {
+      return { items: ppNews[it.persoId].map(n => ({ ...n, ts: veilleTsFromDate(n.date) })), ts: null };
+    }
+    return live || { items: null, loading: true };
+  }, [feeds, ppNews]);
+
+  // Flux agrégé de la watchlist (filtrable par élément), dédupliqué par titre.
+  const aggregated = React.useMemo(() => {
+    const rows = []; const seen = new Set();
+    for (const it of watchItems) {
+      if (filter !== 'all' && filter !== it.key) continue;
+      const feed = resolveFeed(it);
+      for (const n of (feed.items || [])) {
+        const k = n.title.toLowerCase();
+        if (seen.has(k)) continue;
+        seen.add(k);
+        rows.push({ n, origin: it });
+      }
+    }
+    rows.sort((a, b) => (b.n.ts || 0) - (a.n.ts || 0));
+    return rows.slice(0, 60);
+  }, [watchItems, filter, resolveFeed]);
+
+  const anyLoading = watchItems.some(it => { const f = resolveFeed(it); return f.loading && !f.items; });
+
+  // Rubrique courante : flux live si déjà rafraîchi, sinon JSON pré-généré.
+  const rubLive = feeds['r:' + rubrique];
+  const rubItems = (rubLive && rubLive.items) || gen.rubriques[rubrique] || [];
+  const rubStamp = rubLive && rubLive.ts ? veilleAgo(rubLive.ts) : (gen.updatedAt ? veilleAgo(new Date(gen.updatedAt).getTime()) : '');
+
+  const removeItem = (it) => {
+    if (filter === it.key) setFilter('all');
+    if (it.kind === 'sujet') setPrefs(p => ({ ...p, sujets: p.sujets.filter(s => 's:'+s.id !== it.key) }));
+    else setPrefs(p => ({ ...p, personnalites: p.personnalites.filter(x => 'p:'+x.id !== it.key) }));
+  };
+  const addSujet = (s) => setPrefs(p => p.sujets.some(x => x.id === s.id) ? p : ({ ...p, sujets: [...p.sujets, s] }));
+  const addPerso = (x) => setPrefs(p => p.personnalites.some(y => y.id === x.id) ? p : ({ ...p, personnalites: [...p.personnalites, x] }));
+
+  const chipStyle = (on, color) => ({
+    display:'inline-flex', alignItems:'center', gap:5, padding:'5px 12px', borderRadius:99, cursor:'pointer',
+    fontSize:11.5, fontWeight:600, fontFamily:'var(--font-sans)', transition:'all .12s',
+    border:'1px solid ' + (on ? (color || 'var(--ink)') : 'var(--border)'),
+    background: on ? (color ? hexRgba(color, 0.1) : 'var(--ink)') : 'var(--surface)',
+    color: on ? (color || '#fff') : 'var(--text-secondary)',
+  });
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1100, margin:'0 auto' }}>
+      {/* En-tête + contrôles d'actualisation */}
+      <div style={{ display:'flex', alignItems:'flex-start', gap:16, marginBottom:16, flexWrap:'wrap' }}>
+        <div style={{ flex:1, minWidth:240 }}>
+          <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Veille médiatique</div>
+          <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>Actualité générale et suivi personnalisé de vos sujets et personnalités — Google Actualités</div>
+        </div>
+        <div style={{ display:'flex', flexDirection:'column', alignItems:'flex-end', gap:4 }}>
+          <div style={{ display:'flex', gap:8 }}>
+            <select value={prefs.frequence} onChange={e => setPrefs(p => ({ ...p, frequence: e.target.value }))} title="Fréquence d'actualisation des flux"
+              style={{ padding:'8px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none' }}>
+              {VEILLE_FREQS.map(f => <option key={f.id} value={f.id}>{f.label}</option>)}
+            </select>
+            <button onClick={() => refreshAll({ force: true, includeRubrique: true })} disabled={refreshing}
+              style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'8px 16px', borderRadius:'var(--radius-sm)', border:'none', background:'var(--accent, #2563EB)', color:'white', fontSize:12, fontWeight:700, cursor: refreshing ? 'default' : 'pointer', opacity: refreshing ? 0.7 : 1, fontFamily:'var(--font-sans)' }}>
+              <Icon n="refresh-cw" s={13} />{refreshing ? 'Actualisation…' : 'Actualiser'}
+            </button>
+          </div>
+          <span style={{ fontSize:10.5, color:'var(--text-tertiary)' }}>
+            {lastRefresh ? 'Dernière actualisation ' + veilleAgo(lastRefresh) : (gen.updatedAt ? 'Données ' + veilleAgo(new Date(gen.updatedAt).getTime()) : '')}
+          </span>
+        </div>
+      </div>
+
+      {/* Onglets */}
+      <div style={{ display:'inline-flex', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', overflow:'hidden', marginBottom:16 }}>
+        {[{ id:'une', label:'À la une' }, { id:'watch', label:'Ma watchlist' + (watchItems.length ? ' (' + watchItems.length + ')' : '') }].map(t => (
+          <button key={t.id} onClick={() => setTab(t.id)}
+            style={{ padding:'7px 18px', fontFamily:'var(--font-sans)', fontSize:13, fontWeight:600, cursor:'pointer', border:'none', background: tab === t.id ? 'var(--ink)' : 'var(--surface)', color: tab === t.id ? '#fff' : 'var(--text-secondary)', transition:'background .14s,color .14s' }}>
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {tab === 'une' ? (
+        <div>
+          {/* Rubriques */}
+          <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:14 }}>
+            {VEILLE_RUBRIQUES.map(r => (
+              <button key={r.id} onClick={() => setRubrique(r.id)} style={chipStyle(rubrique === r.id)}>
+                <Icon n={r.icon} s={12} />{r.label}
+              </button>
+            ))}
+          </div>
+          {gen.loading && !rubItems.length ? (
+            <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'24px 0' }}>Chargement des actualités…</div>
+          ) : rubLive && rubLive.loading && !rubItems.length ? (
+            <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'24px 0' }}>Actualisation de la rubrique…</div>
+          ) : rubItems.length === 0 ? (
+            <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'24px 0' }}>Aucune actualité disponible pour cette rubrique — utilisez « Actualiser ».</div>
+          ) : (
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(2,1fr)', gap:10 }}>
+              {rubItems.map((n, i) => <VeilleNewsCard key={n.link || i} n={n} />)}
+            </div>
+          )}
+          {rubStamp && <div style={{ fontSize:10.5, color:'var(--text-tertiary)', marginTop:10 }}>Rubrique mise à jour {rubStamp}</div>}
+        </div>
+      ) : (
+        <div>
+          {/* Boutons d'ajout */}
+          <div style={{ display:'flex', gap:8, marginBottom:14 }}>
+            <button onClick={() => setAddPanel(addPanel === 'sujet' ? null : 'sujet')}
+              style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'7px 14px', borderRadius:'var(--radius-sm)', border:'1px dashed var(--border)', background: addPanel === 'sujet' ? 'var(--gray-50, #f9fafb)' : 'white', fontSize:12, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+              <Icon n="tag" s={13} /> + Suivre un sujet
+            </button>
+            <button onClick={() => setAddPanel(addPanel === 'perso' ? null : 'perso')}
+              style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'7px 14px', borderRadius:'var(--radius-sm)', border:'1px dashed var(--border)', background: addPanel === 'perso' ? 'var(--gray-50, #f9fafb)' : 'white', fontSize:12, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+              <Icon n="user-plus" s={13} /> + Suivre une personnalité
+            </button>
+          </div>
+
+          {addPanel === 'sujet' && <VeilleAddSujetPanel existing={prefs.sujets} onAdd={addSujet} onClose={() => setAddPanel(null)} />}
+          {addPanel === 'perso' && <VeilleAddPersoPanel existing={prefs.personnalites} onAdd={addPerso} onClose={() => setAddPanel(null)} />}
+
+          {watchItems.length === 0 ? (
+            <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'40px 24px', textAlign:'center' }}>
+              <div style={{ width:52, height:52, borderRadius:99, background:hexRgba('#2563EB',0.08), display:'flex', alignItems:'center', justifyContent:'center', margin:'0 auto 14px' }}>
+                <Icon n="radar" s={24} color="var(--accent, #2563EB)" />
+              </div>
+              <div style={{ fontSize:15, fontWeight:700, color:'var(--text-primary)' }}>Composez votre veille personnalisée</div>
+              <div style={{ fontSize:12.5, color:'var(--text-secondary)', marginTop:6, maxWidth:440, margin:'6px auto 0', lineHeight:1.6 }}>
+                Ajoutez des sujets (écologie, retraites, immigration…) ou des personnalités politiques pour retrouver ici toutes leurs dernières actualités, agrégées et triées par date.
+              </div>
+            </div>
+          ) : (
+            <div>
+              {/* Filtres par élément de watchlist */}
+              <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:14 }}>
+                <button onClick={() => setFilter('all')} style={chipStyle(filter === 'all')}>Tous</button>
+                {watchItems.map(it => {
+                  const color = veilleColor(it.key);
+                  return (
+                    <span key={it.key} style={{ display:'inline-flex', alignItems:'center' }}>
+                      <button onClick={() => setFilter(filter === it.key ? 'all' : it.key)} style={{ ...chipStyle(filter === it.key, color), borderTopRightRadius:0, borderBottomRightRadius:0, paddingRight:8 }}>
+                        <Icon n={it.kind === 'perso' ? 'user' : 'tag'} s={11} />{it.label}
+                      </button>
+                      <button onClick={() => removeItem(it)} title={'Ne plus suivre « ' + it.label + ' »'}
+                        style={{ display:'inline-flex', alignItems:'center', padding:'5px 7px 5px 5px', borderRadius:'0 99px 99px 0', border:'1px solid var(--border)', borderLeft:'none', background:'var(--surface)', color:'var(--text-tertiary)', cursor:'pointer' }}>
+                        <Icon n="x" s={11} />
+                      </button>
+                    </span>
+                  );
+                })}
+              </div>
+
+              {/* Flux agrégé */}
+              <div style={{ background:'white', borderRadius:'var(--radius-lg)', border:'1px solid var(--border-subtle)', padding:'6px 18px' }}>
+                {aggregated.length === 0 ? (
+                  <div style={{ fontSize:12, color:'var(--text-tertiary)', padding:'18px 0' }}>
+                    {anyLoading || refreshing ? 'Chargement de votre veille…' : 'Aucune actualité récupérée pour le moment — utilisez « Actualiser ».'}
+                  </div>
+                ) : (
+                  aggregated.map((row, i) => <VeilleFeedRow key={(row.n.link || row.n.title) + i} n={row.n} origin={row.origin} last={i === aggregated.length - 1} />)
+                )}
+              </div>
+            </div>
+          )}
+
+          <VeilleDigestCard prefs={prefs} setPrefs={setPrefs} user={user} />
+        </div>
+      )}
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Google Actualités · flux RSS · actualisation GitHub Actions + navigateur" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
 function Dashboard({ variant, go, user, onSignOut }) {
-  const [module, setModule] = React.useState('dette');
+  const [module, setModule] = React.useState('veille');
   return (
     <div className="db-app">
       <DashSidebar active={module} onSelect={setModule} />
@@ -7938,7 +8582,9 @@ function Dashboard({ variant, go, user, onSignOut }) {
         <DashTopBar go={go} user={user} onSignOut={onSignOut} />
         {variant === 'modules'
           ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>
-          : module === 'inflation'
+          : module === 'veille'
+            ? <div className="db-scroll"><VeilleModule user={user} /></div>
+            : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
             ? <div className="db-scroll"><CarburantModule /></div>

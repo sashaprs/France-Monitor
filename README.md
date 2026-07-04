@@ -103,3 +103,34 @@ Le bouton **Apple** est volontairement **désactivé** (tooltip « Bientôt disp
 
 - Tant que les placeholders ne sont pas remplacés, l'écran de connexion s'affiche avec un bandeau « Supabase non configuré ».
 - Une fois configuré : **non connecté → `AuthScreen`**, **connecté → dashboard** (bascule pilotée par `supabaseClient.auth.onAuthStateChange`). La session est gérée par Supabase (pas de `localStorage` manuel). La déconnexion se fait via le menu avatar en haut à droite du dashboard.
+
+---
+
+# Module « Veille médiatique »
+
+Premier module de la barre latérale. Deux volets :
+
+- **À la une** — actualités générales par rubrique (À la une, Politique, Économie, International, Écologie, Société, Santé, Tech & Sciences). Les flux sont pré-rafraîchis toutes les 2 h par GitHub Actions (`scripts/fetch-veille.js` → `public/data/veille_generale.json`, workflow `fetch-veille.yml`).
+- **Ma watchlist** — veille personnalisable : l'utilisateur suit des **sujets** (suggestions prédéfinies ou sujet libre) et des **personnalités politiques** (sélecteur avec photos ou nom libre). Les actualités de chaque élément sont agrégées en un flux unique trié par date, filtrable par élément.
+
+## Sources & actualisation
+
+- **Source unique : Google Actualités (flux RSS)** — gratuit, sans clé d'API, couverture française excellente ; déjà utilisé par les autres modules (personnalités, partis, députés), ce qui garde le pipeline homogène.
+- **Côté serveur** (rubriques générales) : GitHub Actions, aucun problème de CORS.
+- **Côté navigateur** (watchlist + bouton « Actualiser ») : Google News RSS n'expose pas d'en-têtes CORS, les requêtes passent donc par des proxys CORS publics essayés en cascade (allorigins → corsproxy.io → codetabs). Résultats mis en cache dans `localStorage` (`fm_veille_cache_v1`).
+- **Fréquence d'actualisation réglable** par l'utilisateur (manuelle, 5 min, 15 min, 30 min, 1 h) via le sélecteur en haut du module, + bouton « Actualiser » pour forcer.
+
+## Préférences utilisateur
+
+- Toujours enregistrées en `localStorage` (`fm_veille_prefs_v1`) → le module fonctionne même sans base.
+- Si l'utilisateur est connecté : synchronisées dans la table Supabase **`veille_preferences`** (une ligne par utilisateur, RLS « chacun sa ligne »). **Exécuter `supabase/veille.sql` dans le SQL Editor** pour créer la table. La copie distante prime au chargement (multi-appareils).
+
+## Récap quotidien par e-mail (à venir)
+
+Le module comporte déjà l'opt-in (« Récap quotidien par e-mail » + heure d'envoi), stocké dans `veille_preferences` (`digest_email`, `digest_heure`). Prochaine étape pour activer l'envoi :
+
+1. Une **Supabase Edge Function** planifiée (pg_cron ou Scheduled Functions) qui, chaque matin :
+   - lit les préférences de tous les utilisateurs opt-in (clé `service_role`, bypass RLS) ;
+   - récupère les articles récents de leur watchlist (mêmes flux RSS) et les derniers scrutins (`public/data/scrutins.json`) ;
+   - compose et envoie l'e-mail via un fournisseur type **Resend** (3 000 e-mails/mois gratuits) ou Brevo.
+2. Aucune migration nécessaire côté front : tout est déjà en place dans la table.

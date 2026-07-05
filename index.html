@@ -5088,6 +5088,308 @@ function useDeputeFiche(depId) {
   return state;
 }
 
+/* ============================================================
+   PROFIL DE CIRCONSCRIPTION
+   Données : public/data/circos/index.json + un fichier par circo
+   (généré par scripts/build-circos.js — INSEE RP 2022, Filosofi
+   2021, législatives 2024). Matching député → circo par nom de
+   département normalisé + numéro de circonscription.
+   ============================================================ */
+
+let _circoIndexPromise = null;
+const _circoCache = {};
+
+function circoNorm(s) {
+  return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+}
+/* deputes.json et les fichiers électoraux ne nomment pas toujours les
+   départements à l'identique. */
+const CIRCO_DEPT_ALIAS = {
+  reunion: 'lareunion',
+  saintbarthelemyetsaintmartin: 'saintmartinsaintbarthelemy',
+  francaisetablishorsdefrance: 'francaisetablishorsdefrance',
+};
+
+function useCircoProfil(dep) {
+  const [state, setState] = React.useState({ loading: true, circo: null, national: null, error: false });
+  React.useEffect(() => {
+    if (!dep) return;
+    let alive = true;
+    setState({ loading: true, circo: null, national: null, error: false });
+    _circoIndexPromise = _circoIndexPromise
+      || fetch('public/data/circos/index.json')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .catch(e => { _circoIndexPromise = null; throw e; });
+    _circoIndexPromise
+      .then(idx => {
+        const m = /^(\d+)/.exec(dep.circonscription || '');
+        const numero = m ? parseInt(m[1], 10) : null;
+        let key = circoNorm(dep.dept);
+        key = CIRCO_DEPT_ALIAS[key] || key;
+        const entry = idx.circos.find(c => c.numero === numero && (circoNorm(c.deptNom) === key || (CIRCO_DEPT_ALIAS[circoNorm(c.deptNom)] || circoNorm(c.deptNom)) === key));
+        if (!entry) throw new Error('circo introuvable');
+        const load = _circoCache[entry.id]
+          || (_circoCache[entry.id] = fetch('public/data/circos/' + entry.id + '.json')
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .catch(e => { delete _circoCache[entry.id]; throw e; }));
+        return load.then(circo => { if (alive) setState({ loading: false, circo, national: idx.national, error: false }); });
+      })
+      .catch(() => { if (alive) setState({ loading: false, circo: null, national: null, error: true }); });
+    return () => { alive = false; };
+  }, [dep && dep.id]);
+  return state;
+}
+
+/* Nuances politiques du Ministère de l'Intérieur (législatives 2024). */
+const CIRCO_NUANCES = {
+  UG: { label: 'Union de la gauche (NFP)', color: '#C0392B' },
+  FI: { label: 'La France insoumise', color: '#C0392B' },
+  SOC: { label: 'Parti socialiste', color: '#E5447A' },
+  ECO: { label: 'Écologistes', color: '#2E9E5B' },
+  COM: { label: 'Parti communiste', color: '#D6001C' },
+  DVG: { label: 'Divers gauche', color: '#E08283' },
+  ENS: { label: 'Ensemble (majorité présidentielle)', color: '#2563EB' },
+  REN: { label: 'Renaissance', color: '#2563EB' },
+  MDM: { label: 'Modem', color: '#E67E22' },
+  HOR: { label: 'Horizons', color: '#2E86C1' },
+  DVC: { label: 'Divers centre', color: '#7FB3D5' },
+  UDI: { label: 'UDI', color: '#5DADE2' },
+  LR: { label: 'Les Républicains', color: '#1F6FB2' },
+  DVD: { label: 'Divers droite', color: '#6C8EBF' },
+  RN: { label: 'Rassemblement national', color: '#14385F' },
+  UXD: { label: 'Union RN–LR (ciottistes)', color: '#4A3A6B' },
+  EXD: { label: 'Extrême droite', color: '#3B2C50' },
+  EXG: { label: 'Extrême gauche', color: '#8E2A2A' },
+  REG: { label: 'Régionaliste', color: '#8B6F47' },
+  DIV: { label: 'Divers', color: '#9AA3AF' },
+  DSV: { label: 'Divers souverainiste', color: '#6B5B73' },
+};
+const circoNuance = (code) => CIRCO_NUANCES[code] || { label: code || '—', color: '#9AA3AF' };
+
+const CIRCO_SIGNAL_STYLE = {
+  electoral: { label: 'Électoral', color: '#000091' },
+  economie: { label: 'Économie', color: '#B45309' },
+  social: { label: 'Social', color: '#BE185D' },
+  demographie: { label: 'Démographie', color: '#0F766E' },
+};
+
+function CircoStatCard({ label, value, sub, accent }) {
+  return (
+    <div style={{ background: 'var(--surface-sunken)', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '14px 16px' }}>
+      <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 6 }}>{label}</div>
+      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 23, fontWeight: 800, color: accent || 'var(--ink)', lineHeight: 1.1 }}>{value}</div>
+      {sub && <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 4 }}>{sub}</div>}
+    </div>
+  );
+}
+
+function CircoCompareBar({ label, part, partNationale, emplois, scaleMax }) {
+  const max = (scaleMax || Math.max(part || 0, partNationale || 0, 1)) * 1.15;
+  const over = partNationale && part / partNationale >= 1.4;
+  return (
+    <div style={{ padding: '9px 0', borderBottom: '1px solid var(--border-subtle)' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 5, gap: 10 }}>
+        <span style={{ fontSize: 12.5, fontWeight: 600, color: 'var(--ink)' }}>{label}</span>
+        <span style={{ fontFamily: 'var(--font-mono)', fontSize: 11.5, color: 'var(--text-secondary)', whiteSpace: 'nowrap' }}>
+          {emplois != null ? emplois.toLocaleString('fr-FR') + ' emplois · ' : ''}{part != null ? String(part).replace('.', ',') + ' %' : '—'}
+        </span>
+      </div>
+      <div style={{ position: 'relative', height: 7, borderRadius: 4, background: 'var(--gray-100)', overflow: 'visible' }}>
+        <div style={{ position: 'absolute', inset: 0, width: Math.min(100, (part || 0) / max * 100) + '%', borderRadius: 4, background: over ? 'var(--blue-france, #000091)' : '#9AA3AF' }} />
+        {partNationale != null && (
+          <div title={'Moyenne nationale : ' + String(partNationale).replace('.', ',') + ' %'}
+            style={{ position: 'absolute', top: -2.5, bottom: -2.5, left: Math.min(100, partNationale / max * 100) + '%', width: 2, background: 'var(--ink)', borderRadius: 1 }} />
+        )}
+      </div>
+    </div>
+  );
+}
+
+function CircoView({ dep }) {
+  const { loading, circo, national, error } = useCircoProfil(dep);
+
+  const secTitle = (t, right) => (
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 10, margin: '26px 0 10px' }}>
+      <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-tertiary)' }}>{t}</div>
+      {right && <div style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>{right}</div>}
+    </div>
+  );
+  const fmtPct = (v) => v == null ? '—' : String(v).replace('.', ',') + ' %';
+
+  if (loading) return (
+    <div style={{ padding: 24, display: 'flex', flexDirection: 'column', gap: 12 }}>
+      {[64, 64, 120, 90].map((h, i) => <div key={i} style={{ height: h, borderRadius: 'var(--radius-md)', background: 'linear-gradient(90deg,var(--gray-100) 25%,var(--gray-50) 50%,var(--gray-100) 75%)', backgroundSize: '200% 100%', animation: 'dep-shimmer 1.2s infinite' }} />)}
+    </div>
+  );
+  if (error || !circo) return (
+    <div style={{ padding: '42px 24px', textAlign: 'center', color: 'var(--text-tertiary)', fontSize: 13 }}>
+      Profil de circonscription indisponible pour ce député.
+    </div>
+  );
+
+  const d = circo.demographie, e = circo.emploi, r = circo.revenus, el = circo.elections;
+  const chomEcart = e && national && e.tauxChomage != null && national.tauxChomage != null
+    ? Math.round((e.tauxChomage - national.tauxChomage) * 10) / 10 : null;
+
+  return (
+    <div style={{ padding: '18px 24px 28px' }}>
+      {/* En-tête */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, flexWrap: 'wrap', marginBottom: 14 }}>
+        <div>
+          <div style={{ fontFamily: 'var(--font-sans)', fontSize: 16.5, fontWeight: 700, color: 'var(--ink)' }}>{circo.nom}</div>
+          {circo.region && <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)', marginTop: 2 }}>{circo.region}{circo.communes ? ' · ' + circo.communes.nb + ' communes' : ''}</div>}
+        </div>
+        <span style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--text-tertiary)' }}>{circo.id}</span>
+      </div>
+
+      {/* Chiffres clés */}
+      {d ? (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: 10 }}>
+          <CircoStatCard label="Population" value={d.pop.toLocaleString('fr-FR')} sub="RP 2022 (Insee)" />
+          <CircoStatCard label="Chômage" value={fmtPct(e && e.tauxChomage)}
+            sub={chomEcart != null ? (chomEcart > 0 ? '+' : '') + String(chomEcart).replace('.', ',') + ' pts vs national' : 'part des actifs 15-64 ans'}
+            accent={chomEcart != null ? (chomEcart >= 2 ? 'var(--neg)' : chomEcart <= -2 ? 'var(--pos)' : undefined) : undefined} />
+          <CircoStatCard label="Niveau de vie médian" value={r && r.nivVieMedian != null ? r.nivVieMedian.toLocaleString('fr-FR') + ' €' : '—'}
+            sub={national && national.nivVieMedian ? 'national : ' + national.nivVieMedian.toLocaleString('fr-FR') + ' €' : 'par an et par UC'} />
+          <CircoStatCard label="Taux de pauvreté" value={fmtPct(r && r.tauxPauvrete)}
+            sub={national && national.tauxPauvrete != null ? 'national : ' + fmtPct(national.tauxPauvrete) : null} />
+        </div>
+      ) : (
+        <div style={{ padding: '14px 16px', background: 'var(--surface-sunken)', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', fontSize: 12.5, color: 'var(--text-secondary)' }}>
+          Pas de données socio-économiques Insee pour cette circonscription ({circo.dept.nom}) — profil électoral uniquement.
+        </div>
+      )}
+
+      {/* Signaux d'influence */}
+      {circo.signaux && circo.signaux.length > 0 && (
+        <>
+          {secTitle('Signaux d\'influence', 'générés automatiquement vs moyenne nationale')}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            {circo.signaux.map((s, i) => {
+              const st = CIRCO_SIGNAL_STYLE[s.type] || CIRCO_SIGNAL_STYLE.electoral;
+              return (
+                <div key={i} style={{ border: '1px solid var(--border)', borderLeft: '3px solid ' + st.color, borderRadius: 'var(--radius-md)', background: 'var(--surface)', padding: '12px 16px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: st.color, background: st.color + '14', borderRadius: 999, padding: '2px 9px' }}>{st.label}</span>
+                    {s.force === 3 && <span style={{ fontSize: 10, fontWeight: 700, color: 'var(--neg)', background: 'var(--red-50, #FEF2F2)', borderRadius: 999, padding: '2px 9px' }}>Signal fort</span>}
+                  </div>
+                  <div style={{ fontSize: 13.5, fontWeight: 700, color: 'var(--ink)', lineHeight: 1.4 }}>{s.titre}</div>
+                  <div style={{ fontSize: 12, color: 'var(--text-secondary)', lineHeight: 1.5, marginTop: 3 }}>{s.detail}</div>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+
+      {/* Élections 2024 */}
+      {el && (
+        <>
+          {secTitle('Législatives 2024', el.tourDecisif === 1 ? 'élu au 1er tour' : 'décidé au 2nd tour')}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: 10, marginBottom: 14 }}>
+            <CircoStatCard label={'Score de l\'élu' + (el.tourDecisif === 1 ? ' (T1)' : ' (T2)')}
+              value={el.elu && el.elu.pct != null ? fmtPct(el.elu.pct) : '—'}
+              sub={el.elu ? el.elu.prenom + ' ' + el.elu.nom + ' · ' + circoNuance(el.elu.nuance).label : null} />
+            <CircoStatCard label="Marge de victoire" value={el.marge != null ? String(el.marge).replace('.', ',') + ' pts' : '—'}
+              sub={el.second ? 'devant ' + circoNuance(el.second.nuance).label + ' (' + fmtPct(el.second.pct) + ')' : 'pas de second candidat'}
+              accent={el.marge != null && el.marge < 5 ? 'var(--neg)' : el.marge != null && el.marge < 10 ? 'var(--warn)' : undefined} />
+            <CircoStatCard label="Participation T1" value={fmtPct(el.participationT1)} sub={el.participationT2 != null ? 'T2 : ' + fmtPct(el.participationT2) : null} />
+            <CircoStatCard label="Inscrits" value={el.inscrits != null ? el.inscrits.toLocaleString('fr-FR') : '—'} sub="listes électorales 2024" />
+          </div>
+          {el.nuancesT1 && el.nuancesT1.length > 0 && (
+            <div style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '12px 16px', background: 'var(--surface)' }}>
+              <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 10 }}>Rapport de forces au 1er tour</div>
+              {el.nuancesT1.slice(0, 6).map((c, i) => {
+                const nu = circoNuance(c.nuance);
+                const maxPct = el.nuancesT1[0].pct || 1;
+                return (
+                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '4px 0' }}>
+                    <span style={{ width: 42, fontSize: 10.5, fontWeight: 700, color: nu.color, flex: 'none' }}>{c.nuance}</span>
+                    <span style={{ flex: '1 1 120px', minWidth: 80, fontSize: 12, color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.prenom} {c.nom}</span>
+                    <div style={{ flex: '2 1 160px', height: 7, borderRadius: 4, background: 'var(--gray-100)' }}>
+                      <div style={{ width: Math.min(100, (c.pct || 0) / maxPct * 100) + '%', height: '100%', borderRadius: 4, background: nu.color }} />
+                    </div>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 11.5, color: 'var(--ink)', width: 52, textAlign: 'right', flex: 'none' }}>{fmtPct(c.pct)}</span>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </>
+      )}
+
+      {/* Économie locale */}
+      {e && e.secteurs && (
+        <>
+          {secTitle('Emploi par secteur', e.emploisTotal.toLocaleString('fr-FR') + ' emplois au lieu de travail · trait noir = moyenne nationale')}
+          <div>
+            {(() => {
+              const keys = ['agriculture', 'industrie', 'construction', 'commerceServices', 'adminSanteSocial'];
+              const scaleMax = Math.max(...keys.map(k => e.secteurs[k] ? Math.max(e.secteurs[k].part || 0, e.secteurs[k].partNationale || 0) : 0), 1);
+              return keys.map(k => e.secteurs[k] && (
+                <CircoCompareBar key={k} label={e.secteurs[k].label} part={e.secteurs[k].part} partNationale={e.secteurs[k].partNationale} emplois={e.secteurs[k].emplois} scaleMax={scaleMax} />
+              ));
+            })()}
+          </div>
+        </>
+      )}
+
+      {/* Démographie */}
+      {d && (
+        <>
+          {secTitle('Démographie et sociologie')}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 14 }}>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '12px 16px' }}>
+              <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 8 }}>Structure par âge</div>
+              {[['Moins de 15 ans', d.parAge.moins15], ['15-29 ans', d.parAge.de15a29], ['30-44 ans', d.parAge.de30a44], ['45-59 ans', d.parAge.de45a59], ['60-74 ans', d.parAge.de60a74], ['75 ans et +', d.parAge.plus75]].map(([lb, v], i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '3px 0' }}>
+                  <span style={{ width: 92, fontSize: 11.5, color: 'var(--text-secondary)', flex: 'none' }}>{lb}</span>
+                  <div style={{ flex: 1, height: 6, borderRadius: 3, background: 'var(--gray-100)' }}>
+                    <div style={{ width: Math.min(100, (v || 0) * 3.2) + '%', height: '100%', borderRadius: 3, background: '#000091' }} />
+                  </div>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--ink)', width: 48, textAlign: 'right', flex: 'none' }}>{fmtPct(v)}</span>
+                </div>
+              ))}
+            </div>
+            <div style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '12px 16px' }}>
+              <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 8 }}>Catégories socio-professionnelles (15 ans et +)</div>
+              {[['Agriculteurs', d.csp.partAgriculteurs, national && national.partAgriculteurs], ['Artisans, commerçants', d.csp.partArtisansCommercants, null], ['Cadres, prof. sup.', d.csp.partCadres, national && national.partCadres], ['Prof. intermédiaires', d.csp.partProfIntermediaires, null], ['Employés', d.csp.partEmployes, null], ['Ouvriers', d.csp.partOuvriers, national && national.partOuvriers], ['Retraités', d.csp.partRetraites, null]].map(([lb, v, ref], i) => (
+                <div key={i} style={{ display: 'flex', justifyContent: 'space-between', gap: 8, padding: '3.5px 0', fontSize: 12 }}>
+                  <span style={{ color: 'var(--text-secondary)' }}>{lb}</span>
+                  <span style={{ fontFamily: 'var(--font-mono)', color: 'var(--ink)', whiteSpace: 'nowrap' }}>
+                    {fmtPct(v)}{ref != null && v != null && <span style={{ color: 'var(--text-tertiary)', fontSize: 10.5 }}> / {fmtPct(ref)} nat.</span>}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* Communes principales */}
+      {circo.communes && circo.communes.principales && circo.communes.principales.length > 0 && (
+        <>
+          {secTitle('Communes principales', circo.communes.nbFractionnees > 0 ? circo.communes.nbFractionnees + ' commune(s) partagée(s) avec une autre circo' : null)}
+          <div style={{ display: 'flex', gap: 7, flexWrap: 'wrap' }}>
+            {circo.communes.principales.map((c, i) => (
+              <span key={i} style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-secondary)', background: 'var(--gray-100)', border: '1px solid var(--border)', borderRadius: 999, padding: '4px 12px' }}>
+                {c.nom}{c.partiel ? '*' : ''} <span style={{ fontFamily: 'var(--font-mono)', fontSize: 10.5, color: 'var(--text-tertiary)' }}>{c.pop.toLocaleString('fr-FR')}</span>
+              </span>
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* Sources */}
+      <div style={{ marginTop: 26, paddingTop: 12, borderTop: '1px solid var(--border-subtle)', fontSize: 10.5, color: 'var(--text-tertiary)', lineHeight: 1.6 }}>
+        Sources : {circo.sources ? Object.values(circo.sources).join(' · ') : 'Insee, Ministère de l\'Intérieur'}.
+        {circo.communes && circo.communes.nbFractionnees > 0 ? ' * Commune répartie entre plusieurs circonscriptions : données ventilées au prorata de la population du fragment.' : ''}
+        {r && r.nivVieMedian != null ? ' Revenus : estimation par moyenne pondérée des indicateurs communaux.' : ''}
+      </div>
+    </div>
+  );
+}
+
 /* Jauge horizontale avec repère de la moyenne du groupe. */
 function DepGauge({ label, value, moyenne, color }) {
   const pct = value === null || value === undefined ? 0 : Math.max(0, Math.min(1, value)) * 100;
@@ -5217,6 +5519,7 @@ function DeputeView({ dep, onBack }) {
   const nbQuestions = s ? (s.nb_questions_ecrites || 0) + (s.nb_questions_orales || 0) + (s.nb_questions_gouvernement || 0) : 0;
   const TABS = [
     { id:'votes',  label:'Votes' },
+    { id:'circo',  label:'Circonscription' },
     { id:'amend',  label:'Amendements' + (s && s.nb_amendements ? ' (' + s.nb_amendements + ')' : '') },
     { id:'quest',  label:'Questions' + (nbQuestions ? ' (' + nbQuestions + ')' : '') },
     { id:'rapports', label:'Rapports' + (s && s.nb_rapports ? ' (' + s.nb_rapports + ')' : '') },
@@ -5426,9 +5729,9 @@ function DeputeView({ dep, onBack }) {
               ))}
             </div>
 
-            {ficheLoading && tab !== 'news' ? (
+            {ficheLoading && tab !== 'news' && tab !== 'circo' ? (
               <div style={{ padding:24, display:'flex', flexDirection:'column', gap:12 }}>{skeleton(52)}{skeleton(52)}{skeleton(52)}{skeleton(52)}</div>
-            ) : (ficheError || !fiche) && tab !== 'news' ? (
+            ) : (ficheError || !fiche) && tab !== 'news' && tab !== 'circo' ? (
               emptyMsg('Données indisponibles pour ce député. Réessayez plus tard — le fichier sera régénéré au prochain build quotidien.')
             ) : (
               <>
@@ -5605,6 +5908,9 @@ function DeputeView({ dep, onBack }) {
                 )}
               </>
             )}
+
+            {/* ── Onglet Circonscription (indépendant de la fiche) ── */}
+            {tab === 'circo' && <CircoView dep={dep} />}
 
             {/* ── Onglet Actualités (indépendant de la fiche) ── */}
             {tab === 'news' && (

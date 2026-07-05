@@ -1,0 +1,34 @@
+name: Build Profils de Circonscription
+
+# Données quasi statiques (recensement, Filosofi, législatives 2024) :
+# reconstruction trimestrielle pour capter les nouveaux millésimes INSEE,
+# plus déclenchement manuel.
+on:
+  schedule:
+    - cron: '0 4 2 1,4,7,10 *'   # le 2 de janvier/avril/juillet/octobre à 4h UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build circonscription profiles
+        run: node scripts/build-circos.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/circos/
+          git diff --staged --quiet || git commit -m "data: update profils circonscriptions $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push

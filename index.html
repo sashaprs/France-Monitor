@@ -95,13 +95,31 @@ a{text-decoration:none}
 /* Cursor glow */
 .ln-cursor-glow{position:fixed;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(79,142,247,.07) 0%,transparent 70%);pointer-events:none;top:0;left:0;z-index:0;will-change:transform}
 
-/* Nav */
-.ln-nav{position:sticky;top:0;z-index:20;background:rgba(3,9,26,.88);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid rgba(255,255,255,.07)}
-.ln-nav-in{max-width:var(--container-max);margin:0 auto;padding:0 32px;height:64px;display:flex;align-items:center;gap:28px}
-.ln-links{display:flex;gap:26px;margin-left:14px}
-.ln-links a{font-family:var(--font-sans);font-size:14px;color:rgba(255,255,255,.5);font-weight:500;transition:color .18s}
-.ln-links a:hover{color:#fff;text-decoration:none}
-.ln-nav-cta{margin-left:auto;display:flex;gap:8px;align-items:center}
+/* Nav — resizable navbar (style Aceternity UI) : pleine largeur transparente
+   au repos, se rétracte en pilule flottante avec blur après 100px de scroll. */
+.rn-nav{position:sticky;top:12px;z-index:40;width:100%}
+.rn-body{position:relative;z-index:60;margin:0 auto;display:none;width:100%;max-width:var(--container-max);flex-direction:row;align-items:center;justify-content:space-between;align-self:flex-start;border-radius:999px;background:transparent;padding:8px 16px;transition:width .5s cubic-bezier(.22,1,.36,1),transform .5s cubic-bezier(.22,1,.36,1),background .3s,box-shadow .3s;will-change:width,transform}
+@media(min-width:1024px){.rn-body{display:flex}}
+.rn-body.visible{width:40%;min-width:1020px;transform:translateY(20px);background:rgba(4,10,28,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 0 24px rgba(34,42,53,.06),0 1px 1px rgba(0,0,0,.05),0 0 0 1px rgba(255,255,255,.09),0 0 4px rgba(34,42,53,.08),0 16px 68px rgba(47,48,55,.05),0 1px 0 rgba(255,255,255,.1) inset}
+.rn-items{position:absolute;inset:0;display:none;flex:1;flex-direction:row;align-items:center;justify-content:center;gap:4px;font-family:var(--font-sans);font-size:14px;font-weight:500}
+@media(min-width:1024px){.rn-items{display:flex}}
+.rn-items a{position:relative;z-index:1;padding:8px 16px;color:rgba(255,255,255,.62);transition:color .18s}
+.rn-items a:hover{color:#fff;text-decoration:none}
+.rn-hover-pill{position:absolute;top:50%;height:36px;transform:translateY(-50%);border-radius:999px;background:rgba(255,255,255,.1);transition:left .3s cubic-bezier(.22,1,.36,1),width .3s cubic-bezier(.22,1,.36,1),opacity .2s;pointer-events:none}
+.rn-actions{position:relative;z-index:2;display:flex;align-items:center;gap:14px}
+.rn-btn{display:inline-block;position:relative;text-align:center;padding:8px 16px;border-radius:8px;border:none;cursor:pointer;font-family:var(--font-sans);font-size:14px;font-weight:700;transition:transform .2s,background .2s}
+.rn-btn:hover{transform:translateY(-2px)}
+.rn-btn.primary{background:#fff;color:#000;box-shadow:0 0 24px rgba(34,42,53,.06),0 1px 1px rgba(0,0,0,.05),0 0 0 1px rgba(34,42,53,.04),0 0 4px rgba(34,42,53,.08),0 16px 68px rgba(47,48,55,.05),0 1px 0 rgba(255,255,255,.1) inset}
+.rn-btn.secondary{background:transparent;color:#fff;box-shadow:none}
+.rn-mobile{position:relative;z-index:50;margin:0 auto;display:flex;width:100%;max-width:var(--container-max);flex-direction:column;align-items:center;justify-content:space-between;padding:8px 16px;border-radius:16px;transition:width .5s cubic-bezier(.22,1,.36,1),transform .5s cubic-bezier(.22,1,.36,1),background .3s,box-shadow .3s,border-radius .5s}
+@media(min-width:1024px){.rn-mobile{display:none}}
+.rn-mobile.visible{width:90%;transform:translateY(20px);border-radius:14px;background:rgba(4,10,28,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 0 24px rgba(34,42,53,.06),0 1px 1px rgba(0,0,0,.05),0 0 0 1px rgba(255,255,255,.09),0 0 4px rgba(34,42,53,.08),0 16px 68px rgba(47,48,55,.05),0 1px 0 rgba(255,255,255,.1) inset}
+.rn-mobile-header{display:flex;width:100%;flex-direction:row;align-items:center;justify-content:space-between}
+.rn-mobile-toggle{display:flex;background:none;border:none;color:#fff;cursor:pointer;padding:4px}
+.rn-mobile-menu{position:absolute;top:60px;left:0;right:0;z-index:50;display:flex;flex-direction:column;align-items:flex-start;gap:18px;border-radius:12px;background:#050B1E;padding:32px 16px;box-shadow:0 12px 40px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08);opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .25s,transform .25s,visibility .25s}
+.rn-mobile-menu.open{opacity:1;visibility:visible;transform:translateY(0)}
+.rn-mobile-menu a{font-family:var(--font-sans);font-size:15px;font-weight:500;color:rgba(255,255,255,.75)}
+.rn-mobile-menu a:hover{color:#fff;text-decoration:none}
 
 /* Hero */
 .ln-hero-wrap{position:relative;overflow:visible;padding:0}
@@ -996,23 +1014,63 @@ function AnimCounter({ target, inView }) {
   return display;
 }
 
+const NAV_LINKS = [
+  { name: 'Modules', link: '#features' },
+  { name: 'Sources', link: '#sources' },
+  { name: 'Tarifs', link: '#pricing' },
+  { name: 'Pour qui', link: '#users' },
+];
+
 function LandingNav({ go }) {
+  const [visible, setVisible] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
+  /* Pilule de survol des liens : position mesurée sur le lien survolé, elle
+     glisse d'un lien à l'autre (équivalent du layoutId framer-motion). */
+  const [pill, setPill] = React.useState(null);
+
+  React.useEffect(() => {
+    const onScroll = () => setVisible(window.scrollY > 100);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
-    <div className="ln-nav">
-      <div className="ln-nav-in">
+    <div className="rn-nav">
+      {/* Desktop */}
+      <div className={'rn-body' + (visible ? ' visible' : '')}>
         <BrandLogo size={26} mono />
-        <div className="ln-links">
-          <a href="#features">Modules</a>
-          <a href="#sources">Sources</a>
-          <a href="#pricing">Tarifs</a>
-          <a href="#users">Pour qui</a>
+        <div className="rn-items" onMouseLeave={() => setPill((p) => p && { ...p, opacity: 0 })}>
+          <span className="rn-hover-pill" style={pill ? { left: pill.left, width: pill.width, opacity: pill.opacity } : { opacity: 0 }} />
+          {NAV_LINKS.map((l) => (
+            <a key={l.name} href={l.link}
+               onMouseEnter={(e) => { const t = e.currentTarget; setPill({ left: t.offsetLeft, width: t.offsetWidth, opacity: 1 }); }}>
+              {l.name}
+            </a>
+          ))}
         </div>
-        <div className="ln-nav-cta">
-          <button onClick={() => go('login')} style={{ background:'none',border:'none',cursor:'pointer',fontFamily:'var(--font-sans)',fontSize:14,fontWeight:600,color:'rgba(255,255,255,.65)',padding:'8px 14px',borderRadius:'var(--radius-md)',transition:'color .18s' }}
-            onMouseEnter={e=>e.target.style.color='#fff'} onMouseLeave={e=>e.target.style.color='rgba(255,255,255,.65)'}>
-            Se connecter
+        <div className="rn-actions">
+          <button className="rn-btn secondary" onClick={() => go('login')}>Se connecter</button>
+          <button className="rn-btn primary" onClick={() => go('signup')}>Créer un compte</button>
+        </div>
+      </div>
+
+      {/* Mobile */}
+      <div className={'rn-mobile' + (visible ? ' visible' : '')}>
+        <div className="rn-mobile-header">
+          <BrandLogo size={24} mono />
+          <button className="rn-mobile-toggle" aria-label={open ? 'Fermer le menu' : 'Ouvrir le menu'} onClick={() => setOpen((o) => !o)}>
+            <Icon n={open ? 'x' : 'menu'} s={22} />
           </button>
-          <Button variant="primary" size="sm" onClick={() => go('signup')}>Créer un compte</Button>
+        </div>
+        <div className={'rn-mobile-menu' + (open ? ' open' : '')}>
+          {NAV_LINKS.map((l) => (
+            <a key={l.name} href={l.link} onClick={() => setOpen(false)}>{l.name}</a>
+          ))}
+          <div style={{ display: 'flex', width: '100%', flexDirection: 'column', gap: 12 }}>
+            <button className="rn-btn primary" style={{ width: '100%' }} onClick={() => { setOpen(false); go('login'); }}>Se connecter</button>
+            <button className="rn-btn primary" style={{ width: '100%' }} onClick={() => { setOpen(false); go('signup'); }}>Créer un compte</button>
+          </div>
         </div>
       </div>
     </div>

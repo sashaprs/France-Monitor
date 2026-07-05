@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-07-05T11:04:07.955Z",
+  "updatedAt": "2026-07-05T13:39:18.622Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460757",
-      "titre": "direction des affaires criminelles et des grâces – M. Julien Morino-Ros, sous-directeur de la négociation et de la législation pénales.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30786",
-      "titre": "Suite de la discussion du projet de loi organique, adopté par le Sénat, relatif au renforcement des juridictions criminelles",
-      "type": "seance_type",
-      "dateDebut": "2026-07-02T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460701",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T13:00:00.000Z",
-      "dateFin": "2026-07-02T14:35:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460579",
-      "titre": "suite de l’examen du projet de loi-cadre, adopté par le Sénat, après engagement de la procédure accélérée, relatif au développement des transports (n° 2740) (rapport).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30822",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
-      "type": "seance_type",
-      "dateDebut": "2026-07-02T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460742",
       "titre": "audition :",

@@ -4428,11 +4428,13 @@ function AssembleeModule() {
 function useANDeputes() {
   const [state, setState] = React.useState({ loading: true, deputes: [], updatedAt: null });
   React.useEffect(() => {
-    fetch('public/data/deputes.json')
-      .then(r => r.json())
+    /* index.json (fiches enrichies : commission, participation, loyauté) avec
+       repli sur l'ancien deputes.json si le build quotidien n'a pas tourné. */
+    fetch('public/data/deputes/index.json')
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .catch(() => fetch('public/data/deputes.json').then(r => r.json()))
       .then(d => setState({ loading: false, deputes: d.deputes || [], updatedAt: d.updatedAt }))
       .catch(() => setState({ loading: false, deputes: [], updatedAt: null }));
-
   }, []);
   return state;
 }
@@ -4489,42 +4491,6 @@ function usePartisNews() {
 }
 
 const AN_PHOTO_BASE = 'https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/';
-
-/* Cache partagé pour éviter de recharger votes_deputes.json à chaque clic */
-let _votesCache = null;
-let _votesCachePromise = null;
-
-const POS_MAP = { p:'pour', c:'contre', a:'abstention', x:'absent' };
-
-function useDeputeVotes(depId) {
-  const [stats, setStats] = React.useState(null);
-  const [loading, setLoading] = React.useState(true);
-
-  React.useEffect(() => {
-    if (!depId) return;
-    setLoading(true);
-    const load = _votesCachePromise
-      ? _votesCachePromise
-      : (_votesCachePromise = fetch('public/data/votes_deputes.json')
-          .then(r => r.json())
-          .then(d => { _votesCache = d.deputes || {}; return _votesCache; })
-          .catch(() => { _votesCache = {}; return {}; }));
-    load.then(cache => {
-      const raw = cache[depId];
-      if (!raw) { setStats(null); setLoading(false); return; }
-      // Decompress compact format
-      const votes = (raw.v || []).map(v => ({
-        date: v.d, titre: v.t,
-        position: POS_MAP[v.p] || v.p,
-        parDelegation: v.del || false,
-      }));
-      setStats({ pour: raw.p||0, contre: raw.c||0, abstention: raw.a||0, absent: raw.x||0, votes });
-      setLoading(false);
-    });
-  }, [depId]);
-
-  return { stats, loading };
-}
 
 /* ── Export des fiches (députés & personnalités) en PDF / Excel / Word ──
    Système générique : un modèle de « fiche » normalisé est rendu dans les trois
@@ -5071,11 +5037,138 @@ function ListExportMenu({ getModel, disabled, label }) {
   }} />;
 }
 
+/* ── Fiche député enrichie ──────────────────────────────────────────────
+   Charge public/data/deputes/PA<id>.json (générée par scripts/deputes/).
+   Structure : signaux stratégiques (participation, loyauté vs groupe,
+   votes dissidents) + onglets Votes / Amendements / Questions / Rapports /
+   Équipe / Actualités. */
+
+const DEP_POS_LABELS = { p:'Pour', c:'Contre', a:'Abstention', n:'Non-votant', abs:'Absent' };
+const DEP_POS_STYLE = {
+  p:   { color:'var(--pos)',           bg:'var(--green-50)' },
+  c:   { color:'var(--neg)',           bg:'var(--red-50)'   },
+  a:   { color:'var(--amber-600)',     bg:'var(--amber-50)' },
+  n:   { color:'var(--text-secondary)',bg:'var(--gray-100)' },
+  abs: { color:'var(--text-tertiary)', bg:'var(--gray-50)'  },
+};
+const DEP_SORT_STYLE = {
+  'Adopté':      { color:'var(--pos)',            bg:'var(--green-50)' },
+  'Rejeté':      { color:'var(--neg)',            bg:'var(--red-50)'   },
+  'Irrecevable': { color:'var(--text-secondary)', bg:'var(--gray-100)' },
+  'Retiré':      { color:'var(--text-secondary)', bg:'var(--gray-100)' },
+  'Non soutenu': { color:'var(--text-secondary)', bg:'var(--gray-100)' },
+  'Tombé':       { color:'var(--text-secondary)', bg:'var(--gray-100)' },
+  'En cours':    { color:'var(--blue-france)',    bg:'#00009114' },
+};
+
+function depPct(v, digits = 0) {
+  return v === null || v === undefined ? '—' : (v * 100).toLocaleString('fr-FR', { maximumFractionDigits: digits }) + ' %';
+}
+function depDateFR(iso) {
+  return iso ? String(iso).slice(0, 10).split('-').reverse().join('/') : '—';
+}
+
+/* Cache des fiches déjà chargées (une par député, ~40-70 Ko). */
+const _ficheCache = {};
+function useDeputeFiche(depId) {
+  const [state, setState] = React.useState({ loading: true, fiche: null, error: false });
+  React.useEffect(() => {
+    if (!depId) return;
+    let alive = true;
+    setState({ loading: true, fiche: null, error: false });
+    const load = _ficheCache[depId]
+      || (_ficheCache[depId] = fetch('public/data/deputes/PA' + depId + '.json')
+          .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+          .catch(e => { delete _ficheCache[depId]; throw e; }));
+    load
+      .then(f => { if (alive) setState({ loading: false, fiche: f, error: false }); })
+      .catch(() => { if (alive) setState({ loading: false, fiche: null, error: true }); });
+    return () => { alive = false; };
+  }, [depId]);
+  return state;
+}
+
+/* Jauge horizontale avec repère de la moyenne du groupe. */
+function DepGauge({ label, value, moyenne, color }) {
+  const pct = value === null || value === undefined ? 0 : Math.max(0, Math.min(1, value)) * 100;
+  const moy = moyenne === null || moyenne === undefined ? null : Math.max(0, Math.min(1, moyenne)) * 100;
+  const delta = value !== null && value !== undefined && moy !== null ? (value - moyenne) * 100 : null;
+  return (
+    <div style={{ flex:1, minWidth:200 }}>
+      <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', marginBottom:7 }}>
+        <span style={{ fontSize:11, fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>{label}</span>
+        <span style={{ fontFamily:'var(--font-mono)', fontSize:22, fontWeight:800, color: value === null ? 'var(--text-tertiary)' : 'var(--ink)' }}>{depPct(value)}</span>
+      </div>
+      <div style={{ position:'relative', height:10, borderRadius:5, background:'var(--gray-100)', overflow:'visible' }}>
+        <div style={{ position:'absolute', inset:0, borderRadius:5, overflow:'hidden' }}>
+          <div style={{ width:pct + '%', height:'100%', background:color, borderRadius:5, transition:'width 400ms ease' }} />
+        </div>
+        {moy !== null && (
+          <div title={'Moyenne du groupe : ' + depPct(moyenne)} style={{ position:'absolute', left:'calc(' + moy + '% - 1.5px)', top:-3, width:3, height:16, borderRadius:2, background:'var(--ink)' }} />
+        )}
+      </div>
+      <div style={{ marginTop:6, fontSize:11.5, color:'var(--text-tertiary)' }}>
+        {moy === null ? (value === null ? 'Donnée indisponible' : 'Pas de moyenne de groupe')
+          : <>Moyenne du groupe : <strong style={{ color:'var(--text-secondary)' }}>{depPct(moyenne)}</strong>
+            {delta !== null && Math.abs(delta) >= 0.5 && (
+              <span style={{ marginLeft:6, fontWeight:700, color: delta >= 0 ? 'var(--pos)' : 'var(--neg)' }}>
+                {delta >= 0 ? '+' : '−'}{Math.abs(delta).toLocaleString('fr-FR', { maximumFractionDigits:0 })} pts
+              </span>
+            )}</>}
+      </div>
+    </div>
+  );
+}
+
+/* Résumé texte de la fiche pour le bouton « Copier la fiche » (collé tel
+   quel dans les notes des consultants). */
+function buildDeputeClipboard(dep, fiche) {
+  const s = fiche.stats || {};
+  const m = fiche.mandat || {};
+  const circo = m.circonscription || {};
+  const L = [];
+  L.push('FICHE DÉPUTÉ — ' + fiche.identite.nomComplet + (m.groupe ? ' (' + m.groupe.short + ')' : ''));
+  L.push((fiche.identite.female ? 'Députée' : 'Député') + ' de la ' + (circo.libelle || '—') + ' de ' + (circo.departement || '—') + (circo.region ? ' (' + circo.region + ')' : ''));
+  L.push('Groupe : ' + (m.groupe ? m.groupe.name : '—'));
+  (m.commissions || []).forEach(c => L.push('Commission : ' + c.nom + (c.qualite && c.qualite !== 'Membre' ? ' (' + c.qualite + ')' : '')));
+  if (fiche.identite.profession) L.push('Profession : ' + fiche.identite.profession);
+  L.push('Mandat depuis le ' + depDateFR(m.dateDebut) + (m.causeMandat ? ' (' + m.causeMandat + ')' : ''));
+  L.push('');
+  L.push('SIGNAUX STRATÉGIQUES');
+  L.push('Participation aux scrutins : ' + depPct(s.taux_participation) + (s.moyenne_groupe_participation != null ? ' (moyenne du groupe : ' + depPct(s.moyenne_groupe_participation) + ')' : ''));
+  if (fiche.loyaute_applicable) {
+    L.push('Loyauté au groupe : ' + depPct(s.taux_loyaute, 1) + (s.moyenne_groupe_loyaute != null ? ' (moyenne du groupe : ' + depPct(s.moyenne_groupe_loyaute, 1) + ')' : ''));
+    L.push('Votes dissidents : ' + (fiche.votes_rebelles || []).length);
+    (fiche.votes_rebelles || []).slice(0, 5).forEach(v =>
+      L.push('  · ' + depDateFR(v.d) + ' — ' + v.t + ' (a voté ' + (DEP_POS_LABELS[v.p] || v.p).toLowerCase() + ', groupe : ' + (DEP_POS_LABELS[v.g] || v.g).toLowerCase() + ')'));
+  } else {
+    L.push('Loyauté au groupe : non applicable (député non inscrit)');
+  }
+  L.push('');
+  L.push('ACTIVITÉ PARLEMENTAIRE');
+  L.push('Amendements : ' + (s.nb_amendements || 0) + ' déposés, ' + (s.nb_amendements_adoptes || 0) + ' adoptés' + (s.taux_adoption_amendements != null ? ' (taux d’adoption : ' + depPct(s.taux_adoption_amendements) + ')' : '') + ', ' + (s.nb_amendements_cosignes || 0) + ' cosignés');
+  L.push('Questions : ' + (s.nb_questions_ecrites || 0) + ' écrites, ' + (s.nb_questions_orales || 0) + ' orales, ' + (s.nb_questions_gouvernement || 0) + ' au Gouvernement');
+  L.push('Rapports / missions : ' + (s.nb_rapports || 0));
+  if ((fiche.collaborateurs || []).length) {
+    L.push('');
+    L.push('ÉQUIPE : ' + fiche.collaborateurs.map(c => (c.prenom + ' ' + c.nom).trim()).join(', '));
+  }
+  L.push('');
+  if (fiche.liens && fiche.liens.page_an) L.push('Page AN : ' + fiche.liens.page_an);
+  if (fiche.liens && fiche.liens.hatvp) L.push('Déclaration d’intérêts (HATVP) : ' + fiche.liens.hatvp);
+  L.push('Source : France Monitor · données Assemblée nationale (Licence Ouverte 2.0)');
+  return L.join('\n');
+}
+
 function DeputeView({ dep, onBack }) {
-  const { stats, loading: votesLoading } = useDeputeVotes(dep?.id);
+  const { fiche, loading: ficheLoading, error: ficheError } = useDeputeFiche(dep?.id);
   const { news: allDepNews, loading: newsLoading } = useDeputesNews();
   const depNews = (dep && allDepNews[dep.id]) || [];
   const [tab, setTab] = React.useState('votes');
+  const [voteFilter, setVoteFilter] = React.useState('');
+  const [amFilter, setAmFilter] = React.useState('');
+  const [qFilter, setQFilter] = React.useState('');
+  const [copied, setCopied] = React.useState(false);
   const gc = dep?.groupe?.color || '#9AA3AF';
 
   React.useEffect(() => {
@@ -5084,53 +5177,118 @@ function DeputeView({ dep, onBack }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [onBack]);
 
+  React.useEffect(() => { setTab('votes'); setVoteFilter(''); setAmFilter(''); setQFilter(''); }, [dep?.id]);
+
   if (!dep) return null;
 
-  const total = stats ? stats.pour + stats.contre + stats.abstention + stats.absent : 0;
-  const exprimes = stats ? stats.pour + stats.contre + stats.abstention : 0;
-  const absent = stats ? stats.absent : 0;
-  const txParticip = total > 0 ? Math.round(exprimes / total * 100) : 0;
-  const parDelegCount = stats ? (stats.votes || []).filter(v => v.parDelegation).length : 0;
+  const s = fiche ? fiche.stats : null;
+  const rebelles = fiche ? (fiche.votes_rebelles || []) : [];
+  const loyApplicable = fiche ? fiche.loyaute_applicable !== false : true;
 
+  /* Compatibilité avec l'export PDF/Excel/Word existant (buildDeputeFiche). */
+  const exportStats = fiche && s ? {
+    pour: s.pour || 0, contre: s.contre || 0, abstention: s.abstention || 0,
+    absent: Math.max(0, (s.nb_scrutins_mandat || 0) - (s.nb_votes_exprimes || 0) - (s.nb_non_votant || 0)),
+    votes: (fiche.derniers_votes || []).map(v => ({
+      date: v.d, titre: v.t,
+      position: (DEP_POS_LABELS[v.p] || v.p || '').toLowerCase(),
+      parDelegation: !!v.del,
+    })),
+  } : null;
+
+  const copyFiche = () => {
+    if (!fiche) return;
+    const txt = buildDeputeClipboard(dep, fiche);
+    const done = () => { setCopied(true); setTimeout(() => setCopied(false), 2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(done).catch(() => {});
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = txt; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+  };
+
+  const filtVotes = fiche ? (fiche.derniers_votes || []).filter(v => !voteFilter.trim() || (v.t || '').toLowerCase().includes(voteFilter.toLowerCase())) : [];
+  const filtAm = fiche ? (fiche.amendements || []).filter(a => !amFilter.trim() || ((a.t || '') + ' ' + (a.div || '') + ' ' + (a.num || '')).toLowerCase().includes(amFilter.toLowerCase())) : [];
+  const filtQ = fiche ? (fiche.questions || []).filter(q => !qFilter.trim() || ((q.t || '') + ' ' + (q.r || '') + ' ' + (q.m || '')).toLowerCase().includes(qFilter.toLowerCase())) : [];
+
+  const nbQuestions = s ? (s.nb_questions_ecrites || 0) + (s.nb_questions_orales || 0) + (s.nb_questions_gouvernement || 0) : 0;
   const TABS = [
-    { id:'votes', label:'Tous les votes' },
-    { id:'news',  label:'Actualités' + (depNews.length ? ' (' + depNews.length + ')' : '') },
-    { id:'info',  label:'Informations'   },
+    { id:'votes',  label:'Votes' },
+    { id:'amend',  label:'Amendements' + (s && s.nb_amendements ? ' (' + s.nb_amendements + ')' : '') },
+    { id:'quest',  label:'Questions' + (nbQuestions ? ' (' + nbQuestions + ')' : '') },
+    { id:'rapports', label:'Rapports' + (s && s.nb_rapports ? ' (' + s.nb_rapports + ')' : '') },
+    { id:'equipe', label:'Équipe' },
+    { id:'news',   label:'Actualités' + (depNews.length ? ' (' + depNews.length + ')' : '') },
   ];
+
+  const liens = fiche ? fiche.liens : { page_an: 'https://www.assemblee-nationale.fr/dyn/deputes/PA' + dep.id, hatvp: null };
+  const commissions = fiche ? (fiche.mandat.commissions || []) : [];
+
+  const skeleton = (h) => <div style={{ height:h, borderRadius:'var(--radius-md)', background:'linear-gradient(90deg,var(--gray-100) 25%,var(--gray-50) 50%,var(--gray-100) 75%)', backgroundSize:'200% 100%', animation:'dep-shimmer 1.2s infinite' }} />;
+
+  const filterInput = (value, setValue, placeholder) => (
+    <div style={{ display:'flex', alignItems:'center', gap:8, border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'6px 12px', background:'var(--surface)', minWidth:220 }}>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none' }}><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" value={value} onChange={e => setValue(e.target.value)} placeholder={placeholder}
+        style={{ border:'none', outline:'none', background:'transparent', fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--ink)', width:'100%' }} />
+      {value && <button onClick={() => setValue('')} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex' }}><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>}
+    </div>
+  );
+
+  const posBadge = (code, big) => {
+    const st = DEP_POS_STYLE[code] || DEP_POS_STYLE.abs;
+    return <span style={{ fontSize: big ? 11.5 : 11, fontWeight:700, color:st.color, background:st.bg, borderRadius:999, padding: big ? '4px 12px' : '3px 10px', whiteSpace:'nowrap' }}>{DEP_POS_LABELS[code] || code || '—'}</span>;
+  };
+
+  const tabHeader = (title, right) => (
+    <div style={{ padding:'16px 24px 12px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center', gap:12, flexWrap:'wrap' }}>
+      <div style={{ fontFamily:'var(--font-sans)', fontSize:16.5, fontWeight:700, color:'var(--ink)' }}>{title}</div>
+      {right}
+    </div>
+  );
+
+  const emptyMsg = (msg) => <div style={{ padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>{msg}</div>;
 
   return (
     <div style={{ maxWidth:1480, margin:'0 auto', padding:'28px 24px 64px' }}>
       <style>{`
-        .dep-tab-btn{background:none;border:none;cursor:pointer;padding:13px 18px;font-family:var(--font-sans);font-size:13.5px;font-weight:500;color:var(--text-secondary);border-bottom:2px solid transparent;transition:color 120ms,border-color 120ms}
+        @keyframes dep-shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+        .dep-tab-btn{background:none;border:none;cursor:pointer;padding:13px 16px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--text-secondary);border-bottom:2px solid transparent;transition:color 120ms,border-color 120ms;white-space:nowrap}
         .dep-tab-btn:hover{color:var(--text)}
         .dep-tab-btn.on{color:var(--ink);border-bottom-color:var(--ink);font-weight:600}
-        .dep-vote-row{padding:16px 24px;border-bottom:1px solid var(--border-subtle);transition:background 100ms}
+        .dep-vote-row{padding:14px 24px;border-bottom:1px solid var(--border-subtle);transition:background 100ms}
         .dep-vote-row:hover{background:var(--surface-hover)}
         .dep-vote-row:last-child{border-bottom:none}
-        .dep-stat-mini{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px 12px;border-radius:var(--radius-md);text-align:center}
+        .dep-hdr-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 14px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:var(--text-secondary);cursor:pointer;text-decoration:none;transition:border-color 120ms,color 120ms;white-space:nowrap}
+        .dep-hdr-btn:hover{border-color:var(--border-strong);color:var(--ink)}
+        .dep-fiche-grid{display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start}
+        @media (max-width:900px){.dep-fiche-grid{grid-template-columns:1fr}.dep-signaux{flex-direction:column}}
       `}</style>
 
-      {/* Breadcrumb / back */}
-      <div style={{ marginBottom:28, display:'flex', alignItems:'center', gap:12 }}>
-        <button onClick={onBack} style={{ background:'none', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', cursor:'pointer', padding:'8px 16px', display:'flex', alignItems:'center', gap:7, color:'var(--text-secondary)', fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:500, transition:'border-color 120ms,color 120ms' }}
-          onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--border-strong)'; e.currentTarget.style.color='var(--ink)'; }}
-          onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--text-secondary)'; }}>
+      {/* Barre retour + actions */}
+      <div style={{ marginBottom:24, display:'flex', alignItems:'center', gap:12, flexWrap:'wrap' }}>
+        <button onClick={onBack} className="dep-hdr-btn">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="15 18 9 12 15 6"/></svg>
           Retour aux députés
         </button>
         <span style={{ fontSize:12, color:'var(--text-tertiary)', fontFamily:'var(--font-sans)' }}>Assemblée nationale · XVIIe législature</span>
-        <div style={{ marginLeft:'auto' }}>
-          <FicheExportMenu getFiche={() => buildDeputeFiche(dep, stats, depNews)} />
+        <div style={{ marginLeft:'auto', display:'flex', gap:8, alignItems:'center', flexWrap:'wrap' }}>
+          <button onClick={copyFiche} className="dep-hdr-btn" disabled={!fiche} style={ copied ? { borderColor:'var(--pos)', color:'var(--pos)' } : !fiche ? { opacity:0.5, cursor:'default' } : {} }>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">{copied ? <polyline points="20 6 9 17 4 12"/> : <><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></>}</svg>
+            {copied ? 'Copié !' : 'Copier la fiche'}
+          </button>
+          <FicheExportMenu getFiche={() => buildDeputeFiche(dep, exportStats, depNews)} />
         </div>
       </div>
 
-      <div style={{ display:'grid', gridTemplateColumns:'300px 1fr', gap:20, alignItems:'start' }}>
+      <div className="dep-fiche-grid">
 
-        {/* ── Colonne gauche ── */}
+        {/* ── Colonne gauche : identité & mandat ── */}
         <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
-
-          {/* Carte identité */}
-          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'32px 24px 24px', display:'flex', flexDirection:'column', alignItems:'center', gap:14, textAlign:'center' }}>
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'30px 24px 22px', display:'flex', flexDirection:'column', alignItems:'center', gap:13, textAlign:'center' }}>
             <DepAvatar dep={dep} size={110} />
             <div>
               <div style={{ fontFamily:'var(--font-sans)', fontSize:21, fontWeight:800, color:'var(--ink)', letterSpacing:'-0.025em', lineHeight:1.25, marginBottom:5 }}>{dep.nomComplet}</div>
@@ -5139,167 +5297,337 @@ function DeputeView({ dep, onBack }) {
             <div style={{ display:'flex', gap:7, flexWrap:'wrap', justifyContent:'center' }}>
               {dep.groupe && <span style={{ fontSize:12, fontWeight:700, color:gc, background:gc+'18', border:'1px solid '+gc+'35', borderRadius:999, padding:'4px 13px' }}>{dep.groupe.short}</span>}
               <span style={{ fontSize:12, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'4px 13px' }}>{dep.female ? 'Députée' : 'Député'}</span>
-              <span style={{ fontSize:12, fontWeight:600, color:'var(--text-tertiary)', background:'var(--gray-100)', border:'1px solid var(--border)', borderRadius:999, padding:'4px 13px' }}>XVIIe législature</span>
             </div>
-            <div style={{ width:'100%', height:1, background:'var(--border)', margin:'2px 0' }} />
+
+            {/* Liens sortants */}
+            <div style={{ display:'flex', gap:8, width:'100%', marginTop:2 }}>
+              <a href={liens.page_an} target="_blank" rel="noopener noreferrer" className="dep-hdr-btn" style={{ flex:1, justifyContent:'center' }}>
+                Page AN <span style={{ fontSize:10 }}>↗</span>
+              </a>
+              {liens.hatvp && (
+                <a href={liens.hatvp} target="_blank" rel="noopener noreferrer" className="dep-hdr-btn" style={{ flex:1, justifyContent:'center' }} title="Déclaration d'intérêts — HATVP">
+                  HATVP <span style={{ fontSize:10 }}>↗</span>
+                </a>
+              )}
+            </div>
+
+            <div style={{ width:'100%', height:1, background:'var(--border)', margin:'4px 0 2px' }} />
             <div style={{ width:'100%', display:'flex', flexDirection:'column', gap:9, textAlign:'left' }}>
               <div style={{ display:'flex', gap:9, fontSize:13, color:'var(--text-secondary)', alignItems:'flex-start' }}>
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 <span>{dep.circonscription}<br/><span style={{ color:'var(--text-tertiary)', fontSize:12 }}>{dep.dept}{dep.region ? ' · ' + dep.region : ''}</span></span>
               </div>
+              {commissions.map((c, i) => (
+                <div key={i} style={{ display:'flex', gap:9, fontSize:13, color:'var(--text-secondary)', alignItems:'flex-start' }}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+                  <span>{c.nom}{c.qualite && c.qualite !== 'Membre' && <span style={{ display:'block', fontSize:11.5, fontWeight:700, color:'var(--blue-france)' }}>{c.qualite}</span>}</span>
+                </div>
+              ))}
               {dep.profession && (
                 <div style={{ display:'flex', gap:9, fontSize:13, color:'var(--text-secondary)', alignItems:'flex-start' }}>
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
                   <span>{dep.profession}</span>
                 </div>
               )}
+              {fiche && fiche.mandat.dateDebut && (
+                <div style={{ display:'flex', gap:9, fontSize:13, color:'var(--text-secondary)', alignItems:'flex-start' }}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <span>Mandat depuis le {depDateFR(fiche.mandat.dateDebut)}
+                    {fiche.mandat.causeMandat && fiche.mandat.causeMandat !== 'élections générales' && (
+                      <span style={{ display:'block', fontSize:11.5, color:'var(--amber-700)', fontWeight:600 }}>{fiche.mandat.causeMandat}</span>
+                    )}
+                  </span>
+                </div>
+              )}
             </div>
           </div>
 
-          {/* Participation */}
-          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'20px 20px 16px' }}>
-            <div style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:14 }}>Participation aux votes</div>
-            {votesLoading ? (
-              <div style={{ fontSize:13, color:'var(--text-tertiary)', padding:'8px 0' }}>Chargement…</div>
-            ) : !stats ? (
-              <div style={{ fontSize:13, color:'var(--text-tertiary)', padding:'8px 0' }}>Données non disponibles pour ce député.</div>
-            ) : (
-              <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
-                {/* Taux */}
-                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', background:'var(--surface-sunken)', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'12px 16px' }}>
-                  <div>
-                    <div style={{ fontSize:12, fontWeight:600, color:'var(--text-secondary)', marginBottom:2 }}>Taux de participation</div>
-                    <div style={{ fontSize:11, color:'var(--text-tertiary)' }}>Sur {total.toLocaleString('fr-FR')} scrutins</div>
-                  </div>
-                  <span style={{ fontFamily:'var(--font-mono)', fontSize:26, fontWeight:800, color: txParticip >= 70 ? 'var(--pos)' : txParticip >= 40 ? 'var(--warn)' : 'var(--neg)' }}>{txParticip}%</span>
-                </div>
-                {/* Exprimés / Absences */}
-                <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8 }}>
-                  <div style={{ background:'var(--surface-sunken)', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'12px', textAlign:'center' }}>
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:24, fontWeight:700, color:'var(--ink)' }}>{exprimes.toLocaleString('fr-FR')}</div>
-                    <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>Votes exprimés</div>
-                  </div>
-                  <div style={{ background:'var(--surface-sunken)', border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'12px', textAlign:'center' }}>
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:24, fontWeight:700, color:'var(--ink)' }}>{absent.toLocaleString('fr-FR')}</div>
-                    <div style={{ fontSize:11, color:'var(--text-tertiary)', marginTop:2 }}>Non-votes</div>
-                  </div>
-                </div>
-                {/* Pour / Contre / Abst */}
-                <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:7 }}>
-                  <div className="dep-stat-mini" style={{ background:'var(--green-50)' }}>
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:18, fontWeight:700, color:'var(--pos)' }}>{stats.pour}</div>
-                    <div style={{ fontSize:10.5, fontWeight:600, color:'var(--green-700)', marginTop:3 }}>Pour</div>
-                  </div>
-                  <div className="dep-stat-mini" style={{ background:'var(--red-50)' }}>
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:18, fontWeight:700, color:'var(--neg)' }}>{stats.contre}</div>
-                    <div style={{ fontSize:10.5, fontWeight:600, color:'var(--red-700)', marginTop:3 }}>Contre</div>
-                  </div>
-                  <div className="dep-stat-mini" style={{ background:'var(--amber-50)' }}>
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:18, fontWeight:700, color:'var(--amber-700)' }}>{stats.abstention}</div>
-                    <div style={{ fontSize:10.5, fontWeight:600, color:'var(--amber-700)', marginTop:3 }}>Abst.</div>
-                  </div>
-                </div>
-                {parDelegCount > 0 && (
-                  <div style={{ fontSize:11.5, color:'var(--text-tertiary)', textAlign:'center', paddingTop:2 }}>dont {parDelegCount} vote{parDelegCount > 1 ? 's' : ''} par délégation</div>
-                )}
-              </div>
-            )}
-          </div>
-
           <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6, paddingLeft:4 }}>
-            Source : Assemblée nationale · données officielles XVIIe législature
+            Source : Assemblée nationale · data.assemblee-nationale.fr · Licence Ouverte 2.0
+            {fiche && fiche.updatedAt ? ' · actualisé le ' + depDateFR(fiche.updatedAt) : ''}
           </div>
         </div>
 
         {/* ── Colonne droite ── */}
-        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden', minHeight:600 }}>
-          {/* Tabs */}
-          <div style={{ borderBottom:'1px solid var(--border)', display:'flex', padding:'0 8px' }}>
-            {TABS.map(t => (
-              <button key={t.id} className={'dep-tab-btn' + (tab === t.id ? ' on' : '')} onClick={() => setTab(t.id)}>{t.label}</button>
-            ))}
+        <div style={{ display:'flex', flexDirection:'column', gap:20, minWidth:0 }}>
+
+          {/* Bloc SIGNAUX STRATÉGIQUES */}
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'20px 24px 22px' }}>
+            <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:16 }}>
+              <span style={{ width:8, height:8, borderRadius:2, background:'var(--blue-france)', flex:'none' }} />
+              <span style={{ fontSize:11, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'var(--blue-france)' }}>Signaux stratégiques</span>
+            </div>
+            {ficheLoading ? (
+              <div style={{ display:'flex', flexDirection:'column', gap:12 }}>{skeleton(56)}{skeleton(56)}{skeleton(90)}</div>
+            ) : ficheError || !fiche ? (
+              <div style={{ padding:'18px 0', fontSize:13, color:'var(--text-tertiary)' }}>
+                Fiche indisponible pour ce député — les données seront régénérées au prochain build quotidien.
+              </div>
+            ) : (
+              <>
+                <div className="dep-signaux" style={{ display:'flex', gap:32, flexWrap:'wrap' }}>
+                  <DepGauge label="Participation aux scrutins" value={s.taux_participation} moyenne={s.moyenne_groupe_participation} color={gc} />
+                  {loyApplicable
+                    ? <DepGauge label="Loyauté au groupe" value={s.taux_loyaute} moyenne={s.moyenne_groupe_loyaute} color={gc} />
+                    : (
+                      <div style={{ flex:1, minWidth:200 }}>
+                        <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:7 }}>Loyauté au groupe</div>
+                        <div style={{ fontSize:13, color:'var(--text-secondary)', background:'var(--gray-50)', border:'1px dashed var(--border)', borderRadius:'var(--radius-md)', padding:'12px 14px' }}>
+                          Non applicable — député non inscrit (aucune ligne de groupe à suivre).
+                        </div>
+                      </div>
+                    )}
+                </div>
+                <div style={{ display:'flex', gap:14, flexWrap:'wrap', marginTop:16, paddingTop:14, borderTop:'1px solid var(--border-subtle)', fontSize:12, color:'var(--text-tertiary)' }}>
+                  <span><strong style={{ color:'var(--text-secondary)', fontFamily:'var(--font-mono)' }}>{(s.nb_votes_exprimes || 0).toLocaleString('fr-FR')}</strong> votes exprimés sur <strong style={{ color:'var(--text-secondary)', fontFamily:'var(--font-mono)' }}>{(s.nb_scrutins_mandat || 0).toLocaleString('fr-FR')}</strong> scrutins du mandat</span>
+                  {s.nb_delegations > 0 && <span>dont {s.nb_delegations} par délégation</span>}
+                  <span><strong style={{ color:'var(--pos)', fontFamily:'var(--font-mono)' }}>{s.pour || 0}</strong> pour · <strong style={{ color:'var(--neg)', fontFamily:'var(--font-mono)' }}>{s.contre || 0}</strong> contre · <strong style={{ color:'var(--amber-700)', fontFamily:'var(--font-mono)' }}>{s.abstention || 0}</strong> abst.</span>
+                </div>
+
+                {/* Encadré votes dissidents */}
+                {loyApplicable && (
+                  <div style={{ marginTop:16, border:'1px solid ' + (rebelles.length ? 'var(--amber-200, #FDE68A)' : 'var(--border)'), background: rebelles.length ? 'var(--amber-50)' : 'var(--gray-50)', borderRadius:'var(--radius-md)', overflow:'hidden' }}>
+                    <div style={{ padding:'11px 16px', display:'flex', alignItems:'center', gap:9 }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={rebelles.length ? 'var(--amber-700)' : 'var(--text-tertiary)'} strokeWidth="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                      <span style={{ fontSize:12, fontWeight:700, color: rebelles.length ? 'var(--amber-700)' : 'var(--text-secondary)' }}>
+                        {rebelles.length === 0 ? 'Aucun vote dissident détecté' : rebelles.length + ' vote' + (rebelles.length > 1 ? 's' : '') + ' dissident' + (rebelles.length > 1 ? 's' : '') + ' vs la ligne du groupe'}
+                      </span>
+                      <span style={{ marginLeft:'auto', fontSize:10.5, color:'var(--text-tertiary)' }}>scrutins avec ≥ 15 votants du groupe</span>
+                    </div>
+                    {rebelles.length > 0 && (
+                      <div style={{ maxHeight:230, overflowY:'auto', borderTop:'1px solid var(--border-subtle)', background:'var(--surface)' }}>
+                        {rebelles.map((v, i) => (
+                          <div key={i} style={{ padding:'10px 16px', borderBottom: i < rebelles.length - 1 ? '1px solid var(--border-subtle)' : 'none', display:'flex', gap:12, alignItems:'flex-start' }}>
+                            <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)', flex:'none', paddingTop:2 }}>{depDateFR(v.d)}</span>
+                            <span style={{ flex:1, fontSize:12.5, color:'var(--ink)', lineHeight:1.4, minWidth:0 }}>
+                              {v.t}
+                              {v.sol && <span style={{ marginLeft:6, fontSize:10, fontWeight:700, color:'var(--blue-france)', background:'#00009114', borderRadius:999, padding:'1px 7px', whiteSpace:'nowrap' }}>Solennel</span>}
+                            </span>
+                            <span style={{ flex:'none', display:'flex', gap:5, alignItems:'center' }}>
+                              {posBadge(v.p)}
+                              <span style={{ fontSize:10, color:'var(--text-tertiary)' }}>vs groupe</span>
+                              {posBadge(v.g)}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </>
+            )}
           </div>
 
-          {/* Votes */}
-          {tab === 'votes' && (
-            <div>
-              <div style={{ padding:'18px 24px 12px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'baseline' }}>
-                <div style={{ fontFamily:'var(--font-sans)', fontSize:17, fontWeight:700, color:'var(--ink)' }}>Derniers votes</div>
-                {stats && <span style={{ fontFamily:'var(--font-mono)', fontSize:12, color:'var(--text-tertiary)' }}>{(stats.votes||[]).length} votes</span>}
-              </div>
-              {votesLoading ? (
-                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des votes…</div>
-              ) : !stats || !stats.votes?.length ? (
-                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Aucune donnée de vote disponible.</div>
-              ) : stats.votes.map((v, i) => {
-                const isPour = v.position === 'pour';
-                const isContre = v.position === 'contre';
-                const isAbst = v.position === 'abstention';
-                const posColor = isPour ? 'var(--pos)' : isContre ? 'var(--neg)' : isAbst ? 'var(--amber-600)' : 'var(--text-tertiary)';
-                const posBg   = isPour ? 'var(--green-50)' : isContre ? 'var(--red-50)' : isAbst ? 'var(--amber-50)' : 'var(--gray-50)';
-                const posLabel = isPour ? 'Pour' : isContre ? 'Contre' : isAbst ? 'Abstention' : 'Non-vote';
-                return (
-                  <div key={i} className="dep-vote-row">
-                    <div style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)', marginBottom:5 }}>{v.date}</div>
-                    <div style={{ fontSize:14, fontWeight:600, color:'var(--ink)', marginBottom:9, lineHeight:1.45 }}>{v.titre}</div>
-                    <div style={{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap' }}>
-                      <span style={{ fontSize:11.5, fontWeight:700, color:posColor, background:posBg, borderRadius:999, padding:'4px 12px' }}>{posLabel}</span>
-                      {v.parDelegation && <span style={{ fontSize:11, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', border:'1px solid var(--border)', borderRadius:999, padding:'3px 10px' }}>Par délégation</span>}
+          {/* Onglets */}
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden', minHeight:420 }}>
+            <div style={{ borderBottom:'1px solid var(--border)', display:'flex', padding:'0 8px', overflowX:'auto' }}>
+              {TABS.map(t => (
+                <button key={t.id} className={'dep-tab-btn' + (tab === t.id ? ' on' : '')} onClick={() => setTab(t.id)}>{t.label}</button>
+              ))}
+            </div>
+
+            {ficheLoading && tab !== 'news' ? (
+              <div style={{ padding:24, display:'flex', flexDirection:'column', gap:12 }}>{skeleton(52)}{skeleton(52)}{skeleton(52)}{skeleton(52)}</div>
+            ) : (ficheError || !fiche) && tab !== 'news' ? (
+              emptyMsg('Données indisponibles pour ce député. Réessayez plus tard — le fichier sera régénéré au prochain build quotidien.')
+            ) : (
+              <>
+                {/* ── Onglet Votes ── */}
+                {tab === 'votes' && (
+                  <div>
+                    {tabHeader('Derniers scrutins',
+                      <div style={{ display:'flex', gap:10, alignItems:'center' }}>
+                        {filterInput(voteFilter, setVoteFilter, 'Filtrer par titre de scrutin…')}
+                        <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)', whiteSpace:'nowrap' }}>
+                          {filtVotes.length}/{(fiche.derniers_votes || []).length}
+                        </span>
+                      </div>)}
+                    {filtVotes.length === 0 ? emptyMsg(voteFilter ? 'Aucun scrutin ne correspond à « ' + voteFilter + ' ».' : 'Aucune donnée de vote disponible.') :
+                      filtVotes.map((v, i) => {
+                        const dissident = v.g && (v.p === 'p' || v.p === 'c' || v.p === 'a') && v.p !== v.g;
+                        return (
+                          <div key={i} className="dep-vote-row">
+                            <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5, flexWrap:'wrap' }}>
+                              <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{depDateFR(v.d)}</span>
+                              {v.sol && <span style={{ fontSize:10, fontWeight:700, color:'var(--blue-france)', background:'#00009114', borderRadius:999, padding:'1px 8px' }}>Scrutin solennel</span>}
+                              {dissident && <span style={{ fontSize:10, fontWeight:700, color:'var(--amber-700)', background:'var(--amber-50)', border:'1px solid var(--amber-200, #FDE68A)', borderRadius:999, padding:'1px 8px' }}>Dissident</span>}
+                            </div>
+                            <div style={{ fontSize:13.5, fontWeight:600, color:'var(--ink)', marginBottom:8, lineHeight:1.45 }}>{v.t}</div>
+                            <div style={{ display:'flex', gap:7, alignItems:'center', flexWrap:'wrap' }}>
+                              {posBadge(v.p, true)}
+                              {v.g && <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>ligne du groupe : {(DEP_POS_LABELS[v.g] || v.g).toLowerCase()}</span>}
+                              {v.del && <span style={{ fontSize:11, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', border:'1px solid var(--border)', borderRadius:999, padding:'2px 9px' }}>Par délégation</span>}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    {fiche.nb_total_derniers_votes > (fiche.derniers_votes || []).length && !voteFilter && (
+                      <div style={{ padding:'12px 24px', fontSize:11.5, color:'var(--text-tertiary)', borderTop:'1px solid var(--border-subtle)' }}>
+                        {(fiche.derniers_votes || []).length} scrutins les plus récents affichés sur {fiche.nb_total_derniers_votes.toLocaleString('fr-FR')} au total pendant le mandat.
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* ── Onglet Amendements ── */}
+                {tab === 'amend' && (
+                  <div>
+                    {tabHeader('Amendements déposés',
+                      <div style={{ display:'flex', gap:10, alignItems:'center', flexWrap:'wrap' }}>
+                        {filterInput(amFilter, setAmFilter, 'Filtrer par texte, article, numéro…')}
+                        {s.taux_adoption_amendements != null && (
+                          <span style={{ fontSize:11.5, fontWeight:700, color:'var(--pos)', background:'var(--green-50)', borderRadius:999, padding:'4px 12px', whiteSpace:'nowrap' }}>
+                            {depPct(s.taux_adoption_amendements)} adoptés
+                          </span>
+                        )}
+                      </div>)}
+                    <div style={{ padding:'10px 24px', borderBottom:'1px solid var(--border-subtle)', display:'flex', gap:16, flexWrap:'wrap', fontSize:12, color:'var(--text-tertiary)', background:'var(--surface-sunken)' }}>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--ink)' }}>{s.nb_amendements || 0}</strong> déposés</span>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--pos)' }}>{s.nb_amendements_adoptes || 0}</strong> adoptés</span>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--ink)' }}>{(s.nb_amendements_cosignes || 0).toLocaleString('fr-FR')}</strong> cosignés</span>
+                      <span style={{ marginLeft:'auto' }}>taux calculé sur les {s.nb_amendements_sort_connu || 0} amendements au sort connu</span>
                     </div>
+                    {filtAm.length === 0 ? emptyMsg(amFilter ? 'Aucun amendement ne correspond à « ' + amFilter + ' ».' : 'Aucun amendement déposé par ce député.') :
+                      filtAm.map((a, i) => {
+                        const st = DEP_SORT_STYLE[a.s] || { color:'var(--text-secondary)', bg:'var(--gray-100)' };
+                        return (
+                          <div key={i} className="dep-vote-row" style={{ display:'flex', gap:14, alignItems:'flex-start' }}>
+                            <div style={{ flex:'none', width:86 }}>
+                              <div style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>{depDateFR(a.d)}</div>
+                              <div style={{ fontFamily:'var(--font-mono)', fontSize:11.5, fontWeight:700, color:'var(--text-secondary)', marginTop:2 }}>n° {a.num || '—'}</div>
+                            </div>
+                            <div style={{ flex:1, minWidth:0 }}>
+                              <div style={{ fontSize:13, fontWeight:600, color:'var(--ink)', lineHeight:1.45 }}>{a.t || 'Texte non résolu'}</div>
+                              <div style={{ fontSize:11.5, color:'var(--text-tertiary)', marginTop:3 }}>
+                                {a.div ? a.div : ''}{a.nc ? (a.div ? ' · ' : '') + a.nc + ' cosignataire' + (a.nc > 1 ? 's' : '') : ''}
+                              </div>
+                            </div>
+                            <span style={{ flex:'none', fontSize:11, fontWeight:700, color:st.color, background:st.bg, borderRadius:999, padding:'3px 11px', whiteSpace:'nowrap' }}>{a.s}</span>
+                          </div>
+                        );
+                      })}
+                    {fiche.nb_total_amendements > (fiche.amendements || []).length && !amFilter && (
+                      <div style={{ padding:'12px 24px', fontSize:11.5, color:'var(--text-tertiary)', borderTop:'1px solid var(--border-subtle)' }}>
+                        {(fiche.amendements || []).length} amendements les plus récents affichés sur {fiche.nb_total_amendements.toLocaleString('fr-FR')} déposés.
+                      </div>
+                    )}
                   </div>
-                );
-              })}
-            </div>
-          )}
+                )}
 
-          {/* Actualités */}
-          {tab === 'news' && (
-            <div>
-              <div style={{ padding:'18px 24px 12px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'baseline' }}>
-                <div style={{ fontFamily:'var(--font-sans)', fontSize:17, fontWeight:700, color:'var(--ink)' }}>Actualités récentes</div>
-                <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Google Actualités</span>
+                {/* ── Onglet Questions ── */}
+                {tab === 'quest' && (
+                  <div>
+                    {tabHeader('Questions au Gouvernement',
+                      <div style={{ display:'flex', gap:10, alignItems:'center' }}>
+                        {filterInput(qFilter, setQFilter, 'Filtrer par thème, ministère…')}
+                      </div>)}
+                    <div style={{ padding:'10px 24px', borderBottom:'1px solid var(--border-subtle)', display:'flex', gap:16, flexWrap:'wrap', fontSize:12, color:'var(--text-tertiary)', background:'var(--surface-sunken)' }}>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--ink)' }}>{s.nb_questions_ecrites || 0}</strong> écrites</span>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--ink)' }}>{s.nb_questions_orales || 0}</strong> orales sans débat</span>
+                      <span><strong style={{ fontFamily:'var(--font-mono)', color:'var(--ink)' }}>{s.nb_questions_gouvernement || 0}</strong> au Gouvernement (QG)</span>
+                      <span style={{ marginLeft:'auto' }}><strong style={{ fontFamily:'var(--font-mono)', color:'var(--pos)' }}>{s.nb_questions_avec_reponse || 0}</strong> avec réponse</span>
+                    </div>
+                    {filtQ.length === 0 ? emptyMsg(qFilter ? 'Aucune question ne correspond à « ' + qFilter + ' ».' : 'Aucune question posée par ce député.') :
+                      filtQ.map((q, i) => {
+                        const rep = /publiée|répondu/i.test(q.s || '');
+                        return (
+                          <div key={i} className="dep-vote-row">
+                            <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5, flexWrap:'wrap' }}>
+                              <span style={{ fontSize:10, fontWeight:700, color:'var(--blue-france)', background:'#00009114', borderRadius:999, padding:'2px 9px' }}>{q.ty}{q.num ? ' n° ' + q.num : ''}</span>
+                              <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{depDateFR(q.d)}</span>
+                              {q.r && <span style={{ fontSize:10.5, color:'var(--text-tertiary)', textTransform:'capitalize' }}>· {q.r}</span>}
+                            </div>
+                            <div style={{ fontSize:13.5, fontWeight:600, color:'var(--ink)', marginBottom:7, lineHeight:1.45 }}>{q.t || '(sans intitulé)'}</div>
+                            <div style={{ display:'flex', gap:7, alignItems:'center', flexWrap:'wrap' }}>
+                              {q.m && <span style={{ fontSize:11, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'3px 10px' }}>{q.m}</span>}
+                              <span style={{ fontSize:11, fontWeight:700, color: rep ? 'var(--pos)' : 'var(--amber-700)', background: rep ? 'var(--green-50)' : 'var(--amber-50)', borderRadius:999, padding:'3px 10px' }}>{q.s}</span>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    {fiche.nb_total_questions > (fiche.questions || []).length && !qFilter && (
+                      <div style={{ padding:'12px 24px', fontSize:11.5, color:'var(--text-tertiary)', borderTop:'1px solid var(--border-subtle)' }}>
+                        {(fiche.questions || []).length} questions les plus récentes affichées sur {fiche.nb_total_questions.toLocaleString('fr-FR')} posées.
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* ── Onglet Rapports ── */}
+                {tab === 'rapports' && (
+                  <div>
+                    {tabHeader('Rapports et missions', <span style={{ fontSize:11.5, color:'var(--text-tertiary)' }}>fonctions de rapporteur — XVIIe législature</span>)}
+                    {(fiche.rapports || []).length === 0 ? emptyMsg('Aucune fonction de rapporteur recensée pour ce député.') :
+                      fiche.rapports.map((r, i) => (
+                        <div key={i} className="dep-vote-row">
+                          <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5, flexWrap:'wrap' }}>
+                            <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{depDateFR(r.d)}</span>
+                            {r.ty && <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-secondary)', background:'var(--gray-100)', borderRadius:999, padding:'2px 9px' }}>{r.ty}</span>}
+                            {r.q && <span style={{ fontSize:10.5, fontWeight:700, color:'var(--blue-france)', background:'#00009114', borderRadius:999, padding:'2px 9px', textTransform:'capitalize' }}>{r.q}</span>}
+                          </div>
+                          <div style={{ fontSize:13.5, fontWeight:600, color:'var(--ink)', lineHeight:1.5 }}>{r.t}</div>
+                        </div>
+                      ))}
+                  </div>
+                )}
+
+                {/* ── Onglet Équipe ── */}
+                {tab === 'equipe' && (
+                  <div>
+                    {tabHeader('Équipe parlementaire', <span style={{ fontSize:11.5, color:'var(--text-tertiary)' }}>collaborateurs déclarés à l'AN</span>)}
+                    {(fiche.collaborateurs || []).length === 0 && !fiche.mandat.suppleant ? emptyMsg('Aucun collaborateur déclaré pour ce député.') : (
+                      <div style={{ padding:'8px 0' }}>
+                        {(fiche.collaborateurs || []).map((c, i) => (
+                          <div key={i} className="dep-vote-row" style={{ display:'flex', alignItems:'center', gap:13 }}>
+                            <div style={{ width:38, height:38, borderRadius:'50%', background:gc + '14', border:'1px solid ' + gc + '30', display:'flex', alignItems:'center', justifyContent:'center', flex:'none' }}>
+                              <span style={{ fontSize:12, fontWeight:700, color:gc }}>{((c.prenom[0] || '') + (c.nom[0] || '')).toUpperCase()}</span>
+                            </div>
+                            <div>
+                              <div style={{ fontSize:13.5, fontWeight:600, color:'var(--ink)' }}>{(c.civ ? c.civ + ' ' : '') + c.prenom + ' ' + c.nom}</div>
+                              <div style={{ fontSize:11.5, color:'var(--text-tertiary)' }}>Collaborateur·rice parlementaire</div>
+                            </div>
+                          </div>
+                        ))}
+                        {fiche.mandat.suppleant && (
+                          <div className="dep-vote-row" style={{ display:'flex', alignItems:'center', gap:13 }}>
+                            <div style={{ width:38, height:38, borderRadius:'50%', background:'var(--gray-100)', border:'1px solid var(--border)', display:'flex', alignItems:'center', justifyContent:'center', flex:'none' }}>
+                              <Icon n="user" s={16} />
+                            </div>
+                            <div>
+                              <div style={{ fontSize:13.5, fontWeight:600, color:'var(--ink)' }}>{fiche.mandat.suppleant}</div>
+                              <div style={{ fontSize:11.5, color:'var(--text-tertiary)' }}>Suppléant·e</div>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* ── Onglet Actualités (indépendant de la fiche) ── */}
+            {tab === 'news' && (
+              <div>
+                {tabHeader('Actualités récentes', <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Google Actualités</span>)}
+                {newsLoading ? (
+                  <div style={{ padding:24, display:'flex', flexDirection:'column', gap:12 }}>{skeleton(48)}{skeleton(48)}{skeleton(48)}</div>
+                ) : depNews.length === 0 ? emptyMsg('Aucune actualité récente pour ce député.') :
+                  depNews.map((n, i) => (
+                    <a key={i} href={n.link} target="_blank" rel="noopener noreferrer" className="dep-vote-row" style={{ display:'block', textDecoration:'none' }}>
+                      <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5 }}>
+                        <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{n.date}</span>
+                        {n.source && <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.03em' }}>· {n.source}</span>}
+                      </div>
+                      <div style={{ fontSize:14, fontWeight:600, color:'var(--ink)', lineHeight:1.45 }}>
+                        {n.title}
+                        <span style={{ marginLeft:6, fontSize:11, color:'var(--text-tertiary)' }}>↗</span>
+                      </div>
+                    </a>
+                  ))}
               </div>
-              {newsLoading ? (
-                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des actualités…</div>
-              ) : depNews.length === 0 ? (
-                <div style={{ padding:'48px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Aucune actualité récente pour ce député.</div>
-              ) : depNews.map((n, i) => (
-                <a key={i} href={n.link} target="_blank" rel="noopener noreferrer" className="dep-vote-row"
-                   style={{ display:'block', textDecoration:'none' }}>
-                  <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5 }}>
-                    <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{n.date}</span>
-                    {n.source && <span style={{ fontSize:10.5, fontWeight:600, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.03em' }}>· {n.source}</span>}
-                  </div>
-                  <div style={{ fontSize:14, fontWeight:600, color:'var(--ink)', lineHeight:1.45 }}>
-                    {n.title}
-                    <span style={{ marginLeft:6, fontSize:11, color:'var(--text-tertiary)' }}>↗</span>
-                  </div>
-                </a>
-              ))}
-            </div>
-          )}
-
-          {/* Info */}
-          {tab === 'info' && (
-            <div style={{ padding:'28px 24px', display:'flex', flexDirection:'column', gap:0 }}>
-              <div style={{ fontFamily:'var(--font-sans)', fontSize:17, fontWeight:700, color:'var(--ink)', marginBottom:20 }}>Informations</div>
-              {[
-                ['Nom complet',      dep.nomComplet],
-                ['Groupe politique', dep.groupe?.name],
-                ['Sigle',            dep.groupe?.short],
-                ['Département',      dep.dept],
-                ['Région',           dep.region],
-                ['Circonscription',  dep.circonscription],
-                ['Profession',       dep.profession || '—'],
-                ['Législature',      'XVIIe (depuis juillet 2024)'],
-              ].filter(([, val]) => val).map(([label, val]) => (
-                <div key={label} style={{ display:'grid', gridTemplateColumns:'180px 1fr', gap:16, padding:'14px 0', borderBottom:'1px solid var(--border-subtle)' }}>
-                  <span style={{ fontSize:11.5, fontWeight:700, color:'var(--text-tertiary)', textTransform:'uppercase', letterSpacing:'0.06em', paddingTop:2 }}>{label}</span>
-                  <span style={{ fontSize:14, color:'var(--ink)', lineHeight:1.45 }}>{val}</span>
-                </div>
-              ))}
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -5383,6 +5711,8 @@ function DeputesModule() {
   const [sortBy, setSortBy] = React.useState('nom-az');
   const [filterSexe, setFilterSexe] = React.useState('tous');
   const [filterGroupe, setFilterGroupe] = React.useState(null);
+  const [filterCommission, setFilterCommission] = React.useState('');
+  const [filterDept, setFilterDept] = React.useState('');
   const [selectMode, setSelectMode] = React.useState(false);
   const [selectedIds, setSelectedIds] = React.useState(() => new Set());
   const PER_PAGE = 60;
@@ -5396,9 +5726,21 @@ function DeputesModule() {
     return AN_GROUPS.map(g => ({ ...g, realN: counts[g.id] || g.n }));
   }, [deputes]);
 
+  /* Listes de valeurs pour les filtres commission / département. */
+  const commissionOptions = React.useMemo(
+    () => [...new Set(deputes.map(d => d.commission).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr')),
+    [deputes]
+  );
+  const deptOptions = React.useMemo(
+    () => [...new Set(deputes.map(d => d.dept).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr')),
+    [deputes]
+  );
+
   const filteredDeps = React.useMemo(() => {
     let result = [...deputes];
     if (filterGroupe) result = result.filter(d => d.groupe?.id === filterGroupe);
+    if (filterCommission) result = result.filter(d => d.commission === filterCommission);
+    if (filterDept) result = result.filter(d => d.dept === filterDept);
     if (filterSexe === 'femme') result = result.filter(d => d.female);
     else if (filterSexe === 'homme') result = result.filter(d => !d.female);
     if (query.trim()) {
@@ -5409,6 +5751,8 @@ function DeputesModule() {
         d.prenom.toLowerCase().includes(q) ||
         (d.groupe && (d.groupe.name.toLowerCase().includes(q) || d.groupe.short.toLowerCase().includes(q))) ||
         d.dept.toLowerCase().includes(q) ||
+        (d.circonscription && d.circonscription.toLowerCase().includes(q)) ||
+        (d.commission && d.commission.toLowerCase().includes(q)) ||
         (d.profession && d.profession.toLowerCase().includes(q))
       );
     }
@@ -5419,7 +5763,7 @@ function DeputesModule() {
     return result;
   }, [query, deputes, filterGroupe, filterSexe, sortBy]);
 
-  React.useEffect(() => { setPage(0); }, [query, filterGroupe, filterSexe, sortBy]);
+  React.useEffect(() => { setPage(0); }, [query, filterGroupe, filterSexe, sortBy, filterCommission, filterDept]);
 
   // ── Sélection multiple pour l'export d'une liste ──
   const selectedDeps = React.useMemo(
@@ -5460,6 +5804,10 @@ function DeputesModule() {
         .dep-fpill{border:1px solid var(--border);background:var(--surface);border-radius:999px;padding:5px 13px;font-family:var(--font-sans);font-size:12px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 100ms;white-space:nowrap}
         .dep-fpill:hover{border-color:var(--border-strong);color:var(--ink)}
         .dep-fpill.on{background:var(--ink);border-color:var(--ink);color:var(--white);font-weight:600}
+        .dep-fselect{border:1px solid var(--border);background:var(--surface);border-radius:999px;padding:5px 11px;font-family:var(--font-sans);font-size:12px;font-weight:500;color:var(--text-secondary);cursor:pointer;max-width:230px}
+        .dep-fselect:hover{border-color:var(--border-strong)}
+        .dep-ministat{display:flex;align-items:center;gap:6px;flex:1;min-width:0}
+        .dep-ministat-bar{flex:1;height:4px;border-radius:2px;background:var(--gray-100);overflow:hidden}
         .dep-pg-btn{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 18px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 120ms;display:flex;align-items:center;gap:7px}
         .dep-pg-btn:hover:not(:disabled){border-color:var(--border-strong);color:var(--ink)}
         .dep-pg-btn:disabled{opacity:0.35;cursor:not-allowed}
@@ -5518,8 +5866,17 @@ function DeputesModule() {
             ].map(s => (
               <button key={s.id} className={'dep-fpill' + (filterSexe === s.id ? ' on' : '')} onClick={() => setFilterSexe(s.id)}>{s.label}</button>
             ))}
-            {(sortBy !== 'nom-az' || filterSexe !== 'tous' || filterGroupe) && (
-              <button onClick={() => { setSortBy('nom-az'); setFilterSexe('tous'); setFilterGroupe(null); }}
+            <div style={{ width:1, height:16, background:'var(--border)', margin:'0 4px', flex:'none' }} />
+            <select value={filterCommission} onChange={e => setFilterCommission(e.target.value)} className="dep-fselect" style={ filterCommission ? { borderColor:'var(--ink)', color:'var(--ink)', fontWeight:600 } : {} }>
+              <option value="">Commission : toutes</option>
+              {commissionOptions.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+            <select value={filterDept} onChange={e => setFilterDept(e.target.value)} className="dep-fselect" style={ filterDept ? { borderColor:'var(--ink)', color:'var(--ink)', fontWeight:600 } : {} }>
+              <option value="">Département : tous</option>
+              {deptOptions.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+            {(sortBy !== 'nom-az' || filterSexe !== 'tous' || filterGroupe || filterCommission || filterDept) && (
+              <button onClick={() => { setSortBy('nom-az'); setFilterSexe('tous'); setFilterGroupe(null); setFilterCommission(''); setFilterDept(''); }}
                 style={{ marginLeft:'auto', fontSize:12, fontWeight:500, color:'var(--blue-france)', background:'none', border:'none', cursor:'pointer', flex:'none' }}>
                 Réinitialiser les filtres
               </button>
@@ -5643,7 +6000,21 @@ function DeputesModule() {
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ color:'var(--text-tertiary)', flex:'none', marginTop:1 }}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                             <span>{d.circonscription} — {d.dept}</span>
                           </div>
-                          {d.profession && <div style={{ fontSize:11.5, color:'var(--text-tertiary)', lineHeight:1.4 }}>{d.profession}</div>}
+                          {d.commission && <div style={{ fontSize:11.5, color:'var(--text-tertiary)', lineHeight:1.4 }}>{d.commission}</div>}
+                          {(d.participation != null || d.loyaute != null) && (
+                            <div style={{ display:'flex', gap:12, marginTop:10, paddingTop:9, borderTop:'1px solid var(--border-subtle)' }}>
+                              <div className="dep-ministat" title="Taux de participation aux scrutins">
+                                <span style={{ fontSize:9.5, fontWeight:700, letterSpacing:'0.05em', color:'var(--text-tertiary)', flex:'none' }}>PART.</span>
+                                <div className="dep-ministat-bar"><div style={{ width:Math.round((d.participation || 0) * 100) + '%', height:'100%', background:'var(--blue-france)', borderRadius:2 }} /></div>
+                                <span style={{ fontFamily:'var(--font-mono)', fontSize:10.5, fontWeight:700, color:'var(--text-secondary)', flex:'none' }}>{d.participation != null ? Math.round(d.participation * 100) + '%' : '—'}</span>
+                              </div>
+                              <div className="dep-ministat" title={d.loyaute != null ? 'Taux de loyauté au groupe' : 'Loyauté non applicable (non inscrit)'}>
+                                <span style={{ fontSize:9.5, fontWeight:700, letterSpacing:'0.05em', color:'var(--text-tertiary)', flex:'none' }}>LOY.</span>
+                                <div className="dep-ministat-bar"><div style={{ width:Math.round((d.loyaute || 0) * 100) + '%', height:'100%', background:gc, borderRadius:2 }} /></div>
+                                <span style={{ fontFamily:'var(--font-mono)', fontSize:10.5, fontWeight:700, color:'var(--text-secondary)', flex:'none' }}>{d.loyaute != null ? Math.round(d.loyaute * 100) + '%' : '—'}</span>
+                              </div>
+                            </div>
+                          )}
                         </div>
                       );
                     })}

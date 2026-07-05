@@ -1,0 +1,45 @@
+name: Build Fiches Députés
+
+# Fiches enrichies (votes, loyauté, amendements, questions, rapports).
+# 1 fois par jour suffit : amendements et questions n'évoluent pas plus vite.
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 04h00 UTC chaque jour
+  workflow_dispatch:       # lancement manuel possible
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install adm-zip
+
+      - name: Build fiches députés
+        # L'export Amendements pèse ~300 Mo zippé : on augmente le tas Node.
+        # build-all.js sort en code 2 si une étape non bloquante a échoué :
+        # on publie quand même les fiches partielles.
+        run: node --max-old-space-size=6144 scripts/deputes/build-all.js || [ $? -eq 2 ]
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/deputes/
+          if git diff --staged --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "data: update fiches députés $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            # d'autres workflows (cron horaire) peuvent avoir poussé pendant le build
+            git pull --rebase origin main
+            git push
+          fi

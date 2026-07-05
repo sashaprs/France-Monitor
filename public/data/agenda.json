@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-05T08:04:52.678Z",
+  "updatedAt": "2026-07-05T11:04:07.955Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460712",
-      "titre": "audition",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "3ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460744",
-      "titre": "audition du Professeur Olivier Turrini, PU/PH, chef du service de chirurgie digestive, Institut Paoli-Calmettes (cancérologie) de Marseille, et de la Professeure Charline Bertholdt, PU/PH, cheffe du pôle gynécologie-obstétrique du CHRU de Nancy.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 8838",
-      "organisateur": "PO876645"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460631",
-      "titre": "présentation, par M. Charles Sitzenstuhl, rapporteur spécial de la mission Recherche et enseignement supérieur, du rapport d’évaluation des politiques publiques sur la mise en œuvre des repas à 1 euro pour les boursiers, et audition de M. Julien Meimon, président de l’association d’aide alimentaire aux étudiants Linkee-Entraide étudiante, sur les conclusions de ce rapport",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T09:05:00.000Z",
-      "dateFin": "2026-07-02T10:10:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2026IDC460757",
       "titre": "direction des affaires criminelles et des grâces – M. Julien Morino-Ros, sous-directeur de la négociation et de la législation pénales.",

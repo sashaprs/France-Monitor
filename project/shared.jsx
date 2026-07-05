@@ -23,7 +23,7 @@ function BrandLogo({ size = 26, mono = false }) {
            style={mono ? { filter: "brightness(0) invert(1)" } : undefined} />
       <span style={{ fontFamily: "var(--font-sans)", fontSize: Math.round(size * 0.62), fontWeight: 700,
                      color: mono ? "#fff" : "var(--ink)", letterSpacing: "-0.01em" }}>
-        France<span style={{ fontWeight: 500, color: mono ? "var(--blue-200)" : "var(--gray-500)" }}> Monitor</span>
+        Nomos<span style={{ fontWeight: 500, color: mono ? "var(--blue-200)" : "var(--gray-500)" }}>Lab</span>
       </span>
     </div>
   );

@@ -7,7 +7,7 @@ function AuthLayout({ children }) {
         <div className="auth-form-mid">
           <div className="auth-form-inner">{children}</div>
         </div>
-        <div className="auth-form-foot">© 2026 France Monitor · Données publiques officielles</div>
+        <div className="auth-form-foot">© 2026 NomosLab · Données publiques officielles</div>
       </div>
       <AuthBrandPanel values={{ '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 }} />
     </div>

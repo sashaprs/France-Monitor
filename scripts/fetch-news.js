@@ -40,7 +40,7 @@ function normalize(str) {
 }
 
 const MAX_ITEMS = 6;
-const UA = 'Mozilla/5.0 (compatible; FranceMonitorBot/1.0; +https://github.com/sashaprs/France-Monitor)';
+const UA = 'Mozilla/5.0 (compatible; NomosLabBot/1.0; +https://github.com/sashaprs/France-Monitor)';
 
 function decodeEntities(str) {
   if (!str) return '';

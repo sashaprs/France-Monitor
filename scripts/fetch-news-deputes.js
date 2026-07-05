@@ -12,7 +12,7 @@ const path = require('path');
 
 const MAX_ITEMS = 5;
 const DELAY_MS = 550;            // pause entre deux requêtes (courtoisie / anti-429)
-const UA = 'Mozilla/5.0 (compatible; FranceMonitorBot/1.0; +https://github.com/sashaprs/France-Monitor)';
+const UA = 'Mozilla/5.0 (compatible; NomosLabBot/1.0; +https://github.com/sashaprs/France-Monitor)';
 
 function normalize(str) {
   return (str || '')

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>France Monitor</title>
+<title>NomosLab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -124,6 +124,8 @@ a{text-decoration:none}
 
 .ln-h1{font-family:var(--font-sans);font-size:60px;line-height:1.01;font-weight:800;letter-spacing:-.04em;color:#fff;margin:24px 0 0;text-wrap:balance}
 .ln-h1 .accent{background:linear-gradient(130deg,#6aa3ff 0%,#a78bfa 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.ln-h1-encrypted{color:rgba(255,255,255,.32)}
+.ln-h1-revealed{color:#fff}
 .ln-lead{font-family:var(--font-sans);font-size:18px;line-height:1.68;color:rgba(255,255,255,.55);margin:22px 0 0;max-width:520px}
 .ln-hero-cta{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}
 .ln-nots{display:flex;gap:20px;margin-top:28px;flex-wrap:wrap}
@@ -764,7 +766,7 @@ function BrandLogo({ size = 26, mono = false }) {
       <LogoMark size={size} mono={mono} />
       <span style={{ fontFamily: "var(--font-sans)", fontSize: Math.round(size * 0.62), fontWeight: 700,
                      color: mono ? "#fff" : "var(--ink)", letterSpacing: "-0.01em" }}>
-        France<span style={{ fontWeight: 500, color: mono ? "var(--blue-200)" : "var(--gray-500)" }}> Monitor</span>
+        Nomos<span style={{ fontWeight: 500, color: mono ? "var(--blue-200)" : "var(--gray-500)" }}>Lab</span>
       </span>
     </div>
   );
@@ -846,6 +848,55 @@ function AuthBrandPanel({ values }) {
    ============================================================ */
 const { Button } = window.FranceMonitorDesignSystem_5343d8;
 
+/* EncryptedText — effet « déchiffrement » (Aceternity UI, réimplémenté sans
+   dépendance) : les caractères défilent aléatoirement puis se révèlent un à
+   un, de gauche à droite. `charStyles(i)` permet de styler un caractère
+   révélé (utilisé pour le tricolore de « françaises »). */
+const ENC_CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!<>-_\\/[]{}—=+*^?#";
+function EncryptedText({ text, encryptedClassName = "", revealedClassName = "", revealDelayMs = 50, charStyles }) {
+  const chars = React.useMemo(() => Array.from(text), [text]);
+  const [revealed, setRevealed] = React.useState(0);
+  const [, setTick] = React.useState(0);
+  const [started, setStarted] = React.useState(false);
+  const ref = React.useRef(null);
+  const done = revealed >= chars.length;
+
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setRevealed(chars.length); return; }
+    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setStarted(true); io.disconnect(); } }, { threshold: 0.2 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [chars.length]);
+
+  React.useEffect(() => {
+    if (!started || done) return;
+    const reveal = setInterval(() => setRevealed((r) => r + 1), revealDelayMs);
+    const scramble = setInterval(() => setTick((t) => t + 1), 40);
+    return () => { clearInterval(reveal); clearInterval(scramble); };
+  }, [started, done, revealDelayMs]);
+
+  return (
+    <span ref={ref} aria-label={text}>
+      {chars.map((ch, i) =>
+        i < revealed
+          ? <span key={i} aria-hidden="true" className={revealedClassName} style={charStyles ? charStyles(i) : undefined}>{ch}</span>
+          : <span key={i} aria-hidden="true" className={encryptedClassName}>{ch === " " ? " " : ENC_CHARSET[Math.floor(Math.random() * ENC_CHARSET.length)]}</span>
+      )}
+    </span>
+  );
+}
+
+const HERO_TITLE = "Le terminal des données publiques françaises.";
+const HERO_FR = HERO_TITLE.indexOf("françaises");
+/* Tricolore sur « françaises » : fran(bleu) çai(blanc) ses(rouge). */
+const heroCharStyle = (i) => {
+  if (i >= HERO_FR && i < HERO_FR + 4) return { color: "#4F8EF7" };
+  if (i >= HERO_FR + 7 && i < HERO_FR + 10) return { color: "#E1000F" };
+  return undefined;
+};
+
 const VALUES_LAND = { '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 };
 const SOURCES_LAND = ['INSEE','Banque de France','data.gouv.fr','DGFiP','Assemblée nationale','Sénat','Ministère de l\'Intérieur','Ministère de l\'Économie'];
 
@@ -873,9 +924,9 @@ const STATS_LAND = [
 ];
 
 const TESTIMONIALS_LAND = [
-  { q:"France Monitor m'a économisé des heures de sourcing par semaine. Je cite les chiffres directement avec la source officielle — aucune double vérification manuelle.", name:"Claire Fontaine", role:"Journaliste économique", org:"Le Monde", init:"CF" },
+  { q:"NomosLab m'a économisé des heures de sourcing par semaine. Je cite les chiffres directement avec la source officielle — aucune double vérification manuelle.", name:"Claire Fontaine", role:"Journaliste économique", org:"Le Monde", init:"CF" },
   { q:"Pour nos missions de conseil territorial, c'est devenu le premier réflexe. La profondeur des données départementales et la carte interactive sont vraiment différenciantes.", name:"Thomas Renard", role:"Directeur associé", org:"Roland Berger", init:"TR" },
-  { q:"En tant qu'analyste macro, la traçabilité est non-négociable. France Monitor est le seul outil qui documente chaque donnée jusqu'à l'organisme producteur original.", name:"Sophie Lecomte", role:"Analyste senior", org:"Société Générale CIB", init:"SL" },
+  { q:"En tant qu'analyste macro, la traçabilité est non-négociable. NomosLab est le seul outil qui documente chaque donnée jusqu'à l'organisme producteur original.", name:"Sophie Lecomte", role:"Analyste senior", org:"Société Générale CIB", init:"SL" },
 ];
 
 const PRICING_LAND = [
@@ -897,7 +948,7 @@ const FAQ_LAND = [
   { q:"D'où proviennent les données ?", a:"Exclusivement de sources officielles françaises : INSEE, Banque de France, DGFiP, data.gouv.fr, Assemblée nationale, Sénat et ministères. Chaque indicateur affiche sa source et sa date de référence, vérifiable jusqu'au producteur original." },
   { q:"Les données sont-elles mises à jour en temps réel ?", a:"La fréquence dépend de l'indicateur. Certaines données (taux, marchés obligataires) sont quotidiennes, d'autres trimestrielles ou annuelles — comme les publie leur organisme producteur. La date de dernière mise à jour est toujours visible." },
   { q:"Puis-je exporter les données pour mes analyses ?", a:"Oui, à partir du plan Analyste. Chaque indicateur peut être exporté en CSV ou PDF, avec les métadonnées et références sources incluses pour garantir la traçabilité." },
-  { q:"France Monitor est-il adapté aux administrations publiques ?", a:"Oui. Le plan Institution inclut SSO/SAML, accès multi-utilisateurs et une API REST documentée. Nous accompagnons déjà plusieurs collectivités territoriales et organismes publics." },
+  { q:"NomosLab est-il adapté aux administrations publiques ?", a:"Oui. Le plan Institution inclut SSO/SAML, accès multi-utilisateurs et une API REST documentée. Nous accompagnons déjà plusieurs collectivités territoriales et organismes publics." },
   { q:"Y a-t-il un engagement minimum ?", a:"Non. Le plan Analyste est mensuel, sans engagement, résiliable à tout moment. Le plan Institution est sur devis annuel, avec une période d'essai négociable selon vos besoins." },
 ];
 
@@ -1003,8 +1054,16 @@ function Hero({ go }) {
             <Icon n="circle-check-big" s={14} />
             Données publiques · 100 % officielles
           </span>
-          <h1 className="ln-h1">Le terminal des données <span style={{color:'#fff'}}>publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
-          <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
+          <h1 className="ln-h1">
+            <EncryptedText
+              text={HERO_TITLE}
+              encryptedClassName="ln-h1-encrypted"
+              revealedClassName="ln-h1-revealed"
+              revealDelayMs={50}
+              charStyles={heroCharStyle}
+            />
+          </h1>
+          <p className="ln-lead">NomosLab centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
             <button onClick={() => go('login')} style={{ display:'flex',alignItems:'center',gap:8,background:'rgba(255,255,255,.07)',color:'#fff',border:'1px solid rgba(255,255,255,.14)',borderRadius:'var(--radius-md)',padding:'10px 20px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s,border-color .2s' }}
@@ -1061,7 +1120,7 @@ function SectionFeatures() {
   return (
     <div className="ln-section" id="features" ref={ref}>
       <div className={`reveal${inView ? ' in-view' : ''}`}>
-        <div className="ln-eyebrow">Pourquoi France Monitor</div>
+        <div className="ln-eyebrow">Pourquoi NomosLab</div>
         <h2 className="ln-sec-title">La fiabilité au cœur du produit</h2>
         <p className="ln-sec-sub">Un terminal de données décisionnelles qui combine la puissance d'un Bloomberg, la précision d'une plateforme géospatiale et la fiabilité de la donnée publique française.</p>
       </div>
@@ -1211,7 +1270,7 @@ function Landing({ heroVariant: _hv, go }) {
 
         <div className="ln-section" id="pos" style={{ paddingTop: 0 }}>
           <div className="ln-eyebrow">Positionnement</div>
-          <h2 className="ln-sec-title">Ce que France Monitor n'est pas</h2>
+          <h2 className="ln-sec-title">Ce que NomosLab n'est pas</h2>
           <div className="ln-pos">
             <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS UN MÉDIA</div><div className="ln-pos-t">Ni un média</div><div className="ln-pos-d">Aucune ligne éditoriale, aucune opinion. Seulement des données structurées.</div></div>
             <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS DE L'ACTUALITÉ</div><div className="ln-pos-t">Ni un site d'actualité</div><div className="ln-pos-d">Pas de flux d'information, pas de breaking news. Des indicateurs, pas des articles.</div></div>
@@ -1259,7 +1318,7 @@ function Landing({ heroVariant: _hv, go }) {
             <a href="#sources">Sources</a>
             <a href="#users">Pour qui</a>
           </div>
-          <span className="ln-meta">© 2026 France Monitor · Données publiques officielles · Licence Ouverte</span>
+          <span className="ln-meta">© 2026 NomosLab · Données publiques officielles · Licence Ouverte</span>
         </div>
       </div>
     </div>
@@ -1275,7 +1334,7 @@ function AuthLayout({ children }) {
       <div className="auth-form-col">
         <div className="auth-form-top"><BrandLogo size={26} /></div>
         <div className="auth-form-mid"><div className="auth-form-inner">{children}</div></div>
-        <div className="auth-form-foot">© 2026 France Monitor · Données publiques officielles</div>
+        <div className="auth-form-foot">© 2026 NomosLab · Données publiques officielles</div>
       </div>
       <AuthBrandPanel values={{ '11':92,'84':74,'93':68,'76':61,'75':55,'44':58,'32':47,'52':42,'28':39,'53':35,'24':33,'27':29,'94':22 }} />
     </div>
@@ -2849,7 +2908,7 @@ function ExportMenu({ filename, title, columns, getRows }) {
       .footer{margin-top:18px;font-size:10px;color:#999;border-top:1px solid #eee;padding-top:8px}
     </style></head><body>
     <h2>${title || filename}</h2>
-    <div class="sub">France Monitor · Source : BCE / INSEE · ${new Date().toLocaleDateString('fr-FR',{year:'numeric',month:'long',day:'numeric'})}</div>
+    <div class="sub">NomosLab · Source : BCE / INSEE · ${new Date().toLocaleDateString('fr-FR',{year:'numeric',month:'long',day:'numeric'})}</div>
     <table><thead><tr>${thRow}</tr></thead><tbody>${trRows}</tbody></table>
     <div class="footer">Données officielles — Banque Centrale Européenne (BCE) / INSEE</div>
     <script>window.onload=function(){setTimeout(function(){window.print();},500);}<\/script>
@@ -4552,7 +4611,7 @@ function buildDeputeFiche(dep, stats, news) {
   const parDeleg = (s.votes || []).filter(v => v.parDelegation).length;
   return {
     docTitle: 'Fiche député',
-    eyebrow: 'France Monitor · Assemblée nationale · XVIIe législature',
+    eyebrow: 'NomosLab · Assemblée nationale · XVIIe législature',
     name: dep.nomComplet || '',
     subtitle: [
       (dep.female ? 'Députée' : 'Député') + (dep.groupe ? ' · ' + dep.groupe.short : ''),
@@ -4614,7 +4673,7 @@ function buildPersoFiche(f, news) {
   if (bilanRows.length) sections.push({ title:'Bilan', rows: bilanRows });
   return {
     docTitle: 'Fiche personnalité',
-    eyebrow: 'France Monitor · Personnalités politiques',
+    eyebrow: 'NomosLab · Personnalités politiques',
     name: f.name || '',
     subtitle: [ f.role || '', f.party || '', f.born ? 'Né·e en ' + f.born : '' ].filter(Boolean),
     photoUrl: f.photo || '',
@@ -4628,7 +4687,7 @@ function buildPersoFiche(f, news) {
       widths: { pdf: { 0:62, 2:74, 3:74 }, word: [14,50,18,18] },
     } : null,
     news: (news || []).map(n => ({ date:n.date||'', source:n.source||'', title:n.title||'', link:n.link||'' })),
-    source: 'France Monitor · Personnalités politiques',
+    source: 'NomosLab · Personnalités politiques',
     slug: slugify('fiche-personnalite', f.name),
   };
 }
@@ -4730,7 +4789,7 @@ async function exportFichePDF(fiche) {
     doc.setPage(p);
     const h = doc.internal.pageSize.getHeight();
     doc.setFont('helvetica','normal'); doc.setFontSize(8); doc.setTextColor(150,150,150);
-    doc.text('France Monitor - Source : ' + fiche.source + ' · Exporté le ' + dateStr, M, h - 20);
+    doc.text('NomosLab - Source : ' + fiche.source + ' · Exporté le ' + dateStr, M, h - 20);
     doc.text('Page ' + p + '/' + pages, pageW - M, h - 20, { align:'right' });
   }
 
@@ -4832,9 +4891,9 @@ async function exportFicheWord(fiche) {
     children.push(new D.Paragraph({ children:[ new D.TextRun({ text:'Aucune actualité récente.', italics:true, color:'8A9099', size:20 }) ] }));
   }
 
-  children.push(new D.Paragraph({ spacing:{ before:320 }, children:[ new D.TextRun({ text:'Source : ' + fiche.source + ' · Exporté le ' + dateStr + ' via France Monitor', italics:true, color:'8A9099', size:18 }) ] }));
+  children.push(new D.Paragraph({ spacing:{ before:320 }, children:[ new D.TextRun({ text:'Source : ' + fiche.source + ' · Exporté le ' + dateStr + ' via NomosLab', italics:true, color:'8A9099', size:18 }) ] }));
 
-  const docFile = new D.Document({ creator:'France Monitor', title: fiche.docTitle + ' — ' + fiche.name, sections:[{ properties:{}, children }] });
+  const docFile = new D.Document({ creator:'NomosLab', title: fiche.docTitle + ' — ' + fiche.name, sections:[{ properties:{}, children }] });
   const blob = await D.Packer.toBlob(docFile);
   triggerDownload(blob, fiche.slug + '.docx');
 }
@@ -4878,7 +4937,7 @@ async function exportListPDF(model) {
   doc.setTextColor(255,255,255); doc.setFont('helvetica','bold'); doc.setFontSize(16);
   doc.text(model.title, M, 26);
   doc.setFont('helvetica','normal'); doc.setFontSize(9); doc.setTextColor(190,196,208);
-  doc.text('France Monitor · ' + (model.subtitle ? model.subtitle + ' · ' : '') + model.count + ' député' + (model.count > 1 ? 's' : ''), M, 42);
+  doc.text('NomosLab · ' + (model.subtitle ? model.subtitle + ' · ' : '') + model.count + ' député' + (model.count > 1 ? 's' : ''), M, 42);
 
   const colStyles = {};
   (model.colWidths?.pdf || []).forEach((w, i) => { colStyles[i] = { cellWidth:w }; });
@@ -4899,7 +4958,7 @@ async function exportListPDF(model) {
     doc.setPage(p);
     const h = doc.internal.pageSize.getHeight();
     doc.setFont('helvetica','normal'); doc.setFontSize(8); doc.setTextColor(150,150,150);
-    doc.text('France Monitor - Source : ' + model.source + ' · Exporté le ' + dateStr, M, h - 16);
+    doc.text('NomosLab - Source : ' + model.source + ' · Exporté le ' + dateStr, M, h - 16);
     doc.text('Page ' + p + '/' + pages, pageW - M, h - 16, { align:'right' });
   }
   doc.save(model.slug + '.pdf');
@@ -4937,9 +4996,9 @@ async function exportListWord(model) {
     model.rows.length
       ? new D.Table({ width:{ size:100, type:D.WidthType.PERCENTAGE }, rows:[headRow, ...rows] })
       : new D.Paragraph({ children:[ new D.TextRun({ text:'Aucun député sélectionné.', italics:true, color:'8A9099', size:20 }) ] }),
-    new D.Paragraph({ spacing:{ before:200 }, children:[ new D.TextRun({ text:'Source : ' + model.source + ' · Exporté le ' + dateStr + ' via France Monitor', italics:true, color:'8A9099', size:16 }) ] }),
+    new D.Paragraph({ spacing:{ before:200 }, children:[ new D.TextRun({ text:'Source : ' + model.source + ' · Exporté le ' + dateStr + ' via NomosLab', italics:true, color:'8A9099', size:16 }) ] }),
   ];
-  const docFile = new D.Document({ creator:'France Monitor', title:model.title, sections:[{ properties:{ page:{ size:{ orientation:D.PageOrientation.LANDSCAPE } } }, children }] });
+  const docFile = new D.Document({ creator:'NomosLab', title:model.title, sections:[{ properties:{ page:{ size:{ orientation:D.PageOrientation.LANDSCAPE } } }, children }] });
   const blob = await D.Packer.toBlob(docFile);
   triggerDownload(blob, model.slug + '.docx');
 }
@@ -5458,7 +5517,7 @@ function buildDeputeClipboard(dep, fiche) {
   L.push('');
   if (fiche.liens && fiche.liens.page_an) L.push('Page AN : ' + fiche.liens.page_an);
   if (fiche.liens && fiche.liens.hatvp) L.push('Déclaration d’intérêts (HATVP) : ' + fiche.liens.hatvp);
-  L.push('Source : France Monitor · données Assemblée nationale (Licence Ouverte 2.0)');
+  L.push('Source : NomosLab · données Assemblée nationale (Licence Ouverte 2.0)');
   return L.join('\n');
 }
 
@@ -6269,7 +6328,7 @@ function DeputesModule() {
                 <div style={{ marginLeft:'auto' }}>
                   <ListExportMenu disabled={selectedIds.size === 0}
                     label={selectedIds.size ? 'Exporter (' + selectedIds.size + ')' : 'Exporter'}
-                    getModel={() => buildDeputesListModel(selectedDeps, { subtitle: 'Sélection France Monitor' })} />
+                    getModel={() => buildDeputesListModel(selectedDeps, { subtitle: 'Sélection NomosLab' })} />
                 </div>
               </div>
             )}

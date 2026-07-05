@@ -28,9 +28,9 @@ const STATS_LAND = [
 ];
 
 const TESTIMONIALS_LAND = [
-  { q:"France Monitor m'a économisé des heures de sourcing par semaine. Je cite les chiffres directement avec la source officielle — aucune double vérification manuelle.", name:"Claire Fontaine", role:"Journaliste économique", org:"Le Monde", init:"CF" },
+  { q:"NomosLab m'a économisé des heures de sourcing par semaine. Je cite les chiffres directement avec la source officielle — aucune double vérification manuelle.", name:"Claire Fontaine", role:"Journaliste économique", org:"Le Monde", init:"CF" },
   { q:"Pour nos missions de conseil territorial, c'est devenu le premier réflexe. La profondeur des données départementales et la carte interactive sont vraiment différenciantes.", name:"Thomas Renard", role:"Directeur associé", org:"Roland Berger", init:"TR" },
-  { q:"En tant qu'analyste macro, la traçabilité est non-négociable. France Monitor est le seul outil qui documente chaque donnée jusqu'à l'organisme producteur original.", name:"Sophie Lecomte", role:"Analyste senior", org:"Société Générale CIB", init:"SL" },
+  { q:"En tant qu'analyste macro, la traçabilité est non-négociable. NomosLab est le seul outil qui documente chaque donnée jusqu'à l'organisme producteur original.", name:"Sophie Lecomte", role:"Analyste senior", org:"Société Générale CIB", init:"SL" },
 ];
 
 const PRICING_LAND = [
@@ -52,7 +52,7 @@ const FAQ_LAND = [
   { q:"D'où proviennent les données ?", a:"Exclusivement de sources officielles françaises : INSEE, Banque de France, DGFiP, data.gouv.fr, Assemblée nationale, Sénat et ministères. Chaque indicateur affiche sa source et sa date de référence, vérifiable jusqu'au producteur original." },
   { q:"Les données sont-elles mises à jour en temps réel ?", a:"La fréquence dépend de l'indicateur. Certaines données (taux, marchés obligataires) sont quotidiennes, d'autres trimestrielles ou annuelles — comme les publie leur organisme producteur. La date de dernière mise à jour est toujours visible." },
   { q:"Puis-je exporter les données pour mes analyses ?", a:"Oui, à partir du plan Analyste. Chaque indicateur peut être exporté en CSV ou PDF, avec les métadonnées et références sources incluses pour garantir la traçabilité." },
-  { q:"France Monitor est-il adapté aux administrations publiques ?", a:"Oui. Le plan Institution inclut SSO/SAML, accès multi-utilisateurs et une API REST documentée. Nous accompagnons déjà plusieurs collectivités territoriales et organismes publics." },
+  { q:"NomosLab est-il adapté aux administrations publiques ?", a:"Oui. Le plan Institution inclut SSO/SAML, accès multi-utilisateurs et une API REST documentée. Nous accompagnons déjà plusieurs collectivités territoriales et organismes publics." },
   { q:"Y a-t-il un engagement minimum ?", a:"Non. Le plan Analyste est mensuel, sans engagement, résiliable à tout moment. Le plan Institution est sur devis annuel, avec une période d'essai négociable selon vos besoins." },
 ];
 
@@ -159,7 +159,7 @@ function Hero({ go }) {
             Données publiques · 100 % officielles
           </span>
           <h1 className="ln-h1">Le terminal des données <span style={{color:'#fff'}}>publiques </span><span style={{WebkitTextFillColor:'initial',backgroundImage:'none'}}><span style={{color:'#4F8EF7'}}>fran</span><span style={{color:'#fff'}}>çai</span><span style={{color:'#E1000F'}}>ses</span></span>.</h1>
-          <p className="ln-lead">France Monitor centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
+          <p className="ln-lead">NomosLab centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
             <button onClick={() => go('login')} style={{ display:'flex',alignItems:'center',gap:8,background:'rgba(255,255,255,.07)',color:'#fff',border:'1px solid rgba(255,255,255,.14)',borderRadius:'var(--radius-md)',padding:'10px 20px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s,border-color .2s' }}
@@ -216,7 +216,7 @@ function SectionFeatures() {
   return (
     <div className="ln-section" id="features" ref={ref}>
       <div className={`reveal${inView ? ' in-view' : ''}`}>
-        <div className="ln-eyebrow">Pourquoi France Monitor</div>
+        <div className="ln-eyebrow">Pourquoi NomosLab</div>
         <h2 className="ln-sec-title">La fiabilité au cœur du produit</h2>
         <p className="ln-sec-sub">Un terminal de données décisionnelles qui combine la puissance d'un Bloomberg, la précision d'une plateforme géospatiale et la fiabilité de la donnée publique française.</p>
       </div>
@@ -366,7 +366,7 @@ function Landing({ heroVariant: _heroVariant, go }) {
 
         <div className="ln-section" id="pos" style={{ paddingTop: 0 }}>
           <div className="ln-eyebrow">Positionnement</div>
-          <h2 className="ln-sec-title">Ce que France Monitor n'est pas</h2>
+          <h2 className="ln-sec-title">Ce que NomosLab n'est pas</h2>
           <div className="ln-pos">
             <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS UN MÉDIA</div><div className="ln-pos-t">Ni un média</div><div className="ln-pos-d">Aucune ligne éditoriale, aucune opinion. Seulement des données structurées.</div></div>
             <div className="ln-poscard no"><div className="ln-pos-k">✗ PAS DE L'ACTUALITÉ</div><div className="ln-pos-t">Ni un site d'actualité</div><div className="ln-pos-d">Pas de flux d'information, pas de breaking news. Des indicateurs, pas des articles.</div></div>
@@ -414,7 +414,7 @@ function Landing({ heroVariant: _heroVariant, go }) {
             <a href="#sources">Sources</a>
             <a href="#users">Pour qui</a>
           </div>
-          <span className="ln-meta">© 2026 France Monitor · Données publiques officielles · Licence Ouverte</span>
+          <span className="ln-meta">© 2026 NomosLab · Données publiques officielles · Licence Ouverte</span>
         </div>
       </div>
     </div>

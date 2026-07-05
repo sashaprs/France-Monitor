@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-05T13:39:18.622Z",
+  "updatedAt": "2026-07-05T15:12:47.837Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460742",
-      "titre": "audition :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T15:00:00.000Z",
-      "dateFin": "2026-07-02T16:00:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO878743"
-    },
     {
       "uid": "RUANR5L17S2026IDC460702",
       "titre": "suite de l’examen des articles du projet de loi.",

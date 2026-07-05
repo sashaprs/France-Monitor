@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-05T17:10:57.331Z",
+  "updatedAt": "2026-07-05T19:18:07.076Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460702",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-02T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
     {
       "uid": "RUANR5L17S2026IDS30823",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",

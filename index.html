@@ -5769,6 +5769,7 @@ function DeputeView({ dep, onBack }) {
           </div>
 
           <DeputeGroupesEtudes depId={dep.id} />
+          <DeputeTravailleAvec fiche={fiche} />
 
           <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6, paddingLeft:4 }}>
             Source : Assemblée nationale · data.assemblee-nationale.fr · Licence Ouverte 2.0
@@ -6741,6 +6742,42 @@ function DeputeGroupesEtudes({ depId }) {
   );
 }
 
+/* Encart "Travaille avec" de la fiche député : top cosignataires
+   d'amendements (12 premiers + 3 meilleurs hors groupe). Les ponts
+   trans-groupes portent un badge — c'est l'information stratégique. */
+function DeputeTravailleAvec({ fiche }) {
+  const { groupes } = useCiblageIndex(); // couleurs des groupes
+  const liste = fiche && fiche.top_cosignataires;
+  if (!liste || !liste.length) return null;
+  return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'16px 18px' }}>
+      <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:4 }}>
+        Travaille avec
+      </div>
+      <div style={{ fontSize:10.5, color:'var(--text-tertiary)', marginBottom:11, lineHeight:1.4 }}>
+        Cosignataires d'amendements les plus fréquents sur la législature.
+      </div>
+      <div style={{ display:'flex', flexDirection:'column', gap:7 }}>
+        {liste.map(c => {
+          const g = groupes[c.groupe] || { couleur: '#9AA3AF' };
+          return (
+            <div key={c.id} style={{ display:'flex', alignItems:'center', gap:7 }}>
+              <span style={{ width:7, height:7, borderRadius:99, background:g.couleur, flex:'none' }} />
+              <span style={{ fontSize:12.5, color:'var(--ink)', fontWeight:600, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis', flex:1, minWidth:0 }}>{c.nom}</span>
+              {c.hors_groupe && (
+                <span style={{ fontSize:9.5, fontWeight:700, color:'var(--blue-france)', background:'var(--blue-france)14', border:'1px solid var(--blue-france)30', borderRadius:999, padding:'1px 7px', flex:'none' }}>
+                  {c.groupe} · hors groupe
+                </span>
+              )}
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:11, fontWeight:700, color:'var(--text-secondary)', flex:'none' }} title="Amendements cosignés ensemble">{c.nb.toLocaleString('fr-FR')}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 /* Page "Groupes d'études" : liste avec recherche → membres → fiche député.
    Pour un représentant d'intérêts, le président du groupe d'études de son
    secteur est la première cible. */
@@ -6872,6 +6909,205 @@ function GroupesEtudesModule() {
 
       <div style={{ marginTop:16 }}>
         <SourceTag source="Assemblée nationale · export AMO « Acteurs et organes » · organes officiels (les clubs parlementaires privés ne sont pas couverts)" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
+/* ── Onglet Réseau : cosignatures d'amendements ───────────────────────
+   Graphe pré-filtré côté pipeline (paires ≥ 10 amendements communs).
+   Layout SVG pur React, calculé à la volée : clusters circulaires par
+   groupe politique (disque en phyllotaxie par groupe, groupes disposés
+   en couronne) — pas de simulation de forces, inutile en Babel inline.
+   Les cosignatures de masse rendent les liens intra-groupe triviaux :
+   le mode "inter-groupes uniquement" est donc actif par défaut. */
+let _cibReseauPromise = null;
+function loadCibReseau() {
+  return _cibReseauPromise
+    || (_cibReseauPromise = fetch('public/data/ciblage/reseau-cosignatures.json')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .catch(e => { _cibReseauPromise = null; throw e; }));
+}
+
+const CIB_SEUILS_RESEAU = [10, 20, 30, 50, 80, 120, 200, 300, 500, 1000, 2000]; // curseur non linéaire
+const CIB_MAX_LIENS_AFFICHES = 2500;
+
+function CibReseauTab({ groupes, baseById, openDep }) {
+  const [data, setData] = React.useState(null);
+  const [erreur, setErreur] = React.useState(false);
+  const [seuilIdx, setSeuilIdx] = React.useState(3);            // 50 cosignatures par défaut
+  const [interSeul, setInterSeul] = React.useState(true);       // ponts trans-groupes = info stratégique
+  const [focusId, setFocusId] = React.useState('');
+  const [focusQuery, setFocusQuery] = React.useState('');
+  const [hover, setHover] = React.useState(null);
+  const seuil = CIB_SEUILS_RESEAU[useCibDebounced(seuilIdx, 300)];
+  const focusQ = useCibDebounced(focusQuery, 300);
+
+  React.useEffect(() => { loadCibReseau().then(setData).catch(() => setErreur(true)); }, []);
+
+  /* Positions des nœuds : couronne de clusters, phyllotaxie intra-cluster. */
+  const layout = React.useMemo(() => {
+    if (!data) return null;
+    const W = 920, H = 660, cx = W / 2, cy = H / 2;
+    const parGroupe = {};
+    data.noeuds.forEach((n, i) => (parGroupe[n.g] = parGroupe[n.g] || []).push(i));
+    const sigles = Object.keys(parGroupe).sort((a, b) => parGroupe[b].length - parGroupe[a].length);
+    const pos = new Array(data.noeuds.length);
+    const centres = {};
+    sigles.forEach((s, gi) => {
+      const membres = parGroupe[s];
+      const angle = (gi / sigles.length) * 2 * Math.PI - Math.PI / 2;
+      const Rc = Math.min(W, H) / 2 - 105;
+      const gx = cx + Math.cos(angle) * Rc, gy = cy + Math.sin(angle) * Rc;
+      centres[s] = [gx, gy];
+      const R = 12 + Math.sqrt(membres.length) * 6.5;
+      membres.forEach((ni, i) => {
+        const r = R * Math.sqrt((i + 0.5) / membres.length);
+        const a = i * 2.399963; // angle d'or : disque régulier sans calcul itératif
+        pos[ni] = [gx + Math.cos(a) * r, gy + Math.sin(a) * r];
+      });
+    });
+    return { pos, centres, W, H };
+  }, [data]);
+
+  const focusIdx = React.useMemo(() => {
+    if (!data || !focusId) return -1;
+    return data.noeuds.findIndex(n => n.id === focusId);
+  }, [data, focusId]);
+
+  /* Liens visibles selon seuil / inter-groupes / focus (plafonnés). */
+  const liens = React.useMemo(() => {
+    if (!data) return { liste: [], tronque: false, total: 0 };
+    let l = data.liens.filter(x => x[2] >= seuil);
+    if (focusIdx >= 0) l = l.filter(x => x[0] === focusIdx || x[1] === focusIdx);
+    else if (interSeul) l = l.filter(x => data.noeuds[x[0]].g !== data.noeuds[x[1]].g);
+    const total = l.length;
+    l.sort((a, b) => b[2] - a[2]);
+    return { liste: l.slice(0, CIB_MAX_LIENS_AFFICHES), tronque: total > CIB_MAX_LIENS_AFFICHES, total };
+  }, [data, seuil, interSeul, focusIdx]);
+
+  /* Degré visible de chaque nœud (tooltip + estompage des isolés). */
+  const degres = React.useMemo(() => {
+    const d = {};
+    for (const [a, b] of liens.liste) { d[a] = (d[a] || 0) + 1; d[b] = (d[b] || 0) + 1; }
+    return d;
+  }, [liens]);
+
+  const suggestions = React.useMemo(() => {
+    if (!data || !focusQ.trim() || focusId) return [];
+    const q = cibNorm(focusQ);
+    return data.noeuds.filter(n => cibNorm(n.nom).includes(q)).slice(0, 8);
+  }, [data, focusQ, focusId]);
+
+  const poidsMax = liens.liste.length ? liens.liste[0][2] : 1;
+
+  if (erreur) return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+      Le graphe de cosignatures n'est pas encore disponible (reseau-cosignatures.json manquant).
+    </div>
+  );
+  if (!data || !layout) return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+      Chargement du graphe de cosignatures…
+    </div>
+  );
+
+  const focusNoeud = focusIdx >= 0 ? data.noeuds[focusIdx] : null;
+  const voisins = new Set();
+  if (focusIdx >= 0) for (const [a, b] of liens.liste) voisins.add(a === focusIdx ? b : a);
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
+      {/* ── Contrôles ── */}
+      <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'12px 16px', display:'flex', alignItems:'center', gap:18, flexWrap:'wrap' }}>
+        <div style={{ minWidth:220 }}>
+          <div style={{ display:'flex', justifyContent:'space-between', fontSize:11.5, marginBottom:3 }}>
+            <span style={{ color:'var(--text-secondary)', fontWeight:500 }}>Poids minimal des liens</span>
+            <span style={{ fontFamily:'var(--font-mono)', fontWeight:700, color:'var(--blue-france)' }}>≥ {CIB_SEUILS_RESEAU[seuilIdx]}</span>
+          </div>
+          <input type="range" min={0} max={CIB_SEUILS_RESEAU.length - 1} step={1} value={seuilIdx}
+            onChange={e => setSeuilIdx(parseInt(e.target.value, 10))} style={{ width:'100%', accentColor:'var(--blue-france)' }} />
+        </div>
+        <label style={{ display:'flex', alignItems:'center', gap:7, fontSize:12.5, fontWeight:600, color:'var(--ink)', cursor:'pointer' }}>
+          <input type="checkbox" checked={interSeul} onChange={e => setInterSeul(e.target.checked)} style={{ accentColor:'var(--blue-france)' }} disabled={focusIdx >= 0} />
+          Liens inter-groupes uniquement
+        </label>
+        <div style={{ position:'relative', minWidth:230 }}>
+          {focusNoeud ? (
+            <div style={{ display:'flex', alignItems:'center', gap:6, fontSize:12.5, fontWeight:600, color:'var(--ink)', background:'var(--gray-100)', borderRadius:999, padding:'6px 12px' }}>
+              <Icon n="crosshair" s={12} />
+              <span>{focusNoeud.nom}</span>
+              <button onClick={() => { setFocusId(''); setFocusQuery(''); }} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex' }}><Icon n="x" s={12} /></button>
+            </div>
+          ) : (
+            <>
+              <input className="cib-input" type="text" value={focusQuery} onChange={e => setFocusQuery(e.target.value)}
+                placeholder="Focus sur un député (ego-network)…" />
+              {suggestions.length > 0 && (
+                <div style={{ position:'absolute', top:'100%', left:0, right:0, zIndex:30, marginTop:4, border:'1px solid var(--border)', borderRadius:'var(--radius-md)', background:'var(--surface)', boxShadow:'var(--shadow-md)', overflow:'hidden' }}>
+                  {suggestions.map(n => (
+                    <div key={n.id} className="cib-scr-row" style={{ fontSize:12 }} onClick={() => { setFocusId(n.id); }}>
+                      {n.nom} <span style={{ color:'var(--text-tertiary)' }}>({n.g})</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+        <span style={{ fontSize:11.5, color:'var(--text-tertiary)', marginLeft:'auto' }}>
+          {liens.total.toLocaleString('fr-FR')} lien{liens.total > 1 ? 's' : ''}{liens.tronque ? ' (les ' + CIB_MAX_LIENS_AFFICHES.toLocaleString('fr-FR') + ' plus forts affichés)' : ''}
+        </span>
+      </div>
+
+      {/* ── Graphe ── */}
+      <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'8px', position:'relative' }}>
+        <svg viewBox={'0 0 ' + layout.W + ' ' + layout.H} style={{ width:'100%', height:'auto', display:'block' }}>
+          {/* Liens (dessinés d'abord, sous les nœuds) */}
+          {liens.liste.map(([a, b, w], i) => {
+            const inter = data.noeuds[a].g !== data.noeuds[b].g;
+            return (
+              <line key={i}
+                x1={layout.pos[a][0]} y1={layout.pos[a][1]} x2={layout.pos[b][0]} y2={layout.pos[b][1]}
+                stroke={inter ? 'var(--blue-france)' : '#9AA3AF'}
+                strokeWidth={0.5 + 2.2 * Math.sqrt(w / poidsMax)}
+                strokeOpacity={focusIdx >= 0 ? 0.5 : inter ? 0.3 : 0.12} />
+            );
+          })}
+          {/* Nœuds */}
+          {data.noeuds.map((n, i) => {
+            const g = groupes[n.g] || { couleur: '#9AA3AF' };
+            const estompe = focusIdx >= 0 ? (i !== focusIdx && !voisins.has(i)) : false;
+            return (
+              <circle key={n.id}
+                cx={layout.pos[i][0]} cy={layout.pos[i][1]}
+                r={i === focusIdx ? 7 : 3.4}
+                fill={g.couleur} stroke="#fff" strokeWidth={i === focusIdx ? 1.6 : 0.8}
+                opacity={estompe ? 0.12 : 0.92} style={{ cursor:'pointer' }}
+                onMouseEnter={(e) => setHover({ n, i, x: e.clientX, y: e.clientY })}
+                onMouseLeave={() => setHover(null)}
+                onClick={() => { if (focusIdx < 0) { setFocusId(n.id); return; } const b = baseById[n.id]; if (b) openDep(b); }} />
+            );
+          })}
+          {/* Étiquettes des clusters */}
+          {Object.entries(layout.centres).map(([s, [x, y]]) => {
+            const g = groupes[s] || { couleur: '#9AA3AF' };
+            return <text key={s} x={x} y={y - (12 + Math.sqrt((data.noeuds.filter(n => n.g === s).length)) * 6.5) - 8}
+              textAnchor="middle" style={{ font:'700 12px var(--font-sans)', fill:g.couleur }}>{s}</text>;
+          })}
+        </svg>
+        <div style={{ padding:'4px 10px 8px', fontSize:10.5, color:'var(--text-tertiary)' }}>
+          1er clic sur un nœud : ego-network du député (liens à 1 degré) · 2e clic : fiche. Liens bleus = inter-groupes, gris = intra-groupe.
+        </div>
+
+        {hover && (
+          <div style={{ position:'fixed', left:Math.min(hover.x + 14, window.innerWidth - 250), top:hover.y + 12, zIndex:50, width:230, background:'var(--ink)', color:'#fff', borderRadius:8, padding:'9px 11px', pointerEvents:'none', boxShadow:'var(--shadow-md)' }}>
+            <div style={{ fontSize:12.5, fontWeight:700 }}>{hover.n.nom} <span style={{ opacity:0.7, fontWeight:600 }}>· {hover.n.g}</span></div>
+            <div style={{ fontSize:10.5, opacity:0.85, marginTop:3 }}>
+              {(degres[hover.i] || 0)} lien{(degres[hover.i] || 0) > 1 ? 's' : ''} visible{(degres[hover.i] || 0) > 1 ? 's' : ''} au seuil ≥ {seuil}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -7451,9 +7687,7 @@ function CiblageModule() {
       )}
 
       {!error && tab === 'reseau' && (
-        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
-          L'onglet Réseau (cosignatures) arrive dans la prochaine itération.
-        </div>
+        <CibReseauTab groupes={groupes} baseById={baseById} openDep={setSelectedDep} />
       )}
 
       {!error && tab === 'recherche' && (

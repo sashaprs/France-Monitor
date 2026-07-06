@@ -31,7 +31,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { ROOT, LEGISLATURE, download, zipEntries, toArr, val, stripPA, writeBuild, decodeEntities, truncate } = require('../deputes/lib');
+const { ROOT, LEGISLATURE, download, zipEntries, toArr, val, stripPA, writeBuild, readBuild, decodeEntities, truncate } = require('../deputes/lib');
 
 const OUT_DIR = path.join(ROOT, 'public', 'data', 'ciblage');
 const MAX_TEXTES_PAR_DEPUTE = 200;
@@ -141,23 +141,61 @@ function main() {
     (partenaires[a] = partenaires[a] || []).push({ id: b, nb: w });
     (partenaires[b] = partenaires[b] || []).push({ id: a, nb: w });
   }
+  /* On garde une marge : 40 premiers partenaires + 10 meilleurs hors groupe
+     (dans les groupes qui cosignent en masse, le top 40 est entièrement
+     intra-groupe : sans ce complément, l'injection 12 + 3 des fiches ne
+     trouverait jamais de pont trans-groupe à afficher). */
   const top = {};
   for (const [id, liste] of Object.entries(partenaires)) {
     liste.sort((x, y) => y.nb - x.nb);
-    top[id] = liste.slice(0, TOP_COSIGNATAIRES).map(p => ({
+    const enrichi = (p) => ({
       id: p.id,
       nom: infos[p.id].nom,
       groupe: infos[p.id].groupe,
       nb: p.nb,
       ...(infos[p.id].groupe !== infos[id].groupe ? { hors_groupe: true } : {}),
-    }));
+    });
+    const premiers = liste.slice(0, 40);
+    const dedans = new Set(premiers.map(p => p.id));
+    const horsGroupe = liste.filter(p => infos[p.id].groupe !== infos[id].groupe && !dedans.has(p.id)).slice(0, 10);
+    top[id] = [...premiers, ...horsGroupe].map(enrichi);
   }
   writeBuild('top-cosignataires.json', { updatedAt: new Date().toISOString(), deputes: top });
 
+  injecterFiches();
   console.log('✅ build-cosignatures terminé');
 }
 
-if (require.main === module) {
-  try { main(); } catch (e) { console.error('❌ build-cosignatures :', e.message); process.exit(1); }
+/* Ajoute "top_cosignataires" dans chaque fiche publique PAxxxxxx.json
+   (les fiches sont déjà assemblées quand ce script tourne — le champ est
+   remplacé à chaque exécution, l'opération est idempotente). */
+function injecterFiches() {
+  const top = readBuild('top-cosignataires.json');
+  if (!top) { console.log('   ⚠ tmp/build/top-cosignataires.json absent : fiches non enrichies'); return; }
+  const dir = path.join(ROOT, 'public', 'data', 'deputes');
+  let n = 0;
+  for (const [id, liste] of Object.entries(top.deputes)) {
+    const p = path.join(dir, 'PA' + id + '.json');
+    if (!fs.existsSync(p)) continue;
+    /* 12 premiers + 3 meilleurs hors groupe : sans ce quota, les
+       cosignatures de masse intra-groupe évincent tous les ponts
+       trans-groupes, qui sont l'information stratégique. */
+    const principal = liste.slice(0, TOP_COSIGNATAIRES - 3);
+    const dejaLa = new Set(principal.map(x => x.id));
+    const horsGroupe = liste.filter(x => x.hors_groupe && !dejaLa.has(x.id)).slice(0, 3);
+    const fiche = JSON.parse(fs.readFileSync(p, 'utf8'));
+    fiche.top_cosignataires = [...principal, ...horsGroupe];
+    fs.writeFileSync(p, JSON.stringify(fiche));
+    n++;
+  }
+  console.log(`   ${n} fiches députés enrichies de top_cosignataires (12 + 3 hors groupe)`);
 }
-module.exports = { main };
+
+if (require.main === module) {
+  try {
+    /* --fiches : ré-injecte les tops dans les fiches sans reparser l'export. */
+    if (process.argv.includes('--fiches')) { injecterFiches(); }
+    else main();
+  } catch (e) { console.error('❌ build-cosignatures :', e.message); process.exit(1); }
+}
+module.exports = { main, injecterFiches };

@@ -11,11 +11,10 @@ name: Alertes Suivi Législatif
 # UTC+1 (hiver) : « 0 4-20/2 » couvre 6h-22h Paris en été et 5h-21h en hiver
 # (décalage d'une heure assumé plutôt que de doubler les crons).
 #
-# ⚠ CRON DÉSACTIVÉ tant que l'e-mail de test n'a pas été validé — décommenter
-# les deux lignes ci-dessous pour l'activer.
+# Cron activé le 6 juillet 2026 après validation de l'e-mail de test.
 on:
-  # schedule:
-  #   - cron: '0 4-20/2 * * *'
+  schedule:
+    - cron: '0 4-20/2 * * *'
   workflow_dispatch:
 
 # Une seule exécution à la fois : l'état de référence est commité, deux runs

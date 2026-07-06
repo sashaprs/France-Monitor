@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T14:25:45.310Z",
+  "updatedAt": "2026-07-06T15:32:36.844Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460704",
@@ -299,6 +299,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC460809",
+      "titre": "table ronde « Plastique », avec la participation de :\r- Elipso\rM. Gael Bouquet, directeur général\rMme Marie Delafalize, responsable « économie circulaire » \r\r- Citeo\rM. Jean Hornain, directeur général\rMme Anne-Sophie Louvel, directrice « opérations et territoires »\rM. Adrien Da Fonseca, conseiller « affaires publiques »\r\r- Polyvia\rMme Caroline Chaussard, directrice « RSE » \rMme Isabelle Vidal, adhérente, directrice générale adjointe du groupe EDA \rM. Simon Gourgaud, directeur des affaires publiques\r\r- Plastics Europe France\rM. Jean-Yves Daclin, directeur général France\rMme Véronique Fraigneau, directrice des affaires publiques",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T11:00:00.000Z",
+      "dateFin": "2026-07-08T12:15:00.000Z",
+      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO878513"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460763",
       "titre": "audition en visioconférence",
       "type": "reunionCommission_type",
@@ -315,6 +324,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO847238"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460810",
+      "titre": "table ronde « Entreprises de gestion des déchets », avec la participation de :\r\r- Take a waste\rM. Alexis Lemeillet, co-fondateur [en visioconférence]\r\r- Derichebourg environnement\rMme Tess Pozzi, responsable Affaires publiques & Relations institutionnelles \r\r- Veolia\rM. Ghislain Eschasseriaux, responsable « affaires publiques France »\rMme Françoise Weber, directrice des relations institutionnelles \r[à confirmer]\r\r- Suez\r[à confirmer]",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T12:15:00.000Z",
+      "dateFin": "2026-07-08T13:15:00.000Z",
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO878513"
     },
     {
       "uid": "RUANR5L17S2026IDC460745",
@@ -396,6 +414,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460811",
+      "titre": "audition de M. Albert Moukheiber, docteur en neurosciences.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T13:30:00.000Z",
+      "dateFin": "2026-07-08T14:30:00.000Z",
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO878513"
     },
     {
       "uid": "RUANR5L17S2026IDC460683",
@@ -804,12 +831,21 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460798",
-      "titre": "- présentation, par M. Denis Masséglia, rapporteur spécial de la mission Médias, livre et industries culturelles, du rapport d’évaluation des politiques publiques sur le crédit d’impôt cinéma et audition de Mme Catherine Pégard, ministre de la culture, sur les conclusions de ce rapport ;",
+      "titre": "présentation, par M. Denis Masséglia, rapporteur spécial de la mission Médias, livre et industries culturelles, du rapport d’évaluation des politiques publiques sur le crédit d’impôt cinéma et audition de Mme Catherine Pégard, ministre de la culture, sur les conclusions de ce rapport ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-22T15:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460808",
+      "titre": "audition du GCA Baratz, COMCCF.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDC460788",

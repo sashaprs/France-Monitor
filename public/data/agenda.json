@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-06T05:11:47.068Z",
+  "updatedAt": "2026-07-06T10:21:53.388Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30824",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
-      "type": "seance_type",
-      "dateDebut": "2026-07-03T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30788",
-      "titre": "Suite de la discussion du projet de loi organique, adopté par le Sénat, relatif au renforcement des juridictions criminelles",
-      "type": "seance_type",
-      "dateDebut": "2026-07-03T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460794",
-      "titre": null,
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-03T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460703",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-03T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
     {
       "uid": "RUANR5L17S2026IDC460752",
       "titre": "audition, non ouverte à la presse, du Dr Silvia Alvarez, gynécologue obstétricienne, PmA Infertilité, coordinatrice Générale La Femme",

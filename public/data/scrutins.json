@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-06T19:57:24.444Z",
+  "updatedAt": "2026-07-06T20:02:59.943Z",
   "scrutins": [
+    {
+      "numero": "7979",
+      "titre": "la motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mmes Cyrielle Chatelain, Nadège Abomangoli et 56 députés.",
+      "date": "2026-07-06",
+      "sort": null,
+      "nombreVotants": "132",
+      "pour": "132",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
     {
       "numero": "7978",
       "titre": "l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
@@ -538,17 +549,6 @@
       "pour": "35",
       "contre": "52",
       "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7905",
-      "titre": "l'ensemble du projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (texte de la commission mixte paritaire).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "490",
-      "pour": "375",
-      "contre": "113",
-      "abstentions": "2",
       "nonVotants": "1"
     }
   ]

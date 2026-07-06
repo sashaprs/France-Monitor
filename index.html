@@ -6578,7 +6578,9 @@ const CIB_F0 = {
   scrutins: [], // [{ num, date, titre, pos: 'p'|'c'|'a'|'x' }] — 3 max
 };
 
-/* ── État des filtres ↔ URL (hash), pour des recherches partageables ── */
+/* ── État (filtres + onglet + cartographie) ↔ URL, pour le partage par lien ── */
+const CIB_CARTO0 = { scrutins: [], kw: '' }; // scrutins: [{ num, date, titre, sens: 1|-1 }] — 3 max
+
 function cibParseHash() {
   const m = (window.location.hash || '').match(/^#ciblage\??(.*)$/);
   if (!m) return null;
@@ -6597,10 +6599,19 @@ function cibParseHash() {
     const [n, pos] = part.split(':');
     if (parseInt(n, 10) && CIB_POS[pos]) f.scrutins.push({ num: parseInt(n, 10), date: null, titre: null, pos });
   }
-  return f;
+  const carto = { ...CIB_CARTO0, scrutins: [] };
+  for (const part of (q.get('cs') || '').split(',').filter(Boolean).slice(0, 3)) {
+    const [n, sens] = part.split(':');
+    if (parseInt(n, 10)) carto.scrutins.push({ num: parseInt(n, 10), date: null, titre: null, sens: sens === '-1' ? -1 : 1 });
+  }
+  carto.kw = q.get('kw') || '';
+  const tab = q.get('tab') === 'carto' ? 'carto' : q.get('tab') === 'reseau' ? 'reseau' : 'recherche';
+  return { f, tab, carto };
 }
-function cibWriteHash(f) {
+
+function cibWriteHash(f, tab, carto) {
   const q = new URLSearchParams();
+  if (tab && tab !== 'recherche') q.set('tab', tab);
   if (f.g.length) q.set('g', f.g.join(','));
   if (f.com) q.set('com', f.com);
   if (f.ge) q.set('ge', f.ge);
@@ -6612,8 +6623,24 @@ function cibWriteHash(f) {
   if (f.chomMin > 0) q.set('chom', f.chomMin);
   if (f.sect && f.sectSeuil !== '') { q.set('sect', f.sect); q.set('smode', f.sectMode); q.set('seuil', f.sectSeuil); }
   if (f.scrutins.length) q.set('s', f.scrutins.map(s => s.num + ':' + s.pos).join(','));
+  if (carto && carto.scrutins.length) q.set('cs', carto.scrutins.map(s => s.num + ':' + s.sens).join(','));
+  if (carto && carto.kw) q.set('kw', carto.kw);
   const qs = q.toString();
   window.history.replaceState(null, '', window.location.pathname + window.location.search + '#ciblage' + (qs ? '?' + qs : ''));
+}
+
+/* Index de recherche d'amendements (cartographie) : chargé au premier mot-clé. */
+let _cibAmdtPromise = null;
+function loadCibAmdtRecherche() {
+  return _cibAmdtPromise
+    || (_cibAmdtPromise = fetch('public/data/ciblage/amendements-recherche.json')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .catch(e => { _cibAmdtPromise = null; throw e; }));
+}
+
+/* Normalisation pour la recherche plein texte (casse + accents). */
+function cibNorm(s) {
+  return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
 /* Export CSV côté client (séparateur ";" pour Excel FR, BOM UTF-8). */
@@ -6850,6 +6877,321 @@ function GroupesEtudesModule() {
   );
 }
 
+/* ── Onglet Cartographie : alliés / persuadables / opposants ──────────
+   Score de position par député sur 1 à 3 scrutins de référence :
+   pour = +1, contre = −1, abstention = 0, absent = non compté (moyenne).
+   Chaque scrutin porte un "sens" (±1) : si voter CONTRE le texte sert la
+   cause étudiée (ex. amendement hostile), l'utilisateur inverse le scrutin.
+   Classification : allié ≥ +0,5 ; opposant ≤ −0,5 ; persuadable entre les
+   deux, OU allié/opposant faible (|score| < 0,75) avec loyauté < 85 %.
+   Axe Y (influençabilité) : loyauté inversée (65 %) + fragilité électorale
+   (35 %, marge 2024 rapportée à 30 pts). Le mot-clé d'amendements ne change
+   pas le score : c'est un signal d'activité (taille du point + colonne). */
+const CIB_CLASSES = {
+  allie:       { label: 'Allié',       color: 'var(--pos)',           bg: 'var(--green-50)' },
+  persuadable: { label: 'Persuadable', color: '#C9760D',              bg: '#FDF3E7'         },
+  opposant:    { label: 'Opposant',    color: 'var(--neg)',           bg: 'var(--red-50)'   },
+  aucun:       { label: 'Non positionné', color: 'var(--text-tertiary)', bg: 'var(--gray-100)' },
+};
+
+function cibClassifie(score, loyaute) {
+  if (score === null) return 'aucun';
+  if (Math.abs(score) < 0.5) return 'persuadable';
+  if (Math.abs(score) < 0.75 && loyaute !== null && loyaute < 0.85) return 'persuadable';
+  return score > 0 ? 'allie' : 'opposant';
+}
+
+function CibCartoTab({ deputes, groupes, baseById, openDep, carto, setCarto }) {
+  const [posData, setPosData] = React.useState({});
+  const [pickerOpen, setPickerOpen] = React.useState(false);
+  const [amdtIdx, setAmdtIdx] = React.useState(null);   // null | 'chargement' | 'erreur' | { textes, deputes, norm }
+  const [hover, setHover] = React.useState(null);       // { d, x, y }
+  const [sortCol, setSortCol] = React.useState('score');
+  const [sortDir, setSortDir] = React.useState(-1);
+  const kw = useCibDebounced(carto.kw, 300);
+
+  /* Positions des scrutins de référence (mêmes shards que l'onglet Recherche). */
+  React.useEffect(() => {
+    for (const s of carto.scrutins) {
+      if (posData[s.num] !== undefined) continue;
+      setPosData(prev => ({ ...prev, [s.num]: null }));
+      loadCibPositions(s.num)
+        .then(pos => setPosData(prev => ({ ...prev, [s.num]: pos })))
+        .catch(() => setPosData(prev => ({ ...prev, [s.num]: false })));
+    }
+  }, [carto.scrutins, posData]);
+
+  /* Index d'amendements : chargé au premier mot-clé uniquement (~2 Mo gzippés). */
+  React.useEffect(() => {
+    if (!kw.trim() || (amdtIdx && typeof amdtIdx === 'object')) return;
+    setAmdtIdx('chargement');
+    loadCibAmdtRecherche()
+      .then(d => setAmdtIdx({ ...d, norm: d.textes.map(cibNorm) }))
+      .catch(() => setAmdtIdx('erreur'));
+  }, [kw]);
+
+  /* Nombre d'amendements contenant le mot-clé, par député. */
+  const activite = React.useMemo(() => {
+    if (!kw.trim() || !amdtIdx || typeof amdtIdx !== 'object') return null;
+    const n = cibNorm(kw.trim());
+    const matches = new Set();
+    amdtIdx.norm.forEach((t, i) => { if (t.includes(n)) matches.add(i); });
+    const par = {};
+    for (const [id, liste] of Object.entries(amdtIdx.deputes)) {
+      const c = liste.reduce((s, ti) => s + (matches.has(ti) ? 1 : 0), 0);
+      if (c > 0) par[id] = c;
+    }
+    return par;
+  }, [kw, amdtIdx]);
+
+  const scrutinsPrets = carto.scrutins.filter(s => posData[s.num]);
+  const enChargement = carto.scrutins.some(s => posData[s.num] === null);
+
+  /* Score, influençabilité et classification par député. */
+  const rows = React.useMemo(() => {
+    if (!scrutinsPrets.length) return [];
+    return deputes.map(d => {
+      const idNum = parseInt(d.id, 10);
+      let somme = 0, n = 0;
+      const votes = {};
+      for (const s of scrutinsPrets) {
+        const pos = posData[s.num];
+        const v = pos.p.has(idNum) ? 1 : pos.c.has(idNum) ? -1 : pos.a.has(idNum) ? 0 : null;
+        votes[s.num] = v === 1 ? 'p' : v === -1 ? 'c' : v === 0 ? 'a' : 'x';
+        if (v !== null) { somme += v * s.sens; n++; }
+      }
+      const score = n ? somme / n : null;
+      const loyaute = d.stats.loyaute;
+      const marge = d.ci ? d.ci.marge : null;
+      const infl = 0.65 * Math.min(1, Math.max(0, (1 - (loyaute === null ? 0.9 : loyaute)) / 0.35))
+                 + 0.35 * (marge === null ? 0.4 : Math.min(1, Math.max(0, 1 - marge / 30)));
+      return { d, score, votes, nbVotes: n, infl, classe: cibClassifie(score, loyaute), act: activite ? (activite[d.id] || 0) : 0 };
+    });
+  }, [deputes, scrutinsPrets.map(s => s.num + ':' + s.sens).join(','), posData, activite]);
+
+  const positionnes = rows.filter(r => r.score !== null);
+  const compte = { allie: 0, persuadable: 0, opposant: 0 };
+  for (const r of positionnes) compte[r.classe]++;
+
+  const tri = React.useMemo(() => {
+    const v = (r) => sortCol === 'nom' ? r.d.nom : sortCol === 'groupe' ? r.d.groupe
+      : sortCol === 'score' ? (r.score === null ? -99 : r.score)
+      : sortCol === 'loyaute' ? (r.d.stats.loyaute === null ? -1 : r.d.stats.loyaute)
+      : sortCol === 'marge' ? (r.d.ci && r.d.ci.marge !== null ? r.d.ci.marge : 999)
+      : sortCol === 'infl' ? r.infl : r.act;
+    return [...rows].sort((a, b) => {
+      const x = v(a), y = v(b);
+      return (typeof x === 'string' ? x.localeCompare(y, 'fr') : x - y) * sortDir;
+    });
+  }, [rows, sortCol, sortDir]);
+
+  const exportCsv = () => {
+    const header = ['Nom', 'Prénom', 'Groupe', 'Score', 'Classification', 'Loyauté (%)', 'Marge 2024 (pts)', 'Influençabilité'];
+    for (const s of scrutinsPrets) header.push('Scrutin #' + s.num + (s.sens === -1 ? ' (inversé)' : ''));
+    if (activite) header.push('Amendements « ' + kw.trim() + ' »');
+    const posLabel = { p: 'Pour', c: 'Contre', a: 'Abstention', x: 'Absent' };
+    const rws = tri.filter(r => r.score !== null).map(r => {
+      const row = [r.d.nom, r.d.prenom, r.d.groupe,
+        r.score === null ? '' : Math.round(r.score * 100) / 100, CIB_CLASSES[r.classe].label,
+        r.d.stats.loyaute !== null ? Math.round(r.d.stats.loyaute * 1000) / 10 : '',
+        r.d.ci && r.d.ci.marge !== null ? r.d.ci.marge : '',
+        Math.round(r.infl * 100) / 100];
+      for (const s of scrutinsPrets) row.push(posLabel[r.votes[s.num]]);
+      if (activite) row.push(r.act || 0);
+      return row;
+    });
+    cibExportCsv(rws, header, 'cartographie-nomoslab-' + new Date().toISOString().slice(0, 10) + '.csv');
+  };
+
+  /* ── Plan SVG (rendu pur React, pas de librairie graphique) ── */
+  const W = 860, H = 480, padL = 46, padR = 16, padT = 18, padB = 40;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const sx = (score) => padL + ((score + 1) / 2) * plotW;
+  const sy = (infl) => padT + (1 - infl) * plotH;
+  /* Décalage déterministe pour désempiler les points de même score. */
+  const jitter = (id) => { let h = 0; for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) % 997; return (h / 997 - 0.5) * 0.055; };
+
+  const scrutinChip = (s) => (
+    <div key={s.num} style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'8px 10px', background:'var(--surface-sunken)', flex:'1 1 240px', minWidth:220 }}>
+      <div style={{ display:'flex', gap:6, alignItems:'flex-start' }}>
+        <div style={{ flex:1, minWidth:0 }}>
+          <div style={{ fontFamily:'var(--font-mono)', fontSize:10.5, fontWeight:700, color:'var(--blue-france)' }}>#{s.num}{s.date ? ' · ' + s.date : ''}</div>
+          <div style={{ fontSize:11.5, color:'var(--ink)', lineHeight:1.35, marginTop:2, display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{s.titre || 'Scrutin n° ' + s.num}</div>
+        </div>
+        <button onClick={() => setCarto(c => ({ ...c, scrutins: c.scrutins.filter(x => x.num !== s.num) }))}
+          style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex', flex:'none' }}><Icon n="x" s={13} /></button>
+      </div>
+      <label title="À activer quand voter CONTRE ce texte sert votre cause (ex. amendement hostile) : le score du scrutin est inversé."
+        style={{ display:'flex', alignItems:'center', gap:6, marginTop:7, fontSize:10.5, fontWeight:600, color: s.sens === -1 ? 'var(--neg)' : 'var(--text-tertiary)', cursor:'pointer' }}>
+        <input type="checkbox" checked={s.sens === -1}
+          onChange={e => setCarto(c => ({ ...c, scrutins: c.scrutins.map(x => x.num === s.num ? { ...x, sens: e.target.checked ? -1 : 1 } : x) }))}
+          style={{ accentColor:'var(--neg)' }} />
+        Sens inversé (contre = allié)
+      </label>
+      {posData[s.num] === false && <div style={{ fontSize:10.5, color:'var(--neg)', marginTop:5 }}>Positions indisponibles.</div>}
+    </div>
+  );
+
+  return (
+    <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
+      {/* ── Contrôles ── */}
+      <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'14px 16px' }}>
+        <CibLabel extra={<span style={{ fontSize:10.5, color:'var(--text-tertiary)' }}>{carto.scrutins.length}/3</span>}>Scrutins de référence sur votre sujet</CibLabel>
+        <div style={{ display:'flex', gap:8, flexWrap:'wrap', alignItems:'stretch' }}>
+          {carto.scrutins.map(scrutinChip)}
+          {carto.scrutins.length < 3 && !pickerOpen && (
+            <button onClick={() => setPickerOpen(true)}
+              style={{ border:'1px dashed var(--border-strong)', background:'none', borderRadius:'var(--radius-md)', padding:'8px 14px', fontSize:12, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', display:'flex', alignItems:'center', gap:6, flex:'0 0 auto' }}>
+              <Icon n="plus" s={13} /> Ajouter un scrutin
+            </button>
+          )}
+        </div>
+        {pickerOpen && (
+          <div style={{ marginTop:8, maxWidth:640 }}>
+            <CibScrutinPicker onClose={() => setPickerOpen(false)}
+              onSelect={(s) => {
+                setPickerOpen(false);
+                if (carto.scrutins.some(x => x.num === s.num)) return;
+                setCarto(c => ({ ...c, scrutins: [...c.scrutins, { num: s.num, date: s.date, titre: s.titre, sens: 1 }] }));
+              }} />
+          </div>
+        )}
+        <div style={{ display:'flex', gap:10, alignItems:'center', marginTop:12, flexWrap:'wrap' }}>
+          <span style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Mot-clé d'amendements (optionnel)</span>
+          <input className="cib-input" style={{ maxWidth:260 }} type="text" value={carto.kw}
+            onChange={e => setCarto(c => ({ ...c, kw: e.target.value }))} placeholder="vin, nucléaire, haies…" />
+          {amdtIdx === 'chargement' && <span style={{ fontSize:11, color:'var(--text-tertiary)' }}>Chargement de l'index d'amendements…</span>}
+          {amdtIdx === 'erreur' && <span style={{ fontSize:11, color:'var(--neg)' }}>Index d'amendements indisponible.</span>}
+          {activite && <span style={{ fontSize:11, color:'var(--text-secondary)' }}>{Object.keys(activite).length} députés actifs sur « {kw.trim()} » (taille des points)</span>}
+        </div>
+      </div>
+
+      {/* ── Plan + liste ── */}
+      {!carto.scrutins.length ? (
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          Choisissez 1 à 3 scrutins de référence sur votre sujet pour cartographier l'hémicycle en alliés, persuadables et opposants.
+        </div>
+      ) : enChargement ? (
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          Chargement des positions de vote…
+        </div>
+      ) : (
+        <>
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'16px 16px 8px', position:'relative' }}>
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:8, marginBottom:6 }}>
+              <div style={{ display:'flex', gap:14, flexWrap:'wrap' }}>
+                {['opposant', 'persuadable', 'allie'].map(k => (
+                  <span key={k} style={{ fontSize:12, fontWeight:700, color: CIB_CLASSES[k].color }}>
+                    {compte[k]} {CIB_CLASSES[k].label.toLowerCase()}{compte[k] > 1 ? 's' : ''}
+                  </span>
+                ))}
+                <span style={{ fontSize:12, color:'var(--text-tertiary)' }}>{rows.length - positionnes.length} non positionnés (absents)</span>
+              </div>
+              <button onClick={exportCsv} disabled={!positionnes.length}
+                style={{ display:'flex', alignItems:'center', gap:6, border:'none', background: positionnes.length ? 'var(--blue-france)' : 'var(--gray-100)', color: positionnes.length ? '#fff' : 'var(--text-tertiary)', borderRadius:'var(--radius-md)', padding:'7px 13px', fontSize:12, fontWeight:700, cursor: positionnes.length ? 'pointer' : 'default', fontFamily:'var(--font-sans)' }}>
+                <Icon n="download" s={13} /> Exporter (CSV)
+              </button>
+            </div>
+
+            <svg viewBox={'0 0 ' + W + ' ' + H} style={{ width:'100%', height:'auto', display:'block' }}>
+              {/* Zones opposants / persuadables / alliés */}
+              <rect x={sx(-1)} y={padT} width={sx(-0.5) - sx(-1)} height={plotH} fill="#FEF2F2" />
+              <rect x={sx(-0.5)} y={padT} width={sx(0.5) - sx(-0.5)} height={plotH} fill="var(--gray-50)" />
+              <rect x={sx(0.5)} y={padT} width={sx(1) - sx(0.5)} height={plotH} fill="#EFFAF3" />
+              <text x={sx(-0.75)} y={padT + 16} textAnchor="middle" style={{ font:'700 11px var(--font-sans)', fill:'#E1000F', opacity:0.55 }}>OPPOSANTS</text>
+              <text x={sx(0)} y={padT + 16} textAnchor="middle" style={{ font:'700 11px var(--font-sans)', fill:'#565D67', opacity:0.55 }}>PERSUADABLES</text>
+              <text x={sx(0.75)} y={padT + 16} textAnchor="middle" style={{ font:'700 11px var(--font-sans)', fill:'#0E8A52', opacity:0.55 }}>ALLIÉS</text>
+              {/* Axes */}
+              {[-1, -0.5, 0, 0.5, 1].map(v => (
+                <g key={v}>
+                  <line x1={sx(v)} y1={padT} x2={sx(v)} y2={padT + plotH} stroke="var(--border)" strokeDasharray={v === 0 ? '' : '3 4'} strokeWidth="1" />
+                  <text x={sx(v)} y={H - padB + 16} textAnchor="middle" style={{ font:'600 10px var(--font-mono)', fill:'#8B93A0' }}>{v > 0 ? '+' + v : v}</text>
+                </g>
+              ))}
+              <text x={sx(0)} y={H - 6} textAnchor="middle" style={{ font:'600 10.5px var(--font-sans)', fill:'#565D67' }}>Score de position (opposant → allié)</text>
+              <text x={12} y={padT + plotH / 2} textAnchor="middle" transform={'rotate(-90 12 ' + (padT + plotH / 2) + ')'} style={{ font:'600 10.5px var(--font-sans)', fill:'#565D67' }}>Influençabilité (loyauté basse + siège disputé)</text>
+              {/* Points */}
+              {positionnes.map(r => {
+                const g = groupes[r.d.groupe] || { couleur: '#9AA3AF' };
+                const rayon = 3.5 + Math.min(4, r.act / 3);
+                return (
+                  <circle key={r.d.id}
+                    cx={sx(Math.max(-1, Math.min(1, r.score + jitter(r.d.id))))} cy={sy(r.infl)} r={rayon}
+                    fill={g.couleur} stroke="#fff" strokeWidth="1" opacity="0.88" style={{ cursor:'pointer' }}
+                    onMouseEnter={(e) => setHover({ r, x: e.clientX, y: e.clientY })}
+                    onMouseLeave={() => setHover(null)}
+                    onClick={() => { const b = baseById[r.d.id]; if (b) openDep(b); }} />
+                );
+              })}
+            </svg>
+
+            {hover && (
+              <div style={{ position:'fixed', left:Math.min(hover.x + 14, window.innerWidth - 280), top:hover.y + 12, zIndex:50, width:260, background:'var(--ink)', color:'#fff', borderRadius:8, padding:'10px 12px', pointerEvents:'none', boxShadow:'var(--shadow-md)' }}>
+                <div style={{ fontSize:12.5, fontWeight:700 }}>{hover.r.d.prenom} {hover.r.d.nom} <span style={{ opacity:0.7, fontWeight:600 }}>· {hover.r.d.groupe}</span></div>
+                <div style={{ fontSize:11, opacity:0.85, marginTop:3 }}>
+                  Score {hover.r.score > 0 ? '+' : ''}{Math.round(hover.r.score * 100) / 100} — {CIB_CLASSES[hover.r.classe].label}
+                  {hover.r.d.stats.loyaute !== null ? ' · loyauté ' + Math.round(hover.r.d.stats.loyaute * 100) + ' %' : ''}
+                </div>
+                <div style={{ marginTop:5, display:'flex', flexDirection:'column', gap:2 }}>
+                  {scrutinsPrets.map(s => (
+                    <div key={s.num} style={{ fontSize:10.5, opacity:0.85 }}>
+                      #{s.num}{s.sens === -1 ? ' (inv.)' : ''} : <b>{CIB_POS[hover.r.votes[s.num]].label}</b>
+                    </div>
+                  ))}
+                  {activite && <div style={{ fontSize:10.5, opacity:0.85 }}>{hover.r.act} amendement{hover.r.act > 1 ? 's' : ''} sur « {kw.trim()} »</div>}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* ── Liste triable ── */}
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+            <div style={{ overflowX:'auto' }}>
+              <table style={{ width:'100%', borderCollapse:'collapse', fontSize:12.5 }}>
+                <thead>
+                  <tr style={{ borderBottom:'1px solid var(--border)' }}>
+                    {[['nom', 'Député'], ['groupe', 'Groupe'], ['score', 'Score'], ['classe', 'Classification'], ['loyaute', 'Loyauté'], ['marge', 'Marge 2024'], ['infl', 'Influençabilité'], ...(activite ? [['act', 'Amdts « ' + kw.trim() + ' »']] : [])].map(([col, label]) => (
+                      <th key={col} onClick={() => { if (col === 'classe') return; setSortDir(sortCol === col ? -sortDir : (col === 'nom' || col === 'groupe' ? 1 : -1)); setSortCol(col); }}
+                        style={{ textAlign:'left', padding:'10px 14px', fontSize:10.5, fontWeight:700, letterSpacing:'0.07em', textTransform:'uppercase', color: sortCol === col ? 'var(--ink)' : 'var(--text-tertiary)', cursor: col === 'classe' ? 'default' : 'pointer', whiteSpace:'nowrap', userSelect:'none' }}>
+                        {label}{sortCol === col ? (sortDir === 1 ? ' ↑' : ' ↓') : ''}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {tri.filter(r => r.score !== null).slice(0, 200).map(r => {
+                    const g = groupes[r.d.groupe] || { couleur: '#9AA3AF' };
+                    const cl = CIB_CLASSES[r.classe];
+                    return (
+                      <tr key={r.d.id} onClick={() => { const b = baseById[r.d.id]; if (b) openDep(b); }}
+                        style={{ borderBottom:'1px solid var(--border-subtle)', cursor:'pointer' }}
+                        onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-hover)'}
+                        onMouseLeave={e => e.currentTarget.style.background = ''}>
+                        <td style={{ padding:'8px 14px', fontWeight:600, color:'var(--ink)', whiteSpace:'nowrap' }}>{r.d.prenom} {r.d.nom}</td>
+                        <td style={{ padding:'8px 14px' }}><span style={{ fontSize:10.5, fontWeight:700, color:g.couleur, background:g.couleur + '18', borderRadius:999, padding:'2px 8px' }}>{r.d.groupe}</span></td>
+                        <td style={{ padding:'8px 14px', fontFamily:'var(--font-mono)', fontWeight:700, color: r.score > 0.2 ? 'var(--pos)' : r.score < -0.2 ? 'var(--neg)' : 'var(--text-secondary)' }}>{r.score > 0 ? '+' : ''}{(Math.round(r.score * 100) / 100).toLocaleString('fr-FR')}</td>
+                        <td style={{ padding:'8px 14px' }}><span style={{ fontSize:10.5, fontWeight:700, color:cl.color, background:cl.bg, borderRadius:999, padding:'2px 8px' }}>{cl.label}</span></td>
+                        <td style={{ padding:'8px 14px', fontFamily:'var(--font-mono)', color:'var(--text-secondary)' }}>{r.d.stats.loyaute !== null ? Math.round(r.d.stats.loyaute * 100) + ' %' : '—'}</td>
+                        <td style={{ padding:'8px 14px', fontFamily:'var(--font-mono)', color:'var(--text-secondary)' }}>{r.d.ci && r.d.ci.marge !== null ? r.d.ci.marge.toLocaleString('fr-FR') + ' pts' : '—'}</td>
+                        <td style={{ padding:'8px 14px' }}>
+                          <div style={{ width:70, height:5, borderRadius:3, background:'var(--gray-100)', overflow:'hidden' }}>
+                            <div style={{ width:Math.round(r.infl * 100) + '%', height:'100%', background:'var(--blue-france)' }} />
+                          </div>
+                        </td>
+                        {activite && <td style={{ padding:'8px 14px', fontFamily:'var(--font-mono)', fontWeight:700, color: r.act ? 'var(--ink)' : 'var(--text-tertiary)' }}>{r.act || '—'}</td>}
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 /* Libellé court d'une section du panneau de filtres. */
 function CibLabel({ children, extra }) {
   return (
@@ -6864,7 +7206,10 @@ function CiblageModule() {
   const { loading, deputes, groupes, updatedAt, error } = useCiblageIndex();
   const { deputes: baseDeputes } = useANDeputes();       // fiches "riches" pour ouvrir DeputeView
   const geList = useCibGroupesEtudes();                  // null tant que le fichier n'existe pas
-  const [filters, setFilters] = React.useState(() => cibParseHash() || { ...CIB_F0 });
+  const initial = React.useRef(cibParseHash()).current;  // état initial depuis l'URL partagée
+  const [filters, setFilters] = React.useState(() => (initial && initial.f) || { ...CIB_F0 });
+  const [tab, setTab] = React.useState(() => (initial && initial.tab) || 'recherche');
+  const [carto, setCarto] = React.useState(() => (initial && initial.carto) || { ...CIB_CARTO0 });
   const [selectedDep, setSelectedDep] = React.useState(null);
   const [scrutinPickerOpen, setScrutinPickerOpen] = React.useState(false);
   const [geQuery, setGeQuery] = React.useState('');
@@ -6876,9 +7221,10 @@ function CiblageModule() {
   /* Curseurs et champs texte : la valeur "vive" pilote l'UI, la valeur
      debouncée (300 ms) pilote le filtrage et l'URL. */
   const debounced = useCibDebounced(filters, 300);
+  const cartoDebounced = useCibDebounced(carto, 300);
 
   /* URL partageable : l'état des filtres est encodé dans le hash. */
-  React.useEffect(() => { cibWriteHash(debounced); }, [debounced]);
+  React.useEffect(() => { cibWriteHash(debounced, tab, cartoDebounced); }, [debounced, tab, cartoDebounced]);
   React.useEffect(() => () => {
     if ((window.location.hash || '').startsWith('#ciblage')) {
       window.history.replaceState(null, '', window.location.pathname + window.location.search);
@@ -6896,20 +7242,20 @@ function CiblageModule() {
     }
   }, [filters.scrutins, posData]);
 
-  /* Titres des scrutins arrivés par URL (le hash ne stocke que num:position). */
+  /* Titres des scrutins arrivés par URL (le hash ne stocke que les numéros). */
   React.useEffect(() => {
-    if (!filters.scrutins.some(s => !s.titre)) return;
+    if (!filters.scrutins.some(s => !s.titre) && !carto.scrutins.some(s => !s.titre)) return;
     loadCibScrutins().then(all => {
-      setFilters(f => ({
-        ...f,
-        scrutins: f.scrutins.map(s => {
-          if (s.titre) return s;
-          const found = all.find(x => x.num === s.num);
-          return found ? { ...s, titre: found.titre, date: found.date } : s;
-        }),
-      }));
+      const complete = (s) => {
+        if (s.titre) return s;
+        const found = all.find(x => x.num === s.num);
+        return found ? { ...s, titre: found.titre, date: found.date } : s;
+      };
+      setFilters(f => ({ ...f, scrutins: f.scrutins.map(complete) }));
+      setCarto(c => ({ ...c, scrutins: c.scrutins.map(complete) }));
     }).catch(() => {});
-  }, [filters.scrutins.map(s => s.num + (s.titre ? 't' : '')).join(',')]);
+  }, [filters.scrutins.map(s => s.num + (s.titre ? 't' : '')).join(','),
+      carto.scrutins.map(s => s.num + (s.titre ? 't' : '')).join(',')]);
 
   const baseById = React.useMemo(() => {
     const m = {};
@@ -7068,6 +7414,10 @@ function CiblageModule() {
         .cib-mode-btn.on{background:var(--ink);border-color:var(--ink);color:var(--white)}
         .cib-more{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 18px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 120ms}
         .cib-more:hover{border-color:var(--border-strong);color:var(--ink)}
+        .cib-tab{background:none;border:none;cursor:pointer;padding:7px 16px;border-radius:var(--radius-pill);font-family:var(--font-sans);font-size:13px;font-weight:500;transition:background 120ms,color 120ms}
+        .cib-tab.on{background:var(--ink);color:var(--white)}
+        .cib-tab:not(.on){color:var(--text-secondary)}
+        .cib-tab:not(.on):hover{background:var(--surface-hover);color:var(--ink)}
       `}</style>
 
       <div style={{ marginBottom:24 }}>
@@ -7085,6 +7435,28 @@ function CiblageModule() {
       )}
 
       {!error && (
+        <div style={{ display:'flex', gap:3, background:'var(--gray-100)', borderRadius:'var(--radius-pill)', padding:3, width:'fit-content', marginBottom:16 }}>
+          {[['recherche', 'Recherche', 'list-filter'], ['carto', 'Cartographie', 'scatter-chart'], ['reseau', 'Réseau', 'share-2']].map(([id, label, ic]) => (
+            <button key={id} className={'cib-tab' + (tab === id ? ' on' : '')} onClick={() => setTab(id)}
+              style={{ display:'flex', alignItems:'center', gap:6 }}>
+              <Icon n={ic} s={13} />{label}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {!error && tab === 'carto' && (
+        <CibCartoTab deputes={deputes} groupes={groupes} baseById={baseById}
+          openDep={setSelectedDep} carto={carto} setCarto={setCarto} />
+      )}
+
+      {!error && tab === 'reseau' && (
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'42px 24px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          L'onglet Réseau (cosignatures) arrive dans la prochaine itération.
+        </div>
+      )}
+
+      {!error && tab === 'recherche' && (
       <div className="cib-layout">
         {/* ══ Panneau de filtres ══ */}
         <aside className="cib-panel">

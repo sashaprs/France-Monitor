@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-07-06T16:14:11.850Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54083:en_navette",
+   "type": "changement_etape",
+   "date": "2026-07-06T16:14:11.850Z",
+   "titre": "rapport la commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion du projet… — en navette",
+   "detail": "Statut : « adopté » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense",
+   "dossier_id": "DLR5L17N54083",
+   "texte_matchable": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense rapport la commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion du projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense. Défense Yannick Chenevard",
+   "profils": []
+  }
+ ]
+}

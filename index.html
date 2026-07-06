@@ -1668,6 +1668,7 @@ const DASH_MODULES = [
   { id:'legislatif',    label:'Dossiers législatifs', icon:'scroll-text' },
   { id:'amendements',   label:'Amendements',          icon:'file-diff'   },
   { id:'calendrier',    label:'Calendrier',           icon:'calendar-days' },
+  { id:'alertes',       label:'Alertes',              icon:'bell-ring'   },
   { id:'dette',         label:'Dette publique',       icon:'landmark'    },
   { id:'inflation',     label:'Inflation',            icon:'trending-up' },
   { id:'carburant',     label:'Carburant',            icon:'fuel'        },
@@ -10227,6 +10228,8 @@ function Dashboard({ variant, go, user, onSignOut }) {
             ? <div className="db-scroll"><AmendementsModule /></div>
             : module === 'calendrier'
             ? <div className="db-scroll"><CalendrierModule /></div>
+            : module === 'alertes'
+            ? <div className="db-scroll"><AlertesModule /></div>
             : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
@@ -10846,6 +10849,135 @@ function CalendrierModule() {
       <div style={{ marginTop:20 }}>
         <SourceTag source="Assemblée nationale · open data Agenda · actualisation GitHub Actions"
           date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   ALERTES — événements législatifs détectés par le pipeline
+   Données : data/alertes/events/index.json + lots horodatés
+   (detect-events.js / match-alerts.js, workflow alertes.yml)
+   ============================================================ */
+const ALERTES_TYPES = {
+  nouveau_dossier:           { label:'Nouveau dossier',   color:'#000091', bg:'#EEF1FF' },
+  changement_etape:          { label:'Changement d\'étape', color:'#7C3AED', bg:'#F3EEFC' },
+  nouvel_amendement:         { label:'Nouvel amendement', color:'#1D4ED8', bg:'#EFF6FF' },
+  sort_amendement:           { label:'Sort d\'amendement', color:'#B45309', bg:'#FEF3C7' },
+  inscription_ordre_du_jour: { label:'Ordre du jour',     color:'#047857', bg:'#D1FAE5' },
+  resultat_scrutin:          { label:'Scrutin',           color:'#8C1D18', bg:'#FBEAE9' },
+};
+
+function AlertesModule() {
+  const [lots, setLots] = React.useState(undefined);   // undefined = chargement
+  const [profils, setProfils] = React.useState({});    // id → nom
+  const [fType, setFType] = React.useState('tous');
+  const [dossierId, setDossierId] = React.useState(null);
+
+  React.useEffect(() => {
+    /* Index des lots, puis contenu des 10 plus récents en parallèle. */
+    fetch('data/alertes/events/index.json')
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(idx => Promise.all((idx.lots || []).slice(0, 10).map(l =>
+        fetch(`data/alertes/events/${l.fichier}`).then(r => r.json())
+          .then(lot => ({ ...l, evenements: lot.evenements }))
+          .catch(() => null)
+      )))
+      .then(charges => setLots(charges.filter(Boolean)))
+      .catch(() => setLots([]));
+    fetch('config/veille-profils.json')
+      .then(r => r.json())
+      .then(c => setProfils(Object.fromEntries((c.profils || []).map(p => [p.id, p.nom || p.id]))))
+      .catch(() => {});
+  }, []);
+
+  if (dossierId) return <LegisDossierDetail id={dossierId} onBack={() => setDossierId(null)} />;
+
+  const tousEvenements = (lots || []).flatMap(l => l.evenements.map(e => ({ ...e, __lot: l.genere_le })));
+  const filtered = fType === 'tous' ? tousEvenements : tousEvenements.filter(e => e.type === fType);
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1000, margin:'0 auto' }}>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em',
+          textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Suivi législatif</div>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Alertes</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>
+          Événements détectés entre deux exécutions du pipeline — dossiers, amendements, ordres du jour, scrutins
+        </div>
+      </div>
+
+      {/* La configuration des profils n'a pas encore d'interface dédiée. */}
+      <div style={{ display:'flex', alignItems:'center', gap:10, padding:'10px 14px', marginBottom:18,
+        border:'1px solid var(--border)', background:'var(--gray-50)', borderRadius:'var(--radius-md)' }}>
+        <Icon n="settings-2" s={15} color="var(--text-tertiary)" />
+        <span style={{ fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)' }}>
+          Les profils d'alerte (mots-clés, dossiers suivis, e-mail, Slack) se configurent pour l'instant dans
+          <code style={{ fontFamily:'var(--font-mono)', fontSize:11.5, background:'var(--gray-100)', padding:'1px 6px', borderRadius:4, margin:'0 4px' }}>config/veille-profils.json</code>
+          du dépôt GitHub.
+        </span>
+      </div>
+
+      <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:18 }}>
+        {[['tous', 'Tous'], ...Object.entries(ALERTES_TYPES).map(([k, v]) => [k, v.label])].map(([k, label]) => (
+          <button key={k} onClick={() => setFType(k)}
+            style={{ padding:'5px 12px', borderRadius:999, cursor:'pointer', fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600,
+              border:'1px solid ' + (fType === k ? 'var(--blue-france)' : 'var(--border)'),
+              background: fType === k ? 'var(--blue-france)' : 'white',
+              color: fType === k ? '#fff' : 'var(--text-secondary)' }}>
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {lots === undefined ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des alertes…</div>
+      ) : filtered.length === 0 ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          {tousEvenements.length === 0
+            ? 'Aucun événement détecté pour l\'instant — le moteur d\'alertes n\'a pas encore tourné ou rien n\'a changé.'
+            : 'Aucun événement de ce type dans les derniers lots.'}
+        </div>
+      ) : (
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+          {filtered.map((e, i, arr) => {
+            const t = ALERTES_TYPES[e.type] || { label:e.type, color:'var(--text-secondary)', bg:'var(--gray-100)' };
+            return (
+              <div key={e.id + '-' + i} style={{ padding:'13px 18px', borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap', marginBottom:5 }}>
+                  <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:t.color, background:t.bg,
+                    padding:'2px 9px', borderRadius:999 }}>{t.label}</span>
+                  <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>
+                    {new Date(e.__lot).toLocaleString('fr-FR', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' })}
+                  </span>
+                  <span style={{ flex:1 }} />
+                  {(e.profils || []).map(p => (
+                    <span key={p} title={`Profil matché : ${profils[p] || p}`}
+                      style={{ fontFamily:'var(--font-sans)', fontSize:10.5, fontWeight:600, color:'#047857', background:'#D1FAE5',
+                        padding:'2px 8px', borderRadius:999 }}>
+                      ✓ {profils[p] || p}
+                    </span>
+                  ))}
+                </div>
+                <div style={{ fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:600, color:'var(--ink)', lineHeight:1.4 }}>
+                  {e.url ? <a href={e.url} target="_blank" rel="noopener" style={{ color:'var(--ink)' }}>{e.titre} ↗</a> : e.titre}
+                </div>
+                {e.detail && <div style={{ fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.45, marginTop:3 }}>{e.detail}</div>}
+                {e.dossier_id && (
+                  <button onClick={() => setDossierId(e.dossier_id)} style={{ border:'none', background:'none', padding:0, marginTop:4, cursor:'pointer',
+                    fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600, color:'var(--blue-france)' }}>
+                    Voir la timeline du dossier →
+                  </button>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Moteur d'alertes NomosLab · detect-events / match-alerts · GitHub Actions"
+          date={lots && lots.length ? new Date(lots[0].genere_le).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
       </div>
     </div>
   );

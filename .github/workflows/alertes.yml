@@ -32,7 +32,13 @@ jobs:
       contents: write
 
     steps:
+      # ref: main — un « Re-run jobs » s'exécuterait sinon sur le commit figé
+      # du run d'origine (HEAD détachée → le push final échoue, et le code
+      # exécuté serait obsolète). Ce pipeline de données doit toujours partir
+      # de la tête de main.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:

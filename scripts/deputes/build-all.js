@@ -16,6 +16,13 @@ const etapes = [
   { nom: 'questions', module: './build-questions', bloquant: false },
   { nom: 'rapports', module: './build-rapports', bloquant: false },
   { nom: 'assemblage', module: './assemble-fiches', bloquant: true },
+  /* Module Ciblage — après l'assemblage : ces étapes lisent les fiches
+     publiées. Ordre imposé : groupes-etudes avant index (l'index intègre
+     les GE), cosignatures en dernier (lit l'index de ciblage et ré-écrit
+     les fiches avec top_cosignataires). Les ZIP sont déjà en cache tmp/. */
+  { nom: 'ciblage-groupes-etudes', module: '../ciblage/build-groupes-etudes', bloquant: false },
+  { nom: 'ciblage-index', module: '../ciblage/build-index', bloquant: false },
+  { nom: 'ciblage-cosignatures', module: '../ciblage/build-cosignatures', bloquant: false },
 ];
 
 const debut = Date.now();

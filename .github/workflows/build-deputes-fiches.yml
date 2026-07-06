@@ -35,6 +35,10 @@ jobs:
         # Non bloquant : les fiches députés sont publiées même si ce build échoue.
         run: node --max-old-space-size=6144 scripts/legislatif/build-dossiers.js || echo "::warning::build-dossiers en échec"
 
+      - name: Build amendements récents
+        # Après build-dossiers (lit dossiers-index.json pour les libellés).
+        run: node --max-old-space-size=6144 scripts/legislatif/build-amendements-recents.js || echo "::warning::build-amendements-recents en échec"
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"

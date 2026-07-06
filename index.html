@@ -1666,6 +1666,7 @@ function AuthScreen({ go, initialMode = 'signin' }) {
 const DASH_MODULES = [
   { id:'veille',        label:'Veille médiatique',    icon:'radar'       },
   { id:'legislatif',    label:'Dossiers législatifs', icon:'scroll-text' },
+  { id:'amendements',   label:'Amendements',          icon:'file-diff'   },
   { id:'dette',         label:'Dette publique',       icon:'landmark'    },
   { id:'inflation',     label:'Inflation',            icon:'trending-up' },
   { id:'carburant',     label:'Carburant',            icon:'fuel'        },
@@ -10221,6 +10222,8 @@ function Dashboard({ variant, go, user, onSignOut }) {
             ? <div className="db-scroll"><VeilleModule user={user} /></div>
             : module === 'legislatif'
             ? <div className="db-scroll"><LegislatifModule /></div>
+            : module === 'amendements'
+            ? <div className="db-scroll"><AmendementsModule /></div>
             : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
@@ -10566,6 +10569,153 @@ function LegislatifModule() {
 
       <div style={{ marginTop:20 }}>
         <SourceTag source="Assemblée nationale · open data Dossiers législatifs · actualisation GitHub Actions"
+          date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   AMENDEMENTS — recherche par mot-clé sur les dépôts récents
+   Données : public/data/legislatif/amendements-recents.json
+   (build-amendements-recents.js, fenêtre glissante adaptative)
+   ============================================================ */
+function AmendementsModule() {
+  const [state, setState] = React.useState({ loading:true, amendements:[], dossiers:{}, fenetre:null, updatedAt:null });
+  const [search, setSearch] = React.useState('');
+  const [fSort, setFSort] = React.useState('tous');
+  const [fGroupe, setFGroupe] = React.useState('tous');
+  const [fDossier, setFDossier] = React.useState('tous');
+  const [limit, setLimit] = React.useState(60);
+  const [selectedDep, setSelectedDep] = React.useState(null);
+  const [dossierId, setDossierId] = React.useState(null);
+  const { deputes } = useANDeputes();
+
+  React.useEffect(() => {
+    fetch('public/data/legislatif/amendements-recents.json')
+      .then(r => r.json())
+      .then(d => setState({ loading:false, amendements:d.amendements || [], dossiers:d.dossiers || {}, fenetre:d.fenetre_jours, updatedAt:d.updatedAt }))
+      .catch(() => setState({ loading:false, amendements:[], dossiers:{}, fenetre:null, updatedAt:null }));
+  }, []);
+  React.useEffect(() => { setLimit(60); }, [search, fSort, fGroupe, fDossier]);
+
+  /* Navigation croisée : fiche député (module Députés) et timeline dossier. */
+  if (selectedDep) return <DeputeView dep={selectedDep} onBack={() => setSelectedDep(null)} />;
+  if (dossierId) return <LegisDossierDetail id={dossierId} onBack={() => setDossierId(null)} />;
+
+  const groupes = [...new Set(state.amendements.map(a => a.auteur && a.auteur.groupe).filter(Boolean))].sort();
+  const sorts = [...new Set(state.amendements.map(a => a.sort).filter(Boolean))].sort();
+  const q = legisNorm(search.trim());
+  const filtered = state.amendements.filter(a =>
+    (fSort === 'tous' || a.sort === fSort) &&
+    (fGroupe === 'tous' || (a.auteur && a.auteur.groupe) === fGroupe) &&
+    (fDossier === 'tous' || a.dossier_id === fDossier) &&
+    (!q || legisNorm(`${a.resume || ''} ${a.article_vise || ''} ${(a.auteur && a.auteur.nom) || ''}`).includes(q))
+  );
+
+  const selStyle = { padding:'8px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12,
+    fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none', maxWidth:260 };
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1200, margin:'0 auto' }}>
+      <style>{`.amdt-row:hover{background:var(--surface-hover)}`}</style>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em',
+          textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Suivi législatif</div>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Amendements</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>
+          Recherche par mot-clé — {state.amendements.length.toLocaleString('fr-FR')} amendements déposés sur les {state.fenetre || '…'} derniers jours · XVIIe législature
+        </div>
+      </div>
+
+      <div style={{ display:'flex', gap:10, marginBottom:14, flexWrap:'wrap' }}>
+        <div style={{ position:'relative', flex:'1 1 320px' }}>
+          <Icon n="search" s={13} style={{ position:'absolute', left:10, top:'50%', transform:'translateY(-50%)', color:'var(--text-tertiary)' }} />
+          <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Rechercher dans les exposés sommaires, articles visés, auteurs…"
+            style={{ width:'100%', padding:'8px 10px 8px 30px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        </div>
+        <select value={fSort} onChange={e => setFSort(e.target.value)} style={selStyle}>
+          <option value="tous">Tous les sorts</option>
+          {sorts.map(s => <option key={s} value={s}>{s}</option>)}
+        </select>
+        <select value={fGroupe} onChange={e => setFGroupe(e.target.value)} style={selStyle}>
+          <option value="tous">Tous les groupes</option>
+          {groupes.map(g => <option key={g} value={g}>{g}</option>)}
+        </select>
+        <select value={fDossier} onChange={e => setFDossier(e.target.value)} style={selStyle}>
+          <option value="tous">Tous les dossiers</option>
+          {Object.entries(state.dossiers).sort((a, b) => a[1].localeCompare(b[1])).map(([id, t]) => (
+            <option key={id} value={id}>{t.length > 60 ? t.slice(0, 59) + '…' : t}</option>
+          ))}
+        </select>
+      </div>
+
+      {state.loading ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des amendements…</div>
+      ) : filtered.length === 0 ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          {state.amendements.length === 0 ? 'Données indisponibles — le build « Suivi législatif » n\'a pas encore été exécuté.' : 'Aucun amendement ne correspond à ces critères.'}
+        </div>
+      ) : (
+        <>
+          <div style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)', marginBottom:10 }}>
+            {filtered.length.toLocaleString('fr-FR')} résultat{filtered.length > 1 ? 's' : ''}
+          </div>
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+            {filtered.slice(0, limit).map((a, i, arr) => {
+              const dep = a.auteur && a.auteur.id ? deputes.find(d => d.id === a.auteur.id) : null;
+              const couleurSort = LEGIS_SORTS_AMDT[a.sort] || 'var(--text-secondary)';
+              return (
+                <div key={a.id} className="amdt-row" style={{ padding:'13px 18px', borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                  <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap', marginBottom:5 }}>
+                    <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>
+                      {new Date(a.date + 'T12:00:00').toLocaleDateString('fr-FR', { day:'2-digit', month:'short' })}
+                    </span>
+                    <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, color:couleurSort,
+                      background:'var(--gray-50)', border:`1px solid ${couleurSort}33`, padding:'2px 9px', borderRadius:999 }}>{a.sort}</span>
+                    {a.article_vise && <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-secondary)',
+                      background:'var(--gray-100)', padding:'2px 8px', borderRadius:4 }}>{a.article_vise}</span>}
+                    {a.numero && <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>n° {a.numero}</span>}
+                    <span style={{ flex:1 }} />
+                    {a.url && <a href={a.url} target="_blank" rel="noopener" style={{ fontFamily:'var(--font-sans)', fontSize:11.5, color:'var(--blue-france)' }}>Voir sur assemblee-nationale.fr ↗</a>}
+                  </div>
+                  {a.resume && <div style={{ fontFamily:'var(--font-sans)', fontSize:13, color:'var(--ink)', lineHeight:1.45, marginBottom:5 }}>{a.resume}</div>}
+                  <div style={{ display:'flex', alignItems:'center', gap:8, flexWrap:'wrap', fontFamily:'var(--font-sans)', fontSize:12 }}>
+                    {a.auteur && a.auteur.nom && (
+                      dep ? (
+                        <button onClick={() => setSelectedDep(dep)} style={{ border:'none', background:'none', padding:0, cursor:'pointer',
+                          fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600, color:'var(--blue-france)' }}>
+                          {a.auteur.nom}
+                        </button>
+                      ) : <span style={{ fontWeight:600, color:'var(--text-secondary)' }}>{a.auteur.nom}</span>
+                    )}
+                    {a.auteur && a.auteur.groupe && <span style={{ color:'var(--text-tertiary)' }}>({a.auteur.groupe})</span>}
+                    {a.dossier_id && state.dossiers[a.dossier_id] && (
+                      <>
+                        <span style={{ color:'var(--text-tertiary)' }}>·</span>
+                        <button onClick={() => setDossierId(a.dossier_id)} style={{ border:'none', background:'none', padding:0, cursor:'pointer',
+                          fontFamily:'var(--font-sans)', fontSize:12, color:'var(--text-secondary)', textDecoration:'underline', textDecorationColor:'var(--border)' }}>
+                          {state.dossiers[a.dossier_id].length > 70 ? state.dossiers[a.dossier_id].slice(0, 69) + '…' : state.dossiers[a.dossier_id]}
+                        </button>
+                      </>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+            {filtered.length > limit && (
+              <button onClick={() => setLimit(l => l + 120)}
+                style={{ display:'block', width:'100%', padding:'12px', border:'none', borderTop:'1px solid var(--border-subtle)',
+                  background:'var(--gray-50)', cursor:'pointer', fontFamily:'var(--font-sans)', fontSize:12.5, fontWeight:600, color:'var(--blue-france)' }}>
+                Afficher plus ({filtered.length - limit} restants)
+              </button>
+            )}
+          </div>
+        </>
+      )}
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Assemblée nationale · open data Amendements · actualisation GitHub Actions"
           date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
       </div>
     </div>

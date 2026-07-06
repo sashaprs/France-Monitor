@@ -1665,6 +1665,7 @@ function AuthScreen({ go, initialMode = 'signin' }) {
    ============================================================ */
 const DASH_MODULES = [
   { id:'veille',        label:'Veille médiatique',    icon:'radar'       },
+  { id:'legislatif',    label:'Dossiers législatifs', icon:'scroll-text' },
   { id:'dette',         label:'Dette publique',       icon:'landmark'    },
   { id:'inflation',     label:'Inflation',            icon:'trending-up' },
   { id:'carburant',     label:'Carburant',            icon:'fuel'        },
@@ -1672,6 +1673,8 @@ const DASH_MODULES = [
   { id:'assemblee',     label:'Assemblée nationale',  icon:'landmark'    },
   { id:'senat',         label:'Sénat',                icon:'building'    },
   { id:'deputes',       label:'Députés',              icon:'users-round' },
+  { id:'ciblage',       label:'Ciblage',              icon:'crosshair'   },
+  { id:'groupes-etudes',label:"Groupes d'études",     icon:'book-open'   },
   { id:'partis',        label:'Partis politiques',    icon:'flag'        },
   { id:'personnalites', label:'Personnalités',        icon:'user'        },
   { id:'agenda',        label:'Agenda politique',     icon:'calendar'    },
@@ -5762,6 +5765,8 @@ function DeputeView({ dep, onBack }) {
             </div>
           </div>
 
+          <DeputeGroupesEtudes depId={dep.id} />
+
           <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6, paddingLeft:4 }}>
             Source : Assemblée nationale · data.assemblee-nationale.fr · Licence Ouverte 2.0
             {fiche && fiche.updatedAt ? ' · actualisé le ' + depDateFR(fiche.updatedAt) : ''}
@@ -6471,6 +6476,840 @@ function DeputesModule() {
 
       <div style={{ marginTop:16 }}>
         <SourceTag source="Assemblée nationale · data.assemblee-nationale.fr · données officielles XVIIe législature" date={updatedAt || new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   CIBLAGE MODULE — moteur de recherche multi-critères
+   ------------------------------------------------------------
+   577 députés = petit volume : tout le filtrage se fait côté
+   client sur l'index pré-calculé public/data/ciblage/index.json
+   (chargé une fois, cache mémoire). Seul le filtre "position sur
+   un scrutin" charge à la demande un shard de positions
+   (positions/<NN>.json, NN = centaine du numéro de scrutin).
+   ============================================================ */
+
+/* ── Caches mémoire au niveau app (un seul fetch par session) ── */
+let _ciblageIndexPromise = null;
+function useCiblageIndex() {
+  const [state, setState] = React.useState({ loading: true, deputes: [], groupes: {}, updatedAt: null, error: false });
+  React.useEffect(() => {
+    const load = _ciblageIndexPromise
+      || (_ciblageIndexPromise = fetch('public/data/ciblage/index.json')
+          .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+          .catch(e => { _ciblageIndexPromise = null; throw e; }));
+    let alive = true;
+    load.then(d => { if (alive) setState({ loading: false, deputes: d.deputes || [], groupes: d.groupes || {}, updatedAt: d.updatedAt, error: false }); })
+        .catch(() => { if (alive) setState({ loading: false, deputes: [], groupes: {}, updatedAt: null, error: true }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+let _cibScrutinsPromise = null;
+function loadCibScrutins() {
+  return _cibScrutinsPromise
+    || (_cibScrutinsPromise = fetch('public/data/ciblage/scrutins-index.json')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(d => (d.scrutins || []).map(s => ({ num: s[0], date: s[1], titre: s[2], sort: s[3], pour: s[4], contre: s[5], abst: s[6] })))
+        .catch(e => { _cibScrutinsPromise = null; throw e; }));
+}
+
+const _cibPositionsCache = {};
+function loadCibPositions(num) {
+  const shard = String(Math.floor(num / 100));
+  const p = _cibPositionsCache[shard]
+    || (_cibPositionsCache[shard] = fetch('public/data/ciblage/positions/' + shard + '.json')
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .catch(e => { delete _cibPositionsCache[shard]; throw e; }));
+  return p.then(d => {
+    const raw = d[num];
+    if (!raw) return null;
+    return { p: new Set(raw.p), c: new Set(raw.c), a: new Set(raw.a), n: new Set(raw.n) };
+  });
+}
+
+/* Groupes d'études (Partie D) : filtre affiché seulement si le fichier existe. */
+let _cibGePromise = null;
+function useCibGroupesEtudes() {
+  const [groupes, setGroupes] = React.useState(null);
+  React.useEffect(() => {
+    const load = _cibGePromise
+      || (_cibGePromise = fetch('public/data/ciblage/groupes-etudes.json')
+          .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+          .catch(e => { _cibGePromise = null; throw e; }));
+    let alive = true;
+    load.then(d => { if (alive) setGroupes(d.groupes || []); }).catch(() => {});
+    return () => { alive = false; };
+  }, []);
+  return groupes;
+}
+
+function useCibDebounced(value, ms = 300) {
+  const [v, setV] = React.useState(value);
+  React.useEffect(() => { const t = setTimeout(() => setV(value), ms); return () => clearTimeout(t); }, [value, ms]);
+  return v;
+}
+
+const CIB_POS = {
+  p: { label: 'Pour',       color: 'var(--pos)',           bg: 'var(--green-50)' },
+  c: { label: 'Contre',     color: 'var(--neg)',           bg: 'var(--red-50)'   },
+  a: { label: 'Abstention', color: '#C9760D',              bg: '#FDF3E7'         },
+  x: { label: 'Absent',     color: 'var(--text-tertiary)', bg: 'var(--gray-100)' },
+};
+const CIB_SECTEURS = {
+  agriculture:      'Agriculture',
+  industrie:        'Industrie',
+  construction:     'Construction',
+  commerceServices: 'Commerce, transports, services',
+  adminSanteSocial: 'Administration, santé, social',
+};
+
+/* État par défaut des filtres. Les curseurs sont "off" à leurs bornes. */
+const CIB_F0 = {
+  g: [], com: '', ge: '', dept: '', circo: '',
+  loyMin: 0, loyMax: 100, margeMax: 50, chomMin: 0,
+  sect: '', sectMode: 'ind', sectSeuil: '',
+  scrutins: [], // [{ num, date, titre, pos: 'p'|'c'|'a'|'x' }] — 3 max
+};
+
+/* ── État des filtres ↔ URL (hash), pour des recherches partageables ── */
+function cibParseHash() {
+  const m = (window.location.hash || '').match(/^#ciblage\??(.*)$/);
+  if (!m) return null;
+  const q = new URLSearchParams(m[1]);
+  const f = { ...CIB_F0, scrutins: [] };
+  if (q.get('g')) f.g = q.get('g').split(',').filter(Boolean);
+  if (q.get('com')) f.com = q.get('com');
+  if (q.get('ge')) f.ge = q.get('ge');
+  if (q.get('dept')) f.dept = q.get('dept');
+  if (q.get('circo')) f.circo = q.get('circo');
+  const num = (k, d) => { const v = parseFloat(q.get(k)); return isNaN(v) ? d : v; };
+  f.loyMin = num('lmin', 0); f.loyMax = num('lmax', 100);
+  f.margeMax = num('marge', 50); f.chomMin = num('chom', 0);
+  if (q.get('sect')) { f.sect = q.get('sect'); f.sectMode = q.get('smode') === 'nb' ? 'nb' : 'ind'; f.sectSeuil = q.get('seuil') || ''; }
+  for (const part of (q.get('s') || '').split(',').filter(Boolean).slice(0, 3)) {
+    const [n, pos] = part.split(':');
+    if (parseInt(n, 10) && CIB_POS[pos]) f.scrutins.push({ num: parseInt(n, 10), date: null, titre: null, pos });
+  }
+  return f;
+}
+function cibWriteHash(f) {
+  const q = new URLSearchParams();
+  if (f.g.length) q.set('g', f.g.join(','));
+  if (f.com) q.set('com', f.com);
+  if (f.ge) q.set('ge', f.ge);
+  if (f.dept) q.set('dept', f.dept);
+  if (f.circo) q.set('circo', f.circo);
+  if (f.loyMin > 0) q.set('lmin', f.loyMin);
+  if (f.loyMax < 100) q.set('lmax', f.loyMax);
+  if (f.margeMax < 50) q.set('marge', f.margeMax);
+  if (f.chomMin > 0) q.set('chom', f.chomMin);
+  if (f.sect && f.sectSeuil !== '') { q.set('sect', f.sect); q.set('smode', f.sectMode); q.set('seuil', f.sectSeuil); }
+  if (f.scrutins.length) q.set('s', f.scrutins.map(s => s.num + ':' + s.pos).join(','));
+  const qs = q.toString();
+  window.history.replaceState(null, '', window.location.pathname + window.location.search + '#ciblage' + (qs ? '?' + qs : ''));
+}
+
+/* Export CSV côté client (séparateur ";" pour Excel FR, BOM UTF-8). */
+function cibExportCsv(rows, header, filename) {
+  const esc = (v) => {
+    const s = v === null || v === undefined ? '' : String(v);
+    return /[;"\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const csv = '\uFEFF' + [header, ...rows].map(r => r.map(esc).join(';')).join('\r\n');
+  triggerDownload(new Blob([csv], { type: 'text/csv;charset=utf-8' }), filename);
+}
+
+/* ── Sélecteur de scrutin (index chargé au premier clic seulement) ── */
+function CibScrutinPicker({ onSelect, onClose }) {
+  const [all, setAll] = React.useState(null);
+  const [error, setError] = React.useState(false);
+  const [query, setQuery] = React.useState('');
+  const q = useCibDebounced(query, 300);
+  React.useEffect(() => { loadCibScrutins().then(setAll).catch(() => setError(true)); }, []);
+
+  const results = React.useMemo(() => {
+    if (!all) return [];
+    const t = q.trim().toLowerCase();
+    if (!t) return all.slice(0, 15);
+    return all.filter(s => String(s.num) === t.replace(/^#/, '') || (s.titre || '').toLowerCase().includes(t)).slice(0, 30);
+  }, [all, q]);
+
+  return (
+    <div style={{ border:'1px solid var(--border-strong)', borderRadius:'var(--radius-md)', background:'var(--surface)', overflow:'hidden', boxShadow:'var(--shadow-md)' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:8, padding:'8px 10px', borderBottom:'1px solid var(--border-subtle)' }}>
+        <Icon n="search" s={13} color="var(--text-tertiary)" />
+        <input autoFocus type="text" value={query} onChange={e => setQuery(e.target.value)}
+          placeholder="Titre du scrutin, ou n° (ex. 7978)…"
+          style={{ border:'none', outline:'none', background:'transparent', fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--ink)', width:'100%' }} />
+        <button onClick={onClose} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex' }}>
+          <Icon n="x" s={13} />
+        </button>
+      </div>
+      <div style={{ maxHeight:260, overflowY:'auto' }}>
+        {error ? <div style={{ padding:14, fontSize:12, color:'var(--text-tertiary)' }}>Index des scrutins indisponible.</div>
+        : !all ? <div style={{ padding:14, fontSize:12, color:'var(--text-tertiary)' }}>Chargement de l'index des scrutins…</div>
+        : results.length === 0 ? <div style={{ padding:14, fontSize:12, color:'var(--text-tertiary)' }}>Aucun scrutin ne correspond.</div>
+        : results.map(s => (
+          <div key={s.num} onClick={() => onSelect(s)} className="cib-scr-row">
+            <div style={{ display:'flex', gap:8, alignItems:'baseline', marginBottom:2 }}>
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:10.5, fontWeight:700, color:'var(--blue-france)', flex:'none' }}>#{s.num}</span>
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:10.5, color:'var(--text-tertiary)', flex:'none' }}>{s.date}</span>
+              {s.sort && <span style={{ fontSize:10, fontWeight:600, color: String(s.sort).toLowerCase().includes('adopt') ? 'var(--pos)' : 'var(--neg)' }}>{s.sort}</span>}
+            </div>
+            <div style={{ fontSize:12, color:'var(--ink)', lineHeight:1.35 }}>{s.titre}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ── Groupes d'études ─────────────────────────────────────────── */
+const CIB_GE_FONCTIONS = { P: 'Président', CP: 'Co-président', VP: 'Vice-président', S: 'Secrétaire' };
+
+function CibGeFonctionBadge({ f }) {
+  if (!f) return null;
+  const pres = f === 'P' || f === 'CP';
+  return (
+    <span style={{ fontSize:10, fontWeight:700, borderRadius:999, padding:'2px 8px', flex:'none', whiteSpace:'nowrap',
+                   color: pres ? '#fff' : 'var(--blue-france)',
+                   background: pres ? 'var(--blue-france)' : 'var(--blue-france)14',
+                   border: pres ? 'none' : '1px solid var(--blue-france)30' }}>
+      {CIB_GE_FONCTIONS[f]}
+    </span>
+  );
+}
+
+/* Encart "Groupes d'études" de la fiche député (jointure côté client :
+   groupes-etudes.json est petit et déjà en cache après la 1re fiche). */
+function DeputeGroupesEtudes({ depId }) {
+  const geList = useCibGroupesEtudes();
+  if (!geList) return null; // fichier pas encore produit par le pipeline
+  const miens = geList
+    .map(g => { const m = g.membres.find(x => x.id === depId); return m ? { id: g.id, nom: g.nom, f: m.f } : null; })
+    .filter(Boolean)
+    .sort((a, b) => ((a.f ? 0 : 1) - (b.f ? 0 : 1)) || a.nom.localeCompare(b.nom, 'fr'));
+  if (miens.length === 0) return null;
+  return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', padding:'16px 18px' }}>
+      <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)', marginBottom:11 }}>
+        Groupes d'études ({miens.length})
+      </div>
+      <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
+        {miens.map(g => (
+          <div key={g.id} style={{ display:'flex', alignItems:'flex-start', justifyContent:'space-between', gap:8 }}>
+            <span style={{ fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.4 }}>{g.nom}</span>
+            <CibGeFonctionBadge f={g.f} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* Page "Groupes d'études" : liste avec recherche → membres → fiche député.
+   Pour un représentant d'intérêts, le président du groupe d'études de son
+   secteur est la première cible. */
+function GroupesEtudesModule() {
+  const geList = useCibGroupesEtudes();
+  const { deputes: cibDeputes, groupes: cibGroupes } = useCiblageIndex();
+  const { deputes: baseDeputes } = useANDeputes();
+  const [query, setQuery] = React.useState('');
+  const [selectedGe, setSelectedGe] = React.useState(null);
+  const [selectedDep, setSelectedDep] = React.useState(null);
+  const q = useCibDebounced(query, 300);
+
+  const cibById = React.useMemo(() => {
+    const m = {}; for (const d of cibDeputes) m[d.id] = d; return m;
+  }, [cibDeputes]);
+  const baseById = React.useMemo(() => {
+    const m = {}; for (const d of baseDeputes) m[d.id] = d; return m;
+  }, [baseDeputes]);
+
+  const filtered = React.useMemo(() => {
+    if (!geList) return [];
+    const t = q.trim().toLowerCase();
+    return t ? geList.filter(g => g.nom.toLowerCase().includes(t)) : geList;
+  }, [geList, q]);
+
+  if (selectedDep) {
+    return <DeputeView dep={selectedDep} onBack={() => setSelectedDep(null)} />;
+  }
+
+  const president = (g) => {
+    const p = g.membres.find(m => m.f === 'P' || m.f === 'CP');
+    return p ? cibById[p.id] : null;
+  };
+
+  return (
+    <div style={{ maxWidth:1480, margin:'0 auto', padding:'36px 24px 64px' }}>
+      <style>{`
+        .ge-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;cursor:pointer;transition:box-shadow 140ms,border-color 140ms}
+        .ge-card:hover{border-color:var(--border-strong);box-shadow:var(--shadow-md)}
+        .ge-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
+        .ge-membre{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--radius-md);cursor:pointer}
+        .ge-membre:hover{background:var(--surface-hover)}
+      `}</style>
+
+      <div style={{ marginBottom:24 }}>
+        <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Influence</div>
+        <h1 style={{ fontFamily:'var(--font-sans)', fontSize:34, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 6px' }}>Groupes d'études</h1>
+        <p style={{ fontFamily:'var(--font-sans)', fontSize:15, color:'var(--text-secondary)', margin:0, maxWidth:720 }}>
+          {geList ? geList.length : '…'} groupes d'études officiels de l'Assemblée nationale — organes de veille thématique où se construisent les positions sectorielles. Le bureau (président, vice-présidents) est indiqué.
+        </p>
+      </div>
+
+      {selectedGe ? (
+        (() => {
+          const g = geList.find(x => x.id === selectedGe);
+          if (!g) return null;
+          return (
+            <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+              <div style={{ padding:'16px 20px', borderBottom:'1px solid var(--border-subtle)', display:'flex', alignItems:'center', gap:14, flexWrap:'wrap' }}>
+                <button onClick={() => setSelectedGe(null)} style={{ display:'flex', alignItems:'center', gap:6, border:'1px solid var(--border)', background:'var(--surface)', borderRadius:999, padding:'6px 14px', fontSize:12.5, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+                  <Icon n="arrow-left" s={13} /> Tous les groupes
+                </button>
+                <div>
+                  <div style={{ fontSize:17, fontWeight:800, color:'var(--ink)', fontFamily:'var(--font-sans)' }}>{g.nom}</div>
+                  <div style={{ fontSize:12, color:'var(--text-tertiary)', marginTop:2 }}>{g.membres.length} membre{g.membres.length > 1 ? 's' : ''} · {g.id}</div>
+                </div>
+              </div>
+              <div style={{ padding:'10px 8px', display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(290px,1fr))', gap:2 }}>
+                {g.membres.map(m => {
+                  const d = cibById[m.id];
+                  const base = baseById[m.id];
+                  const grp = d && cibGroupes[d.groupe];
+                  return (
+                    <div key={m.id} className="ge-membre" onClick={() => base && setSelectedDep(base)}>
+                      {base ? <DepAvatar dep={base} size={34} /> : <span style={{ width:34, height:34, borderRadius:99, background:'var(--gray-100)', flex:'none' }} />}
+                      <div style={{ minWidth:0, flex:1 }}>
+                        <div style={{ fontSize:13, fontWeight:600, color:'var(--ink)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>
+                          {d ? d.prenom + ' ' + d.nom : 'Député ' + m.id}
+                        </div>
+                        <div style={{ display:'flex', gap:5, alignItems:'center', marginTop:2 }}>
+                          {grp && <span style={{ fontSize:9.5, fontWeight:700, color:grp.couleur, background:grp.couleur + '18', borderRadius:999, padding:'1px 6px', flex:'none' }}>{d.groupe}</span>}
+                          {d && d.circo.dept && <span style={{ fontSize:10.5, color:'var(--text-tertiary)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{d.circo.dept}</span>}
+                        </div>
+                      </div>
+                      <CibGeFonctionBadge f={m.f} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()
+      ) : (
+        <>
+          <div style={{ display:'flex', alignItems:'center', gap:10, border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'9px 14px', background:'var(--surface)', marginBottom:16, maxWidth:520 }}>
+            <Icon n="search" s={14} color="var(--text-tertiary)" />
+            <input type="text" value={query} onChange={e => setQuery(e.target.value)} placeholder="Vin, cybersécurité, élevage, aéronautique…"
+              style={{ border:'none', outline:'none', background:'transparent', fontFamily:'var(--font-sans)', fontSize:14, color:'var(--ink)', width:'100%' }} />
+            {query && (
+              <button onClick={() => setQuery('')} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex' }}><Icon n="x" s={13} /></button>
+            )}
+          </div>
+          {!geList ? (
+            <div style={{ padding:'32px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des groupes d'études…</div>
+          ) : filtered.length === 0 ? (
+            <div style={{ padding:'32px', textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Aucun groupe d'études ne correspond à « {query} ».</div>
+          ) : (
+            <div className="ge-grid">
+              {filtered.map(g => {
+                const pres = president(g);
+                return (
+                  <div key={g.id} className="ge-card" onClick={() => setSelectedGe(g.id)}>
+                    <div style={{ fontSize:13.5, fontWeight:700, color:'var(--ink)', lineHeight:1.35, marginBottom:8 }}>{g.nom}</div>
+                    <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:8 }}>
+                      <span style={{ fontSize:11.5, color:'var(--text-tertiary)' }}>{g.membres.length} membre{g.membres.length > 1 ? 's' : ''}</span>
+                      {pres && (
+                        <span style={{ fontSize:11, color:'var(--text-secondary)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>
+                          <span style={{ fontWeight:700, color:'var(--blue-france)' }}>Prés.</span> {pres.prenom} {pres.nom}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </>
+      )}
+
+      <div style={{ marginTop:16 }}>
+        <SourceTag source="Assemblée nationale · export AMO « Acteurs et organes » · organes officiels (les clubs parlementaires privés ne sont pas couverts)" date={new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})} />
+      </div>
+    </div>
+  );
+}
+
+/* Libellé court d'une section du panneau de filtres. */
+function CibLabel({ children, extra }) {
+  return (
+    <div style={{ display:'flex', justifyContent:'space-between', alignItems:'baseline', margin:'0 0 7px' }}>
+      <span style={{ fontSize:10.5, fontWeight:700, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>{children}</span>
+      {extra}
+    </div>
+  );
+}
+
+function CiblageModule() {
+  const { loading, deputes, groupes, updatedAt, error } = useCiblageIndex();
+  const { deputes: baseDeputes } = useANDeputes();       // fiches "riches" pour ouvrir DeputeView
+  const geList = useCibGroupesEtudes();                  // null tant que le fichier n'existe pas
+  const [filters, setFilters] = React.useState(() => cibParseHash() || { ...CIB_F0 });
+  const [selectedDep, setSelectedDep] = React.useState(null);
+  const [scrutinPickerOpen, setScrutinPickerOpen] = React.useState(false);
+  const [geQuery, setGeQuery] = React.useState('');
+  const [posData, setPosData] = React.useState({});      // num scrutin → {p,c,a,n} (Sets)
+  const [visibleCount, setVisibleCount] = React.useState(60);
+
+  const set = (patch) => setFilters(f => ({ ...f, ...patch }));
+
+  /* Curseurs et champs texte : la valeur "vive" pilote l'UI, la valeur
+     debouncée (300 ms) pilote le filtrage et l'URL. */
+  const debounced = useCibDebounced(filters, 300);
+
+  /* URL partageable : l'état des filtres est encodé dans le hash. */
+  React.useEffect(() => { cibWriteHash(debounced); }, [debounced]);
+  React.useEffect(() => () => {
+    if ((window.location.hash || '').startsWith('#ciblage')) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  }, []);
+
+  /* Chargement des positions pour les scrutins filtrés (shards à la demande). */
+  React.useEffect(() => {
+    for (const s of filters.scrutins) {
+      if (posData[s.num] !== undefined) continue;
+      setPosData(prev => ({ ...prev, [s.num]: null })); // null = en cours
+      loadCibPositions(s.num)
+        .then(pos => setPosData(prev => ({ ...prev, [s.num]: pos })))
+        .catch(() => setPosData(prev => ({ ...prev, [s.num]: false }))); // false = échec
+    }
+  }, [filters.scrutins, posData]);
+
+  /* Titres des scrutins arrivés par URL (le hash ne stocke que num:position). */
+  React.useEffect(() => {
+    if (!filters.scrutins.some(s => !s.titre)) return;
+    loadCibScrutins().then(all => {
+      setFilters(f => ({
+        ...f,
+        scrutins: f.scrutins.map(s => {
+          if (s.titre) return s;
+          const found = all.find(x => x.num === s.num);
+          return found ? { ...s, titre: found.titre, date: found.date } : s;
+        }),
+      }));
+    }).catch(() => {});
+  }, [filters.scrutins.map(s => s.num + (s.titre ? 't' : '')).join(',')]);
+
+  const baseById = React.useMemo(() => {
+    const m = {};
+    for (const d of baseDeputes) m[d.id] = d;
+    return m;
+  }, [baseDeputes]);
+
+  /* Options des sélecteurs, dérivées de l'index. */
+  const commissionOptions = React.useMemo(
+    () => [...new Set(deputes.flatMap(d => d.commissions))].sort((a, b) => a.localeCompare(b, 'fr')),
+    [deputes]);
+  const deptOptions = React.useMemo(() => {
+    const m = {};
+    for (const d of deputes) if (d.circo.numDept) m[d.circo.numDept] = d.circo.dept;
+    return Object.entries(m).sort((a, b) => (a[1] || '').localeCompare(b[1] || '', 'fr'));
+  }, [deputes]);
+  const circoOptions = React.useMemo(() => {
+    if (!debounced.dept) return [];
+    return deputes.filter(d => d.circo.numDept === debounced.dept && d.circo.id)
+      .map(d => ({ id: d.circo.id, nom: d.circo.nom }))
+      .sort((a, b) => a.id.localeCompare(b.id));
+  }, [deputes, debounced.dept]);
+  const groupeCounts = React.useMemo(() => {
+    const m = {};
+    for (const d of deputes) m[d.groupe] = (m[d.groupe] || 0) + 1;
+    return m;
+  }, [deputes]);
+  const geMatches = React.useMemo(() => {
+    if (!geList || !geQuery.trim()) return [];
+    const q = geQuery.trim().toLowerCase();
+    return geList.filter(g => g.nom.toLowerCase().includes(q)).slice(0, 12);
+  }, [geList, geQuery]);
+  const geById = React.useMemo(() => {
+    const m = {}; for (const g of (geList || [])) m[g.id] = g; return m;
+  }, [geList]);
+
+  /* ── Filtrage : combinaison en ET de tous les critères actifs ── */
+  const f = debounced;
+  const loyOn = f.loyMin > 0 || f.loyMax < 100;
+  const margeOn = f.margeMax < 50;
+  const chomOn = f.chomMin > 0;
+  const sectOn = !!(f.sect && f.sectSeuil !== '' && !isNaN(parseFloat(f.sectSeuil)));
+  const scrutinsReady = f.scrutins.filter(s => posData[s.num]); // shard chargé
+  const scrutinsPending = f.scrutins.some(s => posData[s.num] === null || posData[s.num] === undefined);
+
+  const results = React.useMemo(() => {
+    let res = deputes;
+    if (f.g.length) { const gs = new Set(f.g); res = res.filter(d => gs.has(d.groupe)); }
+    if (f.com) res = res.filter(d => d.commissions.includes(f.com));
+    if (f.ge) res = res.filter(d => d.ge.some(x => x.id === f.ge));
+    if (f.dept) res = res.filter(d => d.circo.numDept === f.dept);
+    if (f.circo) res = res.filter(d => d.circo.id === f.circo);
+    if (loyOn) res = res.filter(d => d.stats.loyaute !== null
+      && d.stats.loyaute * 100 >= f.loyMin && d.stats.loyaute * 100 <= f.loyMax);
+    if (margeOn) res = res.filter(d => d.ci && d.ci.marge !== null && d.ci.marge <= f.margeMax);
+    if (chomOn) res = res.filter(d => d.ci && d.ci.chomage !== null && d.ci.chomage >= f.chomMin);
+    if (sectOn) {
+      const seuil = parseFloat(f.sectSeuil);
+      res = res.filter(d => {
+        const s = d.ci && d.ci.secteurs[f.sect];
+        if (!s) return false;
+        return f.sectMode === 'nb' ? s.nb >= seuil : s.ind !== null && s.ind >= seuil;
+      });
+    }
+    for (const sc of scrutinsReady) {
+      const pos = posData[sc.num];
+      const id = (d) => parseInt(d.id, 10);
+      if (sc.pos === 'x') {
+        res = res.filter(d => !pos.p.has(id(d)) && !pos.c.has(id(d)) && !pos.a.has(id(d)) && !pos.n.has(id(d))
+          && (!d.md || !sc.date || d.md <= sc.date)); // pas encore élu ≠ absent
+      } else {
+        res = res.filter(d => pos[sc.pos].has(id(d)));
+      }
+    }
+    return [...res].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  }, [deputes, f, posData]);
+
+  React.useEffect(() => { setVisibleCount(60); }, [f]);
+
+  const nbActifs = (f.g.length ? 1 : 0) + (f.com ? 1 : 0) + (f.ge ? 1 : 0) + (f.dept || f.circo ? 1 : 0)
+    + (loyOn ? 1 : 0) + (margeOn ? 1 : 0) + (chomOn ? 1 : 0) + (sectOn ? 1 : 0) + f.scrutins.length;
+
+  /* Badges affichés sur chaque carte : uniquement les critères actifs. */
+  const badges = (d) => {
+    const out = [];
+    if (loyOn && d.stats.loyaute !== null) out.push({ t: 'Loyauté ' + Math.round(d.stats.loyaute * 100) + ' %' });
+    if (margeOn && d.ci) out.push({ t: 'Marge ' + d.ci.marge.toLocaleString('fr-FR') + ' pts' });
+    if (chomOn && d.ci) out.push({ t: 'Chômage ' + d.ci.chomage.toLocaleString('fr-FR') + ' %' });
+    if (sectOn && d.ci && d.ci.secteurs[f.sect]) {
+      const s = d.ci.secteurs[f.sect];
+      out.push({ t: CIB_SECTEURS[f.sect].split(',')[0] + (f.sectMode === 'nb' ? ' ' + s.nb.toLocaleString('fr-FR') + ' empl.' : ' ×' + s.ind.toLocaleString('fr-FR')) });
+    }
+    for (const sc of scrutinsReady) out.push({ t: CIB_POS[sc.pos].label + ' #' + sc.num, color: CIB_POS[sc.pos].color, bg: CIB_POS[sc.pos].bg });
+    return out;
+  };
+
+  const exportCsv = () => {
+    const header = ['Nom', 'Prénom', 'Groupe', 'Commissions', 'Département', 'Circonscription', 'Email'];
+    if (loyOn) header.push('Loyauté (%)');
+    if (margeOn) header.push('Marge électorale 2024 (pts)');
+    if (chomOn) header.push('Taux de chômage (%)');
+    if (sectOn) header.push(CIB_SECTEURS[f.sect] + (f.sectMode === 'nb' ? ' (emplois)' : ' (indice de spécialisation)'));
+    if (f.ge && geById[f.ge]) header.push('Groupe d’études — ' + geById[f.ge].nom);
+    for (const sc of scrutinsReady) header.push('Scrutin #' + sc.num);
+    const rows = results.map(d => {
+      const row = [d.nom, d.prenom, d.groupe, d.commissions.join(' / '), d.circo.dept || '', d.circo.nom || '', d.email || ''];
+      if (loyOn) row.push(d.stats.loyaute !== null ? Math.round(d.stats.loyaute * 1000) / 10 : '');
+      if (margeOn) row.push(d.ci ? d.ci.marge : '');
+      if (chomOn) row.push(d.ci ? d.ci.chomage : '');
+      if (sectOn) row.push(d.ci && d.ci.secteurs[f.sect] ? (f.sectMode === 'nb' ? d.ci.secteurs[f.sect].nb : d.ci.secteurs[f.sect].ind) : '');
+      if (f.ge && geById[f.ge]) { const m = d.ge.find(x => x.id === f.ge); row.push(m ? m.f : ''); }
+      for (const sc of scrutinsReady) row.push(CIB_POS[sc.pos].label);
+      return row;
+    });
+    cibExportCsv(rows, header, 'ciblage-nomoslab-' + new Date().toISOString().slice(0, 10) + '.csv');
+  };
+
+  if (selectedDep) {
+    return <DeputeView dep={selectedDep} onBack={() => setSelectedDep(null)} />;
+  }
+
+  const range = (label, value, min, max, step, unit, onChange, off) => (
+    <div style={{ marginBottom:10 }}>
+      <div style={{ display:'flex', justifyContent:'space-between', fontSize:11.5, marginBottom:3 }}>
+        <span style={{ color:'var(--text-secondary)', fontWeight:500 }}>{label}</span>
+        <span style={{ fontFamily:'var(--font-mono)', fontWeight:700, color: off ? 'var(--text-tertiary)' : 'var(--blue-france)' }}>
+          {off ? '—' : value.toLocaleString('fr-FR') + unit}
+        </span>
+      </div>
+      <input type="range" min={min} max={max} step={step} value={value} onChange={e => onChange(parseFloat(e.target.value))} style={{ width:'100%', accentColor:'var(--blue-france)' }} />
+    </div>
+  );
+
+  return (
+    <div style={{ maxWidth:1480, margin:'0 auto', padding:'36px 24px 64px' }}>
+      <style>{`
+        .cib-layout{display:grid;grid-template-columns:296px 1fr;gap:18px;align-items:start}
+        @media(max-width:980px){.cib-layout{grid-template-columns:1fr}}
+        .cib-panel{border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--surface);position:sticky;top:16px;max-height:calc(100vh - 32px);overflow-y:auto}
+        @media(max-width:980px){.cib-panel{position:static;max-height:none}}
+        .cib-sec{padding:14px 16px;border-bottom:1px solid var(--border-subtle)}
+        .cib-sec:last-child{border-bottom:none}
+        .cib-gpill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);background:var(--surface);border-radius:999px;padding:4px 10px;font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:var(--text-secondary);cursor:pointer;transition:all 100ms}
+        .cib-gpill:hover{border-color:var(--border-strong);color:var(--ink)}
+        .cib-gpill.on{color:var(--white)}
+        .cib-select{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:7px 10px;font-family:var(--font-sans);font-size:12.5px;color:var(--ink);width:100%;cursor:pointer}
+        .cib-input{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:7px 10px;font-family:var(--font-sans);font-size:12.5px;color:var(--ink);width:100%;outline:none}
+        .cib-input:focus{border-color:var(--blue-france)}
+        .cib-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:14px;cursor:pointer;transition:box-shadow 140ms,border-color 140ms}
+        .cib-card:hover{border-color:var(--border-strong);box-shadow:var(--shadow-md)}
+        .cib-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+        .cib-scr-row{padding:9px 12px;border-bottom:1px solid var(--border-subtle);cursor:pointer}
+        .cib-scr-row:hover{background:var(--surface-hover)}
+        .cib-badge{font-size:10px;font-weight:700;border-radius:999px;padding:2px 7px;white-space:nowrap}
+        .cib-mode-btn{border:1px solid var(--border);background:var(--surface);border-radius:999px;padding:3px 9px;font-size:10.5px;font-weight:600;color:var(--text-secondary);cursor:pointer}
+        .cib-mode-btn.on{background:var(--ink);border-color:var(--ink);color:var(--white)}
+        .cib-more{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius-md);padding:8px 18px;font-family:var(--font-sans);font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 120ms}
+        .cib-more:hover{border-color:var(--border-strong);color:var(--ink)}
+      `}</style>
+
+      <div style={{ marginBottom:24 }}>
+        <div style={{ fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Influence</div>
+        <h1 style={{ fontFamily:'var(--font-sans)', fontSize:34, fontWeight:800, letterSpacing:'-0.025em', color:'var(--ink)', margin:'0 0 6px' }}>Ciblage</h1>
+        <p style={{ fontFamily:'var(--font-sans)', fontSize:15, color:'var(--text-secondary)', margin:0, maxWidth:720 }}>
+          Recherche multi-critères sur les 577 députés : mandats, votes, ancrage territorial. Les filtres se cumulent (ET) et la recherche est partageable par lien.
+        </p>
+      </div>
+
+      {error && (
+        <div style={{ padding:'18px', border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', color:'var(--text-secondary)', fontSize:13 }}>
+          L'index de ciblage n'est pas encore disponible (le build quotidien n'a pas produit public/data/ciblage/index.json).
+        </div>
+      )}
+
+      {!error && (
+      <div className="cib-layout">
+        {/* ══ Panneau de filtres ══ */}
+        <aside className="cib-panel">
+          <div className="cib-sec" style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+            <span style={{ fontSize:12.5, fontWeight:700, color:'var(--ink)' }}>Filtres{nbActifs ? ' (' + nbActifs + ')' : ''}</span>
+            {nbActifs > 0 && (
+              <button onClick={() => { setFilters({ ...CIB_F0 }); setGeQuery(''); }}
+                style={{ border:'none', background:'none', cursor:'pointer', fontSize:11.5, fontWeight:600, color:'var(--blue-france)', padding:0 }}>
+                Réinitialiser
+              </button>
+            )}
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel>Groupe politique</CibLabel>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:5 }}>
+              {Object.entries(groupes).map(([sigle, g]) => {
+                const on = filters.g.includes(sigle);
+                return (
+                  <button key={sigle} className={'cib-gpill' + (on ? ' on' : '')}
+                    style={on ? { background:g.couleur, borderColor:g.couleur } : {}}
+                    title={g.nom + ' — ' + (groupeCounts[sigle] || 0) + ' députés'}
+                    onClick={() => set({ g: on ? filters.g.filter(x => x !== sigle) : [...filters.g, sigle] })}>
+                    {!on && <span style={{ width:7, height:7, borderRadius:99, background:g.couleur, flex:'none' }} />}
+                    {sigle}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel>Commission permanente</CibLabel>
+            <select className="cib-select" value={filters.com} onChange={e => set({ com: e.target.value })}>
+              <option value="">Toutes</option>
+              {commissionOptions.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+
+          {geList !== null && (
+            <div className="cib-sec">
+              <CibLabel>Groupe d'études</CibLabel>
+              {filters.ge && geById[filters.ge] ? (
+                <div style={{ display:'flex', alignItems:'center', gap:6, fontSize:12, fontWeight:600, color:'var(--ink)', background:'var(--gray-100)', borderRadius:'var(--radius-md)', padding:'6px 10px' }}>
+                  <span style={{ flex:1, lineHeight:1.3 }}>{geById[filters.ge].nom}</span>
+                  <button onClick={() => { set({ ge: '' }); setGeQuery(''); }} style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex' }}><Icon n="x" s={12} /></button>
+                </div>
+              ) : (
+                <>
+                  <input className="cib-input" type="text" value={geQuery} onChange={e => setGeQuery(e.target.value)} placeholder="Vin, numérique, élevage…" />
+                  {geMatches.length > 0 && (
+                    <div style={{ marginTop:6, border:'1px solid var(--border)', borderRadius:'var(--radius-md)', overflow:'hidden' }}>
+                      {geMatches.map(g => (
+                        <div key={g.id} className="cib-scr-row" style={{ fontSize:12 }} onClick={() => set({ ge: g.id })}>
+                          {g.nom} <span style={{ color:'var(--text-tertiary)' }}>({g.membres.length})</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
+              )}
+            </div>
+          )}
+
+          <div className="cib-sec">
+            <CibLabel>Territoire</CibLabel>
+            <select className="cib-select" value={filters.dept} onChange={e => set({ dept: e.target.value, circo: '' })} style={{ marginBottom:6 }}>
+              <option value="">Tous les départements</option>
+              {deptOptions.map(([num, nom]) => <option key={num} value={num}>{nom} ({num})</option>)}
+            </select>
+            {filters.dept && (
+              <select className="cib-select" value={filters.circo} onChange={e => set({ circo: e.target.value })}>
+                <option value="">Toutes les circonscriptions</option>
+                {circoOptions.map(c => <option key={c.id} value={c.id}>{c.nom}</option>)}
+              </select>
+            )}
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel>Profil de vote</CibLabel>
+            {range('Loyauté au groupe ≥', filters.loyMin, 0, 100, 1, ' %', v => set({ loyMin: Math.min(v, filters.loyMax) }), filters.loyMin === 0)}
+            {range('Loyauté au groupe ≤', filters.loyMax, 0, 100, 1, ' %', v => set({ loyMax: Math.max(v, filters.loyMin) }), filters.loyMax === 100)}
+            <div style={{ fontSize:10.5, color:'var(--text-tertiary)', lineHeight:1.45 }}>
+              Une loyauté basse signale un profil « persuadable », moins aligné sur la consigne de son groupe.
+            </div>
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel>Circonscription</CibLabel>
+            {range('Marge électorale 2024 ≤', filters.margeMax, 0, 50, 0.5, ' pts', v => set({ margeMax: v }), filters.margeMax === 50)}
+            {range('Taux de chômage ≥', filters.chomMin, 0, 25, 0.5, ' %', v => set({ chomMin: v }), filters.chomMin === 0)}
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel>Secteur économique</CibLabel>
+            <select className="cib-select" value={filters.sect} onChange={e => set({ sect: e.target.value })} style={{ marginBottom:6 }}>
+              <option value="">Aucun filtre sectoriel</option>
+              {Object.entries(CIB_SECTEURS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+            </select>
+            {filters.sect && (
+              <div style={{ display:'flex', alignItems:'center', gap:6, flexWrap:'wrap' }}>
+                <button className={'cib-mode-btn' + (filters.sectMode === 'ind' ? ' on' : '')} onClick={() => set({ sectMode: 'ind' })} title="Indice de spécialisation : part locale du secteur rapportée à la part nationale">Indice ≥</button>
+                <button className={'cib-mode-btn' + (filters.sectMode === 'nb' ? ' on' : '')} onClick={() => set({ sectMode: 'nb' })}>Emplois ≥</button>
+                <input className="cib-input" type="number" style={{ width:86, flex:'none' }} step={filters.sectMode === 'ind' ? 0.1 : 500} min={0}
+                  placeholder={filters.sectMode === 'ind' ? '1,2' : '5000'}
+                  value={filters.sectSeuil} onChange={e => set({ sectSeuil: e.target.value })} />
+              </div>
+            )}
+            {filters.sect && <div style={{ fontSize:10.5, color:'var(--text-tertiary)', marginTop:6, lineHeight:1.45 }}>Indice &gt; 1 = secteur surreprésenté par rapport à la moyenne nationale.</div>}
+          </div>
+
+          <div className="cib-sec">
+            <CibLabel extra={<span style={{ fontSize:10.5, color:'var(--text-tertiary)' }}>{filters.scrutins.length}/3</span>}>Position sur un scrutin</CibLabel>
+            {filters.scrutins.map(sc => (
+              <div key={sc.num} style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-md)', padding:'8px 10px', marginBottom:6, background:'var(--surface-sunken, var(--gray-50))' }}>
+                <div style={{ display:'flex', gap:6, alignItems:'flex-start' }}>
+                  <div style={{ flex:1, minWidth:0 }}>
+                    <div style={{ fontFamily:'var(--font-mono)', fontSize:10.5, fontWeight:700, color:'var(--blue-france)' }}>#{sc.num}{sc.date ? ' · ' + sc.date : ''}</div>
+                    <div style={{ fontSize:11.5, color:'var(--ink)', lineHeight:1.35, marginTop:2, display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{sc.titre || 'Scrutin n° ' + sc.num}</div>
+                  </div>
+                  <button onClick={() => set({ scrutins: filters.scrutins.filter(x => x.num !== sc.num) })}
+                    style={{ border:'none', background:'none', cursor:'pointer', color:'var(--text-tertiary)', padding:0, display:'flex', flex:'none' }}><Icon n="x" s={13} /></button>
+                </div>
+                <div style={{ display:'flex', gap:4, marginTop:7 }}>
+                  {Object.entries(CIB_POS).map(([k, p]) => (
+                    <button key={k} onClick={() => set({ scrutins: filters.scrutins.map(x => x.num === sc.num ? { ...x, pos: k } : x) })}
+                      style={{ border:'1px solid ' + (sc.pos === k ? p.color : 'var(--border)'), background: sc.pos === k ? p.bg : 'var(--surface)',
+                               color: sc.pos === k ? p.color : 'var(--text-secondary)', borderRadius:999, padding:'2px 8px', fontSize:10.5, fontWeight:700, cursor:'pointer' }}>
+                      {p.label}
+                    </button>
+                  ))}
+                </div>
+                {posData[sc.num] === false && <div style={{ fontSize:10.5, color:'var(--neg)', marginTop:5 }}>Positions indisponibles pour ce scrutin.</div>}
+              </div>
+            ))}
+            {scrutinPickerOpen ? (
+              <CibScrutinPicker onClose={() => setScrutinPickerOpen(false)}
+                onSelect={(s) => {
+                  setScrutinPickerOpen(false);
+                  if (filters.scrutins.some(x => x.num === s.num)) return;
+                  set({ scrutins: [...filters.scrutins, { num: s.num, date: s.date, titre: s.titre, pos: 'p' }] });
+                }} />
+            ) : filters.scrutins.length < 3 && (
+              <button onClick={() => setScrutinPickerOpen(true)}
+                style={{ width:'100%', border:'1px dashed var(--border-strong)', background:'none', borderRadius:'var(--radius-md)', padding:'8px', fontSize:12, fontWeight:600, color:'var(--text-secondary)', cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center', gap:6 }}>
+                <Icon n="plus" s={13} /> Ajouter un scrutin
+              </button>
+            )}
+          </div>
+        </aside>
+
+        {/* ══ Résultats ══ */}
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+          <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:10 }}>
+            <div style={{ fontSize:13.5, fontWeight:700, color:'var(--ink)' }}>
+              {loading ? 'Chargement de l’index…'
+                : scrutinsPending ? 'Chargement des positions de vote…'
+                : results.length + ' député' + (results.length !== 1 ? 's' : '') + ' correspond' + (results.length !== 1 ? 'ent' : '') + ' aux critères'}
+            </div>
+            <div style={{ display:'flex', alignItems:'center', gap:10 }}>
+              <button onClick={() => { navigator.clipboard && navigator.clipboard.writeText(window.location.href); }}
+                title="Copier le lien de cette recherche" style={{ display:'flex', alignItems:'center', gap:6, border:'1px solid var(--border)', background:'var(--surface)', borderRadius:999, padding:'5px 13px', fontSize:12, fontWeight:500, color:'var(--text-secondary)', cursor:'pointer', fontFamily:'var(--font-sans)' }}>
+                <Icon n="link" s={13} /> Copier le lien
+              </button>
+              <button onClick={exportCsv} disabled={loading || results.length === 0}
+                style={{ display:'flex', alignItems:'center', gap:7, border:'none', background: results.length ? 'var(--blue-france)' : 'var(--gray-100)',
+                         color: results.length ? '#fff' : 'var(--text-tertiary)', borderRadius:'var(--radius-md)', padding:'8px 15px', fontSize:12.5, fontWeight:700,
+                         cursor: results.length ? 'pointer' : 'default', fontFamily:'var(--font-sans)' }}>
+                <Icon n="download" s={14} /> Exporter la sélection (CSV)
+              </button>
+            </div>
+          </div>
+
+          <div style={{ padding:18 }}>
+            {loading ? (
+              <div style={{ textAlign:'center', color:'var(--text-tertiary)', fontSize:13, padding:'32px 0' }}>Chargement de l'index de ciblage…</div>
+            ) : results.length === 0 ? (
+              <div style={{ textAlign:'center', color:'var(--text-tertiary)', fontSize:13, padding:'32px 0' }}>
+                Aucun député ne correspond à cette combinaison de critères.<br />Élargissez un curseur ou retirez un filtre.
+              </div>
+            ) : (
+              <>
+                <div className="cib-grid">
+                  {results.slice(0, visibleCount).map(d => {
+                    const g = groupes[d.groupe] || { nom: d.groupe, couleur: '#9AA3AF' };
+                    const base = baseById[d.id];
+                    return (
+                      <div key={d.id} className="cib-card" onClick={() => base && setSelectedDep(base)}>
+                        <div style={{ display:'flex', alignItems:'center', gap:10, marginBottom:9 }}>
+                          {base ? <DepAvatar dep={base} size={40} />
+                            : <span style={{ width:40, height:40, borderRadius:99, background:'var(--gray-100)', flex:'none' }} />}
+                          <div style={{ minWidth:0 }}>
+                            <div style={{ fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:700, color:'var(--ink)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>
+                              {d.prenom} {d.nom}
+                            </div>
+                            <div style={{ display:'flex', gap:5, alignItems:'center', marginTop:3, minWidth:0 }}>
+                              <span style={{ fontSize:10, fontWeight:700, color:g.couleur, background:g.couleur + '18', border:'1px solid ' + g.couleur + '30', borderRadius:999, padding:'1px 7px', flex:'none' }}>{d.groupe}</span>
+                              <span style={{ fontSize:10.5, color:'var(--text-tertiary)', whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{d.circo.dept}{d.circo.nom ? ' · ' + d.circo.nom : ''}</span>
+                            </div>
+                          </div>
+                        </div>
+                        {badges(d).length > 0 && (
+                          <div style={{ display:'flex', flexWrap:'wrap', gap:4, paddingTop:8, borderTop:'1px solid var(--border-subtle)' }}>
+                            {badges(d).map((b, i) => (
+                              <span key={i} className="cib-badge" style={{ color: b.color || 'var(--text-secondary)', background: b.bg || 'var(--gray-100)' }}>{b.t}</span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+                {results.length > visibleCount && (
+                  <div style={{ textAlign:'center', marginTop:18 }}>
+                    <button className="cib-more" style={{ margin:'0 auto' }} onClick={() => setVisibleCount(c => c + 120)}>
+                      Afficher plus ({results.length - visibleCount} restants)
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        </div>
+      </div>
+      )}
+
+      <div style={{ marginTop:16 }}>
+        <SourceTag source="Assemblée nationale (open data) · Insee RP & Filosofi · Ministère de l'Intérieur — index de ciblage NomosLab" date={updatedAt ? new Date(updatedAt).toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}) : ''} />
       </div>
     </div>
   );
@@ -9368,7 +10207,9 @@ function VeilleModule({ user }) {
 }
 
 function Dashboard({ variant, go, user, onSignOut }) {
-  const [module, setModule] = React.useState('veille');
+  // Lien partagé "#ciblage?…" : ouvre directement le module Ciblage.
+  const [module, setModule] = React.useState(() =>
+    (window.location.hash || '').startsWith('#ciblage') ? 'ciblage' : 'veille');
   return (
     <div className="db-app">
       <DashSidebar active={module} onSelect={setModule} />
@@ -9378,6 +10219,8 @@ function Dashboard({ variant, go, user, onSignOut }) {
           ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>
           : module === 'veille'
             ? <div className="db-scroll"><VeilleModule user={user} /></div>
+            : module === 'legislatif'
+            ? <div className="db-scroll"><LegislatifModule /></div>
             : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
@@ -9396,7 +10239,334 @@ function Dashboard({ variant, go, user, onSignOut }) {
             ? <div className="db-scroll"><AgendaPolitiqueModule /></div>
             : module === 'deputes'
             ? <div className="db-scroll"><DeputesModule /></div>
+            : module === 'ciblage'
+            ? <div className="db-scroll"><CiblageModule /></div>
+            : module === 'groupes-etudes'
+            ? <div className="db-scroll"><GroupesEtudesModule /></div>
             : <TerminalView module={module} />}
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   SUIVI LÉGISLATIF — dossiers, timelines de procédure
+   Données : public/data/legislatif/ (build-dossiers.js, GitHub Actions)
+   ============================================================ */
+const LEGIS_STATUTS = {
+  en_commission: { label:'En commission', color:'#4B5563', bg:'#F3F4F6' },
+  en_seance:     { label:'En séance',     color:'#000091', bg:'#EEF1FF' },
+  en_navette:    { label:'En navette',    color:'#B45309', bg:'#FEF3C7' },
+  adopte:        { label:'Adopté',        color:'#047857', bg:'#D1FAE5' },
+  promulgue:     { label:'Promulgué',     color:'#065F46', bg:'#A7F3D0' },
+  rejete:        { label:'Rejeté',        color:'#B91C1C', bg:'#FEE2E2' },
+  retire:        { label:'Retiré',        color:'#6B7280', bg:'#E5E7EB' },
+};
+/* Pastilles de la frise : AN bleu France, Sénat rouge foncé, CMP violet. */
+const LEGIS_CHAMBRES = {
+  'AN':           { label:'AN',    color:'#000091' },
+  'Sénat':        { label:'Sénat', color:'#8C1D18' },
+  'CMP':          { label:'CMP',   color:'#7C3AED' },
+  'Gouvernement': { label:'Gouv.', color:'#374151' },
+  'CC':           { label:'CC',    color:'#B45309' },
+};
+const LEGIS_SORTS_AMDT = {
+  'Adopté':       '#047857',
+  'Rejeté':       '#B91C1C',
+  'En cours':     '#1D4ED8',
+  'Irrecevable':  '#B45309',
+  'Tombé':        '#6B7280',
+  'Retiré':       '#6B7280',
+  'Non soutenu':  '#9CA3AF',
+};
+
+function legisNorm(s) {
+  return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+function LegisStatutBadge({ statut, size = 12 }) {
+  const s = LEGIS_STATUTS[statut] || LEGIS_STATUTS.en_commission;
+  return (
+    <span style={{ fontFamily:'var(--font-sans)', fontSize:size, fontWeight:600, color:s.color,
+      background:s.bg, padding:'3px 10px', borderRadius:999, whiteSpace:'nowrap' }}>{s.label}</span>
+  );
+}
+
+/* Frise verticale des étapes de la procédure. L'étape courante (la dernière)
+   est mise en évidence : pastille élargie + halo. */
+function LegisTimeline({ etapes }) {
+  return (
+    <div style={{ position:'relative', paddingLeft:26 }}>
+      <div style={{ position:'absolute', left:7, top:8, bottom:8, width:2, background:'var(--border)' }} />
+      {etapes.map((e, i) => {
+        const ch = LEGIS_CHAMBRES[e.chambre] || LEGIS_CHAMBRES.Gouvernement;
+        const courante = i === etapes.length - 1;
+        return (
+          <div key={i} style={{ position:'relative', padding:'7px 0 7px 4px' }}>
+            <span style={{ position:'absolute', left:-26, top: courante ? 9 : 11,
+              width: courante ? 16 : 12, height: courante ? 16 : 12, borderRadius:999,
+              background:ch.color, border:'2px solid var(--surface)',
+              boxShadow: courante ? `0 0 0 3px ${ch.color}33` : 'none' }} />
+            <div style={{ display:'flex', alignItems:'baseline', gap:10, flexWrap:'wrap' }}>
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)', minWidth:78 }}>
+                {new Date(e.date + 'T12:00:00').toLocaleDateString('fr-FR', { day:'2-digit', month:'short', year:'numeric' })}
+              </span>
+              <span style={{ fontFamily:'var(--font-sans)', fontSize:10.5, fontWeight:700, letterSpacing:'0.06em',
+                textTransform:'uppercase', color:ch.color }}>{ch.label}</span>
+              <span style={{ fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight: courante ? 700 : 500,
+                color: courante ? 'var(--ink)' : 'var(--text-secondary)' }}>
+                {e.libelle}
+                {e.url_document && (
+                  <a href={e.url_document} target="_blank" rel="noopener" style={{ marginLeft:8, fontSize:12, color:'var(--blue-france)' }}>JO ↗</a>
+                )}
+              </span>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function LegisDossierDetail({ id, onBack }) {
+  const [fiche, setFiche] = React.useState(undefined); // undefined = chargement, null = erreur
+  React.useEffect(() => {
+    setFiche(undefined);
+    fetch(`public/data/legislatif/dossiers/${id}.json`)
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(setFiche)
+      .catch(() => setFiche(null));
+  }, [id]);
+
+  if (fiche === undefined) return <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement du dossier…</div>;
+  if (fiche === null) return (
+    <div style={{ padding:40, textAlign:'center' }}>
+      <div style={{ color:'var(--text-secondary)', fontSize:14, marginBottom:12 }}>Dossier introuvable.</div>
+      <button onClick={onBack} style={{ padding:'8px 16px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer', fontSize:13 }}>← Retour à la liste</button>
+    </div>
+  );
+
+  const sorts = fiche.amendements ? Object.entries(fiche.amendements.par_sort).sort((a, b) => b[1] - a[1]) : [];
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1200, margin:'0 auto' }}>
+      <button onClick={onBack} style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'7px 14px', marginBottom:18,
+        border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white', cursor:'pointer',
+        fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)' }}>
+        <Icon n="arrow-left" s={14} /> Dossiers législatifs
+      </button>
+
+      <div style={{ marginBottom:22 }}>
+        <div style={{ display:'flex', alignItems:'center', gap:10, flexWrap:'wrap', marginBottom:10 }}>
+          <LegisStatutBadge statut={fiche.statut} size={12.5} />
+          {fiche.procedure && <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>{fiche.procedure}</span>}
+          {fiche.procedure_acceleree && <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:600, color:'#B45309', background:'#FEF3C7', padding:'2px 9px', borderRadius:999 }}>Procédure accélérée</span>}
+        </div>
+        {/* titre_court est parfois un fragment en minuscules (« sur la justice
+            criminelle… ») : on ne s'en sert comme titre que s'il commence par
+            une majuscule, sinon le titre complet du dossier prime. */}
+        {(() => {
+          const courtOk = fiche.titre_court && /^[A-ZÀ-Ý]/.test(fiche.titre_court);
+          const h1 = courtOk ? fiche.titre_court : fiche.titre;
+          return (
+            <>
+              <h1 style={{ fontFamily:'var(--font-sans)', fontSize:24, fontWeight:800, letterSpacing:'-0.02em', color:'var(--ink)', margin:'0 0 8px', lineHeight:1.25 }}>
+                {h1}
+              </h1>
+              {courtOk && fiche.titre !== fiche.titre_court && (
+                <p style={{ fontFamily:'var(--font-sans)', fontSize:13.5, color:'var(--text-secondary)', margin:'0 0 10px', maxWidth:820 }}>{fiche.titre}</p>
+              )}
+            </>
+          );
+        })()}
+        <div style={{ display:'flex', gap:16, flexWrap:'wrap', fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)' }}>
+          {fiche.commission && <span>Commission : <strong style={{ color:'var(--ink)' }}>{fiche.commission}</strong></span>}
+          {fiche.rapporteur && <span>Rapporteur : <strong style={{ color:'var(--ink)' }}>{fiche.rapporteur}</strong></span>}
+          {fiche.loi && fiche.loi.code_loi && <span>Loi n° <strong style={{ color:'var(--ink)' }}>{fiche.loi.code_loi}</strong></span>}
+          {fiche.url && <a href={fiche.url} target="_blank" rel="noopener" style={{ color:'var(--blue-france)' }}>Dossier AN ↗</a>}
+          {fiche.url_senat && <a href={fiche.url_senat} target="_blank" rel="noopener" style={{ color:'#8C1D18' }}>Dossier Sénat ↗</a>}
+          {fiche.loi && fiche.loi.url_legifrance && <a href={fiche.loi.url_legifrance} target="_blank" rel="noopener" style={{ color:'var(--text-secondary)' }}>Légifrance ↗</a>}
+        </div>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 360px', gap:22, alignItems:'start' }}>
+        {/* Frise de la procédure */}
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'14px 20px', borderBottom:'1px solid var(--border-subtle)' }}>
+            <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>
+              Procédure · {fiche.etapes.length} étapes
+            </div>
+            <div style={{ display:'flex', gap:12 }}>
+              {['AN', 'Sénat', 'CMP'].map(c => (
+                <span key={c} style={{ display:'inline-flex', alignItems:'center', gap:5, fontFamily:'var(--font-sans)', fontSize:11, color:'var(--text-tertiary)' }}>
+                  <span style={{ width:9, height:9, borderRadius:999, background:LEGIS_CHAMBRES[c].color }} />{c}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div style={{ padding:'18px 20px' }}>
+            <LegisTimeline etapes={fiche.etapes} />
+          </div>
+        </div>
+
+        <div style={{ display:'flex', flexDirection:'column', gap:22 }}>
+          {/* Amendements par sort */}
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+            <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)', display:'flex', justifyContent:'space-between', alignItems:'baseline' }}>
+              <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>Amendements</div>
+              {fiche.amendements && <span style={{ fontFamily:'var(--font-mono)', fontSize:13, fontWeight:600, color:'var(--ink)' }}>{fiche.amendements.total}</span>}
+            </div>
+            {fiche.amendements ? (
+              <div style={{ padding:'12px 18px 16px', display:'flex', flexWrap:'wrap', gap:8 }}>
+                {sorts.map(([sort, n]) => (
+                  <span key={sort} style={{ display:'inline-flex', alignItems:'center', gap:6, fontFamily:'var(--font-sans)', fontSize:12,
+                    color:LEGIS_SORTS_AMDT[sort] || 'var(--text-secondary)', background:'var(--gray-50)', border:'1px solid var(--border-subtle)',
+                    padding:'4px 10px', borderRadius:999 }}>
+                    <strong style={{ fontFamily:'var(--font-mono)' }}>{n}</strong> {sort}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <div style={{ padding:'16px 18px', fontSize:12.5, color:'var(--text-tertiary)' }}>Aucun amendement recensé sur ce dossier.</div>
+            )}
+          </div>
+
+          {/* Scrutins liés */}
+          <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+            <div style={{ padding:'14px 18px', borderBottom:'1px solid var(--border-subtle)' }}>
+              <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>
+                Scrutins liés · {fiche.scrutins.length}
+              </div>
+            </div>
+            {fiche.scrutins.length === 0 ? (
+              <div style={{ padding:'16px 18px', fontSize:12.5, color:'var(--text-tertiary)' }}>Aucun scrutin public rattaché à ce dossier.</div>
+            ) : (
+              <div style={{ maxHeight:420, overflowY:'auto' }}>
+                {fiche.scrutins.slice().reverse().map((s, i, arr) => {
+                  const ok = (s.sort || '').includes('adopt');
+                  return (
+                    <a key={s.numero + '-' + i} href={`https://www.assemblee-nationale.fr/dyn/17/scrutins/${s.numero}`} target="_blank" rel="noopener"
+                      style={{ display:'block', padding:'11px 18px', borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none', textDecoration:'none' }}
+                      className="an-row">
+                      <div style={{ display:'flex', justifyContent:'space-between', gap:10, marginBottom:3 }}>
+                        <span style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)' }}>n° {s.numero} · {s.date}</span>
+                        {s.sort && <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:600, color: ok ? 'var(--pos)' : 'var(--neg)' }}>{s.sort}</span>}
+                      </div>
+                      <div style={{ fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.4 }}>{s.titre}</div>
+                      {(s.pour || s.contre) && (
+                        <div style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--text-tertiary)', marginTop:3 }}>
+                          {s.pour} pour · {s.contre} contre{s.abstentions ? ` · ${s.abstentions} abst.` : ''}
+                        </div>
+                      )}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function LegislatifModule() {
+  const [state, setState] = React.useState({ loading:true, dossiers:[], updatedAt:null, fenetre:null });
+  const [selectedId, setSelectedId] = React.useState(null);
+  const [search, setSearch] = React.useState('');
+  const [statut, setStatut] = React.useState('tous');
+  const [limit, setLimit] = React.useState(60);
+
+  React.useEffect(() => {
+    fetch('public/data/legislatif/dossiers-index.json')
+      .then(r => r.json())
+      .then(d => setState({ loading:false, dossiers:d.dossiers || [], updatedAt:d.updatedAt, fenetre:d.fenetre_mois }))
+      .catch(() => setState({ loading:false, dossiers:[], updatedAt:null, fenetre:null }));
+  }, []);
+
+  React.useEffect(() => { setLimit(60); }, [search, statut]);
+
+  if (selectedId) return <LegisDossierDetail id={selectedId} onBack={() => setSelectedId(null)} />;
+
+  const q = legisNorm(search.trim());
+  const filtered = state.dossiers.filter(d =>
+    (statut === 'tous' || d.statut === statut) &&
+    (!q || legisNorm(`${d.titre} ${d.titre_court || ''} ${d.commission || ''} ${d.rapporteur || ''}`).includes(q))
+  );
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1200, margin:'0 auto' }}>
+      <style>{`.legis-row:hover{background:var(--surface-hover)}`}</style>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em',
+          textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Suivi législatif</div>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Dossiers législatifs</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>
+          Timelines de la procédure parlementaire — {state.dossiers.length} dossiers actifs sur les {state.fenetre || 12} derniers mois · XVIIe législature
+        </div>
+      </div>
+
+      <div style={{ display:'flex', gap:10, marginBottom:14 }}>
+        <div style={{ position:'relative', flex:1 }}>
+          <Icon n="search" s={13} style={{ position:'absolute', left:10, top:'50%', transform:'translateY(-50%)', color:'var(--text-tertiary)' }} />
+          <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Rechercher un texte, une commission, un rapporteur…"
+            style={{ width:'100%', padding:'8px 10px 8px 30px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12, fontFamily:'var(--font-sans)', outline:'none', boxSizing:'border-box' }} />
+        </div>
+      </div>
+
+      <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:18 }}>
+        {[['tous', 'Tous'], ...Object.entries(LEGIS_STATUTS).map(([k, v]) => [k, v.label])].map(([k, label]) => (
+          <button key={k} onClick={() => setStatut(k)}
+            style={{ padding:'5px 12px', borderRadius:999, cursor:'pointer', fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600,
+              border:'1px solid ' + (statut === k ? 'var(--blue-france)' : 'var(--border)'),
+              background: statut === k ? 'var(--blue-france)' : 'white',
+              color: statut === k ? '#fff' : 'var(--text-secondary)' }}>
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {state.loading ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement des dossiers…</div>
+      ) : filtered.length === 0 ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          {state.dossiers.length === 0 ? 'Données indisponibles — le build « Suivi législatif » n\'a pas encore été exécuté.' : 'Aucun dossier ne correspond à cette recherche.'}
+        </div>
+      ) : (
+        <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+          {filtered.slice(0, limit).map((d, i, arr) => (
+            <div key={d.id} className="legis-row" onClick={() => setSelectedId(d.id)}
+              style={{ display:'grid', gridTemplateColumns:'92px 1fr 130px', gap:14, alignItems:'center', padding:'13px 18px',
+                borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none', cursor:'pointer' }}>
+              <span style={{ fontFamily:'var(--font-mono)', fontSize:11.5, color:'var(--text-tertiary)' }}>
+                {new Date(d.date + 'T12:00:00').toLocaleDateString('fr-FR', { day:'2-digit', month:'short', year:'2-digit' })}
+              </span>
+              <div>
+                <div style={{ fontFamily:'var(--font-sans)', fontSize:13.5, fontWeight:600, color:'var(--ink)', lineHeight:1.35 }}>
+                  {d.titre_court && /^[A-ZÀ-Ý]/.test(d.titre_court) ? d.titre_court : d.titre}
+                </div>
+                {(d.commission || d.rapporteur) && (
+                  <div style={{ fontFamily:'var(--font-sans)', fontSize:11.5, color:'var(--text-tertiary)', marginTop:2 }}>
+                    {[d.commission, d.rapporteur].filter(Boolean).join(' · ')}
+                  </div>
+                )}
+              </div>
+              <span style={{ justifySelf:'end' }}><LegisStatutBadge statut={d.statut} size={11.5} /></span>
+            </div>
+          ))}
+          {filtered.length > limit && (
+            <button onClick={() => setLimit(l => l + 120)}
+              style={{ display:'block', width:'100%', padding:'12px', border:'none', borderTop:'1px solid var(--border-subtle)',
+                background:'var(--gray-50)', cursor:'pointer', fontFamily:'var(--font-sans)', fontSize:12.5, fontWeight:600, color:'var(--blue-france)' }}>
+              Afficher plus ({filtered.length - limit} restants)
+            </button>
+          )}
+        </div>
+      )}
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Assemblée nationale · open data Dossiers législatifs · actualisation GitHub Actions"
+          date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
       </div>
     </div>
   );

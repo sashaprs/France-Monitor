@@ -1,0 +1,94 @@
+{
+ "genere_le": "2026-07-06T15:03:49.597Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54372",
+   "type": "nouveau_dossier",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Nouveau dossier : Projet de loi relatif à la protection des enfants",
+   "detail": "Projet de loi ordinaire · commission : CS Protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/projet_de_loi_relatif_a_la_protection_des_enfants",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Projet de loi relatif à la protection des enfants Protection des enfants Projet de loi ordinaire CS Protection des enfants Nathalie Colin-Oesterlé",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53940:en_seance",
+   "type": "changement_etape",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Projet de loi sur la justice criminelle et le respect des victimes — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Projet de loi sur la justice criminelle et le respect des victimes sur la justice criminelle et le respect des victimes Lois Laure Miller",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B2681P0D1N000411",
+   "type": "nouvel_amendement",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Amendement n° 411 du Gouvernement — ART. 12",
+   "detail": "Amendement de coordination.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2681/AN/411",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Amendement de coordination. ART. 12 Gouvernement Projet de loi sur la justice criminelle et le respect des victimes",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B2681P0D1N000410",
+   "type": "nouvel_amendement",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Amendement n° 410 du Gouvernement — ART. 7",
+   "detail": "Modification de l'amendement.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2681/AN/410",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Modification de l'amendement. ART. 7 Gouvernement Projet de loi sur la justice criminelle et le respect des victimes",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901B2681P0D1N000409:En cours",
+   "type": "sort_amendement",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Amendement n° 409 de Thierry Liger (DR) : En cours",
+   "detail": "L’article 2 du projet de loi prévoit de créer un nouveau délit \"d’organisation illégale d’un rassemblement musical\". Ce dernier pourra être puni de 2 ans d’emprisonnement et 30 000 euros d’amende. Le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2681/AN/409",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "L’article 2 du projet de loi prévoit de créer un nouveau délit \"d’organisation illégale d’un rassemblement musical\". Ce dernier pourra être puni de 2 ans d’emprisonnement et 30 000 euros d’amende. Le… ART. 2 Thierry Liger DR Projet de loi sur la justice criminelle et le respect des victimes",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:c9057dce466772a2",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "À l'ordre du jour — CS Protection des enfants : Projet de loi relatif à la protection des enfants",
+   "detail": "lundi 6 juillet à 15:00 · suite de l’examen des articles du projet de loi.",
+   "url": null,
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "suite de l’examen des articles du projet de loi. CS Protection des enfants Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:7978",
+   "type": "resultat_scrutin",
+   "date": "2026-07-06T15:03:49.597Z",
+   "titre": "Scrutin n° 7978 : l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+   "detail": "62 pour · 24 contre · 0 abstentions (2026-07-02)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7978",
+   "dossier_id": null,
+   "texte_matchable": "l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+   "profils": []
+  }
+ ]
+}

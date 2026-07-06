@@ -1,0 +1,29 @@
+{
+  "_doc": {
+    "mots_cles": "matching insensible à la casse et aux accents contre le texte des événements (titres de dossiers, exposés d'amendements, objets d'ordre du jour, titres de scrutins)",
+    "dossiers_suivis": "ids de dossiers législatifs (DLR…) : tout événement rattaché à un de ces dossiers matche, indépendamment des mots-clés",
+    "alertes.types": "sous-ensemble de : nouveau_dossier, changement_etape, nouvel_amendement, sort_amendement, inscription_ordre_du_jour, resultat_scrutin",
+    "alertes.slack_webhook_url": "URL de webhook entrant fournie par le client (null = pas de Slack)"
+  },
+  "profils": [
+    {
+      "id": "test-nomoslab",
+      "nom": "Profil de test NomosLab",
+      "mots_cles": ["justice criminelle", "protection des enfants", "intelligence artificielle"],
+      "email_destinataires": ["peressasha92@gmail.com"],
+      "dossiers_suivis": ["DLR5L17N53940"],
+      "alertes": {
+        "email": true,
+        "slack_webhook_url": null,
+        "types": [
+          "nouveau_dossier",
+          "changement_etape",
+          "nouvel_amendement",
+          "sort_amendement",
+          "inscription_ordre_du_jour",
+          "resultat_scrutin"
+        ]
+      }
+    }
+  ]
+}

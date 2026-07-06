@@ -1,0 +1,95 @@
+name: Alertes Suivi Législatif
+
+# Moteur d'alertes : refresh des données AN → détection d'événements par diff
+# → matching profils → notification e-mail/Slack → commit de l'état.
+#
+# La PREMIÈRE exécution (data/alertes/state/ vide) initialise l'état de
+# référence sans rien notifier (--init implicite dans detect-events.js).
+#
+# Cadence cible : toutes les 2 h entre 6 h et 22 h, heure de Paris.
+# Les crons GitHub sont en UTC fixe alors que Paris alterne UTC+2 (été) /
+# UTC+1 (hiver) : « 0 4-20/2 » couvre 6h-22h Paris en été et 5h-21h en hiver
+# (décalage d'une heure assumé plutôt que de doubler les crons).
+#
+# ⚠ CRON DÉSACTIVÉ tant que l'e-mail de test n'a pas été validé — décommenter
+# les deux lignes ci-dessous pour l'activer.
+on:
+  # schedule:
+  #   - cron: '0 4-20/2 * * *'
+  workflow_dispatch:
+
+# Une seule exécution à la fois : l'état de référence est commité, deux runs
+# concurrents se marcheraient dessus.
+concurrency:
+  group: alertes
+  cancel-in-progress: false
+
+jobs:
+  alertes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install adm-zip
+
+      # ── Refresh des données ─────────────────────────────────────────────
+      # Chaque étape est non bloquante : une source défaillante logge et
+      # n'interrompt pas le reste. detect-events.js contient les garde-fous
+      # (données illisibles ou anormalement réduites → détection sautée pour
+      # cette source), donc jamais de notification sur données partielles.
+
+      - name: Refresh scrutins
+        run: |
+          curl -sL "https://data.assemblee-nationale.fr/static/openData/repository/17/loi/scrutins/Scrutins.json.zip" -o scrutins.zip \
+            && node scripts/process-scrutins.js || echo "::warning::refresh scrutins en échec"
+
+      - name: Refresh agenda
+        run: |
+          curl -sL "https://data.assemblee-nationale.fr/static/openData/repository/17/vp/reunions/Agenda.json.zip" -o agenda.zip \
+            && node scripts/process-agenda.js || echo "::warning::refresh agenda en échec"
+
+      - name: Build dossiers législatifs
+        run: node --max-old-space-size=6144 scripts/legislatif/build-dossiers.js || echo "::warning::build-dossiers en échec"
+
+      - name: Build amendements récents
+        run: node --max-old-space-size=6144 scripts/legislatif/build-amendements-recents.js || echo "::warning::build-amendements-recents en échec"
+
+      - name: Build calendrier
+        run: node scripts/legislatif/build-calendrier.js || echo "::warning::build-calendrier en échec"
+
+      # ── Moteur d'alertes ────────────────────────────────────────────────
+
+      - name: Détection des événements
+        run: node scripts/legislatif/detect-events.js
+
+      - name: Matching profils
+        run: node scripts/legislatif/match-alerts.js
+
+      - name: Notification
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          # RESEND_FROM: "NomosLab <alertes@votre-domaine.fr>"  # après vérification du domaine chez Resend
+        run: node scripts/legislatif/notify.js
+
+      # ── Commit de l'état ────────────────────────────────────────────────
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/ data/alertes/
+          if git diff --staged --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "data: alertes $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase origin main
+            git push
+          fi

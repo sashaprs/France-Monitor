@@ -2,8 +2,10 @@
    notify.js — Envoi des alertes e-mail / Slack (moteur d'alertes, étape 3/3).
 
    Pour chaque profil de config/veille-profils.json :
-   - récupère les événements du dernier lot qui le matchent (champ `profils`
-     posé par match-alerts.js), moins ceux déjà notifiés (data/alertes/sent.json) ;
+   - récupère les événements des lots des 48 dernières heures qui le matchent
+     (champ `profils` posé par match-alerts.js), moins ceux déjà notifiés
+     (data/alertes/sent.json) — fenêtre glissante et non « dernier lot
+     uniquement », pour qu'un envoi raté ou sauté soit retenté au run suivant ;
    - envoie AU PLUS UN e-mail par exécution regroupant tous les événements
      (jamais un e-mail par événement), objet « ⚡ NomosLab — N nouveaux
      événements sur vos sujets », via l'API Resend (clé dans l'env
@@ -13,7 +15,12 @@
    - journalise les ids notifiés dans sent.json (jamais deux fois le même
      événement au même profil), purgé au-delà de 45 jours.
 
+   Le résultat de chaque exécution (envois, échecs et leurs messages) est
+   journalisé dans data/alertes/notify-log.json, commité par le workflow :
+   diagnostiquable à distance sans accès aux logs GitHub Actions.
+
    Usage : node scripts/legislatif/notify.js [--events <chemin>] [--dry-run]
+           --events  : limite au fichier de lot indiqué (défaut : lots < 48 h)
            --dry-run : écrit le HTML des e-mails dans tmp/ sans rien envoyer
                        ni toucher sent.json (prévisualisation).
    ============================================================================ */
@@ -37,10 +44,14 @@ const TYPE_LIBELLES = {
   resultat_scrutin: 'Résultats de scrutins',
 };
 
-function dernierFichierEvents() {
-  if (!fs.existsSync(EVENTS_DIR)) return null;
-  const fichiers = fs.readdirSync(EVENTS_DIR).filter(f => /^\d{4}-\d{2}-\d{2}-\d{4}\.json$/.test(f)).sort();
-  return fichiers.length ? path.join(EVENTS_DIR, fichiers[fichiers.length - 1]) : null;
+/* Lots de moins de 48 h (le nom des fichiers est l'horodatage UTC). */
+function fichiersEventsRecents() {
+  if (!fs.existsSync(EVENTS_DIR)) return [];
+  const limite = new Date(Date.now() - 48 * 3600e3).toISOString().slice(0, 16).replace('T', '-').replace(':', '');
+  return fs.readdirSync(EVENTS_DIR)
+    .filter(f => /^\d{4}-\d{2}-\d{2}-\d{4}\.json$/.test(f) && f.slice(0, 15) >= limite)
+    .sort()
+    .map(f => path.join(EVENTS_DIR, f));
 }
 
 function echapperHtml(s) {
@@ -147,26 +158,48 @@ async function main() {
   console.log(`▶ notify${DRY_RUN ? ' (dry-run)' : ''}`);
 
   const argIdx = process.argv.indexOf('--events');
-  const fichier = argIdx > -1 ? path.resolve(process.argv[argIdx + 1]) : dernierFichierEvents();
-  if (!fichier || !fs.existsSync(fichier)) { console.log('   aucun fichier d\'événements — rien à notifier'); return; }
+  const fichiers = argIdx > -1 ? [path.resolve(process.argv[argIdx + 1])] : fichiersEventsRecents();
+  if (!fichiers.length || !fichiers.every(f => fs.existsSync(f))) { console.log('   aucun fichier d\'événements — rien à notifier'); return; }
 
-  const lot = JSON.parse(fs.readFileSync(fichier, 'utf8'));
+  /* Fusion des lots récents, dédupliquée par id d'événement (les ids sont
+     déterministes : un même événement re-détecté ne compte qu'une fois). */
+  const evenements = [];
+  const vus = new Set();
+  for (const f of fichiers) {
+    const lot = JSON.parse(fs.readFileSync(f, 'utf8'));
+    for (const e of lot.evenements) {
+      if (vus.has(e.id)) continue;
+      vus.add(e.id);
+      evenements.push(e);
+    }
+  }
+  console.log(`   ${evenements.length} événement(s) sur ${fichiers.length} lot(s) récents`);
+
   const profils = JSON.parse(fs.readFileSync(CONFIG, 'utf8')).profils || [];
   let sent = {};
   try { sent = JSON.parse(fs.readFileSync(SENT_FILE, 'utf8')); } catch { /* premier envoi */ }
 
   const maintenant = new Date().toISOString();
+  const journal = { execute_le: maintenant, dry_run: DRY_RUN, profils: {} };
   let misAJour = false;
 
   for (const profil of profils) {
     const dejaNotifies = sent[profil.id] || {};
-    const aNotifier = lot.evenements.filter(e => (e.profils || []).includes(profil.id) && !(e.id in dejaNotifies));
-    if (!aNotifier.length) { console.log(`   ${profil.id} : rien de nouveau`); continue; }
+    const aNotifier = evenements.filter(e => (e.profils || []).includes(profil.id) && !(e.id in dejaNotifies));
+    if (!aNotifier.length) {
+      console.log(`   ${profil.id} : rien de nouveau`);
+      journal.profils[profil.id] = { evenements: 0, statut: 'rien à notifier' };
+      continue;
+    }
 
     const canaux = [];
     if (profil.alertes && profil.alertes.email && (profil.email_destinataires || []).length) canaux.push('email');
     if (profil.alertes && profil.alertes.slack_webhook_url) canaux.push('slack');
-    if (!canaux.length) { console.log(`   ${profil.id} : ${aNotifier.length} événement(s) mais aucun canal configuré`); continue; }
+    if (!canaux.length) {
+      console.log(`   ${profil.id} : ${aNotifier.length} événement(s) mais aucun canal configuré`);
+      journal.profils[profil.id] = { evenements: aNotifier.length, statut: 'aucun canal configuré' };
+      continue;
+    }
 
     if (DRY_RUN) {
       const apercu = path.join(ROOT, 'tmp', `alerte-preview-${profil.id}.html`);
@@ -179,14 +212,17 @@ async function main() {
     /* Un échec de canal n'empêche pas l'autre ; l'anti-spam n'est mis à jour
        que si au moins un canal a réellement abouti. */
     let succes = false;
+    journal.profils[profil.id] = { evenements: aNotifier.length, canaux: {} };
     for (const canal of canaux) {
       try {
         if (canal === 'email') await envoyerEmail(profil, aNotifier);
         else await envoyerSlack(profil, aNotifier);
         console.log(`   ${profil.id} : ${canal} envoyé (${aNotifier.length} événement(s))`);
+        journal.profils[profil.id].canaux[canal] = 'envoyé';
         succes = true;
       } catch (e) {
         console.error(`   ⚠ ${profil.id} : échec ${canal} — ${e.message}`);
+        journal.profils[profil.id].canaux[canal] = `échec : ${e.message}`;
       }
     }
     if (succes) {
@@ -204,6 +240,10 @@ async function main() {
     }
     fs.writeFileSync(SENT_FILE, JSON.stringify(sent, null, 1));
     console.log('   ↳ sent.json mis à jour');
+  }
+
+  if (!DRY_RUN) {
+    fs.writeFileSync(path.join(ROOT, 'data', 'alertes', 'notify-log.json'), JSON.stringify(journal, null, 1));
   }
 }
 

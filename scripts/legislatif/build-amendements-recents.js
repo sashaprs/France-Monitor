@@ -7,9 +7,11 @@
    récents, tous auteurs confondus, avec exposé sommaire pour la recherche
    plein texte côté client).
 
-   Fenêtre glissante : 60 jours par défaut ; si le JSON dépasse 800 Ko, on
+   Fenêtre glissante : 60 jours par défaut ; si le JSON dépasse le budget, on
    resserre (30, puis 14, puis 7 jours). La fenêtre retenue est publiée dans
-   le champ `fenetre_jours`.
+   le champ `fenetre_jours`. Budget : 3,5 Mo bruts — GitHub Pages sert le
+   fichier gzippé (~700 Ko transférés), arbitrage validé pour retrouver une
+   fenêtre de 30 jours (60 j = 6 Mo dépasse encore).
 
    URL publique d'un amendement (vérifiée séance et commission) :
      https://www.assemblee-nationale.fr/dyn/<leg>/amendements/
@@ -26,7 +28,7 @@ const { ROOT, LEGISLATURE, download, zipEntries, val, stripPA, decodeEntities, t
 const OUT_DIR = path.join(ROOT, 'public', 'data', 'legislatif');
 const OUT_FILE = path.join(OUT_DIR, 'amendements-recents.json');
 const FENETRES_JOURS = [60, 30, 14, 7];
-const POIDS_MAX = 800 * 1024;
+const POIDS_MAX = 3.5 * 1024 * 1024;
 
 /* Exposé sommaire : HTML → texte brut compact. */
 function htmlToText(html) {

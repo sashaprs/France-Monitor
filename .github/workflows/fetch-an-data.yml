@@ -31,6 +31,11 @@ jobs:
           curl -sL "https://data.assemblee-nationale.fr/static/openData/repository/17/vp/reunions/Agenda.json.zip" -o agenda.zip
           node scripts/process-agenda.js
 
+      - name: Build calendrier parlementaire
+        # Réutilise agenda.zip téléchargé ci-dessus ; télécharge AMO10 (~5 Mo)
+        # pour les libellés d'organes. Non bloquant.
+        run: node scripts/legislatif/build-calendrier.js || echo "::warning::build-calendrier en échec"
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"

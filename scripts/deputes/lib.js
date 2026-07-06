@@ -33,6 +33,7 @@ const SOURCES = {
   qe: `${AN_BASE}/questions/questions_ecrites/Questions_ecrites.json.zip`,
   qosd: `${AN_BASE}/questions/questions_orales_sans_debat/Questions_orales_sans_debat.json.zip`,
   qg: `${AN_BASE}/questions/questions_gouvernement/Questions_gouvernement.json.zip`,
+  agenda: `${AN_BASE}/vp/reunions/Agenda.json.zip`,
 };
 
 function ensureDirs() {

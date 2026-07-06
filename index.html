@@ -1667,6 +1667,7 @@ const DASH_MODULES = [
   { id:'veille',        label:'Veille médiatique',    icon:'radar'       },
   { id:'legislatif',    label:'Dossiers législatifs', icon:'scroll-text' },
   { id:'amendements',   label:'Amendements',          icon:'file-diff'   },
+  { id:'calendrier',    label:'Calendrier',           icon:'calendar-days' },
   { id:'dette',         label:'Dette publique',       icon:'landmark'    },
   { id:'inflation',     label:'Inflation',            icon:'trending-up' },
   { id:'carburant',     label:'Carburant',            icon:'fuel'        },
@@ -10224,6 +10225,8 @@ function Dashboard({ variant, go, user, onSignOut }) {
             ? <div className="db-scroll"><LegislatifModule /></div>
             : module === 'amendements'
             ? <div className="db-scroll"><AmendementsModule /></div>
+            : module === 'calendrier'
+            ? <div className="db-scroll"><CalendrierModule /></div>
             : module === 'inflation'
             ? <div className="db-scroll"><InflationModule /></div>
             : module === 'carburant'
@@ -10716,6 +10719,132 @@ function AmendementsModule() {
 
       <div style={{ marginTop:20 }}>
         <SourceTag source="Assemblée nationale · open data Amendements · actualisation GitHub Actions"
+          date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   CALENDRIER PARLEMENTAIRE — vue liste groupée par jour
+   Données : public/data/legislatif/calendrier.json
+   (build-calendrier.js — AN uniquement, voir encadré Sénat)
+   ============================================================ */
+function CalendrierModule() {
+  const [state, setState] = React.useState({ loading:true, evenements:[], jours:21, senat:null, updatedAt:null });
+  const [fType, setFType] = React.useState('tous');
+  const [fOrgane, setFOrgane] = React.useState('tous');
+  const [dossierId, setDossierId] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch('public/data/legislatif/calendrier.json')
+      .then(r => r.json())
+      .then(d => setState({ loading:false, evenements:d.evenements || [], jours:d.jours, senat:d.senat, updatedAt:d.updatedAt }))
+      .catch(() => setState({ loading:false, evenements:[], jours:21, senat:null, updatedAt:null }));
+  }, []);
+
+  if (dossierId) return <LegisDossierDetail id={dossierId} onBack={() => setDossierId(null)} />;
+
+  const organes = [...new Set(state.evenements.filter(e => e.type === 'commission').map(e => e.organe).filter(Boolean))].sort();
+  const filtered = state.evenements.filter(e =>
+    (fType === 'tous' || e.type === fType) &&
+    (fOrgane === 'tous' || e.organe === fOrgane)
+  );
+
+  /* Regroupement par jour (les événements sont déjà triés). */
+  const parJour = [];
+  for (const e of filtered) {
+    const dernier = parJour[parJour.length - 1];
+    if (dernier && dernier.date === e.date) dernier.evenements.push(e);
+    else parJour.push({ date: e.date, evenements: [e] });
+  }
+
+  return (
+    <div style={{ padding:'24px 28px', maxWidth:1000, margin:'0 auto' }}>
+      <div style={{ marginBottom:20 }}>
+        <div style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em',
+          textTransform:'uppercase', color:'var(--blue-france)', marginBottom:6 }}>Module · Suivi législatif</div>
+        <div style={{ fontSize:20, fontWeight:700, color:'var(--text-primary)' }}>Calendrier parlementaire</div>
+        <div style={{ fontSize:13, color:'var(--text-secondary)', marginTop:2 }}>
+          Séances publiques et réunions de commission des {state.jours} prochains jours · XVIIe législature
+        </div>
+      </div>
+
+      {/* Sénat : aucune source open data / RSS / ICS exploitable (vérifié juillet 2026). */}
+      <div style={{ display:'flex', alignItems:'center', gap:10, padding:'10px 14px', marginBottom:18,
+        border:'1px solid #F3D9A4', background:'#FDF6E3', borderRadius:'var(--radius-md)' }}>
+        <Icon n="info" s={15} color="#8C6D1F" />
+        <span style={{ fontFamily:'var(--font-sans)', fontSize:12.5, color:'#6B5416' }}>
+          <strong>Sénat : bientôt disponible.</strong> Le Sénat ne publie pas encore son agenda en open data ; ce calendrier couvre l'Assemblée nationale.
+        </span>
+      </div>
+
+      <div style={{ display:'flex', gap:10, marginBottom:18, flexWrap:'wrap', alignItems:'center' }}>
+        {[['tous', 'Tous'], ['seance', 'Séance publique'], ['commission', 'Commissions']].map(([k, label]) => (
+          <button key={k} onClick={() => setFType(k)}
+            style={{ padding:'5px 12px', borderRadius:999, cursor:'pointer', fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600,
+              border:'1px solid ' + (fType === k ? 'var(--blue-france)' : 'var(--border)'),
+              background: fType === k ? 'var(--blue-france)' : 'white',
+              color: fType === k ? '#fff' : 'var(--text-secondary)' }}>
+            {label}
+          </button>
+        ))}
+        <select value={fOrgane} onChange={e => setFOrgane(e.target.value)}
+          style={{ padding:'6px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', fontSize:12,
+            fontFamily:'var(--font-sans)', background:'white', cursor:'pointer', outline:'none', maxWidth:320 }}>
+          <option value="tous">Toutes les commissions</option>
+          {organes.map(o => <option key={o} value={o}>{o}</option>)}
+        </select>
+      </div>
+
+      {state.loading ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>Chargement du calendrier…</div>
+      ) : parJour.length === 0 ? (
+        <div style={{ padding:40, textAlign:'center', color:'var(--text-tertiary)', fontSize:13 }}>
+          {state.evenements.length === 0 ? 'Données indisponibles — le build « Suivi législatif » n\'a pas encore été exécuté.' : 'Aucun événement ne correspond à ces filtres.'}
+        </div>
+      ) : parJour.map(jour => (
+        <div key={jour.date} style={{ marginBottom:22 }}>
+          <div style={{ fontFamily:'var(--font-sans)', fontSize:13, fontWeight:700, color:'var(--ink)',
+            textTransform:'capitalize', padding:'0 2px 8px', borderBottom:'2px solid var(--blue-france)', marginBottom:0, display:'inline-block' }}>
+            {new Date(jour.date + 'T12:00:00').toLocaleDateString('fr-FR', { weekday:'long', day:'numeric', month:'long' })}
+          </div>
+          <div style={{ border:'1px solid var(--border)', borderRadius:'0 var(--radius-lg) var(--radius-lg) var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+            {jour.evenements.map((e, i, arr) => (
+              <div key={i} style={{ display:'grid', gridTemplateColumns:'56px 110px 1fr', gap:14, alignItems:'start',
+                padding:'12px 16px', borderBottom: i < arr.length - 1 ? '1px solid var(--border-subtle)' : 'none' }}>
+                <span style={{ fontFamily:'var(--font-mono)', fontSize:12.5, fontWeight:600, color:'var(--ink)' }}>{e.heure}</span>
+                <div style={{ display:'flex', flexDirection:'column', gap:4, alignItems:'flex-start' }}>
+                  <span style={{ fontFamily:'var(--font-sans)', fontSize:10.5, fontWeight:700, letterSpacing:'0.05em', textTransform:'uppercase',
+                    color: e.type === 'seance' ? '#fff' : 'var(--blue-france)',
+                    background: e.type === 'seance' ? 'var(--blue-france)' : '#EEF1FF',
+                    padding:'2px 8px', borderRadius:4 }}>
+                    {e.type === 'seance' ? 'Séance' : 'Commission'}
+                  </span>
+                  {e.eventuel && <span style={{ fontFamily:'var(--font-sans)', fontSize:10.5, color:'#8C6D1F', background:'#FDF6E3', padding:'1px 7px', borderRadius:4 }}>sous réserve</span>}
+                </div>
+                <div>
+                  {e.organe && e.type !== 'seance' && (
+                    <div style={{ fontFamily:'var(--font-sans)', fontSize:11.5, fontWeight:700, color:'var(--text-secondary)', marginBottom:2 }}>{e.organe}</div>
+                  )}
+                  <div style={{ fontFamily:'var(--font-sans)', fontSize:13, color:'var(--ink)', lineHeight:1.4 }}>
+                    {e.objet || <span style={{ color:'var(--text-tertiary)' }}>Ordre du jour non communiqué</span>}
+                  </div>
+                  {e.dossier_id && (
+                    <button onClick={() => setDossierId(e.dossier_id)} style={{ border:'none', background:'none', padding:0, marginTop:4, cursor:'pointer',
+                      fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600, color:'var(--blue-france)' }}>
+                      Voir la timeline du dossier →
+                    </button>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      <div style={{ marginTop:20 }}>
+        <SourceTag source="Assemblée nationale · open data Agenda · actualisation GitHub Actions"
           date={state.updatedAt ? new Date(state.updatedAt).toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' }) : '—'} />
       </div>
     </div>

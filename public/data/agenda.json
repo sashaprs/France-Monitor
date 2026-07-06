@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-06T17:43:35.951Z",
+  "updatedAt": "2026-07-06T19:57:25.652Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460704",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-03T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30790",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, sur la justice criminelle et le respect des victimes",
-      "type": "seance_type",
-      "dateDebut": "2026-07-03T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460758",
       "titre": "Réception par le groupe d'amitié France - Allemagne, présidé par Mme Sabine Thillaye, d'une délégation du groupe d'amitié Allemagne - France conduite par M. Roland Theis, Président »",
@@ -27,15 +9,6 @@
       "dateFin": "2026-07-06T21:59:59.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO851673"
-    },
-    {
-      "uid": "RUSNR5L17S2026IDS30888",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-07-06T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2026IDC460696",
@@ -51,7 +24,7 @@
       "titre": "Discussion et vote sur la motion de censure déposée par Mmes Chatelain, Abomangoli et 56 députés, en application de l'article 49, alinéa 2 de la Constitution",
       "type": "seance_type",
       "dateDebut": "2026-07-06T12:00:00.000Z",
-      "dateFin": "2026-07-06T14:35:00.000Z",
+      "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -164,15 +137,6 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2026IDC460799",
-      "titre": "Compte rendu du déplacement d'une délégation du groupe d'amitié en Suisse du 18 au 20 mai 2026",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T14:30:00.000Z",
-      "dateFin": "2026-07-07T16:00:00.000Z",
-      "lieu": "Salle 4060",
-      "organisateur": "PO851492"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460681",
       "titre": "audition conjointe avec la commission des affaires économiques de M. Olivier Sichel, directeur général de la Caisse des dépôts et consignations.",
       "type": "reunionCommission_type",
@@ -216,15 +180,6 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460813",
-      "titre": "Réception du groupe d'amitié Mexique - France de la Chambre des Députés du Mexique, présidé par Mme Alma Marina Vitela Rodriguez. \rCette réception comprend notamment une visite du Palais Bourbon, un déjeuner au Petit Hôtel en présence de membres du groupe d'amitié France - Mexique (mercredi 8 juillet) et une présentation du fac-similé intégral du Codex dit Borbonicus à la Bibliothèque de l'Assemblée nationale (jeudi 9 juillet à 14h30).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T22:00:00.000Z",
-      "dateFin": "2026-07-09T21:59:59.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO851592"
     },
     {
       "uid": "RUANR5L17S2026IDC460772",
@@ -290,15 +245,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2026IDC460816",
-      "titre": "table ronde :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879195"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460719",
       "titre": "- examen, selon la procédure de législation en commission, de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale (n° 2990) (M. Pierre Cazeneuve, rapporteur) ;\r -nomination d’un rapporteur sur le projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n° 2024/1347, 2024/1348, 2024/1349, 2024/1350, 2024/1351, 2024/1352, 2024/1356, 2024/1358, 2024/1359 du Parlement européen et du Conseil du 14 mai 2024, et les dispositions nécessaires à la transposition de la directive (UE) 2024/1346 du Parlement européen et du Conseil du 14 mai 2024 (n° 2820).",
       "type": "reunionCommission_type",
@@ -344,15 +290,6 @@
       "organisateur": "PO878513"
     },
     {
-      "uid": "RUANR5L17S2026IDC460817",
-      "titre": "fédération française des spiritueux – M. Géraud de la Noue, vice-président et, M. Thomas Gauthier, directeur général",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879195"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460763",
       "titre": "audition en visioconférence",
       "type": "reunionCommission_type",
@@ -372,7 +309,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460810",
-      "titre": "table ronde « Entreprises de gestion des déchets », avec la participation de :\r\r- Take a waste\rM. Alexis Lemeillet, co-fondateur [en visioconférence]\r\r- Derichebourg environnement\rMme Tess Pozzi, responsable Affaires publiques & Relations institutionnelles \r\r- Veolia\rM. Ghislain Eschasseriaux, responsable « affaires publiques France »\rMme Françoise Weber, directrice des relations institutionnelles filières REP\r\r- Suez\rM. Hervé Sirena, directeur de la branche « responsabilité élargie du producteur » \rMme Emma de Pierrepont, responsable des affaires publiques",
+      "titre": "table ronde « Entreprises de gestion des déchets », avec la participation de :\r\r- Take a waste\rM. Alexis Lemeillet, co-fondateur [en visioconférence]\r\r- Derichebourg environnement\rMme Tess Pozzi, responsable Affaires publiques & Relations institutionnelles \r\r- Veolia\rM. Ghislain Eschasseriaux, responsable « affaires publiques France »\rMme Françoise Weber, directrice des relations institutionnelles \r[à confirmer]\r\r- Suez\r[à confirmer]",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T12:15:00.000Z",
       "dateFin": "2026-07-08T13:15:00.000Z",
@@ -452,15 +389,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460818",
-      "titre": "table ronde :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879195"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460645",
       "titre": "examen de la proposition de résolution européenne de M. Vincent Ledoux visant à lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738).",
       "type": "reunionCommission_type",
@@ -477,15 +405,6 @@
       "dateFin": "2026-07-08T14:30:00.000Z",
       "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO878513"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460815",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884178"
     },
     {
       "uid": "RUANR5L17S2026IDC460683",
@@ -605,24 +524,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460819",
-      "titre": "table ronde :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-10T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460820",
-      "titre": "table ronde :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-10T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30834",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
@@ -636,33 +537,6 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
       "dateDebut": "2026-07-10T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30885",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-11T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30886",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-11T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30887",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-11T19:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"

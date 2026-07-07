@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-07-07T18:03:35.002Z",
+  "updatedAt": "2026-07-07T19:02:32.986Z",
   "scrutins": [
+    {
+      "numero": "7980",
+      "titre": "l'ensemble du projet de loi sur la justice criminelle et le respect des victimes (texte de la commission mixte paritaire).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "535",
+      "pour": "357",
+      "contre": "177",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7981",
+      "titre": "l'ensemble du projet de loi organique relatif au renforcement des juridictions criminelles (texte de la commission mixte paritaire).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "542",
+      "pour": "363",
+      "contre": "177",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
     {
       "numero": "7979",
       "titre": "la motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mmes Cyrielle Chatelain, Nadège Abomangoli et 56 députés.",
@@ -14,7 +36,7 @@
     },
     {
       "numero": "7978",
-      "titre": "l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "titre": "l'article 2 du projet de loi organique relatif au renforcement des juridictions criminelles (première lecture).",
       "date": "2026-07-02",
       "sort": null,
       "nombreVotants": "86",
@@ -190,7 +212,7 @@
     },
     {
       "numero": "7975",
-      "titre": "l'article premier du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "titre": "l'article premier du projet de loi organique relatif au renforcement des juridictions criminelles (première lecture).",
       "date": "2026-07-02",
       "sort": null,
       "nombreVotants": "82",
@@ -245,7 +267,7 @@
     },
     {
       "numero": "7977",
-      "titre": "l'amendement n° 22 de M. Coulomme de suppression de l'article 2 du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "titre": "l'amendement n° 22 de M. Coulomme de suppression de l'article 2 du projet de loi organique relatif au renforcement des juridictions criminelles (première lecture).",
       "date": "2026-07-02",
       "sort": null,
       "nombreVotants": "83",
@@ -355,7 +377,7 @@
     },
     {
       "numero": "7976",
-      "titre": "l'amendement n° 8 de Mme Thiébault-Martinez à l'article 1er bis du projet de loi organique relatif au renforcement des juridctions criminelles (première lecture).",
+      "titre": "l'amendement n° 8 de Mme Thiébault-Martinez à l'article 1er bis du projet de loi organique relatif au renforcement des juridictions criminelles (première lecture).",
       "date": "2026-07-02",
       "sort": null,
       "nombreVotants": "81",
@@ -527,28 +549,6 @@
       "pour": "43",
       "contre": "73",
       "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7925",
-      "titre": "l'amendement n° 71 de Mme Capdevielle et l'amendement identique suivant à l'article 3 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "75",
-      "pour": "34",
-      "contre": "40",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7930",
-      "titre": "l'amendement n° 181 de M. Coulomme à l'article 3 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "90",
-      "pour": "35",
-      "contre": "52",
-      "abstentions": "3",
       "nonVotants": "1"
     }
   ]

@@ -1680,6 +1680,11 @@ const INVITE_TOKEN_URL = (() => {
 })();
 const ORG_COURANTE_KEY = 'fm_org_courante_v1';
 
+/* Contexte auth + organisation courante, fourni par le Dashboard et consommé
+   par les composants profonds (fiche député) sans threading manuel de props
+   à travers chaque module. Vaut { user:null, orgState:null } hors connexion. */
+const AuthOrgContext = React.createContext({ user: null, orgState: null });
+
 function useOrganisations(session) {
   const userId = session && session.user ? session.user.id : null;
   const [orgs, setOrgs] = React.useState(null);      // null = chargement en cours, [] = aucune
@@ -6439,6 +6444,228 @@ function buildDeputeClipboard(dep, fiche) {
   return L.join('\n');
 }
 
+/* ============================================================
+   CRM LÉGER SUR UNE FICHE DÉPUTÉ (partie D)
+   Visible uniquement si l'utilisateur est connecté ET que ce
+   député est suivi dans au moins un dossier de son organisation.
+   Notes datées + tags colorés, filtrés par RLS côté Supabase :
+   aucune logique d'étanchéité inter-organisations côté frontend.
+   Le texte libre est rendu comme texte (jamais dangerouslySetInnerHTML).
+   ============================================================ */
+const CRM_TAG_COULEURS = ['#2563EB', '#0E8A52', '#C9760D', '#7C5CFC', '#E1000F', '#0E9BA8', '#B45309', '#565D67'];
+
+function DeputeCRM({ dep }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const { user, orgState } = React.useContext(AuthOrgContext);
+  const org = orgState && orgState.org;
+  const actif = !!(user && org && isSupabaseConfigured() && dep && dep.id);
+
+  const [suivis, setSuivis] = React.useState(null);    // dossiers de l'org suivant ce député
+  const [dossierId, setDossierId] = React.useState(null);
+  const [notes, setNotes] = React.useState(null);
+  const [tagsOrg, setTagsOrg] = React.useState([]);    // référentiel de tags de l'org
+  const [tagsSuivi, setTagsSuivi] = React.useState([]); // tag_id assignés au (dossier, député)
+  const [contenu, setContenu] = React.useState('');
+  const [busy, setBusy] = React.useState(false);
+  const [msg, setMsg] = React.useState(null);
+  const [nouveauTag, setNouveauTag] = React.useState(false);
+  const [tagLibelle, setTagLibelle] = React.useState('');
+  const [tagCouleur, setTagCouleur] = React.useState(CRM_TAG_COULEURS[0]);
+
+  // 1. Dossiers de l'organisation dans lesquels ce député est suivi.
+  React.useEffect(() => {
+    if (!actif) { setSuivis(null); return; }
+    let alive = true;
+    supabaseClient.from('dossier_parlementaires')
+      .select('dossier_id, dossiers_clients!inner(id, nom_client_final, archive)')
+      .eq('depute_id', dep.id)
+      .then(({ data, error }) => {
+        if (!alive) return;
+        if (error) { setSuivis([]); return; }
+        const list = (data || []).map(r => ({ dossier_id: r.dossier_id, nom: r.dossiers_clients.nom_client_final, archive: r.dossiers_clients.archive }));
+        setSuivis(list);
+        setDossierId(prev => prev && list.some(l => l.dossier_id === prev) ? prev : (list[0] ? list[0].dossier_id : null));
+      });
+    return () => { alive = false; };
+  }, [actif, dep && dep.id]);
+
+  // 2. Référentiel de tags de l'organisation.
+  React.useEffect(() => {
+    if (!actif) return;
+    let alive = true;
+    supabaseClient.from('tags').select('*').eq('organisation_id', org.id).order('libelle')
+      .then(({ data }) => { if (alive) setTagsOrg(data || []); });
+    return () => { alive = false; };
+  }, [actif, org && org.id]);
+
+  // 3. Notes + tags du (dossier sélectionné, député).
+  const chargerDossier = React.useCallback(async () => {
+    if (!actif || !dossierId) { setNotes(null); setTagsSuivi([]); return; }
+    const [n, st] = await Promise.all([
+      supabaseClient.from('notes_parlementaires').select('*').eq('dossier_id', dossierId).eq('depute_id', dep.id).order('cree_le', { ascending: false }),
+      supabaseClient.from('suivi_tags').select('tag_id').eq('dossier_id', dossierId).eq('depute_id', dep.id),
+    ]);
+    setNotes(n.error ? [] : (n.data || []));
+    setTagsSuivi(st.error ? [] : (st.data || []).map(r => r.tag_id));
+  }, [actif, dossierId, dep && dep.id]);
+
+  React.useEffect(() => { chargerDossier(); }, [chargerDossier]);
+
+  async function ajouterNote(e) {
+    e.preventDefault();
+    if (!contenu.trim()) return;
+    setBusy(true); setMsg(null);
+    const { error } = await supabaseClient.from('notes_parlementaires')
+      .insert({ dossier_id: dossierId, depute_id: dep.id, auteur_id: user.id, contenu: contenu.trim() });
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setContenu(''); chargerDossier();
+  }
+
+  async function supprimerNote(id) {
+    const { error } = await supabaseClient.from('notes_parlementaires').delete().eq('id', id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    chargerDossier();
+  }
+
+  async function basculerTag(tag) {
+    const assigne = tagsSuivi.includes(tag.id);
+    if (assigne) {
+      setTagsSuivi(prev => prev.filter(id => id !== tag.id));
+      const { error } = await supabaseClient.from('suivi_tags').delete()
+        .eq('dossier_id', dossierId).eq('depute_id', dep.id).eq('tag_id', tag.id);
+      if (error) { setMsg({ tone: 'err', text: error.message }); chargerDossier(); }
+    } else {
+      setTagsSuivi(prev => [...prev, tag.id]);
+      const { error } = await supabaseClient.from('suivi_tags')
+        .insert({ dossier_id: dossierId, depute_id: dep.id, tag_id: tag.id, ajoute_par: user.id });
+      if (error) { setMsg({ tone: 'err', text: error.message }); chargerDossier(); }
+    }
+  }
+
+  async function creerTag(e) {
+    e.preventDefault();
+    if (!tagLibelle.trim()) return;
+    setBusy(true); setMsg(null);
+    const { data, error } = await supabaseClient.from('tags')
+      .insert({ organisation_id: org.id, libelle: tagLibelle.trim(), couleur: tagCouleur })
+      .select().single();
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setTagsOrg(prev => [...prev, data].sort((a, b) => a.libelle.localeCompare(b.libelle, 'fr')));
+    setTagLibelle(''); setNouveauTag(false);
+    if (data) basculerTag(data);   // assigne immédiatement le tag créé
+  }
+
+  if (!actif || suivis === null) return null;
+  if (suivis.length === 0) return null;   // député non suivi : pas de section CRM
+
+  const dossierCourant = suivis.find(s => s.dossier_id === dossierId);
+  const auteurLabel = (n) => n.auteur_id === user.id ? 'Vous' : 'Collaborateur·rice';
+
+  return (
+    <div style={{ border: '1px solid var(--blue-200)', borderRadius: 'var(--radius-lg)', background: 'var(--blue-50)', padding: '18px 20px 20px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14, flexWrap: 'wrap' }}>
+        <Icon n="notebook-pen" s={15} color="var(--blue-france)" />
+        <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-france)' }}>Suivi CRM · privé {org.nom}</span>
+        {suivis.length > 1 && (
+          <select value={dossierId || ''} onChange={(e) => setDossierId(e.target.value)}
+            style={{ marginLeft: 'auto', padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', fontSize: 12, fontFamily: 'var(--font-sans)', background: 'white', cursor: 'pointer' }}>
+            {suivis.map(s => <option key={s.dossier_id} value={s.dossier_id}>{s.nom}{s.archive ? ' (archivé)' : ''}</option>)}
+          </select>
+        )}
+        {suivis.length === 1 && (
+          <span style={{ marginLeft: 'auto', fontSize: 12, color: 'var(--text-secondary)' }}>Dossier {dossierCourant ? dossierCourant.nom : ''}</span>
+        )}
+      </div>
+
+      {msg && (
+        <div style={{ borderRadius: 'var(--radius-md)', padding: '8px 11px', fontSize: 12.5, marginBottom: 12,
+          background: 'var(--red-50)', color: 'var(--red-700)', border: '1px solid var(--red-100)' }}>{msg.text}</div>
+      )}
+
+      {/* Tags colorés assignables */}
+      <div style={{ marginBottom: 16 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 8 }}>Tags</div>
+        <div style={{ display: 'flex', gap: 7, flexWrap: 'wrap', alignItems: 'center' }}>
+          {tagsOrg.map(tag => {
+            const on = tagsSuivi.includes(tag.id);
+            const c = tag.couleur || 'var(--gray-500)';
+            return (
+              <button key={tag.id} onClick={() => basculerTag(tag)}
+                style={{ display: 'inline-flex', alignItems: 'center', gap: 5, padding: '4px 11px', borderRadius: 99, cursor: 'pointer',
+                  fontSize: 11.5, fontWeight: 600, fontFamily: 'var(--font-sans)', transition: 'all .12s',
+                  border: '1px solid ' + (on ? c : 'var(--border)'),
+                  background: on ? hexRgba(c, 0.12) : 'var(--surface)', color: on ? c : 'var(--text-secondary)' }}>
+                <span style={{ width: 7, height: 7, borderRadius: 99, background: c }} />
+                {tag.libelle}
+                {on && <Icon n="check" s={12} />}
+              </button>
+            );
+          })}
+          {nouveauTag ? (
+            <form onSubmit={creerTag} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 99, padding: '3px 6px 3px 10px' }}>
+              {CRM_TAG_COULEURS.map(c => (
+                <button key={c} type="button" onClick={() => setTagCouleur(c)} title="Couleur"
+                  style={{ width: 14, height: 14, borderRadius: 99, background: c, border: tagCouleur === c ? '2px solid var(--ink)' : '2px solid transparent', cursor: 'pointer', padding: 0 }} />
+              ))}
+              <input autoFocus value={tagLibelle} onChange={(e) => setTagLibelle(e.target.value)} maxLength={40} placeholder="Nom du tag"
+                style={{ border: 'none', outline: 'none', fontSize: 12, fontFamily: 'var(--font-sans)', width: 100, background: 'transparent' }} />
+              <button type="submit" disabled={busy || !tagLibelle.trim()} style={{ border: 'none', background: 'none', color: 'var(--accent)', cursor: 'pointer', padding: 2 }}><Icon n="check" s={15} /></button>
+              <button type="button" onClick={() => { setNouveauTag(false); setTagLibelle(''); }} style={{ border: 'none', background: 'none', color: 'var(--text-tertiary)', cursor: 'pointer', padding: 2 }}><Icon n="x" s={15} /></button>
+            </form>
+          ) : (
+            <button onClick={() => setNouveauTag(true)}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '4px 11px', borderRadius: 99, cursor: 'pointer',
+                fontSize: 11.5, fontWeight: 600, fontFamily: 'var(--font-sans)', border: '1px dashed var(--border-strong)', background: 'transparent', color: 'var(--text-secondary)' }}>
+              <Icon n="plus" s={12} /> Nouveau tag
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Notes datées */}
+      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 8 }}>
+        Notes{notes ? ' (' + notes.length + ')' : ''}
+      </div>
+      <form onSubmit={ajouterNote} style={{ marginBottom: 14 }}>
+        <textarea value={contenu} onChange={(e) => setContenu(e.target.value)} rows={2} maxLength={20000}
+          placeholder="Ajouter une note datée sur ce parlementaire (contact, position, échange…)"
+          style={{ width: '100%', boxSizing: 'border-box', padding: '9px 11px', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', fontSize: 13, fontFamily: 'var(--font-sans)', resize: 'vertical', outline: 'none', background: 'white' }} />
+        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
+          <Btn type="submit" variant="primary" size="sm" disabled={!contenu.trim() || busy} icon={<Icon n="plus" s={13} />}>Ajouter la note</Btn>
+        </div>
+      </form>
+
+      {notes === null ? (
+        <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Chargement…</div>
+      ) : notes.length === 0 ? (
+        <div style={{ fontSize: 12.5, color: 'var(--text-tertiary)' }}>Aucune note pour l'instant sur ce parlementaire dans ce dossier.</div>
+      ) : (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {notes.map(n => (
+            <div key={n.id} style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '10px 12px' }}>
+              <div style={{ fontSize: 13, color: 'var(--ink)', lineHeight: 1.5, whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{n.contenu}</div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 7, fontSize: 11, color: 'var(--text-tertiary)' }}>
+                <span>{auteurLabel(n)}</span>
+                <span>·</span>
+                <span>{new Date(n.cree_le).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}</span>
+                {n.modifie_le && n.modifie_le !== n.cree_le && <span>· modifiée</span>}
+                {n.auteur_id === user.id && (
+                  <button onClick={() => supprimerNote(n.id)} title="Supprimer la note"
+                    style={{ marginLeft: 'auto', border: 'none', background: 'none', color: 'var(--red-600)', cursor: 'pointer', padding: 2 }}>
+                    <Icon n="trash-2" s={13} />
+                  </button>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function DeputeView({ dep, onBack }) {
   const { fiche, loading: ficheLoading, error: ficheError } = useDeputeFiche(dep?.id);
   const { news: allDepNews, loading: newsLoading } = useDeputesNews();
@@ -6624,6 +6851,7 @@ function DeputeView({ dep, onBack }) {
 
           <DeputeGroupesEtudes depId={dep.id} />
           <DeputeTravailleAvec fiche={fiche} />
+          <DeputeCRM dep={dep} />
 
           <div style={{ fontSize:11, color:'var(--text-tertiary)', lineHeight:1.6, paddingLeft:4 }}>
             Source : Assemblée nationale · data.assemblee-nationale.fr · Licence Ouverte 2.0
@@ -11673,7 +11901,9 @@ function Dashboard({ variant, go, user, onSignOut, orgState }) {
   // Lien partagé "#ciblage?…" : ouvre directement le module Ciblage.
   const [module, setModule] = React.useState(() =>
     (window.location.hash || '').startsWith('#ciblage') ? 'ciblage' : 'veille');
+  const authOrg = React.useMemo(() => ({ user: user || null, orgState: orgState || null }), [user, orgState]);
   return (
+    <AuthOrgContext.Provider value={authOrg}>
     <div className="db-app">
       <DashSidebar active={module} onSelect={setModule} signedIn={!!user} />
       <div className="db-main">
@@ -11720,6 +11950,7 @@ function Dashboard({ variant, go, user, onSignOut, orgState }) {
             : <TerminalView module={module} />}
       </div>
     </div>
+    </AuthOrgContext.Provider>
   );
 }
 

@@ -1821,6 +1821,100 @@ function OrgOnboarding({ user, inviteInfo, onDone, onSkip, onSignOut }) {
    Le frontend masque les actions non autorisées pour l'UX,
    mais la sécurité réelle vient des policies RLS côté Supabase.
    ============================================================ */
+/* Carte « Marque blanche » (admin) : logo du cabinet (Supabase Storage),
+   nom et couleur d'accent, réutilisés dans les exports PDF. */
+function MarqueBlancheCard({ org, orgState, cardStyle, lblStyle, inputStyle }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const [nom, setNom] = React.useState(org.nom || '');
+  const [couleur, setCouleur] = React.useState(org.couleur_accent || '#000091');
+  const [apercu, setApercu] = React.useState(null);
+  const [busy, setBusy] = React.useState(false);
+  const [msg, setMsg] = React.useState(null);
+  const fileRef = React.useRef(null);
+
+  // Aperçu du logo courant (URL signée depuis le bucket privé).
+  React.useEffect(() => {
+    let alive = true;
+    if (!org.logo_url) { setApercu(null); return; }
+    supabaseClient.storage.from('logos').createSignedUrl(org.logo_url, 300)
+      .then(({ data }) => { if (alive && data) setApercu(data.signedUrl); });
+    return () => { alive = false; };
+  }, [org.logo_url]);
+
+  async function televerserLogo(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    if (file.size > 2 * 1024 * 1024) { setMsg({ tone: 'err', text: 'Logo trop lourd (2 Mo maximum).' }); return; }
+    setBusy(true); setMsg(null);
+    const ext = (file.name.split('.').pop() || 'png').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const path = org.id + '/logo.' + ext;
+    const up = await supabaseClient.storage.from('logos').upload(path, file, { upsert: true, contentType: file.type });
+    if (up.error) { setBusy(false); setMsg({ tone: 'err', text: up.error.message }); return; }
+    const { error } = await supabaseClient.from('organisations').update({ logo_url: path }).eq('id', org.id);
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setMsg({ tone: 'ok', text: 'Logo mis à jour.' });
+    orgState.refresh();
+  }
+
+  async function enregistrer() {
+    setBusy(true); setMsg(null);
+    const { error } = await supabaseClient.from('organisations')
+      .update({ nom: nom.trim(), couleur_accent: couleur }).eq('id', org.id);
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setMsg({ tone: 'ok', text: 'Paramètres enregistrés.' });
+    orgState.refresh();
+  }
+
+  const modifie = nom.trim() !== (org.nom || '') || couleur !== (org.couleur_accent || '#000091');
+
+  return (
+    <div style={cardStyle}>
+      <div style={lblStyle}>Marque blanche</div>
+      <div style={{ fontSize: 12, color: 'var(--text-secondary)', marginBottom: 12, lineHeight: 1.5 }}>
+        Logo, nom et couleur d'accent de votre cabinet — repris en en-tête des exports PDF (fiches, notes, journal d'actions).
+      </div>
+
+      {msg && (
+        <div style={{ borderRadius: 'var(--radius-md)', padding: '8px 11px', fontSize: 12.5, marginBottom: 12,
+          background: msg.tone === 'err' ? 'var(--red-50)' : 'var(--green-50)',
+          color: msg.tone === 'err' ? 'var(--red-700)' : 'var(--green-700)',
+          border: '1px solid ' + (msg.tone === 'err' ? 'var(--red-100)' : 'var(--green-100)') }}>{msg.text}</div>
+      )}
+
+      <div style={{ display: 'flex', gap: 16, alignItems: 'center', marginBottom: 14, flexWrap: 'wrap' }}>
+        <div style={{ width: 120, height: 60, border: '1px dashed var(--border-strong)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--surface-sunken)', overflow: 'hidden' }}>
+          {apercu ? <img src={apercu} alt="Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                  : <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>Aucun logo</span>}
+        </div>
+        <div>
+          <input ref={fileRef} type="file" accept="image/png,image/jpeg,image/svg+xml,image/webp" onChange={televerserLogo} style={{ display: 'none' }} />
+          <Btn variant="secondary" size="sm" disabled={busy} icon={<Icon n="upload" s={13} />} onClick={() => fileRef.current && fileRef.current.click()}>
+            {apercu ? 'Remplacer le logo' : 'Téléverser un logo'}
+          </Btn>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 5 }}>PNG, JPG, SVG ou WebP · 2 Mo max</div>
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'flex-end' }}>
+        <label style={{ display: 'flex', flexDirection: 'column', gap: 4, fontSize: 12, fontWeight: 600, color: 'var(--text-secondary)', flex: 1, minWidth: 200 }}>
+          Nom du cabinet
+          <input type="text" value={nom} onChange={(e) => setNom(e.target.value)} maxLength={120} style={inputStyle} />
+        </label>
+        <label style={{ display: 'flex', flexDirection: 'column', gap: 4, fontSize: 12, fontWeight: 600, color: 'var(--text-secondary)' }}>
+          Couleur d'accent
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+            <input type="color" value={couleur} onChange={(e) => setCouleur(e.target.value)} style={{ width: 40, height: 34, border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', background: 'white', cursor: 'pointer', padding: 2 }} />
+            <span style={{ fontFamily: 'var(--font-mono)', fontSize: 12, color: 'var(--text-secondary)' }}>{couleur}</span>
+          </span>
+        </label>
+        <Btn variant="primary" size="sm" disabled={busy || !modifie || !nom.trim()} onClick={enregistrer}>Enregistrer</Btn>
+      </div>
+    </div>
+  );
+}
+
 function OrganisationModule({ user, orgState }) {
   const { Button: Btn, Badge: Bdg } = window.FranceMonitorDesignSystem_5343d8;
   const org = orgState && orgState.org;
@@ -2012,6 +2106,10 @@ function OrganisationModule({ user, orgState }) {
           )}
         </div>
       )}
+
+      {estAdmin && (
+        <MarqueBlancheCard org={org} orgState={orgState} cardStyle={cardStyle} lblStyle={lblStyle} inputStyle={inputStyle} />
+      )}
     </div>
   );
 }
@@ -2153,7 +2251,7 @@ const ACTION_TYPES = [
 ];
 const ACTION_TYPE_LABEL = Object.fromEntries(ACTION_TYPES.map(t => [t.id, t.label]));
 
-function DossierJournalActions({ user, dossier, suivisParl, depParId }) {
+function DossierJournalActions({ user, org, dossier, suivisParl, depParId }) {
   const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
   const [actions, setActions] = React.useState(null);
   const [msg, setMsg] = React.useState(null);
@@ -2247,6 +2345,25 @@ function DossierJournalActions({ user, dossier, suivisParl, depParId }) {
       slugify('hatvp-' + dossier.nom_client_final, dossier.id.slice(0, 8)) + '.csv');
   }
 
+  /* Export PDF marque blanche du journal (en-tête cabinet). */
+  function exportPdfJournal() {
+    if (!filtrees.length) { setMsg({ tone: 'err', text: 'Aucune action à exporter pour ce filtre.' }); return; }
+    const lignes = filtrees.map(a => `<tr>
+      <td>${new Date(a.date_action).toLocaleDateString('fr-FR')}</td>
+      <td>${escapeHtml(ACTION_TYPE_LABEL[a.type_action] || a.type_action)}</td>
+      <td>${escapeHtml(cibleLabel(a))}</td>
+      <td>${escapeHtml(a.sujet)}${a.description ? '<br><span style="color:#7B828D;font-size:11px">' + escapeHtml(a.description) + '</span>' : ''}</td>
+      <td style="text-align:right">${a.budget_estime != null ? Number(a.budget_estime).toLocaleString('fr-FR') + ' €' : '—'}</td>
+    </tr>`).join('');
+    const corps = `
+      <div class="wl-sec">Journal des actions d'influence</div>
+      <table><thead><tr><th>Date</th><th>Nature</th><th>Autorité concernée</th><th>Sujet</th><th>Budget</th></tr></thead>
+      <tbody>${lignes}</tbody></table>
+      <p style="font-size:12px">Total : <strong>${filtrees.length}</strong> action(s) · budget agrégé <strong>${budgetTotal.toLocaleString('fr-FR')} €</strong>.</p>
+      <p style="font-size:11px;color:#7B828D">Document d'aide à la préparation de la déclaration HATVP — à vérifier par le déclarant, ne constitue pas une télédéclaration officielle.</p>`;
+    imprimerMarqueBlanche(org, { titre: 'Dossier ' + dossier.nom_client_final, sousTitre: 'Journal d\'actions d\'influence', corpsHtml: corps });
+  }
+
   const input = { ...DOSSIER_INPUT, width: '100%', boxSizing: 'border-box' };
   const champ = (label, node) => (
     <label style={{ display: 'flex', flexDirection: 'column', gap: 4, fontSize: 12, fontWeight: 600, color: 'var(--text-secondary)' }}>
@@ -2275,6 +2392,7 @@ function DossierJournalActions({ user, dossier, suivisParl, depParId }) {
             style={{ border: 'none', background: 'none', color: 'var(--text-link)', fontSize: 12, cursor: 'pointer', fontFamily: 'var(--font-sans)' }}>Réinitialiser</button>
         )}
         <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
+          <Btn variant="secondary" size="sm" icon={<Icon n="file-text" s={13} />} onClick={exportPdfJournal}>PDF cabinet</Btn>
           <Btn variant="secondary" size="sm" icon={<Icon n="download" s={13} />} onClick={exportHatvp}>Export annuel HATVP</Btn>
           <Btn variant="primary" size="sm" icon={<Icon n="plus" s={13} />} onClick={() => setCreation(c => !c)}>Ajouter une action</Btn>
         </div>
@@ -2563,7 +2681,7 @@ function DossierClientView({ user, orgState, dossier, onBack, onChanged }) {
       )}
 
       {tab === 'actions' && (
-        <DossierJournalActions user={user} dossier={dossier} suivisParl={suivisParl} depParId={depParId} />
+        <DossierJournalActions user={user} org={orgState && orgState.org} dossier={dossier} suivisParl={suivisParl} depParId={depParId} />
       )}
     </div>
   );
@@ -5628,6 +5746,81 @@ function AssembleeModule() {
 }
 
 /* ============================================================
+   MARQUE BLANCHE (partie F)
+   Exports imprimables avec en-tête = logo + nom du cabinet (au lieu
+   du branding NomosLab), pied de page « Généré via NomosLab » discret.
+   Approche HTML → impression navigateur (aucune dépendance PDF lourde).
+   ============================================================ */
+function escapeHtml(s) {
+  return String(s ?? '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+/* Charge le logo de l'organisation depuis le bucket privé Storage sous forme
+   de data URL (inlinable dans la fenêtre d'impression). null si absent. */
+async function chargerLogoDataUrl(org) {
+  if (!org || !org.logo_url || !isSupabaseConfigured()) return null;
+  try {
+    const { data, error } = await supabaseClient.storage.from('logos').createSignedUrl(org.logo_url, 300);
+    if (error || !data) return null;
+    const res = await fetch(data.signedUrl);
+    if (!res.ok) return null;
+    const blob = await res.blob();
+    return await new Promise((resolve) => {
+      const fr = new FileReader();
+      fr.onload = () => resolve(fr.result);
+      fr.onerror = () => resolve(null);
+      fr.readAsDataURL(blob);
+    });
+  } catch (e) { return null; }
+}
+
+/* Ouvre une fenêtre d'impression en marque blanche. corpsHtml est du HTML
+   déjà échappé/maîtrisé par l'appelant. */
+async function imprimerMarqueBlanche(org, { titre, sousTitre, corpsHtml }) {
+  const accent = (org && org.couleur_accent) || '#000091';
+  const nom = (org && org.nom) || 'NomosLab';
+  const logo = await chargerLogoDataUrl(org);
+  const enTete = logo
+    ? `<img src="${logo}" alt="${escapeHtml(nom)}" style="height:46px;max-width:220px;object-fit:contain" />`
+    : `<div style="font-size:22px;font-weight:800;color:${accent}">${escapeHtml(nom)}</div>`;
+  const w = window.open('', '_blank', 'width=900,height=760');
+  if (!w) { alert('Autorisez les fenêtres pop-up pour générer l\'export.'); return; }
+  w.document.write(`<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>${escapeHtml(titre || nom)}</title>
+  <style>
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;font-size:13px;margin:0;color:#12161C;padding:36px 40px}
+    .wl-head{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:3px solid ${accent};padding-bottom:14px;margin-bottom:22px}
+    .wl-head .cab{font-size:11px;color:#565D67;text-align:right;line-height:1.5}
+    h1{font-size:20px;margin:0 0 4px;color:#12161C}
+    .wl-sub{font-size:12px;color:#565D67;margin:0 0 20px}
+    .wl-sec{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${accent};margin:20px 0 8px}
+    table{width:100%;border-collapse:collapse;margin:6px 0 14px}
+    th{background:${accent}14;padding:7px 10px;text-align:left;border:1px solid #E1E5EA;font-size:10px;text-transform:uppercase;letter-spacing:.04em}
+    td{padding:6px 10px;border:1px solid #E8EBEF;font-size:12px;vertical-align:top}
+    .wl-note{border:1px solid #E1E5EA;border-radius:8px;padding:12px 14px;margin:8px 0}
+    .wl-note .meta{font-size:11px;color:#7B828D;margin-top:6px}
+    .wl-foot{margin-top:28px;border-top:1px solid #E8EBEF;padding-top:10px;font-size:10px;color:#AEB4BE;display:flex;justify-content:space-between}
+    @media print{body{padding:0}}
+  </style></head><body>
+    <div class="wl-head">
+      <div>${enTete}</div>
+      <div class="cab">${escapeHtml(nom)}<br>Document généré le ${new Date().toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' })}</div>
+    </div>
+    <h1>${escapeHtml(titre || '')}</h1>
+    ${sousTitre ? `<div class="wl-sub">${escapeHtml(sousTitre)}</div>` : ''}
+    ${corpsHtml}
+    <div class="wl-foot">
+      <span>Données publiques : Assemblée nationale · data.assemblee-nationale.fr · Licence Ouverte 2.0</span>
+      <span>Généré via NomosLab</span>
+    </div>
+    <script>window.onload=function(){setTimeout(function(){window.print();},400);}<\/script>
+  </body></html>`);
+  w.document.close();
+}
+
+/* ============================================================
    DÉPUTÉS MODULE
    ============================================================ */
 function useANDeputes() {
@@ -6786,6 +6979,24 @@ function DeputeCRM({ dep }) {
   const dossierCourant = suivis.find(s => s.dossier_id === dossierId);
   const auteurLabel = (n) => n.auteur_id === user.id ? 'Vous' : 'Collaborateur·rice';
 
+  /* Export PDF marque blanche des notes du dossier sur ce parlementaire. */
+  function exportNotesPdf() {
+    if (!notes || !notes.length) return;
+    const tagsAssignes = tagsOrg.filter(t => tagsSuivi.includes(t.id));
+    const tagsHtml = tagsAssignes.length
+      ? '<p style="font-size:12px">Tags : ' + tagsAssignes.map(t => '<span style="display:inline-block;padding:2px 9px;border-radius:99px;font-size:11px;font-weight:600;color:#fff;background:' + (t.couleur || '#565D67') + ';margin-right:5px">' + escapeHtml(t.libelle) + '</span>').join('') + '</p>'
+      : '';
+    const notesHtml = notes.map(n => `<div class="wl-note">
+      <div>${escapeHtml(n.contenu)}</div>
+      <div class="meta">${auteurLabel(n)} · ${new Date(n.cree_le).toLocaleString('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })}</div>
+    </div>`).join('');
+    imprimerMarqueBlanche(org, {
+      titre: dep.nomComplet,
+      sousTitre: (dep.groupe ? dep.groupe.name : 'Non inscrit') + (dep.dept ? ' · ' + dep.dept : '') + ' — Dossier ' + (dossierCourant ? dossierCourant.nom : ''),
+      corpsHtml: tagsHtml + '<div class="wl-sec">Notes de suivi</div>' + notesHtml,
+    });
+  }
+
   return (
     <div style={{ border: '1px solid var(--blue-200)', borderRadius: 'var(--radius-lg)', background: 'var(--blue-50)', padding: '18px 20px 20px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14, flexWrap: 'wrap' }}>
@@ -6848,8 +7059,16 @@ function DeputeCRM({ dep }) {
       </div>
 
       {/* Notes datées */}
-      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 8 }}>
-        Notes{notes ? ' (' + notes.length + ')' : ''}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+        <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', color: 'var(--text-tertiary)' }}>
+          Notes{notes ? ' (' + notes.length + ')' : ''}
+        </span>
+        {notes && notes.length > 0 && (
+          <button onClick={exportNotesPdf} title="Exporter les notes en PDF (marque blanche)"
+            style={{ marginLeft: 'auto', display: 'inline-flex', alignItems: 'center', gap: 4, border: '1px solid var(--border)', background: 'white', borderRadius: 'var(--radius-sm)', padding: '3px 9px', fontSize: 11.5, fontWeight: 600, color: 'var(--text-secondary)', cursor: 'pointer', fontFamily: 'var(--font-sans)' }}>
+            <Icon n="file-text" s={12} /> PDF cabinet
+          </button>
+        )}
       </div>
       <form onSubmit={ajouterNote} style={{ marginBottom: 14 }}>
         <textarea value={contenu} onChange={(e) => setContenu(e.target.value)} rows={2} maxLength={20000}
@@ -6892,6 +7111,8 @@ function DeputeCRM({ dep }) {
 function DeputeView({ dep, onBack }) {
   const { fiche, loading: ficheLoading, error: ficheError } = useDeputeFiche(dep?.id);
   const { news: allDepNews, loading: newsLoading } = useDeputesNews();
+  const { orgState } = React.useContext(AuthOrgContext);
+  const orgMarque = orgState && orgState.org;
   const depNews = (dep && allDepNews[dep.id]) || [];
   const [tab, setTab] = React.useState('votes');
   const [voteFilter, setVoteFilter] = React.useState('');
@@ -6937,6 +7158,24 @@ function DeputeView({ dep, onBack }) {
       try { document.execCommand('copy'); done(); } catch (e) {}
       document.body.removeChild(ta);
     }
+  };
+
+  /* Export marque blanche d'une fiche de synthèse (en-tête cabinet). */
+  const exportFicheCabinet = () => {
+    const l = (k, v) => v ? `<tr><td style="width:200px;color:#7B828D">${escapeHtml(k)}</td><td>${escapeHtml(v)}</td></tr>` : '';
+    const ident = `<div class="wl-sec">Identité & mandat</div><table><tbody>
+      ${l('Groupe', dep.groupe ? dep.groupe.name : 'Non inscrit')}
+      ${l('Circonscription', (dep.dept || '') + (dep.circonscription ? ' · ' + dep.circonscription : ''))}
+      ${l('Profession', dep.profession)}
+      ${l('Commission', fiche && fiche.commission)}
+      ${fiche && fiche.mandat ? l('Mandat depuis', depDateFR(fiche.mandat.dateDebut)) : ''}
+    </tbody></table>`;
+    const stats = s ? `<div class="wl-sec">Signaux stratégiques</div><table><tbody>
+      ${l('Participation aux scrutins', (s.taux_participation != null ? s.taux_participation + ' %' : ''))}
+      ${l('Loyauté au groupe', (fiche.loyaute_applicable !== false && s.taux_loyaute != null ? s.taux_loyaute + ' %' : 'Non applicable'))}
+      ${l('Votes exprimés', (s.nb_votes_exprimes != null ? s.nb_votes_exprimes + ' sur ' + (s.nb_scrutins_mandat || 0) + ' scrutins' : ''))}
+    </tbody></table>` : '';
+    imprimerMarqueBlanche(orgMarque, { titre: dep.nomComplet, sousTitre: 'Fiche de synthèse parlementaire', corpsHtml: ident + stats });
   };
 
   const filtVotes = fiche ? (fiche.derniers_votes || []).filter(v => !voteFilter.trim() || (v.t || '').toLowerCase().includes(voteFilter.toLowerCase())) : [];
@@ -7010,6 +7249,11 @@ function DeputeView({ dep, onBack }) {
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">{copied ? <polyline points="20 6 9 17 4 12"/> : <><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></>}</svg>
             {copied ? 'Copié !' : 'Copier la fiche'}
           </button>
+          {orgMarque && (
+            <button onClick={exportFicheCabinet} className="dep-hdr-btn" disabled={!fiche} style={!fiche ? { opacity: 0.5, cursor: 'default' } : {}} title="Fiche de synthèse en marque blanche">
+              <Icon n="file-text" s={13} /> Fiche cabinet
+            </button>
+          )}
           <FicheExportMenu getFiche={() => buildDeputeFiche(dep, exportStats, depNews)} />
         </div>
       </div>

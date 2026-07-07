@@ -2012,6 +2012,478 @@ function OrganisationModule({ user, orgState }) {
 }
 
 /* ============================================================
+   MODULE « MES DOSSIERS » — espaces clients du cabinet
+   Un dossier client = le client final (ex. « Dossier Bayer »).
+   Données privées dans Supabase (RLS par organisation) ; les
+   parlementaires et dossiers législatifs suivis référencent le
+   référentiel public par id textuel (deputes.json / DLR…).
+   ============================================================ */
+let _legisIndexCachePromise = null;
+function useLegisIndex() {
+  const [state, setState] = React.useState({ loading: true, dossiers: [] });
+  React.useEffect(() => {
+    const load = _legisIndexCachePromise
+      || (_legisIndexCachePromise = fetch('public/data/legislatif/dossiers-index.json')
+            .then(r => r.json()).catch(() => ({ dossiers: [] })));
+    let alive = true;
+    load.then(d => { if (alive) setState({ loading: false, dossiers: d.dossiers || [] }); });
+    return () => { alive = false; };
+  }, []);
+  return state;
+}
+
+const DOSSIER_INPUT = { padding: '8px 12px', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', fontSize: 13, fontFamily: 'var(--font-sans)', outline: 'none', background: 'white' };
+const DOSSIER_CARD = { border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', background: 'var(--surface)', padding: '18px 20px', marginBottom: 16 };
+const DOSSIER_LBL = { fontSize: 11, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 10 };
+
+function dossierMsgBox(msg) {
+  if (!msg) return null;
+  return (
+    <div style={{ borderRadius: 'var(--radius-md)', padding: '10px 12px', fontSize: 13, marginBottom: 14, lineHeight: 1.5,
+      background: msg.tone === 'err' ? 'var(--red-50)' : 'var(--green-50)',
+      color: msg.tone === 'err' ? 'var(--red-700)' : 'var(--green-700)',
+      border: '1px solid ' + (msg.tone === 'err' ? 'var(--red-100)' : 'var(--green-100)') }}>
+      {msg.text}
+    </div>
+  );
+}
+
+/* Recherche dans le référentiel députés (mêmes critères que la page Députés)
+   pour ajouter un parlementaire au dossier en un clic. */
+function DossierAjoutParlementaire({ deputes, dejaSuivis, onAdd }) {
+  const [q, setQ] = React.useState('');
+  const resultats = React.useMemo(() => {
+    const query = q.trim().toLowerCase();
+    if (!query) return [];
+    return deputes.filter(d => !dejaSuivis.has(d.id) && (
+      d.nomComplet.toLowerCase().includes(query) ||
+      (d.groupe && (d.groupe.name.toLowerCase().includes(query) || d.groupe.short.toLowerCase().includes(query))) ||
+      (d.dept || '').toLowerCase().includes(query) ||
+      (d.circonscription || '').toLowerCase().includes(query) ||
+      (d.commission || '').toLowerCase().includes(query)
+    )).slice(0, 8);
+  }, [q, deputes, dejaSuivis]);
+
+  return (
+    <div style={{ position: 'relative', marginBottom: 14 }}>
+      <input type="text" value={q} onChange={(e) => setQ(e.target.value)}
+        placeholder="Rechercher un député (nom, groupe, département, commission…) et l'ajouter"
+        style={{ ...DOSSIER_INPUT, width: '100%', boxSizing: 'border-box' }} />
+      {resultats.length > 0 && (
+        <div style={{ position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 30, marginTop: 4,
+          background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)',
+          boxShadow: 'var(--shadow-md, 0 8px 24px rgba(0,0,0,.12))', overflow: 'hidden' }}>
+          {resultats.map(d => (
+            <button key={d.id} onClick={() => { onAdd(d); setQ(''); }}
+              style={{ display: 'flex', alignItems: 'center', gap: 10, width: '100%', textAlign: 'left', padding: '9px 12px',
+                border: 'none', borderBottom: '1px solid var(--border-subtle)', background: 'var(--surface)', cursor: 'pointer', fontFamily: 'var(--font-sans)' }}
+              onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-hover)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'var(--surface)'}>
+              <span style={{ width: 8, height: 8, borderRadius: 99, background: (d.groupe && d.groupe.color) || 'var(--gray-300)', flex: 'none' }} />
+              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--ink)' }}>{d.nomComplet}</span>
+              <span style={{ fontSize: 11.5, color: 'var(--text-tertiary)' }}>
+                {(d.groupe ? d.groupe.short : 'NI') + ' · ' + (d.dept || '')}
+              </span>
+              <span style={{ marginLeft: 'auto', fontSize: 11.5, fontWeight: 700, color: 'var(--accent)' }}>+ Ajouter</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* Recherche dans l'index public des dossiers législatifs (module Suivi
+   législatif) pour suivre un texte dans le dossier client. */
+function DossierAjoutLegislatif({ index, dejaSuivis, onAdd }) {
+  const [q, setQ] = React.useState('');
+  const resultats = React.useMemo(() => {
+    const query = legisNorm(q.trim());
+    if (!query) return [];
+    return index.filter(d => !dejaSuivis.has(d.id) &&
+      legisNorm(`${d.titre} ${d.titre_court || ''} ${d.commission || ''} ${d.rapporteur || ''}`).includes(query)
+    ).slice(0, 8);
+  }, [q, index, dejaSuivis]);
+
+  return (
+    <div style={{ position: 'relative', marginBottom: 14 }}>
+      <input type="text" value={q} onChange={(e) => setQ(e.target.value)}
+        placeholder="Rechercher un dossier législatif (titre, commission, rapporteur…) et le suivre"
+        style={{ ...DOSSIER_INPUT, width: '100%', boxSizing: 'border-box' }} />
+      {resultats.length > 0 && (
+        <div style={{ position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 30, marginTop: 4,
+          background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)',
+          boxShadow: 'var(--shadow-md, 0 8px 24px rgba(0,0,0,.12))', overflow: 'hidden' }}>
+          {resultats.map(d => {
+            const st = LEGIS_STATUTS[d.statut] || {};
+            return (
+              <button key={d.id} onClick={() => { onAdd(d); setQ(''); }}
+                style={{ display: 'flex', alignItems: 'center', gap: 10, width: '100%', textAlign: 'left', padding: '9px 12px',
+                  border: 'none', borderBottom: '1px solid var(--border-subtle)', background: 'var(--surface)', cursor: 'pointer', fontFamily: 'var(--font-sans)' }}
+                onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-hover)'}
+                onMouseLeave={e => e.currentTarget.style.background = 'var(--surface)'}>
+                <span style={{ flex: 1, fontSize: 12.5, fontWeight: 600, color: 'var(--ink)', lineHeight: 1.35, minWidth: 0 }}>
+                  {d.titre_court || d.titre}
+                </span>
+                {st.label && <span style={{ flex: 'none', fontSize: 10.5, fontWeight: 700, color: st.color, background: st.bg, borderRadius: 999, padding: '2px 9px' }}>{st.label}</span>}
+                <span style={{ flex: 'none', fontSize: 11.5, fontWeight: 700, color: 'var(--accent)' }}>+ Suivre</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* Vue détaillée d'un dossier client : onglets Parlementaires / Législatif. */
+function DossierClientView({ user, orgState, dossier, onBack, onChanged }) {
+  const { Button: Btn, Badge: Bdg } = window.FranceMonitorDesignSystem_5343d8;
+  const estAdmin = orgState.role === 'admin';
+  const { deputes } = useANDeputes();
+  const { dossiers: legisIndex } = useLegisIndex();
+  const [tab, setTab] = React.useState('parl');       // 'parl' | 'legis'
+  const [suivisParl, setSuivisParl] = React.useState(null);
+  const [suivisLegis, setSuivisLegis] = React.useState(null);
+  const [msg, setMsg] = React.useState(null);
+  const [veilleCopie, setVeilleCopie] = React.useState(false);
+
+  const depParId = React.useMemo(() => {
+    const m = new Map(); deputes.forEach(d => m.set(d.id, d)); return m;
+  }, [deputes]);
+  const legisParId = React.useMemo(() => {
+    const m = new Map(); legisIndex.forEach(d => m.set(d.id, d)); return m;
+  }, [legisIndex]);
+
+  const charger = React.useCallback(async () => {
+    const [p, l] = await Promise.all([
+      supabaseClient.from('dossier_parlementaires').select('*').eq('dossier_id', dossier.id).order('ajoute_le', { ascending: false }),
+      supabaseClient.from('dossiers_legislatifs_suivis').select('*').eq('dossier_id', dossier.id).order('ajoute_le', { ascending: false }),
+    ]);
+    if (p.error || l.error) { setMsg({ tone: 'err', text: (p.error || l.error).message }); return; }
+    setSuivisParl(p.data || []);
+    setSuivisLegis(l.data || []);
+  }, [dossier.id]);
+
+  React.useEffect(() => { charger(); }, [charger]);
+
+  async function ajouterParl(d) {
+    const { error } = await supabaseClient.from('dossier_parlementaires')
+      .insert({ dossier_id: dossier.id, depute_id: d.id, ajoute_par: user.id });
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setMsg(null); charger();
+  }
+  async function retirerParl(depute_id) {
+    const { error } = await supabaseClient.from('dossier_parlementaires')
+      .delete().eq('dossier_id', dossier.id).eq('depute_id', depute_id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    charger();
+  }
+  async function ajouterLegis(d) {
+    const { error } = await supabaseClient.from('dossiers_legislatifs_suivis')
+      .insert({ dossier_id: dossier.id, dossier_legislatif_id: d.id, ajoute_par: user.id });
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setMsg(null); charger();
+  }
+  async function retirerLegis(id) {
+    const { error } = await supabaseClient.from('dossiers_legislatifs_suivis')
+      .delete().eq('dossier_id', dossier.id).eq('dossier_legislatif_id', id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    charger();
+  }
+
+  async function basculerArchive() {
+    const { error } = await supabaseClient.from('dossiers_clients')
+      .update({ archive: !dossier.archive }).eq('id', dossier.id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    onChanged(); onBack();
+  }
+
+  /* Génère un profil au format config/veille-profils.json, à coller
+     manuellement (l'intégration automatique est un chantier ultérieur). */
+  async function copierConfigVeille() {
+    const slug = dossier.nom_client_final.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const profil = {
+      id: 'dossier-' + slug,
+      nom: 'Dossier ' + dossier.nom_client_final,
+      mots_cles: [],
+      email_destinataires: [user.email],
+      dossiers_suivis: (suivisLegis || []).map(s => s.dossier_legislatif_id),
+      alertes: {
+        email: true,
+        slack_webhook_url: null,
+        types: ['nouveau_dossier', 'changement_etape', 'nouvel_amendement', 'sort_amendement', 'inscription_ordre_du_jour', 'resultat_scrutin'],
+      },
+    };
+    const json = JSON.stringify(profil, null, 2);
+    try { await navigator.clipboard.writeText(json); setVeilleCopie(true); setTimeout(() => setVeilleCopie(false), 3000); }
+    catch (e) { window.prompt('Copiez ce profil de veille :', json); }
+  }
+
+  const tabBtn = (id, label, n) => (
+    <button onClick={() => setTab(id)}
+      style={{ padding: '7px 18px', fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600, cursor: 'pointer', border: 'none',
+        background: tab === id ? 'var(--ink)' : 'var(--surface)', color: tab === id ? '#fff' : 'var(--text-secondary)', transition: 'background .14s,color .14s' }}>
+      {label}{n != null ? ' (' + n + ')' : ''}
+    </button>
+  );
+
+  return (
+    <div style={{ padding: '24px 28px', maxWidth: 980, margin: '0 auto' }}>
+      <button onClick={onBack} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, border: 'none', background: 'none',
+        color: 'var(--text-secondary)', fontSize: 13, fontWeight: 600, cursor: 'pointer', padding: 0, marginBottom: 14, fontFamily: 'var(--font-sans)' }}>
+        <Icon n="arrow-left" s={15} /> Mes dossiers
+      </button>
+
+      <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12, marginBottom: 4, flexWrap: 'wrap' }}>
+        <div style={{ flex: 1, minWidth: 240 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div style={{ fontSize: 20, fontWeight: 700 }}>{dossier.nom_client_final}</div>
+            {dossier.archive && <Bdg tone="amber">Archivé</Bdg>}
+          </div>
+          {dossier.description && <div style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 2 }}>{dossier.description}</div>}
+        </div>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          <Btn variant="secondary" size="sm" icon={<Icon n={veilleCopie ? 'check' : 'copy'} s={13} />} onClick={copierConfigVeille}>
+            {veilleCopie ? 'Profil copié !' : 'Copier la config pour la veille email'}
+          </Btn>
+          {estAdmin && (
+            <Btn variant="secondary" size="sm" icon={<Icon n={dossier.archive ? 'archive-restore' : 'archive'} s={13} />} onClick={basculerArchive}>
+              {dossier.archive ? 'Désarchiver' : 'Archiver'}
+            </Btn>
+          )}
+        </div>
+      </div>
+      <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)', marginBottom: 18 }}>
+        La config de veille copiée est à coller dans <code>config/veille-profils.json</code> → <code>profils[]</code> (mots-clés à compléter) — l'intégration automatique viendra plus tard.
+      </div>
+
+      {dossierMsgBox(msg)}
+
+      <div style={{ display: 'inline-flex', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden', marginBottom: 16 }}>
+        {tabBtn('parl', 'Parlementaires suivis', suivisParl ? suivisParl.length : null)}
+        {tabBtn('legis', 'Dossiers législatifs suivis', suivisLegis ? suivisLegis.length : null)}
+      </div>
+
+      {tab === 'parl' && (
+        <div>
+          <DossierAjoutParlementaire deputes={deputes}
+            dejaSuivis={new Set((suivisParl || []).map(s => s.depute_id))} onAdd={ajouterParl} />
+          {suivisParl === null ? (
+            <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Chargement…</div>
+          ) : suivisParl.length === 0 ? (
+            <div style={{ fontSize: 13, color: 'var(--text-tertiary)', padding: '18px 0' }}>
+              Aucun parlementaire suivi dans ce dossier — utilisez la recherche ci-dessus.
+            </div>
+          ) : (
+            suivisParl.map(s => {
+              const d = depParId.get(s.depute_id);
+              return (
+                <div key={s.depute_id} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 4px', borderBottom: '1px solid var(--border-subtle)' }}>
+                  {d && d.photoUrl
+                    ? <img src={d.photoUrl} alt="" style={{ width: 34, height: 34, borderRadius: 99, objectFit: 'cover', flex: 'none' }} />
+                    : <span style={{ width: 34, height: 34, borderRadius: 99, background: 'var(--gray-100)', flex: 'none' }} />}
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: 13.5, fontWeight: 600 }}>{d ? d.nomComplet : 'Député ' + s.depute_id}</div>
+                    <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)' }}>
+                      {d ? (d.groupe ? d.groupe.short : 'NI') + ' · ' + (d.dept || '') + (d.circonscription ? ' · ' + d.circonscription : '') : 'hors référentiel actuel'}
+                    </div>
+                  </div>
+                  <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>ajouté le {new Date(s.ajoute_le).toLocaleDateString('fr-FR')}</span>
+                  <button onClick={() => retirerParl(s.depute_id)} title="Retirer du dossier"
+                    style={{ border: 'none', background: 'none', color: 'var(--red-600)', cursor: 'pointer', padding: 4 }}>
+                    <Icon n="x" s={15} />
+                  </button>
+                </div>
+              );
+            })
+          )}
+        </div>
+      )}
+
+      {tab === 'legis' && (
+        <div>
+          <DossierAjoutLegislatif index={legisIndex}
+            dejaSuivis={new Set((suivisLegis || []).map(s => s.dossier_legislatif_id))} onAdd={ajouterLegis} />
+          {suivisLegis === null ? (
+            <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Chargement…</div>
+          ) : suivisLegis.length === 0 ? (
+            <div style={{ fontSize: 13, color: 'var(--text-tertiary)', padding: '18px 0' }}>
+              Aucun dossier législatif suivi — utilisez la recherche ci-dessus.
+            </div>
+          ) : (
+            suivisLegis.map(s => {
+              const d = legisParId.get(s.dossier_legislatif_id);
+              const st = d ? (LEGIS_STATUTS[d.statut] || {}) : {};
+              return (
+                <div key={s.dossier_legislatif_id} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 4px', borderBottom: '1px solid var(--border-subtle)' }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: 13, fontWeight: 600, lineHeight: 1.4 }}>{d ? (d.titre_court || d.titre) : s.dossier_legislatif_id}</div>
+                    <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)' }}>
+                      <span style={{ fontFamily: 'var(--font-mono)' }}>{s.dossier_legislatif_id}</span>
+                      {d && d.commission ? ' · ' + d.commission : ''}
+                    </div>
+                  </div>
+                  {st.label && <span style={{ flex: 'none', fontSize: 10.5, fontWeight: 700, color: st.color, background: st.bg, borderRadius: 999, padding: '2px 9px' }}>{st.label}</span>}
+                  <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>suivi depuis le {new Date(s.ajoute_le).toLocaleDateString('fr-FR')}</span>
+                  <button onClick={() => retirerLegis(s.dossier_legislatif_id)} title="Ne plus suivre"
+                    style={{ border: 'none', background: 'none', color: 'var(--red-600)', cursor: 'pointer', padding: 4 }}>
+                    <Icon n="x" s={15} />
+                  </button>
+                </div>
+              );
+            })
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MesDossiersModule({ user, orgState }) {
+  const { Button: Btn, Badge: Bdg } = window.FranceMonitorDesignSystem_5343d8;
+  const org = orgState && orgState.org;
+  const [dossiers, setDossiers] = React.useState(null);
+  const [ouvert, setOuvert] = React.useState(null);      // dossier sélectionné
+  const [voirArchives, setVoirArchives] = React.useState(false);
+  const [creation, setCreation] = React.useState(false);
+  const [nom, setNom] = React.useState('');
+  const [description, setDescription] = React.useState('');
+  const [busy, setBusy] = React.useState(false);
+  const [msg, setMsg] = React.useState(null);
+
+  const charger = React.useCallback(async () => {
+    if (!org) return;
+    const { data, error } = await supabaseClient
+      .from('dossiers_clients')
+      .select('*, dossier_parlementaires(count), dossiers_legislatifs_suivis(count)')
+      .eq('organisation_id', org.id)
+      .order('cree_le', { ascending: false });
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setDossiers(data || []);
+  }, [org && org.id]);
+
+  React.useEffect(() => { setDossiers(null); setOuvert(null); charger(); }, [charger]);
+
+  async function creer(e) {
+    e.preventDefault();
+    setMsg(null); setBusy(true);
+    const { error } = await supabaseClient.from('dossiers_clients')
+      .insert({ organisation_id: org.id, nom_client_final: nom.trim(), description: description.trim() || null, cree_par: user.id });
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setNom(''); setDescription(''); setCreation(false);
+    charger();
+  }
+
+  if (!user) {
+    return (
+      <div style={{ padding: '24px 28px', maxWidth: 980, margin: '0 auto' }}>
+        <div style={{ fontSize: 20, fontWeight: 700 }}>Mes dossiers</div>
+        <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>Les dossiers clients sont un espace privé : connectez-vous pour y accéder.</p>
+      </div>
+    );
+  }
+  if (!org) {
+    return (
+      <div style={{ padding: '24px 28px', maxWidth: 980, margin: '0 auto' }}>
+        <div style={{ fontSize: 20, fontWeight: 700 }}>Mes dossiers</div>
+        <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>
+          Les dossiers clients appartiennent à une organisation. Créez la vôtre ou faites-vous inviter,
+          puis revenez ici (déconnectez-vous et reconnectez-vous pour relancer l'écran d'organisation).
+        </p>
+      </div>
+    );
+  }
+
+  if (ouvert) {
+    return <DossierClientView user={user} orgState={orgState} dossier={ouvert}
+      onBack={() => setOuvert(null)} onChanged={charger} />;
+  }
+
+  const visibles = (dossiers || []).filter(d => voirArchives || !d.archive);
+  const nbArchives = (dossiers || []).filter(d => d.archive).length;
+  const compte = (d, cle) => (d[cle] && d[cle][0] && d[cle][0].count) || 0;
+
+  return (
+    <div style={{ padding: '24px 28px', maxWidth: 980, margin: '0 auto' }}>
+      <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12, marginBottom: 4, flexWrap: 'wrap' }}>
+        <div style={{ flex: 1, minWidth: 240 }}>
+          <div style={{ fontSize: 20, fontWeight: 700 }}>Mes dossiers</div>
+          <div style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 2 }}>
+            Les dossiers clients de {org.nom} — parlementaires ciblés, textes suivis, notes et actions.
+          </div>
+        </div>
+        <Btn variant="primary" size="sm" icon={<Icon n="plus" s={14} />} onClick={() => setCreation(c => !c)}>Nouveau dossier</Btn>
+      </div>
+
+      {nbArchives > 0 && (
+        <label style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12, color: 'var(--text-secondary)', margin: '8px 0 4px', cursor: 'pointer' }}>
+          <input type="checkbox" checked={voirArchives} onChange={(e) => setVoirArchives(e.target.checked)} />
+          Afficher les dossiers archivés ({nbArchives})
+        </label>
+      )}
+
+      <div style={{ marginTop: 14 }}>
+        {dossierMsgBox(msg)}
+
+        {creation && (
+          <form onSubmit={creer} style={{ ...DOSSIER_CARD, display: 'flex', flexDirection: 'column', gap: 10 }}>
+            <div style={DOSSIER_LBL}>Nouveau dossier client</div>
+            <input type="text" required maxLength={160} placeholder="Nom du client final (ex. Fédération X, Bayer…)"
+              value={nom} onChange={(e) => setNom(e.target.value)} style={DOSSIER_INPUT} autoFocus />
+            <textarea placeholder="Description courte (enjeu, périmètre de la mission…) — optionnel"
+              value={description} onChange={(e) => setDescription(e.target.value)} rows={2}
+              style={{ ...DOSSIER_INPUT, resize: 'vertical', fontFamily: 'var(--font-sans)' }} />
+            <div style={{ display: 'flex', gap: 8 }}>
+              <Btn type="submit" variant="primary" size="sm" disabled={!nom.trim() || busy}>{busy ? 'Création…' : 'Créer le dossier'}</Btn>
+              <Btn variant="secondary" size="sm" onClick={() => setCreation(false)}>Annuler</Btn>
+            </div>
+          </form>
+        )}
+
+        {dossiers === null ? (
+          <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Chargement…</div>
+        ) : visibles.length === 0 ? (
+          <div style={{ fontSize: 13, color: 'var(--text-tertiary)', padding: '18px 0' }}>
+            {dossiers.length === 0
+              ? 'Aucun dossier client pour l\'instant — créez le premier avec « Nouveau dossier ».'
+              : 'Tous vos dossiers sont archivés — cochez « Afficher les dossiers archivés ».'}
+          </div>
+        ) : (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12 }}>
+            {visibles.map(d => (
+              <button key={d.id} onClick={() => setOuvert(d)}
+                style={{ ...DOSSIER_CARD, marginBottom: 0, textAlign: 'left', cursor: 'pointer', fontFamily: 'var(--font-sans)', transition: 'box-shadow .14s,border-color .14s' }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--border-strong)'; e.currentTarget.style.boxShadow = 'var(--shadow-md, 0 6px 18px rgba(0,0,0,.08))'; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.boxShadow = 'none'; }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
+                  <Icon n="folder-kanban" s={16} color="var(--blue-france)" />
+                  <span style={{ fontSize: 14.5, fontWeight: 700, color: 'var(--ink)' }}>{d.nom_client_final}</span>
+                  {d.archive && <Bdg tone="amber">Archivé</Bdg>}
+                </div>
+                {d.description && (
+                  <div style={{ fontSize: 12.5, color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: 8,
+                    display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                    {d.description}
+                  </div>
+                )}
+                <div style={{ display: 'flex', gap: 12, fontSize: 11.5, color: 'var(--text-tertiary)' }}>
+                  <span><strong style={{ color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>{compte(d, 'dossier_parlementaires')}</strong> parlementaire{compte(d, 'dossier_parlementaires') > 1 ? 's' : ''}</span>
+                  <span><strong style={{ color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>{compte(d, 'dossiers_legislatifs_suivis')}</strong> texte{compte(d, 'dossiers_legislatifs_suivis') > 1 ? 's' : ''}</span>
+                  <span style={{ marginLeft: 'auto' }}>créé le {new Date(d.cree_le).toLocaleDateString('fr-FR')}</span>
+                </div>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
    DASHBOARD
    ============================================================ */
 const DASH_MODULES = [
@@ -2036,11 +2508,22 @@ const DASH_MODULES = [
 const DASH_VALUES = { '11':108,'84':92,'93':99,'76':104,'75':112,'44':101,'32':115,'52':95,'28':97,'53':90,'24':88,'27':100,'94':86 };
 const DASH_POP = { '11':'12,3 M','84':'8,0 M','93':'5,1 M','76':'6,0 M','75':'5,9 M','44':'3,8 M','32':'5,7 M','52':'3,3 M','28':'2,6 M','53':'3,3 M','24':'2,4 M','27':'2,8 M','94':'0,34 M' };
 
-function DashSidebar({ active, onSelect }) {
+function DashSidebar({ active, onSelect, signedIn }) {
   return (
     <aside className="db-side">
       <div className="db-brand"><BrandLogo size={24} /></div>
       <div className="db-side-scroll">
+        {signedIn && (
+          <>
+            <div className="db-side-cat">Espace client</div>
+            <button className={'db-mod' + (active === 'dossiers' ? ' on' : '')} onClick={() => onSelect('dossiers')}>
+              <Icon n="folder-kanban" s={17} />Mes dossiers
+            </button>
+            <button className={'db-mod' + (active === 'organisation' ? ' on' : '')} onClick={() => onSelect('organisation')}>
+              <Icon n="building" s={17} />Mon organisation
+            </button>
+          </>
+        )}
         <div className="db-side-cat">Modules</div>
         {DASH_MODULES.map(m => (
           <button key={m.id} className={'db-mod' + (m.id === active ? ' on' : '')} onClick={() => onSelect(m.id)}>
@@ -11192,11 +11675,13 @@ function Dashboard({ variant, go, user, onSignOut, orgState }) {
     (window.location.hash || '').startsWith('#ciblage') ? 'ciblage' : 'veille');
   return (
     <div className="db-app">
-      <DashSidebar active={module} onSelect={setModule} />
+      <DashSidebar active={module} onSelect={setModule} signedIn={!!user} />
       <div className="db-main">
         <DashTopBar go={go} user={user} onSignOut={onSignOut}
           org={orgState && orgState.org} onOpenOrganisation={user ? () => setModule('organisation') : null} />
-        {module === 'organisation'
+        {module === 'dossiers'
+          ? <div className="db-scroll"><MesDossiersModule user={user} orgState={orgState} /></div>
+          : module === 'organisation'
           ? <div className="db-scroll"><OrganisationModule user={user} orgState={orgState} /></div>
           : variant === 'modules'
           ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>

@@ -1124,10 +1124,10 @@ function Hero({ go }) {
           <p className="ln-lead">NomosLab centralise, structure et visualise en temps réel les données officielles de la France — pour comprendre l'état du pays en un coup d'œil.</p>
           <div className="ln-hero-cta">
             <Button variant="primary" size="lg" icon={<Icon n="arrow-right" />} onClick={() => go('signup')}>Créer un compte</Button>
-            <button onClick={() => go('login')} style={{ display:'flex',alignItems:'center',gap:8,background:'rgba(255,255,255,.07)',color:'#fff',border:'1px solid rgba(255,255,255,.14)',borderRadius:'var(--radius-md)',padding:'10px 20px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s,border-color .2s' }}
+            <button onClick={() => go('apercu')} style={{ display:'flex',alignItems:'center',gap:8,background:'rgba(255,255,255,.07)',color:'#fff',border:'1px solid rgba(255,255,255,.14)',borderRadius:'var(--radius-md)',padding:'10px 20px',fontFamily:'var(--font-sans)',fontSize:15,fontWeight:600,cursor:'pointer',transition:'background .2s,border-color .2s' }}
               onMouseEnter={e=>{e.currentTarget.style.background='rgba(255,255,255,.12)';e.currentTarget.style.borderColor='rgba(255,255,255,.25)'}}
               onMouseLeave={e=>{e.currentTarget.style.background='rgba(255,255,255,.07)';e.currentTarget.style.borderColor='rgba(255,255,255,.14)'}}>
-              <Icon n="play" s={16} /> Voir une démo
+              <Icon n="play" s={16} /> Explorer sans compte
             </button>
           </div>
           <div className="ln-nots">
@@ -1617,10 +1617,18 @@ function AuthScreen({ go, initialMode = 'signin' }) {
       <h1 className="auth-title">{title}</h1>
       <p className="auth-sub">{sub}</p>
 
+      {INVITE_TOKEN_URL && (
+        <div style={alertStyle('ok')}>
+          Vous avez reçu une invitation à rejoindre une organisation : connectez-vous (ou créez un compte)
+          avec l'adresse e-mail invitée pour la rejoindre automatiquement.
+        </div>
+      )}
+
       {mode !== 'forgot' && (
         <>
           <div className="sso-group">
             <SSOButton glyph={<GoogleGlyph />} label="Continuer avec Google" onClick={() => oauth('google')} disabled={!!busy && busy !== 'google'} />
+            <SSOButton glyph={<MicrosoftGlyph />} label="Continuer avec Microsoft" onClick={() => oauth('azure')} disabled={!!busy && busy !== 'azure'} />
           </div>
           <OrDivider>ou avec votre e-mail professionnel</OrDivider>
         </>
@@ -1657,6 +1665,349 @@ function AuthScreen({ go, initialMode = 'signin' }) {
         </div>
       )}
     </AuthLayout>
+  );
+}
+
+/* ============================================================
+   ORGANISATION — état multi-tenant (Supabase)
+   Charge les organisations de l'utilisateur connecté, consomme
+   les invitations (token d'URL ?invitation=… puis rattachement
+   automatique par e-mail) et expose l'organisation courante.
+   Données privées par cabinet : voir supabase/migrations/.
+   ============================================================ */
+const INVITE_TOKEN_URL = (() => {
+  try { return new URLSearchParams(window.location.search).get('invitation'); } catch (e) { return null; }
+})();
+const ORG_COURANTE_KEY = 'fm_org_courante_v1';
+
+function useOrganisations(session) {
+  const userId = session && session.user ? session.user.id : null;
+  const [orgs, setOrgs] = React.useState(null);      // null = chargement en cours, [] = aucune
+  const [orgId, setOrgId] = React.useState(() => { try { return localStorage.getItem(ORG_COURANTE_KEY); } catch (e) { return null; } });
+  const [inviteInfo, setInviteInfo] = React.useState('');
+  const tokenRef = React.useRef(INVITE_TOKEN_URL);   // consommé une seule fois par session
+
+  const refresh = React.useCallback(async () => {
+    if (!userId || !isSupabaseConfigured()) { setOrgs([]); return []; }
+    const { data, error } = await supabaseClient
+      .from('utilisateurs_organisations')
+      .select('role, invite_le, organisation:organisations(id, nom, logo_url, couleur_accent, plan)')
+      .order('invite_le');
+    if (error) { console.warn('Organisations : chargement impossible —', error.message); setOrgs([]); return []; }
+    const list = (data || []).filter(r => r.organisation).map(r => ({ ...r.organisation, role: r.role }));
+    setOrgs(list);
+    return list;
+  }, [userId]);
+
+  React.useEffect(() => {
+    if (!userId || !isSupabaseConfigured()) { setOrgs(userId ? null : []); return; }
+    let active = true;
+    (async () => {
+      // 1. Token d'invitation collé dans l'URL (lien envoyé manuellement par un admin).
+      if (tokenRef.current) {
+        const token = tokenRef.current; tokenRef.current = null;
+        const { error } = await supabaseClient.rpc('fm_accepter_invitation', { p_token: token });
+        if (active) setInviteInfo(error ? 'Invitation refusée : ' + error.message : 'Invitation acceptée — bienvenue !');
+        try { history.replaceState(null, '', window.location.pathname + window.location.hash); } catch (e) {}
+      }
+      // 2. Rattachement automatique : toute invitation en attente pour cet e-mail.
+      const { data: rejointes } = await supabaseClient.rpc('fm_rejoindre_par_email');
+      if (active && rejointes && rejointes.length) setInviteInfo('Invitation acceptée — bienvenue !');
+      if (active) await refresh();
+    })();
+    return () => { active = false; };
+  }, [userId, refresh]);
+
+  const org = React.useMemo(() => {
+    if (!orgs || !orgs.length) return null;
+    return orgs.find(o => o.id === orgId) || orgs[0];
+  }, [orgs, orgId]);
+
+  const choisirOrg = React.useCallback((id) => {
+    setOrgId(id);
+    try { localStorage.setItem(ORG_COURANTE_KEY, id); } catch (e) {}
+  }, []);
+
+  return {
+    loading: !!userId && orgs === null,
+    orgs: orgs || [],
+    org,
+    role: org ? org.role : null,
+    refresh, choisirOrg, inviteInfo,
+  };
+}
+
+/* ============================================================
+   ONBOARDING ORGANISATION — « en attente d'invitation »
+   Affiché après connexion quand l'utilisateur n'appartient à
+   aucune organisation : il en crée une, revérifie ses
+   invitations, ou continue vers les modules publics.
+   ============================================================ */
+function OrgOnboarding({ user, inviteInfo, onDone, onSkip, onSignOut }) {
+  const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
+  const [nom, setNom] = React.useState('');
+  const [busy, setBusy] = React.useState(null);        // 'creer' | 'verifier' | null
+  const [error, setError] = React.useState('');
+  const [info, setInfo] = React.useState(inviteInfo || '');
+  const email = (user && user.email) || '';
+
+  async function creer(e) {
+    e.preventDefault();
+    setError(''); setInfo(''); setBusy('creer');
+    const { error } = await supabaseClient.rpc('fm_creer_organisation', { p_nom: nom });
+    setBusy(null);
+    if (error) { setError(error.message); return; }
+    onDone();
+  }
+
+  async function verifier() {
+    setError(''); setInfo(''); setBusy('verifier');
+    const { data, error } = await supabaseClient.rpc('fm_rejoindre_par_email');
+    setBusy(null);
+    if (error) { setError(error.message); return; }
+    if (data && data.length) { onDone(); return; }
+    setInfo('Aucune invitation en attente pour ' + email + '. Demandez à un admin de votre cabinet de vous inviter.');
+  }
+
+  const alertStyle = (tone) => ({
+    borderRadius: 'var(--radius-md)', padding: '10px 12px', fontSize: 13, marginBottom: 12, lineHeight: 1.5,
+    background: tone === 'err' ? 'var(--red-50)' : 'var(--blue-50)',
+    color: tone === 'err' ? 'var(--red-700)' : 'var(--blue-700)',
+    border: '1px solid ' + (tone === 'err' ? 'var(--red-100)' : 'var(--blue-100)'),
+  });
+
+  return (
+    <AuthLayout>
+      <div className="auth-eyebrow">Votre espace de travail</div>
+      <h1 className="auth-title">Rejoindre une organisation</h1>
+      <p className="auth-sub">Connecté en tant que <strong>{email}</strong>. Les espaces clients (dossiers, notes, journal d'actions) sont rattachés à une organisation.</p>
+
+      {error && <div style={alertStyle('err')}>{error}</div>}
+      {info && <div style={alertStyle('ok')}>{info}</div>}
+
+      <form className="auth-fields" onSubmit={creer}>
+        <AuthField label="Créer l'organisation de votre cabinet" type="text" placeholder="Nom du cabinet (ex. Rivington Affaires publiques)"
+          value={nom} onChange={(e) => setNom(e.target.value)} />
+        <Btn type="submit" variant="primary" size="lg" fullWidth disabled={!nom.trim() || busy === 'creer'} iconRight={<Icon n="arrow-right" />}>
+          {busy === 'creer' ? 'Création…' : 'Créer mon organisation'}
+        </Btn>
+      </form>
+
+      <OrDivider>ou</OrDivider>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <Btn variant="secondary" size="lg" fullWidth disabled={busy === 'verifier'} onClick={verifier}>
+          {busy === 'verifier' ? 'Vérification…' : "J'ai été invité·e — vérifier mes invitations"}
+        </Btn>
+        <button className="auth-link" style={{ alignSelf: 'center' }} onClick={onSkip}>
+          Continuer vers les modules publics sans organisation
+        </button>
+      </div>
+
+      <div className="auth-switch">
+        Mauvais compte ? <button className="auth-link strong" onClick={onSignOut}>Se déconnecter</button>
+      </div>
+    </AuthLayout>
+  );
+}
+
+/* ============================================================
+   MODULE « MON ORGANISATION » — membres, rôles, invitations
+   Le frontend masque les actions non autorisées pour l'UX,
+   mais la sécurité réelle vient des policies RLS côté Supabase.
+   ============================================================ */
+function OrganisationModule({ user, orgState }) {
+  const { Button: Btn, Badge: Bdg } = window.FranceMonitorDesignSystem_5343d8;
+  const org = orgState && orgState.org;
+  const estAdmin = !!(orgState && orgState.role === 'admin');
+  const [membres, setMembres] = React.useState(null);
+  const [invitations, setInvitations] = React.useState(null);
+  const [invEmail, setInvEmail] = React.useState('');
+  const [invRole, setInvRole] = React.useState('membre');
+  const [busy, setBusy] = React.useState(false);
+  const [msg, setMsg] = React.useState(null);          // { tone:'ok'|'err', text }
+  const [copie, setCopie] = React.useState(null);      // id de l'invitation copiée
+
+  const chargerMembres = React.useCallback(async () => {
+    if (!org) return;
+    const { data, error } = await supabaseClient.rpc('fm_membres_organisation', { p_org: org.id });
+    if (error) { setMsg({ tone: 'err', text: 'Membres : ' + error.message }); return; }
+    setMembres(data || []);
+  }, [org && org.id]);
+
+  const chargerInvitations = React.useCallback(async () => {
+    if (!org || !estAdmin) { setInvitations([]); return; }
+    const { data, error } = await supabaseClient
+      .from('invitations')
+      .select('id, email, role, token, cree_le, expire_le')
+      .eq('organisation_id', org.id)
+      .is('accepte_le', null)
+      .order('cree_le', { ascending: false });
+    if (!error) setInvitations(data || []);
+  }, [org && org.id, estAdmin]);
+
+  React.useEffect(() => { setMembres(null); setInvitations(null); setMsg(null); chargerMembres(); chargerInvitations(); }, [chargerMembres, chargerInvitations]);
+
+  const lienInvitation = (t) => window.location.origin + window.location.pathname + '?invitation=' + t.token;
+
+  async function inviter(e) {
+    e.preventDefault();
+    setMsg(null); setBusy(true);
+    const { error } = await supabaseClient.from('invitations')
+      .insert({ organisation_id: org.id, email: invEmail, role: invRole, invite_par: user.id });
+    setBusy(false);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    setInvEmail('');
+    setMsg({ tone: 'ok', text: 'Invitation créée — copiez le lien ci-dessous et envoyez-le à votre invité·e.' });
+    chargerInvitations();
+  }
+
+  async function copier(t) {
+    try { await navigator.clipboard.writeText(lienInvitation(t)); setCopie(t.id); setTimeout(() => setCopie(null), 2500); }
+    catch (e) { window.prompt('Copiez le lien d\'invitation :', lienInvitation(t)); }
+  }
+
+  async function revoquer(t) {
+    const { error } = await supabaseClient.from('invitations').delete().eq('id', t.id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    chargerInvitations();
+  }
+
+  async function changerRole(m, role) {
+    setMsg(null);
+    const { error } = await supabaseClient.from('utilisateurs_organisations')
+      .update({ role }).eq('utilisateur_id', m.utilisateur_id).eq('organisation_id', org.id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); }
+    chargerMembres();
+  }
+
+  async function retirer(m) {
+    const soi = m.utilisateur_id === user.id;
+    if (!window.confirm(soi ? 'Quitter cette organisation ?' : 'Retirer ' + (m.email || 'ce membre') + ' de l\'organisation ?')) return;
+    setMsg(null);
+    const { error } = await supabaseClient.from('utilisateurs_organisations')
+      .delete().eq('utilisateur_id', m.utilisateur_id).eq('organisation_id', org.id);
+    if (error) { setMsg({ tone: 'err', text: error.message }); return; }
+    if (soi) { orgState.refresh(); } else { chargerMembres(); }
+  }
+
+  const inputStyle = { padding: '8px 12px', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', fontSize: 13, fontFamily: 'var(--font-sans)', outline: 'none', background: 'white' };
+  const cardStyle = { border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', background: 'var(--surface)', padding: '18px 20px', marginBottom: 16 };
+  const lblStyle = { fontSize: 11, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--text-tertiary)', marginBottom: 10 };
+
+  if (!user) {
+    return (
+      <div style={{ padding: '24px 28px', maxWidth: 860, margin: '0 auto' }}>
+        <div style={{ fontSize: 20, fontWeight: 700 }}>Mon organisation</div>
+        <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>Connectez-vous pour accéder à l'espace de votre cabinet.</p>
+      </div>
+    );
+  }
+  if (!org) {
+    return (
+      <div style={{ padding: '24px 28px', maxWidth: 860, margin: '0 auto' }}>
+        <div style={{ fontSize: 20, fontWeight: 700 }}>Mon organisation</div>
+        <p style={{ fontSize: 13, color: 'var(--text-secondary)' }}>Vous n'appartenez encore à aucune organisation : créez-en une ou faites-vous inviter (menu du compte → se reconnecter pour relancer l'onboarding).</p>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ padding: '24px 28px', maxWidth: 860, margin: '0 auto' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 4, flexWrap: 'wrap' }}>
+        <div style={{ fontSize: 20, fontWeight: 700 }}>{org.nom}</div>
+        <Bdg tone="blue">{estAdmin ? 'Admin' : 'Membre'}</Bdg>
+        {orgState.orgs.length > 1 && (
+          <select value={org.id} onChange={(e) => orgState.choisirOrg(e.target.value)} style={{ ...inputStyle, marginLeft: 'auto', cursor: 'pointer' }}>
+            {orgState.orgs.map(o => <option key={o.id} value={o.id}>{o.nom}</option>)}
+          </select>
+        )}
+      </div>
+      <div style={{ fontSize: 13, color: 'var(--text-secondary)', marginBottom: 20 }}>
+        Membres, rôles et invitations de votre cabinet. Les données des dossiers clients ne sont visibles que par cette organisation.
+      </div>
+
+      {msg && (
+        <div style={{ borderRadius: 'var(--radius-md)', padding: '10px 12px', fontSize: 13, marginBottom: 14, lineHeight: 1.5,
+          background: msg.tone === 'err' ? 'var(--red-50)' : 'var(--green-50)',
+          color: msg.tone === 'err' ? 'var(--red-700)' : 'var(--green-700)',
+          border: '1px solid ' + (msg.tone === 'err' ? 'var(--red-100)' : 'var(--green-100)') }}>
+          {msg.text}
+        </div>
+      )}
+
+      <div style={cardStyle}>
+        <div style={lblStyle}>Membres{membres ? ' (' + membres.length + ')' : ''}</div>
+        {membres === null ? (
+          <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Chargement…</div>
+        ) : (
+          membres.map(m => (
+            <div key={m.utilisateur_id} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 0', borderTop: '1px solid var(--border-subtle)' }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontSize: 13.5, fontWeight: 600 }}>{m.nom}{m.utilisateur_id === user.id ? ' (vous)' : ''}</div>
+                <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>{m.email}</div>
+              </div>
+              {estAdmin ? (
+                <select value={m.role} onChange={(e) => changerRole(m, e.target.value)} style={{ ...inputStyle, padding: '5px 8px', fontSize: 12, cursor: 'pointer' }}>
+                  <option value="admin">Admin</option>
+                  <option value="membre">Membre</option>
+                </select>
+              ) : (
+                <Bdg tone={m.role === 'admin' ? 'blue' : 'gray'}>{m.role === 'admin' ? 'Admin' : 'Membre'}</Bdg>
+              )}
+              {(estAdmin || m.utilisateur_id === user.id) && (
+                <button onClick={() => retirer(m)} title={m.utilisateur_id === user.id ? 'Quitter l\'organisation' : 'Retirer ce membre'}
+                  style={{ border: 'none', background: 'none', color: 'var(--red-600)', cursor: 'pointer', padding: 4 }}>
+                  <Icon n={m.utilisateur_id === user.id ? 'log-out' : 'user-minus'} s={15} />
+                </button>
+              )}
+            </div>
+          ))
+        )}
+      </div>
+
+      {estAdmin && (
+        <div style={cardStyle}>
+          <div style={lblStyle}>Inviter un·e collaborateur·rice</div>
+          <form onSubmit={inviter} style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            <input type="email" required placeholder="prenom@cabinet.fr" value={invEmail} onChange={(e) => setInvEmail(e.target.value)}
+              style={{ ...inputStyle, flex: 1, minWidth: 220 }} />
+            <select value={invRole} onChange={(e) => setInvRole(e.target.value)} style={{ ...inputStyle, cursor: 'pointer' }}>
+              <option value="membre">Membre</option>
+              <option value="admin">Admin</option>
+            </select>
+            <Btn type="submit" variant="primary" disabled={busy}>{busy ? 'Création…' : 'Créer l\'invitation'}</Btn>
+          </form>
+          <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)', marginTop: 8, lineHeight: 1.5 }}>
+            V1 sans e-mail automatique : un lien est généré, à copier et envoyer vous-même. L'invité·e qui se connecte
+            avec cette adresse rejoint l'organisation automatiquement (lien valable 14 jours).
+          </div>
+
+          {invitations && invitations.length > 0 && (
+            <div style={{ marginTop: 14 }}>
+              <div style={lblStyle}>Invitations en attente</div>
+              {invitations.map(t => (
+                <div key={t.id} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 0', borderTop: '1px solid var(--border-subtle)' }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: 13, fontWeight: 600 }}>{t.email}</div>
+                    <div style={{ fontSize: 11.5, color: 'var(--text-tertiary)' }}>
+                      {t.role === 'admin' ? 'Admin' : 'Membre'} · expire le {new Date(t.expire_le).toLocaleDateString('fr-FR')}
+                    </div>
+                  </div>
+                  <Btn variant="secondary" size="sm" onClick={() => copier(t)} icon={<Icon n={copie === t.id ? 'check' : 'copy'} s={13} />}>
+                    {copie === t.id ? 'Copié !' : 'Copier le lien'}
+                  </Btn>
+                  <button onClick={() => revoquer(t)} title="Révoquer l'invitation"
+                    style={{ border: 'none', background: 'none', color: 'var(--red-600)', cursor: 'pointer', padding: 4 }}>
+                    <Icon n="x" s={15} />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -1701,13 +2052,28 @@ function DashSidebar({ active, onSelect }) {
   );
 }
 
-function DashTopBar({ go, user, onSignOut }) {
-  const { SearchField, IconButton, Avatar } = window.FranceMonitorDesignSystem_5343d8;
+function DashTopBar({ go, user, onSignOut, org, onOpenOrganisation }) {
+  const { SearchField, IconButton, Avatar, Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
   const [menu, setMenu] = React.useState(false);
   const email = (user && user.email) || 'marie@organisation.fr';
   const name = (user && (user.user_metadata?.full_name || user.user_metadata?.name)) || email.split('@')[0];
   const initials = (name || 'U').split(/[ .\-_]/).filter(Boolean).slice(0, 2).map(s => s[0].toUpperCase()).join('') || 'U';
   const doSignOut = () => { setMenu(false); if (onSignOut) onSignOut(); else go('landing'); };
+
+  // Aperçu public sans compte : pas de menu utilisateur, invitation à se connecter.
+  if (!user) {
+    return (
+      <div className="db-top">
+        <div className="db-search"><SearchField shortcut="⌘K" /></div>
+        <div className="db-spacer" />
+        <div className="db-actions">
+          <span style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Aperçu public — les espaces clients nécessitent un compte</span>
+          <Btn variant="primary" size="sm" onClick={() => go('login')}>Se connecter</Btn>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="db-top">
       <div className="db-search"><SearchField shortcut="⌘K" /></div>
@@ -1724,6 +2090,11 @@ function DashTopBar({ go, user, onSignOut }) {
               <div className="db-menu-scrim" onClick={() => setMenu(false)} />
               <div className="db-menu">
                 <div className="db-menu-head"><Avatar initials={initials} tone="blue" /><div><div className="db-menu-nm">{name}</div><div className="db-menu-em">{email}</div></div></div>
+                {onOpenOrganisation && (
+                  <button className="db-menu-item" onClick={() => { setMenu(false); onOpenOrganisation(); }}>
+                    <Icon n="building" s={16} /> {org ? org.nom : 'Mon organisation'}
+                  </button>
+                )}
                 <button className="db-menu-item"><Icon n="user" s={16} /> Profil</button>
                 <button className="db-menu-item"><Icon n="settings" s={16} /> Paramètres</button>
                 <div className="db-menu-sep" />
@@ -10815,7 +11186,7 @@ function VeilleModule({ user }) {
   );
 }
 
-function Dashboard({ variant, go, user, onSignOut }) {
+function Dashboard({ variant, go, user, onSignOut, orgState }) {
   // Lien partagé "#ciblage?…" : ouvre directement le module Ciblage.
   const [module, setModule] = React.useState(() =>
     (window.location.hash || '').startsWith('#ciblage') ? 'ciblage' : 'veille');
@@ -10823,8 +11194,11 @@ function Dashboard({ variant, go, user, onSignOut }) {
     <div className="db-app">
       <DashSidebar active={module} onSelect={setModule} />
       <div className="db-main">
-        <DashTopBar go={go} user={user} onSignOut={onSignOut} />
-        {variant === 'modules'
+        <DashTopBar go={go} user={user} onSignOut={onSignOut}
+          org={orgState && orgState.org} onOpenOrganisation={user ? () => setModule('organisation') : null} />
+        {module === 'organisation'
+          ? <div className="db-scroll"><OrganisationModule user={user} orgState={orgState} /></div>
+          : variant === 'modules'
           ? <div className="db-scroll"><ModulesView onOpenModule={(id) => setModule(id || 'dette')} /></div>
           : module === 'veille'
             ? <div className="db-scroll"><VeilleModule user={user} /></div>
@@ -11604,8 +11978,12 @@ const ENTRY_SCREENS = ["landing", "login", "signup", "forgot", "dashboard"];
 
 function App() {
   const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
-  const [screen, setScreen] = React.useState("landing");   // navigation publique : 'landing' | 'login' | 'signup' | 'forgot'
+  // Navigation publique : 'landing' | 'login' | 'signup' | 'forgot' | 'apercu' (dashboard sans compte).
+  // Un lien d'invitation (?invitation=…) ouvre directement l'écran de création de compte.
+  const [screen, setScreen] = React.useState(INVITE_TOKEN_URL ? "signup" : "landing");
   const [session, setSession] = React.useState(undefined); // undefined = vérification en cours, null = déconnecté, objet = connecté
+  const orgState = useOrganisations(session);
+  const [orgSkip, setOrgSkip] = React.useState(false);     // « continuer sans organisation »
   const go = React.useCallback((s) => setScreen(s), []);
 
   // Session Supabase : source de vérité pour l'accès au dashboard. Aucune
@@ -11632,8 +12010,21 @@ function App() {
   if (session === undefined) {
     view = <AuthStatus phase="loading" />;   // vérification de la session en cours
   } else if (signedIn) {
+    if (orgState.loading) {
+      view = <AuthStatus phase="loading" />; // chargement des organisations / invitations
+    } else if (!orgState.org && !orgSkip) {
+      view = <OrgOnboarding user={session.user} inviteInfo={orgState.inviteInfo}
+                            onDone={orgState.refresh} onSkip={() => setOrgSkip(true)}
+                            onSignOut={() => supabaseClient && supabaseClient.auth.signOut()} />;
+    } else {
+      view = <Dashboard variant={t.dashboard === "Modules" ? "modules" : "terminal"} go={go}
+                        user={session.user} orgState={orgState}
+                        onSignOut={() => supabaseClient && supabaseClient.auth.signOut()} />;
+    }
+  } else if (screen === "apercu") {
+    // Modules publics accessibles sans compte ; les espaces clients exigent une connexion.
     view = <Dashboard variant={t.dashboard === "Modules" ? "modules" : "terminal"} go={go}
-                      user={session.user} onSignOut={() => supabaseClient && supabaseClient.auth.signOut()} />;
+                      user={null} orgState={null} onSignOut={null} />;
   } else if (screen === "landing") {
     view = <Landing heroVariant={HERO_MAP[t.hero] || "split"} go={go} />;
   } else {

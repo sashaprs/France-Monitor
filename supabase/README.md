@@ -23,6 +23,7 @@ n'existe pas dans Supabase et ne doit pas y être migré.
 | `migrations/20260706090300_crm_notes_tags.sql` | notes datées, tags d'organisation, tags posés sur un suivi |
 | `migrations/20260706090400_actions_influence.sql` | journal des actions d'influence (base de l'export d'aide HATVP) |
 | `migrations/20260706090500_storage_logos.sql` | bucket Storage privé `logos` (marque blanche) |
+| `migrations/20260706090600_membres_rpc.sql` | RPC `fm_membres_organisation` (e-mails des membres, réservé aux co-membres) |
 | `veille.sql` | préférences de veille **par utilisateur** (antérieur au multi-tenant, toujours actif) |
 | `schema.sql` | ⚠️ **OBSOLÈTE** — ébauche qui modélisait les données publiques en base, contraire à l'architecture actuelle. Ne pas exécuter. |
 
@@ -57,7 +58,7 @@ supabase db push
 ```
 
 **Option B — SQL Editor du Dashboard** : copier-coller le contenu des fichiers
-de `migrations/` **dans l'ordre des horodatages** (090000 → 090500). Chaque
+de `migrations/` **dans l'ordre des horodatages** (090000 → 090600). Chaque
 fichier est idempotent (`if not exists`, `drop policy if exists`) : le
 rejouer ne casse rien.
 

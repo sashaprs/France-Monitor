@@ -1,0 +1,82 @@
+{
+ "genere_le": "2026-07-07T07:44:02.204Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54623",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Pour un plan d’urgence canicule pour les hôpitaux",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/pour_plan_urgence_canicule_pour_hopitaux",
+   "dossier_id": "DLR5L17N54623",
+   "texte_matchable": "Pour un plan d’urgence canicule pour les hôpitaux Pour un plan d’urgence canicule pour les hôpitaux Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54006:en_navette",
+   "type": "changement_etape",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Pour une montagne vivante et souveraine — en navette",
+   "detail": "Statut : « en commission » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e",
+   "dossier_id": "DLR5L17N54006",
+   "texte_matchable": "Pour une montagne vivante et souveraine Pour une montagne vivante et souveraine Développement durable Jean-Pierre Vigier",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54624",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à mieux inscrire l'intercommunalité dans une logique de partenariat des territoires",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54624",
+   "dossier_id": "DLR5L17N54624",
+   "texte_matchable": "Proposition de loi visant à mieux inscrire l'intercommunalité dans une logique de partenariat des territoires Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54626",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à sauvegarder les conseils d'architecture, d'urbanisme et de l'environnement (CAUE)",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54626",
+   "dossier_id": "DLR5L17N54626",
+   "texte_matchable": "Proposition de loi visant à sauvegarder les conseils d'architecture, d'urbanisme et de l'environnement (CAUE) Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54625",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Proposition de loi constitutionnelle visant à garantir la compensation financière des transferts de compétences et des décisions de l'État qui aggravent les ch…",
+   "detail": "Projet ou proposition de loi constitutionnelle · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54625",
+   "dossier_id": "DLR5L17N54625",
+   "texte_matchable": "Proposition de loi constitutionnelle visant à garantir la compensation financière des transferts de compétences et des décisions de l'État qui aggravent les charges des collectivités territoriales Projet ou proposition de loi constitutionnelle Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54627",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à garantir l'accès au juge pénal aux victimes de délits commis à l'étranger",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54627",
+   "dossier_id": "DLR5L17N54627",
+   "texte_matchable": "Proposition de loi visant à garantir l'accès au juge pénal aux victimes de délits commis à l'étranger Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54628",
+   "type": "nouveau_dossier",
+   "date": "2026-07-07T07:44:02.204Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à protéger les demandeurs de logement contre les sollicitations sexuelles abusives",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54628",
+   "dossier_id": "DLR5L17N54628",
+   "texte_matchable": "Proposition de loi visant à protéger les demandeurs de logement contre les sollicitations sexuelles abusives Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  }
+ ]
+}

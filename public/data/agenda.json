@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T11:04:38.092Z",
+  "updatedAt": "2026-07-08T14:07:05.615Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460758",
@@ -275,8 +275,8 @@
       "uid": "RUANR5L17S2026IDC460682",
       "titre": "nomination des rapporteurs spéciaux sur le projet de loi de finances pour 2027 ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T07:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T07:05:00.000Z",
+      "dateFin": "2026-07-08T08:50:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -294,7 +294,7 @@
       "titre": "table ronde sur les stages dans le cadre de la scolarité générale réunissant M. Jean Hubac, chef du service de la vie de l’élève et des établissements à la direction générale de l’enseignement scolaire (Dgesco), Mme Christelle Meslé-Génin, présidente-fondatrice de JobIRL, et M. Stéphane Treppoz, entrepreneur ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T09:05:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -302,8 +302,8 @@
       "uid": "RUANR5L17S2026IDC460656",
       "titre": "audition, ouverte à la presse, de M. Christophe Lecourtier, directeur général de l’Agence française de développement (AFD), sur les activités et les perspectives du groupe AFD ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T07:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T07:35:00.000Z",
+      "dateFin": "2026-07-08T09:55:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -312,7 +312,7 @@
       "titre": "audition conjointe, sur l’évaluation environnementale, de M. Mathieu Lefèvre, ministre délégué chargé de la Transition écologique et de M. Laurent Michel, président de la formation d’autorité environnementale de l’inspection générale de l’environnement et du développement durable et Mme Sylvie Mathon, secrétaire générale de la conférence des autorités environnementales et secrétaire générale de l’IGEDD.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T10:05:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -561,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDS30836",
-      "titre": "Éventuellement, discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
+      "titre": "Discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
       "dateDebut": "2026-07-08T19:30:00.000Z",
       "dateFin": null,
@@ -765,6 +765,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460825",
+      "titre": "Désignation d’un vice-président ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle N° 2 – 3 Aristide Briand, 1er sous-sol",
+      "organisateur": "PO271860"
     },
     {
       "uid": "RUANR5L17S2026IDC460786",

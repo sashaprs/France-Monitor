@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-08T21:11:25.323Z",
+  "updatedAt": "2026-07-08T22:05:28.559Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460758",
-      "titre": "Réception par le groupe d'amitié France - Allemagne, présidé par Mme Sabine Thillaye, d'une délégation du groupe d'amitié Allemagne - France conduite par M. Roland Theis, Président »",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-05T22:00:00.000Z",
-      "dateFin": "2026-07-06T21:59:59.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO851673"
-    },
     {
       "uid": "RUSNR5L17S2026IDS30888",
       "titre": "Discussion",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T17:40:56.090Z",
+  "updatedAt": "2026-07-08T18:17:31.495Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460758",
@@ -266,8 +266,8 @@
       "uid": "RUANR5L17S2026IDC460586",
       "titre": "audition, ouverte à la presse, de M. Clément Beaune, Haut-commissaire à la Stratégie et au Plan, sur les travaux du Haut-commissariat relatifs à la défense.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T07:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T07:05:00.000Z",
+      "dateFin": "2026-07-08T08:55:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -285,7 +285,7 @@
       "titre": "nomination des rapporteurs sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T10:55:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -317,15 +317,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2026IDC460719",
-      "titre": "examen, selon la procédure de législation en commission, de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale (n° 2990) (M. Pierre Cazeneuve, rapporteur) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460816",
       "titre": "table ronde :",
       "type": "reunionCommission_type",
@@ -335,11 +326,20 @@
       "organisateur": "PO879195"
     },
     {
+      "uid": "RUANR5L17S2026IDC460719",
+      "titre": "examen, selon la procédure de législation en commission, de la proposition de résolution de Mme Yaël Braun-Pivet, présidente de l’Assemblée nationale, tendant à modifier le Règlement de l’Assemblée nationale (n° 2990) (M. Pierre Cazeneuve, rapporteur) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-08T08:05:00.000Z",
+      "dateFin": "2026-07-08T11:35:00.000Z",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460787",
       "titre": "audition de Mme Anne Laure Torresin, directrice générale de la Caisse centrale de la Mutualité sociale agricole, Mme Magali Rascle, directrice déléguée aux politiques sociales, et Mme Nadia Joubert, directrice des statistiques et de la science des données, sur le rapport transmis au ministre chargé de la sécurité sociale et au Parlement, en application de l’article L. 111 11 du code de la sécurité sociale, sur l’évolution des charges et des produits au titre de 2026.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T10:55:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -357,7 +357,7 @@
       "titre": "création d’une mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T10:15:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -500,8 +500,8 @@
       "uid": "RUANR5L17S2026IDC460645",
       "titre": "examen de la proposition de résolution européenne de M. Vincent Ledoux visant à lutter contre le vol de véhicules et les filières criminelles organisées en Europe (n° 2738).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T13:05:00.000Z",
+      "dateFin": "2026-07-08T13:35:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
     },
@@ -527,8 +527,8 @@
       "uid": "RUANR5L17S2026IDC460683",
       "titre": "présentation, par M. Karim Ben Cheikh, rapporteur spécial de la mission Action extérieure de l’État, du rapport d’évaluation des politiques publiques portant sur la situation budgétaire et les perspectives de l’AEFE, et audition de Mme Eléonore Caroit, ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, sur les conclusions de ce rapport",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T15:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T15:05:00.000Z",
+      "dateFin": "2026-07-08T16:05:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -768,7 +768,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460825",
-      "titre": "Désignation d’un vice-président ;",
+      "titre": "désignation d’un vice-président ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T09:00:00.000Z",
       "dateFin": null,

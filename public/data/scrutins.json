@@ -1,9 +1,42 @@
 {
-  "updatedAt": "2026-07-07T23:01:34.574Z",
+  "updatedAt": "2026-07-08T02:41:00.172Z",
   "scrutins": [
     {
+      "numero": "7988",
+      "titre": "la motion de rejet préalable, déposée par M. Bernalicis, du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquilité de nos concitoyens (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "276",
+      "pour": "72",
+      "contre": "203",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "7983",
+      "titre": "l'amendement n° 16 de M. Bompard au titre de la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "341",
+      "pour": "112",
+      "contre": "227",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7982",
+      "titre": "la proposition de prolongation de la séance en cours au-delà de vingt heures (proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions) (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "356",
+      "pour": "225",
+      "contre": "129",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7980",
-      "titre": "l'ensemble du projet de loi sur la justice criminelle et le respect des victimes (texte de la commission mixte paritaire).",
+      "titre": "l'ensemble du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
       "date": "2026-07-07",
       "sort": null,
       "nombreVotants": "535",
@@ -13,8 +46,52 @@
       "nonVotants": "1"
     },
     {
+      "numero": "7985",
+      "titre": "l'amendement n° 37 de Mme Hadizadeh au titre de la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "351",
+      "pour": "117",
+      "contre": "232",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7987",
+      "titre": "l'ensemble de la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "517",
+      "pour": "313",
+      "contre": "199",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7986",
+      "titre": "l'amendement n° 38 de M. Eskenazi au titre de la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "325",
+      "pour": "98",
+      "contre": "224",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "7984",
+      "titre": "l'amendement n° 32 de M. Amirshahi au titre de la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions (première lecture).",
+      "date": "2026-07-07",
+      "sort": null,
+      "nombreVotants": "342",
+      "pour": "105",
+      "contre": "234",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
       "numero": "7981",
-      "titre": "l'ensemble du projet de loi organique relatif au renforcement des juridictions criminelles (texte de la commission mixte paritaire).",
+      "titre": "l'ensemble du projet de loi organique relatif au renforcement des juridictions criminelles (première lecture).",
       "date": "2026-07-07",
       "sort": null,
       "nombreVotants": "542",
@@ -471,83 +548,6 @@
       "nombreVotants": "30",
       "pour": "10",
       "contre": "20",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7963",
-      "titre": "l'amendement n° 332 de M. Coulomme après l'article 9 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "24",
-      "contre": "59",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7949",
-      "titre": "l'amendement n° 83 de Mme Thiébault-Martinez à l'aticle 6 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "33",
-      "contre": "25",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7947",
-      "titre": "l'amendement n° 250 de M. Duplessy à l'aticle 6 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "19",
-      "contre": "46",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7942",
-      "titre": "l'article 4 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "62",
-      "pour": "62",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7948",
-      "titre": "l'amendement n° 253 de M. Duplessy à l'aticle 6 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "70",
-      "pour": "21",
-      "contre": "38",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7972",
-      "titre": "l'amendement n° 95 de Mme Capdevielle après l'article 12 du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-02",
-      "sort": null,
-      "nombreVotants": "93",
-      "pour": "32",
-      "contre": "57",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "7919",
-      "titre": "l'amendement n° 22 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 2 bis du projet de loi sur la justice criminelle et le respect des victimes (première lecture).",
-      "date": "2026-07-01",
-      "sort": null,
-      "nombreVotants": "116",
-      "pour": "43",
-      "contre": "73",
       "abstentions": "0",
       "nonVotants": "1"
     }

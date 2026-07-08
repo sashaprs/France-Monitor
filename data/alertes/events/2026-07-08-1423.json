@@ -1,0 +1,97 @@
+{
+ "genere_le": "2026-07-08T14:23:22.020Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54658",
+   "type": "nouveau_dossier",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires économiques s…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/avenir_commerces_proximite",
+   "dossier_id": "DLR5L17N54658",
+   "texte_matchable": "L’avenir des commerces de proximité rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires économiques sur l’avenir des commerces de proximité Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54657",
+   "type": "nouveau_dossier",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Nouveau dossier : Le naufrage financier et social du groupe Hopps et de sa filiale Milee, l’utilisation des fonds publics alloués, le contrôle de la fraude systémique au chômage…",
+   "detail": "Résolution · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/naufrage_financier_social_groupe_Hopps_filiale_Milee",
+   "dossier_id": "DLR5L17N54657",
+   "texte_matchable": "Le naufrage financier et social du groupe Hopps et de sa filiale Milee, l’utilisation des fonds publics alloués, le contrôle de la fraude systémique au chômage partiel et la responsabilité des services de l’État Le naufrage financier et social du groupe Hopps et de sa filiale Milee, l’utilisation des fonds publics alloués, le contrôle de la fraude systémique au chômage partiel et la responsabilité des services de l’État Résolution Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54656",
+   "type": "nouveau_dossier",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budg…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/services_express_regionaux",
+   "dossier_id": "DLR5L17N54656",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le financement des services express régionaux métropolitains (SERM) rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le financement des services express régionaux métropolitains (SERM) Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54659",
+   "type": "nouveau_dossier",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Nouveau dossier : Pour une réponse diplomatique européenne aux enlèvements internationaux d'enfants",
+   "detail": "Résolution",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/reponse_diplomatique_europenne_enlevements_internationaux_enfants",
+   "dossier_id": "DLR5L17N54659",
+   "texte_matchable": "Pour une réponse diplomatique européenne aux enlèvements internationaux d'enfants Pour une réponse diplomatique européenne aux enlèvements internationaux d'enfants Résolution",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53940:en_navette",
+   "type": "changement_etape",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Projet de loi sur la justice criminelle et le respect des victimes — en navette",
+   "detail": "Statut : « en commission » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Projet de loi sur la justice criminelle et le respect des victimes sur la justice criminelle et le respect des victimes Lois Laure Miller",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59051B2990P0D1N000097",
+   "type": "nouvel_amendement",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "Amendement n° CL97 de Rapporteur — ART. 11",
+   "detail": "Cet amendement limite la possibilité du recours au temps législatif programmé pour les textes financiers à la première lecture. L'incapacité à laquelle fait face l'Assemblée nationale depuis plusieur…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2990/CION_LOIS/CL97",
+   "dossier_id": "DLR5L17N54596",
+   "texte_matchable": "Cet amendement limite la possibilité du recours au temps législatif programmé pour les textes financiers à la première lecture. L'incapacité à laquelle fait face l'Assemblée nationale depuis plusieur… ART. 11 Rapporteur Modification du Règlement de l'Assemblée nationale",
+   "profils": []
+  },
+  {
+   "id": "odj:854e785ff0bb3a76",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi sur la justice criminelle et le respect des victimes",
+   "detail": "mercredi 8 juillet à 21:30 · Discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
+   "url": null,
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes Assemblée Projet de loi sur la justice criminelle et le respect des victimes",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:1c0f2174f7709848",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-08T14:23:22.020Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi organique relatif au renforcement des juridictions criminelles",
+   "detail": "mercredi 8 juillet à 21:30 · Discussion, sur le rapport de la commission mixte paritaire, du projet de loi organique relatif au renforcement des juridictions criminelles",
+   "url": null,
+   "dossier_id": "DLR5L17N53942",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, du projet de loi organique relatif au renforcement des juridictions criminelles Assemblée Projet de loi organique relatif au renforcement des juridictions criminelles",
+   "profils": []
+  }
+ ]
+}

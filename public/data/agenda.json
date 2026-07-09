@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-09T12:08:19.486Z",
+  "updatedAt": "2026-07-09T15:17:35.886Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460705",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-06T13:00:00.000Z",
-      "dateFin": "2026-07-06T18:00:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
     {
       "uid": "RUANR5L17S2026IDC460706",
       "titre": "suite de l’examen des articles du projet de loi.",

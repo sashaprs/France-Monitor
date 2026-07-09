@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-09T17:59:11.412Z",
+  "updatedAt": "2026-07-09T19:49:45.842Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460706",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-06T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30826",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-06T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUSNR5L17S2026IDS30889",
       "titre": "Discussion",
@@ -677,17 +659,17 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460657",
-      "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (M. Pierre Pribetich, rapporteur).",
+      "uid": "RUANR5L17S2026IDC460829",
+      "titre": "M. Bruno Lasserre, haut fonctionnaire, auteur du rapport sur l’impartialité du service public de l’audiovisuel.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T07:30:00.000Z",
+      "dateDebut": "2026-07-13T07:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC460795",
-      "titre": "- présentation, par M. Emeric Salmon, rapporteur spécial de la mission Défense : Budget opérationnel de la défense, du rapport d’évaluation des politiques publiques portant sur le logement des militaires ;",
+      "titre": "présentation, par M. Emeric Salmon, rapporteur spécial de la mission Défense : Budget opérationnel de la défense, du rapport d’évaluation des politiques publiques portant sur le logement des militaires ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T07:30:00.000Z",
       "dateFin": null,
@@ -696,7 +678,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460792",
-      "titre": "-désignation des membres de la mission d’information sur les réseaux de collecte, d’acheminement et de distribution de l’eau.",
+      "titre": "désignation des membres de la mission d’information sur les réseaux de collecte, d’acheminement et de distribution de l’eau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T07:30:00.000Z",
       "dateFin": null,
@@ -704,8 +686,17 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2026IDC460657",
+      "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (M. Pierre Pribetich, rapporteur) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460782",
-      "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (Cojop) Alpes françaises 2030, et M. Vincent Roberti, directeur général.",
+      "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (Cojop) Alpes françaises 2030, et M. Vincent Roberti, directeur général ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:00:00.000Z",
       "dateFin": null,
@@ -714,7 +705,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460790",
-      "titre": "audition commune avec la commission des Affaires européennes de M. Laurent Nuñez, ministre de l’Intérieur, et discussion générale sur le projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n° 2024/1347, 2024/1348, 2024/1349, 2024/1350, 2024/1351, 2024/1352, 2024/1356, 2024/1358, 2024/1359 du Parlement européen et du Conseil du 14 mai 2024, et les dispositions nécessaires à la transposition de la directive (UE) 2024/1346 du Parlement européen et du Conseil du 14 mai 2024 (n° 2820).",
+      "titre": "audition de M. François-Noël Buffet, dont la nomination en tant que Défenseur des droits est proposée par le Président de la République, et vote sur cette proposition de nomination dans les conditions prévues par l’article 29-1 du Règlement (M. Hervé Saulignac, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:30:00.000Z",
       "dateFin": null,
@@ -723,7 +714,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460503",
-      "titre": "audition de M. Thomas Fatôme, directeur général de la Caisse nationale de l’assurance maladie (Cnam), sur le rapport « Améliorer la qualité du système de santé et maîtriser les dépenses. Propositions de l’assurance maladie pour 2027 », transmis au ministre chargé de la sécurité sociale et au Parlement en application de l’article L. 111 11 du code de la sécurité sociale (sous réserve de son adoption par le conseil de la Cnam).",
+      "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T09:00:00.000Z",
       "dateFin": null,
@@ -808,7 +799,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T14:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO415287"
     },
     {
@@ -822,7 +813,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460796",
-      "titre": "- présentation, par M. Damien Maudet et Mme Sophie Pantel, rapporteurs spéciaux de la mission Sécurités : Sécurité civile, du rapport d’évaluation des politiques publiques portant sur la valeur du sauvé et audition du colonel Jean-Paul BOSLAND, président de la Fédération nationale des sapeurs-pompiers de France, sur les conclusions de ce rapport.",
+      "titre": "présentation, par M. Damien Maudet et Mme Sophie Pantel, rapporteurs spéciaux de la mission Sécurités : Sécurité civile, du rapport d’évaluation des politiques publiques portant sur la valeur du sauvé, et audition du colonel Jean-Paul Bosland, président de la Fédération nationale des sapeurs-pompiers de France, sur les conclusions de ce rapport.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T15:00:00.000Z",
       "dateFin": null,
@@ -864,6 +855,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460828",
+      "titre": "audition de M. David Amiel, ministre de l’Action et des comptes publics, sur le rapport présenté en application du I de l’article 48 de la loi organique relative à la loi de finances.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDS30862",
@@ -974,6 +974,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2026IDC460830",
+      "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460788",
       "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant, sous réserve de sa communication à la commission des affaires sociales en application de l’article L.O. 132-3-1 du code des juridictions financières.",
       "type": "reunionCommission_type",
@@ -999,6 +1008,15 @@
       "dateFin": null,
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460831",
+      "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDFL460004",

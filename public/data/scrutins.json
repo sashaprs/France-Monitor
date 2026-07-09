@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-07-09T17:59:10.350Z",
+  "updatedAt": "2026-07-09T19:49:44.024Z",
   "scrutins": [
+    {
+      "numero": "8102",
+      "titre": "l'amendement n° 889 du Gouvernement et l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "40",
+      "contre": "58",
+      "abstentions": "35",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8108",
+      "titre": "l'amendement n° 282 de M. Courbon après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "99",
+      "pour": "12",
+      "contre": "87",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8092",
+      "titre": "le sous-amendement n° 1065 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "18",
+      "contre": "89",
+      "abstentions": "26",
+      "nonVotants": "2"
+    },
     {
       "numero": "8064",
       "titre": "l'amendement n° 624 de M. Bernalicis à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
@@ -10,6 +43,17 @@
       "pour": "34",
       "contre": "81",
       "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8094",
+      "titre": "le sous-amendement n° 1005 (rect.) de M. Amirshahi à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "18",
+      "contre": "89",
+      "abstentions": "26",
       "nonVotants": "2"
     },
     {
@@ -31,6 +75,17 @@
       "nombreVotants": "87",
       "pour": "23",
       "contre": "64",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8097",
+      "titre": "le sous-amendement n° 932 de Mme Taurinya à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "135",
+      "pour": "46",
+      "contre": "89",
       "abstentions": "0",
       "nonVotants": "2"
     },
@@ -68,6 +123,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8090",
+      "titre": "le sous-amendement n° 1063 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "129",
+      "pour": "20",
+      "contre": "87",
+      "abstentions": "22",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8067",
       "titre": "l'amendement n° 453 de M. Gillet à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
@@ -77,6 +143,72 @@
       "contre": "70",
       "abstentions": "11",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8095",
+      "titre": "le sous-amendement n° 1067 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "134",
+      "pour": "70",
+      "contre": "4",
+      "abstentions": "60",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8109",
+      "titre": "l'amendement n° 707 de Mme Faucillon après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "31",
+      "contre": "69",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8086",
+      "titre": "l'article 3 sexies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "115",
+      "pour": "79",
+      "contre": "33",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8111",
+      "titre": "l'amendement n° 807 de M. Damien Girard après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "85",
+      "pour": "31",
+      "contre": "54",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8082",
+      "titre": "l'amendement n° 805 de M. Rimane à l'article 3 quinquies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "104",
+      "pour": "33",
+      "contre": "71",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8114",
+      "titre": "l'amendement n° 741 de M. Caure à l'article 4 bis A du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "95",
+      "pour": "60",
+      "contre": "32",
+      "abstentions": "3",
+      "nonVotants": "2"
     },
     {
       "numero": "8063",
@@ -90,6 +222,83 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8087",
+      "titre": "le sous-amendement n° 929 de M. Bernalicis à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "131",
+      "pour": "46",
+      "contre": "85",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8096",
+      "titre": "le sous-amendement n° 1068 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "130",
+      "pour": "22",
+      "contre": "86",
+      "abstentions": "22",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8084",
+      "titre": "l'amendement n° 457 de M. Gillet à l'article 3 sexies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "114",
+      "pour": "27",
+      "contre": "86",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8091",
+      "titre": "le sous-amendement n° 1064 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "132",
+      "pour": "17",
+      "contre": "89",
+      "abstentions": "26",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8076",
+      "titre": "l'amendement n° 719 (rect.) de M. Croizier après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "42",
+      "contre": "52",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8110",
+      "titre": "l'amendement n° 708 de Mme Faucillon après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "27",
+      "contre": "69",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8078",
+      "titre": "l'amendement n° 702 de M. Lioret après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "30",
+      "contre": "58",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8048",
       "titre": "l'amendement n° 561 de M. Amirshahi et l'amendement identique suivant de suppression de l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
@@ -99,6 +308,17 @@
       "contre": "47",
       "abstentions": "0",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8100",
+      "titre": "le sous-amendement n° 1070 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "129",
+      "pour": "42",
+      "contre": "60",
+      "abstentions": "27",
+      "nonVotants": "2"
     },
     {
       "numero": "8049",
@@ -112,6 +332,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8080",
+      "titre": "l'amendement n° 455 de M. Gillet et l'amendement identique suivant après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "84",
+      "pour": "27",
+      "contre": "56",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8112",
+      "titre": "l'amendement n° 213 de M. Boucard après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "88",
+      "pour": "45",
+      "contre": "24",
+      "abstentions": "19",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8057",
       "titre": "l'amendement n° 657 de M. Bernalicis à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
@@ -121,6 +363,50 @@
       "contre": "57",
       "abstentions": "1",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8105",
+      "titre": "l'amendement n° 704 de Mme Faucillon après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "104",
+      "pour": "33",
+      "contre": "71",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8101",
+      "titre": "le sous-amendement n° 1071 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "39",
+      "contre": "88",
+      "abstentions": "6",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8089",
+      "titre": "le sous-amendement n° 931 de M. Bernalicis et le sous-amendement identique suivant à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "135",
+      "pour": "46",
+      "contre": "89",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8073",
+      "titre": "l'amendement n° 672 de M. Guitton après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "40",
+      "contre": "61",
+      "abstentions": "1",
+      "nonVotants": "2"
     },
     {
       "numero": "8062",
@@ -145,6 +431,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8115",
+      "titre": "l'amendement n° 84 de Mme Taurinya et les amendements identiques suivants à l'article 4 bis A du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "35",
+      "contre": "65",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8074",
+      "titre": "l'amendement n° 671 de M. Guitton après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "38",
+      "contre": "59",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8106",
+      "titre": "l'amendement n° 705 de Mme Faucillon après l'article 4 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "95",
+      "pour": "28",
+      "contre": "67",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8071",
       "titre": "l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
@@ -154,6 +473,28 @@
       "contre": "43",
       "abstentions": "0",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8085",
+      "titre": "l'amendement n° 888 (rect.) du Gouvernement à l'article 3 sexies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "108",
+      "pour": "80",
+      "contre": "5",
+      "abstentions": "23",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8072",
+      "titre": "l'amendement n° 37 de Mme Martin (Alpes-Maritimes) et les amendements identiques suivants après l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "47",
+      "contre": "62",
+      "abstentions": "3",
+      "nonVotants": "2"
     },
     {
       "numero": "8069",
@@ -178,6 +519,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8093",
+      "titre": "le sous-amendement n° 1066 de M. Courbon à l'amendement n° 889 du Gouvernement et à l'amendement identique suivant de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "date": "2026-07-09",
+      "sort": null,
+      "nombreVotants": "134",
+      "pour": "46",
+      "contre": "87",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8055",
       "titre": "l'amendement n° 616 de M. Bernalicis à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
@@ -189,366 +541,14 @@
       "nonVotants": "2"
     },
     {
-      "numero": "8060",
-      "titre": "l'amendement n° 261 de M. Vicot et les amendements identiques suivants à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+      "numero": "8103",
+      "titre": "l'amendement n° 840 de M. Marion de rétablissement de l'article 4 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
       "date": "2026-07-09",
       "sort": null,
-      "nombreVotants": "101",
-      "pour": "32",
-      "contre": "69",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8070",
-      "titre": "l'amendement n° 626 de M. Bernalicis à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "123",
-      "pour": "42",
-      "contre": "81",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8050",
-      "titre": "l'amendement n° 605 de Mme Taurinya à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "74",
-      "pour": "15",
-      "contre": "56",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8059",
-      "titre": "l'amendement n° 619 de M. Bernalicis à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "94",
-      "pour": "29",
-      "contre": "65",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8056",
-      "titre": "l'amendement n° 451 de M. Gillet à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "92",
-      "pour": "25",
-      "contre": "64",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8051",
-      "titre": "l'amendement n° 885 (rect.) du Gouvernement à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "39",
-      "contre": "37",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8066",
-      "titre": "l'amendement n° 625 de Mme Taurinya à l'article 3 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-09",
-      "sort": null,
-      "nombreVotants": "121",
-      "pour": "38",
-      "contre": "83",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8037",
-      "titre": "l'amendement n° 884 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "222",
-      "pour": "142",
-      "contre": "80",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8026",
-      "titre": "le sous-amendement n° 1027 de M. Vicot à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "215",
-      "pour": "62",
-      "contre": "150",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7995",
-      "titre": "le sous-amendement n° 996 de M. Amirshahi à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "71",
-      "contre": "147",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8032",
-      "titre": "le sous-amendement n° 1028 de M. Vicot et le sous-amendement identique suivant à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "77",
-      "contre": "141",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8040",
-      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi sur la justice criminelle et le respect des victimes (texte de la commission mixte paritaire).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "182",
-      "pour": "53",
-      "contre": "128",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8013",
-      "titre": "le sous-amendement n° 967 de M. Bernalicis à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "218",
-      "pour": "75",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7989",
-      "titre": "le sous-amendement n° 917 de M. Bernalicis à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "221",
-      "pour": "72",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7998",
-      "titre": "le sous-amendement n° 922 de Mme Taurinya à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "220",
-      "pour": "71",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8007",
-      "titre": "le sous-amendement n° 961 de M. Kerbrat à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "215",
-      "pour": "74",
-      "contre": "140",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8028",
-      "titre": "le sous-amendement n° 975 de M. Kerbrat à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "75",
-      "contre": "143",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7996",
-      "titre": "le sous-amendement n° 921 de M. Bernalicis à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "220",
-      "pour": "71",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8012",
-      "titre": "le sous-amendement n° 966 de Mme Taurinya à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "218",
-      "pour": "75",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8019",
-      "titre": "le sous-amendement n° 1075 de M. Kerbrat à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "220",
-      "pour": "76",
-      "contre": "144",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8018",
-      "titre": "le sous-amendement n° 972 de M. Bernalicis à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "216",
-      "pour": "75",
-      "contre": "140",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8027",
-      "titre": "le sous-amendement n° 974 de M. Kerbrat et les sous-amendements identiques suivants à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "216",
-      "pour": "73",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7993",
-      "titre": "le sous-amendement n° 990 de M. Amirshahi à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "70",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8011",
-      "titre": "le sous-amendement n° 965 de Mme Taurinya à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "214",
-      "pour": "72",
-      "contre": "141",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8033",
-      "titre": "le sous-amendement n° 977 de M. Bernalicis et les sous-amendements identiques suivants à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "215",
-      "pour": "75",
-      "contre": "139",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7999",
-      "titre": "le sous-amendement n° 992 de M. Amirshahi à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "71",
-      "contre": "148",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8024",
-      "titre": "le sous-amendement n° 1024 de M. Vicot et le sous-amendement identique suivant à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "216",
-      "pour": "73",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8017",
-      "titre": "le sous-amendement n° 971 de Mme Taurinya à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "75",
-      "contre": "143",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7997",
-      "titre": "le sous-amendement n° 991 de M. Amirshahi à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "220",
-      "pour": "71",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8014",
-      "titre": "le sous-amendement n° 968 de Mme Taurinya à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "218",
-      "pour": "75",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "7992",
-      "titre": "le sous-amendement n° 989 de M. Amirshahi à l'amendement n° 883 (rect.) du Gouvernement et à l'amendement identique suivant de rétablissement de l'article premier (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "219",
-      "pour": "70",
-      "contre": "149",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8029",
-      "titre": "le sous-amendement n° 976 de M. Kerbrat à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "218",
-      "pour": "75",
-      "contre": "142",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8008",
-      "titre": "le sous-amendement n° 962 de M. Bernalicis à l'amendement n° 884 du Gouvernement et aux amendements identiques suivants de rétablissement de l'article 2 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-08",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "74",
-      "contre": "137",
-      "abstentions": "1",
+      "nombreVotants": "131",
+      "pour": "37",
+      "contre": "58",
+      "abstentions": "36",
       "nonVotants": "2"
     }
   ]

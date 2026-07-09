@@ -1,6 +1,12 @@
 {
  "lots": [
   {
+   "fichier": "2026-07-09-0741.json",
+   "genere_le": "2026-07-09T07:41:20.075Z",
+   "nb_evenements": 64,
+   "nb_matches": 4
+  },
+  {
    "fichier": "2026-07-08-1939.json",
    "genere_le": "2026-07-08T19:39:21.743Z",
    "nb_evenements": 163,

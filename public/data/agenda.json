@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-09T04:57:45.593Z",
+  "updatedAt": "2026-07-09T07:40:09.503Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2026IDS30888",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-07-06T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2026IDC460696",
       "titre": "Déjeuner de travail en l'honneur de M. Roland THEIS, Président du groupe d'amitié du Bundestag et de Mme Sandra DETZER, Vice-présidente de ce groupe.",
@@ -252,6 +243,15 @@
       "dateFin": null,
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUSNR5L17S2026IDS30890",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-07-08T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2026IDC460586",

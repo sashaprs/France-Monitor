@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-09T10:58:08.307Z",
+  "updatedAt": "2026-07-09T12:08:19.486Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460696",
-      "titre": "Déjeuner de travail en l'honneur de M. Roland THEIS, Président du groupe d'amitié du Bundestag et de Mme Sandra DETZER, Vice-présidente de ce groupe.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-06T11:00:00.000Z",
-      "dateFin": "2026-07-06T12:30:00.000Z",
-      "lieu": "Petit hôtel de l'Assemblée nationale",
-      "organisateur": "PO851673"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30825",
-      "titre": "Discussion et vote sur la motion de censure déposée par Mmes Chatelain, Abomangoli et 56 députés, en application de l'article 49, alinéa 2 de la Constitution",
-      "type": "seance_type",
-      "dateDebut": "2026-07-06T12:00:00.000Z",
-      "dateFin": "2026-07-06T14:35:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460705",
       "titre": "suite de l’examen des articles du projet de loi.",
@@ -509,8 +491,8 @@
       "uid": "RUANR5L17S2026IDC460815",
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T14:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T14:40:00.000Z",
+      "dateFin": "2026-07-08T17:50:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO884178"
     },
@@ -536,8 +518,8 @@
       "uid": "RUANR5L17S2026IDC460768",
       "titre": "audition conjointe, ouverte à la presse, de M. Bernard Delcros, sénateur du Cantal, président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation, de Mme Nadine Bellurot, sénatrice de l’Indre, et de M. Thierry Cozic, sénateur de la Sarthe, rapporteurs d’une mission d’information relative à l'état des lieux de la compensation financière résultant des exonérations, dégrèvements et suppressions de fiscalité locale.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T15:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-08T15:35:00.000Z",
+      "dateFin": "2026-07-08T16:55:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO744127"
     },
@@ -732,7 +714,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460782",
-      "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (COJOP) Alpes françaises 2030, et M. Vincent Roberti, directeur général.",
+      "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (Cojop) Alpes françaises 2030, et M. Vincent Roberti, directeur général.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:00:00.000Z",
       "dateFin": null,

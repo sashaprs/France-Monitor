@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-10T13:11:51.538Z",
+  "updatedAt": "2026-07-10T14:35:27.859Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460707",
-      "titre": "suite de l’examen des articles du projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460644",
-      "titre": "–  La guerre en Ukraine, quel nouveau paradigme pour l'Europe de la Défense ? : examen du rapport d’information de M. Maxime Michelet et Mme Michèle Tabarot (rapporteurs d’information)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460661",
-      "titre": "audition de M. Jean-Christophe Repon, président de la Confédération de l'artisanat et des petites entreprises du bâtiment (Capeb).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T14:30:00.000Z",
-      "dateFin": "2026-07-07T16:05:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460799",
-      "titre": "Compte rendu du déplacement d'une délégation du groupe d'amitié en Suisse du 18 au 20 mai 2026",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T14:30:00.000Z",
-      "dateFin": "2026-07-07T16:00:00.000Z",
-      "lieu": "Salle 4060",
-      "organisateur": "PO851492"
-    },
     {
       "uid": "RUANR5L17S2026IDC460793",
       "titre": "communication de M. Philippe Juvin, rapporteur général, sur le provisionnement des retraites des fonctionnaires.",

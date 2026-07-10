@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-10T21:09:06.744Z",
+  "updatedAt": "2026-07-10T22:02:59.477Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460813",
-      "titre": "Réception du groupe d'amitié Mexique - France de la Chambre des Députés du Mexique, présidé par Mme Alma Marina Vitela Rodriguez. \rCette réception comprend notamment une visite du Palais Bourbon, un déjeuner au Petit Hôtel en présence de membres du groupe d'amitié France - Mexique (mercredi 8 juillet) et une présentation du fac-similé intégral du Codex dit Borbonicus à la Bibliothèque de l'Assemblée nationale (jeudi 9 juillet à 14h30).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T22:00:00.000Z",
-      "dateFin": "2026-07-09T21:59:59.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO851592"
-    },
     {
       "uid": "RUANR5L17S2026IDC460823",
       "titre": "nomination du bureau ;",

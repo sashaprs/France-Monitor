@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-10T03:19:17.461Z",
+  "updatedAt": "2026-07-10T07:39:28.790Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2026IDS30889",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-07-07T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2026IDC460755",
       "titre": "évaluation de la compétitivité des ports français : examen du rapport (ouvert à la presse) ;",
@@ -519,9 +510,18 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
       "dateDebut": "2026-07-09T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-09T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUSNR5L17S2026IDS30891",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-07-09T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2026IDC460805",
@@ -564,7 +564,7 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
       "dateDebut": "2026-07-09T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-09T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -582,7 +582,7 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
       "dateDebut": "2026-07-09T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-09T22:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-10T10:58:19.227Z",
+  "updatedAt": "2026-07-10T13:11:51.538Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460814",
-      "titre": "Déjeuner en l'honneur de Son Exc. M. Hideo SUZUKI, ambassadeur du Japon en France",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T11:00:00.000Z",
-      "dateFin": "2026-07-07T13:00:00.000Z",
-      "lieu": "Petit Hôtel",
-      "organisateur": "PO851350"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460803",
-      "titre": "aIMCC :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T11:45:00.000Z",
-      "dateFin": "2026-07-07T12:45:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO883858"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460789",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi, adopté par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (n° 2850) (MM. Xavier Albertini et Vincent Caure, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-07T12:45:00.000Z",
-      "dateFin": "2026-07-07T12:50:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30827",
-      "titre": "Éloge funèbre de Béatrice Bellamy",
-      "type": "seance_type",
-      "dateDebut": "2026-07-07T13:00:00.000Z",
-      "dateFin": "2026-07-07T18:40:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460707",
       "titre": "suite de l’examen des articles du projet de loi.",
@@ -749,8 +713,17 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC460838",
+      "titre": "audition de Mme Isabelle Dufour, directrice des études stratégiques d'Eurocrise.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T12:00:00.000Z",
+      "dateFin": "2026-07-15T13:00:00.000Z",
+      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460775",
-      "titre": "audition de la Direction générale de l'armement",
+      "titre": "audition de M. Benoît Laroche de Roussane, directeur de l’industrie de défense de la Direction générale de l’armement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T13:00:00.000Z",
       "dateFin": null,
@@ -795,7 +768,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460776",
-      "titre": "audition de la Direction générale des relations internationales et de la stratégie",
+      "titre": "audition de l'Ingénieur général de l’armement hors classe Bertrand Le Meur, Directeur de la stratégie de défense, prospective et contre-prolifération à la DGRIS, accompagné par M. Alexandre Telliez, chargé de mission facteurs budgétaires et capacitaires de défense.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T14:30:00.000Z",
       "dateFin": null,
@@ -813,7 +786,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460777",
-      "titre": "audition de l'IGA Cordier-Lallouet, directeur adjoint de l’Agence de l’innovation de défense",
+      "titre": "audition de l'Ingénieur général de l’armement Nicolas Cordier-Lallouet, directeur adjoint de l’Agence de l’innovation de défense.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T16:00:00.000Z",
       "dateFin": null,
@@ -848,6 +821,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460839",
+      "titre": "audition du général Eric Espinal, commandant des forces aériennes de la Gendarmerie nationale et de M. François Desmadryl, directeur des soutiens et des finances de la Gendarmerie nationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-16T12:00:00.000Z",
+      "dateFin": "2026-07-16T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30861",
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
@@ -873,6 +855,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460840",
+      "titre": "déplacement au sein des Forces aériennes de la Gendarmerie nationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-17T07:00:00.000Z",
+      "dateFin": "2026-07-17T15:00:00.000Z",
+      "lieu": "Déplacement",
+      "organisateur": "PO880730"
     },
     {
       "uid": "RUANR5L17S2026IDS30863",
@@ -939,7 +930,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460774",
-      "titre": "audition du Général de brigade Mathieu FROMAGET et du Colonel Ronan CHIPON,  attachés de défense",
+      "titre": "audition des représentants de la Mission de défense et attaché d’armement en Italie: le Général de brigade Mathieu FROMAGET Attaché de défense français en Italie et le colonel Ronan Chipon, attaché d’armement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T14:30:00.000Z",
       "dateFin": null,
@@ -966,11 +957,29 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460808",
-      "titre": "audition du GCA Baratz, COMCCF.",
+      "titre": "audition du Général de corps d’armée Bruno BARATZ au Commandement du combat futur (CCF) de l'Armée de Terre.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-15T14:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460779",
+      "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le vice-amiral Jean-Marc DURANDAU,  directeur, et  l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460778",
+      "titre": "audition du vice-amiral d'escadre Eric MALBRUNOT, sous-chef d'état-major Plans de l'État-major des Armées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
     },
     {
@@ -990,24 +999,6 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460778",
-      "titre": "audition du SC-PLANS",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460779",
-      "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le VA Jean-Marc DURANDAU,  directeur, et  l'IGETA Jacques Sueur, directeur adjoint",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDC460831",

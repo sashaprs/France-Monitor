@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T23:11:54.171Z",
+  "updatedAt": "2026-07-10T03:19:17.461Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2026IDS30889",
@@ -177,7 +177,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T06:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T06:55:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO884277"
     },
@@ -186,7 +186,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-08T06:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-08T06:55:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO884284"
     },
@@ -837,6 +837,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460834",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-16T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle n° 263 (commission des affaires économiques)",
+      "organisateur": "PO884244"
     },
     {
       "uid": "RUANR5L17S2026IDS30860",

@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-11T13:27:15.726Z",
+  "updatedAt": "2026-07-11T14:57:38.678Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460811",
-      "titre": "audition de M. Albert Moukheiber, docteur en neurosciences.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T13:30:00.000Z",
-      "dateFin": "2026-07-08T14:30:00.000Z",
-      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO878513"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460815",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T14:40:00.000Z",
-      "dateFin": "2026-07-08T17:50:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884178"
-    },
     {
       "uid": "RUANR5L17S2026IDC460683",
       "titre": "présentation, par M. Karim Ben Cheikh, rapporteur spécial de la mission Action extérieure de l’État, du rapport d’évaluation des politiques publiques portant sur la situation budgétaire et les perspectives de l’AEFE, et audition de Mme Eléonore Caroit, ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, sur les conclusions de ce rapport",

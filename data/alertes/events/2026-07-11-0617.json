@@ -1,0 +1,242 @@
+{
+ "genere_le": "2026-07-11T06:17:58.828Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N51670:en_seance",
+   "type": "changement_etape",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Droit à l’aide à mourir — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/fin_de_vie_17e",
+   "dossier_id": "DLR5L17N51670",
+   "texte_matchable": "Fin de vie Droit à l’aide à mourir Affaires sociales Philippe Vigier",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54670",
+   "type": "nouveau_dossier",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à permettre la réquisition d'îlots de fraîcheur recevant du public lors des épisodes de canicule",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54670",
+   "dossier_id": "DLR5L17N54670",
+   "texte_matchable": "Proposition de loi visant à permettre la réquisition d'îlots de fraîcheur recevant du public lors des épisodes de canicule Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000327",
+   "type": "nouvel_amendement",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Amendement n° 327 de Marie-Charlotte Garin (EcoS) — ART. PREMIER",
+   "detail": "Le présent amendement vise à garantir que le réexamen et le renouvellement des mesures de placement judiciaire, qui conditionnent directement la stabilité du parcours et les conditions de vie de l'en…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/327",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que le réexamen et le renouvellement des mesures de placement judiciaire, qui conditionnent directement la stabilité du parcours et les conditions de vie de l'en… ART. PREMIER Marie-Charlotte Garin EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000104",
+   "type": "nouvel_amendement",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Amendement n° 104 de Sylvie Bonnet (DR) — APRÈS ART. PREMIER",
+   "detail": "Les enfants confiés à l'aide sociale à l'enfance présentent une prévalence particulièrement élevée de situations de handicap, de troubles du neurodéveloppement, de troubles psychiques ou de besoins m…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/104",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les enfants confiés à l'aide sociale à l'enfance présentent une prévalence particulièrement élevée de situations de handicap, de troubles du neurodéveloppement, de troubles psychiques ou de besoins m… APRÈS ART. PREMIER Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:603a45058714264e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "À l'ordre du jour — CS Protection des enfants : Projet de loi relatif à la protection des enfants",
+   "detail": "mercredi 15 juillet à 14:45 · examen, au titre de l’article 88 du Règlement, des amendements au projet de loi.",
+   "url": null,
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "examen, au titre de l’article 88 du Règlement, des amendements au projet de loi. CS Protection des enfants Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8277",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8277 : l'amendement n° 836 de Mme Saint-Paul après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "4 pour · 44 contre · 0 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8277",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 836 de Mme Saint-Paul après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8275",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8275 : l'amendement n° 679 de Mme Taurinya après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "21 pour · 26 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8275",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 679 de Mme Taurinya après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8249",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8249 : l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "30 pour · 19 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8249",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8254",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8254 : l'amendement n° 482 de Mme Taurinya à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "21 pour · 31 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8254",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 482 de Mme Taurinya à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8262",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8262 : l'amendement n° 665 de M. Bernalicis de rétablissement de l'article 17 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "24 pour · 31 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8262",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 665 de M. Bernalicis de rétablissement de l'article 17 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8247",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8247 : l'amendement n° 184 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "15 pour · 27 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8247",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 184 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8248",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8248 : l'amendement n° 476 de Mme Taurinya à l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "20 pour · 29 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8248",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 476 de Mme Taurinya à l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8270",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8270 : l'amendement n° 251 de Mme Bazin-Malgras et l'amendement identique suivant de rétablissement de l'article 18 bis (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "26 pour · 18 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8270",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 251 de Mme Bazin-Malgras et l'amendement identique suivant de rétablissement de l'article 18 bis (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8274",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8274 : l'amendement n° 288 de M. Vicot après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "20 pour · 27 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8274",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 288 de M. Vicot après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8261",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8261 : l'amendement n° 903 du Gouvernement de rétablissement de l'article 16 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "33 pour · 22 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8261",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 903 du Gouvernement de rétablissement de l'article 16 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8258",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8258 : l'amendement n° 187 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 13 bis du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "21 pour · 28 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8258",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 187 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 13 bis du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8272",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8272 : le sous-amendement n° 1017 de M. Amirshahi à l'amendement n° 914 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 24 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "17 pour · 28 contre · 0 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8272",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "le sous-amendement n° 1017 de M. Amirshahi à l'amendement n° 914 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 24 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8264",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8264 : le sous-amendement n° 944 de M. Bernalicis à l'amendement n° 905 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 18 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "22 pour · 28 contre · 1 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8264",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "le sous-amendement n° 944 de M. Bernalicis à l'amendement n° 905 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 18 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8266",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8266 : le sous-amendement n° 959 (rect.) de M. Bernalicis à l'amendement n° 905 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 18 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "23 pour · 29 contre · 0 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8266",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "le sous-amendement n° 959 (rect.) de M. Bernalicis à l'amendement n° 905 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 18 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8273",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8273 : l'amendement n° 914 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 24 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "28 pour · 0 contre · 17 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8273",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 914 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 24 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8251",
+   "type": "resultat_scrutin",
+   "date": "2026-07-11T06:17:58.828Z",
+   "titre": "Scrutin n° 8251 : l'amendement n° 483 de M. Bernalicis à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "20 pour · 31 contre · 0 abstentions (2026-07-10)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8251",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 483 de M. Bernalicis à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  }
+ ]
+}

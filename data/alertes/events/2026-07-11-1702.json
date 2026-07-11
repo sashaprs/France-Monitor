@@ -1,0 +1,44 @@
+{
+ "genere_le": "2026-07-11T17:02:42.036Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000588",
+   "type": "nouvel_amendement",
+   "date": "2026-07-11T17:02:42.036Z",
+   "titre": "Amendement n° 588 de Colette Capdevielle (SOC) — APRÈS ART. 16",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à remettre au Parlement un rapport examinant les conditions de mise en œuvre d’un dispositif de justice transitionnelle. Le présent amendemen…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/588",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à remettre au Parlement un rapport examinant les conditions de mise en œuvre d’un dispositif de justice transitionnelle. Le présent amendemen… APRÈS ART. 16 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000436",
+   "type": "nouvel_amendement",
+   "date": "2026-07-11T17:02:42.036Z",
+   "titre": "Amendement n° 436 de Isabelle Santiago (SOC) — ART. 4",
+   "detail": "L'article 4 du projet de loi consacre, au sein de l'article L. 421-2 du code de l'action sociale et des familles, une nouvelle catégorie d'accueil par un assistant familial : l'« accueil relais », co…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/436",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 4 du projet de loi consacre, au sein de l'article L. 421-2 du code de l'action sociale et des familles, une nouvelle catégorie d'accueil par un assistant familial : l'« accueil relais », co… ART. 4 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000413",
+   "type": "nouvel_amendement",
+   "date": "2026-07-11T17:02:42.036Z",
+   "titre": "Amendement n° 413 de Sophie Pantel (SOC) — ART. 4",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/413",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 4 Sophie Pantel SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

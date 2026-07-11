@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-11T11:08:45.569Z",
+  "updatedAt": "2026-07-11T11:52:00.301Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460822",
-      "titre": "- audition\r– M. Pierre-François Mourier, recteur de la région académique Grand Est, recteur de l’académie de Nancy-Metz, chancelier des universités ; Mme Marie-Laure Jeannin, secrétaire générale de l’académie de Nancy-Metz ou M. Rodolphe Delmet, secrétaire général adjoint, directeur de l’organisation et de la performance (DOP), Mme Nadine Antonaccio, inspectrice pédagogique régionale de mathématiques, référente académique instruction en famille (IEF); M. Olivier Delmas, IA-DASEN des Vosges et M. Mickaël Cabbeke, IA-DASEN de Moselle.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T11:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880370"
-    },
     {
       "uid": "RUANR5L17S2026IDC460817",
       "titre": "fédération française des spiritueux – M. Géraud de la Noue, vice-président et, M. Thomas Gauthier, directeur général",

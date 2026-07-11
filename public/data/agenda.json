@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-11T14:57:38.678Z",
+  "updatedAt": "2026-07-11T15:56:05.553Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460683",
-      "titre": "présentation, par M. Karim Ben Cheikh, rapporteur spécial de la mission Action extérieure de l’État, du rapport d’évaluation des politiques publiques portant sur la situation budgétaire et les perspectives de l’AEFE, et audition de Mme Eléonore Caroit, ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, sur les conclusions de ce rapport",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T15:05:00.000Z",
-      "dateFin": "2026-07-08T16:05:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460732",
-      "titre": "audition, ouverte à la presse, de représentants du mouvement ATD Quart Monde : Mme Anne-Marie De Pasquale, déléguée nationale, Mme Mélina Marcoux, coordinatrice du pôle politique, et M. Louis Jurietti, membre de l’équipe d’animation du pôle politique.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460768",
-      "titre": "audition conjointe, ouverte à la presse, de M. Bernard Delcros, sénateur du Cantal, président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation, de Mme Nadine Bellurot, sénatrice de l’Indre, et de M. Thierry Cozic, sénateur de la Sarthe, rapporteurs d’une mission d’information relative à l'état des lieux de la compensation financière résultant des exonérations, dégrèvements et suppressions de fiscalité locale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T15:35:00.000Z",
-      "dateFin": "2026-07-08T16:55:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO744127"
-    },
     {
       "uid": "RUANR5L17S2026IDC460767",
       "titre": "audition de Mme Anne Cochou et M. Jean-Paul Goasguen, co-présidents de Sonerion Penn Ar Bed.",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T23:57:50.916Z",
+  "updatedAt": "2026-07-11T03:23:40.415Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460823",
@@ -456,7 +456,7 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
       "type": "seance_type",
       "dateDebut": "2026-07-10T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-10T17:35:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -603,6 +603,15 @@
       "dateFin": "2026-07-15T13:00:00.000Z",
       "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880730"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460856",
+      "titre": "examen, au titre de l’article 88 du Règlement, des amendements au projet de loi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883517"
     },
     {
       "uid": "RUANR5L17S2026IDC460775",
@@ -812,15 +821,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460854",
-      "titre": "- audition conjointe : \r– Uber Eats – M. Alexis Cintrat, senior public policy manager\r– Deliveroo – M. Rémi Malemba, responsable des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-20T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879195"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30878",
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
       "type": "seance_type",
@@ -875,6 +875,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC460854",
+      "titre": "- audition conjointe : \r– Uber Eats – M. Alexis Cintrat, senior public policy manager\r– Deliveroo – M. Rémi Malemba, responsable des affaires publiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO879195"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30880",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -927,6 +936,51 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460855",
+      "titre": "- table ronde :\r– Fédération syndicale des familles monoparentales – Mme Josette Elombo, présidente, et Mme Véronique Obé, chargée de mission \r– Union nationale des associations familiales – sous réserve de confirmation\r– Familles rurales – sous réserve de confirmation \r– Fédération des associations générales étudiantes – sous réserve de confirmation\r– Union nationale des étudiants de France – sous réserve de confirmation\r– Union nationale inter-universitaire – sous réserve de confirmation",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-23T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460857",
+      "titre": "ministère chargé de la santé – Direction générale de la santé – Dr Dinh-Phong Nguyen, sous-directeur adjoint de la santé des populations et de la prévention des maladies chroniques et, Mme Simone Alexe, cheffe du bureau de la prévention des addictions.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-24T06:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460858",
+      "titre": "ministère chargé de l’économie et des finances – Direction de la législation fiscale – sous réserve de confirmation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-24T07:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460859",
+      "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – en attente de la délégation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-24T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460860",
+      "titre": "- audition conjointe : \r– Ministère chargé de l’économie et des finances – Direction générale des douanes et des droits indirects – M. Gilbert Beltran, adjoint du directeur général\r– Ministère chargé de l’économie et des finances – Direction générale de la concurrence, de la consommation et de la répression des fraudes – en attente de la délégation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-28T06:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
     },
     {
       "uid": "RUANR5L17S2026IDC460808",

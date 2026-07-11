@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-11T15:56:05.553Z",
+  "updatedAt": "2026-07-11T17:00:00.769Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460767",
-      "titre": "audition de Mme Anne Cochou et M. Jean-Paul Goasguen, co-présidents de Sonerion Penn Ar Bed.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-08T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO878768"
-    },
     {
       "uid": "RUANR5L17S2026IDS30836",
       "titre": "Discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",

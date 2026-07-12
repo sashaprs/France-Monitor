@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-12T08:29:02.891Z",
+  "updatedAt": "2026-07-12T09:53:48.766Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460805",
-      "titre": "audition de Mme Julie Lassébie, économiste, autrice du chapitre IV « Besoins et politiques en matière de compétences à l’ère de l’intelligence artificielle » du rapport 2023 de l’OCDE sur l’IA au travail.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-09T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460806",
-      "titre": "table ronde avec le Conservatoire national des arts et métiers\r- mme Cécile Dejoux, professeure des universités au Conservatoire national des arts et métiers (Cnam), directrice de l’Observatoire des transformations managériales et RH.\r- mme Nathalie Greenan, économiste, professeure des universités au Cnam.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-09T09:30:00.000Z",
-      "dateFin": null,
-      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO882110"
-    },
     {
       "uid": "RUANR5L17S2026IDC460055",
       "titre": "Audition de Son Exc. M. Louino Volcy, Ambassadeur de la République d'Haïti en France",

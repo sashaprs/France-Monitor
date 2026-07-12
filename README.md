@@ -28,7 +28,7 @@ The design medium is **HTML/CSS/JS** — these are prototypes, not production co
 
 # Configuration Supabase — Authentification & Base de données
 
-L'application (`index.html`) intègre **Supabase** pour l'authentification (Google + Microsoft OAuth, Apple à venir) et pose les bases d'un schéma SQL relationnel pour les données des députés.
+L'application (`index.html`) intègre **Supabase** pour l'authentification (Google OAuth + e-mail/mot de passe, Apple à venir) et pose les bases d'un schéma SQL relationnel pour les données des députés.
 
 > ⚠️ Aucune vraie clé n'est committée. Le code contient des **placeholders** à remplacer par les valeurs de votre projet.
 
@@ -80,20 +80,11 @@ Dans **Authentication → URL Configuration** :
 
 **Côté Supabase** : *Authentication → Providers → Google* → *Enable* → coller **Client ID** + **Client secret** → *Save*.
 
-## 6. Activer le provider **Microsoft** (Azure)
+## 6. Microsoft (Azure) — retiré
 
-**Côté Azure Portal** (https://portal.azure.com) :
-1. **Microsoft Entra ID → App registrations → New registration**.
-2. Nom de l'app ; *Supported account types* : au choix (ex. *Accounts in any organizational directory and personal Microsoft accounts*).
-3. **Redirect URI** : type *Web*, valeur = l'URL de callback Supabase :
-   `https://VOTRE-PROJET.supabase.co/auth/v1/callback`
-4. Après création : noter l'**Application (client) ID**.
-5. **Certificates & secrets → New client secret** → copier la **Value** (le secret).
-6. (Selon la config) noter aussi l'**Directory (tenant) ID**.
+L'authentification **Microsoft a été retirée de l'application en juillet 2026** : Google OAuth et e-mail/mot de passe sont les seules méthodes de connexion. Plus aucun bouton ni appel `signInWithOAuth({ provider: 'azure' })` dans le code.
 
-**Côté Supabase** : *Authentication → Providers → Azure* → *Enable* → coller **Client ID** + **Secret** (et l'**Azure Tenant URL** si demandé, ex. `https://login.microsoftonline.com/<tenant-id>`) → *Save*.
-
-> Dans le code, le bouton Microsoft appelle `signInWithOAuth({ provider: 'azure' })`.
+> ⚠️ **À faire côté Supabase** : désactiver le toggle dans *Authentication → Providers → Azure* → *Disable* → *Save*. Les identifiants créés côté Azure Portal (App registration, client ID, secret) ne sont référencés nulle part dans ce dépôt — ils peuvent être supprimés dans Microsoft Entra ID quand la désactivation est confirmée.
 
 ## 7. Apple (plus tard)
 

@@ -805,15 +805,6 @@ const AppleGlyph = () => (
   </svg>
 );
 
-const MicrosoftGlyph = () => (
-  <svg width="16" height="16" viewBox="0 0 23 23" aria-hidden="true">
-    <rect x="1" y="1" width="10" height="10" fill="#F25022"/>
-    <rect x="12" y="1" width="10" height="10" fill="#7FBA00"/>
-    <rect x="1" y="12" width="10" height="10" fill="#00A4EF"/>
-    <rect x="12" y="12" width="10" height="10" fill="#FFB900"/>
-  </svg>
-);
-
 function SSOButton({ glyph, label, onClick, disabled = false, title, badge }) {
   const [hover, setHover] = React.useState(false);
   return (
@@ -1427,7 +1418,6 @@ function SSOGroup({ go }) {
     <div className="sso-group">
       <SSOButton glyph={<GoogleGlyph />} label="Continuer avec Google" onClick={() => go('loading')} />
       <SSOButton glyph={<AppleGlyph />} label="Continuer avec Apple" onClick={() => go('loading')} />
-      <SSOButton glyph={<MicrosoftGlyph />} label="Continuer avec Microsoft" onClick={() => go('loading')} />
     </div>
   );
 }
@@ -1545,14 +1535,14 @@ function AuthStatus({ phase }) {
 /* ============================================================
    AUTH SCREEN — connexion réelle via Supabase
    Reprend le style de la maquette « Se connecter » et branche
-   Google / Microsoft (OAuth) + e-mail/mot de passe.
+   Google (OAuth) + e-mail/mot de passe.
    ============================================================ */
 function AuthScreen({ go, initialMode = 'signin' }) {
   const { Button: Btn } = window.FranceMonitorDesignSystem_5343d8;
   const [mode, setMode] = React.useState(initialMode); // 'signin' | 'signup' | 'forgot'
   const [email, setEmail] = React.useState('');
   const [pw, setPw] = React.useState('');
-  const [busy, setBusy] = React.useState(null);         // 'google' | 'azure' | 'email' | null
+  const [busy, setBusy] = React.useState(null);         // 'google' | 'email' | null
   const [error, setError] = React.useState('');
   const [info, setInfo] = React.useState('');
   const configured = isSupabaseConfigured();
@@ -1628,7 +1618,6 @@ function AuthScreen({ go, initialMode = 'signin' }) {
         <>
           <div className="sso-group">
             <SSOButton glyph={<GoogleGlyph />} label="Continuer avec Google" onClick={() => oauth('google')} disabled={!!busy && busy !== 'google'} />
-            <SSOButton glyph={<MicrosoftGlyph />} label="Continuer avec Microsoft" onClick={() => oauth('azure')} disabled={!!busy && busy !== 'azure'} />
           </div>
           <OrDivider>ou avec votre e-mail professionnel</OrDivider>
         </>

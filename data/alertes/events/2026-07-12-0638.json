@@ -1,0 +1,70 @@
+{
+ "genere_le": "2026-07-12T06:38:17.375Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000545",
+   "type": "nouvel_amendement",
+   "date": "2026-07-12T06:38:17.375Z",
+   "titre": "Amendement n° 545 de Valérie Bazin-Malgras (DR) — ART. 5",
+   "detail": "Le dispositif suppose la consultation du bulletin n° 2 du casier judiciaire, du FIJAISV et, plus largement, le traitement d’informations pénales ou judiciaires sensibles par l’Ordre des médecins. La…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/545",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le dispositif suppose la consultation du bulletin n° 2 du casier judiciaire, du FIJAISV et, plus largement, le traitement d’informations pénales ou judiciaires sensibles par l’Ordre des médecins. La… ART. 5 Valérie Bazin-Malgras DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000273",
+   "type": "nouvel_amendement",
+   "date": "2026-07-12T06:38:17.375Z",
+   "titre": "Amendement n° 273 de Florence Herouin-Léautey (SOC) — ART. 6",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à ce que l'ordonnance de protection soit délivrée par le juge des affaires familiales dans un délai maximal de six jours à compter de la de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/273",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à ce que l'ordonnance de protection soit délivrée par le juge des affaires familiales dans un délai maximal de six jours à compter de la de l… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000371",
+   "type": "nouvel_amendement",
+   "date": "2026-07-12T06:38:17.375Z",
+   "titre": "Amendement n° 371 de Arnaud Bonnet (EcoS) — ART. 6",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/371",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 6 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000149",
+   "type": "nouvel_amendement",
+   "date": "2026-07-12T06:38:17.375Z",
+   "titre": "Amendement n° 149 de Anne-Laure Blin (DR) — ART. 6",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/149",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 6 Anne-Laure Blin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N000147",
+   "type": "nouvel_amendement",
+   "date": "2026-07-12T06:38:17.375Z",
+   "titre": "Amendement n° 147 de Isabelle Santiago (SOC) — ART. 8",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à mieux articuler l'intervention du juge des enfants et le pilotage départemental de l'assistance éducative en milieu ouvert. Dans sa rédacti…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/147",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à mieux articuler l'intervention du juge des enfants et le pilotage départemental de l'assistance éducative en milieu ouvert. Dans sa rédacti… ART. 8 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

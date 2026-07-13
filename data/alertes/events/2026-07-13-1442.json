@@ -1,0 +1,18 @@
+{
+ "genere_le": "2026-07-13T14:42:26.720Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N53940:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-13T14:42:26.720Z",
+   "titre": "Projet de loi sur la justice criminelle et le respect des victimes — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Projet de loi sur la justice criminelle et le respect des victimes sur la justice criminelle et le respect des victimes Lois Laure Miller",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

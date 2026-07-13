@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-13T11:16:03.793Z",
+  "updatedAt": "2026-07-13T14:42:04.990Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30834",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-10T13:00:00.000Z",
-      "dateFin": "2026-07-10T17:35:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDS30835",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",

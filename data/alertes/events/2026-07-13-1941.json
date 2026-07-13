@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-07-13T19:41:40.601Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59047BTC2939P0D1N000020",
+   "type": "nouvel_amendement",
+   "date": "2026-07-13T19:41:40.601Z",
+   "titre": "Amendement n° AE20 de Rapporteur — TITRE",
+   "detail": "Le présent amendement vise à modifier le titre de la proposition de résolution européenne afin de circonscrire son objet aux seuls systèmes d’armes létales autonomes (SALA). Une formulation visant in…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE20",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Le présent amendement vise à modifier le titre de la proposition de résolution européenne afin de circonscrire son objet aux seuls systèmes d’armes létales autonomes (SALA). Une formulation visant in… TITRE Rapporteur Un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et l’élaboration d’une position commune…",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59047BTC2939P0D1N000021",
+   "type": "nouvel_amendement",
+   "date": "2026-07-13T19:41:40.601Z",
+   "titre": "Amendement n° AE21 de Rapporteur — ART. UNIQUE",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE21",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Amendement rédactionnel. ART. UNIQUE Rapporteur Un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et l’élaboration d’une position commune…",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59047BTC2939P0D1N000022",
+   "type": "nouvel_amendement",
+   "date": "2026-07-13T19:41:40.601Z",
+   "titre": "Amendement n° AE22 de Rapporteur — ART. UNIQUE",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE22",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Amendement rédactionnel. ART. UNIQUE Rapporteur Un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et l’élaboration d’une position commune…",
+   "profils": []
+  }
+ ]
+}

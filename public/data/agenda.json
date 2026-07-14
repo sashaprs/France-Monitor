@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-14T19:24:57.109Z",
+  "updatedAt": "2026-07-14T20:59:56.566Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30887",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens (« RIPOST »)",
-      "type": "seance_type",
-      "dateDebut": "2026-07-11T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460829",
       "titre": "M. Bruno Lasserre, haut fonctionnaire, auteur du rapport sur l’impartialité du service public de l’audiovisuel.",

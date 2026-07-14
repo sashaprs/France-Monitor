@@ -4,3 +4,8 @@ data-cache/
 *.zip
 *.csv
 .DS_Store
+
+# Secrets locaux — ne jamais committer de clé API
+.env
+.env.*
+supabase/.env.local

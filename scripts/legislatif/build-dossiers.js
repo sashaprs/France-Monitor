@@ -132,6 +132,23 @@ function main() {
   const dossiers = {};      // uid → objet dossier complet
   const docToDossier = {};  // uid document → uid dossier (liens amendements/scrutins)
   const docTitres = {};     // uid document → titre court (matching scrutins)
+  const docsParDossier = {}; // uid dossier → [{uid, type, type_libelle, titre, date}]
+
+  /* Types de documents exposés dans la fiche dossier (bouton « Résumer ce
+     texte »). Le texte intégral de chacun est servi en HTML par l'AN sur
+     https://www.assemblee-nationale.fr/dyn/docs/<uid>.raw (vérifié pour
+     chaque type ci-dessous). Les motions/lettres/allocutions sont exclues. */
+  const TYPES_DOCUMENTS = {
+    PRJL: 'Projet de loi',
+    PION: 'Proposition de loi',
+    PNRE: 'Proposition de résolution',
+    ACIN: 'Accord international',
+    RAPP: 'Rapport de commission',
+    RINF: "Rapport d'information",
+    AVIS: 'Avis',
+    ETDI: "Étude d'impact",
+    AVCE: "Avis du Conseil d'État",
+  };
 
   for (const { json } of zipEntries(dossiersZip, n => n.includes('/document/'))) {
     const doc = json.document;
@@ -140,6 +157,18 @@ function main() {
       docToDossier[doc.uid] = doc.dossierRef;
       const t = val(doc.titres && doc.titres.titrePrincipalCourt);
       if (t) docTitres[doc.uid] = decodeEntities(t);
+
+      const typeCode = doc.classification && doc.classification.type && doc.classification.type.code;
+      if (TYPES_DOCUMENTS[typeCode]) {
+        const chrono = doc.cycleDeVie && doc.cycleDeVie.chrono;
+        (docsParDossier[doc.dossierRef] = docsParDossier[doc.dossierRef] || []).push({
+          uid: doc.uid,
+          type: typeCode,
+          type_libelle: TYPES_DOCUMENTS[typeCode],
+          titre: truncate(decodeEntities(val(doc.titres && doc.titres.titrePrincipal) || ''), 200) || null,
+          date: chrono && chrono.dateDepot ? String(chrono.dateDepot).slice(0, 10) : null,
+        });
+      }
     }
   }
 
@@ -330,6 +359,11 @@ function main() {
       etapes: d.etapes.map(({ code, ...e }) => e), // code interne non publié
       scrutins: d.scrutins,
       amendements: d.amendements,
+      /* Documents dont le texte intégral est disponible sur l'AN (.raw),
+         triés du plus récent au plus ancien. Alimente le bouton IA
+         « Résumer ce texte » de la fiche dossier. */
+      documents: (docsParDossier[d.id] || [])
+        .sort((a, b) => (a.date || '') < (b.date || '') ? 1 : -1),
     };
     const p = path.join(OUT_DOSSIERS, `${d.id}.json`);
     fs.writeFileSync(p, JSON.stringify(fiche));

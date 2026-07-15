@@ -1,0 +1,18 @@
+{
+ "genere_le": "2026-07-15T17:21:20.092Z",
+ "evenements": [
+  {
+   "id": "odj:da82b77acb798f84",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-15T17:21:20.092Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi relatif à la protection des enfants",
+   "detail": "mardi 21 juillet à 15:00 · Vote solennel sur le projet de loi relatif à la protection des enfants",
+   "url": null,
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Vote solennel sur le projet de loi relatif à la protection des enfants Assemblée Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-07-15T19:17:06.078Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54678",
+   "type": "nouveau_dossier",
+   "date": "2026-07-15T19:17:06.078Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économi…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/printemps_evaluation_valeur_sauve",
+   "dossier_id": "DLR5L17N54678",
+   "texte_matchable": "La valeur du sauvé rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur la valeur du sauvé Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N51670:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-15T19:17:06.078Z",
+   "titre": "Droit à l’aide à mourir — adopté",
+   "detail": "Statut : « en séance » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/fin_de_vie_17e",
+   "dossier_id": "DLR5L17N51670",
+   "texte_matchable": "Fin de vie Droit à l’aide à mourir Affaires sociales Philippe Vigier",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54679",
+   "type": "nouveau_dossier",
+   "date": "2026-07-15T19:17:06.078Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économi…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/mecanisme_compte_affectation_speciale_pensions_csqs_operateurs_Etat_recherche_enseignement_sup",
+   "dossier_id": "DLR5L17N54679",
+   "texte_matchable": "Le mécanisme du compte d’affectation spéciale « Pensions » et ses conséquences pour les opérateurs de l’État du secteur de la recherche et de l’enseignement supérieur rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le mécanisme du compte d’affectation spéciale « Pensions » et ses conséquences pour les opérateurs de l’État du secteur de la recherche et de l’enseignement supérieur Rapport d'information sans mission",
+   "profils": []
+  }
+ ]
+}

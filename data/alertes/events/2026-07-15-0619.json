@@ -1,0 +1,31 @@
+{
+ "genere_le": "2026-07-15T06:19:23.375Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001184",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T06:19:23.375Z",
+   "titre": "Amendement n° 1184 de Marianne Maximi (LFI-NFP) — ART. 6",
+   "detail": "Cet amendement élargit la compétence du juge des enfants pour lui permettre de suspendre également le droit de correspondance du parent soupçonné d'exposer son enfant à un danger, par parallélisme av…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1184",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement élargit la compétence du juge des enfants pour lui permettre de suspendre également le droit de correspondance du parent soupçonné d'exposer son enfant à un danger, par parallélisme av… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001185",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T06:19:23.375Z",
+   "titre": "Amendement n° 1185 de Marianne Maximi (LFI-NFP) — ART. 6",
+   "detail": "Cet amendement vise à clarifier les critères de répartition entre juge des enfants et juge aux affaires familiales : dès lors que le procureur n’estime pas qu’une mesure d’assistance éducative soit n…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1185",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à clarifier les critères de répartition entre juge des enfants et juge aux affaires familiales : dès lors que le procureur n’estime pas qu’une mesure d’assistance éducative soit n… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

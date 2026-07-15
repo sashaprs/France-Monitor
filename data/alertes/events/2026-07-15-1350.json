@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-07-15T13:50:32.673Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54677",
+   "type": "nouveau_dossier",
+   "date": "2026-07-15T13:50:32.673Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économi…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/logement_herbergement_militaires_printemps_evaluation",
+   "dossier_id": "DLR5L17N54677",
+   "texte_matchable": "Le logement et l’hébergement des militaires rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le logement et l’hébergement des militaires Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54676",
+   "type": "nouveau_dossier",
+   "date": "2026-07-15T13:50:32.673Z",
+   "titre": "Nouveau dossier : Dénoncer le blocus économique, commercial et financier imposé à Cuba par les États-Unis d'Amérique et appeler à sa levée",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/denoncer_blocus_economique_commercial_financier_Cuba_Etats_Unis_levee",
+   "dossier_id": "DLR5L17N54676",
+   "texte_matchable": "Dénoncer le blocus économique, commercial et financier imposé à Cuba par les États-Unis d'Amérique et appeler à sa levée Dénoncer le blocus économique, commercial et financier imposé à Cuba par les États-Unis d'Amérique et appeler à sa levée Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N52781:promulgue",
+   "type": "changement_etape",
+   "date": "2026-07-15T13:50:32.673Z",
+   "titre": "Assurer le droit de chaque enfant à disposer d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_droit_avocat_mesure_assistance_educative_17e",
+   "dossier_id": "DLR5L17N52781",
+   "texte_matchable": "Assurer le droit de chaque enfant à disposer d’un avocat dans le cadre d’une mesure d’assistance éducative et de protection de l’enfance Droit de chaque enfant à disposer d'un avocat Lois Ayda Hadizadeh",
+   "profils": []
+  }
+ ]
+}

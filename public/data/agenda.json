@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T12:15:08.203Z",
+  "updatedAt": "2026-07-15T13:49:56.875Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460829",
@@ -15,7 +15,7 @@
       "titre": "présentation, par M. Emeric Salmon, rapporteur spécial de la mission Défense : Budget opérationnel de la défense, du rapport d’évaluation des politiques publiques portant sur le logement des militaires ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T09:20:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -33,7 +33,7 @@
       "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (M. Pierre Pribetich, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T09:25:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -42,7 +42,7 @@
       "titre": "audition de M. Edgar Grospiron, président du comité d’organisation des jeux olympiques et paralympiques (Cojop) Alpes françaises 2030, et M. Vincent Roberti, directeur général ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T09:15:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },

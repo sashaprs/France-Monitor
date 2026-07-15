@@ -7097,6 +7097,144 @@ function DeputeCRM({ dep }) {
   );
 }
 
+/* ============================================================
+   SYNTHÈSE IA DE POSITION (fonctionnalité B)
+   Appelle la Edge Function « ia-synthese » : matching des
+   votes/amendements/questions publics du député sur le sujet,
+   synthèse strictement sourcée, niveau de confiance CALCULÉ
+   côté serveur et vérification anti-hallucination programmée
+   (toute affirmation sans source vérifiable est écartée).
+   ============================================================ */
+const IA_SYNTHESE_URL = SUPABASE_URL + '/functions/v1/ia-synthese';
+
+const CONFIANCE_STYLES = {
+  'élevé':  { label: 'Confiance élevée',  color: '#15803D', bg: '#F0FDF4', border: '#BBF7D0' },
+  'moyen':  { label: 'Confiance moyenne', color: '#B45309', bg: '#FFFBEB', border: '#FDE68A' },
+  'faible': { label: 'Confiance faible',  color: 'var(--text-tertiary)', bg: 'var(--gray-50)', border: 'var(--border)' },
+};
+
+function DeputeSyntheseIA({ dep }) {
+  const { user } = React.useContext(AuthOrgContext);
+  const [sujet, setSujet] = React.useState('');
+  const [chargement, setChargement] = React.useState(false);
+  const [resultat, setResultat] = React.useState(null);
+  const [erreur, setErreur] = React.useState('');
+
+  React.useEffect(() => { setSujet(''); setResultat(null); setErreur(''); }, [dep?.id]);
+
+  const synthetiser = async () => {
+    if (!sujet.trim() || chargement) return;
+    setChargement(true); setErreur(''); setResultat(null);
+    try {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (!session) { setErreur('Connectez-vous pour utiliser la synthèse IA.'); return; }
+      const res = await fetch(IA_SYNTHESE_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + session.access_token,
+          apikey: SUPABASE_ANON_KEY,
+        },
+        body: JSON.stringify({ depute_id: 'PA' + String(dep.id).replace(/^PA/, ''), sujet: sujet.trim() }),
+      });
+      const corps = await res.json().catch(() => ({}));
+      if (!res.ok) { setErreur(corps.erreur || 'Erreur lors de la génération. Réessayez.'); return; }
+      setResultat(corps);
+    } catch (e) {
+      setErreur('Erreur réseau. Vérifiez votre connexion et réessayez.');
+    } finally {
+      setChargement(false);
+    }
+  };
+
+  const insuffisant = resultat && (resultat.statut === 'donnees_insuffisantes' || resultat.niveau_confiance === 'faible');
+  const conf = resultat && resultat.niveau_confiance ? CONFIANCE_STYLES[resultat.niveau_confiance] : null;
+
+  return (
+    <div style={{ border:'1px solid var(--border)', borderRadius:'var(--radius-lg)', background:'var(--surface)', overflow:'hidden' }}>
+      <div style={{ padding:'13px 16px', borderBottom:'1px solid var(--border-subtle)', display:'flex', alignItems:'center', gap:8 }}>
+        <Icon n="sparkles" s={14} color="#6D28D9" />
+        <span style={{ fontFamily:'var(--font-sans)', fontSize:11, fontWeight:700, letterSpacing:'0.09em', textTransform:'uppercase', color:'var(--text-tertiary)' }}>
+          Position sur un sujet
+        </span>
+      </div>
+      <div style={{ padding:'14px 16px' }}>
+        <div style={{ display:'flex', gap:8 }}>
+          <input value={sujet} onChange={e => setSujet(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') synthetiser(); }}
+            placeholder="ex. le nucléaire, la fiscalité des indépendants…"
+            disabled={chargement}
+            style={{ flex:1, minWidth:0, padding:'7px 10px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)',
+              fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--ink)', background:'white' }} />
+          <button onClick={synthetiser} disabled={chargement || !user || sujet.trim().length < 3}
+            title={!user ? 'Connexion requise' : undefined}
+            style={{ padding:'7px 12px', border:'1px solid var(--border)', borderRadius:'var(--radius-sm)', background:'white',
+              cursor: chargement || !user ? 'default' : 'pointer', fontFamily:'var(--font-sans)', fontSize:12, fontWeight:600,
+              color: !user ? 'var(--text-tertiary)' : 'var(--ink)', whiteSpace:'nowrap', opacity: chargement ? 0.6 : 1 }}>
+            {chargement ? 'Analyse…' : 'Synthétiser'}
+          </button>
+        </div>
+        {!user && <div style={{ marginTop:6, fontFamily:'var(--font-sans)', fontSize:11, color:'var(--text-tertiary)' }}>Connexion requise.</div>}
+        {chargement && <div style={{ marginTop:8, fontFamily:'var(--font-sans)', fontSize:11.5, color:'var(--text-tertiary)' }}>
+          Analyse des votes, amendements et questions…
+        </div>}
+        {erreur && <div style={{ marginTop:8, fontFamily:'var(--font-sans)', fontSize:12, color:'var(--neg)' }}>{erreur}</div>}
+
+        {resultat && insuffisant && (
+          <div style={{ marginTop:10, padding:'10px 12px', background:'var(--gray-50)', border:'1px solid var(--border-subtle)',
+            borderRadius:'var(--radius-md)', fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.5 }}>
+            Données insuffisantes pour synthétiser une position sur ce sujet.
+            {typeof resultat.nb_elements_trouves === 'number' && resultat.nb_elements_trouves > 0 &&
+              ` (${resultat.nb_elements_trouves} élément trouvé — trop peu pour une synthèse fiable.)`}
+          </div>
+        )}
+
+        {resultat && !insuffisant && resultat.statut === 'ok' && (
+          <div style={{ marginTop:10 }}>
+            <div style={{ display:'flex', alignItems:'center', gap:8, flexWrap:'wrap', marginBottom:8 }}>
+              <BadgeGenereIA />
+              {conf && (
+                <span style={{ fontFamily:'var(--font-sans)', fontSize:10.5, fontWeight:700, color:conf.color,
+                  background:conf.bg, border:'1px solid ' + conf.border, padding:'2px 9px', borderRadius:999 }}>
+                  {conf.label} · {resultat.nb_elements_trouves} éléments
+                </span>
+              )}
+            </div>
+            <div style={{ fontFamily:'var(--font-sans)', fontSize:12.5, color:'var(--text-secondary)', lineHeight:1.6 }}>
+              {resultat.synthese}
+            </div>
+            {resultat.verification && resultat.verification.affirmations_ecartees > 0 && (
+              <div style={{ marginTop:6, fontFamily:'var(--font-sans)', fontSize:10.5, color:'#B45309' }}>
+                {resultat.verification.affirmations_ecartees} affirmation{resultat.verification.affirmations_ecartees > 1 ? 's' : ''} sans
+                source vérifiable écartée{resultat.verification.affirmations_ecartees > 1 ? 's' : ''} automatiquement.
+              </div>
+            )}
+            {resultat.elements_sources && resultat.elements_sources.length > 0 && (
+              <div style={{ marginTop:10 }}>
+                <div style={{ fontFamily:'var(--font-sans)', fontSize:10.5, fontWeight:700, letterSpacing:'0.07em', textTransform:'uppercase',
+                  color:'var(--text-tertiary)', marginBottom:5 }}>Sources ({resultat.elements_sources.length})</div>
+                {resultat.elements_sources.map(src => (
+                  <div key={src.id} style={{ padding:'6px 0', borderTop:'1px solid var(--border-subtle)', fontFamily:'var(--font-sans)', fontSize:11.5, lineHeight:1.45 }}>
+                    <span style={{ fontFamily:'var(--font-mono)', fontSize:10, color:'var(--text-tertiary)' }}>
+                      [{src.id}] {src.type}{src.date ? ' · ' + src.date : ''}
+                    </span>
+                    <div style={{ color:'var(--text-secondary)' }}>
+                      {src.url
+                        ? <a href={src.url} target="_blank" rel="noopener" style={{ color:'var(--blue-france)' }}>{src.titre} ↗</a>
+                        : src.titre}
+                      {src.detail ? <span style={{ color:'var(--text-tertiary)' }}> — {src.detail}</span> : null}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function DeputeView({ dep, onBack }) {
   const { fiche, loading: ficheLoading, error: ficheError } = useDeputeFiche(dep?.id);
   const { news: allDepNews, loading: newsLoading } = useDeputesNews();
@@ -7305,6 +7443,7 @@ function DeputeView({ dep, onBack }) {
             </div>
           </div>
 
+          <DeputeSyntheseIA dep={dep} />
           <DeputeGroupesEtudes depId={dep.id} />
           <DeputeTravailleAvec fiche={fiche} />
           <DeputeCRM dep={dep} />

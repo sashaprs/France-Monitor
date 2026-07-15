@@ -1,0 +1,709 @@
+{
+ "genere_le": "2026-07-15T21:04:37.309Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B2984P0D2N000001",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1 du Gouvernement — APRÈS ART. 6 QUATER",
+   "detail": "Le présent amendement vise à supprimer l’exclusion des amendes forfaitaires délictuelles des mentions du bulletin n° 2 du casier judiciaire. Délivré à diverses autorités, administrations et employeur…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2984/AN/1",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Le présent amendement vise à supprimer l’exclusion des amendes forfaitaires délictuelles des mentions du bulletin n° 2 du casier judiciaire. Délivré à diverses autorités, administrations et employeur… APRÈS ART. 6 QUATER Gouvernement Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001202",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1202 de Arnaud Bonnet (EcoS) — ART. 5",
+   "detail": "Ce sous-amendement vise à compléter les dispositions relatives aux services à la personne en incluant spécifiquement le soutien scolaire, y compris lorsqu’il est réalisé de manière dématérialisée.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1202",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement vise à compléter les dispositions relatives aux services à la personne en incluant spécifiquement le soutien scolaire, y compris lorsqu’il est réalisé de manière dématérialisée. ART. 5 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001208",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1208 de Philippe Fait (HOR) — ART. 6",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1208",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001188",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1188 de Perrine Goulet (Dem) — ART. 6",
+   "detail": "Le présent sous-amendement vise à mettre fin à une impasse juridique dramatique qui frappe les parents protecteurs, le plus souvent les mères, lors de la révélation de violences intrafamiliales ou de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1188",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à mettre fin à une impasse juridique dramatique qui frappe les parents protecteurs, le plus souvent les mères, lors de la révélation de violences intrafamiliales ou de… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001189",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1189 de Perrine Goulet (Dem) — ART. 6",
+   "detail": "Le présent sous-amendement vise à améliorer l'information des victimes de violences sur leurs droits existants en matière de parcours de soins, afin de lutter contre le non-recours. L'article L. 160-…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1189",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à améliorer l'information des victimes de violences sur leurs droits existants en matière de parcours de soins, afin de lutter contre le non-recours. L'article L. 160-… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001193",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1193 de Catherine Ibled (EPR) — ART. 6",
+   "detail": "Le présent sous-amendement vise à réduire de quinze à huit jours le délai dans lequel le juge compétent doit statuer après sa saisine par le procureur de la République. Lorsqu'un enfant est exposé à…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1193",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à réduire de quinze à huit jours le délai dans lequel le juge compétent doit statuer après sa saisine par le procureur de la République. Lorsqu'un enfant est exposé à… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001203",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1203 de Thibault Bazin (DR) — ART. 5",
+   "detail": "L’article 5 et l’amendement de réécriture de la rapporteure couvrent les professionnels qui exercent les établissements de santé et tout autre lieu de soins. Le présent sous-amendement l’élargit sans…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1203",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 5 et l’amendement de réécriture de la rapporteure couvrent les professionnels qui exercent les établissements de santé et tout autre lieu de soins. Le présent sous-amendement l’élargit sans… ART. 5 Thibault Bazin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001196",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1196 de Philippe Fait (HOR) — ART. 5",
+   "detail": "Le présent amendement vise à renforcer la protection des mineurs lorsque des particuliers recourent, par l’intermédiaire d’une plateforme de mise en relation par voie électronique, à des personnes ap…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1196",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la protection des mineurs lorsque des particuliers recourent, par l’intermédiaire d’une plateforme de mise en relation par voie électronique, à des personnes ap… ART. 5 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001204",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1204 de Patricia Lemoine (EPR) — ART. 5",
+   "detail": "Ce sous-amendement prévoit une sanction pour l’employeur ou le responsable d’un établissement ou d’un service qui ne procèderait pas au contrôle de l’honorabilité de ses employés lorsque ceux-ci ont…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1204",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement prévoit une sanction pour l’employeur ou le responsable d’un établissement ou d’un service qui ne procèderait pas au contrôle de l’honorabilité de ses employés lorsque ceux-ci ont… ART. 5 Patricia Lemoine EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001213",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1213 de Alexandra Martin (Alpes-Maritimes) (DR) — ART. 5",
+   "detail": "Le présent sous-amendement de coordination donne compétence au ministre de la défense pour ce qui concerne les établissements et le personnel relevant de son autorité pour prendre les décisions relat…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1213",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement de coordination donne compétence au ministre de la défense pour ce qui concerne les établissements et le personnel relevant de son autorité pour prendre les décisions relat… ART. 5 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001207",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1207 du Gouvernement — ART. 9 TER",
+   "detail": "Le présent amendement vise à supprimer la modification de l’article L. 223-1-2 du code de l’action sociale et des familles, qui prévoit que la liste annexée au projet pour l’enfant deviendrait une li…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1207",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à supprimer la modification de l’article L. 223-1-2 du code de l’action sociale et des familles, qui prévoit que la liste annexée au projet pour l’enfant deviendrait une li… ART. 9 TER Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001205",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1205 du Gouvernement — ART. 7",
+   "detail": "Le présent sous-amendement vise à faire porter la responsabilité juridique de la conformité des outils numériques vis-à-vis des futurs référentiels de la protection de l’enfance aux éditeurs de ces o…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1205",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à faire porter la responsabilité juridique de la conformité des outils numériques vis-à-vis des futurs référentiels de la protection de l’enfance aux éditeurs de ces o… ART. 7 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001206",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1206 de Philippe Fait (HOR) — ART. 6",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1206",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001198",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1198 de Charlotte Parmentier-Lecocq (HOR) — ART. 5",
+   "detail": "L’article 5 et l’amendement de réécriture de la rapporteure couvrent les professionnels qui exercent les établissements de santé et tout autre lieu de soins. Le présent sous-amendement l’élargit sans…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1198",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 5 et l’amendement de réécriture de la rapporteure couvrent les professionnels qui exercent les établissements de santé et tout autre lieu de soins. Le présent sous-amendement l’élargit sans… ART. 5 Charlotte Parmentier-Lecocq HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001194",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1194 de Catherine Ibled (EPR) — ART. 6",
+   "detail": "Le sous-amendement substitue à l'expression « ordonnance de protection provisoire de l'enfant » celle d'« ordonnance de sûreté de l'enfant », plus conforme à l'esprit initial du texte. Cette dénomina…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1194",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le sous-amendement substitue à l'expression « ordonnance de protection provisoire de l'enfant » celle d'« ordonnance de sûreté de l'enfant », plus conforme à l'esprit initial du texte. Cette dénomina… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001201",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1201 de Violette Spillebout (EPR) — ART. 5",
+   "detail": "Ce sous-amendement étend le contrôle d’honorabilité des intervenants extérieurs aux établissements scolaires aux professionnels directement chargés de l’encadrement des mineurs sous statut scolaire o…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1201",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement étend le contrôle d’honorabilité des intervenants extérieurs aux établissements scolaires aux professionnels directement chargés de l’encadrement des mineurs sous statut scolaire o… ART. 5 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001192",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1192 de Catherine Ibled (EPR) — ART. 6",
+   "detail": "Les travaux de la commission d'enquête sur le traitement judiciaire des violences sexuelles incestueuses ont rappelé que les enfants peuvent être victimes de violences sexuelles, physiques ou psychol…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1192",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les travaux de la commission d'enquête sur le traitement judiciaire des violences sexuelles incestueuses ont rappelé que les enfants peuvent être victimes de violences sexuelles, physiques ou psychol… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001214",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1214 de Alexandra Martin (Alpes-Maritimes) (DR) — ART. 5",
+   "detail": "Le présent amendement de coordination a pour objet de permettre la suspension en cas de doute sur la capacité du militaire apparaissant lors des opérations périodiques de contrôle, de prendre en comp…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1214",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement de coordination a pour objet de permettre la suspension en cas de doute sur la capacité du militaire apparaissant lors des opérations périodiques de contrôle, de prendre en comp… ART. 5 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001211",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1211 de Philippe Fait (HOR) — ART. 6",
+   "detail": "Le présent sous-amendement vise à garantir l'effectivité de l'ordonnance de sûreté de l'enfant pendant toute la durée de la procédure pénale. En l'état, les mesures de protection risquent de prendre…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1211",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à garantir l'effectivité de l'ordonnance de sûreté de l'enfant pendant toute la durée de la procédure pénale. En l'état, les mesures de protection risquent de prendre… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001197",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1197 du Gouvernement — APRÈS ART. 16",
+   "detail": "Le présent amendement propose de généraliser les comités départementaux pour la protection de l’enfance pour en instaurer un par département, de préciser les objectifs du schéma départemental relatif…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1197",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement propose de généraliser les comités départementaux pour la protection de l’enfance pour en instaurer un par département, de préciser les objectifs du schéma départemental relatif… APRÈS ART. 16 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001191",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1191 de Catherine Ibled (EPR) — ART. 6",
+   "detail": "Le présent sous-amendement précise les conditions dans lesquelles le procureur de la République peut mettre en œuvre les mesures de protection prévues par le présent amendement. Cette rédaction répon…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1191",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement précise les conditions dans lesquelles le procureur de la République peut mettre en œuvre les mesures de protection prévues par le présent amendement. Cette rédaction répon… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001186",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1186 de Marine Hamelet (RN) — ART. 10",
+   "detail": "L'amendement n° 45 entend consacrer les protocoles adaptés au recueil de la parole des mineurs, tels que celui des salles dites « Mélanie ». Mais rédigé avec « ou », il fait de la formation des enquê…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1186",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'amendement n° 45 entend consacrer les protocoles adaptés au recueil de la parole des mineurs, tels que celui des salles dites « Mélanie ». Mais rédigé avec « ou », il fait de la formation des enquê… ART. 10 Marine Hamelet RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001190",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1190 de Perrine Goulet (Dem) — ART. 6",
+   "detail": "Le présent sous-amendement vise à substituer aux références limitées aux seuls parents de l'enfant la formulation plus générale de « des personnes ». Cette rédaction permet d'élargir le champ des per…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1190",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à substituer aux références limitées aux seuls parents de l'enfant la formulation plus générale de « des personnes ». Cette rédaction permet d'élargir le champ des per… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001216",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1216 de Constance de Pélichy (LIOT) — ART. 5",
+   "detail": "Le présent amendement prévoit l’application des dispositions du code de l'éducation relatives aux incapacités dans les formations professionnelles maritimes.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1216",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement prévoit l’application des dispositions du code de l'éducation relatives aux incapacités dans les formations professionnelles maritimes. ART. 5 Constance de Pélichy LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001195",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1195 de Catherine Ibled (EPR) — ART. 5",
+   "detail": "L’article 5 étend et renforce les mécanismes de contrôle de l’honorabilité des professionnels ou des bénévoles en contact avec des mineurs ou des personnes vulnérables. Ces contrôles doivent permettr…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1195",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 5 étend et renforce les mécanismes de contrôle de l’honorabilité des professionnels ou des bénévoles en contact avec des mineurs ou des personnes vulnérables. Ces contrôles doivent permettr… ART. 5 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001215",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1215 de Philippe Fait (HOR) — ART. 6",
+   "detail": "Le présent sous-amendement vise à renforcer l'effectivité de l'ordonnance de sûreté de l'enfant créée par le présent article. En premier lieu, il précise que, lorsque des éléments rendent vraisemblab…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1215",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à renforcer l'effectivité de l'ordonnance de sûreté de l'enfant créée par le présent article. En premier lieu, il précise que, lorsque des éléments rendent vraisemblab… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001187",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1187 du Gouvernement — APRÈS ART. 5",
+   "detail": "Le ministère de la culture, ses services à compétences nationales et les établissements publics emploient environ 6 400 personnes en contact habituel avec des mineurs. Les champs d’activités sont var…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1187",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le ministère de la culture, ses services à compétences nationales et les établissements publics emploient environ 6 400 personnes en contact habituel avec des mineurs. Les champs d’activités sont var… APRÈS ART. 5 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001212",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1212 de Alexandra Martin (Alpes-Maritimes) (DR) — ART. 5",
+   "detail": "Ce sous-amendement complète les dispositions de protection des militaires mineurs recevant une formation générale et professionnelle sous statut d’apprenti militaire adoptées en commission. À cet eff…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1212",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement complète les dispositions de protection des militaires mineurs recevant une formation générale et professionnelle sous statut d’apprenti militaire adoptées en commission. À cet eff… ART. 5 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001200",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1200 de Géraldine Bannier (Dem) — ART. 5",
+   "detail": "Ce sous-amendement étend le contrôle d’honorabilité des intervenants extérieurs aux établissements scolaires aux professionnels directement chargés de l’encadrement des mineurs sous statut scolaire o…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1200",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement étend le contrôle d’honorabilité des intervenants extérieurs aux établissements scolaires aux professionnels directement chargés de l’encadrement des mineurs sous statut scolaire o… ART. 5 Géraldine Bannier Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001210",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1210 de Arnaud Bonnet (EcoS) — ART. 5",
+   "detail": "L'amendement de réécriture globale n° 1050 harmonise les contrôles d'honorabilité, mais laisse le secteur de la santé insuffisamment protégé lorsqu'un professionnel est mis en cause en cours de procé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1210",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'amendement de réécriture globale n° 1050 harmonise les contrôles d'honorabilité, mais laisse le secteur de la santé insuffisamment protégé lorsqu'un professionnel est mis en cause en cours de procé… ART. 5 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001209",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1209 du Gouvernement — ART. 9",
+   "detail": "Le présent sous-amendement vise à préciser que la personne majeure accompagnant le mineur est désignée par le service départemental de l’aide sociale à l’enfance. Si l’assistant familial ou la person…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1209",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à préciser que la personne majeure accompagnant le mineur est désignée par le service départemental de l’aide sociale à l’enfance. Si l’assistant familial ou la person… ART. 9 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001199",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 1199 de Violette Spillebout (EPR) — ART. 5",
+   "detail": "Ce sous-amendement facilite l’articulation des interdictions administratives d’exercice prononcées dans les différents champs couverts par les contrôles de l’honorabilité, de sorte qu’une personne in…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1199",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement facilite l’articulation des interdictions administratives d’exercice prononcées dans les différents champs couverts par les contrôles de l’honorabilité, de sorte qu’une personne in… ART. 5 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3051P0D1N000053",
+   "type": "nouvel_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° 53 de Rapporteur — ART. 10",
+   "detail": "L'article 10 prévoit que l'application d'une réserve ou d'une priorité, qu'elle s'applique à un article ou à un amendement, conduit à modifier l'ordre des votes. Cet amendement fixe deux limites à ce…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3051/AN/53",
+   "dossier_id": "DLR5L17N54596",
+   "texte_matchable": "L'article 10 prévoit que l'application d'une réserve ou d'une priorité, qu'elle s'applique à un article ou à un amendement, conduit à modifier l'ordre des votes. Cet amendement fixe deux limites à ce… ART. 10 Rapporteur Modification du Règlement de l'Assemblée nationale",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000020:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE20 de Rapporteur : Adopté",
+   "detail": "Le présent amendement vise à modifier le titre de la proposition de résolution européenne afin de circonscrire son objet aux seuls systèmes d’armes létales autonomes (SALA). Une formulation visant in…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE20",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Le présent amendement vise à modifier le titre de la proposition de résolution européenne afin de circonscrire son objet aux seuls systèmes d’armes létales autonomes (SALA). Une formulation visant in… TITRE Rapporteur rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000021:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE21 de Rapporteur : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE21",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Amendement rédactionnel. ART. UNIQUE Rapporteur rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000022:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE22 de Rapporteur : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE22",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Amendement rédactionnel. ART. UNIQUE Rapporteur rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000018:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE18 de Rapporteur : Adopté",
+   "detail": "Cet amendement vise à actualiser la référence au texte évolutif du groupe d’experts gouvernementaux (GEG) sur les technologies émergentes dans le domaine des SALA. Ce texte, d’abord présenté sous la…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE18",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement vise à actualiser la référence au texte évolutif du groupe d’experts gouvernementaux (GEG) sur les technologies émergentes dans le domaine des SALA. Ce texte, d’abord présenté sous la… ART. UNIQUE Rapporteur rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000013:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE13 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE13",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000019:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE19 de Rapporteur : Adopté",
+   "detail": "Cet amendement de cohérence rédactionnelle vise à replacer les dispositions de l’alinéa 28 parmi les considérants de la proposition de résolution européenne.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE19",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement de cohérence rédactionnelle vise à replacer les dispositions de l’alinéa 28 parmi les considérants de la proposition de résolution européenne. ART. UNIQUE Rapporteur rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000015:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE15 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE15",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000016:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE16 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE16",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000009:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE9 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "La distinction entre SALA et SALIA risque d'apporter une confusion et n'est pas présente dans le texte évolutif du 5 juin 2026. Si cette distinction avait pu être faite dans par le Comité d'éthique d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE9",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "La distinction entre SALA et SALIA risque d'apporter une confusion et n'est pas présente dans le texte évolutif du 5 juin 2026. Si cette distinction avait pu être faite dans par le Comité d'éthique d… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000011:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE11 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE11",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000008:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE8 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Cet amendement vise à anticiper un éventuel blocage au moment de la réunion de novembre de la Convention sur certaines armes classiques, et d'envisager l'ouverture de nouvelles négociations en vue de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE8",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement vise à anticiper un éventuel blocage au moment de la réunion de novembre de la Convention sur certaines armes classiques, et d'envisager l'ouverture de nouvelles négociations en vue de… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000014:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE14 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE14",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000012:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE12 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE12",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Tous les systèmes d'armes autonomes ne sont pas létaux, comme les drones anti-missiles, les drones sous-marins et terrestres anti-mines. Pour autant, ils doivent entrer dans la catégorie des armes ré… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000017:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE17 de Yaël Ménaché (RN) : Adopté",
+   "detail": "Le présent amendement vise à préciser l'objet de la proposition de résolution en circonscrivant le champ du traité international appelé de ses vœux aux seuls systèmes d'armes létales autonomes (SALA)…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE17",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Le présent amendement vise à préciser l'objet de la proposition de résolution en circonscrivant le champ du traité international appelé de ses vœux aux seuls systèmes d'armes létales autonomes (SALA)… TITRE Yaël Ménaché RN rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000006:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE6 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Cet amendement vise à mentionner la dernière version du texte évolutif qui constitue le socle de consensus entre les membres du groupe d'experts gouvernementaux de la Convention sur certaines armes c…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE6",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement vise à mentionner la dernière version du texte évolutif qui constitue le socle de consensus entre les membres du groupe d'experts gouvernementaux de la Convention sur certaines armes c… ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000010:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE10 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Cet amendement vise à accroître le rôle de l'être humain, de son jugement et son discernement, dans la prise de décision pour l'engagement d'une cible par un système d'arme automatisé.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE10",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement vise à accroître le rôle de l'être humain, de son jugement et son discernement, dans la prise de décision pour l'engagement d'une cible par un système d'arme automatisé. ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000007:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE7 de Jean-Paul Lecoq (GDR) : Non soutenu",
+   "detail": "Cet amendement vise à ajouter de la précision et être plus fidèle au titre de la proposition de résolution européenne.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE7",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement vise à ajouter de la précision et être plus fidèle au titre de la proposition de résolution européenne. ART. UNIQUE Jean-Paul Lecoq GDR rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000003:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE3 de Aurélien Saintoul (LFI-NFP) : Adopté",
+   "detail": "Cet amendement du groupe La France insoumise vise à souligner l’enjeu de la régulation des technologies permettant l’autonomisation croissante des systèmes d’armes actuels. Le texte de cette PPRE dre…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE3",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement du groupe La France insoumise vise à souligner l’enjeu de la régulation des technologies permettant l’autonomisation croissante des systèmes d’armes actuels. Le texte de cette PPRE dre… ART. UNIQUE Aurélien Saintoul LFI-NFP rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000001:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE1 de Aurélien Saintoul (LFI-NFP) : Adopté",
+   "detail": "Cet amendement du groupe La France insoumise vise à mentionner les recommandations du comité d’éthique de la défense pour un usage de l’IA éthique et proportionné publié dans la foulée du Sommet pour…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE1",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement du groupe La France insoumise vise à mentionner les recommandations du comité d’éthique de la défense pour un usage de l’IA éthique et proportionné publié dans la foulée du Sommet pour… ART. UNIQUE Aurélien Saintoul LFI-NFP rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000004:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE4 de Aurélien Saintoul (LFI-NFP) : Adopté",
+   "detail": "Cet amendement du groupe La France insoumise vise à souligner la nécessité, pour une régulation effective des systèmes d’armes létaux automatisés, de penser les mécanismes et garde-fous permettant de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE4",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement du groupe La France insoumise vise à souligner la nécessité, pour une régulation effective des systèmes d’armes létaux automatisés, de penser les mécanismes et garde-fous permettant de… ART. UNIQUE Aurélien Saintoul LFI-NFP rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000005:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE5 de Aurélien Saintoul (LFI-NFP) : Adopté",
+   "detail": "Cet amendement du groupe La France insoumise vise à inviter le Conseil de l’Union européenne à soutenir les initiatives en faveur de l’interdiction des SALA par l’élaboration d’une position commune.…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE5",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement du groupe La France insoumise vise à inviter le Conseil de l’Union européenne à soutenir les initiatives en faveur de l’interdiction des SALA par l’élaboration d’une position commune.… ART. UNIQUE Aurélien Saintoul LFI-NFP rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59047BTC2939P0D1N000002:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Amendement n° AE2 de Aurélien Saintoul (LFI-NFP) : Adopté",
+   "detail": "Cet amendement du groupe La France insoumise vise à faire mention de l’engagement pris par la France et une trentaine d’autres pays lors du sommet de Paris sur l’Intelligence Artificielle de ne jamai…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2939/CION_AFETR/AE2",
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Cet amendement du groupe La France insoumise vise à faire mention de l’engagement pris par la France et une trentaine d’autres pays lors du sommet de Paris sur l’Intelligence Artificielle de ne jamai… ART. UNIQUE Aurélien Saintoul LFI-NFP rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:da82b77acb798f84",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi relatif à la protection des enfants",
+   "detail": "mardi 21 juillet à 15:00 · Vote solennel sur le projet de loi relatif à la protection des enfants",
+   "url": null,
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Vote solennel sur le projet de loi relatif à la protection des enfants Assemblée Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8279",
+   "type": "resultat_scrutin",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Scrutin n° 8279 : l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
+   "detail": "366 pour · 182 contre · 8 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8279",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8278",
+   "type": "resultat_scrutin",
+   "date": "2026-07-15T21:04:37.309Z",
+   "titre": "Scrutin n° 8278 : l'amendement n° 1 du Gouvernement après l'article 6 quater du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (seconde délibération) (première lecture).",
+   "detail": "148 pour · 68 contre · 0 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8278",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "l'amendement n° 1 du Gouvernement après l'article 6 quater du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (seconde délibération) (première lecture). Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  }
+ ]
+}

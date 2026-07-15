@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-15T19:16:52.973Z",
+  "updatedAt": "2026-07-15T20:08:29.741Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460829",
       "titre": "M. Bruno Lasserre, haut fonctionnaire, auteur du rapport sur l’impartialité du service public de l’audiovisuel.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-13T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-13T08:30:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO883902"
     },
@@ -24,7 +24,7 @@
       "titre": "désignation des membres de la mission d’information sur les réseaux de collecte, d’acheminement et de distribution de l’eau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T09:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -51,7 +51,7 @@
       "titre": "audition de M. François-Noël Buffet, dont la nomination en tant que Défenseur des droits est proposée par le Président de la République, et vote sur cette proposition de nomination dans les conditions prévues par l’article 29-1 du Règlement (M. Hervé Saulignac, rapporteur);",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T10:40:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59051"
     },
@@ -60,7 +60,7 @@
       "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T10:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -69,7 +69,7 @@
       "titre": "audition de M. Olivier Le Nézet, président du Comité national des pêches et des élevages marins.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T10:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -114,7 +114,7 @@
       "titre": "examen, au titre de l’article 88 du Règlement, des amendements au projet de loi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-15T12:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-15T12:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883517"
     },
@@ -144,6 +144,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460869",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-15T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, en salle n° 245",
+      "organisateur": "PO884420"
     },
     {
       "uid": "RUANR5L17S2026IDC460771",
@@ -279,6 +288,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460870",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-16T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle A245 - 2e étage Ouest",
+      "organisateur": "PO884420"
     },
     {
       "uid": "RUANR5L17S2026IDS30862",
@@ -432,6 +450,24 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460867",
+      "titre": "audition de Mme Camille Broyelle, professeure de droit à l’université Paris-Panthéon-Assas, directrice du master « droit du numérique, droit des médias ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460868",
+      "titre": "audition de M. Thibaut Bruttin, directeur général de reporters sans frontières, et Mme Laure Chauvel, responsable du desk France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T14:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC460798",

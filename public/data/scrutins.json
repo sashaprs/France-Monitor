@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T15:38:28.496Z",
+  "updatedAt": "2026-07-16T17:16:02.175Z",
   "scrutins": [
     {
       "numero": "8290",
@@ -46,6 +46,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8322",
+      "titre": "l'amendement n° 181 de Mme Keloua Hachi et l'amendement identique suivant de suppression de l'article 2 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "151",
+      "pour": "60",
+      "contre": "59",
+      "abstentions": "32",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8295",
       "titre": "l'amendement n° 206 de Mme Mercier à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -54,6 +65,61 @@
       "pour": "33",
       "contre": "52",
       "abstentions": "33",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8308",
+      "titre": "l'amendement n° 362 de M. Arnaud Bonnet après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "152",
+      "pour": "93",
+      "contre": "51",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8314",
+      "titre": "l'amendement n° 479 de Mme Loir à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "121",
+      "pour": "33",
+      "contre": "88",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8311",
+      "titre": "l'amendement n° 647 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "118",
+      "contre": "5",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8309",
+      "titre": "l'amendement n° 660 de Mme Martin (Alpes-Maritimes) après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "34",
+      "contre": "56",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8316",
+      "titre": "l'amendement n° 609 de Mme Joncour à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "119",
+      "pour": "36",
+      "contre": "81",
+      "abstentions": "2",
       "nonVotants": "2"
     },
     {
@@ -123,6 +189,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8312",
+      "titre": "l'amendement n° 653 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "122",
+      "pour": "121",
+      "contre": "1",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8294",
       "titre": "l'amendement n° 505 de Mme Blin et l'amendement identique suivant à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -131,6 +208,61 @@
       "pour": "63",
       "contre": "60",
       "abstentions": "6",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8318",
+      "titre": "l'amendement n° 731 de Mme Cestrières à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "73",
+      "contre": "37",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8321",
+      "titre": "l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "132",
+      "pour": "128",
+      "contre": "3",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8319",
+      "titre": "l'amendement n° 9 (rect.) de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "29",
+      "contre": "83",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8310",
+      "titre": "l'amendement n° 270 de Mme Capdevielle et l'amendement identique suivant à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "123",
+      "pour": "45",
+      "contre": "77",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8320",
+      "titre": "l'amendement n° 175 de Mme Hadizadeh à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "122",
+      "pour": "42",
+      "contre": "55",
+      "abstentions": "25",
       "nonVotants": "2"
     },
     {
@@ -145,6 +277,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8317",
+      "titre": "l'amendement n° 770 de Mme Parmentier à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "124",
+      "pour": "37",
+      "contre": "87",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8302",
       "titre": "l'amendement n° 717 de Mme Parmentier-Lecocq à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -154,6 +297,17 @@
       "contre": "80",
       "abstentions": "1",
       "nonVotants": "2"
+    },
+    {
+      "numero": "8315",
+      "titre": "l'amendement n° 390 de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "116",
+      "pour": "35",
+      "contre": "75",
+      "abstentions": "6",
+      "nonVotants": "1"
     },
     {
       "numero": "8301",
@@ -186,6 +340,17 @@
       "pour": "18",
       "contre": "68",
       "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8313",
+      "titre": "l'amendement n° 655 de Mme Cathala et les amendements identiques suivants à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "128",
+      "pour": "63",
+      "contre": "64",
+      "abstentions": "1",
       "nonVotants": "2"
     },
     {
@@ -384,171 +549,6 @@
       "pour": "28",
       "contre": "35",
       "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8200",
-      "titre": "l'amendement n° 912 du Gouvernement et l'amendement identique suivant de rétablissement de l'article 22 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "46",
-      "pour": "0",
-      "contre": "46",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8249",
-      "titre": "l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "50",
-      "pour": "30",
-      "contre": "19",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8254",
-      "titre": "l'amendement n° 482 de Mme Taurinya à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "53",
-      "pour": "21",
-      "contre": "31",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8225",
-      "titre": "l'amendement n° 105 de Mme Soudais à l'article 5 undecies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "24",
-      "contre": "31",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8241",
-      "titre": "l'article 6 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "31",
-      "contre": "24",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8262",
-      "titre": "l'amendement n° 665 de M. Bernalicis de rétablissement de l'article 17 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "24",
-      "contre": "31",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8247",
-      "titre": "l'amendement n° 184 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "43",
-      "pour": "15",
-      "contre": "27",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8248",
-      "titre": "l'amendement n° 476 de Mme Taurinya à l'article 11 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "50",
-      "pour": "20",
-      "contre": "29",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8242",
-      "titre": "l'amendement n° 473 de Mme Taurinya et l'amendement identique suivant de suppression de l'article 10 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "54",
-      "pour": "25",
-      "contre": "29",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8270",
-      "titre": "l'amendement n° 251 de Mme Bazin-Malgras et l'amendement identique suivant de rétablissement de l'article 18 bis (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "45",
-      "pour": "26",
-      "contre": "18",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8274",
-      "titre": "l'amendement n° 288 de M. Vicot après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "20",
-      "contre": "27",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8261",
-      "titre": "l'amendement n° 903 du Gouvernement de rétablissement de l'article 16 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "33",
-      "contre": "22",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8238",
-      "titre": "l'amendement n° 428 de Mme Taurinya après l'article 6 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "51",
-      "pour": "26",
-      "contre": "25",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8186",
-      "titre": "le sous-amendement n° 1010 de M. Amirshahi à l'amendement n° 898 du Gouvernement et l'amendement identique suivant de rétablissement de l'article 14 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "50",
-      "pour": "16",
-      "contre": "34",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8258",
-      "titre": "l'amendement n° 187 de Mme K/Bidi et les amendements identiques suivants de suppression de l'article 13 bis du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "50",
-      "pour": "21",
-      "contre": "28",
-      "abstentions": "1",
       "nonVotants": "2"
     }
   ]

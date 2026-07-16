@@ -1,0 +1,1019 @@
+{
+ "genere_le": "2026-07-16T14:02:24.799Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001220",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1220 du Gouvernement — ART. 2",
+   "detail": "Lorsqu’il est saisi d’une demande de déclaration judiciaire de délaissement parental, le tribunal n’a pas à examiner l’existence d’un élément intentionnel : il se fonde exclusivement sur la situation…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1220",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Lorsqu’il est saisi d’une demande de déclaration judiciaire de délaissement parental, le tribunal n’a pas à examiner l’existence d’un élément intentionnel : il se fonde exclusivement sur la situation… ART. 2 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001221",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1221 de Pauline Cestrières (EPR) — ART. 5",
+   "detail": "Cet amendement vise à étendre l’interdiction d’intervenir dans un établissement scolaire (public ou privé), déjà applicable aux personnes inscrites au FIJAISV ou au FIJAIT, aux bénévoles qui encadren…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1221",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à étendre l’interdiction d’intervenir dans un établissement scolaire (public ou privé), déjà applicable aux personnes inscrites au FIJAISV ou au FIJAIT, aux bénévoles qui encadren… ART. 5 Pauline Cestrières EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001222",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1222 de Arnaud Bonnet (EcoS) — ART. 10",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1222",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 10 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001186:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1186 de Marine Hamelet (RN) : Rejeté",
+   "detail": "L'amendement n° 45 entend consacrer les protocoles adaptés au recueil de la parole des mineurs, tels que celui des salles dites « Mélanie ». Mais rédigé avec « ou », il fait de la formation des enquê…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1186",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'amendement n° 45 entend consacrer les protocoles adaptés au recueil de la parole des mineurs, tels que celui des salles dites « Mélanie ». Mais rédigé avec « ou », il fait de la formation des enquê… ART. 10 Marine Hamelet RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000702:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 702 de Jean-Claude Raux (EcoS) : Tombé",
+   "detail": "Cet amendement de repli du groupe Écologiste et Social, inspiré d'une proposition du Conseil national des barreaux, vise à garantir que l'avocat de la victime soit systématiquement informé par le pro…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/702",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement de repli du groupe Écologiste et Social, inspiré d'une proposition du Conseil national des barreaux, vise à garantir que l'avocat de la victime soit systématiquement informé par le pro… ART. 10 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000505:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 505 de Anne-Laure Blin (DR) : Adopté",
+   "detail": "Le présent amendement vise à supprimer la disposition introduisant une enquête systématique sur la personnalité et l'environnement social et familial de la personne mise en cause dans le cadre des in…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/505",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à supprimer la disposition introduisant une enquête systématique sur la personnalité et l'environnement social et familial de la personne mise en cause dans le cadre des in… ART. 10 Anne-Laure Blin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000908:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 908 de Maud Petit (Dem) : Retiré",
+   "detail": "Le présent amendement vise à renforcer la motivation des classements sans suite dans les procédures concernant des mineurs victimes. Dans les affaires de violences sexuelles ou intrafamiliales, une d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/908",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la motivation des classements sans suite dans les procédures concernant des mineurs victimes. Dans les affaires de violences sexuelles ou intrafamiliales, une d… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000717:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 717 de Charlotte Parmentier-Lecocq (HOR) : Rejeté",
+   "detail": "L’article 10 du projet de loi impose que la personne soupçonnée d’un crime commis sur un mineur soit entendue dans un délai de trois mois. Cette garantie nouvelle est essentielle : des drames récents…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/717",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 10 du projet de loi impose que la personne soupçonnée d’un crime commis sur un mineur soit entendue dans un délai de trois mois. Cette garantie nouvelle est essentielle : des drames récents… ART. 10 Charlotte Parmentier-Lecocq HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000593:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 593 de Nicolas Dragon (RN) : Rejeté",
+   "detail": "L’article 10 crée un cadre procédural renforcé afin que les actes essentiels d’enquête soient accomplis rapidement lorsqu’un crime ou un délit mentionné à l’article 706-47 du code de procédure pénale…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/593",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 10 crée un cadre procédural renforcé afin que les actes essentiels d’enquête soient accomplis rapidement lorsqu’un crime ou un délit mentionné à l’article 706-47 du code de procédure pénale… ART. 10 Nicolas Dragon RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000594:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 594 de Nicolas Dragon (RN) : Rejeté",
+   "detail": "Exposé sommaire Le présent amendement vise à mieux intégrer, dans l’information délivrée à la victime mineure dès le début de la procédure, l’existence des dispositifs spécialisés de prise en charge…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/594",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Exposé sommaire Le présent amendement vise à mieux intégrer, dans l’information délivrée à la victime mineure dès le début de la procédure, l’existence des dispositifs spécialisés de prise en charge… ART. 10 Nicolas Dragon RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000592:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 592 de Nicolas Dragon (RN) : Rejeté",
+   "detail": "L’article 10 vise à garantir la réalisation rapide des actes essentiels d’enquête lorsqu’une procédure porte sur un crime ou un délit mentionné à l’article 706-47 du code de procédure pénale commis s…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/592",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 10 vise à garantir la réalisation rapide des actes essentiels d’enquête lorsqu’une procédure porte sur un crime ou un délit mentionné à l’article 706-47 du code de procédure pénale commis s… ART. 10 Nicolas Dragon RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000811:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 811 de Maud Petit (Dem) : Rejeté",
+   "detail": "Le présent amendement vise à renforcer l’information du mineur victime sur la possibilité de solliciter la désignation d’un administrateur ad hoc lorsque ses intérêts ne sont pas suffisamment protégé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/811",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer l’information du mineur victime sur la possibilité de solliciter la désignation d’un administrateur ad hoc lorsque ses intérêts ne sont pas suffisamment protégé… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000912:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 912 de Gabrielle Cathala (LFI-NFP) : Adopté",
+   "detail": "Le présent amendement vise à prévoir une possibilité de report de l’audition de la victime mineure lorsque celle-ci n’est pas en mesure ou ne souhaite pas être entendue immédiatement. Si la célérité…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/912",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à prévoir une possibilité de report de l’audition de la victime mineure lorsque celle-ci n’est pas en mesure ou ne souhaite pas être entendue immédiatement. Si la célérité… ART. 10 Gabrielle Cathala LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000828:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 828 de Maud Petit (Dem) : Rejeté",
+   "detail": "Le présent amendement vise à sécuriser la transmission aux autorités des signalements relatifs à la pédocriminalité en ligne. Des citoyens, associations ou collectifs peuvent être en possession d’élé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/828",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à sécuriser la transmission aux autorités des signalements relatifs à la pédocriminalité en ligne. Des citoyens, associations ou collectifs peuvent être en possession d’élé… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001172:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1172 de Marine Hamelet (RN) : Rejeté",
+   "detail": "Cet amendement impose que tout dépassement du délai de trois mois pour l'audition du suspect fasse l'objet d'une décision motivée, versée au dossier de la procédure. Le texte du Gouvernement fixe un…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1172",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement impose que tout dépassement du délai de trois mois pour l'audition du suspect fasse l'objet d'une décision motivée, versée au dossier de la procédure. Le texte du Gouvernement fixe un… ART. 10 Marine Hamelet RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000700:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 700 de Jean-Claude Raux (EcoS) : Adopté",
+   "detail": "L’alinéa 8 de l’article 10 garantit une information du plaignant d’éléments d’avancée de l’enquête par le procureur de la République. Cet amendement du groupe Écologiste et Social vise à garantir l’i…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/700",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa 8 de l’article 10 garantit une information du plaignant d’éléments d’avancée de l’enquête par le procureur de la République. Cet amendement du groupe Écologiste et Social vise à garantir l’i… ART. 10 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000940:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 940 de Perrine Goulet (Dem) : Tombé",
+   "detail": "Les violences commises contre les enfants constituent l’une des atteintes les plus graves aux principes fondamentaux de notre ordre juridique. Elles frappent des personnes qui, par définition, ne dis…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/940",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les violences commises contre les enfants constituent l’une des atteintes les plus graves aux principes fondamentaux de notre ordre juridique. Elles frappent des personnes qui, par définition, ne dis… APRÈS ART. 11 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000876:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 876 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Le présent amendement vise à maintenir la mention des « actes d’investigation essentiels à l’enquête » réalisés dans les meilleurs délais. Cette précision permet d’affirmer une exigence particulière…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/876",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à maintenir la mention des « actes d’investigation essentiels à l’enquête » réalisés dans les meilleurs délais. Cette précision permet d’affirmer une exigence particulière… ART. 10 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000910:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 910 de Maud Petit (Dem) : Rejeté",
+   "detail": "Le présent amendement vise à garantir que les premiers actes d’enquête soient réalisés rapidement et de manière complète dans les dossiers de violences sexuelles commises sur mineur. Dans ces procédu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/910",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que les premiers actes d’enquête soient réalisés rapidement et de manière complète dans les dossiers de violences sexuelles commises sur mineur. Dans ces procédu… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000909:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 909 de Maud Petit (Dem) : Retiré",
+   "detail": "Le présent amendement vise à éviter qu’une décision de classement sans suite demeure incompréhensible pour la victime ou ses représentants légaux lorsque certains éléments du dossier ne peuvent pas l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/909",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à éviter qu’une décision de classement sans suite demeure incompréhensible pour la victime ou ses représentants légaux lorsque certains éléments du dossier ne peuvent pas l… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000701:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 701 de Jean-Claude Raux (EcoS) : Adopté",
+   "detail": "Cet amendement du groupe Écologiste et Social vise à renforcer les droits des victimes dont la plainte est classée sans suite. Un classement sans suite motivé en termes strictement juridiques est sou…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/701",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement du groupe Écologiste et Social vise à renforcer les droits des victimes dont la plainte est classée sans suite. Un classement sans suite motivé en termes strictement juridiques est sou… ART. 10 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000531:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 531 de Sébastien Saint-Pasteur (SOC) : Adopté",
+   "detail": "Cet amendement vise à reconnaître dans la loi la possibilité d’organiser l’audition d’un mineur victime avec l’appui d’un chien d’assistance judiciaire spécialement formé. La présence de ce chien peu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/531",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à reconnaître dans la loi la possibilité d’organiser l’audition d’un mineur victime avec l’appui d’un chien d’assistance judiciaire spécialement formé. La présence de ce chien peu… ART. 10 Sébastien Saint-Pasteur SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000906:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 906 de Maud Petit (Dem) : Tombé",
+   "detail": "Le présent amendement vise à instaurer l’imprescriptibilité de l’action publique pour les crimes de viol incestueux commis sur un mineur. L’inceste présente une spécificité qui le distingue des autre…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/906",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à instaurer l’imprescriptibilité de l’action publique pour les crimes de viol incestueux commis sur un mineur. L’inceste présente une spécificité qui le distingue des autre… APRÈS ART. 11 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000608:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 608 de Laurent Mazaury (LIOT) : Non soutenu",
+   "detail": "Cet amendement vise à rendre imprescriptibles l’action publique et l’action civile pour les crimes les plus graves commis sur des enfants afin que les criminels ne puissent plus échapper à la justice…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/608",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rendre imprescriptibles l’action publique et l’action civile pour les crimes les plus graves commis sur des enfants afin que les criminels ne puissent plus échapper à la justice… APRÈS ART. 11 Laurent Mazaury LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000604:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 604 de Constance de Pélichy (LIOT) : Adopté",
+   "detail": "Lorsqu’un crime est commis sur un mineur, il est impératif de traiter la plainte dans les meilleurs délais et de mener les premiers actes d’enquête le plus rapidement possible. Par cet amendement, il…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/604",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Lorsqu’un crime est commis sur un mineur, il est impératif de traiter la plainte dans les meilleurs délais et de mener les premiers actes d’enquête le plus rapidement possible. Par cet amendement, il… ART. 10 Constance de Pélichy LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000475:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 475 de Christine Le Nabour (EPR) : Retiré",
+   "detail": "Lorsque l'auteur présumé de faits de nature sexuelle sur un mineur est lui-même mineur et susceptible d'être déclaré pénalement irresponsable, la procédure pénale s'arrête de fait sans que la situati…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/475",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Lorsque l'auteur présumé de faits de nature sexuelle sur un mineur est lui-même mineur et susceptible d'être déclaré pénalement irresponsable, la procédure pénale s'arrête de fait sans que la situati… ART. 10 Christine Le Nabour EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000694:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 694 de Sophie Blanc (RN) : Adopté",
+   "detail": "Cet amendement supprime l’obligation de faire figurer l'enquête sur la personnalité et l’environnement social et familial de la personne mise en cause parmi les actes d’investigation devant être acco…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/694",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement supprime l’obligation de faire figurer l'enquête sur la personnalité et l’environnement social et familial de la personne mise en cause parmi les actes d’investigation devant être acco… ART. 10 Sophie Blanc RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001138:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 1138 de Alix Fruchon (DR) : Tombé",
+   "detail": "Le présent amendement vise à renforcer l'information donnée aux victimes et leurs proches et/ou représentants sur les classements sans suite. Il prévoit ainsi expressément qu'ils doivent être avertis…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1138",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer l'information donnée aux victimes et leurs proches et/ou représentants sur les classements sans suite. Il prévoit ainsi expressément qu'ils doivent être avertis… ART. 10 Alix Fruchon DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000907:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 907 de Maud Petit (Dem) : Tombé",
+   "detail": "Le présent amendement vise à rendre plus effectifs les droits des victimes mineures et de leurs représentants légaux lorsqu’une procédure est classée sans suite. L’information sur les voies de recour…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/907",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à rendre plus effectifs les droits des victimes mineures et de leurs représentants légaux lorsqu’une procédure est classée sans suite. L’information sur les voies de recour… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000603:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 603 de Laurent Mazaury (LIOT) : Non soutenu",
+   "detail": "Les récents dysfonctionnements judiciaires ayant conduit à des classements sans suite ou à des non-lieux dans des affaires de violences sur mineurs ont mis en lumière une réalité préoccupante : l’aud…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/603",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les récents dysfonctionnements judiciaires ayant conduit à des classements sans suite ou à des non-lieux dans des affaires de violences sur mineurs ont mis en lumière une réalité préoccupante : l’aud… ART. 10 Laurent Mazaury LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000769:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 769 de Violette Spillebout (EPR) : Adopté",
+   "detail": "Le présent amendement vise à garantir que la victime mineure puisse être assistée par un avocat formé à l’accompagnement des mineurs victimes dès sa première audition. L’article 10 prévoit déjà que l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/769",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que la victime mineure puisse être assistée par un avocat formé à l’accompagnement des mineurs victimes dès sa première audition. L’article 10 prévoit déjà que l… ART. 10 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000768:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 768 de Violette Spillebout (EPR) : Adopté",
+   "detail": "Le présent amendement vise à préciser que la formation des enquêteurs chargés du recueil de la parole des mineurs doit intégrer la prise en compte des psychotraumatismes et des mécanismes d’emprise,…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/768",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à préciser que la formation des enquêteurs chargés du recueil de la parole des mineurs doit intégrer la prise en compte des psychotraumatismes et des mécanismes d’emprise,… ART. 10 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000925:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 925 de Perrine Goulet (Dem) : Adopté",
+   "detail": "L’objet du présent amendement est de mieux protéger les victimes d’infractions pénales, et singulièrement les mineurs, contre le phénomène de victimisation secondaire induit par le parcours judiciair…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/925",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’objet du présent amendement est de mieux protéger les victimes d’infractions pénales, et singulièrement les mineurs, contre le phénomène de victimisation secondaire induit par le parcours judiciair… ART. 10 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000878:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 878 de Marianne Maximi (LFI-NFP) : Retiré",
+   "detail": "Cet amendement précise que le procureur de la République ne dévoile pas l’intégralité de la procédure mais bien les éléments essentiels au plaignant, une fois qu’il a été informé par l’officier de po…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/878",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement précise que le procureur de la République ne dévoile pas l’intégralité de la procédure mais bien les éléments essentiels au plaignant, une fois qu’il a été informé par l’officier de po… ART. 10 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000718:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 718 de Agnès Firmin Le Bodo (HOR) : Rejeté",
+   "detail": "L’alinéa 8 organise l’information périodique du « plaignant » sur l’état d’avancement de l’enquête. Or, en matière de violences sur mineurs, la plainte est fréquemment déposée par un tiers, ou la pro…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/718",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa 8 organise l’information périodique du « plaignant » sur l’état d’avancement de l’enquête. Or, en matière de violences sur mineurs, la plainte est fréquemment déposée par un tiers, ou la pro… ART. 10 Agnès Firmin Le Bodo HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000699:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 699 de Jean-Claude Raux (EcoS) : Retiré",
+   "detail": "Cet amendement du groupe Écologiste et Social vise à renforcer l’information de la victime mineure sur son droit à être accompagnée par une association d’aide aux victimes et à garantir son orientati…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/699",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement du groupe Écologiste et Social vise à renforcer l’information de la victime mineure sur son droit à être accompagnée par une association d’aide aux victimes et à garantir son orientati… ART. 10 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000691:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 691 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/691",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel. ART. 10 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000803:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 803 (Rect) de Maud Petit (Dem) : Rejeté",
+   "detail": "Le présent amendement vise à permettre, dans les enquêtes les plus complexes relatives à des crimes sexuels commis sur mineur, une prolongation exceptionnelle de garde à vue lorsque celle-ci est indi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/803 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à permettre, dans les enquêtes les plus complexes relatives à des crimes sexuels commis sur mineur, une prolongation exceptionnelle de garde à vue lorsque celle-ci est indi… ART. 10 Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000689:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 689 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Cet amendement élargit la précaution selon laquelle les auditions inutiles ne sont pas conduites à l’ensemble des victimes et non uniquement à celles qui sont mineures. Si l’article concerne bien cer…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/689",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement élargit la précaution selon laquelle les auditions inutiles ne sont pas conduites à l’ensemble des victimes et non uniquement à celles qui sont mineures. Si l’article concerne bien cer… ART. 10 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000894:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 894 de Sabine Gervais (Dem) : Adopté",
+   "detail": "Le présent amendement vise à concilier le droit à l'information des victimes avec les nécessités de l'enquête pénale. Si l'information régulière des victimes constitue une avancée importante, sa comm…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/894",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à concilier le droit à l'information des victimes avec les nécessités de l'enquête pénale. Si l'information régulière des victimes constitue une avancée importante, sa comm… ART. 10 Sabine Gervais Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000737:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 737 de Pauline Cestrières (EPR) : Tombé",
+   "detail": "Au regard de la suppression des termes « si la nature des faits le justifie », il n’existe plus aucune exception à l’accomplissement de l’audition de la victime sans délai en l’état du texte. Or, dan…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/737",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Au regard de la suppression des termes « si la nature des faits le justifie », il n’existe plus aucune exception à l’accomplissement de l’audition de la victime sans délai en l’état du texte. Or, dan… ART. 10 Pauline Cestrières EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000690:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 690 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/690",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel. ART. 10 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000476:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 476 de Christine Le Nabour (EPR) : Retiré",
+   "detail": "En l'état du droit, le secret de l'enquête et de l'instruction fait obstacle à la transmission, au juge aux affaires familiales, des éléments recueillis lors d'une enquête pour des faits de nature se…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/476",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "En l'état du droit, le secret de l'enquête et de l'instruction fait obstacle à la transmission, au juge aux affaires familiales, des éléments recueillis lors d'une enquête pour des faits de nature se… ART. 10 Christine Le Nabour EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000239:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 239 de Arnaud Bonnet (EcoS) : Tombé",
+   "detail": "Le présent amendement a pour objet de rendre imprescriptibles les crimes les plus graves commis sur les mineurs, ainsi que certains délits sexuels, et de tirer les conséquences de cette évolution en…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/239",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement a pour objet de rendre imprescriptibles les crimes les plus graves commis sur les mineurs, ainsi que certains délits sexuels, et de tirer les conséquences de cette évolution en… APRÈS ART. 11 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000260:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 260 (Rect) de Alexandra Martin (Alpes-Maritimes) (DR) : Retiré",
+   "detail": "Le présent amendement vise à renforcer la protection immédiate des mineurs victimes lorsque les faits dénoncés sont susceptibles d’avoir été commis par un membre de la famille ou une personne exerçan…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/260 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la protection immédiate des mineurs victimes lorsque les faits dénoncés sont susceptibles d’avoir été commis par un membre de la famille ou une personne exerçan… ART. 10 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000311:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 311 de Corentin Le Fur (DR) : Rejeté",
+   "detail": "Le présent amendement vise à garantir une réaction immédiate lorsque des faits susceptibles de constituer un crime ou un délit sur mineur sont signalés aux autorités. Face à de tels signalements, les…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/311",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir une réaction immédiate lorsque des faits susceptibles de constituer un crime ou un délit sur mineur sont signalés aux autorités. Face à de tels signalements, les… ART. 10 Corentin Le Fur DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000254:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 254 de Alexandra Martin (Alpes-Maritimes) (DR) : Rejeté",
+   "detail": "Le recueil de la parole des enfants victimes exige une expertise particulière. Les mécanismes d’emprise, les effets du traumatisme et les spécificités du développement de l’enfant peuvent influencer…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/254",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le recueil de la parole des enfants victimes exige une expertise particulière. Les mécanismes d’emprise, les effets du traumatisme et les spécificités du développement de l’enfant peuvent influencer… ART. 10 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000240:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 240 de Arnaud Bonnet (EcoS) : Tombé",
+   "detail": "Les violences commises contre les enfants constituent l'une des atteintes les plus graves à notre ordre juridique. Elles frappent des personnes qui, par définition, ne disposent ni de l'autonomie ni…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/240",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les violences commises contre les enfants constituent l'une des atteintes les plus graves à notre ordre juridique. Elles frappent des personnes qui, par définition, ne disposent ni de l'autonomie ni… APRÈS ART. 11 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000406:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 406 de Colette Capdevielle (SOC) : Adopté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à prévoir que le procureur de la République ou le juge d’instruction ait à justifier par une décision le report de l'audition de la personne…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/406",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à prévoir que le procureur de la République ou le juge d’instruction ait à justifier par une décision le report de l'audition de la personne… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000357:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 357 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à supprimer l'exception à l'obligation d'auditionner la personne soupçonnée de crime sur mineur dans les 3 mois suivant le dépôt de plainte q…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/357",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à supprimer l'exception à l'obligation d'auditionner la personne soupçonnée de crime sur mineur dans les 3 mois suivant le dépôt de plainte q… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000432:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 432 (Rect) de Isabelle Santiago (SOC) : Rejeté",
+   "detail": "La recommandation n° 27 du rapport de la commission d'enquête sur les manquements des politiques publiques de protection de l'enfance (n° 1200, 8 avril 2025) reprend la préconisation n° 14 du rapport…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/432 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La recommandation n° 27 du rapport de la commission d'enquête sur les manquements des politiques publiques de protection de l'enfance (n° 1200, 8 avril 2025) reprend la préconisation n° 14 du rapport… ART. 10 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000360:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 360 de Sophie Blanc (RN) : Rejeté",
+   "detail": "Cet amendement vise à aggraver les peines encourues en cas de dénonciation calomnieuse commise à l’occasion d’une demande d’ordonnance provisoire de protection de l’enfant. Cette procédure, qui peut…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/360",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à aggraver les peines encourues en cas de dénonciation calomnieuse commise à l’occasion d’une demande d’ordonnance provisoire de protection de l’enfant. Cette procédure, qui peut… APRÈS ART. 6 Sophie Blanc RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000405:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 405 de Colette Capdevielle (SOC) : Retiré",
+   "detail": "Le présent amendement des députés socialistes et apparentés vise à conserver la compétence du JAF et non du JE en matière de mesure d’assistance éducative. Il entend corriger une incohérence introdui…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/405",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement des députés socialistes et apparentés vise à conserver la compétence du JAF et non du JE en matière de mesure d’assistance éducative. Il entend corriger une incohérence introdui… ART. 6 TER Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000206:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 206 de Estelle Mercier (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à prévoir, parmi les actes d’investigation obligatoires, une évaluation spécialisée de la victime mineure, incluant le repérage des symptômes…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/206",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à prévoir, parmi les actes d’investigation obligatoires, une évaluation spécialisée de la victime mineure, incluant le repérage des symptômes… ART. 10 Estelle Mercier SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000362:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 362 de Arnaud Bonnet (EcoS) : Adopté",
+   "detail": "Les violences les plus graves commises sur les enfants appellent une réponse à la hauteur de leur gravité et de la réalité de leur révélation. Les mécanismes psychotraumatiques qui les accompagnent (…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/362",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les violences les plus graves commises sur les enfants appellent une réponse à la hauteur de leur gravité et de la réalité de leur révélation. Les mécanismes psychotraumatiques qui les accompagnent (… APRÈS ART. 11 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000366:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 366 de Arnaud Bonnet (EcoS) : Rejeté",
+   "detail": "L'article 10 ne prévoit qu'une information unique du plaignant, à l'expiration d'un délai de trois mois, puis laisse la victime sans nouvelle de sa procédure, parfois pendant des années. Le présent a…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/366",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 10 ne prévoit qu'une information unique du plaignant, à l'expiration d'un délai de trois mois, puis laisse la victime sans nouvelle de sa procédure, parfois pendant des années. Le présent a… ART. 10 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000325:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 325 de Marie-Charlotte Garin (EcoS) : Retiré",
+   "detail": "Le présent amendement vise à garantir que, lorsque l'audition d'un mineur intervient dans le cadre de la procédure d'ordonnance de protection de l'enfant et qu'elle est réalisée par un officier de po…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/325",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que, lorsque l'audition d'un mineur intervient dans le cadre de la procédure d'ordonnance de protection de l'enfant et qu'elle est réalisée par un officier de po… ART. 10 Marie-Charlotte Garin EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000340:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 340 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à harmoniser le terme de victime et non de plaignant Cet amendement précise la rédaction de l’article 10. En cohérence avec le reste du texte…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/340",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à harmoniser le terme de victime et non de plaignant Cet amendement précise la rédaction de l’article 10. En cohérence avec le reste du texte… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000257:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 257 (Rect) de Alexandra Martin (Alpes-Maritimes) (DR) : Rejeté",
+   "detail": "Le présent amendement vise à renforcer la protection des mineurs victimes de violences sexuelles en garantissant des modalités d'enquête et d'audition adaptées à leur vulnérabilité. Il prévoit que le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/257 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la protection des mineurs victimes de violences sexuelles en garantissant des modalités d'enquête et d'audition adaptées à leur vulnérabilité. Il prévoit que le… ART. 10 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000048:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 48 de Colette Capdevielle (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à prévoir que le procureur de la République ou le juge d'instruction ait à justifier par une ordonnance le report de l'audition a personne so…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/48",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à prévoir que le procureur de la République ou le juge d'instruction ait à justifier par une ordonnance le report de l'audition a personne so… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000062:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 62 de Patricia Lemoine (EPR) : Adopté",
+   "detail": "Le présent amendement vise à étendre le dispositif d’audition rapide des mineurs victimes prévu par l’article 10 du présent projet de loi à certaines infractions graves de violences et de maltraitanc…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/62",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à étendre le dispositif d’audition rapide des mineurs victimes prévu par l’article 10 du présent projet de loi à certaines infractions graves de violences et de maltraitanc… ART. 10 Patricia Lemoine EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000039:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 39 de Émilie Bonnivard (DR) : Tombé",
+   "detail": "Cet amendement vise à rendre imprescriptibles les viols et agressions sexuelles commis sur des mineurs. Il limite l’imprescriptibilité aux seules infractions sexuelles, pour être conforme aux exigenc…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/39",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rendre imprescriptibles les viols et agressions sexuelles commis sur des mineurs. Il limite l’imprescriptibilité aux seules infractions sexuelles, pour être conforme aux exigenc… APRÈS ART. 11 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000007:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 7 de Sébastien Huyghe (EPR) : Tombé",
+   "detail": "Cet amendement vise à rendre imprescriptibles les crimes de viol sur mineurs. La prescription de l’action publique peut faire obstacle à la poursuite et à la condamnation du criminel ou du délinquant…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/7",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rendre imprescriptibles les crimes de viol sur mineurs. La prescription de l’action publique peut faire obstacle à la poursuite et à la condamnation du criminel ou du délinquant… APRÈS ART. 11 Sébastien Huyghe EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000044:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 44 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à ajouter dans les actes d’investigation essentiels à l’enquête à réaliser sans délai l'audition de l'auteur soupçonné du crime. En effet, en…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/44",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à ajouter dans les actes d’investigation essentiels à l’enquête à réaliser sans délai l'audition de l'auteur soupçonné du crime. En effet, en… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000097:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 97 de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement de plusieurs députés socialistes et apparentés vise à rendre imprescriptibles les crimes de viol commis sur un mineur, ainsi que les crimes de tortures, d'actes de barbarie, de violenc…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/97",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement de plusieurs députés socialistes et apparentés vise à rendre imprescriptibles les crimes de viol commis sur un mineur, ainsi que les crimes de tortures, d'actes de barbarie, de violenc… APRÈS ART. 11 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000034:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 34 (Rect) de Émilie Bonnivard (DR) : Retiré",
+   "detail": "L’inscription d’un délai de trois mois pour la réalisation des premiers actes d’enquête dont l’audition du mis en cause est excellente chose. Elle aurait certainement empêché la disparition de Lyhann…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/34 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’inscription d’un délai de trois mois pour la réalisation des premiers actes d’enquête dont l’audition du mis en cause est excellente chose. Elle aurait certainement empêché la disparition de Lyhann… ART. 10 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000164:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 164 de Émilie Bonnivard (DR) : Rejeté",
+   "detail": "L’article 6 ter, issu de l’adoption en commission de l’amendement CS833, modifie les articles 375-1 et 375-3 du code civil afin de confier au seul juge des enfants, pendant toute la durée d’une mesur…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/164",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 6 ter, issu de l’adoption en commission de l’amendement CS833, modifie les articles 375-1 et 375-3 du code civil afin de confier au seul juge des enfants, pendant toute la durée d’une mesur… ART. 6 TER Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000015:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 15 de Sophie Blanc (RN) : Rejeté",
+   "detail": "L’article 10 prévoit deux cas où l’audition de la personne soupçonnée d’avoir commis un crime sur un mineur n’est pas soumise au délai de trois mois : - s’il est impossible de procéder à cette auditi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/15",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 10 prévoit deux cas où l’audition de la personne soupçonnée d’avoir commis un crime sur un mineur n’est pas soumise au délai de trois mois : - s’il est impossible de procéder à cette auditi… ART. 10 Sophie Blanc RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000008:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 8 de Sébastien Huyghe (EPR) : Tombé",
+   "detail": "Cet amendement vise à rendre imprescriptibles les infractions les plus graves lorsqu’elles sont commises sur des mineurs. Sont concernés : · Les crimes mentionnés à l’article 706-47 du code de procéd…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/8",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rendre imprescriptibles les infractions les plus graves lorsqu’elles sont commises sur des mineurs. Sont concernés : · Les crimes mentionnés à l’article 706-47 du code de procéd… APRÈS ART. 11 Sébastien Huyghe EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000055:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 55 de Arnaud Bonnet (EcoS) : Rejeté",
+   "detail": "L'article 10 prévoit que la personne soupçonnée doit être entendue dans un délai de trois mois, mais assortit aussitôt cette obligation de réserves qui la vident de sa portée : l'audition de l'auteur…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/55",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 10 prévoit que la personne soupçonnée doit être entendue dans un délai de trois mois, mais assortit aussitôt cette obligation de réserves qui la vident de sa portée : l'audition de l'auteur… ART. 10 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000005:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 5 de Jérôme End (DR) : Tombé",
+   "detail": "Cet amendement prévoit l’imprescriptibilité des infractions sexuelles commises à l’égard des personnes mineures. Chaque année en France, 160 000 enfants sont victimes de violences sexuelles, soit un…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/5",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement prévoit l’imprescriptibilité des infractions sexuelles commises à l’égard des personnes mineures. Chaque année en France, 160 000 enfants sont victimes de violences sexuelles, soit un… APRÈS ART. 11 Jérôme End DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000011:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 11 de Nathalie Colin-Oesterlé (HOR) : Tombé",
+   "detail": "Depuis 1989, le délai de prescription applicable aux crimes visés à l’article 706‑47 du code de procédure pénale lorsqu’ils sont commis sur un mineur n’a cessé d’être allongé : dix ans à compter de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/11",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Depuis 1989, le délai de prescription applicable aux crimes visés à l’article 706‑47 du code de procédure pénale lorsqu’ils sont commis sur un mineur n’a cessé d’être allongé : dix ans à compter de l… APRÈS ART. 11 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000012:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 12 de Nathalie Colin-Oesterlé (HOR) : Rejeté",
+   "detail": "L’article 706‑47‑5 créé par l’article 10 impose un point d’étape à trois mois et une obligation d’audition du mis en cause, mais n’est assorti d’aucun mécanisme de suivi ni de contrôle de son applica…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/12",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 706‑47‑5 créé par l’article 10 impose un point d’étape à trois mois et une obligation d’audition du mis en cause, mais n’est assorti d’aucun mécanisme de suivi ni de contrôle de son applica… ART. 10 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000006:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 6 de Sébastien Huyghe (EPR) : Tombé",
+   "detail": "Cet amendement vise à rendre imprescriptibles les crimes mentionnés à l’article 706-47 du code de procédure pénale, lorsqu’ils sont commis sur des mineurs. Ces infractions comprennent : · les crimes…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/6",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rendre imprescriptibles les crimes mentionnés à l’article 706-47 du code de procédure pénale, lorsqu’ils sont commis sur des mineurs. Ces infractions comprennent : · les crimes… APRÈS ART. 11 Sébastien Huyghe EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000046:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 46 de Colette Capdevielle (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à garantir que les actes d’audition de la victime d’un crime ou d’un délit de nature sexuelle ne soient pas répétés, quel que soit l’âge de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/46",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à garantir que les actes d’audition de la victime d’un crime ou d’un délit de nature sexuelle ne soient pas répétés, quel que soit l’âge de l… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000045:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 45 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à intégrer dans les modalités d’audition de la victime les salles dites « Mélanie » qui mettent en oeuvre un protocole scientifiquement prouv…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/45",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à intégrer dans les modalités d’audition de la victime les salles dites « Mélanie » qui mettent en oeuvre un protocole scientifiquement prouv… ART. 10 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000072:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 72 de Arnaud Bonnet (EcoS) : Adopté",
+   "detail": "L'enregistrement audiovisuel de l'audition de l'enfant est déjà obligatoire (article 706-52), mais rien n'impose que le magistrat qui décide des suites l'ait visionné : la décision se prend souvent s…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/72",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'enregistrement audiovisuel de l'audition de l'enfant est déjà obligatoire (article 706-52), mais rien n'impose que le magistrat qui décide des suites l'ait visionné : la décision se prend souvent s… ART. 10 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000059:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T14:02:24.799Z",
+   "titre": "Amendement n° 59 de Patricia Lemoine (EPR) : Rejeté",
+   "detail": "Le présent amendement vise à garantir l’effectivité de l’ordonnance de sûreté de l’enfant créée par le présent projet de loi en renforçant l’information du procureur de la République lorsque des viol…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/59",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir l’effectivité de l’ordonnance de sûreté de l’enfant créée par le présent projet de loi en renforçant l’information du procureur de la République lorsque des viol… APRÈS ART. 6 Patricia Lemoine EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

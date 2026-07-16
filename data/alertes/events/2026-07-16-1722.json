@@ -1,0 +1,272 @@
+{
+ "genere_le": "2026-07-16T17:22:50.679Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54682",
+   "type": "nouveau_dossier",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à clarifier les impératifs de sécurité des activités touristiques et sportives de plein air",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54682",
+   "dossier_id": "DLR5L17N54682",
+   "texte_matchable": "Proposition de loi visant à clarifier les impératifs de sécurité des activités touristiques et sportives de plein air Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "odj:276ae727464444c9",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "À l'ordre du jour de la séance publique : rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la prop…",
+   "detail": "lundi 20 juillet à 16:00 · Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi pour une montagne vivante et souveraine",
+   "url": null,
+   "dossier_id": "DLR5L17N54006",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi pour une montagne vivante et souveraine Assemblée rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la prop…",
+   "profils": []
+  },
+  {
+   "id": "odj:56295f844719085f",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "À l'ordre du jour de la séance publique : Protection et souveraineté agricoles",
+   "detail": "lundi 20 juillet à 21:30 · Discussion, sur le rapport de la commission mixte paritaire, du projet de loi d’urgence pour la protection et la souveraineté agricoles",
+   "url": null,
+   "dossier_id": "DLR5L17N54085",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, du projet de loi d’urgence pour la protection et la souveraineté agricoles Assemblée Protection et souveraineté agricoles",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8290",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8290 : l'amendement n° 876 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "22 pour · 17 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8290",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 876 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8293",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8293 : l'amendement n° 44 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "23 pour · 62 contre · 41 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8293",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 44 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8307",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8307 : l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "154 pour · 0 contre · 6 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8307",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8292",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8292 : l'amendement n° 594 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "24 pour · 70 contre · 10 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8292",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 594 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8295",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8295 : l'amendement n° 206 de Mme Mercier à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "33 pour · 52 contre · 33 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8295",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 206 de Mme Mercier à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8296",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8296 : l'amendement n° 689 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "90 pour · 11 contre · 13 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8296",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 689 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8298",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8298 : l'amendement n° 700 de M. Raux à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "47 pour · 33 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8298",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 700 de M. Raux à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8297",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8297 : l'amendement n° 366 de M. Arnaud Bonnet à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "12 pour · 76 contre · 44 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8297",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 366 de M. Arnaud Bonnet à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8300",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8300 : l'amendement n° 593 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "36 pour · 61 contre · 10 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8300",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 593 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8306",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8306 : l'amendement n° 701 de M. Raux à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "120 pour · 22 contre · 3 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8306",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 701 de M. Raux à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8305",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8305 : l'amendement n° 1172 de Mme Hamelet à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 99 contre · 2 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8305",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 1172 de Mme Hamelet à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8294",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8294 : l'amendement n° 505 de Mme Blin et l'amendement identique suivant à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "63 pour · 60 contre · 6 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8294",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 505 de Mme Blin et l'amendement identique suivant à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8299",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8299 : l'amendement n° 718 de Mme Firmin Le Bodo à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "52 pour · 58 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8299",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 718 de Mme Firmin Le Bodo à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8302",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8302 : l'amendement n° 717 de Mme Parmentier-Lecocq à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "55 pour · 80 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8302",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 717 de Mme Parmentier-Lecocq à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8301",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8301 : l'amendement n° 894 de Mme Gervais à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "64 pour · 56 contre · 6 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8301",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 894 de Mme Gervais à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8303",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8303 : l'amendement n° 15 de Mme Blanc à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 101 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8303",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 15 de Mme Blanc à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8291",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8291 : l'amendement n° 592 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "18 pour · 68 contre · 2 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8291",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 592 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8304",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T17:22:50.679Z",
+   "titre": "Scrutin n° 8304 : l'amendement n° 406 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "71 pour · 53 contre · 17 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8304",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 406 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

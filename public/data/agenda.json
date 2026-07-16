@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:16:04.097Z",
+  "updatedAt": "2026-07-16T17:22:09.360Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -204,7 +204,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-16T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T13:10:00.000Z",
       "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle n° 263 (commission des affaires économiques)",
       "organisateur": "PO884244"
     },
@@ -266,8 +266,8 @@
       "uid": "RUANR5L17S2026IDC460842",
       "titre": "audition, ouverte à la presse, de représentants de divers organismes et associations luttant contre la pauvreté :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T12:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-16T12:35:00.000Z",
+      "dateFin": "2026-07-16T14:40:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -294,7 +294,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-16T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T15:20:00.000Z",
       "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle A245 - 2e étage Ouest",
       "organisateur": "PO884420"
     },
@@ -342,6 +342,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460877",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-20T11:30:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle n° 245 (commission de la culture)",
+      "organisateur": "PO884427"
     },
     {
       "uid": "RUANR5L17S2026IDS30878",
@@ -443,6 +452,15 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC460874",
+      "titre": "audition, ouverte à la presse, de Mme Charlotte Brun, co-présidente de la commission éducation de France urbaine.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460774",
       "titre": "audition des représentants de la Mission de défense et attaché d’armement en Italie: le Général de brigade Mathieu FROMAGET Attaché de défense français en Italie et le colonel Ronan Chipon, attaché d’armement.",
       "type": "reunionCommission_type",
@@ -488,6 +506,15 @@
       "organisateur": "PO878513"
     },
     {
+      "uid": "RUANR5L17S2026IDC460875",
+      "titre": "audition, ouverte à la presse, de Mme Stéphanie Léger, présidente du Réseau français des villes éducatrices (RFVE).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460867",
       "titre": "audition de Mme Camille Broyelle, professeure de droit à l’université Paris-Panthéon-Assas, directrice du master « droit du numérique, droit des médias ».",
       "type": "reunionCommission_type",
@@ -495,6 +522,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460876",
+      "titre": "audition, ouverte à la presse, Mme Rozenn Merrien, présidente de l’Association nationale des directeurs et des cadres de l’éducation des villes et des collectivités territoriales (Andev), et M. Gabriel Fraga, vice-président.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2026IDC460868",

@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-16T03:23:32.563Z",
+  "updatedAt": "2026-07-16T06:17:52.000Z",
   "scrutins": [
+    {
+      "numero": "8282",
+      "titre": "l'amendement n° 397 de Mme Capdevielle à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "5",
+      "contre": "136",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
     {
       "numero": "8279",
       "titre": "l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
@@ -11,6 +22,17 @@
       "contre": "182",
       "abstentions": "8",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8283",
+      "titre": "le sous-amendement n° 1192 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "144",
+      "pour": "74",
+      "contre": "70",
+      "abstentions": "0",
+      "nonVotants": "2"
     },
     {
       "numero": "8280",
@@ -24,6 +46,39 @@
       "nonVotants": "0"
     },
     {
+      "numero": "8288",
+      "titre": "le sous-amendement n° 1188 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "113",
+      "contre": "31",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8285",
+      "titre": "le sous-amendement n° 1993 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "146",
+      "pour": "93",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8286",
+      "titre": "le sous-amendement n° 1215 de M. Fait et les sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "142",
+      "pour": "89",
+      "contre": "52",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8281",
       "titre": "l'amendement n° 393 de Mme Capdevielle de suppression de l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-15",
@@ -32,6 +87,17 @@
       "pour": "6",
       "contre": "144",
       "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8287",
+      "titre": "le sous-amendement n° 1189 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "94",
+      "contre": "31",
+      "abstentions": "20",
       "nonVotants": "2"
     },
     {
@@ -44,6 +110,28 @@
       "contre": "68",
       "abstentions": "0",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8284",
+      "titre": "le sous-amendement n° 1190 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "142",
+      "pour": "89",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8289",
+      "titre": "l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "103",
+      "contre": "42",
+      "abstentions": "0",
+      "nonVotants": "2"
     },
     {
       "numero": "8194",
@@ -461,94 +549,6 @@
       "pour": "25",
       "contre": "28",
       "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8240",
-      "titre": "l'amendement n° 437 de M. Bernalicis de suppression de l'article 6 ter du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "57",
-      "pour": "26",
-      "contre": "31",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8217",
-      "titre": "l'article 5 octies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "62",
-      "pour": "33",
-      "contre": "29",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8177",
-      "titre": "l'amendement n° 797 (rect.) de M. Rimane à l'article 9 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "37",
-      "pour": "2",
-      "contre": "35",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8273",
-      "titre": "l'amendement n° 914 du Gouvernement et les amendements identiques suivants de rétablissement de l'article 24 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "45",
-      "pour": "28",
-      "contre": "0",
-      "abstentions": "17",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8198",
-      "titre": "le sous-amendement n° 960 de M. Bernalicis à l'amendement n° 911 du Gouvernement de rétablissement de l'article 21 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "54",
-      "pour": "18",
-      "contre": "35",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8168",
-      "titre": "l'amendement n° 796 de M. Sansu à l'article 9 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "32",
-      "pour": "10",
-      "contre": "22",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8212",
-      "titre": "l'amendement n° 93 de Mme Soudais à l'article 5 septies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "61",
-      "pour": "28",
-      "contre": "33",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8172",
-      "titre": "l'amendement n° 515 de M. Molac à l'article 9 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "39",
-      "pour": "12",
-      "contre": "27",
-      "abstentions": "0",
       "nonVotants": "2"
     }
   ]

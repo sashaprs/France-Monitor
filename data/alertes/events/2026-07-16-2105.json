@@ -1,0 +1,200 @@
+{
+ "genere_le": "2026-07-16T21:05:01.731Z",
+ "evenements": [
+  {
+   "id": "scrutin:8322",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8322 : l'amendement n° 181 de Mme Keloua Hachi et l'amendement identique suivant de suppression de l'article 2 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "60 pour · 59 contre · 32 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8322",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 181 de Mme Keloua Hachi et l'amendement identique suivant de suppression de l'article 2 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8308",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8308 : l'amendement n° 362 de M. Arnaud Bonnet après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "93 pour · 51 contre · 8 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8308",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 362 de M. Arnaud Bonnet après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8314",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8314 : l'amendement n° 479 de Mme Loir à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "33 pour · 88 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8314",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 479 de Mme Loir à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8311",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8311 : l'amendement n° 647 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "118 pour · 5 contre · 2 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8311",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 647 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8309",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8309 : l'amendement n° 660 de Mme Martin (Alpes-Maritimes) après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "34 pour · 56 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8309",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 660 de Mme Martin (Alpes-Maritimes) après l'article 11 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8316",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8316 : l'amendement n° 609 de Mme Joncour à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "36 pour · 81 contre · 2 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8316",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 609 de Mme Joncour à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8312",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8312 : l'amendement n° 653 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "121 pour · 1 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8312",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 653 de Mme Maximi à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8318",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8318 : l'amendement n° 731 de Mme Cestrières à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "73 pour · 37 contre · 2 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8318",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 731 de Mme Cestrières à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8321",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8321 : l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "128 pour · 3 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8321",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8319",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8319 : l'amendement n° 9 (rect.) de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "29 pour · 83 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8319",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 9 (rect.) de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8310",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8310 : l'amendement n° 270 de Mme Capdevielle et l'amendement identique suivant à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "45 pour · 77 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8310",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 270 de Mme Capdevielle et l'amendement identique suivant à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8320",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8320 : l'amendement n° 175 de Mme Hadizadeh à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "42 pour · 55 contre · 25 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8320",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 175 de Mme Hadizadeh à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8317",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8317 : l'amendement n° 770 de Mme Parmentier à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 87 contre · 0 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8317",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 770 de Mme Parmentier à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8315",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8315 : l'amendement n° 390 de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "35 pour · 75 contre · 6 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8315",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 390 de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8313",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T21:05:01.731Z",
+   "titre": "Scrutin n° 8313 : l'amendement n° 655 de Mme Cathala et les amendements identiques suivants à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "63 pour · 64 contre · 1 abstentions (2026-07-16)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8313",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 655 de Mme Cathala et les amendements identiques suivants à l'article premier du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

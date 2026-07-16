@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T11:39:07.251Z",
+  "updatedAt": "2026-07-16T13:49:57.451Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -176,8 +176,8 @@
       "uid": "RUANR5L17S2026IDC460796",
       "titre": "présentation, par M. Damien Maudet et Mme Sophie Pantel, rapporteurs spéciaux de la mission Sécurités : Sécurité civile, du rapport d’évaluation des politiques publiques portant sur la valeur du sauvé ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T15:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-15T15:05:00.000Z",
+      "dateFin": "2026-07-15T16:55:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -209,15 +209,6 @@
       "organisateur": "PO884244"
     },
     {
-      "uid": "RUANR5L17S2026IDC460841",
-      "titre": "audition, ouverte à la presse, de Mme Anne Rubinstein, déléguée interministérielle à la prévention et à la lutte contre la pauvreté, et de Mme Juliette Parnot, conseillère santé, enfance et conditions des femmes auprès de Mme la déléguée.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30860",
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l'approbation de l'accord entre la France et les Pays-Bas portant délimitation de la frontière entre Saint-Martin et Sint Maarten",
       "type": "seance_type",
@@ -227,8 +218,17 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2026IDC460841",
+      "titre": "audition, ouverte à la presse, de Mme Anne Rubinstein, déléguée interministérielle à la prévention et à la lutte contre la pauvreté, et de Mme Juliette Parnot, conseillère santé, enfance et conditions des femmes auprès de Mme la déléguée.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-16T07:05:00.000Z",
+      "dateFin": "2026-07-16T09:00:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460846",
-      "titre": "table ronde des organisations syndicales :\r- confédération générale des travailleurs (CGT) – Mme Emmanuelle Lavignac, secrétaire nationale Ugict-CGT et M. Ugo Lopez, syndicat CGT Thales LAS France.\r- force ouvrière (FO) – MM. Branislav Rugani, secrétaire confédéral et Éric Peres, secrétaire général de l’Union des Cadres et Ingénieurs (UCI).\r- confédération française des travailleurs chrétiens (CFTC) – M. Jean Marc Cicuto, conseiller auprès du président de la CFTC en charge de l’IA et Mme Nassima Dahgane, responsable affaires sociales et juridiques.\r- confédération française de l’encadrement-Confédération générale des cadres (CFE-CGC) – M. Franck Torrès, délégué national confédéral en charge de l’IA et M. Johaquim Assedo.",
+      "titre": "table ronde des organisations syndicales :\r- confédération générale des travailleurs (CGT) – Mme Emmanuelle Lavignac, secrétaire nationale Ugict-CGT et M. Ugo Lopez, syndicat CGT Thales LAS France.\r- Force ouvrière (FO) – MmeSalomé Mandelcwajg, assistante confédérale, MM. Branislav Rugani, secrétaire confédéral et Éric Peres, secrétaire général de l’Union des Cadres et Ingénieurs (UCI).\r- confédération française des travailleurs chrétiens (CFTC) – M. Jean Marc Cicuto, conseiller auprès du président de la CFTC en charge de l’IA et Mme Nassima Dahgane, responsable affaires sociales et juridiques.\r- confédération française de l’encadrement-Confédération générale des cadres (CFE-CGC) – M. Franck Torrès, délégué national confédéral en charge de l’IA et M. Johaquim Assedo.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-16T07:30:00.000Z",
       "dateFin": null,
@@ -249,7 +249,7 @@
       "titre": "nomination d’un rapporteur sur la décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement, de la pétition n°6334 « Contre la présomption de légitime défense pour les forces de l'ordre »",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-16T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T09:10:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },

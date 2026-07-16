@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T23:58:07.034Z",
+  "updatedAt": "2026-07-16T03:23:32.563Z",
   "scrutins": [
     {
       "numero": "8279",
@@ -11,6 +11,28 @@
       "contre": "182",
       "abstentions": "8",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8280",
+      "titre": "l'ensemble de la proposition de loi relative au droit à l'aide à mourir (lecture définitive).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "561",
+      "pour": "291",
+      "contre": "241",
+      "abstentions": "29",
+      "nonVotants": "0"
+    },
+    {
+      "numero": "8281",
+      "titre": "l'amendement n° 393 de Mme Capdevielle de suppression de l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-15",
+      "sort": null,
+      "nombreVotants": "152",
+      "pour": "6",
+      "contre": "144",
+      "abstentions": "2",
+      "nonVotants": "2"
     },
     {
       "numero": "8278",
@@ -526,28 +548,6 @@
       "nombreVotants": "39",
       "pour": "12",
       "contre": "27",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8234",
-      "titre": "l'amendement n° 11 de M. Pauget et l'amendement identique suivant de rétablissement de l'article 5 quindecies (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "9",
-      "contre": "41",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8251",
-      "titre": "l'amendement n° 483 de M. Bernalicis à l'article 12 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "51",
-      "pour": "20",
-      "contre": "31",
       "abstentions": "0",
       "nonVotants": "2"
     }

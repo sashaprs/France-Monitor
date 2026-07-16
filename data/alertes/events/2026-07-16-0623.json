@@ -1,0 +1,1003 @@
+{
+ "genere_le": "2026-07-16T06:23:13.435Z",
+ "evenements": [
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001188:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1188 de Perrine Goulet (Dem) : Adopté",
+   "detail": "Le présent sous-amendement vise à mettre fin à une impasse juridique dramatique qui frappe les parents protecteurs, le plus souvent les mères, lors de la révélation de violences intrafamiliales ou de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1188",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à mettre fin à une impasse juridique dramatique qui frappe les parents protecteurs, le plus souvent les mères, lors de la révélation de violences intrafamiliales ou de… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001219",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1219 de Philippe Fait (HOR) — ART. 6",
+   "detail": "Le présent sous-amendement vise à sécuriser juridiquement les parents qui, de bonne foi, prennent la décision de ne pas remettre leur enfant à l’autre parent après avoir saisi le juge d’une demande d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1219",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à sécuriser juridiquement les parents qui, de bonne foi, prennent la décision de ne pas remettre leur enfant à l’autre parent après avoir saisi le juge d’une demande d… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001189:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1189 de Perrine Goulet (Dem) : Adopté",
+   "detail": "Le présent sous-amendement vise à améliorer l'information des victimes de violences sur leurs droits existants en matière de parcours de soins, afin de lutter contre le non-recours. L'article L. 160-…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1189",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à améliorer l'information des victimes de violences sur leurs droits existants en matière de parcours de soins, afin de lutter contre le non-recours. L'article L. 160-… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001193:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1193 de Catherine Ibled (EPR) : Adopté",
+   "detail": "Le présent sous-amendement vise à réduire de quinze à huit jours le délai dans lequel le juge compétent doit statuer après sa saisine par le procureur de la République. Lorsqu'un enfant est exposé à…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1193",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à réduire de quinze à huit jours le délai dans lequel le juge compétent doit statuer après sa saisine par le procureur de la République. Lorsqu'un enfant est exposé à… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001218",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1218 de Virginie Duby-Muller (DR) — ART. 6",
+   "detail": "Le présent sous-amendement vise à sécuriser juridiquement les parents qui, de bonne foi, prennent la décision de ne pas remettre leur enfant à l’autre parent après avoir saisi le juge d’une demande d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1218",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à sécuriser juridiquement les parents qui, de bonne foi, prennent la décision de ne pas remettre leur enfant à l’autre parent après avoir saisi le juge d’une demande d… ART. 6 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001217",
+   "type": "nouvel_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1217 de Virginie Duby-Muller (DR) — ART. 6",
+   "detail": "Le présent sous-amendement a pour objet de consolider l’efficacité de l’ordonnance de sûreté de l’enfant instaurée par cet article. Il prévoit, tout d’abord, que lorsque des éléments permettent de pr…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1217",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement a pour objet de consolider l’efficacité de l’ordonnance de sûreté de l’enfant instaurée par cet article. Il prévoit, tout d’abord, que lorsque des éléments permettent de pr… ART. 6 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001194:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1194 de Catherine Ibled (EPR) : Retiré",
+   "detail": "Le sous-amendement substitue à l'expression « ordonnance de protection provisoire de l'enfant » celle d'« ordonnance de sûreté de l'enfant », plus conforme à l'esprit initial du texte. Cette dénomina…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1194",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le sous-amendement substitue à l'expression « ordonnance de protection provisoire de l'enfant » celle d'« ordonnance de sûreté de l'enfant », plus conforme à l'esprit initial du texte. Cette dénomina… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001192:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1192 de Catherine Ibled (EPR) : Adopté",
+   "detail": "Les travaux de la commission d'enquête sur le traitement judiciaire des violences sexuelles incestueuses ont rappelé que les enfants peuvent être victimes de violences sexuelles, physiques ou psychol…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1192",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les travaux de la commission d'enquête sur le traitement judiciaire des violences sexuelles incestueuses ont rappelé que les enfants peuvent être victimes de violences sexuelles, physiques ou psychol… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001191:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1191 de Catherine Ibled (EPR) : Retiré",
+   "detail": "Le présent sous-amendement précise les conditions dans lesquelles le procureur de la République peut mettre en œuvre les mesures de protection prévues par le présent amendement. Cette rédaction répon…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1191",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement précise les conditions dans lesquelles le procureur de la République peut mettre en œuvre les mesures de protection prévues par le présent amendement. Cette rédaction répon… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001190:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1190 de Perrine Goulet (Dem) : Adopté",
+   "detail": "Le présent sous-amendement vise à substituer aux références limitées aux seuls parents de l'enfant la formulation plus générale de « des personnes ». Cette rédaction permet d'élargir le champ des per…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1190",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à substituer aux références limitées aux seuls parents de l'enfant la formulation plus générale de « des personnes ». Cette rédaction permet d'élargir le champ des per… ART. 6 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001215:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1215 de Philippe Fait (HOR) : Adopté",
+   "detail": "Le présent sous-amendement vise à renforcer l'effectivité de l'ordonnance de sûreté de l'enfant créée par le présent article. En premier lieu, il précise que, lorsque des éléments rendent vraisemblab…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1215",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à renforcer l'effectivité de l'ordonnance de sûreté de l'enfant créée par le présent article. En premier lieu, il précise que, lorsque des éléments rendent vraisemblab… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001184:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1184 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement élargit la compétence du juge des enfants pour lui permettre de suspendre également le droit de correspondance du parent soupçonné d'exposer son enfant à un danger, par parallélisme av…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1184",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement élargit la compétence du juge des enfants pour lui permettre de suspendre également le droit de correspondance du parent soupçonné d'exposer son enfant à un danger, par parallélisme av… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001185:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1185 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement vise à clarifier les critères de répartition entre juge des enfants et juge aux affaires familiales : dès lors que le procureur n’estime pas qu’une mesure d’assistance éducative soit n…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1185",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à clarifier les critères de répartition entre juge des enfants et juge aux affaires familiales : dès lors que le procureur n’estime pas qu’une mesure d’assistance éducative soit n… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001183:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1183 du Gouvernement : Adopté",
+   "detail": "Le présent amendement, fruit d’un travail de concertation, procède à une réécriture globale de l’article 6 afin de clarifier, simplifier et sécuriser le dispositif de protection d’urgence de l’enfant…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1183",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement, fruit d’un travail de concertation, procède à une réécriture globale de l’article 6 afin de clarifier, simplifier et sécuriser le dispositif de protection d’urgence de l’enfant… ART. 6 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000658:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 658 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "L'article 6 du projet de loi confère au juge statuant dans le cadre de l'ordonnance d'accueil provisoire la faculté de prononcer des mesures d'interdiction de contact et de paraître dans certains lie…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/658",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 6 du projet de loi confère au juge statuant dans le cadre de l'ordonnance d'accueil provisoire la faculté de prononcer des mesures d'interdiction de contact et de paraître dans certains lie… ART. 6 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001164:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1164 de Catherine Ibled (EPR) : Tombé",
+   "detail": "Le présent amendement de repli vise à rétablir l'esprit originel de l'article 6 en réunissant, sous une dénomination unique d'ordonnance de sûreté de l'enfant, les deux mécanismes de protection compl…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1164",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement de repli vise à rétablir l'esprit originel de l'article 6 en réunissant, sous une dénomination unique d'ordonnance de sûreté de l'enfant, les deux mécanismes de protection compl… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001163:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1163 (Rect) de Catherine Ibled (EPR) : Tombé",
+   "detail": "Le présent amendement réécrit l'article 6 afin de retrouver l'ambition de la rédaction initiale du Gouvernement tout en intégrant les garanties procédurales issues des travaux de la commission. Il cr…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1163 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement réécrit l'article 6 afin de retrouver l'ambition de la rédaction initiale du Gouvernement tout en intégrant les garanties procédurales issues des travaux de la commission. Il cr… ART. 6 Catherine Ibled EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000929:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 929 (Rect) de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement procède à plusieurs modifications : - il distingue dans un nouveau paragraphe la saisine par le tiers ; - il précise , par cohérence avec l'amendement précédent, que ce sont bien les v…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/929 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement procède à plusieurs modifications : - il distingue dans un nouveau paragraphe la saisine par le tiers ; - il précise , par cohérence avec l'amendement précédent, que ce sont bien les v… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000856:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 856 de Béatrice Roullaud (RN) : Tombé",
+   "detail": "Cet amendement vise à supprimer le caractère d’immédiateté aux critères de gravité et d’immédiateté du danger encouru par l’enfant, permettant la saisine du Procureur. L’ordonnance de sûreté doit per…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/856",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à supprimer le caractère d’immédiateté aux critères de gravité et d’immédiateté du danger encouru par l’enfant, permettant la saisine du Procureur. L’ordonnance de sûreté doit per… ART. 6 Béatrice Roullaud RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000926:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 926 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Amendement rédactionnel",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/926",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001137:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 1137 de Alix Fruchon (DR) : Tombé",
+   "detail": "Dans le cadre des édictions des ordonnances, le juge aux affaires familiales peut prendre toute mesure susceptible de protéger l'enfant. Les liens familiaux constituent souvent pour les enfants touch…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1137",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Dans le cadre des édictions des ordonnances, le juge aux affaires familiales peut prendre toute mesure susceptible de protéger l'enfant. Les liens familiaux constituent souvent pour les enfants touch… ART. 6 Alix Fruchon DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000931:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 931 (Rect) de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement précise la procédure devant le juge aux affaires familiales. En premier lieu, il supprime la nécessité que le mineur soit systématiquement entendu : si celui-ci a déjà été entendu aupa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/931 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement précise la procédure devant le juge aux affaires familiales. En premier lieu, il supprime la nécessité que le mineur soit systématiquement entendu : si celui-ci a déjà été entendu aupa… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000781:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 781 de Arnaud Bonnet (EcoS) : Tombé",
+   "detail": "L'article 6 crée une ordonnance d'accueil provisoire permettant au juge, pendant l'instance et en cas d'urgence, de mettre l'enfant à l'abri sans attendre l'issue de la procédure. Ce dispositif est b…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/781",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 6 crée une ordonnance d'accueil provisoire permettant au juge, pendant l'instance et en cas d'urgence, de mettre l'enfant à l'abri sans attendre l'issue de la procédure. Ce dispositif est b… ART. 6 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000657:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 657 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "EXPOSÉ SOMMAIRE L'article 6 permet au procureur de la République de délivrer une ordonnance provisoire de protection de l'enfant lorsqu'un parent expose son enfant à un danger grave et immédiat. Dans…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/657",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "EXPOSÉ SOMMAIRE L'article 6 permet au procureur de la République de délivrer une ordonnance provisoire de protection de l'enfant lorsqu'un parent expose son enfant à un danger grave et immédiat. Dans… ART. 6 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000930:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 930 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement garantit la continuité de la protection de l'enfant le temps que le juge aux affaires familiales ou le juge des enfants se prononce, après avoir été saisi par le procureur. Les mesures…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/930",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement garantit la continuité de la protection de l'enfant le temps que le juge aux affaires familiales ou le juge des enfants se prononce, après avoir été saisi par le procureur. Les mesures… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000927:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 927 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement supprime la mention de partie défenderesse pour privilégier l'un des parents ou les deux parents : il s'agit ici des prérogatives du juge des enfants dans le cadre d'une ordonnance d'a…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/927",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement supprime la mention de partie défenderesse pour privilégier l'un des parents ou les deux parents : il s'agit ici des prérogatives du juge des enfants dans le cadre d'une ordonnance d'a… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000935:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 935 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Amendement rédactionnel",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/935",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000470:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 470 de Christine Le Nabour (EPR) : Tombé",
+   "detail": "Le dispositif créé par l'article 6 organise deux voies de saisine du juge aux affaires familiales : soit par l'intermédiaire du procureur de la République, soit directement par le parent protecteur,…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/470",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le dispositif créé par l'article 6 organise deux voies de saisine du juge aux affaires familiales : soit par l'intermédiaire du procureur de la République, soit directement par le parent protecteur,… ART. 6 Christine Le Nabour EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000528:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 528 de Sébastien Saint-Pasteur (SOC) : Tombé",
+   "detail": "Cet amendement vise à garantir l’accompagnement de l’enfant et de sa famille tout au long de la procédure pénale engagée à la suite de violences sexuelles incestueuses. L’accompagnement de l’enfant e…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/528",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à garantir l’accompagnement de l’enfant et de sa famille tout au long de la procédure pénale engagée à la suite de violences sexuelles incestueuses. L’accompagnement de l’enfant e… ART. 6 Sébastien Saint-Pasteur SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000485:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 485 de Christine Loir (RN) : Tombé",
+   "detail": "L’article 6 crée une ordonnance de sûreté de l’enfant destinée à permettre une réaction rapide lorsque le mineur est exposé à un danger grave et immédiat. Dans sa rédaction actuelle, le dispositif pe…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/485",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 6 crée une ordonnance de sûreté de l’enfant destinée à permettre une réaction rapide lorsque le mineur est exposé à un danger grave et immédiat. Dans sa rédaction actuelle, le dispositif pe… ART. 6 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000932:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 932 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Cet amendement vise à élargir les possibilités de saisine du juge aux affaires familiales à toutes les situations dans lesquelles le juge des enfants a pris des mesures provisoires relatives aux moda…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/932",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à élargir les possibilités de saisine du juge aux affaires familiales à toutes les situations dans lesquelles le juge des enfants a pris des mesures provisoires relatives aux moda… ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000659:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 659 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "L'article 6 crée la violation de l'ordonnance de protection de l'enfant comme infraction autonome, punie de trois ans d'emprisonnement et 45 000 euros d'amende. Si l'amendement n°1 de la présente lia…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/659",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 6 crée la violation de l'ordonnance de protection de l'enfant comme infraction autonome, punie de trois ans d'emprisonnement et 45 000 euros d'amende. Si l'amendement n°1 de la présente lia… ART. 6 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000656:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 656 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "L'article 6 du projet de loi crée l'ordonnance provisoire de protection de l'enfant, délivrée par le procureur de la République, ainsi que l'ordonnance de protection de l'enfant, délivrée par le juge…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/656",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 6 du projet de loi crée l'ordonnance provisoire de protection de l'enfant, délivrée par le procureur de la République, ainsi que l'ordonnance de protection de l'enfant, délivrée par le juge… ART. 6 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000469:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 469 de Christine Le Nabour (EPR) : Tombé",
+   "detail": "L'ordonnance d'accueil provisoire créée par l'article 6 permet au juge des enfants de suspendre tout contact entre l'enfant et la personne mise en cause, mais cette mesure suppose aujourd'hui que le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/469",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'ordonnance d'accueil provisoire créée par l'article 6 permet au juge des enfants de suspendre tout contact entre l'enfant et la personne mise en cause, mais cette mesure suppose aujourd'hui que le… ART. 6 Christine Le Nabour EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000860:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 860 de Béatrice Roullaud (RN) : Tombé",
+   "detail": "Cet amendement permet de viser expressément les tiers, qui de notre point de vue, doivent pouvoir saisir directement le Juge aux affaires familiales en vue de faire délivrer une ordonnance de protect…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/860",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement permet de viser expressément les tiers, qui de notre point de vue, doivent pouvoir saisir directement le Juge aux affaires familiales en vue de faire délivrer une ordonnance de protect… ART. 6 Béatrice Roullaud RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000859:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 859 de Béatrice Roullaud (RN) : Tombé",
+   "detail": "Cet amendement est le complément d’un amendement précédemment déposé concernant les critères de saisine du procureur, autorisée en cas de grave danger pour l’enfant, même non immédiat. Si cet amendem…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/859",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement est le complément d’un amendement précédemment déposé concernant les critères de saisine du procureur, autorisée en cas de grave danger pour l’enfant, même non immédiat. Si cet amendem… ART. 6 Béatrice Roullaud RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000934:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 934 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Amendement rédactionnel",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/934",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000933:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 933 de Marianne Maximi (LFI-NFP) : Tombé",
+   "detail": "Amendement rédactionnel",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/933",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel ART. 6 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000250:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 250 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "Le présent amendement vise à renforcer la prise en compte de la parole de l’enfant lorsqu’une situation de violences parentales a été judiciairement constatée. Dans ces situations, les décisions rela…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/250",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la prise en compte de la parole de l’enfant lorsqu’une situation de violences parentales a été judiciairement constatée. Dans ces situations, les décisions rela… ART. 6 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000351:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 351 de Christian Baptiste (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à prendre en compte obligatoirement le refus de l'enfant dans la délivrance de l'ordonnance de protection de l’enfant. L'amendement s'insère…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/351",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à prendre en compte obligatoirement le refus de l'enfant dans la délivrance de l'ordonnance de protection de l’enfant. L'amendement s'insère… ART. 6 Christian Baptiste SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000400:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 400 de Philippe Fait (HOR) : Tombé",
+   "detail": "La CIIVISE (Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants) a souligné dans ses communiqués du 19 novembre 2024 puis du 7 avril 2025, l'urgence de doter notre dro…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/400",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La CIIVISE (Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants) a souligné dans ses communiqués du 19 novembre 2024 puis du 7 avril 2025, l'urgence de doter notre dro… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000273:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 273 de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à ce que l'ordonnance de protection soit délivrée par le juge des affaires familiales dans un délai maximal de six jours à compter de la de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/273",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à ce que l'ordonnance de protection soit délivrée par le juge des affaires familiales dans un délai maximal de six jours à compter de la de l… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000393:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 393 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Le présent amendement des députés socialistes et apparentés vise à supprimer l'article 6 qui crée une ordonnance de sûreté de l'enfant confiée au juge des enfants. Si l'objectif de renforcer la prote…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/393",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement des députés socialistes et apparentés vise à supprimer l'article 6 qui crée une ordonnance de sûreté de l'enfant confiée au juge des enfants. Si l'objectif de renforcer la prote… ART. 6 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000398:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 398 de Philippe Fait (HOR) : Tombé",
+   "detail": "Cet amendement vise à renforcer l’effectivité de la protection des enfants en situation de danger. Si le projet de loi améliore utilement les pouvoirs du juge en matière d’assistance éducative, elle…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/398",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à renforcer l’effectivité de la protection des enfants en situation de danger. Si le projet de loi améliore utilement les pouvoirs du juge en matière d’assistance éducative, elle… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000276:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 276 de Marie-Charlotte Garin (EcoS) : Tombé",
+   "detail": "Le présent amendement vise à permettre au juge aux affaires familiales, lorsqu'il délivre une ordonnance de protection de l'enfant, d'attribuer provisoirement la jouissance de l'animal de compagnie d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/276",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à permettre au juge aux affaires familiales, lorsqu'il délivre une ordonnance de protection de l'enfant, d'attribuer provisoirement la jouissance de l'animal de compagnie d… ART. 6 Marie-Charlotte Garin EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000349:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 349 de Christian Baptiste (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à éloigner l'auteur présumé plutôt que déplacer l'enfant. Le présent amendement complète directement l'article 515-13-3 du code civil que l'a…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/349",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à éloigner l'auteur présumé plutôt que déplacer l'enfant. Le présent amendement complète directement l'article 515-13-3 du code civil que l'a… ART. 6 Christian Baptiste SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000262:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 262 de Elsa Faucillon (GDR) : Tombé",
+   "detail": "Cet amendement, proposé par le Collectif pour l'enfance, vise à renforcer l’effectivité de la protection des enfants en situation de danger. Si le projet de loi améliore utilement les pouvoirs du jug…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/262",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement, proposé par le Collectif pour l'enfance, vise à renforcer l’effectivité de la protection des enfants en situation de danger. Si le projet de loi améliore utilement les pouvoirs du jug… ART. 6 Elsa Faucillon GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000403:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 403 de Philippe Fait (HOR) : Tombé",
+   "detail": "L'ordonnance de sûreté de l'enfant a vocation à assurer la protection du mineur pendant toute la durée de la procédure pénale, jusqu'à ce que la justice puisse statuer sur les faits dénoncés. Or, le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/403",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'ordonnance de sûreté de l'enfant a vocation à assurer la protection du mineur pendant toute la durée de la procédure pénale, jusqu'à ce que la justice puisse statuer sur les faits dénoncés. Or, le… ART. 6 Philippe Fait HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000397:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 397 de Colette Capdevielle (SOC) : Rejeté",
+   "detail": "Le présent amendement des députés socialistes et apparentés vise à réécrire l’article 6, en confiant au juge des enfants (JE), plutôt qu'au juge aux affaires familiales (JAF), la compétence pour pron…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/397",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement des députés socialistes et apparentés vise à réécrire l’article 6, en confiant au juge des enfants (JE), plutôt qu'au juge aux affaires familiales (JAF), la compétence pour pron… ART. 6 Colette Capdevielle SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000281:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 281 de Marie-Charlotte Garin (EcoS) : Tombé",
+   "detail": "Le présent amendement vise à préciser que les sévices graves ou les actes de cruauté commis envers un animal au domicile de l'enfant ou en sa présence peuvent être pris en considération parmi les élé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/281",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à préciser que les sévices graves ou les actes de cruauté commis envers un animal au domicile de l'enfant ou en sa présence peuvent être pris en considération parmi les élé… ART. 6 Marie-Charlotte Garin EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000063:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 63 de Josiane Corneloup (DR) : Tombé",
+   "detail": "Le texte vise principalement les situations dans lesquelles le danger résulte de violences directement dirigées contre l'enfant. Or la recherche clinique documente depuis deux décennies le traumatism…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/63",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le texte vise principalement les situations dans lesquelles le danger résulte de violences directement dirigées contre l'enfant. Or la recherche clinique documente depuis deux décennies le traumatism… ART. 6 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000172:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 172 de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à rendre obligatoire l’interdiction pour le parent suspecté de recevoir ou de rencontrer d’entrer en contact avec lui ou de se rendre dans ce…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/172",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à rendre obligatoire l’interdiction pour le parent suspecté de recevoir ou de rencontrer d’entrer en contact avec lui ou de se rendre dans ce… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000066:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 66 de Josiane Corneloup (DR) : Tombé",
+   "detail": "Le texte prévoit que, après la délivrance par le procureur de la République d'une ordonnance provisoire de protection de l'enfant, celui-ci dispose de huit jours pour saisir le juge compétent. Or cet…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/66",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le texte prévoit que, après la délivrance par le procureur de la République d'une ordonnance provisoire de protection de l'enfant, celui-ci dispose de huit jours pour saisir le juge compétent. Or cet… ART. 6 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000157:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 157 (Rect) de Anne-Laure Blin (DR) : Tombé",
+   "detail": "L’article 375-5 du code civil fait obligation au magistrat d’interroger la cellule nationale d’orientation pour savoir où orienter le mineur privé temporairement ou définitivement de sa famille. La c…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/157 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 375-5 du code civil fait obligation au magistrat d’interroger la cellule nationale d’orientation pour savoir où orienter le mineur privé temporairement ou définitivement de sa famille. La c… ART. 6 Anne-Laure Blin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000073:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 73 de Josiane Corneloup (DR) : Tombé",
+   "detail": "Si l'amendement portant la peine de base à cinq ans n'est pas adopté, il importe a minima d'introduire des peines aggravées pour les cas de récidive et pour les violations exposant directement l'enfa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/73",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Si l'amendement portant la peine de base à cinq ans n'est pas adopté, il importe a minima d'introduire des peines aggravées pour les cas de récidive et pour les violations exposant directement l'enfa… ART. 6 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000162:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 162 de Émilie Bonnivard (DR) : Tombé",
+   "detail": "L’article 6, dans sa rédaction issue des travaux de la commission, reprend les principes de l’article 4 de la proposition de loi relative à l’intérêt des enfants, adoptée à l’Assemblée nationale en j…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/162",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 6, dans sa rédaction issue des travaux de la commission, reprend les principes de l’article 4 de la proposition de loi relative à l’intérêt des enfants, adoptée à l’Assemblée nationale en j… ART. 6 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000065:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 65 de Josiane Corneloup (DR) : Tombé",
+   "detail": "Le texte confère au procureur, comme au juge, la faculté (« il peut ») de prononcer des interdictions de contact et de paraître. Cette rédaction optionnelle est insuffisante lorsque l'ordonnance est…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/65",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le texte confère au procureur, comme au juge, la faculté (« il peut ») de prononcer des interdictions de contact et de paraître. Cette rédaction optionnelle est insuffisante lorsque l'ordonnance est… ART. 6 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000170:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 170 de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à maintenir la possibilité pour le juge de maintenir certains droits de correspondance et de visite pour le parent suspecté s’il estime que l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/170",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à maintenir la possibilité pour le juge de maintenir certains droits de correspondance et de visite pour le parent suspecté s’il estime que l… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000173:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 173 (Rect) de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à rendre obligatoire la suspension immédiate des droits de correspondance, de visite et d'hébergement du parent suspecté pour protéger immédi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/173 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à rendre obligatoire la suspension immédiate des droits de correspondance, de visite et d'hébergement du parent suspecté pour protéger immédi… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000166:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 166 de Florence Herouin-Léautey (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à préciser que le Procureur de la République est compétent pour délivrer une ordonnance d’accueil provisoire dès lors qu’un de ses parents es…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/166",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à préciser que le Procureur de la République est compétent pour délivrer une ordonnance d’accueil provisoire dès lors qu’un de ses parents es… ART. 6 Florence Herouin-Léautey SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000076:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Amendement n° 76 de Josiane Corneloup (DR) : Tombé",
+   "detail": "L'article 6 crée les ordonnances provisoires de protection de l'enfant, outils d'urgence permettant de protéger immédiatement un mineur exposé à un danger grave et immédiat. La cohérence du dispositi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/76",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 6 crée les ordonnances provisoires de protection de l'enfant, outils d'urgence permettant de protéger immédiatement un mineur exposé à un danger grave et immédiat. La cohérence du dispositi… ART. 6 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:993a853595bf2b6b",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour de la séance publique : Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "detail": "lundi 20 juillet à 16:00 · Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi relative à l’organisation, à la gestion et au financement du sport professionnel",
+   "url": null,
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi relative à l’organisation, à la gestion et au financement du sport professionnel Assemblée Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  },
+  {
+   "id": "odj:b89e6494b4913df1",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour de la séance publique : Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur",
+   "detail": "lundi 20 juillet à 16:00 · Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à accélérer la prévention cardio-neuro-vasculaire et à anticiper un risque sanitaire et social majeur",
+   "url": null,
+   "dossier_id": "DLR5L17N53426",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à accélérer la prévention cardio-neuro-vasculaire et à anticiper un risque sanitaire et social majeur Assemblée Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur",
+   "profils": []
+  },
+  {
+   "id": "odj:d52961479eabea92",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour de la séance publique : Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur",
+   "detail": "lundi 20 juillet à 21:30 · Suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à accélérer la prévention cardio-neuro-vasculaire et à anticiper un risque sanitaire et social majeur",
+   "url": null,
+   "dossier_id": "DLR5L17N53426",
+   "texte_matchable": "Suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à accélérer la prévention cardio-neuro-vasculaire et à anticiper un risque sanitaire et social majeur Assemblée Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur",
+   "profils": []
+  },
+  {
+   "id": "odj:6c5d0823bfd2b731",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour — Lois : La souveraineté industrielle de la France et à la protection du secteur stratégique de l’acier",
+   "detail": "mardi 21 juillet à 21:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N53054",
+   "texte_matchable": "Examen du texte Lois La souveraineté industrielle de la France et à la protection du secteur stratégique de l’acier",
+   "profils": []
+  },
+  {
+   "id": "odj:a5dcfb77d1373be2",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour — Lois : Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "detail": "mardi 21 juillet à 21:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Examen du texte Lois Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "odj:6c5d0823bfd2b731",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour — Lois : La souveraineté industrielle de la France et à la protection du secteur stratégique de l’acier",
+   "detail": "mardi 21 juillet à 21:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N53054",
+   "texte_matchable": "Examen du texte Lois La souveraineté industrielle de la France et à la protection du secteur stratégique de l’acier",
+   "profils": []
+  },
+  {
+   "id": "odj:a5dcfb77d1373be2",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "À l'ordre du jour — Lois : Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "detail": "mardi 21 juillet à 21:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Examen du texte Lois Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8282",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8282 : l'amendement n° 397 de Mme Capdevielle à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "5 pour · 136 contre · 4 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8282",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 397 de Mme Capdevielle à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8283",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8283 : le sous-amendement n° 1192 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "74 pour · 70 contre · 0 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8283",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1192 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8280",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8280 : l'ensemble de la proposition de loi relative au droit à l'aide à mourir (lecture définitive).",
+   "detail": "291 pour · 241 contre · 29 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8280",
+   "dossier_id": null,
+   "texte_matchable": "l'ensemble de la proposition de loi relative au droit à l'aide à mourir (lecture définitive).",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8288",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8288 : le sous-amendement n° 1188 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "113 pour · 31 contre · 1 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8288",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1188 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8285",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8285 : le sous-amendement n° 1993 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "93 pour · 53 contre · 0 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8285",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1993 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8286",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8286 : le sous-amendement n° 1215 de M. Fait et les sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "89 pour · 52 contre · 1 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8286",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1215 de M. Fait et les sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8281",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8281 : l'amendement n° 393 de Mme Capdevielle de suppression de l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "6 pour · 144 contre · 2 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8281",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 393 de Mme Capdevielle de suppression de l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8287",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8287 : le sous-amendement n° 1189 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "94 pour · 31 contre · 20 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8287",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1189 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8284",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8284 : le sous-amendement n° 1190 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "89 pour · 53 contre · 0 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8284",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1190 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8289",
+   "type": "resultat_scrutin",
+   "date": "2026-07-16T06:23:13.435Z",
+   "titre": "Scrutin n° 8289 : l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "103 pour · 42 contre · 0 abstentions (2026-07-15)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8289",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

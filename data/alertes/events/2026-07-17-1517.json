@@ -1,0 +1,1669 @@
+{
+ "genere_le": "2026-07-17T15:17:51.222Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3018P0D1N001249",
+   "type": "nouvel_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1249 de Sabine Gervais (Dem) — ART. 11",
+   "detail": "Projet de loi relatif à la protection des enfants",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1249",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "ART. 11 Sabine Gervais Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001248:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1248 du Gouvernement : Rejeté",
+   "detail": "La suppression de l'alinéa 2 de l'article L. 221-2-3 du CASF, loin de renforcer la protection des mineurs confiés à l'aide sociale à l’enfance, aboutit paradoxalement à un dispositif moins protecteur…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1248",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La suppression de l'alinéa 2 de l'article L. 221-2-3 du CASF, loin de renforcer la protection des mineurs confiés à l'aide sociale à l’enfance, aboutit paradoxalement à un dispositif moins protecteur… ART. 7 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001226:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1226 de Violette Spillebout (EPR) : Non soutenu",
+   "detail": "Ce sous-amendement précise que l’information des personnes exerçant l’autorité parentale porte sur l’ensemble des personnes intervenant durant le temps périscolaire, à titre professionnel ou bénévole…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1226",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement précise que l’information des personnes exerçant l’autorité parentale porte sur l’ensemble des personnes intervenant durant le temps périscolaire, à titre professionnel ou bénévole… ART. 14 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001224:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1224 de Violette Spillebout (EPR) : Non soutenu",
+   "detail": "Ce sous-amendement précise que l’information des personnes exerçant l’autorité parentale porte sur l’ensemble des personnes intervenant durant le temps périscolaire, à titre professionnel ou bénévole…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1224",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement précise que l’information des personnes exerçant l’autorité parentale porte sur l’ensemble des personnes intervenant durant le temps périscolaire, à titre professionnel ou bénévole… ART. 14 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001245:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1245 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Ce sous-amendement conserve les dispositions visant à étendre la transmission d'informations entre les départements en cas de placement en dehors du département d'origine. En revanche, il supprime le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1245",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement conserve les dispositions visant à étendre la transmission d'informations entre les départements en cas de placement en dehors du département d'origine. En revanche, il supprime le… ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001207:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1207 du Gouvernement : Adopté",
+   "detail": "Le présent amendement vise à supprimer la modification de l’article L. 223-1-2 du code de l’action sociale et des familles, qui prévoit que la liste annexée au projet pour l’enfant deviendrait une li…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1207",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à supprimer la modification de l’article L. 223-1-2 du code de l’action sociale et des familles, qui prévoit que la liste annexée au projet pour l’enfant deviendrait une li… ART. 9 TER Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001205:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1205 du Gouvernement : Adopté",
+   "detail": "Le présent sous-amendement vise à faire porter la responsabilité juridique de la conformité des outils numériques vis-à-vis des futurs référentiels de la protection de l’enfance aux éditeurs de ces o…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1205",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à faire porter la responsabilité juridique de la conformité des outils numériques vis-à-vis des futurs référentiels de la protection de l’enfance aux éditeurs de ces o… ART. 7 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001209:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1209 du Gouvernement : Adopté",
+   "detail": "Le présent sous-amendement vise à préciser que la personne majeure accompagnant le mineur est désignée par le service départemental de l’aide sociale à l’enfance. Si l’assistant familial ou la person…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1209",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent sous-amendement vise à préciser que la personne majeure accompagnant le mineur est désignée par le service départemental de l’aide sociale à l’enfance. Si l’assistant familial ou la person… ART. 9 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000775:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 775 (Rect) de Gabrielle Cathala (LFI-NFP) : Adopté",
+   "detail": "Le présent amendement élaboré en concertation avec la Cnape, le Gepso et l'Unicef, vise à supprimer la référence à la « rééducation » dans la dénomination des services intervenant en milieu ouvert. C…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/775 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement élaboré en concertation avec la Cnape, le Gepso et l'Unicef, vise à supprimer la référence à la « rééducation » dans la dénomination des services intervenant en milieu ouvert. C… ART. 8 Gabrielle Cathala LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000441:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 441 de Isabelle Santiago (SOC) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/441",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de… ART. 7 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000914:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 914 de Gabrielle Cathala (LFI-NFP) : Rejeté",
+   "detail": "Par cet amendement, les député.es du groupe la France insoumise proposent de supprimer cet article, qui prévoit d'étendre la réclusion criminelle à perpétuité aux auteurs de viols commis sur un mineu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/914",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Par cet amendement, les député.es du groupe la France insoumise proposent de supprimer cet article, qui prévoit d'étendre la réclusion criminelle à perpétuité aux auteurs de viols commis sur un mineu… ART. 11 Gabrielle Cathala LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001123:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1123 de David Taupiac (LIOT) : Adopté",
+   "detail": "L'article 7 prévoit notamment de permettre au représentant de l'État de faire contrôler, à tout moment et de sa propre initiative, tout établissement, service ou lieu de vie et d'accueil. Il ne préci…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1123",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 7 prévoit notamment de permettre au représentant de l'État de faire contrôler, à tout moment et de sa propre initiative, tout établissement, service ou lieu de vie et d'accueil. Il ne préci… ART. 7 David Taupiac LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000487:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 487 de Christine Loir (RN) : Rejeté",
+   "detail": "Le présent amendement vise à garantir que l’interopérabilité des systèmes d’information en protection de l’enfance ne se limite pas à un objectif technique, mais contribue concrètement à la protectio…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/487",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que l’interopérabilité des systèmes d’information en protection de l’enfance ne se limite pas à un objectif technique, mais contribue concrètement à la protectio… ART. 7 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001016:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1016 de Nathalie Colin-Oesterlé (HOR) : Tombé",
+   "detail": "Coordination juridique.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1016",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Coordination juridique. ART. 8 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000679:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 679 de Davy Rimane (GDR) : Rejeté",
+   "detail": "Dans plusieurs territoires ultramarins, notamment en Guyane, la protection de l'enfant repose sur des solidarités familiales et communautaires qui peuvent dépasser le cercle des titulaires de l'autor…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/679",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Dans plusieurs territoires ultramarins, notamment en Guyane, la protection de l'enfant repose sur des solidarités familiales et communautaires qui peuvent dépasser le cercle des titulaires de l'autor… ART. 8 BIS Davy Rimane GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000836:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 836 de Marianne Maximi (LFI-NFP) : Rejeté",
+   "detail": "Cet amendement supprime les dispositions de l'article 7 ter interdisant que les séjours de rupture puissent avoir lieu à l'étranger. L'enjeu n'est pas de proscrire ces séjours au motif que les garant…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/836",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement supprime les dispositions de l'article 7 ter interdisant que les séjours de rupture puissent avoir lieu à l'étranger. L'enjeu n'est pas de proscrire ces séjours au motif que les garant… ART. 7 TER Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000447:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 447 de Patricia Lemoine (EPR) : Non soutenu",
+   "detail": "Le présent amendement vise à renforcer la protection des mineurs accueillis dans les établissements, services ou dispositifs mentionnés à l'article L. 133-6 du code de l'action sociale et des famille…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/447",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer la protection des mineurs accueillis dans les établissements, services ou dispositifs mentionnés à l'article L. 133-6 du code de l'action sociale et des famille… APRÈS ART. 14 Patricia Lemoine EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000980:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 980 de Marine Hamelet (RN) : Rejeté",
+   "detail": "Cet amendement institue un mécanisme d'alerte systématique en cas de non-exécution d'une mesure de milieu ouvert : information immédiate du juge des enfants et convocation d'office des parties sous q…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/980",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement institue un mécanisme d'alerte systématique en cas de non-exécution d'une mesure de milieu ouvert : information immédiate du juge des enfants et convocation d'office des parties sous q… ART. 8 Marine Hamelet RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000489:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 489 de Christine Loir (RN) : Rejeté",
+   "detail": "L’article 8 permet que l’accompagnement renforcé ou intensifié en milieu ouvert puisse inclure un hébergement exceptionnel ou périodique de l’enfant. En commission, cet article a été utilement complé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/489",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 permet que l’accompagnement renforcé ou intensifié en milieu ouvert puisse inclure un hébergement exceptionnel ou périodique de l’enfant. En commission, cet article a été utilement complé… ART. 8 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000611:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 611 de Julie Ozenne (EcoS) : Rejeté",
+   "detail": "Le présent amendement vise à renforcer les garanties encadrant les échanges de données à caractère personnel dans le cadre de la politique de protection de l'enfance. Le texte prévoit que les système…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/611",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à renforcer les garanties encadrant les échanges de données à caractère personnel dans le cadre de la politique de protection de l'enfance. Le texte prévoit que les système… ART. 7 Julie Ozenne EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001095:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1095 de David Taupiac (LIOT) : Tombé",
+   "detail": "Cet amendement propose de compléter l'article L. 223-1-2 du code de l'action sociale et des familles afin de garantir que la personne ou la structure qui accueille un enfant reçoive, préalablement à…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1095",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement propose de compléter l'article L. 223-1-2 du code de l'action sociale et des familles afin de garantir que la personne ou la structure qui accueille un enfant reçoive, préalablement à… ART. 9 TER David Taupiac LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000465:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 465 de Valérie Bazin-Malgras (DR) : Non soutenu",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/465",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Valérie Bazin-Malgras DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000764:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 764 de Violette Spillebout (EPR) : Non soutenu",
+   "detail": "Le présent amendement reprend la proposition de réécriture de l'article 14 présentée par la rapporteure en commission spéciale, afin d'en rétablir les dispositions. Il clarifie le périmètre de la nou…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/764",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement reprend la proposition de réécriture de l'article 14 présentée par la rapporteure en commission spéciale, afin d'en rétablir les dispositions. Il clarifie le périmètre de la nou… ART. 14 Violette Spillebout EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000697:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 697 de Soumya Bourouaha (GDR) : Adopté",
+   "detail": "Cet amendement, issu de propositions formulées par la Cnape, le Gepso et Unicef, vise à mieux préciser la place de l'enfant dans les conférences familiales.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/697",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement, issu de propositions formulées par la Cnape, le Gepso et Unicef, vise à mieux préciser la place de l'enfant dans les conférences familiales. ART. 8 BIS Soumya Bourouaha GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000632:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 632 de Ayda Hadizadeh (SOC) : Retiré",
+   "detail": "Le présent amendement vise à permettre une sortie progressive mais nette du système actuel d’accueil de mineurs par des structures de droit privé à but lucratif et ainsi de s’assurer que le lieu de p…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/632",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à permettre une sortie progressive mais nette du système actuel d’accueil de mineurs par des structures de droit privé à but lucratif et ainsi de s’assurer que le lieu de p… ART. 7 Ayda Hadizadeh SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000635:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 635 du Gouvernement : Adopté",
+   "detail": "Les parcours des enfants protégés demeurent marqués par une forte fragmentation des informations entre les services sociaux, les juridictions, les établissements de santé et les établissements scolai…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/635",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les parcours des enfants protégés demeurent marqués par une forte fragmentation des informations entre les services sociaux, les juridictions, les établissements de santé et les établissements scolai… APRÈS ART. 7 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000486:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 486 de Christine Loir (RN) : Rejeté",
+   "detail": "La crise de la protection de l’enfance ne tient pas seulement au manque de places d’accueil ou aux conditions de fonctionnement des établissements et services. Elle résulte aussi d’un éclatement pers…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/486",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La crise de la protection de l’enfance ne tient pas seulement au manque de places d’accueil ou aux conditions de fonctionnement des établissements et services. Elle résulte aussi d’un éclatement pers… APRÈS ART. 7 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000642:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 642 de Pauline Cestrières (EPR) : Adopté",
+   "detail": "Les parcours des enfants protégés demeurent marqués par une forte fragmentation des informations entre les services sociaux, les juridictions, les établissements de santé et les établissements scolai…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/642",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les parcours des enfants protégés demeurent marqués par une forte fragmentation des informations entre les services sociaux, les juridictions, les établissements de santé et les établissements scolai… APRÈS ART. 7 Pauline Cestrières EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000529:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 529 de Sébastien Saint-Pasteur (SOC) : Non soutenu",
+   "detail": "Cet amendement s’inscrit dans le prolongement des recommandations de la commission d’enquête sur les défaillances des politiques publiques de prise en charge de la santé mentale et du handicap, en le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/529",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement s’inscrit dans le prolongement des recommandations de la commission d’enquête sur les défaillances des politiques publiques de prise en charge de la santé mentale et du handicap, en le… ART. 7 Sébastien Saint-Pasteur SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000688:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 688 de Yannick Monnet (GDR) : Retiré",
+   "detail": "Cet amendement, qui se fait l'écho de remarques formulées par l'association Départements de France, vise à prévoir que les conseils départementaux pourront être associés au contrôle des établissement…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/688",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement, qui se fait l'écho de remarques formulées par l'association Départements de France, vise à prévoir que les conseils départementaux pourront être associés au contrôle des établissement… ART. 7 Yannick Monnet GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001139:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1139 de Alix Fruchon (DR) : Non soutenu",
+   "detail": "Cet amendement propose de rétablir l'article 14 sur l'information des personnes employées dans le cadre des activités périscolaires. Cependant et contrairement à la rédaction initiale, cette informat…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1139",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement propose de rétablir l'article 14 sur l'information des personnes employées dans le cadre des activités périscolaires. Cependant et contrairement à la rédaction initiale, cette informat… ART. 14 Alix Fruchon DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000466:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 466 de Valérie Bazin-Malgras (DR) : Non soutenu",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/466",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Valérie Bazin-Malgras DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000850:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 850 (Rect) de Gabrielle Cathala (LFI-NFP) : Rejeté",
+   "detail": "Par cet amendement, les député.es de la France insoumise souhaitent que le juge aux affaires familiales prenne en considération les violences psychologiques ou sexuelles d’un parent sur un enfant lor…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/850 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Par cet amendement, les député.es de la France insoumise souhaitent que le juge aux affaires familiales prenne en considération les violences psychologiques ou sexuelles d’un parent sur un enfant lor… APRÈS ART. 6 BIS Gabrielle Cathala LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000861:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 861 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Le présent amendement vise à préciser la contenu des ratios minimaux d'encadrement. La fixation de taux et normes d'encadrement est une revendication de longue date des syndicats en protection de l'e…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/861",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à préciser la contenu des ratios minimaux d'encadrement. La fixation de taux et normes d'encadrement est une revendication de longue date des syndicats en protection de l'e… ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001133:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1133 de Sébastien Peytavie (EcoS) : Adopté",
+   "detail": "Les lieux de vie et d’accueil occupent une place singulière dans l’offre de protection de l’enfance. Ils accueillent des enfants et des adolescents aux besoins souvent complexes, dans des structures…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1133",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les lieux de vie et d’accueil occupent une place singulière dans l’offre de protection de l’enfance. Ils accueillent des enfants et des adolescents aux besoins souvent complexes, dans des structures… APRÈS ART. 7 Sébastien Peytavie EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000877:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 877 de Yannick Monnet (GDR) : Tombé",
+   "detail": "Cet amendement vise à associer les organisations syndicales et patronales au décret prévu à l'article 7.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/877",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à associer les organisations syndicales et patronales au décret prévu à l'article 7. ART. 7 Yannick Monnet GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000879:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 879 de David Magnier (RN) : Rejeté",
+   "detail": "Cet amendement vise à consolider le dispositif de la « conférence familiale » introduit en commission à l’article 8 bis , en précisant son articulation temporelle stratégique. Pour éviter les rupture…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/879",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à consolider le dispositif de la « conférence familiale » introduit en commission à l’article 8 bis , en précisant son articulation temporelle stratégique. Pour éviter les rupture… ART. 8 BIS David Magnier RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000612:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 612 de Julie Ozenne (EcoS) : Tombé",
+   "detail": "Le présent amendement vise à garantir la participation effective du mineur à l'élaboration et à la révision de la liste des actes non usuels de l'autorité parentale prévue à l'article L. 223-1-2 du c…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/612",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir la participation effective du mineur à l'élaboration et à la révision de la liste des actes non usuels de l'autorité parentale prévue à l'article L. 223-1-2 du c… ART. 9 TER Julie Ozenne EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000834:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 834 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement de clarification juridique.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/834",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement de clarification juridique. ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001093:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1093 de Sébastien Peytavie (EcoS) : Rejeté",
+   "detail": "Cet amendement propose un cadre alternatif d'encadrement des séjours de rupture. S'il est indispensable de renforcer les garanties applicables à ces dispositifs, il convient également de préserver la…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1093",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement propose un cadre alternatif d'encadrement des séjours de rupture. S'il est indispensable de renforcer les garanties applicables à ces dispositifs, il convient également de préserver la… ART. 7 TER Sébastien Peytavie EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000810:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 810 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement de coordination juridique. Le présent amendement déplace les dispositions transitoires relatives à la mise en conformité des systèmes d'information et à l'élaboration des référentiels afin…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/810",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement de coordination juridique. Le présent amendement déplace les dispositions transitoires relatives à la mise en conformité des systèmes d'information et à l'élaboration des référentiels afin… ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000630:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 630 de Isabelle Santiago (SOC) : Rejeté",
+   "detail": "Le présent amendement vise à permettre une sortie progressive mais nette du système actuel d’accueil de mineurs par des structures de droit privé à but lucratif et ainsi de s’assurer que le lieu de p…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/630",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à permettre une sortie progressive mais nette du système actuel d’accueil de mineurs par des structures de droit privé à but lucratif et ainsi de s’assurer que le lieu de p… ART. 7 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001114:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1114 de Arnaud Bonnet (EcoS) : Rejeté",
+   "detail": "Le groupe Écologiste et Social est défavorable à l'alourdissement des peines prévu par le présent projet de loi. La surenchère pénale (perpétuité réelle, dérogation aux règles de confusion des peines…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1114",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le groupe Écologiste et Social est défavorable à l'alourdissement des peines prévu par le présent projet de loi. La surenchère pénale (perpétuité réelle, dérogation aux règles de confusion des peines… ART. 11 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000822:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 822 de Maud Petit (Dem) : Retiré",
+   "detail": "Le présent amendement vise à préciser le champ du rapport prévu à l’article 14 bis afin qu’il couvre l’ensemble des cadres dans lesquels des adultes peuvent être amenés à intervenir auprès de mineurs…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/822",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à préciser le champ du rapport prévu à l’article 14 bis afin qu’il couvre l’ensemble des cadres dans lesquels des adultes peuvent être amenés à intervenir auprès de mineurs… ART. 14 BIS Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001179:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1179 de Arnaud Bonnet (EcoS) : Tombé",
+   "detail": "L'article 8 introduit une souplesse bienvenue en permettant de moduler l'intensité des mesures d'accompagnement éducatif. Cette modulation ne peut toutefois être protectrice que si elle procède de l'…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1179",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 8 introduit une souplesse bienvenue en permettant de moduler l'intensité des mesures d'accompagnement éducatif. Cette modulation ne peut toutefois être protectrice que si elle procède de l'… ART. 8 Arnaud Bonnet EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000903:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 903 de Maud Petit (Dem) : Adopté",
+   "detail": "Le présent amendement vise à empêcher que des droits de visite, même médiatisés, soient ordonnés de manière automatique lorsqu’il existe une suspicion de violences sexuelles incestueuses ou intrafami…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/903",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à empêcher que des droits de visite, même médiatisés, soient ordonnés de manière automatique lorsqu’il existe une suspicion de violences sexuelles incestueuses ou intrafami… APRÈS ART. 6 BIS Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000577:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 577 de Laurent Croizier (Dem) : Tombé",
+   "detail": "Cet amendement vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employeurs du secteur de la protection de l'…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/577",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employeurs du secteur de la protection de l'… ART. 7 Laurent Croizier Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000835:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 835 de Marianne Maximi (LFI-NFP) : Rejeté",
+   "detail": "Cet amendement supprime la limitation de durée des séjours de rupture à 3 mois, renouvelable une fois. S’il existe un consensus sur la nécessité de mieux encadrer ces dispositifs, dont la sécurisatio…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/835",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement supprime la limitation de durée des séjours de rupture à 3 mois, renouvelable une fois. S’il existe un consensus sur la nécessité de mieux encadrer ces dispositifs, dont la sécurisatio… ART. 7 TER Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000696:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 696 de Yannick Monnet (GDR) : Adopté",
+   "detail": "Cet amendement est de cohérence avec les modifications apportées à l'article 8 par la commission spéciale qui a fait le choix de privilégier un cadre clair et sécurisé en désignant le juge comme seul…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/696",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement est de cohérence avec les modifications apportées à l'article 8 par la commission spéciale qui a fait le choix de privilégier un cadre clair et sécurisé en désignant le juge comme seul… ART. 8 Yannick Monnet GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000868:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 868 de Marianne Maximi (LFI-NFP) : Rejeté",
+   "detail": "Cet amendement travaillé avec la CNAPE, le GEPSO et l'UNICEF propose de préciser le cadre autour des séjours de rupture. La commission spéciale a doté les séjours de rupture d'un cadre légal attendu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/868",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement travaillé avec la CNAPE, le GEPSO et l'UNICEF propose de préciser le cadre autour des séjours de rupture. La commission spéciale a doté les séjours de rupture d'un cadre légal attendu… ART. 7 TER Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001120:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1120 de Constance de Pélichy (LIOT) : Tombé",
+   "detail": "L'interopérabilité des systèmes d'information, services et outils numériques utilisés pour la mise en oeuvre de la politique de la protection de l'enfance est nécessaire. Cela étant dit, le défaut d'…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1120",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'interopérabilité des systèmes d'information, services et outils numériques utilisés pour la mise en oeuvre de la politique de la protection de l'enfance est nécessaire. Cela étant dit, le défaut d'… ART. 7 Constance de Pélichy LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000960:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 960 de Jean-Claude Raux (EcoS) : Tombé",
+   "detail": "Le présent amendement vise à garantir que l’intensité des mesures d’accompagnement éducatif, que l’article 8 permet de moduler, demeure déterminée par les besoins de l’enfant et non par les capacités…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/960",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que l’intensité des mesures d’accompagnement éducatif, que l’article 8 permet de moduler, demeure déterminée par les besoins de l’enfant et non par les capacités… ART. 8 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000904:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 904 de Maud Petit (Dem) : Adopté",
+   "detail": "Le présent amendement vise à prévenir les ruptures injustifiées du lien entre l’enfant et le parent protecteur dans les situations de violences intrafamiliales. Le maintien des liens familiaux ne doi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/904",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à prévenir les ruptures injustifiées du lien entre l’enfant et le parent protecteur dans les situations de violences intrafamiliales. Le maintien des liens familiaux ne doi… APRÈS ART. 6 BIS Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000557:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 557 de Soumya Bourouaha (GDR) : Adopté",
+   "detail": "Cet amendement traduit l'exigence, exprimée par plusieurs acteurs du champ de la protection de l'enfance, que la modulation des mesures d'accompagnement prévue à l'article 8 ne soit pas tributaire de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/557",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement traduit l'exigence, exprimée par plusieurs acteurs du champ de la protection de l'enfance, que la modulation des mesures d'accompagnement prévue à l'article 8 ne soit pas tributaire de… ART. 8 Soumya Bourouaha GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001094:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1094 (Rect) de Perrine Goulet (Dem) : Adopté",
+   "detail": "La protection de l'enfance connaît aujourd'hui une crise structurelle, marquée par une pénurie de professionnels, des difficultés de recrutement et de fidélisation, et une augmentation de la complexi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1094 (Rect)",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La protection de l'enfance connaît aujourd'hui une crise structurelle, marquée par une pénurie de professionnels, des difficultés de recrutement et de fidélisation, et une augmentation de la complexi… APRÈS ART. 7 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001017:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1017 de Nathalie Colin-Oesterlé (HOR) : Adopté",
+   "detail": "Coordination juridique.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1017",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Coordination juridique. ART. 8 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001013:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1013 de Nathalie Colin-Oesterlé (HOR) : Rejeté",
+   "detail": "Cet amendement vise à rétablir, à l'alinéa 12 de l'article 8 adopté par la commission spéciale, la rédaction proposée par le projet de loi initial qui vise à permettre au service en charge de l'exécu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1013",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à rétablir, à l'alinéa 12 de l'article 8 adopté par la commission spéciale, la rédaction proposée par le projet de loi initial qui vise à permettre au service en charge de l'exécu… ART. 8 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000807:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 807 de Maud Petit (Dem) : Adopté",
+   "detail": "Le présent amendement vise à garantir que le refus exprimé par un enfant ne soit pas écarté au seul motif de son âge lorsque ce refus est lié à des violences sexuelles, incestueuses ou intrafamiliale…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/807",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que le refus exprimé par un enfant ne soit pas écarté au seul motif de son âge lorsque ce refus est lié à des violences sexuelles, incestueuses ou intrafamiliale… APRÈS ART. 6 BIS Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000518:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 518 du Gouvernement : Adopté",
+   "detail": "Le présent amendement vise, d’une part, à étendre la transmission d’informations entre les conseils départementaux concernant les enfants pris en charge hors de leur département d’origine à l’ensembl…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/518",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise, d’une part, à étendre la transmission d’informations entre les conseils départementaux concernant les enfants pris en charge hors de leur département d’origine à l’ensembl… ART. 7 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000846:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 846 du Gouvernement : Adopté",
+   "detail": "Le présent amendement vise à rétablir la mesure permettant la communication aux parents de l’identité des professionnels intervenant dans le cadre du temps périscolaire. Cette mesure participe à renf…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/846",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à rétablir la mesure permettant la communication aux parents de l’identité des professionnels intervenant dans le cadre du temps périscolaire. Cette mesure participe à renf… ART. 14 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000991:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 991 de Nathalie Colin-Oesterlé (HOR) : Tombé",
+   "detail": "Rédactionnel : vise à supprimer les mentions redondantes sur les actes usuels qui avec cet article échapperont dorénavant au contrôle des services de l'ASE quand les enfants sont placés chez un assis…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/991",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Rédactionnel : vise à supprimer les mentions redondantes sur les actes usuels qui avec cet article échapperont dorénavant au contrôle des services de l'ASE quand les enfants sont placés chez un assis… ART. 9 TER Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000490:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 490 de Christine Loir (RN) : Rejeté",
+   "detail": "L’article 9 vise utilement à lever certains blocages liés à l’exercice de l’autorité parentale lorsque l’absence, le silence ou la négligence des parents retarde l’accès aux soins des enfants confiés…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/490",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 9 vise utilement à lever certains blocages liés à l’exercice de l’autorité parentale lorsque l’absence, le silence ou la négligence des parents retarde l’accès aux soins des enfants confiés… ART. 9 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000871:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 871 de Marianne Maximi (LFI-NFP) : Rejeté",
+   "detail": "Par cet amendement les député.es de la France insoumise souhaitent supprimer les dispositions de l'article 8 qui visent à faire basculer une partie de la décision relative à l'intensification de la m…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/871",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Par cet amendement les député.es de la France insoumise souhaitent supprimer les dispositions de l'article 8 qui visent à faire basculer une partie de la décision relative à l'intensification de la m… ART. 8 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001127:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1127 de Laurent Mazaury (LIOT) : Rejeté",
+   "detail": "L'article 9 autorise le médecin à délivrer, sans accord préalable des titulaires de l'autorité parentale, les soins indispensables à un mineur confié à l'aide sociale à l'enfance lorsque l'absence de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1127",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L'article 9 autorise le médecin à délivrer, sans accord préalable des titulaires de l'autorité parentale, les soins indispensables à un mineur confié à l'aide sociale à l'enfance lorsque l'absence de… ART. 9 Laurent Mazaury LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000812:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 812 de Marianne Maximi (LFI-NFP) : Rejeté",
+   "detail": "Le présent amendement supprime la référence à un nouveau décret pour les lieux de vie et d'accueil. Le III de l'article L. 312-1 du code de l'action sociale et des familles prévoit déjà qu'un décret…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/812",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement supprime la référence à un nouveau décret pour les lieux de vie et d'accueil. Le III de l'article L. 312-1 du code de l'action sociale et des familles prévoit déjà qu'un décret… ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000442:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 442 de Isabelle Santiago (SOC) : Rejeté",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Des contrôles conjoints et coordonnées avec les départements permettront d’…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/442",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Des contrôles conjoints et coordonnées avec les départements permettront d’… ART. 7 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000804:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 804 de Maud Petit (Dem) : Retiré",
+   "detail": "Le présent amendement vise à éviter que des allégations de violences sexuelles ou intrafamiliales soient disqualifiées par le recours à la notion de syndrome d’aliénation parentale ou à des notions é…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/804",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à éviter que des allégations de violences sexuelles ou intrafamiliales soient disqualifiées par le recours à la notion de syndrome d’aliénation parentale ou à des notions é… APRÈS ART. 6 BIS Maud Petit Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001121:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1121 de David Taupiac (LIOT) : Tombé",
+   "detail": "Cet amendement vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employeurs du secteur de la protection de l'…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1121",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employeurs du secteur de la protection de l'… ART. 7 David Taupiac LIOT Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000488:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 488 de Christine Loir (RN) : Rejeté",
+   "detail": "Le présent amendement vise à garantir que l’intégration des lieux de vie et d’accueil dans les schémas départementaux ne conduise pas à une approche strictement locale de leur utilité. Les lieux de v…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/488",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que l’intégration des lieux de vie et d’accueil dans les schémas départementaux ne conduise pas à une approche strictement locale de leur utilité. Les lieux de v… APRÈS ART. 7 Christine Loir RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000833:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 833 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement de clarification rédactionnelle. L'objectif est que l'ONPE reçoive les informations relatives aux mineurs placés en dehors de leur département d'origine. Seront bien précisés, comme le pré…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/833",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement de clarification rédactionnelle. L'objectif est que l'ONPE reçoive les informations relatives aux mineurs placés en dehors de leur département d'origine. Seront bien précisés, comme le pré… ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000981:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 981 de Marine Hamelet (RN) : Rejeté",
+   "detail": "Le texte issu de la commission a supprimé le renvoi au décret en Conseil d'État qui, dans la rédaction initiale, encadrait les conditions de saisine des titulaires de l'autorité parentale. Ni la form…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/981",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le texte issu de la commission a supprimé le renvoi au décret en Conseil d'État qui, dans la rédaction initiale, encadrait les conditions de saisine des titulaires de l'autorité parentale. Ni la form… ART. 9 Marine Hamelet RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N001092:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 1092 de Nathalie Colin-Oesterlé (HOR) : Retiré",
+   "detail": "Le présent amendement vise à préciser la définition du temps périscolaire afin de tenir compte de la diversité des personnes morales susceptibles d’organiser ou d’assurer la responsabilité des activi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1092",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à préciser la définition du temps périscolaire afin de tenir compte de la diversité des personnes morales susceptibles d’organiser ou d’assurer la responsabilité des activi… ART. 14 Nathalie Colin-Oesterlé HOR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000818:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 818 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/818",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel. ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000813:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 813 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/813",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel. ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000726:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 726 de Alexandra Martin (Gironde) (EPR) : Retiré",
+   "detail": "À l’ouverture d’une mesure de protection de l’enfance, la collaboration avec les parents de l’enfant concerné est encore trop variable selon les territoires, souvent tardive et peu lisible. Cette hét…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/726",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "À l’ouverture d’une mesure de protection de l’enfance, la collaboration avec les parents de l’enfant concerné est encore trop variable selon les territoires, souvent tardive et peu lisible. Cette hét… APRÈS ART. 8 Alexandra Martin (Gironde) EPR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000704:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 704 de Jean-Claude Raux (EcoS) : Rejeté",
+   "detail": "Rédactionnel. Deux amendements similaires ont été adoptés en commission spéciale, le premier prévoyant que la mesure prend effet à la réception de la notification par le service mandaté de la décisio…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/704",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Rédactionnel. Deux amendements similaires ont été adoptés en commission spéciale, le premier prévoyant que la mesure prend effet à la réception de la notification par le service mandaté de la décisio… ART. 8 Jean-Claude Raux EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000693:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 693 de Yannick Monnet (GDR) : Rejeté",
+   "detail": "Cet amendement, issu de propositions formulées par la Cnape, Unicef et le Gepso, vise à encadrer les séjours de rupture hors du territoire national au lieu d'en supprimer toute possibilité ainsi que…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/693",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement, issu de propositions formulées par la Cnape, Unicef et le Gepso, vise à encadrer les séjours de rupture hors du territoire national au lieu d'en supprimer toute possibilité ainsi que… ART. 7 TER Yannick Monnet GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000576:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 576 de Yannick Monnet (GDR) : Rejeté",
+   "detail": "Actuellement, l'article L. 312-1 du CASF renvoie à un décret le soin de fixer \"le nombre minimal et maximal des personnes \" que les LVA peuvent accueillir ainsi que \"leurs règles de financement et de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/576",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Actuellement, l'article L. 312-1 du CASF renvoie à un décret le soin de fixer \"le nombre minimal et maximal des personnes \" que les LVA peuvent accueillir ainsi que \"leurs règles de financement et de… ART. 7 Yannick Monnet GDR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000961:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 961 de Jean-Hugues Ratenon (LFI-NFP) : Adopté",
+   "detail": "Cet amendement élaboré avec la Cnape, le Gepso et Unicef France vise à préciser la place de l'enfant dans la conférence familiale. La rédaction actuelle de l'alinéa 2 pourrait tendre à penser que cer…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/961",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement élaboré avec la Cnape, le Gepso et Unicef France vise à préciser la place de l'enfant dans la conférence familiale. La rédaction actuelle de l'alinéa 2 pourrait tendre à penser que cer… ART. 8 BIS Jean-Hugues Ratenon LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000819:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 819 de Marianne Maximi (LFI-NFP) : Adopté",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/819",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Amendement rédactionnel. ART. 7 Marianne Maximi LFI-NFP Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000328:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 328 de Marie-Charlotte Garin (EcoS) : Tombé",
+   "detail": "Le présent amendement vise à garantir que le recours à un accompagnement éducatif renforcé ou intensifié soit déterminé exclusivement par les besoins de l'enfant et de sa famille, tels qu'ils résulte…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/328",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à garantir que le recours à un accompagnement éducatif renforcé ou intensifié soit déterminé exclusivement par les besoins de l'enfant et de sa famille, tels qu'ils résulte… ART. 8 Marie-Charlotte Garin EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000236:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 236 de Nicolas Tryzna (DR) : Rejeté",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/236",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Nicolas Tryzna DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000241:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 241 de Katiana Levavasseur (RN) : Rejeté",
+   "detail": "Cet amendement vise à renforcer les garanties entourant les interventions au domicile. Cette exigence garantit la traçabilité des échanges et protège les droits de chacun des titulaires de l’autorité…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/241",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à renforcer les garanties entourant les interventions au domicile. Cette exigence garantit la traçabilité des échanges et protège les droits de chacun des titulaires de l’autorité… ART. 8 Katiana Levavasseur RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000333:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 333 de Sébastien Saint-Pasteur (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employ…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/333",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à prévoir que les référentiels d'interopérabilité prévus par l'article 7 soient élaborés après concertation avec les représentants des employ… ART. 7 Sébastien Saint-Pasteur SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000268:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 268 de Katiana Levavasseur (RN) : Rejeté",
+   "detail": "Cet amendement vise à sécuriser la procédure applicable lorsque l’autre titulaire de l’autorité parentale s’oppose à la mise en œuvre d’une mesure d’aide à domicile. Afin d’éviter les incertitudes, i…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/268",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à sécuriser la procédure applicable lorsque l’autre titulaire de l’autorité parentale s’oppose à la mise en œuvre d’une mesure d’aide à domicile. Afin d’éviter les incertitudes, i… ART. 8 Katiana Levavasseur RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000232:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 232 de Nicolas Tryzna (DR) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. Cet amendement, proposé par Départements de France, souligne cependant que le défaut d’interopérabilité ne saurait peser sur les utilisat…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/232",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. Cet amendement, proposé par Départements de France, souligne cependant que le défaut d’interopérabilité ne saurait peser sur les utilisat… ART. 7 Nicolas Tryzna DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000317:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 317 de Sébastien Peytavie (EcoS) : Adopté",
+   "detail": "Le présent amendement, issu d’un travail mené avec la Fédération nationale des lieux de vie et d’accueil, vise à limiter à un seul le nombre d’autorisations de lieu de vie et d’accueil pouvant être d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/317",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement, issu d’un travail mené avec la Fédération nationale des lieux de vie et d’accueil, vise à limiter à un seul le nombre d’autorisations de lieu de vie et d’accueil pouvant être d… ART. 7 Sébastien Peytavie EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000330:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 330 de Sébastien Saint-Pasteur (SOC) : Tombé",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à faire peser le défaut d’interopérabilité non sur les utilisateurs que sont les départements, mais bien sur les éditeurs de logiciels. L’int…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/330",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à faire peser le défaut d’interopérabilité non sur les utilisateurs que sont les départements, mais bien sur les éditeurs de logiciels. L’int… ART. 7 Sébastien Saint-Pasteur SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000252:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 252 de Alexandra Martin (Alpes-Maritimes) (DR) : Rejeté",
+   "detail": "Les enfants confiés à l’aide sociale à l’enfance sont particulièrement exposés aux traumatismes, aux troubles anxieux, aux troubles de l’attachement et aux conséquences psychiques des violences ou né…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/252",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les enfants confiés à l’aide sociale à l’enfance sont particulièrement exposés aux traumatismes, aux troubles anxieux, aux troubles de l’attachement et aux conséquences psychiques des violences ou né… ART. 9 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000267:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 267 de Katiana Levavasseur (RN) : Rejeté",
+   "detail": "Cet amendement vise à garantir que la personne majeure désignée pour accompagner le mineur lors de ses soins présente toutes les garanties nécessaires. La personne accompagnante peut avoir accès à de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/267",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à garantir que la personne majeure désignée pour accompagner le mineur lors de ses soins présente toutes les garanties nécessaires. La personne accompagnante peut avoir accès à de… ART. 9 Katiana Levavasseur RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000234:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 234 de Nicolas Tryzna (DR) : Rejeté",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/234",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l… ART. 7 Nicolas Tryzna DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000251:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 251 de Alexandra Martin (Alpes-Maritimes) (DR) : Tombé",
+   "detail": "Les pratiques de signalement et de suivi des événements graves demeurent hétérogènes selon les territoires et les structures. Cet amendement vise à créer une culture commune de prévention et d’analys…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/251",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Les pratiques de signalement et de suivi des événements graves demeurent hétérogènes selon les territoires et les structures. Cet amendement vise à créer une culture commune de prévention et d’analys… ART. 7 Alexandra Martin (Alpes-Maritimes) DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000426:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 426 de Isabelle Santiago (SOC) : Retiré",
+   "detail": "La recommandation n° 5 du rapport de la commission d'enquête sur les manquements des politiques publiques de protection de l'enfance appelle à imposer un éditeur de logiciel unique et obligatoire de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/426",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La recommandation n° 5 du rapport de la commission d'enquête sur les manquements des politiques publiques de protection de l'enfance appelle à imposer un éditeur de logiciel unique et obligatoire de… ART. 7 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000238:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 238 de Katiana Levavasseur (RN) : Rejeté",
+   "detail": "Cet amendement vise à renforcer les garanties entourant les interventions au domicile. Le projet de loi prévoit que, lorsque l’aide à domicile prend la forme d’une intervention au domicile, la mesure…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/238",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à renforcer les garanties entourant les interventions au domicile. Le projet de loi prévoit que, lorsque l’aide à domicile prend la forme d’une intervention au domicile, la mesure… ART. 8 Katiana Levavasseur RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000235:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 235 de Nicolas Tryzna (DR) : Rejeté",
+   "detail": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/235",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa… ART. 8 Nicolas Tryzna DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000233:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 233 de Nicolas Tryzna (DR) : Adopté",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/233",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Nicolas Tryzna DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000090:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 90 de Sylvie Bonnet (DR) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/90",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de… ART. 7 Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000146:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 146 de Anne-Laure Blin (DR) : Retiré",
+   "detail": "À l’ouverture d’une mesure de protection de l’enfance, la collaboration avec les parents de l’enfant concerné est encore trop variable selon les territoires, souvent tardive et peu lisible. Ce manque…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/146",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "À l’ouverture d’une mesure de protection de l’enfance, la collaboration avec les parents de l’enfant concerné est encore trop variable selon les territoires, souvent tardive et peu lisible. Ce manque… APRÈS ART. 8 Anne-Laure Blin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000203:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 203 de Virginie Duby-Muller (DR) : Non soutenu",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/203",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000036:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 36 de Émilie Bonnivard (DR) : Tombé",
+   "detail": "Le fichier automatisé des auteurs d’infractions sexuelles ou violentes (FIJAISV) a trois finalités : – Prévenir le renouvellement des infractions ; – Faciliter l’identification des agresseurs ; – Pou…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/36",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le fichier automatisé des auteurs d’infractions sexuelles ou violentes (FIJAISV) a trois finalités : – Prévenir le renouvellement des infractions ; – Faciliter l’identification des agresseurs ; – Pou… ART. 13 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000091:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 91 de Sylvie Bonnet (DR) : Adopté",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/91",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000169:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 169 de Émilie Bonnivard (DR) : Adopté",
+   "detail": "Cet amendement vise à préciser la place de l’enfant dans la conférence familiale. La rédaction proposée par l’amendement initial conditionne la participation du mineur concerné à son âge et à son deg…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/169",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à préciser la place de l’enfant dans la conférence familiale. La rédaction proposée par l’amendement initial conditionne la participation du mineur concerné à son âge et à son deg… ART. 8 BIS Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000134:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 134 de Émilie Bonnivard (DR) : Non soutenu",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/134",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000137:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 137 de Ayda Hadizadeh (SOC) : Adopté",
+   "detail": "Cet amendement des députés socialistes et apparentés étend, pour ce second cas de soins indispensables, le même élargissement que celui proposé à l'alinéa 2. L'article 9 permet au médecin de délivrer…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/137",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés étend, pour ce second cas de soins indispensables, le même élargissement que celui proposé à l'alinéa 2. L'article 9 permet au médecin de délivrer… ART. 9 Ayda Hadizadeh SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000202:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 202 de Virginie Duby-Muller (DR) : Non soutenu",
+   "detail": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/202",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa… ART. 8 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000131:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 131 de Émilie Bonnivard (DR) : Adopté",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/131",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000117:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 117 de Josiane Corneloup (DR) : Rejeté",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/117",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000114:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 114 de Josiane Corneloup (DR) : Adopté",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/114",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000145:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 145 de Anne-Laure Blin (DR) : Rejeté",
+   "detail": "Par un avis d’octobre 2024, puis un arrêt de juin 2025, la Cour de cassation a rappelé que le placement d’un enfant implique par nature un éloignement et qu’un « placement à domicile » (PEAD) ne disp…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/145",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Par un avis d’octobre 2024, puis un arrêt de juin 2025, la Cour de cassation a rappelé que le placement d’un enfant implique par nature un éloignement et qu’un « placement à domicile » (PEAD) ne disp… APRÈS ART. 8 Anne-Laure Blin DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000017:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 17 de Sébastien Peytavie (EcoS) : Adopté",
+   "detail": "Cet amendement vise à renforcer le contrôle du bénéfice effectif d’une autorisation d’exercice par un établissement, service ou lieux de vie accueillant des enfants au titre de l’aide sociale à l’enf…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/17",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à renforcer le contrôle du bénéfice effectif d’une autorisation d’exercice par un établissement, service ou lieux de vie accueillant des enfants au titre de l’aide sociale à l’enf… ART. 7 Sébastien Peytavie EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000132:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 132 de Émilie Bonnivard (DR) : Rejeté",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/132",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l… ART. 7 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000163:Retiré",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 163 de Émilie Bonnivard (DR) : Retiré",
+   "detail": "Cet amendement est porté par la CNAPE et le GEPSo. L’article 6 bis, issu de l’adoption en commission de l’amendement CS649, complète l’article 373-2-9 du code civil afin d’interdire que la résidence…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/163",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement est porté par la CNAPE et le GEPSo. L’article 6 bis, issu de l’adoption en commission de l’amendement CS649, complète l’article 373-2-9 du code civil afin d’interdire que la résidence… ART. 6 BIS Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000019:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 19 de Sébastien Peytavie (EcoS) : Adopté",
+   "detail": "Le présent amendement vise à systématiser la transmission annuelle des registres d’entrée et de sorties des enfants accueillis par lieux de vie et d’accueil aux autorités et administrations compétent…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/19",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Le présent amendement vise à systématiser la transmission annuelle des registres d’entrée et de sorties des enfants accueillis par lieux de vie et d’accueil aux autorités et administrations compétent… APRÈS ART. 7 Sébastien Peytavie EcoS Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000199:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 199 de Virginie Duby-Muller (DR) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/199",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de… ART. 7 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000141:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 141 de Isabelle Santiago (SOC) : Adopté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à permettre au juge des enfants de proposer une consultation familiale en complément de la médiation afin de favoriser l'adhésion des parents…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/141",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à permettre au juge des enfants de proposer une consultation familiale en complément de la médiation afin de favoriser l'adhésion des parents… APRÈS ART. 8 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000096:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 96 de Sylvie Bonnet (DR) : Rejeté",
+   "detail": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/96",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’article 8 du projet de loi donne la possibilité au juge des enfants de laisser l’ASE décider du service qui mettra en œuvre la mesure (comme elle décide des lieux d’accueil) ; actuellement c’est le… ART. 8 Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000130:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 130 de Émilie Bonnivard (DR) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/130",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de… ART. 7 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000188:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 188 de Ayda Hadizadeh (SOC) : Adopté",
+   "detail": "Comme pour l’aide à domicile prévue à l’article L. 222‑2 du code de l’action sociale et des familles, le texte permet de mettre en œuvre une mesure d’accompagnement renforcé avec l’accord d’un seul d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/188",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Comme pour l’aide à domicile prévue à l’article L. 222‑2 du code de l’action sociale et des familles, le texte permet de mettre en œuvre une mesure d’accompagnement renforcé avec l’accord d’un seul d… ART. 8 Ayda Hadizadeh SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000201:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 201 de Virginie Duby-Muller (DR) : Non soutenu",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/201",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l… ART. 7 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000133:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 133 de Émilie Bonnivard (DR) : Rejeté",
+   "detail": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/133",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa… ART. 8 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000014:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 14 de Sophie Blanc (RN) : Rejeté",
+   "detail": "Cet amendement vise à éviter que l’accompagnement éducatif administratif ne se prolonge artificiellement dans des situations où il ne peut être effectivement mis en œuvre et où l’enfant demeure expos…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/14",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement vise à éviter que l’accompagnement éducatif administratif ne se prolonge artificiellement dans des situations où il ne peut être effectivement mis en œuvre et où l’enfant demeure expos… APRÈS ART. 8 Sophie Blanc RN Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000095:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 95 de Sylvie Bonnet (DR) : Rejeté",
+   "detail": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/95",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "La date d’effet de la mesure d’accompagnement renforcée ou intensifiée ou incluant un hébergement exceptionnel ou périodique ne peut, quelle que soit la formulation retenue, être immédiate, car il fa… ART. 8 Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000200:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 200 de Virginie Duby-Muller (DR) : Non soutenu",
+   "detail": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/200",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Prévue par le texte initial, l’intégration des lieux de vie et d’accueil dans les schémas départementaux d’organisation sociale et médico-sociale a été supprimée en commission. L’intégration des LVA… ART. 7 Virginie Duby-Muller DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000115:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 115 de Josiane Corneloup (DR) : Rejeté",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/115",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l… ART. 7 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000093:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 93 de Sylvie Bonnet (DR) : Rejeté",
+   "detail": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/93",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’alinéa prévoit des contrôles, par le préfet, de tout établissement ou service ainsi que de tout lieu de vie et d’accueil. Pour davantage d’efficacité, lorsque les contrôles sont à l’initiative de l… ART. 7 Sylvie Bonnet DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000147:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 147 de Isabelle Santiago (SOC) : Rejeté",
+   "detail": "Cet amendement des députés socialistes et apparentés vise à mieux articuler l'intervention du juge des enfants et le pilotage départemental de l'assistance éducative en milieu ouvert. Dans sa rédacti…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/147",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Cet amendement des députés socialistes et apparentés vise à mieux articuler l'intervention du juge des enfants et le pilotage départemental de l'assistance éducative en milieu ouvert. Dans sa rédacti… ART. 8 Isabelle Santiago SOC Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000113:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 113 de Josiane Corneloup (DR) : Tombé",
+   "detail": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/113",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "L’interopérabilité des systèmes d’information est nécessaire. En revanche, le défaut d’interopérabilité ne saurait peser sur les utilisateurs que sont les départements, mais bien sur les éditeurs de… ART. 7 Josiane Corneloup DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO838901BTC3018P0D1N000029:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-17T15:17:51.222Z",
+   "titre": "Amendement n° 29 de Émilie Bonnivard (DR) : Adopté",
+   "detail": "Aujourd’hui, le cadre juridique des mesures d’assistance éducative permet déjà au juge des enfants de proposer une médiation familiale, sous réserve d’absence de violences alléguées ou d’emprise mani…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/29",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Aujourd’hui, le cadre juridique des mesures d’assistance éducative permet déjà au juge des enfants de proposer une médiation familiale, sous réserve d’absence de violences alléguées ou d’emprise mani… APRÈS ART. 8 Émilie Bonnivard DR Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

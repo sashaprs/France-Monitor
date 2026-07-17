@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-07-16T23:59:20.795Z",
+  "updatedAt": "2026-07-17T03:30:19.114Z",
   "scrutins": [
+    {
+      "numero": "8329",
+      "titre": "l'amendement n° 625 de M. Saulignac à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "105",
+      "pour": "45",
+      "contre": "30",
+      "abstentions": "30",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8349",
+      "titre": "le sous-amendement n° 1236 de Mme Loir à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "16",
+      "contre": "72",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
     {
       "numero": "8290",
       "titre": "l'amendement n° 876 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
@@ -13,6 +35,72 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8353",
+      "titre": "le sous-amendement n° 1210 de M. Arnaud Bonnet à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "103",
+      "pour": "11",
+      "contre": "57",
+      "abstentions": "35",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8345",
+      "titre": "l'amendement n° 89 de Mme Sylvie Bonnet et les amendements identiques suivants à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "54",
+      "contre": "35",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8332",
+      "titre": "l'amendement n° 436 de Mme Santiago à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "106",
+      "pour": "46",
+      "contre": "57",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8338",
+      "titre": "l'amendement n° 1031 de Mme Pantel à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "101",
+      "pour": "48",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8325",
+      "titre": "l'amendement n° 143 de Mme Blin après l'article 3 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "120",
+      "pour": "41",
+      "contre": "76",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8355",
+      "titre": "le sous-amendement n° 1233 de Mme Hérouin-Léautey à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "106",
+      "pour": "97",
+      "contre": "0",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8293",
       "titre": "l'amendement n° 44 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -21,6 +109,17 @@
       "pour": "23",
       "contre": "62",
       "abstentions": "41",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8358",
+      "titre": "l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "109",
+      "pour": "54",
+      "contre": "0",
+      "abstentions": "55",
       "nonVotants": "2"
     },
     {
@@ -43,6 +142,39 @@
       "pour": "24",
       "contre": "70",
       "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8348",
+      "titre": "l'amendement n° 321 de Mme Garin après l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "103",
+      "pour": "50",
+      "contre": "50",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8346",
+      "titre": "l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "94",
+      "contre": "0",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8331",
+      "titre": "l'amendement n° 217 de Mme Levavasseur à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "109",
+      "pour": "31",
+      "contre": "77",
+      "abstentions": "1",
       "nonVotants": "2"
     },
     {
@@ -76,6 +208,39 @@
       "pour": "93",
       "contre": "51",
       "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8333",
+      "titre": "l'amendement n° 1036 de Mme Pantel à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "2",
+      "contre": "78",
+      "abstentions": "32",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8347",
+      "titre": "l'amendement n° 312 (rect.) de M. Lioret après l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "85",
+      "pour": "25",
+      "contre": "46",
+      "abstentions": "14",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8341",
+      "titre": "l'amendement n° 820 de Mme Maximi à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "63",
+      "pour": "33",
+      "contre": "30",
+      "abstentions": "0",
       "nonVotants": "2"
     },
     {
@@ -123,6 +288,39 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8340",
+      "titre": "l'amendement n° 724 de Mme Maximi à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "48",
+      "pour": "31",
+      "contre": "15",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8344",
+      "titre": "l'amendement n° 802 de Mme Maximi à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "45",
+      "contre": "31",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8324",
+      "titre": "l'article 3 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "119",
+      "pour": "119",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8296",
       "titre": "l'amendement n° 689 de Mme Maximi à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -167,6 +365,50 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8357",
+      "titre": "le sous-amendement n° 1235 de Mme Hérouin-Léautey à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "101",
+      "pour": "95",
+      "contre": "0",
+      "abstentions": "6",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8335",
+      "titre": "l'amendement n° 52 de M. Arnaud Bonnet à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "58",
+      "contre": "24",
+      "abstentions": "20",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8339",
+      "titre": "l'amendement n° 579 de M. Dessigny à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "99",
+      "pour": "24",
+      "contre": "75",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8356",
+      "titre": "le sous-amendement n° 1234 de Mme Hérouin-Léautey à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "82",
+      "contre": "0",
+      "abstentions": "20",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8306",
       "titre": "l'amendement n° 701 de M. Raux à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -175,6 +417,39 @@
       "pour": "120",
       "contre": "22",
       "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8343",
+      "titre": "l'amendement n° 727 de Mme Maximi à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "74",
+      "pour": "24",
+      "contre": "47",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8330",
+      "titre": "l'amendement n° 977 (rect.) de Mme Hamelet à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "109",
+      "pour": "28",
+      "contre": "79",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8352",
+      "titre": "le sous-amendement n° 1231 de Mme de Pélichy à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "98",
+      "pour": "72",
+      "contre": "0",
+      "abstentions": "26",
       "nonVotants": "2"
     },
     {
@@ -222,6 +497,50 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8323",
+      "titre": "l'amendement n° 111 de Mme Corneloup et les amendements identiques suivants à l'article 3 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "36",
+      "contre": "44",
+      "abstentions": "32",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8351",
+      "titre": "le sous-amendement n° 1202 de M. Arnaud Bonnet à l'amendement n° 1050 de Mme Colin-Oesterlé à l'article 5 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "104",
+      "pour": "72",
+      "contre": "1",
+      "abstentions": "31",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8327",
+      "titre": "l'amendement n° 706 de Mme Cathala à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "117",
+      "pour": "49",
+      "contre": "66",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8337",
+      "titre": "l'amendement n° 728 de Mme Maximi à l'article 4 du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-16",
+      "sort": null,
+      "nombreVotants": "103",
+      "pour": "50",
+      "contre": "46",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8321",
       "titre": "l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
       "date": "2026-07-16",
@@ -230,325 +549,6 @@
       "pour": "128",
       "contre": "3",
       "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8319",
-      "titre": "l'amendement n° 9 (rect.) de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "112",
-      "pour": "29",
-      "contre": "83",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8310",
-      "titre": "l'amendement n° 270 de Mme Capdevielle et l'amendement identique suivant à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "123",
-      "pour": "45",
-      "contre": "77",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8320",
-      "titre": "l'amendement n° 175 de Mme Hadizadeh à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "122",
-      "pour": "42",
-      "contre": "55",
-      "abstentions": "25",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8299",
-      "titre": "l'amendement n° 718 de Mme Firmin Le Bodo à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "52",
-      "contre": "58",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8317",
-      "titre": "l'amendement n° 770 de Mme Parmentier à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "124",
-      "pour": "37",
-      "contre": "87",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8302",
-      "titre": "l'amendement n° 717 de Mme Parmentier-Lecocq à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "136",
-      "pour": "55",
-      "contre": "80",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8315",
-      "titre": "l'amendement n° 390 de Mme Blanc à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "116",
-      "pour": "35",
-      "contre": "75",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8301",
-      "titre": "l'amendement n° 894 de Mme Gervais à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "126",
-      "pour": "64",
-      "contre": "56",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8303",
-      "titre": "l'amendement n° 15 de Mme Blanc à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "139",
-      "pour": "37",
-      "contre": "101",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8291",
-      "titre": "l'amendement n° 592 de M. Dragon à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "18",
-      "contre": "68",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8313",
-      "titre": "l'amendement n° 655 de Mme Cathala et les amendements identiques suivants à l'article premier du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "63",
-      "contre": "64",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8304",
-      "titre": "l'amendement n° 406 de Mme Capdevielle à l'article 10 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-16",
-      "sort": null,
-      "nombreVotants": "141",
-      "pour": "71",
-      "contre": "53",
-      "abstentions": "17",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8282",
-      "titre": "l'amendement n° 397 de Mme Capdevielle à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "5",
-      "contre": "136",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8279",
-      "titre": "l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "556",
-      "pour": "366",
-      "contre": "182",
-      "abstentions": "8",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8283",
-      "titre": "le sous-amendement n° 1192 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "144",
-      "pour": "74",
-      "contre": "70",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8280",
-      "titre": "l'ensemble de la proposition de loi relative au droit à l'aide à mourir (lecture définitive).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "561",
-      "pour": "291",
-      "contre": "241",
-      "abstentions": "29",
-      "nonVotants": "0"
-    },
-    {
-      "numero": "8288",
-      "titre": "le sous-amendement n° 1188 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "113",
-      "contre": "31",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8285",
-      "titre": "le sous-amendement n° 1993 de Mme Ibled à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "146",
-      "pour": "93",
-      "contre": "53",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8286",
-      "titre": "le sous-amendement n° 1215 de M. Fait et les sous-amendement identique suivant à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "142",
-      "pour": "89",
-      "contre": "52",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8281",
-      "titre": "l'amendement n° 393 de Mme Capdevielle de suppression de l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "152",
-      "pour": "6",
-      "contre": "144",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8287",
-      "titre": "le sous-amendement n° 1189 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "94",
-      "contre": "31",
-      "abstentions": "20",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8278",
-      "titre": "l'amendement n° 1 du Gouvernement après l'article 6 quater du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (seconde délibération) (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "216",
-      "pour": "148",
-      "contre": "68",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8284",
-      "titre": "le sous-amendement n° 1190 de Mme Perrine Goulet à l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "142",
-      "pour": "89",
-      "contre": "53",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8289",
-      "titre": "l'amendement n° 1183 du Gouvernement à l'article 6 (examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-15",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "103",
-      "contre": "42",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8194",
-      "titre": "l'amendement n° 907 du Gouvernement de rétablissement de l'article 19 (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "67",
-      "pour": "42",
-      "contre": "23",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8277",
-      "titre": "l'amendement n° 836 de Mme Saint-Paul après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "4",
-      "contre": "44",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8275",
-      "titre": "l'amendement n° 679 de Mme Taurinya après l'article 24 du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "48",
-      "pour": "21",
-      "contre": "26",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8191",
-      "titre": "le sous-amendement n° 943 de Mme Taurinya à l'amendement n° 902 du Gouvernement et les amendements identiques suivants à l'article 15 bis (supprimé) du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "57",
-      "pour": "18",
-      "contre": "39",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8210",
-      "titre": "l'amendement n° 91 de M. Bernalicis et les amendements identiques suivants de suppression de l'article 5 septies du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (première lecture).",
-      "date": "2026-07-10",
-      "sort": null,
-      "nombreVotants": "63",
-      "pour": "28",
-      "contre": "35",
-      "abstentions": "0",
       "nonVotants": "2"
     }
   ]

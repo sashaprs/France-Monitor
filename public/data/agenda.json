@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T23:59:21.845Z",
+  "updatedAt": "2026-07-17T03:30:23.737Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -284,8 +284,8 @@
       "uid": "RUANR5L17S2026IDC460828",
       "titre": "audition de M. David Amiel, ministre de l’Action et des comptes publics, sur le rapport présenté en application du I de l’article 48 de la loi organique relative à la loi de finances.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-16T13:05:00.000Z",
+      "dateFin": "2026-07-16T14:55:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -471,7 +471,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460849",
-      "titre": "décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement de la pétition n°6334 « Contre la présomption de légitime défense pour les forces de l'ordre » ;",
+      "titre": "décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement de la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T19:00:00.000Z",
       "dateFin": null,
@@ -486,6 +486,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460850",
+      "titre": "éventuellement, suite de l’examen du projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n° 2024/1347, 2024/1348, 2024/1349, 2024/1350, 2024/1351, 2024/1352, 2024/1356, 2024/1358, 2024/1359 du Parlement européen et du Conseil du 14 mai 2024, et les dispositions nécessaires à la transposition de la directive (UE) 2024/1346 du Parlement européen et du Conseil du 14 mai 2024 (n° 2820).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC460844",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T03:30:23.737Z",
+  "updatedAt": "2026-07-17T06:20:20.958Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -213,7 +213,7 @@
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l'approbation de l'accord entre la France et les Pays-Bas portant délimitation de la frontière entre Saint-Martin et Sint Maarten",
       "type": "seance_type",
       "dateDebut": "2026-07-16T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -276,7 +276,7 @@
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
       "dateDebut": "2026-07-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -303,7 +303,7 @@
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
       "dateDebut": "2026-07-16T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-16T22:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

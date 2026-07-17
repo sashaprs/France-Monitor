@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T15:16:50.649Z",
+  "updatedAt": "2026-07-17T19:08:16.243Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -339,7 +339,7 @@
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
       "dateDebut": "2026-07-17T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-17T16:10:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -362,6 +362,24 @@
       "organisateur": "PO884427"
     },
     {
+      "uid": "RUANR5L17S2026IDC460851",
+      "titre": "m. Lucas Hauchard, dit Squeezie, créateur de contenus et cofondateur de la marque de boisson énergisante Ciao Energy.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-20T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460884",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-20T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle 216 (commission des lois)",
+      "organisateur": "PO884680"
+    },
+    {
       "uid": "RUANR5L17S2026IDS30878",
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
       "type": "seance_type",
@@ -369,15 +387,6 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460851",
-      "titre": "primaprix – en attente de la délégation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-20T14:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
     },
     {
       "uid": "RUANR5L17S2026IDC460852",
@@ -416,8 +425,26 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC460881",
+      "titre": "cINOV :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T07:00:00.000Z",
+      "dateFin": "2026-07-21T08:00:00.000Z",
+      "lieu": "Salle 1 – 95, rue de l’Université",
+      "organisateur": "PO883858"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460837",
+      "titre": "audition de M. Emmanuel Levacher, Président directeur général d'Arquus.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T07:00:00.000Z",
+      "dateFin": "2026-07-21T08:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880826"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460854",
-      "titre": "- audition conjointe : \r– Uber Eats – M. Alexis Cintrat, senior public policy manager\r– Deliveroo – M. Rémi Malemba, responsable des affaires publiques.",
+      "titre": "- audition conjointe : \r– Uber Eats – M. Alexis Cintrat, directeur des affaires publiques \r– Deliveroo – M. Rémi Malemba, responsable des affaires publiques.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T08:30:00.000Z",
       "dateFin": null,
@@ -471,10 +498,10 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460774",
-      "titre": "audition des représentants de la Mission de défense et attaché d’armement en Italie: le Général de brigade Mathieu FROMAGET Attaché de défense français en Italie et le colonel Ronan Chipon, attaché d’armement.",
+      "titre": "audition des représentants de la Mission de défense et attaché d’armement en Italie : le Général de brigade Mathieu Fromaget, attaché de défense français en Italie et le colonel Ronan Chipon, attaché d’armement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-21T16:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO880668"
     },
@@ -515,6 +542,15 @@
       "organisateur": "PO878513"
     },
     {
+      "uid": "RUANR5L17S2026IDC460882",
+      "titre": "nexity :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T11:45:00.000Z",
+      "dateFin": "2026-07-22T12:45:00.000Z",
+      "lieu": "Salle 1 – 95, rue de l’Université",
+      "organisateur": "PO883858"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460844",
       "titre": "audition, ouverte à la presse, des représentants de l’association « Les Oubliés de la République » (noms en attente).",
       "type": "reunionCommission_type",
@@ -540,6 +576,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460883",
+      "titre": "cAPEB :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T13:00:00.000Z",
+      "dateFin": "2026-07-22T14:00:00.000Z",
+      "lieu": "Salle 1 – 95, rue de l’Université",
+      "organisateur": "PO883858"
     },
     {
       "uid": "RUANR5L17S2026IDC460876",
@@ -581,7 +626,7 @@
       "uid": "RUANR5L17S2026IDC460857",
       "titre": "ministère chargé de la santé – Direction générale de la santé – Dr Dinh-Phong Nguyen, sous-directeur adjoint de la santé des populations et de la prévention des maladies chroniques et, Mme Simone Alexe, cheffe du bureau de la prévention des addictions.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-24T06:30:00.000Z",
+      "dateDebut": "2026-07-24T07:15:00.000Z",
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO879195"
@@ -597,7 +642,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460859",
-      "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – en attente de la délégation.",
+      "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – Mme Vanessa Hummel-Fourrat, sous-directrice de la sécurité sanitaire des aliments, Mme Emmanuelle Miralles, adjointe à la cheffe du bureau des établissements et des produits des industries alimentaires spécialisées et, Mme Mélanie Picherot, adjointe à la cheffe du bureau des établissements de transformation et de distribution.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-24T08:00:00.000Z",
       "dateFin": null,
@@ -606,7 +651,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460860",
-      "titre": "- audition conjointe : \r– Ministère chargé de l’économie et des finances – Direction générale des douanes et des droits indirects – M. Gilbert Beltran, adjoint du directeur général\r– Ministère chargé de l’économie et des finances – Direction générale de la concurrence, de la consommation et de la répression des fraudes – en attente de la délégation.",
+      "titre": "table ronde :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-28T06:30:00.000Z",
       "dateFin": null,
@@ -615,28 +660,28 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460808",
-      "titre": "audition du Général de corps d’armée Bruno BARATZ au Commandement du combat futur (CCF) de l'Armée de Terre.",
+      "titre": "audition du Général de corps d’armée Bruno Baratz au Commandement du combat futur (CCF) de l'Armée de Terre.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-15T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-15T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDC460779",
-      "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le vice-amiral Jean-Marc DURANDAU,  directeur, et  l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
+      "titre": "Audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le vice-amiral Jean-Marc Durandau, directeur, et l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T14:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2026IDC460778",
-      "titre": "audition du vice-amiral d'escadre Eric MALBRUNOT, sous-chef d'état-major Plans de l'État-major des Armées.",
+      "titre": "audition du vice-amiral d'escadre Eric Malbrunot, sous-chef d'état-major Plans de l'État-major des Armées.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-17T10:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
     },

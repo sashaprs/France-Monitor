@@ -1,0 +1,408 @@
+{
+ "genere_le": "2026-07-17T19:16:17.412Z",
+ "evenements": [
+  {
+   "id": "odj:378644812dd54cdb",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi relatif à la protection des enfants",
+   "detail": "mardi 21 juillet à 15:00 · Suite de la discussion du projet de loi relatif à la protection des enfants",
+   "url": null,
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Suite de la discussion du projet de loi relatif à la protection des enfants Assemblée Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8402",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8402 : le sous-amendement n° 1251 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1250 du Gouvernement à l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "44 pour · 35 contre · 1 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8402",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 1251 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1250 du Gouvernement à l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8407",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8407 : l'amendement n° 959 de Mme Capdevielle à l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 36 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8407",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 959 de Mme Capdevielle à l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8415",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8415 : l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "40 pour · 1 contre · 22 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8415",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8398",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8398 : l'amendement n° 255 de Mme Martin (Alpes-Maritimes) à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "15 pour · 67 contre · 4 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8398",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 255 de Mme Martin (Alpes-Maritimes) à l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8386",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8386 : l'amendement n° 14 de Mme Blanc après l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "23 pour · 58 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8386",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 14 de Mme Blanc après l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8396",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8396 : l'amendement n° 56 de Mme Capdevielle à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "24 pour · 67 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8396",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 56 de Mme Capdevielle à l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8417",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8417 : l'amendement n° 556 de M. Monnet au titre du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "29 pour · 33 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8417",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 556 de M. Monnet au titre du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8413",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8413 : l'amendement n° 746 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "59 pour · 3 contre · 4 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8413",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 746 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8393",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8393 : l'amendement n° 914 de Mme Cathala et l'amendement identique suivant de suppression de l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "36 pour · 56 contre · 1 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8393",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 914 de Mme Cathala et l'amendement identique suivant de suppression de l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8399",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8399 : l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 41 contre · 3 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8399",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8391",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8391 : l'amendement n° 169 de Mme Bonnivard et les amendements identiques suivants à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "88 pour · 0 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8391",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 169 de Mme Bonnivard et les amendements identiques suivants à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8408",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8408 : l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "59 pour · 0 contre · 13 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8408",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8387",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8387 : l'amendement n° 145 de Mme Blin après l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "9 pour · 56 contre · 22 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8387",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 145 de Mme Blin après l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8384",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8384 : l'amendement n° 696 de M. Monnet à l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "57 pour · 31 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8384",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 696 de M. Monnet à l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8401",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8401 : l'amendement n° 92 de Mme Capdevielle et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "40 pour · 43 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8401",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 92 de Mme Capdevielle et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8412",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8412 : l'amendement n° 745 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "29 pour · 11 contre · 15 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8412",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 745 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8411",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8411 : l'amendement n° 743 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "44 pour · 14 contre · 4 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8411",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 743 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8403",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8403 : l'amendement n° 1103 de M. Arnaud Bonnet de suppression de l'article 12 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "36 pour · 37 contre · 1 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8403",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 1103 de M. Arnaud Bonnet de suppression de l'article 12 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8395",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8395 : l'amendement n° 738 de Mme Cestrières et les amendements identiques suivants à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "70 pour · 17 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8395",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 738 de Mme Cestrières et les amendements identiques suivants à l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8383",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8383 : l'amendement n° 980 de Mme Hamelet à l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "23 pour · 63 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8383",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 980 de Mme Hamelet à l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8405",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8405 : l'article 12 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "37 pour · 31 contre · 9 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8405",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 12 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8414",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8414 : l'amendement n° 890 de M. David Magnier à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "11 pour · 54 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8414",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 890 de M. David Magnier à l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8406",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8406 : l'amendement n° 1004 de M. Monnet à l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "35 pour · 33 contre · 0 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8406",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 1004 de M. Monnet à l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8416",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8416 : l'amendement n° 993 (rect.) de Mme Maximi à l'article 15 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "29 pour · 23 contre · 12 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8416",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 993 (rect.) de Mme Maximi à l'article 15 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8390",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8390 : l'amendement n° 679 de M. Rimane à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "14 pour · 28 contre · 34 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8390",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 679 de M. Rimane à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8409",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8409 : l'amendement n° 844 du Gouvernement à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "24 pour · 22 contre · 19 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8409",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 844 du Gouvernement à l'article 13 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8394",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8394 : l'amendement n° 936 de Mme Perrine Goulet à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "35 pour · 21 contre · 2 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8394",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 936 de Mme Perrine Goulet à l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8388",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8388 : l'amendement n° 29 de Mme Bonnivard et l'amendement identique suivant après l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "53 pour · 30 contre · 2 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8388",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 29 de Mme Bonnivard et l'amendement identique suivant après l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8385",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8385 : l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "57 pour · 29 contre · 1 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8385",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'article 8 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8397",
+   "type": "resultat_scrutin",
+   "date": "2026-07-17T19:16:17.412Z",
+   "titre": "Scrutin n° 8397 : l'amendement n° 227 de M. Le Fur et l'amendement identique suivant à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "5 pour · 69 contre · 9 abstentions (2026-07-17)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8397",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 227 de M. Le Fur et l'amendement identique suivant à l'article 11 du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

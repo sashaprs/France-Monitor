@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T13:27:59.409Z",
+  "updatedAt": "2026-07-17T13:45:46.957Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -326,15 +326,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDFL460880",
-      "titre": "Audition de Sarah Bouchahoua, responsable des affaires publiques de Snapchat France, sur l'actualité de la plateforme et des réseaux sociaux en France.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-07-17T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "4e Bureau",
-      "organisateur": "PO854497"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30864",
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
       "type": "seance_type",
@@ -506,6 +497,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2026IDC460844",
+      "titre": "programme en cours d’élaboration",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460871",
       "titre": "audition de M. Mathieu Lefèvre, ministre délégué auprès de la ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, chargé de la transition écologique, accompagné de Mme Ludivine Moles, conseillère chargée des relations avec le Parlement et les élus locaux et de M. Samuel Just, conseiller chargé de l’économie circulaire, de la sobriété foncière, de la qualité de l’air et des nuisances sonores.",
       "type": "reunionCommission_type",
@@ -513,15 +513,6 @@
       "dateFin": "2026-07-22T11:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO878513"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460844",
-      "titre": "audition, ouverte à la presse, des représentants de l’association « Les Oubliés de la République » (noms en attente).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC460875",
@@ -561,7 +552,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460798",
-      "titre": "présentation, par M. Denis Masséglia, rapporteur spécial de la mission Médias, livre et industries culturelles, du rapport d’évaluation des politiques publiques sur le crédit d’impôt cinéma, et audition de Mme Catherine Pégard, ministre de la culture, sur les conclusions de ce rapport ;",
+      "titre": "présentation, par M. Denis Masséglia, rapporteur spécial de la mission Médias, livre et industries culturelles, du rapport d’évaluation des politiques publiques sur le crédit d’impôt cinéma et audition de Mme Catherine Pégard, ministre de la culture, sur les conclusions de ce rapport ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-22T15:00:00.000Z",
       "dateFin": null,

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-18T19:10:20.443Z",
+  "updatedAt": "2026-07-18T20:47:44.128Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30859",
-      "titre": "Suite de la lecture définitive de la proposition de loi relative au droit à l'aide à mourir",
-      "type": "seance_type",
-      "dateDebut": "2026-07-15T19:30:00.000Z",
-      "dateFin": "2026-07-15T22:10:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460834",
       "titre": "nomination du bureau ;",

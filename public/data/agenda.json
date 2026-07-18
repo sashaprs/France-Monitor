@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-18T13:23:04.262Z",
+  "updatedAt": "2026-07-18T14:52:23.934Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460869",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "au Sénat, en salle n° 245",
-      "organisateur": "PO884420"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460771",
-      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) – service statistique du ministère des solidarités et de la santé : M. Thomas Wanecq, directeur, et Mme Julie Labarthe, sous-directrice de l’observation de la solidarité.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460570",
-      "titre": "audition de M. Benjamin Haddad, ministre délégué chargé de l’Europe, sur l’actualité de Union européenne ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460776",
-      "titre": "audition de l'Ingénieur général de l’armement hors classe Bertrand Le Meur, Directeur de la stratégie de défense, prospective et contre-prolifération à la DGRIS, accompagné par M. Alexandre Telliez, chargé de mission facteurs budgétaires et capacitaires de défense.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
     {
       "uid": "RUANR5L17S2026IDC460796",
       "titre": "présentation, par M. Damien Maudet et Mme Sophie Pantel, rapporteurs spéciaux de la mission Sécurités : Sécurité civile, du rapport d’évaluation des politiques publiques portant sur la valeur du sauvé ;",

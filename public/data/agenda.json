@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-18T06:08:04.411Z",
+  "updatedAt": "2026-07-18T07:49:38.020Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460795",
-      "titre": "présentation, par M. Emeric Salmon, rapporteur spécial de la mission Défense : Budget opérationnel de la défense, du rapport d’évaluation des politiques publiques portant sur le logement des militaires ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T07:30:00.000Z",
-      "dateFin": "2026-07-15T09:20:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460792",
-      "titre": "désignation des membres de la mission d’information sur les réseaux de collecte, d’acheminement et de distribution de l’eau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T07:30:00.000Z",
-      "dateFin": "2026-07-15T09:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
     {
       "uid": "RUANR5L17S2026IDC460657",
       "titre": "examen, ouvert à la presse, et vote sur la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d’armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet (n° 2939) (M. Pierre Pribetich, rapporteur) ;",

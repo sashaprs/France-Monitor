@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-07-18T11:06:47.557Z",
+  "updatedAt": "2026-07-18T13:14:51.941Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460770",
-      "titre": "audition, ouverte à la presse, de Mme Nathalie Latour, directrice générale de la Fédération des acteurs de la solidarité (FAS).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460838",
-      "titre": "audition de Mme Isabelle Dufour, directrice des études stratégiques d'Eurocrise.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T12:00:00.000Z",
-      "dateFin": "2026-07-15T13:00:00.000Z",
-      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460856",
-      "titre": "examen, au titre de l’article 88 du Règlement, des amendements au projet de loi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T12:45:00.000Z",
-      "dateFin": "2026-07-15T12:50:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO883517"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460775",
-      "titre": "audition de M. Benoît Laroche de Roussane, directeur de l’industrie de défense de la Direction générale de l’armement.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460569",
-      "titre": "universalité des droits conférés aux élus des zones transfrontalières : examen de la proposition de résolution européenne de Mme Isabelle Rauch",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30858",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-07-15T13:00:00.000Z",
-      "dateFin": "2026-07-15T17:55:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460869",
       "titre": "nomination du bureau ;",

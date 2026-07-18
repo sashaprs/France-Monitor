@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-18T15:57:06.122Z",
+  "updatedAt": "2026-07-18T17:01:37.460Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460777",
-      "titre": "audition de l'Ingénieur général de l’armement Nicolas Cordier-Lallouet, directeur adjoint de l’Agence de l’innovation de défense.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-15T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
     {
       "uid": "RUANR5L17S2026IDS30859",
       "titre": "Suite de la lecture définitive de la proposition de loi relative au droit à l'aide à mourir",

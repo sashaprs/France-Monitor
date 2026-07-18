@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T23:52:57.548Z",
+  "updatedAt": "2026-07-18T02:28:48.389Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460795",
@@ -504,6 +504,15 @@
       "dateFin": "2026-07-21T16:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460885",
+      "titre": "audition, en application de l’article L. 1451 1 du code de la santé publique, de M. Étienne Pot, dont la nomination aux fonctions de directeur général de l’Agence nationale de santé publique (Santé publique France) est envisagée.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2026IDC460849",

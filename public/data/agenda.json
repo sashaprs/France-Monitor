@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-19T06:33:14.323Z",
+  "updatedAt": "2026-07-19T08:17:53.471Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460834",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T07:00:00.000Z",
-      "dateFin": "2026-07-16T13:10:00.000Z",
-      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle n° 263 (commission des affaires économiques)",
-      "organisateur": "PO884244"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30860",
-      "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l'approbation de l'accord entre la France et les Pays-Bas portant délimitation de la frontière entre Saint-Martin et Sint Maarten",
-      "type": "seance_type",
-      "dateDebut": "2026-07-16T07:00:00.000Z",
-      "dateFin": "2026-07-16T11:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460841",
-      "titre": "audition, ouverte à la presse, de Mme Anne Rubinstein, déléguée interministérielle à la prévention et à la lutte contre la pauvreté, et de Mme Juliette Parnot, conseillère santé, enfance et conditions des femmes auprès de Mme la déléguée.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T07:05:00.000Z",
-      "dateFin": "2026-07-16T09:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460846",
-      "titre": "table ronde des organisations syndicales :\r- confédération générale des travailleurs (CGT) – Mme Emmanuelle Lavignac, secrétaire nationale Ugict-CGT et M. Ugo Lopez, syndicat CGT Thales LAS France.\r- Force ouvrière (FO) – MmeSalomé Mandelcwajg, assistante confédérale, MM. Branislav Rugani, secrétaire confédéral et Éric Peres, secrétaire général de l’Union des Cadres et Ingénieurs (UCI).\r- confédération française des travailleurs chrétiens (CFTC) – M. Jean Marc Cicuto, conseiller auprès du président de la CFTC en charge de l’IA et Mme Nassima Dahgane, responsable affaires sociales et juridiques.\r- confédération française de l’encadrement-Confédération générale des cadres (CFE-CGC) – M. Franck Torrès, délégué national confédéral en charge de l’IA et M. Johaquim Assedo.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO882110"
-    },
     {
       "uid": "RUANR5L17S2026IDC460847",
       "titre": "table ronde des organisations patronales : \r- mouvement des entreprises de France (MEDEF)– M. Robin Rivaton, ambassadeur IA, Mmes Anne-Florence Fages, directrice adjointe du numérique, Odile Menneteau, directrice adjointe au pôle social, responsable de la cellule veille stratégique et nouveaux enjeux sociaux, inclusion et Marie David, chargée de mission senior affaires publiques.\r- les Entrepreneurs – M. Yahya Fallah, président commission IA, membre du comité exécutif ; Mme Gwendoline Delamare-Deboutteville, directrice des affaires sociales ; M. Jérôme Normand, économiste et M. Timéo Ferreira-Bardin, chargé de mission affaires publiques.\r- union des entreprises de proximité (U2P) – M. François Blanchecotte, vice-président du syndicat des biologistes (SDBIO), président national de la fédération nationale de la biologie médicale, chargé de mission auprès du président de l’UNAPL, membre fondateur de l’U2P ; M. Xavier Geoffroy, secrétaire général et Mme Thérèse Huppé-Note, relations parlementaires.",

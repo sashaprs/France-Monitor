@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-19T13:41:37.599Z",
+  "updatedAt": "2026-07-19T14:55:50.694Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460870",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T14:00:00.000Z",
-      "dateFin": "2026-07-16T15:20:00.000Z",
-      "lieu": "au Sénat, 15 rue de Vaugirard, Paris 6e, en salle A245 - 2e étage Ouest",
-      "organisateur": "PO884420"
-    },
     {
       "uid": "RUANR5L17S2026IDS30862",
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",

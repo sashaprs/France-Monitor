@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-19T08:17:53.471Z",
+  "updatedAt": "2026-07-19T09:54:56.197Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460847",
-      "titre": "table ronde des organisations patronales : \r- mouvement des entreprises de France (MEDEF)– M. Robin Rivaton, ambassadeur IA, Mmes Anne-Florence Fages, directrice adjointe du numérique, Odile Menneteau, directrice adjointe au pôle social, responsable de la cellule veille stratégique et nouveaux enjeux sociaux, inclusion et Marie David, chargée de mission senior affaires publiques.\r- les Entrepreneurs – M. Yahya Fallah, président commission IA, membre du comité exécutif ; Mme Gwendoline Delamare-Deboutteville, directrice des affaires sociales ; M. Jérôme Normand, économiste et M. Timéo Ferreira-Bardin, chargé de mission affaires publiques.\r- union des entreprises de proximité (U2P) – M. François Blanchecotte, vice-président du syndicat des biologistes (SDBIO), président national de la fédération nationale de la biologie médicale, chargé de mission auprès du président de l’UNAPL, membre fondateur de l’U2P ; M. Xavier Geoffroy, secrétaire général et Mme Thérèse Huppé-Note, relations parlementaires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460872",
-      "titre": "nomination d’un rapporteur sur la décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement, de la pétition n°6334 « Contre la présomption de légitime défense pour les forces de l'ordre »",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T09:00:00.000Z",
-      "dateFin": "2026-07-16T09:10:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2026IDC460839",
       "titre": "audition du général Eric Espinal, commandant des forces aériennes de la Gendarmerie nationale et de M. François Desmadryl, directeur des soutiens et des finances de la Gendarmerie nationale.",

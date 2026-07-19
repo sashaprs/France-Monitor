@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-19T11:58:11.524Z",
+  "updatedAt": "2026-07-19T13:24:31.227Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460839",
-      "titre": "audition du général Eric Espinal, commandant des forces aériennes de la Gendarmerie nationale et de M. François Desmadryl, directeur des soutiens et des finances de la Gendarmerie nationale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T12:00:00.000Z",
-      "dateFin": "2026-07-16T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460842",
-      "titre": "audition, ouverte à la presse, de représentants de divers organismes et associations luttant contre la pauvreté :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T12:35:00.000Z",
-      "dateFin": "2026-07-16T14:40:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30861",
-      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-07-16T13:00:00.000Z",
-      "dateFin": "2026-07-16T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460828",
-      "titre": "audition de M. David Amiel, ministre de l’Action et des comptes publics, sur le rapport présenté en application du I de l’article 48 de la loi organique relative à la loi de finances.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-16T13:05:00.000Z",
-      "dateFin": "2026-07-16T14:55:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2026IDC460870",
       "titre": "nomination du bureau ;",

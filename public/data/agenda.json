@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-19T19:11:19.122Z",
+  "updatedAt": "2026-07-19T20:48:32.792Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30862",
-      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-07-16T19:30:00.000Z",
-      "dateFin": "2026-07-16T22:05:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDC460840",
       "titre": "déplacement au sein des Forces aériennes de la Gendarmerie nationale.",

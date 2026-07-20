@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T15:50:14.657Z",
+  "updatedAt": "2026-07-20T18:03:03.028Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30865",
@@ -138,12 +138,30 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460843",
-      "titre": "audition, ouverte à la presse, des représentants de la 5ème chambre de la Cour des comptes : Mme Sophie Thibault, présidente, et M. Arnaud Oseredczuk, président de section.",
+      "titre": "audition, ouverte à la presse, d’un représentant de la 5ème chambre de la Cour des comptes : M. Arnaud Oseredczuk, président de section.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T14:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460891",
+      "titre": "la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Thibault Bazin, Thierry Frappé et Jérôme Guedj, rapporteurs) : Mmes Céline Blattner, Josette Guéniau, et M. Gilles Duthil, membres du comité 3C.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T14:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO847238"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460892",
+      "titre": "nomination du Bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2026IDC460874",
@@ -219,7 +237,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460844",
-      "titre": "audition, ouverte à la presse, des représentants de l’association « Les Oubliés de la République » (noms en attente).",
+      "titre": "audition, ouverte à la presse, de M. Arnaud Merle d’Aubigné, délégué général de l’association « Les Oubliés de la République », M. Abderrahmane Abdelatif, Mme Elina Dumont, M. Fabrice Genin, et Mme Isabelle Mauer.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-22T12:30:00.000Z",
       "dateFin": null,
@@ -252,6 +270,15 @@
       "dateFin": "2026-07-22T14:00:00.000Z",
       "lieu": "Salle 1 – 95, rue de l’Université",
       "organisateur": "PO883858"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460889",
+      "titre": "Colloque. France – Mali : jeunesses, diasporas, entrepreneuriat, maintenir les liens entre nos sociétés.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-22T14:00:00.000Z",
+      "dateFin": "2026-07-22T16:00:00.000Z",
+      "lieu": "salle Colbert",
+      "organisateur": "PO851299"
     },
     {
       "uid": "RUANR5L17S2026IDC460876",
@@ -351,6 +378,15 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460890",
+      "titre": "Mission du groupe d'amitié autorisée par le Bureau de l'Assemblée nationale",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-01T22:00:00.000Z",
+      "dateFin": "2026-09-09T21:59:59.000Z",
+      "lieu": "Ouzbékistan (Tachkent, Samarcande) et au Kirghizstan (Bichkek)",
+      "organisateur": "PO851412"
     },
     {
       "uid": "RUANR5L17S2026IDC460808",

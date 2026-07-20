@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-20T10:56:05.462Z",
+  "updatedAt": "2026-07-20T13:06:17.781Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDS30864",
-      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-07-17T13:00:00.000Z",
-      "dateFin": "2026-07-17T16:10:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2026IDS30865",
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
@@ -290,6 +281,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC460886",
+      "titre": "audition, non ouverte à la presse, du Dr Silvia Alvarez, gynécologue obstétricienne, PmA Infertilité, coordinatrice Générale La Femme.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-23T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO882950"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460855",
       "titre": "- table ronde :\r– Fédération syndicale des familles monoparentales – Mme Josette Elombo, présidente, et Mme Véronique Obé, chargée de mission \r– Union nationale des associations familiales – sous réserve de confirmation\r– Familles rurales – sous réserve de confirmation \r– Fédération des associations générales étudiantes – sous réserve de confirmation\r– Union nationale des étudiants de France – sous réserve de confirmation\r– Union nationale inter-universitaire – sous réserve de confirmation",
       "type": "reunionCommission_type",
@@ -324,6 +324,24 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO879195"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460887",
+      "titre": "audition, non ouverte à la presse, de Mme Virginie Rio, co-fondatrice du collectif BAMP !",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-27T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO882950"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460888",
+      "titre": "audition, non ouverte à la presse, de Mme Priscilla Saracco, directrice générale de l'association ENDOmind.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-27T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO882950"
     },
     {
       "uid": "RUANR5L17S2026IDC460860",

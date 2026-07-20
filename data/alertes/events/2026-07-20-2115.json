@@ -1,0 +1,71 @@
+{
+ "genere_le": "2026-07-20T21:15:52.302Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3057P0D1N000004",
+   "type": "nouvel_amendement",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "Amendement n° 4 de Véronique Riotton (EPR) — ART. 9 A",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3057/AN/4",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Amendement rédactionnel. ART. 9 A Véronique Riotton EPR Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3057P0D1N000002",
+   "type": "nouvel_amendement",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "Amendement n° 2 de Belkhir Belhaddad (SOC) — ART. 10 QUATER",
+   "detail": "Rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3057/AN/2",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Rédactionnel. ART. 10 QUATER Belkhir Belhaddad SOC Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3057P0D1N000001",
+   "type": "nouvel_amendement",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "Amendement n° 1 de Belkhir Belhaddad (SOC) — ART. 7",
+   "detail": "Correction d'une erreur de référence.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3057/AN/1",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Correction d'une erreur de référence. ART. 7 Belkhir Belhaddad SOC Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3057P0D1N000003",
+   "type": "nouvel_amendement",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "Amendement n° 3 de Lionel Duparay (DR) — ART. 2 BIS",
+   "detail": "Rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3057/AN/3",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Rédactionnel. ART. 2 BIS Lionel Duparay DR Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  },
+  {
+   "id": "odj:f7a0de7544a9f9e7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "À l'ordre du jour de la séance publique : Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux",
+   "detail": "mardi 21 juillet à 15:00 · Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux",
+   "url": null,
+   "dossier_id": "DLR5L17N53187",
+   "texte_matchable": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux Assemblée Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8418",
+   "type": "resultat_scrutin",
+   "date": "2026-07-20T21:15:52.302Z",
+   "titre": "Scrutin n° 8418 : l'ensemble de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (texte de la commission mixte paritaire).",
+   "detail": "359 pour · 1 contre · 81 abstentions (2026-07-20)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8418",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "l'ensemble de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (texte de la commission mixte paritaire). Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "profils": []
+  }
+ ]
+}

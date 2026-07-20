@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-20T18:07:33.917Z",
+  "updatedAt": "2026-07-20T20:20:57.650Z",
   "scrutins": [
+    {
+      "numero": "8418",
+      "titre": "l'ensemble de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "441",
+      "pour": "359",
+      "contre": "1",
+      "abstentions": "81",
+      "nonVotants": "1"
+    },
     {
       "numero": "8402",
       "titre": "le sous-amendement n° 1251 de Mme Perrine Goulet et le sous-amendement identique suivant à l'amendement n° 1250 du Gouvernement à l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture).",
@@ -539,17 +550,6 @@
       "contre": "29",
       "abstentions": "1",
       "nonVotants": "2"
-    },
-    {
-      "numero": "8397",
-      "titre": "l'amendement n° 227 de M. Le Fur et l'amendement identique suivant à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "83",
-      "pour": "5",
-      "contre": "69",
-      "abstentions": "9",
-      "nonVotants": "1"
     }
   ]
 }

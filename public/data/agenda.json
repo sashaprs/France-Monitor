@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T21:59:58.015Z",
+  "updatedAt": "2026-07-20T23:09:04.029Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -33,7 +33,7 @@
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de la convention d’extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie",
       "type": "seance_type",
       "dateDebut": "2026-07-20T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-20T18:10:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

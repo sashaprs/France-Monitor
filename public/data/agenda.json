@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-20T06:50:56.699Z",
+  "updatedAt": "2026-07-20T10:10:37.399Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460840",
-      "titre": "déplacement au sein des Forces aériennes de la Gendarmerie nationale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-17T07:00:00.000Z",
-      "dateFin": "2026-07-17T15:00:00.000Z",
-      "lieu": "Déplacement",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2026IDS30863",
-      "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-07-17T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2026IDFL460880",
-      "titre": "Audition de Sarah Bouchahoua, responsable des affaires publiques de Snapchat France, sur l'actualité de la plateforme et des réseaux sociaux en France.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-07-17T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "4e Bureau",
-      "organisateur": "PO854497"
-    },
     {
       "uid": "RUANR5L17S2026IDS30864",
       "titre": "Suite de la discussion du projet de loi relatif à la protection des enfants",

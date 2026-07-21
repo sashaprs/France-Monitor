@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:08:00.920Z",
+  "updatedAt": "2026-07-21T13:49:31.725Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -65,15 +65,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460797",
-      "titre": "présentation, par Mme Matilde Feld, rapporteure spéciale de la mission Gestion des finances publiques : lutte contre l’évasion fiscale, du rapport d’évaluation des politiques publiques portant sur les moyens de la DGFIP consacrés à la lutte contre l’évasion fiscale, et audition de Mme Amélie Verdier, directrice générale des finances publiques, sur les conclusions de ce rapport.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460881",
       "titre": "cINOV :",
       "type": "reunionCommission_type",
@@ -90,6 +81,15 @@
       "dateFin": "2026-07-21T08:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO880826"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460797",
+      "titre": "présentation, par Mme Matilde Feld, rapporteure spéciale de la mission Gestion des finances publiques : lutte contre l’évasion fiscale, du rapport d’évaluation des politiques publiques portant sur les moyens de la DGFIP consacrés à la lutte contre la fraude et l’évasion fiscales, et audition de Mme Amélie Verdier, directrice générale des finances publiques, sur les conclusions de ce rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T07:05:00.000Z",
+      "dateFin": "2026-07-21T09:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC460854",

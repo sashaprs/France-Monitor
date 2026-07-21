@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-21T02:40:31.854Z",
+  "updatedAt": "2026-07-21T05:50:55.034Z",
   "scrutins": [
+    {
+      "numero": "8425",
+      "titre": "l'amendement n° 8 du Gouvernement au projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "380",
+      "pour": "200",
+      "contre": "10",
+      "abstentions": "170",
+      "nonVotants": "2"
+    },
     {
       "numero": "8424",
       "titre": "l'amendement n° 7 du Gouvernement au projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
@@ -33,6 +44,17 @@
       "contre": "247",
       "abstentions": "1",
       "nonVotants": "2"
+    },
+    {
+      "numero": "8427",
+      "titre": "l'ensemble du projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "561",
+      "pour": "296",
+      "contre": "224",
+      "abstentions": "41",
+      "nonVotants": "1"
     },
     {
       "numero": "8420",
@@ -76,6 +98,17 @@
       "pour": "211",
       "contre": "163",
       "abstentions": "13",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8426",
+      "titre": "l'amendement n° 1 de M. Jean-René Cazeneuve au projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "367",
+      "pour": "241",
+      "contre": "88",
+      "abstentions": "38",
       "nonVotants": "2"
     },
     {
@@ -517,39 +550,6 @@
       "contre": "23",
       "abstentions": "12",
       "nonVotants": "1"
-    },
-    {
-      "numero": "8390",
-      "titre": "l'amendement n° 679 de M. Rimane à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "76",
-      "pour": "14",
-      "contre": "28",
-      "abstentions": "34",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8367",
-      "titre": "l'amendement n° 576 de M. Monnet et l'amendement identique suivant à l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "38",
-      "contre": "41",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8409",
-      "titre": "l'amendement n° 844 du Gouvernement à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "24",
-      "contre": "22",
-      "abstentions": "19",
-      "nonVotants": "2"
     }
   ]
 }

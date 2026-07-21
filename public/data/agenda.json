@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T15:49:45.999Z",
+  "updatedAt": "2026-07-21T17:19:25.188Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -105,7 +105,7 @@
       "titre": "dépouillement du scrutin sur la proposition de M. le Président de la République de nommer M. François-Noël Buffet aux fonctions de Défenseur des droits et proclamation de son résultat.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T10:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-21T11:30:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -114,7 +114,7 @@
       "titre": "élection du Président de la commission des Lois.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T11:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-21T12:10:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -128,15 +128,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2026IDC460843",
-      "titre": "audition, ouverte à la presse, d’un représentant de la 5ème chambre de la Cour des comptes : M. Arnaud Oseredczuk, président de section.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460891",
       "titre": "la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Thibault Bazin, Thierry Frappé et Jérôme Guedj, rapporteurs) : Mmes Céline Blattner, Josette Guéniau, et M. Gilles Duthil, membres du comité 3C.",
       "type": "reunionCommission_type",
@@ -146,11 +137,20 @@
       "organisateur": "PO847238"
     },
     {
+      "uid": "RUANR5L17S2026IDC460843",
+      "titre": "audition, ouverte à la presse, d’un représentant de la 5ème chambre de la Cour des comptes : M. Arnaud Oseredczuk, président de section.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T14:15:00.000Z",
+      "dateFin": "2026-07-21T15:25:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460892",
       "titre": "nomination du Bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-21T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-21T14:45:00.000Z",
       "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
       "organisateur": "PO884567"
     },

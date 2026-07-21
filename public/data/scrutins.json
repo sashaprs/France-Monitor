@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-07-20T23:09:01.354Z",
+  "updatedAt": "2026-07-21T02:40:31.854Z",
   "scrutins": [
+    {
+      "numero": "8424",
+      "titre": "l'amendement n° 7 du Gouvernement au projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "371",
+      "pour": "121",
+      "contre": "131",
+      "abstentions": "119",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8421",
+      "titre": "l'ensemble de la proposition de loi pour une montagne vivante et souveraine (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "472",
+      "pour": "376",
+      "contre": "92",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8422",
+      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "374",
+      "pour": "126",
+      "contre": "247",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8420",
+      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, de la proposition de loi pour une montagne vivante et souveraine (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "241",
+      "pour": "42",
+      "contre": "198",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
     {
       "numero": "8418",
       "titre": "l'ensemble de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel (texte de la commission mixte paritaire).",
@@ -11,6 +55,28 @@
       "contre": "1",
       "abstentions": "81",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8419",
+      "titre": "l'ensemble de la proposition de loi visant à doter la France d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "462",
+      "pour": "462",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8423",
+      "titre": "la demande du Gouvernement de prolonger la séance en cours au delà de minuit (projet de loi d'urgence pour la protection et la souveraineté agricoles) (texte de la commission mixte paritaire).",
+      "date": "2026-07-20",
+      "sort": null,
+      "nombreVotants": "387",
+      "pour": "211",
+      "contre": "163",
+      "abstentions": "13",
+      "nonVotants": "2"
     },
     {
       "numero": "8402",
@@ -483,72 +549,6 @@
       "pour": "24",
       "contre": "22",
       "abstentions": "19",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8361",
-      "titre": "l'amendement n° 850 (rect.) de Mme Cathala après l'article 6 bis du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "64",
-      "pour": "25",
-      "contre": "35",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8366",
-      "titre": "l'amendement n° 91 de Mme Sylvie Bonnet et les amendements identiques suivants à l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "79",
-      "pour": "32",
-      "contre": "26",
-      "abstentions": "21",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8369",
-      "titre": "l'amendement n° 17 de M. Peytavie à l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "54",
-      "contre": "26",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8394",
-      "titre": "l'amendement n° 936 de Mme Perrine Goulet à l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "58",
-      "pour": "35",
-      "contre": "21",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8388",
-      "titre": "l'amendement n° 29 de Mme Bonnivard et l'amendement identique suivant après l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "85",
-      "pour": "53",
-      "contre": "30",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8385",
-      "titre": "l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "57",
-      "contre": "29",
-      "abstentions": "1",
       "nonVotants": "2"
     }
   ]

@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-07-21T17:19:23.308Z",
+  "updatedAt": "2026-07-21T17:24:58.496Z",
   "scrutins": [
+    {
+      "numero": "8429",
+      "titre": "l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
+      "date": "2026-07-21",
+      "sort": null,
+      "nombreVotants": "352",
+      "pour": "258",
+      "contre": "84",
+      "abstentions": "10",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8428",
+      "titre": "le sous-amendement n° 2 de Mme Perrine Goulet à l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
+      "date": "2026-07-21",
+      "sort": null,
+      "nombreVotants": "346",
+      "pour": "178",
+      "contre": "163",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8430",
+      "titre": "l'ensemble du projet de loi relatif à la protection des enfants (première lecture).",
+      "date": "2026-07-21",
+      "sort": null,
+      "nombreVotants": "558",
+      "pour": "378",
+      "contre": "7",
+      "abstentions": "173",
+      "nonVotants": "1"
+    },
     {
       "numero": "8425",
       "titre": "l'amendement n° 8 du Gouvernement au projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire).",
@@ -91,7 +124,7 @@
     },
     {
       "numero": "8423",
-      "titre": "la demande du Gouvernement de prolonger la séance en cours au delà de minuit (projet de loi d'urgence pour la protection et la souveraineté agricoles) (texte de la commission mixte paritaire).",
+      "titre": "la proposition du Gouvernement de prolonger la séance en cours au delà de minuit (projet de loi d'urgence pour la protection et la souveraineté agricoles) (texte de la commission mixte paritaire).",
       "date": "2026-07-20",
       "sort": null,
       "nombreVotants": "387",
@@ -517,39 +550,6 @@
       "contre": "6",
       "abstentions": "24",
       "nonVotants": "2"
-    },
-    {
-      "numero": "8406",
-      "titre": "l'amendement n° 1004 de M. Monnet à l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "68",
-      "pour": "35",
-      "contre": "33",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8365",
-      "titre": "l'amendement n° 317 de M. Peytavie à l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "41",
-      "contre": "27",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8416",
-      "titre": "l'amendement n° 993 (2e rect.) de Mme Maximi à l'article 15 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "64",
-      "pour": "29",
-      "contre": "23",
-      "abstentions": "12",
-      "nonVotants": "1"
     }
   ]
 }

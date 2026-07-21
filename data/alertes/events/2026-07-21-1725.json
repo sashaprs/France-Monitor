@@ -1,0 +1,44 @@
+{
+ "genere_le": "2026-07-21T17:25:15.965Z",
+ "evenements": [
+  {
+   "id": "scrutin:8429",
+   "type": "resultat_scrutin",
+   "date": "2026-07-21T17:25:15.965Z",
+   "titre": "Scrutin n° 8429 : l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
+   "detail": "258 pour · 84 contre · 10 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8429",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8428",
+   "type": "resultat_scrutin",
+   "date": "2026-07-21T17:25:15.965Z",
+   "titre": "Scrutin n° 8428 : le sous-amendement n° 2 de Mme Perrine Goulet à l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
+   "detail": "178 pour · 163 contre · 5 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8428",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "le sous-amendement n° 2 de Mme Perrine Goulet à l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "scrutin:8430",
+   "type": "resultat_scrutin",
+   "date": "2026-07-21T17:25:15.965Z",
+   "titre": "Scrutin n° 8430 : l'ensemble du projet de loi relatif à la protection des enfants (première lecture).",
+   "detail": "378 pour · 7 contre · 173 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8430",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "l'ensemble du projet de loi relatif à la protection des enfants (première lecture). Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

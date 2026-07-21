@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-07-21T21:15:02.037Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54697",
+   "type": "nouveau_dossier",
+   "date": "2026-07-21T21:15:02.037Z",
+   "titre": "Nouveau dossier : Faire de la climatisation un véritable outil de protection face aux vagues de chaleur",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/climatisation_protection_chaleur",
+   "dossier_id": "DLR5L17N54697",
+   "texte_matchable": "Faire de la climatisation un véritable outil de protection face aux vagues de chaleur Faire de la climatisation un véritable outil de protection face aux vagues de chaleur Résolution Article 34-1",
+   "profils": []
+  }
+ ]
+}

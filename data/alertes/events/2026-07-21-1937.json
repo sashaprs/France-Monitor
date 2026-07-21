@@ -1,0 +1,31 @@
+{
+ "genere_le": "2026-07-21T19:37:16.474Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3018P0D2N000002",
+   "type": "nouvel_amendement",
+   "date": "2026-07-21T19:37:16.474Z",
+   "titre": "Amendement n° 2 de Perrine Goulet (Dem) — ART. 11",
+   "detail": "Ce sous-amendement vise à supprimer la possibilité de porter la période de sûreté à trente ans en cas de viol ayant entraîné la mort, puisque la peine est portée à la réclusion criminelle à perpétuit…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/2",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement vise à supprimer la possibilité de porter la période de sûreté à trente ans en cas de viol ayant entraîné la mort, puisque la peine est portée à la réclusion criminelle à perpétuit… ART. 11 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3018P0D2N000001",
+   "type": "nouvel_amendement",
+   "date": "2026-07-21T19:37:16.474Z",
+   "titre": "Amendement n° 1 du Gouvernement — ART. 11",
+   "detail": "seconde délibération de l'article 11",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "seconde délibération de l'article 11 ART. 11 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

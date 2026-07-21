@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T05:50:56.413Z",
+  "updatedAt": "2026-07-21T06:32:11.622Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -60,7 +60,7 @@
       "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi relative à l’organisation, à la gestion et au financement du sport professionnel",
       "type": "seance_type",
       "dateDebut": "2026-07-20T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-20T22:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

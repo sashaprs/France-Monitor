@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T17:19:12.161Z",
+  "updatedAt": "2026-07-22T17:24:28.927Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -239,8 +239,8 @@
       "uid": "RUANR5L17S2026IDC460844",
       "titre": "audition, ouverte à la presse, de M. Arnaud Merle d’Aubigné, délégué général de l’association « Les Oubliés de la République », M. Abderrahmane Abdelatif, Mme Elina Dumont, M. Fabrice Genin, et Mme Isabelle Mauer.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T12:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-07-22T12:35:00.000Z",
+      "dateFin": "2026-07-22T14:45:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -249,7 +249,7 @@
       "titre": "audition, ouverte à la presse, de Mme Stéphanie Léger, présidente du Réseau français des villes éducatrices (RFVE).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-22T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-22T14:00:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -285,7 +285,7 @@
       "titre": "audition, ouverte à la presse, Mme Rozenn Merrien, présidente de l’Association nationale des directeurs et des cadres de l’éducation des villes et des collectivités territoriales (Andev), et M. Gabriel Fraga, vice-président.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-22T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-22T15:15:00.000Z",
       "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -345,7 +345,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460859",
-      "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – Mme Vanessa Hummel-Fourrat, sous-directrice de la sécurité sanitaire des aliments, Mme Emmanuelle Miralles, adjointe à la cheffe du bureau des établissements et des produits des industries alimentaires spécialisées et, Mme Mélanie Picherot, adjointe à la cheffe du bureau des établissements de transformation et de distribution.",
+      "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – Mme Vanessa Hummel-Fourrat, sous-directrice de la sécurité sanitaire des aliments, Mme Emmanuelle Miralles, adjointe à la cheffe du bureau des établissements et des produits des industries alimentaires spécialisées et, Mme Mélanie Picherot, adjointe à la cheffe du bureau des établissements de transformation et de distribution",
       "type": "reunionCommission_type",
       "dateDebut": "2026-07-24T08:00:00.000Z",
       "dateFin": null,

@@ -1,0 +1,49 @@
+{
+ "genere_le": "2026-07-22T19:27:09.070Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54701",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T19:27:09.070Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budg…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/credit_impot_international",
+   "dossier_id": "DLR5L17N54701",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le crédit d’impôt international rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur le crédit d’impôt international Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54703",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T19:27:09.070Z",
+   "titre": "Nouveau dossier : Projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+   "detail": "Projet de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54703",
+   "dossier_id": "DLR5L17N54703",
+   "texte_matchable": "Projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique Projet de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54702",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T19:27:09.070Z",
+   "titre": "Nouveau dossier : Projet de loi ratifiant l’ordonnance n° 2026-468 du 10 juin 2026 portant extension et adaptation aux collectivités relevant de l'article 74 de la Constitution…",
+   "detail": "Projet de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54702",
+   "dossier_id": "DLR5L17N54702",
+   "texte_matchable": "Projet de loi ratifiant l’ordonnance n° 2026-468 du 10 juin 2026 portant extension et adaptation aux collectivités relevant de l'article 74 de la Constitution et à la Nouvelle-Calédonie des dispositions de la loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local Projet de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54704",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T19:27:09.070Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à intégrer certains phénomènes atmosphériques d'intensité exceptionnelle dans le régime des catastrophes naturelles",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54704",
+   "dossier_id": "DLR5L17N54704",
+   "texte_matchable": "Proposition de loi visant à intégrer certains phénomènes atmosphériques d'intensité exceptionnelle dans le régime des catastrophes naturelles Proposition de loi ordinaire Finances",
+   "profils": []
+  }
+ ]
+}

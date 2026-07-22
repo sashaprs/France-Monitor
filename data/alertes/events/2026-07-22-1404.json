@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-07-22T14:04:28.912Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54700",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T14:04:28.912Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à réglementer le plafonnement du prix de revente des bouteilles de boissons alcoolisées par les restaurateurs, via une TVA incitative…",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54700",
+   "dossier_id": "DLR5L17N54700",
+   "texte_matchable": "Proposition de loi visant à réglementer le plafonnement du prix de revente des bouteilles de boissons alcoolisées par les restaurateurs, via une TVA incitative, pour mieux valoriser les productions viticoles Proposition de loi ordinaire Finances",
+   "profils": []
+  }
+ ]
+}

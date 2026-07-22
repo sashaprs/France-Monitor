@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T13:53:07.225Z",
+  "updatedAt": "2026-07-22T14:03:42.216Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -191,15 +191,6 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2026IDC460849",
-      "titre": "décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement de la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2026IDS30881",
       "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
@@ -207,6 +198,15 @@
       "dateFin": "2026-07-21T22:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460849",
+      "titre": "décision de classement ou d’examen, en application de l’article 148 alinéa 3 du Règlement de la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-07-21T21:20:00.000Z",
+      "dateFin": "2026-07-21T23:50:00.000Z",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC460850",

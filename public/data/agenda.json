@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T03:22:38.400Z",
+  "updatedAt": "2026-07-22T06:27:37.321Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460877",
@@ -204,7 +204,7 @@
       "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, du projet de loi sur la justice criminelle et le respect des victimes",
       "type": "seance_type",
       "dateDebut": "2026-07-21T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-07-21T22:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

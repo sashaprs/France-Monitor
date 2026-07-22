@@ -1,0 +1,363 @@
+{
+ "genere_le": "2026-07-22T06:32:21.239Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54698",
+   "type": "nouveau_dossier",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budg…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/moyens_DGFIP_Fraude",
+   "dossier_id": "DLR5L17N54698",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur les moyens de la direction générale des finances publiques consacrés à la lutte contre la fraude et l’évasion fiscales rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur les moyens de la direction générale des finances publiques consacrés à la lutte contre la fraude et l’évasion fiscales Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54372:en_navette",
+   "type": "changement_etape",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Projet de loi relatif à la protection des enfants — en navette",
+   "detail": "Statut : « en séance » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/projet_de_loi_relatif_a_la_protection_des_enfants",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Projet de loi relatif à la protection des enfants Protection des enfants CS Protection des enfants Nathalie Colin-Oesterlé",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3070P0D1N000001",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 1 de Xavier Albertini (HOR) — ART. 7",
+   "detail": "Amendement de coordination avec l’article 7 bis AA du projet de loi, intégrant à la peine de stage de sensibilisation aux dangers de l’usage de produits stupéfiants prévue par le code pénal, une sens…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3070/AN/1",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Amendement de coordination avec l’article 7 bis AA du projet de loi, intégrant à la peine de stage de sensibilisation aux dangers de l’usage de produits stupéfiants prévue par le code pénal, une sens… ART. 7 Xavier Albertini HOR Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3070P0D1N000002",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 2 de Xavier Albertini (HOR) — ART. 30 BIS",
+   "detail": "Amendement de coordination.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3070/AN/2",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Amendement de coordination. ART. 30 BIS Xavier Albertini HOR Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3070P0D1N000003",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 3 de Xavier Albertini (HOR) — ART. 25",
+   "detail": "Correction d’une erreur matérielle.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3070/AN/3",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Correction d’une erreur matérielle. ART. 25 Xavier Albertini HOR Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3070P0D1N000004",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 4 de Xavier Albertini (HOR) — ART. 29",
+   "detail": "Amendement de coordination.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3070/AN/4",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Amendement de coordination. ART. 29 Xavier Albertini HOR Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3018P0D2N000002",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 2 de Perrine Goulet (Dem) — ART. 11",
+   "detail": "Ce sous-amendement vise à supprimer la possibilité de porter la période de sûreté à trente ans en cas de viol ayant entraîné la mort, puisque la peine est portée à la réclusion criminelle à perpétuit…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/2",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Ce sous-amendement vise à supprimer la possibilité de porter la période de sûreté à trente ans en cas de viol ayant entraîné la mort, puisque la peine est portée à la réclusion criminelle à perpétuit… ART. 11 Perrine Goulet Dem Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3018P0D2N000001",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° 1 du Gouvernement — ART. 11",
+   "detail": "seconde délibération de l'article 11",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3018/AN/1",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "seconde délibération de l'article 11 ART. 11 Gouvernement Projet de loi relatif à la protection des enfants",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000016:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL16 de Danièle Obono (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 12 de l’article unique. Cet alinéa concerne le règlement dit « situation de crise » (2024/1359). Celui-ci, comme son nom l’…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL16",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 12 de l’article unique. Cet alinéa concerne le règlement dit « situation de crise » (2024/1359). Celui-ci, comme son nom l’… ART. UNIQUE Danièle Obono LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000014:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL14 de Danièle Obono (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer les alinéas 9 et 10 de l’article unique. Ces alinéas concernent les règlements dits « filtrage » (2024/1352 et 2024/1356). Ces derni…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL14",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer les alinéas 9 et 10 de l’article unique. Ces alinéas concernent les règlements dits « filtrage » (2024/1352 et 2024/1356). Ces derni… ART. UNIQUE Danièle Obono LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000015:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL15 de Élisa Martin (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL15",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise… ART. UNIQUE Élisa Martin LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000020:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL20 de Léa Balage El Mariky (EcoS) : Tombé",
+   "detail": "Cet amendement du groupe écologiste et social a pour objet de sécuriser le rôle du Parlement dans la mise en oeuvre du Pacte européen sur les migrations et l'asile. Le recours à la législation délégu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL20",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Cet amendement du groupe écologiste et social a pour objet de sécuriser le rôle du Parlement dans la mise en oeuvre du Pacte européen sur les migrations et l'asile. Le recours à la législation délégu… ART. UNIQUE Léa Balage El Mariky EcoS Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000022:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL22 de Léa Balage El Mariky (EcoS) : Tombé",
+   "detail": "Par cet amendement de repli, le groupe écologiste et social propose d'obliger le Gouvernement à informer le Parlement des choix politiques adoptés dans son travail de législation déléguée. Compte ten…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL22",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement de repli, le groupe écologiste et social propose d'obliger le Gouvernement à informer le Parlement des choix politiques adoptés dans son travail de législation déléguée. Compte ten… ART. UNIQUE Léa Balage El Mariky EcoS Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000012:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL12 de Élisa Martin (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL12",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise… ART. UNIQUE Élisa Martin LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000009:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL9 de Danièle Obono (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 2 de l’article unique. Cet alinéa concerne la directive dite « accueil » (2024/1346). Celle-ci établit les normes minimales…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL9",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 2 de l’article unique. Cet alinéa concerne la directive dite « accueil » (2024/1346). Celle-ci établit les normes minimales… ART. UNIQUE Danièle Obono LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000010:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL10 de Élisa Martin (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL10",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise… ART. UNIQUE Élisa Martin LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000008:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL8 de Élisa Martin (LFI-NFP) : Adopté",
+   "detail": "Par cet amendement le groupe la France insoumise entend supprimer l’article unique de ce projet de loi. Avec ce projet de loi, le Gouvernement sollicite des habilitations à légiférer par ordonnance,…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL8",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement le groupe la France insoumise entend supprimer l’article unique de ce projet de loi. Avec ce projet de loi, le Gouvernement sollicite des habilitations à légiférer par ordonnance,… ART. UNIQUE Élisa Martin LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000011:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL11 de Élisa Martin (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL11",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l'habilitation donnée au Gouvernement afin de prendre par ordonnance les mesures relevant du domaine de la loi nécessaires à la mise… ART. UNIQUE Élisa Martin LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59051B2820P0D1N000021",
+   "type": "nouvel_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL21 de Léa Balage El Mariky (EcoS) — ART. UNIQUE",
+   "detail": "Par cet amendement, le groupe écologiste et social propose d'encadrer l'habilitation donnée au Gouvernement afin que la mise en oeuvre du Pacte européen sur la migration et l'asile soit réalisée selo…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL21",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe écologiste et social propose d'encadrer l'habilitation donnée au Gouvernement afin que la mise en oeuvre du Pacte européen sur la migration et l'asile soit réalisée selo… ART. UNIQUE Léa Balage El Mariky EcoS Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000019:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL19 de Léa Balage El Mariky (EcoS) : Adopté",
+   "detail": "Par cet amendement, le groupe écologiste et social refuse d'accorder un blanc-seing au gouvernement en le laissant réécrire près de 40% du Ceseda. Le présent article prévoit en effet une habilitation…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL19",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe écologiste et social refuse d'accorder un blanc-seing au gouvernement en le laissant réécrire près de 40% du Ceseda. Le présent article prévoit en effet une habilitation… ART. UNIQUE Léa Balage El Mariky EcoS Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000013:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL13 de Danièle Obono (LFI-NFP) : Tombé",
+   "detail": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 8 de l’article unique. Cet alinéa concerne le règlement relatif à la gestion de l’asile et de la migration (AMMR) (2024/135…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL13",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe la France insoumise entend supprimer l’alinéa 8 de l’article unique. Cet alinéa concerne le règlement relatif à la gestion de l’asile et de la migration (AMMR) (2024/135… ART. UNIQUE Danièle Obono LFI-NFP Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000002:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL2 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1346 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL2",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1346 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000005:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL5 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1359 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL5",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1359 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000003:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL3 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1349 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL3",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1349 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000001:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL1 de Paul Christophle (SOC) : Adopté",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration qui amorce un recul sévère des droits fondamentaux des demandeurs d’asile : allonge…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL1",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration qui amorce un recul sévère des droits fondamentaux des demandeurs d’asile : allonge… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000006:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL6 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1359 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL6",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1359 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000004:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL4 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL4",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1356 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B2820P0D1N000007:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Amendement n° CL7 de Paul Christophle (SOC) : Tombé",
+   "detail": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1348 du Parlement européen et du Conseil du 14…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2820/CION_LOIS/CL7",
+   "dossier_id": "DLR5L17N54094",
+   "texte_matchable": "Par cet amendement, le groupe Socialistes et apparentés réitère son opposition au Pacte sur l’asile et la migration, et notamment au règlement (UE) 2024/1348 du Parlement européen et du Conseil du 14… ART. UNIQUE Paul Christophle SOC Projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n°s 20…",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8431",
+   "type": "resultat_scrutin",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Scrutin n° 8431 : l'ensemble de la proposition de loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux (texte de la commission mixte paritaire).",
+   "detail": "279 pour · 81 contre · 66 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8431",
+   "dossier_id": "DLR5L17N53187",
+   "texte_matchable": "l'ensemble de la proposition de loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux (texte de la commission mixte paritaire). Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8434",
+   "type": "resultat_scrutin",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Scrutin n° 8434 : l'ensemble de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l'État (texte de la commission mixte paritaire).",
+   "detail": "276 pour · 86 contre · 2 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8434",
+   "dossier_id": "DLR5L17N52746",
+   "texte_matchable": "l'ensemble de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l'État (texte de la commission mixte paritaire). Moderniser la gestion du patrimoine immobilier de l'État",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8433",
+   "type": "resultat_scrutin",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Scrutin n° 8433 : l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquilité de nos concitoyens (texte de la commission mixte paritaire).",
+   "detail": "351 pour · 179 contre · 7 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8433",
+   "dossier_id": null,
+   "texte_matchable": "l'ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquilité de nos concitoyens (texte de la commission mixte paritaire).",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8432",
+   "type": "resultat_scrutin",
+   "date": "2026-07-22T06:32:21.239Z",
+   "titre": "Scrutin n° 8432 : la motion de rejet préalable, déposée par Mme Cyrielle Chatelain, du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquilité de nos concitoyens (texte de la commission mixte paritaire).",
+   "detail": "85 pour · 207 contre · 1 abstentions (2026-07-21)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8432",
+   "dossier_id": null,
+   "texte_matchable": "la motion de rejet préalable, déposée par Mme Cyrielle Chatelain, du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquilité de nos concitoyens (texte de la commission mixte paritaire).",
+   "profils": []
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "genere_le": "2026-07-23T17:26:39.347Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54721",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Instituer une souscription nationale pour la reconstitution des forêts sinistrées par les incendies",
+   "detail": "Proposition de loi ordinaire · commission : Développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_instituer_une_souscription_nationale_pour_la_reconstitution_des_forets_sinistrees_par_les_incendies_17e",
+   "dossier_id": "DLR5L17N54721",
+   "texte_matchable": "Instituer une souscription nationale pour la reconstitution des forêts sinistrées par les incendies Instituer une souscription nationale pour la reconstitution des forêts sinistrées par les incendies Proposition de loi ordinaire Développement durable",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54715",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Modifier la politique forestière pour répondre aux enjeux d’adaptation des forêts au changement climatique",
+   "detail": "Proposition de loi ordinaire · commission : Développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/politique_forestiere_changement_climatique_17e",
+   "dossier_id": "DLR5L17N54715",
+   "texte_matchable": "Modifier la politique forestière pour répondre aux enjeux d’adaptation des forêts au changement climatique Modifier la politique forestière pour répondre aux enjeux d’adaptation des forêts au changement climatique Proposition de loi ordinaire Développement durable",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54714",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Garantir les droits fondamentaux des personnes souffrant de troubles neurocognitifs placées en unité de vie protégée",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/droits_personnes_troubles_neurocognitifs_17e",
+   "dossier_id": "DLR5L17N54714",
+   "texte_matchable": "Garantir les droits fondamentaux des personnes souffrant de troubles neurocognitifs placées en unité de vie protégée Garantir les droits fondamentaux des personnes souffrant de troubles neurocognitifs placées en unité de vie protégée Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54716",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Rendre obligatoire l'attestation numérique d'honorabilité pour les éducateurs sportifs, les bénévoles du sport, les professeurs et les accompagnateurs de sorti…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires culturelles et éducation",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/rendre_obligatoire_attestation_numerique_educateurs_benevoles_professeurs_accompagnateurs_sorties_scolaires_17e",
+   "dossier_id": "DLR5L17N54716",
+   "texte_matchable": "Rendre obligatoire l'attestation numérique d'honorabilité pour les éducateurs sportifs, les bénévoles du sport, les professeurs et les accompagnateurs de sorties scolaires Rendre obligatoire l'attestation numérique d'honorabilité pour les éducateurs sportifs, les bénévoles du sport, les professeurs et les accompagnateurs de sorties scolaires Proposition de loi ordinaire Affaires culturelles et éducation",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54724",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Favoriser le travail en continu et en journée via la commande publique afin d'améliorer les conditions relatives au domaine social et à l'emploi",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/favoriser_travail_continu_journee_commande_publique_ameliorer_conditions_domaine_social_emploi_17e",
+   "dossier_id": "DLR5L17N54724",
+   "texte_matchable": "Favoriser le travail en continu et en journée via la commande publique afin d'améliorer les conditions relatives au domaine social et à l'emploi Favoriser le travail en continu et en journée via la commande publique afin d'améliorer les conditions relatives au domaine social et à l'emploi Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54723",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Faciliter l’accès à la climatisation",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/faciliter_acces_climatisation_17e",
+   "dossier_id": "DLR5L17N54723",
+   "texte_matchable": "Faciliter l’accès à la climatisation Faciliter l’accès à la climatisation Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54725",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Renforcer la prévention et la répression des occupations illicites de terrain",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_renforcer_prevention_et_repression_des_occupations_illicites_de_terrain_17e",
+   "dossier_id": "DLR5L17N54725",
+   "texte_matchable": "Renforcer la prévention et la répression des occupations illicites de terrain Renforcer la prévention et la répression des occupations illicites de terrain Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54729",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Pérenniser le régime juridique des praticiens diplômés hors Union européenne exerçant dans les territoires ultramarins",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/perenniser_regime_juridique_practiciens_diplomes_union_europeenne_territoires_ultramarins_17e",
+   "dossier_id": "DLR5L17N54729",
+   "texte_matchable": "Pérenniser le régime juridique des praticiens diplômés hors Union européenne exerçant dans les territoires ultramarins Pérenniser le régime juridique des praticiens diplômés hors Union européenne exerçant dans les territoires ultramarins Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54706",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Protéger les professionnels de santé de la mainmise des capitaux financiers",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_proteger_les_professionnels_de_sante_de_la_mainmise_des_capitaux_financiers_17e",
+   "dossier_id": "DLR5L17N54706",
+   "texte_matchable": "Protéger les professionnels de santé de la mainmise des capitaux financiers protéger les professionnels de santé de la mainmise des capitaux financiers Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54707",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Garantir un développement public de la phagothérapie pour lutter contre l’antibiorésistance",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/developpement_phagotherapie_lutte_antibioresistance_17e",
+   "dossier_id": "DLR5L17N54707",
+   "texte_matchable": "Garantir un développement public de la phagothérapie pour lutter contre l’antibiorésistance Garantir un développement public de la phagothérapie pour lutter contre l’antibiorésistance Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54727",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Mettre en place une garantie universelle des loyers",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_mettre_en_place_une_garantie_universelle_des_loyers_17e",
+   "dossier_id": "DLR5L17N54727",
+   "texte_matchable": "Mettre en place une garantie universelle des loyers Mettre en place une garantie universelle des loyers Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54713",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Supprimer les avantages à vie des anciens présidents de la République",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/supprimer_avantages_vie_anciens_presidents_Republique_17e",
+   "dossier_id": "DLR5L17N54713",
+   "texte_matchable": "Supprimer les avantages à vie des anciens présidents de la République Supprimer les avantages à vie des anciens présidents de la République Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54720",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Adapter le cadre juridique et fiscal applicable aux crypto-actifs",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_cadre_juridique_applicable_crypto_actifs_17e",
+   "dossier_id": "DLR5L17N54720",
+   "texte_matchable": "Adapter le cadre juridique et fiscal applicable aux crypto-actifs Adapter le cadre juridique et fiscal applicable aux crypto-actifs Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54726",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Instaurer une réponse pénale ferme et systématique aux incendies volontaires",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/instaurer_reponse_penale_ferme_systematique_incendies_volontaires_17e",
+   "dossier_id": "DLR5L17N54726",
+   "texte_matchable": "Instaurer une réponse pénale ferme et systématique aux incendies volontaires Instaurer une réponse pénale ferme et systématique aux incendies volontaires Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54718",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interdiction_relations_commerciales_soutien_colonisation_17e",
+   "dossier_id": "DLR5L17N54718",
+   "texte_matchable": "L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrien occupé des hauteurs du Golan L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrien occupé des hauteurs du Golan Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54711",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Transposer la directive européenne relative à l’amélioration des conditions de travail dans le cadre du travail via une plateforme",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_transposer_la_directive_europeenne_relative_a_l_amelioration_des_conditions_de_travail_dans_le_cadre_du_travail_via_une_plateforme_17e",
+   "dossier_id": "DLR5L17N54711",
+   "texte_matchable": "Transposer la directive européenne relative à l’amélioration des conditions de travail dans le cadre du travail via une plateforme Transposer la directive européenne relative à l’amélioration des conditions de travail dans le cadre du travail via une plateforme Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54708",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Protéger les mineurs contre les dangers des réseaux sociaux",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/proteger_mineurs_dangers_reseaux_sociaux_17e",
+   "dossier_id": "DLR5L17N54708",
+   "texte_matchable": "Protéger les mineurs contre les dangers des réseaux sociaux Protéger les mineurs contre les dangers des réseaux sociaux Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54731",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Sanctuariser le principe de libre disposition des abonnements numériques pour protéger le pouvoir d'achat",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/libre_disposition_abonnements_numeriques_17e",
+   "dossier_id": "DLR5L17N54731",
+   "texte_matchable": "Sanctuariser le principe de libre disposition des abonnements numériques pour protéger le pouvoir d'achat Sanctuariser le principe de libre disposition des abonnements numériques pour protéger le pouvoir d'achat Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54730",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Diverses mesures visant à prévenir les accidents du travail graves et mortels",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/mesures_prevenir_accidents_travail_graves_17e",
+   "dossier_id": "DLR5L17N54730",
+   "texte_matchable": "Diverses mesures visant à prévenir les accidents du travail graves et mortels Diverses mesures visant à prévenir les accidents du travail graves et mortels Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54722",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Ouverture de l'insertion par l'activité économique au travail indépendant et pérennisation des entreprises d'insertion par le travail indépendantde l'insertion…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_ouverture_de_l-insertion_par_l_activite_economique_au_travail_independant_et_perennisation_des_entreprises_d_insertion_par_le_travail_independant_17e",
+   "dossier_id": "DLR5L17N54722",
+   "texte_matchable": "Ouverture de l'insertion par l'activité économique au travail indépendant et pérennisation des entreprises d'insertion par le travail indépendantde l'insertion par l'activité économique au travail indépendant et pérennisation des entreprises d'insertion par le travail indépendant Ouverture de l'insertion par l'activité économique au travail indépendant et pérennisation des entreprises d'insertion par le travail indépendant Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54728",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Interdire le recours à la contention mécanique dans les établissements psychiatriques",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interdire_recours_contention_mecanique_etablissements_psychiatiques_17e",
+   "dossier_id": "DLR5L17N54728",
+   "texte_matchable": "Interdire le recours à la contention mécanique dans les établissements psychiatriques Interdire le recours à la contention mécanique dans les établissements psychiatriques Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54719",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Modernisation de notre modèle de sécurité civile",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_modernisation_de_notre_modele_de_securite_civile_17e",
+   "dossier_id": "DLR5L17N54719",
+   "texte_matchable": "Modernisation de notre modèle de sécurité civile Modernisation de notre modèle de sécurité civile Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54710",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Instaurer une trêve estivale des expulsions",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/instaurer_treve_estival_expulsions_17e",
+   "dossier_id": "DLR5L17N54710",
+   "texte_matchable": "Instaurer une trêve estivale des expulsions Instaurer une trêve estivale des expulsions Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54709",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Lutter contre la précarité administrative des travailleuses et travailleurs étrangers",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/lutter_precarite_administrative_travailleuses_travailleurs_etrangers_17e",
+   "dossier_id": "DLR5L17N54709",
+   "texte_matchable": "Lutter contre la précarité administrative des travailleuses et travailleurs étrangers Lutter contre la précarité administrative des travailleuses et travailleurs étrangers Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54717",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/garantir_acces_panier_diversifie_denrees_alimentaires_favorables_sante_vendues_prix_coutant_17e",
+   "dossier_id": "DLR5L17N54717",
+   "texte_matchable": "Garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant Garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54712",
+   "type": "nouveau_dossier",
+   "date": "2026-07-23T17:26:39.347Z",
+   "titre": "Nouveau dossier : Encadrer les frais d’occupation lors de l’utilisation de bornes de recharge pour véhicule électrique",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/frais_occupation_recharge_vehicules_electriques_17e",
+   "dossier_id": "DLR5L17N54712",
+   "texte_matchable": "Encadrer les frais d’occupation lors de l’utilisation de bornes de recharge pour véhicule électrique Encadrer les frais d’occupation lors de l’utilisation de bornes de recharge pour véhicule électrique Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  }
+ ]
+}

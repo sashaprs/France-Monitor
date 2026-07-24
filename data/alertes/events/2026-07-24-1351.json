@@ -1,0 +1,62 @@
+{
+ "genere_le": "2026-07-24T13:51:47.636Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54006:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-24T13:51:47.636Z",
+   "titre": "rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la prop… — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/montagne_vivante_souveraine_17e",
+   "dossier_id": "DLR5L17N54006",
+   "texte_matchable": "Pour une montagne vivante et souveraine rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi pour une montagne vivante et souveraine. Développement durable Jean-Pierre Vigier",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N52746:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-24T13:51:47.636Z",
+   "titre": "Moderniser la gestion du patrimoine immobilier de l'État — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/gestion_patrimoine_immobilier_etat_17e",
+   "dossier_id": "DLR5L17N52746",
+   "texte_matchable": "Moderniser la gestion du patrimoine immobilier de l'État Patrimoine immobilier de l'État Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53942:promulgue",
+   "type": "changement_etape",
+   "date": "2026-07-24T13:51:47.636Z",
+   "titre": "Projet de loi organique relatif au renforcement des juridictions criminelles — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53942",
+   "dossier_id": "DLR5L17N53942",
+   "texte_matchable": "Projet de loi organique relatif au renforcement des juridictions criminelles relatif au renforcement des juridictions criminelles Lois Laure Miller",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53940:promulgue",
+   "type": "changement_etape",
+   "date": "2026-07-24T13:51:47.636Z",
+   "titre": "Projet de loi sur la justice criminelle et le respect des victimes — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+   "dossier_id": "DLR5L17N53940",
+   "texte_matchable": "Projet de loi sur la justice criminelle et le respect des victimes sur la justice criminelle et le respect des victimes Lois Laure Miller",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53187:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-24T13:51:47.636Z",
+   "titre": "Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/proteger_mineurs_reseaux_sociaux_17e",
+   "dossier_id": "DLR5L17N53187",
+   "texte_matchable": "Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux Affaires culturelles et éducation Laure Miller",
+   "profils": []
+  }
+ ]
+}

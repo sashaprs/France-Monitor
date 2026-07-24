@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-24T07:30:44.928Z",
+  "updatedAt": "2026-07-24T10:16:35.186Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460854",
-      "titre": "- audition conjointe : \r– Uber Eats – M. Alexis Cintrat, directeur des affaires publiques \r– Deliveroo – M. Rémi Malemba, responsable des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO879195"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460873",
-      "titre": "dépouillement du scrutin sur la proposition de M. le Président de la République de nommer M. François-Noël Buffet aux fonctions de Défenseur des droits et proclamation de son résultat.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T10:00:00.000Z",
-      "dateFin": "2026-07-21T11:30:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2026IDC460848",
       "titre": "élection du Président de la commission des Lois.",

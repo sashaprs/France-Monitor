@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T16:42:36.942Z",
+  "updatedAt": "2026-07-24T17:40:50.840Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30881",
@@ -225,6 +225,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460914",
+      "titre": "nomination du Bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-02T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC460909",

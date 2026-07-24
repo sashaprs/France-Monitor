@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-24T10:22:22.234Z",
+  "updatedAt": "2026-07-24T12:18:27.622Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460848",
-      "titre": "élection du Président de la commission des Lois.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T11:45:00.000Z",
-      "dateFin": "2026-07-21T12:10:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2026IDS30880",
       "titre": "Questions au Gouvernement",

@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-07-24T13:51:14.728Z",
+  "updatedAt": "2026-07-24T14:54:39.255Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460891",
-      "titre": "la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Thibault Bazin, Thierry Frappé et Jérôme Guedj, rapporteurs) : Mmes Céline Blattner, Josette Guéniau, et M. Gilles Duthil, membres du comité 3C.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T14:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO847238"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460843",
-      "titre": "audition, ouverte à la presse, d’un représentant de la 5ème chambre de la Cour des comptes : M. Arnaud Oseredczuk, président de section.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T14:15:00.000Z",
-      "dateFin": "2026-07-21T15:25:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460892",
-      "titre": "nomination du Bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T14:30:00.000Z",
-      "dateFin": "2026-07-21T14:45:00.000Z",
-      "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460774",
-      "titre": "audition des représentants de la Mission de défense et attaché d’armement en Italie : le Général de brigade Mathieu Fromaget, attaché de défense français en Italie et le colonel Ronan Chipon, attaché d’armement.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-21T14:30:00.000Z",
-      "dateFin": "2026-07-21T16:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO880668"
-    },
     {
       "uid": "RUANR5L17S2026IDC460874",
       "titre": "audition, ouverte à la presse, de Mme Charlotte Brun, co-présidente de la commission éducation de France urbaine.",

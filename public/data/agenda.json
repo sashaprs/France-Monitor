@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-25T07:16:30.370Z",
+  "updatedAt": "2026-07-25T09:47:07.696Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460850",
-      "titre": "éventuellement, suite de l’examen du projet de loi habilitant le Gouvernement à prendre, par ordonnances, les adaptations rendues nécessaires par l’entrée en application des règlements (UE) n° 2024/1347, 2024/1348, 2024/1349, 2024/1350, 2024/1351, 2024/1352, 2024/1356, 2024/1358, 2024/1359 du Parlement européen et du Conseil du 14 mai 2024, et les dispositions nécessaires à la transposition de la directive (UE) 2024/1346 du Parlement européen et du Conseil du 14 mai 2024 (n° 2820).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460871",
-      "titre": "audition de M. Mathieu Lefèvre, ministre délégué auprès de la ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, chargé de la transition écologique, accompagné de Mme Ludivine Moles, conseillère chargée des relations avec le Parlement et les élus locaux et de M. Samuel Just, conseiller chargé de l’économie circulaire, de la sobriété foncière, de la qualité de l’air et des nuisances sonores.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T09:00:00.000Z",
-      "dateFin": "2026-07-22T11:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO878513"
-    },
     {
       "uid": "RUANR5L17S2026IDC460882",
       "titre": "nexity :",

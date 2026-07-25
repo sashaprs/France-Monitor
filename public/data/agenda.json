@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-07-25T13:41:58.732Z",
+  "updatedAt": "2026-07-25T15:02:57.002Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460889",
-      "titre": "Colloque. France – Mali : jeunesses, diasporas, entrepreneuriat, maintenir les liens entre nos sociétés.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T14:00:00.000Z",
-      "dateFin": "2026-07-22T16:00:00.000Z",
-      "lieu": "salle Colbert",
-      "organisateur": "PO851299"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460876",
-      "titre": "audition, ouverte à la presse, Mme Rozenn Merrien, présidente de l’Association nationale des directeurs et des cadres de l’éducation des villes et des collectivités territoriales (Andev), et M. Gabriel Fraga, vice-président.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T14:00:00.000Z",
-      "dateFin": "2026-07-22T15:15:00.000Z",
-      "lieu": "Salle 6242 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460868",
-      "titre": "audition de M. Thibaut Bruttin, directeur général de reporters sans frontières, et Mme Laure Chauvel, responsable du desk France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-22T14:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2026IDC460798",
       "titre": "présentation, par M. Denis Masséglia, rapporteur spécial de la mission Médias, livre et industries culturelles, du rapport d’évaluation des politiques publiques sur le crédit d’impôt international, et audition de Mme Catherine Pégard, ministre de la culture, sur les conclusions de ce rapport ;",

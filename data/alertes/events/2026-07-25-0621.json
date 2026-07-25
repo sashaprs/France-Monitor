@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-07-25T06:21:50.398Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54085:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-25T06:21:50.398Z",
+   "titre": "Protection et souveraineté agricoles — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/projet_loi_urgence_pour_protection_et_souverainete_agricoles",
+   "dossier_id": "DLR5L17N54085",
+   "texte_matchable": "Projet de loi d’urgence pour la protection et la souveraineté agricoles Protection et souveraineté agricoles Affaires économiques Jean-René Cazeneuve",
+   "profils": []
+  }
+ ]
+}

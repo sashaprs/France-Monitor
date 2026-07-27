@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-27T03:54:58.088Z",
+  "updatedAt": "2026-07-27T07:31:16.869Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460857",
-      "titre": "ministère chargé de la santé – Direction générale de la santé – Dr Dinh-Phong Nguyen, sous-directeur adjoint de la santé des populations et de la prévention des maladies chroniques et, Mme Simone Alexe, cheffe du bureau de la prévention des addictions.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-24T07:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460858",
-      "titre": "ministère chargé de l’économie et des finances – Direction de la législation fiscale – sous réserve de confirmation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-24T07:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
-    },
     {
       "uid": "RUANR5L17S2026IDC460859",
       "titre": "ministère chargé de l’agriculture – Direction générale de l’alimentation – Mme Vanessa Hummel-Fourrat, sous-directrice de la sécurité sanitaire des aliments, Mme Emmanuelle Miralles, adjointe à la cheffe du bureau des établissements et des produits des industries alimentaires spécialisées et, Mme Mélanie Picherot, adjointe à la cheffe du bureau des établissements de transformation et de distribution",

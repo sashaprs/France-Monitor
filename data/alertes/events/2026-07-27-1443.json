@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-07-27T14:43:41.616Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54734",
+   "type": "nouveau_dossier",
+   "date": "2026-07-27T14:43:41.616Z",
+   "titre": "Nouveau dossier : Garantir un abri accessible dans chaque commune pour renforcer la protection de la population française",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/garantie_abri_population_commune",
+   "dossier_id": "DLR5L17N54734",
+   "texte_matchable": "Garantir un abri accessible dans chaque commune pour renforcer la protection de la population française Garantir un abri accessible dans chaque commune pour renforcer la protection de la population française Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54735",
+   "type": "nouveau_dossier",
+   "date": "2026-07-27T14:43:41.616Z",
+   "titre": "Nouveau dossier : Respect des objectifs de réemploi et sur les moyens consacrés au développement de la filière du réemploi des emballages",
+   "detail": "Résolution · commission : Développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/respect_objectifs_filiere_emballages",
+   "dossier_id": "DLR5L17N54735",
+   "texte_matchable": "Respect des objectifs de réemploi et sur les moyens consacrés au développement de la filière du réemploi des emballages Respect des objectifs de réemploi et sur les moyens consacrés au développement de la filière du réemploi des emballages Résolution Développement durable",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53980:adopte",
+   "type": "changement_etape",
+   "date": "2026-07-27T14:43:41.616Z",
+   "titre": "Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens — adopté",
+   "detail": "Statut : « en navette » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53980",
+   "dossier_id": "DLR5L17N53980",
+   "texte_matchable": "Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, la sécurité et la tranquillité de nos concitoyens Lois Xavier Albertini",
+   "profils": []
+  }
+ ]
+}

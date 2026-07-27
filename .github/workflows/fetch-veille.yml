@@ -1,8 +1,9 @@
 name: Fetch Veille Générale
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'
+  # schedule désactivé temporairement (échecs répétés → e-mails de notification)
+  # schedule:
+  #   - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:

@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-07-28T14:16:07.848Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N53284:promulgue",
+   "type": "changement_etape",
+   "date": "2026-07-28T14:16:07.848Z",
+   "titre": "Rétention administrative et prévention des risques d'attentat — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/retention_admin_prevention_attentats_17e",
+   "dossier_id": "DLR5L17N53284",
+   "texte_matchable": "Renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat Rétention administrative et prévention des risques d'attentat Lois Charles Rodwell",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53426:promulgue",
+   "type": "changement_etape",
+   "date": "2026-07-28T14:16:07.848Z",
+   "titre": "Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur — promulgué",
+   "detail": "Statut : « en navette » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/accelerer_prevention_cardio_neuro_vasculaire_et_anticiper_risque_sanitaire_et_social_majeur_17e",
+   "dossier_id": "DLR5L17N53426",
+   "texte_matchable": "Accélérer la prévention cardio-neuro-vasculaire et anticiper un risque sanitaire et social majeur Prévention cardio-neuro-vasculaire Affaires sociales Yannick Neuder",
+   "profils": []
+  }
+ ]
+}

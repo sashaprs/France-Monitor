@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-07-29T14:19:06.677Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54742",
+   "type": "nouveau_dossier",
+   "date": "2026-07-29T14:19:06.677Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à restaurer l'autonomie fiscale des communes par le rétablissement de la taxe d'habitation sur les résidences principales",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54742",
+   "dossier_id": "DLR5L17N54742",
+   "texte_matchable": "Proposition de loi visant à restaurer l'autonomie fiscale des communes par le rétablissement de la taxe d'habitation sur les résidences principales Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54741",
+   "type": "nouveau_dossier",
+   "date": "2026-07-29T14:19:06.677Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à reconnaître en droit le principe « Une seule santé »",
+   "detail": "Proposition de loi ordinaire · commission : Aménagement du territoire et développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54741",
+   "dossier_id": "DLR5L17N54741",
+   "texte_matchable": "Proposition de loi visant à reconnaître en droit le principe « Une seule santé » Proposition de loi ordinaire Aménagement du territoire et développement durable",
+   "profils": []
+  }
+ ]
+}

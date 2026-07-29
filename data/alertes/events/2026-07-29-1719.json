@@ -1,0 +1,51 @@
+{
+ "genere_le": "2026-07-29T17:19:47.347Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54744",
+   "type": "nouveau_dossier",
+   "date": "2026-07-29T17:19:47.347Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à protéger et à améliorer les conditions de travail des professionnels de santé et à renforcer l'attractivité de l'exercice en milieu…",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54744",
+   "dossier_id": "DLR5L17N54744",
+   "texte_matchable": "Proposition de loi visant à protéger et à améliorer les conditions de travail des professionnels de santé et à renforcer l'attractivité de l'exercice en milieu rural Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54743",
+   "type": "nouveau_dossier",
+   "date": "2026-07-29T17:19:47.347Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à restituer au maire la maîtrise des attributions de logements sociaux sur le territoire de sa commune",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54743",
+   "dossier_id": "DLR5L17N54743",
+   "texte_matchable": "Proposition de loi visant à restituer au maire la maîtrise des attributions de logements sociaux sur le territoire de sa commune Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54745",
+   "type": "nouveau_dossier",
+   "date": "2026-07-29T17:19:47.347Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à renforcer la prévention et la répression des occupations illicites de terrains, à simplifier les procédures d'évacuation et à sécur…",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54745",
+   "dossier_id": "DLR5L17N54745",
+   "texte_matchable": "Proposition de loi visant à renforcer la prévention et la répression des occupations illicites de terrains, à simplifier les procédures d'évacuation et à sécuriser l'action des forces de l'ordre Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54372:en_commission",
+   "type": "changement_etape",
+   "date": "2026-07-29T17:19:47.347Z",
+   "titre": "Projet de loi relatif à la protection des enfants — en commission",
+   "detail": "Statut : « en navette » → « en commission »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/projet_de_loi_relatif_a_la_protection_des_enfants",
+   "dossier_id": "DLR5L17N54372",
+   "texte_matchable": "Projet de loi relatif à la protection des enfants Protection des enfants CS Protection des enfants Nathalie Colin-Oesterlé",
+   "profils": [
+    "test-nomoslab"
+   ]
+  }
+ ]
+}

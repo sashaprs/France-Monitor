@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-07-30T11:51:21.623Z",
+  "updatedAt": "2026-07-30T14:00:50.561Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460887",
-      "titre": "audition, non ouverte à la presse, de Mme Virginie Rio, co-fondatrice du collectif BAMP !",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-27T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882950"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460888",
-      "titre": "audition, non ouverte à la presse, de Mme Priscilla Saracco, directrice générale de l'association ENDOmind.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-27T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882950"
-    },
     {
       "uid": "RUANR5L17S2026IDC460860",
       "titre": "table ronde :",

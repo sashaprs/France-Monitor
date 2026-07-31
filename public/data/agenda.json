@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-07-31T04:21:47.772Z",
+  "updatedAt": "2026-07-31T06:47:57.643Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460860",
-      "titre": "table ronde :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-07-28T06:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879195"
-    },
     {
       "uid": "RUANR5L17S2026IDC460890",
       "titre": "Mission du groupe d'amitié autorisée par le Bureau de l'Assemblée nationale",

@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-01T06:33:26.743Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N53727",
+   "type": "nouveau_dossier",
+   "date": "2026-08-01T06:33:26.743Z",
+   "titre": "Nouveau dossier : mission d'information sur les éco-organismes et les éco-contributions",
+   "detail": "Mission d'information",
+   "url": null,
+   "dossier_id": "DLR5L17N53727",
+   "texte_matchable": "mission d'information sur les éco-organismes et les éco-contributions Mission d'information",
+   "profils": []
+  }
+ ]
+}

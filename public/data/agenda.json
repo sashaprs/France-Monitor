@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-02T11:16:24.919Z",
+  "updatedAt": "2026-08-02T13:20:09.782Z",
   "reunions": [
+    {
+      "uid": "RUANR5L17S2026IDFL460926",
+      "titre": "Audition du collectif Urgence NAC sur le thème de la fraude massive dans la cession de lapins sur la plate-forme leboncoin.fr",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-08-06T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9e Bureau",
+      "organisateur": "PO854354"
+    },
     {
       "uid": "RUANR5L17S2026IDC460890",
       "titre": "Mission du groupe d'amitié autorisée par le Bureau de l'Assemblée nationale",

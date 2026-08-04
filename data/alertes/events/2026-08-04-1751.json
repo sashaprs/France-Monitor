@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-04T17:51:58.341Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54756",
+   "type": "nouveau_dossier",
+   "date": "2026-08-04T17:51:58.341Z",
+   "titre": "Nouveau dossier : Le coût de l’immigration",
+   "detail": "Résolution · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/le_cout_de_immigration",
+   "dossier_id": "DLR5L17N54756",
+   "texte_matchable": "Le coût de l’immigration Le coût de l’immigration Résolution Lois",
+   "profils": []
+  }
+ ]
+}

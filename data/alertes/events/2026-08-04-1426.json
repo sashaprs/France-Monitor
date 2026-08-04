@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-04T14:26:08.704Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N51732:promulgue",
+   "type": "changement_etape",
+   "date": "2026-08-04T14:26:08.704Z",
+   "titre": "Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel — promulgué",
+   "detail": "Statut : « en navette » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51732",
+   "dossier_id": "DLR5L17N51732",
+   "texte_matchable": "Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel Sport professionnel Affaires culturelles et éducation Lionel Duparay",
+   "profils": []
+  }
+ ]
+}

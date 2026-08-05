@@ -1,0 +1,60 @@
+{
+ "genere_le": "2026-08-05T17:49:04.286Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54761",
+   "type": "nouveau_dossier",
+   "date": "2026-08-05T17:49:04.286Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à adapter l'organisation du service public de l'éducation aux spécificités des territoires ruraux",
+   "detail": "Proposition de loi ordinaire · commission : Culture, éducation, communication et sport",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54761",
+   "dossier_id": "DLR5L17N54761",
+   "texte_matchable": "Proposition de loi visant à adapter l'organisation du service public de l'éducation aux spécificités des territoires ruraux Proposition de loi ordinaire Culture, éducation, communication et sport",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54760",
+   "type": "nouveau_dossier",
+   "date": "2026-08-05T17:49:04.286Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à transposer la directive européenne relative à l'amélioration des conditions de travail dans le cadre du travail via une plateforme",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54760",
+   "dossier_id": "DLR5L17N54760",
+   "texte_matchable": "Proposition de loi visant à transposer la directive européenne relative à l'amélioration des conditions de travail dans le cadre du travail via une plateforme Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54759",
+   "type": "nouveau_dossier",
+   "date": "2026-08-05T17:49:04.286Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à faciliter la création de licences IV dans les communes rurales de moins de 3 500 habitants",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54759",
+   "dossier_id": "DLR5L17N54759",
+   "texte_matchable": "Proposition de loi visant à faciliter la création de licences IV dans les communes rurales de moins de 3 500 habitants Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54758",
+   "type": "nouveau_dossier",
+   "date": "2026-08-05T17:49:04.286Z",
+   "titre": "Nouveau dossier : Proposition de loi constitutionnelle visant à permettre à loi de garantir la représentation des territoires dans la répartition des sièges au sein des groupeme…",
+   "detail": "Projet ou proposition de loi constitutionnelle · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54758",
+   "dossier_id": "DLR5L17N54758",
+   "texte_matchable": "Proposition de loi constitutionnelle visant à permettre à loi de garantir la représentation des territoires dans la répartition des sièges au sein des groupements de communes Projet ou proposition de loi constitutionnelle Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54757",
+   "type": "nouveau_dossier",
+   "date": "2026-08-05T17:49:04.286Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à renforcer la réponse judiciaire et éducative face à l'implication des mineurs dans le trafic de stupéfiants",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54757",
+   "dossier_id": "DLR5L17N54757",
+   "texte_matchable": "Proposition de loi visant à renforcer la réponse judiciaire et éducative face à l'implication des mineurs dans le trafic de stupéfiants Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  }
+ ]
+}

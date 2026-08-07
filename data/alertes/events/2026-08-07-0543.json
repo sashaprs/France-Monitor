@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-07T05:43:22.849Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54762",
+   "type": "nouveau_dossier",
+   "date": "2026-08-07T05:43:22.849Z",
+   "titre": "Nouveau dossier : Projet de loi autorisant l'approbation de l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs au cadr…",
+   "detail": "Projet de ratification des traités et conventions · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54762",
+   "dossier_id": "DLR5L17N54762",
+   "texte_matchable": "Projet de loi autorisant l'approbation de l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs au cadre de déclaration applicable aux crypto-actifs, et l'approbation de l'addendum à l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs aux comptes financiers Projet de ratification des traités et conventions Finances",
+   "profils": []
+  }
+ ]
+}

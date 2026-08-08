@@ -1,0 +1,49 @@
+{
+ "genere_le": "2026-08-08T05:01:01.047Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54764",
+   "type": "nouveau_dossier",
+   "date": "2026-08-08T05:01:01.047Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à simplifier l'ouverture des débits de boissons en zone rurale",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54764",
+   "dossier_id": "DLR5L17N54764",
+   "texte_matchable": "Proposition de loi visant à simplifier l'ouverture des débits de boissons en zone rurale Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54765",
+   "type": "nouveau_dossier",
+   "date": "2026-08-08T05:01:01.047Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à rendre facultative la lecture de certaines dispositions relatives à la parentalité lors de la célébration du mariage",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54765",
+   "dossier_id": "DLR5L17N54765",
+   "texte_matchable": "Proposition de loi visant à rendre facultative la lecture de certaines dispositions relatives à la parentalité lors de la célébration du mariage Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54766",
+   "type": "nouveau_dossier",
+   "date": "2026-08-08T05:01:01.047Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à recréer des lieux de socialisation dans les zones rurales",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54766",
+   "dossier_id": "DLR5L17N54766",
+   "texte_matchable": "Proposition de loi visant à recréer des lieux de socialisation dans les zones rurales Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54767",
+   "type": "nouveau_dossier",
+   "date": "2026-08-08T05:01:01.047Z",
+   "titre": "Nouveau dossier : Projet de loi autorisant la ratification de l'accord de protection des investissements entre l'Union européenne et ses États membres, d'une part, et la Républi…",
+   "detail": "Projet de ratification des traités et conventions · commission : Affaires étrangères, défense et forces armées",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54767",
+   "dossier_id": "DLR5L17N54767",
+   "texte_matchable": "Projet de loi autorisant la ratification de l'accord de protection des investissements entre l'Union européenne et ses États membres, d'une part, et la République socialiste du Vietnam, d'autre part Projet de ratification des traités et conventions Affaires étrangères, défense et forces armées",
+   "profils": []
+  }
+ ]
+}

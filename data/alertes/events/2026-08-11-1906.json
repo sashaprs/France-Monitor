@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-08-11T19:06:26.824Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54777",
+   "type": "nouveau_dossier",
+   "date": "2026-08-11T19:06:26.824Z",
+   "titre": "Nouveau dossier : Adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales",
+   "detail": "Projet ou proposition de loi organique · commission : CS Réponse intégrale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_autorite_judiciaire_lutte_contre_violences_sexuelles_intrafamiliales_17e",
+   "dossier_id": "DLR5L17N54777",
+   "texte_matchable": "Adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales Adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales Projet ou proposition de loi organique CS Réponse intégrale",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54776",
+   "type": "nouveau_dossier",
+   "date": "2026-08-11T19:06:26.824Z",
+   "titre": "Nouveau dossier : Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "detail": "Proposition de loi ordinaire · commission : CS Réponse intégrale",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/apporter_reponse_integrale_phenomene_violences_sexuelles_sexistes_contre_femmes_enfants_17e",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants Proposition de loi ordinaire CS Réponse intégrale",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54778",
+   "type": "nouveau_dossier",
+   "date": "2026-08-11T19:06:26.824Z",
+   "titre": "Nouveau dossier : Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l'Office natio…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54778",
+   "dossier_id": "DLR5L17N54778",
+   "texte_matchable": "Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l'Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d'administration de l'ONF Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  }
+ ]
+}

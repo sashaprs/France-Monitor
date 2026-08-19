@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-19T18:41:08.030Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N51670:promulgue",
+   "type": "changement_etape",
+   "date": "2026-08-19T18:41:08.030Z",
+   "titre": "Droit à l’aide à mourir — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/fin_de_vie_17e",
+   "dossier_id": "DLR5L17N51670",
+   "texte_matchable": "Fin de vie Droit à l’aide à mourir Affaires sociales Philippe Vigier",
+   "profils": []
+  }
+ ]
+}

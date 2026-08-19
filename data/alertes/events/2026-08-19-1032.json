@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-08-19T10:32:35.852Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54093:adopte",
+   "type": "changement_etape",
+   "date": "2026-08-19T10:32:35.852Z",
+   "titre": "Abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire — adopté",
+   "detail": "Statut : « en commission » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/abandonner_conditionnement_renouvellement_permis_conduire_visite_medicale_obligatoire",
+   "dossier_id": "DLR5L17N54093",
+   "texte_matchable": "Abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire Abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54380:adopte",
+   "type": "changement_etape",
+   "date": "2026-08-19T10:32:35.852Z",
+   "titre": "La maîtrise des usages et impacts des produits phytopharmaceutiques — adopté",
+   "detail": "Statut : « en commission » → « adopté »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/maitrise_usages_et_impacts_produits_phytopharmaceutiques",
+   "dossier_id": "DLR5L17N54380",
+   "texte_matchable": "La maîtrise des usages et impacts des produits phytopharmaceutiques La maîtrise des usages et impacts des produits phytopharmaceutiques Affaires économiques",
+   "profils": []
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-08-21T12:54:20.303Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54798",
+   "type": "nouveau_dossier",
+   "date": "2026-08-21T12:54:20.303Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à sécuriser le financement des dessertes ferroviaires d'aménagement du territoire",
+   "detail": "Proposition de loi ordinaire · commission : Finances",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54798",
+   "dossier_id": "DLR5L17N54798",
+   "texte_matchable": "Proposition de loi visant à sécuriser le financement des dessertes ferroviaires d'aménagement du territoire Proposition de loi ordinaire Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54797",
+   "type": "nouveau_dossier",
+   "date": "2026-08-21T12:54:20.303Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à renforcer la résilience des territoires forestiers et de leurs infrastructures face aux risques climatiques",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54797",
+   "dossier_id": "DLR5L17N54797",
+   "texte_matchable": "Proposition de loi visant à renforcer la résilience des territoires forestiers et de leurs infrastructures face aux risques climatiques Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54796",
+   "type": "nouveau_dossier",
+   "date": "2026-08-21T12:54:20.303Z",
+   "titre": "Nouveau dossier : Proposition de loi tendant à modifier la loi n° 94-665 du 4 août 1994 relative à l'emploi de la langue française, dite « loi Toubon »",
+   "detail": "Proposition de loi ordinaire · commission : Culture, éducation, communication et sport",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54796",
+   "dossier_id": "DLR5L17N54796",
+   "texte_matchable": "Proposition de loi tendant à modifier la loi n° 94-665 du 4 août 1994 relative à l'emploi de la langue française, dite « loi Toubon » Proposition de loi ordinaire Culture, éducation, communication et sport",
+   "profils": []
+  }
+ ]
+}

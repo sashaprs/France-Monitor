@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-25T10:37:47.601Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N53187:promulgue",
+   "type": "changement_etape",
+   "date": "2026-08-25T10:37:47.601Z",
+   "titre": "Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/proteger_mineurs_reseaux_sociaux_17e",
+   "dossier_id": "DLR5L17N53187",
+   "texte_matchable": "Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux Protéger les mineurs des risques auxquels les expose l’utilisation des réseaux sociaux Affaires culturelles et éducation Laure Miller",
+   "profils": []
+  }
+ ]
+}

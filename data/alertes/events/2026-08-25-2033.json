@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-08-25T20:33:15.284Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54818",
+   "type": "nouveau_dossier",
+   "date": "2026-08-25T20:33:15.284Z",
+   "titre": "Nouveau dossier : Création du délit de complicité et recel d’ingérence étrangère",
+   "detail": "Proposition de loi ordinaire · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/delit_complicite_recel_ingerence_17e",
+   "dossier_id": "DLR5L17N54818",
+   "texte_matchable": "Création du délit de complicité et recel d’ingérence étrangère Création du délit de complicité et recel d’ingérence étrangère Proposition de loi ordinaire Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54816",
+   "type": "nouveau_dossier",
+   "date": "2026-08-25T20:33:15.284Z",
+   "titre": "Nouveau dossier : Garantir un juste équilibre entre contrôle, sanctions et accompagnement dans l'assainissement non-collectif",
+   "detail": "Proposition de loi ordinaire · commission : Développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/equilibre_controle_sanctions_assainissement_17e",
+   "dossier_id": "DLR5L17N54816",
+   "texte_matchable": "Garantir un juste équilibre entre contrôle, sanctions et accompagnement dans l'assainissement non-collectif Garantir un juste équilibre entre contrôle, sanctions et accompagnement dans l'assainissement non-collectif Proposition de loi ordinaire Développement durable",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54817",
+   "type": "nouveau_dossier",
+   "date": "2026-08-25T20:33:15.284Z",
+   "titre": "Nouveau dossier : Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/renforcer_responsabilite_occupants_bailleurs_logement_social_17e",
+   "dossier_id": "DLR5L17N54817",
+   "texte_matchable": "Renforcer la responsabilité des occupants et des bailleurs dans le logement social Renforcer la responsabilité des occupants et des bailleurs dans le logement social Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  }
+ ]
+}

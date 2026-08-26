@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-08-26T16:49:54.287Z",
+  "updatedAt": "2026-08-26T19:01:46.364Z",
   "reunions": [
+    {
+      "uid": "RUANR5L17S2026IDC460966",
+      "titre": "audition de M. Olivier Chanel, directeur de recherche au CNRS-AMSE.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-26T12:30:00.000Z",
+      "dateFin": "2026-08-26T13:30:00.000Z",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460967",
+      "titre": "audition de M. David Pincet, fondateur associé de Hynaero.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-26T13:30:00.000Z",
+      "dateFin": "2026-08-26T14:30:00.000Z",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460968",
+      "titre": "audition de M. Vincent Viguié, directeur adjoint du CIRED (Centre internationale de recherche sur l’environnement et le développement).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-26T14:30:00.000Z",
+      "dateFin": "2026-08-26T15:30:00.000Z",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460969",
+      "titre": "audition de Mme Virginie Schwarz, présidente-directrice générale de Météo France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-27T07:30:00.000Z",
+      "dateFin": "2026-08-27T08:30:00.000Z",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
     {
       "uid": "RUANR5L17S2026IDC460890",
       "titre": "Mission du groupe d'amitié autorisée par le Bureau de l'Assemblée nationale",
@@ -126,6 +162,15 @@
       "dateFin": "2026-09-17T10:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460946",
+      "titre": "Déjeuner en l'honneur de Mme Pamela Mamani, Chargée d’affaires pour l’Ambassade de Bolivie en France",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T10:30:00.000Z",
+      "dateFin": "2026-09-21T12:00:00.000Z",
+      "lieu": "Petit-Hôtel",
+      "organisateur": "PO851759"
     },
     {
       "uid": "RUANR5L17S2026IDC460830",

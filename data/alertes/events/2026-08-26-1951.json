@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-08-26T19:51:38.173Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54819",
+   "type": "nouveau_dossier",
+   "date": "2026-08-26T19:51:38.173Z",
+   "titre": "Nouveau dossier : Proposition de loi simplifiant l'ouverture des débits de boissons en zone rurale",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54819",
+   "dossier_id": "DLR5L17N54819",
+   "texte_matchable": "Proposition de loi simplifiant l'ouverture des débits de boissons en zone rurale Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  }
+ ]
+}

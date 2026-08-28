@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-08-28T00:48:18.462Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54823",
+   "type": "nouveau_dossier",
+   "date": "2026-08-28T00:48:18.462Z",
+   "titre": "Nouveau dossier : Les failles de cybersécurité ayant permis des accès, fuites et extractions illégitimes des données confiées par les Français à l’État et aux organismes publics…",
+   "detail": "Résolution · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/failles_cybersecurite_acces_fuites_extractions_illegitimes_donnees_Francais_Etat_organismes_publics_commission_enquete",
+   "dossier_id": "DLR5L17N54823",
+   "texte_matchable": "Les failles de cybersécurité ayant permis des accès, fuites et extractions illégitimes des données confiées par les Français à l’État et aux organismes publics, afin d’en identifier les causes, les conséquences et les responsabilités en matière de sécurité des systèmes d’information Les failles de cybersécurité ayant permis des accès, fuites et extractions illégitimes des données confiées par les Français à l’État et aux organismes publics Résolution Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54822",
+   "type": "nouveau_dossier",
+   "date": "2026-08-28T00:48:18.462Z",
+   "titre": "Nouveau dossier : Solidarité de la France avec le peuple togolais et invitation à l’arrêt de tout soutien au régime de Faure Gnassingbé",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/solidarite_France_peuple_togolais_invitation_arret_soutien_regime_Faure_Gnassingbe",
+   "dossier_id": "DLR5L17N54822",
+   "texte_matchable": "Solidarité de la France avec le peuple togolais et invitation à l’arrêt de tout soutien au régime de Faure Gnassingbé Solidarité de la France avec le peuple togolais et invitation à l’arrêt de tout soutien au régime de Faure Gnassingbé Résolution Article 34-1",
+   "profils": []
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T16:26:28.355Z",
+  "updatedAt": "2026-08-28T23:25:49.544Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460966",
@@ -38,6 +38,33 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC460973",
+      "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité et de M. Sofien Abdallah, conseiller parlementaire et relations institutionnelles de la Direction générale du Trésor ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-28T09:00:00.000Z",
+      "dateFin": "2026-08-28T10:30:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460970",
+      "titre": "audition de M. Olivier Thibault, directeur général, de Mme Bénédicte Augeard, directrice de la recherche et de l’appui scientifique et de M. François Gauthiez, directeur de l'appui aux stratégies pour la biodiversité de l'Office français de la biodiversité.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-01T12:00:00.000Z",
+      "dateFin": "2026-09-01T13:00:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460971",
+      "titre": "audition du lieutenant-colonel Nicolas Galand, secrétaire général et M. Fabien Matras, ancien député et conseiller aux relations institutionnelles de la Fédération nationale des sapeurs-pompiers – FNSPF.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-01T14:30:00.000Z",
+      "dateFin": "2026-09-01T15:30:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460890",
       "titre": "Mission du groupe d'amitié autorisée par le Bureau de l'Assemblée nationale",
       "type": "reunionCommission_type",
@@ -54,6 +81,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460972",
+      "titre": "audition de M. Albert Maillet, conseiller de la direction générale et M. François Bland, délégué national aux risques naturels de l'Office national des forêts – ONF.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-02T07:30:00.000Z",
+      "dateFin": "2026-09-02T08:30:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
     },
     {
       "uid": "RUANR5L17S2026IDC460907",
@@ -81,6 +117,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460974",
+      "titre": "audition de M. Fabien Menant, directeur des affaires publiques France, du Général Louis Pena, conseiller militaire - affaires publiques France, de Mme Anne Catrier, vice-présidente défense et sécurité - affaires publiques France, de M. Adrien Ricci, Airbus Helicopters - affaires publiques France, de M. Olivier Masseret, directeur des relations parlementaires et politiques - affaires publiques France et de M. Axel Nicolas, responsable - affaires parlementaires & soutien export de AIRBUS.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-02T13:15:00.000Z",
+      "dateFin": "2026-09-02T14:15:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
     },
     {
       "uid": "RUANR5L17S2026IDC460909",

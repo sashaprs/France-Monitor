@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-08-29T12:23:12.746Z",
+  "updatedAt": "2026-08-29T16:26:50.488Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460966",
-      "titre": "audition de M. Olivier Chanel, directeur de recherche au CNRS-AMSE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-26T12:30:00.000Z",
-      "dateFin": "2026-08-26T13:30:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460967",
-      "titre": "audition de M. David Pincet, fondateur associé de Hynaero.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-26T13:30:00.000Z",
-      "dateFin": "2026-08-26T14:30:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460968",
-      "titre": "audition de M. Vincent Viguié, directeur adjoint du CIRED (Centre internationale de recherche sur l’environnement et le développement).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-26T14:30:00.000Z",
-      "dateFin": "2026-08-26T15:30:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC460969",
       "titre": "audition de Mme Virginie Schwarz, présidente-directrice générale de Météo France.",

@@ -1,13 +1,49 @@
 {
-  "updatedAt": "2026-08-31T10:45:56.381Z",
+  "updatedAt": "2026-08-31T17:55:23.749Z",
   "reunions": [
+    {
+      "uid": "RUANR5L17S2026IDC460979",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-30T22:00:00.000Z",
+      "dateFin": "2026-08-31T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460977",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-30T22:00:00.000Z",
+      "dateFin": "2026-08-31T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460978",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-30T22:00:00.000Z",
+      "dateFin": "2026-08-31T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460976",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-08-30T22:00:00.000Z",
+      "dateFin": "2026-08-31T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
+    },
     {
       "uid": "RUANR5L17S2026IDC460970",
       "titre": "audition de M. Olivier Thibault, directeur général, de Mme Bénédicte Augeard, directrice de la recherche et de l’appui scientifique et de M. François Gauthiez, directeur de l'appui aux stratégies pour la biodiversité de l'Office français de la biodiversité.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-01T12:00:00.000Z",
       "dateFin": "2026-09-01T13:00:00.000Z",
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
     {
@@ -16,7 +52,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-01T14:30:00.000Z",
       "dateFin": "2026-09-01T15:30:00.000Z",
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
     {
@@ -43,6 +79,15 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T07:30:00.000Z",
       "dateFin": "2026-09-02T08:30:00.000Z",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460973",
+      "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité et de M. Sofien Abdallah, conseiller parlementaire et relations institutionnelles de la Direction générale du Trésor ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-02T09:00:00.000Z",
+      "dateFin": "2026-09-02T10:30:00.000Z",
       "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
@@ -93,12 +138,21 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460910",
-      "titre": "audition, ouverte à la presse, des représentants de l’Institut national de la statistique et des études économiques (INSEE) : M. Michel Duée, chef du département des ressources et des conditions de vie des ménages, et Mme Émilie Raynaud, cheffe de la division revenus des ménages.",
+      "titre": "audition, ouverte à la presse, des représentants de l’Institut national de la statistique et des études économiques (INSEE) : M. Michel Duée, chef du département des ressources et des conditions de vie des ménages, Mme Émilie Raynaud, cheffe de la division revenus des ménages, et Mme Marine Guillerm, cheffe de la division redistribution et politiques sociales.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-03T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460980",
+      "titre": "audition de M. Alexandre Taithe, Chercheur à la fondation de la recherche stratégique, pour la mission d’information « Voie du Nord et enjeux de défense ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-03T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880699"
     },
     {
       "uid": "RUANR5L17S2026IDC460911",
@@ -119,6 +173,15 @@
       "organisateur": "PO884839"
     },
     {
+      "uid": "RUANR5L17S2026IDC460982",
+      "titre": "réunion, conjointe avec la commission des affaires sociales, sur la communication de Mmes Gabrielle Cathala, Laure Miller, Sandrine Rousseau et Annie Vidal, rapporteures de la mission flash commune sur les suites à donner sur l’affaire Joël Le Scouarnec.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460912",
       "titre": "audition en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
@@ -135,6 +198,24 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460983",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T22:00:00.000Z",
+      "dateFin": "2026-09-09T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460981",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T22:00:00.000Z",
+      "dateFin": "2026-09-09T21:59:59.000Z",
+      "lieu": "Berlin (Allemagne)",
+      "organisateur": "PO58974"
     },
     {
       "uid": "RUANR5L17S2026IDC460808",
@@ -191,6 +272,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC460984",
+      "titre": "Participation de Mme Hélène Laporte et de Mme Constance Le Grip à la visite conjointe de la sous-commission sur la coopération transatlantique en matière de défense et de sécurité (DSCTC) et de la sous-commission sur la transition et le développement (ESCTD) de l’AP OTAN à Bucarest et Constanta (Roumanie) du 28 au 30 septembre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-27T22:00:00.000Z",
+      "dateFin": "2026-09-30T21:59:59.000Z",
+      "lieu": "Bucarest et Constanta (Roumanie)",
+      "organisateur": "PO58974"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460831",
       "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
       "type": "reunionCommission_type",
@@ -200,6 +290,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC460985",
+      "titre": "Participation de M. Charles Sitzenstuhl au 109e séminaire Rose-Roth de l’AP OTAN à Chisinau (Moldavie) du 6 au 7 octobre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-05T22:00:00.000Z",
+      "dateFin": "2026-10-07T21:59:59.000Z",
+      "lieu": "Chisinau (Moldavie)",
+      "organisateur": "PO58974"
+    },
+    {
       "uid": "RUANR5L17S2027IDFL460004",
       "titre": "Audition du collectif Urgence NAC sur le thème de la fraude massive dans la cession de lapins sur la plate-forme leboncoin.fr.",
       "type": "reunionInitParlementaire_type",
@@ -207,6 +306,24 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC460986",
+      "titre": "Participation de M. Julien Limongi à la visite conjointe de la sous-commission sur l’avenir de la sécurité et des capacités de défense (DSCFC) et de la commission sur la démocratie et la sécurité (CDS) de l’AP OTAN à Canberra et Sydney (Australie) du 12 au 16 octobre 2026",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-11T22:00:00.000Z",
+      "dateFin": "2026-10-16T21:59:59.000Z",
+      "lieu": "Canberra et Sydney (Australie)",
+      "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC460987",
+      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, et de Mme Michèle Tabarot au 1er séminaire du Conseil interparlementaire OTAN-Ukraine (UNIC) à Varsovie (Pologne) du 19 au 20 octobre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-18T22:00:00.000Z",
+      "dateFin": "2026-10-20T21:59:59.000Z",
+      "lieu": "Varsovie (Pologne)",
+      "organisateur": "PO58974"
     },
     {
       "uid": "RUANR5L17S2027IDFL459260",

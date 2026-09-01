@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T09:16:53.311Z",
+  "updatedAt": "2026-09-01T13:09:06.124Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460979",
@@ -79,7 +79,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T07:30:00.000Z",
       "dateFin": "2026-09-02T08:30:00.000Z",
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
     {
@@ -88,7 +88,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T09:00:00.000Z",
       "dateFin": "2026-09-02T10:30:00.000Z",
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
     {
@@ -124,7 +124,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T13:15:00.000Z",
       "dateFin": "2026-09-02T14:15:00.000Z",
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },
     {

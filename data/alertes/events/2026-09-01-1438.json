@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-09-01T14:38:14.664Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54836",
+   "type": "nouveau_dossier",
+   "date": "2026-09-01T14:38:14.664Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à garantir au jeune public la gratuité des piscines municipales pendant les périodes de chaleur intense",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54836",
+   "dossier_id": "DLR5L17N54836",
+   "texte_matchable": "Proposition de loi visant à garantir au jeune public la gratuité des piscines municipales pendant les périodes de chaleur intense Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  }
+ ]
+}

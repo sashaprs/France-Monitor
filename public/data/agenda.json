@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:37:48.729Z",
+  "updatedAt": "2026-09-01T17:38:22.822Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460979",
@@ -66,7 +66,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460906",
-      "titre": "audition, ouverte à la presse, du Collectif « Alerte » : MM. Olivier Noblecourt (président), Adrien de Casabianca (directeur communication plaidoyer et observatoire d’Emmaüs France), Mme Daphné Chamard-Teirlinck (responsable de la coordination des plaidoyers et programmes du Secours catholique – Caritas France), M. Adrien Rivière (chef de projet plaidoyer pour la fédération Coorace - Coordination des Associations d'Aide aux Chômeurs par l'Emploi), Mmes Jeanne Dietrich (conseillère technique hébergement Logement à l’Uniopss), Charline Barghane (chargée de l’accès à la prévention et à la santé pour tous et toutes à la FAS), Charlotte Penot (coordinatrice du collectif « Alerte »).",
+      "titre": "audition, ouverte à la presse, du Collectif « Alerte » : MM. Olivier Noblecourt (président), Adrien de Casabianca (directeur communication plaidoyer et observatoire d’Emmaüs France), Mme Daphné Chamard-Teirlinck (responsable de la coordination des plaidoyers et programmes du Secours catholique – Caritas France), M. Adrien Rivière (chef de projet plaidoyer pour la fédération Coorace - Coordination des Associations d'Aide aux Chômeurs par l'Emploi), Mmes Jeanne Dietrich (conseillère technique hébergement Logement à l’Uniopss), Charline Barghane (chargée de l’accès à la prévention et à la santé pour tous et toutes à la FAS), Sarah Chaumeil (chargée de mission Santé en alternance), et Charlotte Penot (coordinatrice du collectif « Alerte »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T07:00:00.000Z",
       "dateFin": null,
@@ -75,7 +75,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460972",
-      "titre": "audition de M. Albert Maillet, conseiller de la direction générale et M. François Bland, délégué national aux risques naturels de l'Office national des forêts – ONF.",
+      "titre": "audition de Mme Valérie Metrich-Hecquet directrice générale, de M. Albert Maillet, conseiller de la direction générale et de M. François Bland, délégué national aux risques naturels de l'Office national des forêts – ONF.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T07:30:00.000Z",
       "dateFin": "2026-09-02T08:30:00.000Z",
@@ -173,6 +173,15 @@
       "organisateur": "PO884839"
     },
     {
+      "uid": "RUANR5L17S2026IDC460988",
+      "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460982",
       "titre": "réunion, conjointe avec la commission des affaires sociales, sur la communication de Mmes Gabrielle Cathala, Laure Miller, Sandrine Rousseau et Annie Vidal, rapporteures de la mission flash commune sur les suites à donner sur l’affaire Joël Le Scouarnec.",
       "type": "reunionCommission_type",
@@ -189,6 +198,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460993",
+      "titre": "audition de l'Agence nationale de l’habitat (ANAH) avec M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet et M. Antonin Valière, responsable des relations institutionnelles.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T14:00:00.000Z",
+      "dateFin": "2026-09-08T15:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
     },
     {
       "uid": "RUANR5L17S2026IDC460913",
@@ -272,6 +290,24 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC460989",
+      "titre": "tables rondes sur les dispositifs médicaux gynécologiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460990",
+      "titre": "tables rondes sur les dispositifs médicaux gynécologiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460984",
       "titre": "Participation de Mme Hélène Laporte et de Mme Constance Le Grip à la visite conjointe de la sous-commission sur la coopération transatlantique en matière de défense et de sécurité (DSCTC) et de la sous-commission sur la transition et le développement (ESCTD) de l’AP OTAN à Bucarest et Constanta (Roumanie) du 28 au 30 septembre 2026.",
       "type": "reunionCommission_type",
@@ -288,6 +324,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC460991",
+      "titre": "élection des membres du bureau de la commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC460985",

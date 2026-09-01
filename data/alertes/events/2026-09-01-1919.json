@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-09-01T19:19:21.810Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54837",
+   "type": "nouveau_dossier",
+   "date": "2026-09-01T19:19:21.810Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à réduire le temps de travail hebdomadaire à 32 heures en 4 jours",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54837",
+   "dossier_id": "DLR5L17N54837",
+   "texte_matchable": "Proposition de loi visant à réduire le temps de travail hebdomadaire à 32 heures en 4 jours Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54838",
+   "type": "nouveau_dossier",
+   "date": "2026-09-01T19:19:21.810Z",
+   "titre": "Nouveau dossier : Proposition de loi portant diverses dispositions pour les communes insulaires métropolitaines sans lien permanent avec le continent",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54838",
+   "dossier_id": "DLR5L17N54838",
+   "texte_matchable": "Proposition de loi portant diverses dispositions pour les communes insulaires métropolitaines sans lien permanent avec le continent Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "odj:65232d04c33ada97",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-01T19:19:21.810Z",
+   "titre": "À l'ordre du jour — Affaires sociales : Protéger la santé mentale des agricultrices et des agriculteurs",
+   "detail": "mardi 8 septembre à 11:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N53053",
+   "texte_matchable": "Examen du texte Affaires sociales Protéger la santé mentale des agricultrices et des agriculteurs",
+   "profils": []
+  }
+ ]
+}

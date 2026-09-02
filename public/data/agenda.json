@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-09-02T20:34:33.375Z",
+  "updatedAt": "2026-09-02T22:27:38.670Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460979",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-30T22:00:00.000Z",
-      "dateFin": "2026-08-31T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460977",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-30T22:00:00.000Z",
-      "dateFin": "2026-08-31T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460978",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-30T22:00:00.000Z",
-      "dateFin": "2026-08-31T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460976",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-08-30T22:00:00.000Z",
-      "dateFin": "2026-08-31T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
     {
       "uid": "RUANR5L17S2026IDC460970",
       "titre": "audition de M. Olivier Thibault, directeur général, de Mme Bénédicte Augeard, directrice de la recherche et de l’appui scientifique et de M. François Gauthiez, directeur de l'appui aux stratégies pour la biodiversité de l'Office français de la biodiversité.",

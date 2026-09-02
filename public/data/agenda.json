@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T14:11:35.300Z",
+  "updatedAt": "2026-09-02T17:38:12.093Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460979",
@@ -70,7 +70,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T07:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460973",
-      "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité et de M. Sofien Abdallah, conseiller parlementaire et relations institutionnelles de la Direction générale du Trésor ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",
+      "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité, M. Stéphane Sorbe, chef du service des finances publiques et des politiques sociales (SSOFIA), et M. Guillaume Cléaud, sous-directeur diagnostique et prévision (PREV) au service des politiques macroéconomiques et des affaires européennes (SPMAE) de la Direction générale du Trésor, ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T09:00:00.000Z",
       "dateFin": "2026-09-02T10:30:00.000Z",
@@ -97,7 +97,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T09:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -106,7 +106,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T12:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -133,7 +133,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T14:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -142,7 +142,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-03T07:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -160,8 +160,17 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-03T08:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461001",
+      "titre": "PGL Company, distributeur de la boisson Vody en Guadeloupe – MM. Clément Alexis et Andy Vanoukia, gérants associés",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-03T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879195"
     },
     {
       "uid": "RUANR5L17S2026IDC460915",
@@ -200,6 +209,15 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC460994",
+      "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet, et M. Antonin Valière, responsable des relations institutionnelles de l'Agence nationale de l'habitat (ANAH)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T14:00:00.000Z",
+      "dateFin": "2026-09-08T15:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460993",
       "titre": "audition de l'Agence nationale de l’habitat (ANAH) avec M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet et M. Antonin Valière, responsable des relations institutionnelles.",
       "type": "reunionCommission_type",
@@ -236,6 +254,60 @@
       "organisateur": "PO58974"
     },
     {
+      "uid": "RUANR5L17S2026IDC460995",
+      "titre": "audition de l'Union sociale pour l'habitat, avec Mme Marianne Louis, directrice générale, M. Antoine Galewski, directeur des relations institutionnelles et parlementaires, et M. Nicolas Prudhomme, directeur de la maîtrise d’ouvrage et des politiques patrimoniales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T08:30:00.000Z",
+      "dateFin": "2026-09-09T09:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460996",
+      "titre": "table ronde avec pour la Caisse nationale de l'assurance maladie (CNAM) M. Damien Vergé, directeur de la stratégie, des études et des statistiques et Mme Veronika Levendof, responsable des relations avec le parlement, pour la Caisse nationale de solidarité pour l'autonomie (CNSA), M. Maëlig Le Bayon, directeur général, et Mme Anne-Marie Ho Dinh, conseillère technique, Santé publique France, et pour la Direction de la recherche, des études, de l'évaluation et des statistiques (DREES), M. Thomas Wanecq, directeur de la recherche, des études, de l’évaluation et des statistiques, et M. Benoit Ourliac, sous-directeur de l’observation de la santé et de l'assurance maladie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T09:30:00.000Z",
+      "dateFin": "2026-09-09T10:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460997",
+      "titre": "audition de  la Fédération bancaire française, avec Mme Maya Atig, directrice générale, et M. Jérôme Pardigon, directeur du département relations institutionnelles.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T13:30:00.000Z",
+      "dateFin": "2026-09-09T14:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460998",
+      "titre": "audition du Ministère de la transition écologique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-10T11:30:00.000Z",
+      "dateFin": "2026-09-10T12:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461000",
+      "titre": "audition de la Confédération paysanne, avec M. Stéphane Galais, porte-parole national, Mme Emilie Deligny, secrétaire générale, Mme Aurélie Bouton, animatrice technique, et Mme Juliette Sainclair, animatrice technique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-10T12:30:00.000Z",
+      "dateFin": "2026-09-10T13:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460999",
+      "titre": "audition de Mme Annabelle Vêques, directrice de la Fédération nationale des associations de directeurs d'établissements et services pour personnes âgées (FNADEPA).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-10T13:30:00.000Z",
+      "dateFin": "2026-09-10T14:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460808",
       "titre": "audition du Général de corps d’armée Bruno Baratz au Commandement du combat futur (CCF) de l'Armée de Terre.",
       "type": "reunionCommission_type",
@@ -246,7 +318,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460779",
-      "titre": "Audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : le vice-amiral Jean-Marc Durandau, directeur, et l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
+      "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T12:30:00.000Z",
       "dateFin": "2026-09-16T14:00:00.000Z",

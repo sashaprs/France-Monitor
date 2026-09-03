@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:10:28.837Z",
+  "updatedAt": "2026-09-03T19:11:30.398Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460970",
@@ -165,11 +165,11 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460912",
-      "titre": "audition en visioconférence, ouverte à la presse, de :",
+      "titre": "audition, en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-08T12:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460913",
-      "titre": "audition en visioconférence, ouverte à la presse, de :",
+      "titre": "audition, en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-08T14:00:00.000Z",
       "dateFin": null,
@@ -272,6 +272,42 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC461003",
+      "titre": "audition en visioconférence, ouverte à la presse, de Mme Isabel Madrid, vice-présidente de l’Union nationale des centres communaux d’action sociale (UNCCAS), ancienne adjointe au maire de Talence, présidente du réseau Monalisa Gironde",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461004",
+      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abris",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461005",
+      "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461006",
+      "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, Ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460808",
       "titre": "audition du Général de corps d’armée Bruno Baratz au Commandement du combat futur (CCF) de l'Armée de Terre.",
       "type": "reunionCommission_type",
@@ -281,6 +317,24 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2026IDC461007",
+      "titre": "- audition, ouverte à la presse, des représentants du conseil national des politiques de lutte contre la pauvreté et l’exclusion sociale (CNLE) : M. Nicolas Duvoux (président, sociologue à l’Université Paris VIII et à l’Université de Genève),\rMme Muriel Pucci (présidente du comité scientifique, économiste à l’Université Paris 1), M. Alain Villez (membre du Collège des associations - Petits Frères des Pauvres), Mme Fatouma Diop et M. Ali Tamraoui (membres du 5ème collège)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461008",
+      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : M. Jean-Benoît Dujol, directeur général",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460779",
       "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
       "type": "reunionCommission_type",
@@ -288,6 +342,15 @@
       "dateFin": "2026-09-16T14:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461009",
+      "titre": "audition, ouverte à la presse, des représentants de la Commission nationale consultative des droits de l’homme (CNCDH) : Mmes Maryvonne Lyazid, rapporteure de l’avis de la CNCDH sur l’effectivité des droits des personnes âgées (2025) et membre de la CNCDH au titre des personnalités qualifiées, Camille Tauveron-Lahouze, conseillère",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC460778",

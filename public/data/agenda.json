@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T14:14:43.406Z",
+  "updatedAt": "2026-09-03T16:10:28.837Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460970",
@@ -32,8 +32,8 @@
       "uid": "RUANR5L17S2026IDC460906",
       "titre": "audition, ouverte à la presse, du Collectif « Alerte » : MM. Olivier Noblecourt (président), Adrien de Casabianca (directeur communication plaidoyer et observatoire d’Emmaüs France), Mme Daphné Chamard-Teirlinck (responsable de la coordination des plaidoyers et programmes du Secours catholique – Caritas France), M. Adrien Rivière (chef de projet plaidoyer pour la fédération Coorace - Coordination des Associations d'Aide aux Chômeurs par l'Emploi), Mmes Jeanne Dietrich (conseillère technique hébergement Logement à l’Uniopss), Charline Barghane (chargée de l’accès à la prévention et à la santé pour tous et toutes à la FAS), Sarah Chaumeil (chargée de mission Santé en alternance), et Charlotte Penot (coordinatrice du collectif « Alerte »).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T07:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-02T07:05:00.000Z",
+      "dateFin": "2026-09-02T08:55:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -59,8 +59,8 @@
       "uid": "RUANR5L17S2026IDC460907",
       "titre": "audition en visioconférence, ouverte à la presse, de représentants de la Croix-Rouge française : M. Daniel Deville (administrateur national, président du comité « Parcours d’accompagnement des publics »), Mmes Virginia Billon (directrice par intérim de la filière personnes âgées et à domicile), Anne Baudrillard (cheffe de projet personnes âgées), et Myriam Lahrour-Ba (responsable du département accueil, lien social, orientation et leviers vers l'insertion).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-02T09:05:00.000Z",
+      "dateFin": "2026-09-02T10:45:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -68,8 +68,8 @@
       "uid": "RUANR5L17S2026IDC460908",
       "titre": "audition en visioconférence, ouverte à la presse, de M. Serge Paugam, sociologue, directeur de recherche au CNRS, directeur d’études à l’École des hautes études en sciences sociales (EHESS), professeur de sociologie à l’Université de São Paulo.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T12:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-02T12:35:00.000Z",
+      "dateFin": "2026-09-02T14:10:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -96,16 +96,7 @@
       "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) – service statistique du ministère des solidarités et de la santé : M. Thomas Wanecq, directeur, et Mme Julie Labarthe, sous-directrice de l’observation de la solidarité.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-02T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460910",
-      "titre": "audition, ouverte à la presse, des représentants de l’Institut national de la statistique et des études économiques (INSEE) : M. Michel Duée, chef du département des ressources et des conditions de vie des ménages, Mme Émilie Raynaud, cheffe de la division revenus des ménages, et Mme Marine Guillerm, cheffe de la division redistribution et politiques sociales.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-03T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-02T15:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -119,11 +110,20 @@
       "organisateur": "PO880699"
     },
     {
+      "uid": "RUANR5L17S2026IDC460910",
+      "titre": "audition, ouverte à la presse, des représentants de l’Institut national de la statistique et des études économiques (INSEE) : M. Michel Duée, chef du département des ressources et des conditions de vie des ménages, Mme Émilie Raynaud, cheffe de la division revenus des ménages, et Mme Marine Guillerm, cheffe de la division redistribution et politiques sociales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-03T07:05:00.000Z",
+      "dateFin": "2026-09-03T08:20:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460911",
       "titre": "audition, ouverte à la presse, des représentants de la Fondation pour le Logement des Défavorisés : M. Manuel Domergue, directeur des études, et Mme Sarah Coupechoux, responsable Europe.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-03T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-03T09:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -387,6 +387,15 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461002",
+      "titre": "audition du Délégué Général, du Président de la commission PME et du Président de la commission recherche technologie et innovation du GICAT.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": "2026-10-06T16:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2027IDC460986",

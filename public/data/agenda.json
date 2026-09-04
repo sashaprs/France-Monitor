@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T14:49:14.552Z",
+  "updatedAt": "2026-09-04T18:08:33.542Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460890",
@@ -119,6 +119,15 @@
       "organisateur": "PO879195"
     },
     {
+      "uid": "RUANR5L17S2026IDC461017",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-04T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460915",
       "titre": "nomination du Bureau ;",
       "type": "reunionCommission_type",
@@ -146,6 +155,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2026IDC461028",
+      "titre": "- audition conjointe : \r\rFoodwatch France\rM. Camille Dorioz, directeur des campagnes\rMme Audrey Morice, chargée de campagne\rMme Léa Redon, chargée de campagne\r\rRéseau Action Climat\rM. Benoît Granier, responsable des thématiques « alimentation » et « santé ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T11:00:00.000Z",
+      "dateFin": "2026-09-08T12:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884024"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460912",
       "titre": "audition, en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
@@ -171,6 +189,15 @@
       "dateFin": "2026-09-08T15:00:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461029",
+      "titre": "audition commune sur l’enjeu du plastique et des emballages :\r\r- Mme Jane Muncke, directrice générale et directrice scientifique du Food Packaging Forum, fondation à but non lucratif basée à Zurich ;\r- M. Joe Yates, chercheur à la London School of Hygiene & Tropical Medicine. Il codirige l’académie Agriculture, Nutrition & Health (ANH), un réseau international de chercheurs sur les systèmes alimentaires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T14:00:00.000Z",
+      "dateFin": "2026-09-08T15:15:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884024"
     },
     {
       "uid": "RUANR5L17S2026IDC460993",
@@ -335,6 +362,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2026IDC460832",
+      "titre": "nomination d’un rapporteur en vue de l’examen, en application de l'article 148 du Règlement, de la pétition n° 5174 (« Facturation électronique obligatoire, c’est non ! ») ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461007",
       "titre": "- audition, ouverte à la presse, des représentants du conseil national des politiques de lutte contre la pauvreté et l’exclusion sociale (CNLE) : M. Nicolas Duvoux (président, sociologue à l’Université Paris VIII et à l’Université de Genève),\rMme Muriel Pucci (présidente du comité scientifique, économiste à l’Université Paris 1), M. Alain Villez (membre du Collège des associations - Petits Frères des Pauvres), Mme Fatouma Diop et M. Ali Tamraoui (membres du 5ème collège)",
       "type": "reunionCommission_type",
@@ -353,6 +389,15 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC460833",
+      "titre": "table ronde sur la situation et les perspectives économiques des équipementiers automobiles en France, réunissant :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460779",
       "titre": "audition des représentants du Centre interarmées de concepts, de doctrines et d'expérimentations : l'ingénieur général des études et techniques de l'armement Jacques Sueur, directeur adjoint.",
       "type": "reunionCommission_type",
@@ -360,6 +405,24 @@
       "dateFin": "2026-09-16T14:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460835",
+      "titre": "audition de M. Vincent Jeanbrun, ministre de la Ville et du Logement, sur le projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461015",
+      "titre": "audition de Mme Annie Genevard, ministre de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2026IDC461009",
@@ -389,6 +452,42 @@
       "organisateur": "PO851759"
     },
     {
+      "uid": "RUANR5L17S2026IDC461016",
+      "titre": "examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461018",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461019",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461020",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460830",
       "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
       "type": "reunionCommission_type",
@@ -405,6 +504,24 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461021",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461022",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2026IDC460989",
@@ -425,6 +542,33 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC461023",
+      "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461024",
+      "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461025",
+      "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460984",
       "titre": "Participation de Mme Hélène Laporte et de Mme Constance Le Grip à la visite conjointe de la sous-commission sur la coopération transatlantique en matière de défense et de sécurité (DSCTC) et de la sous-commission sur la transition et le développement (ESCTD) de l’AP OTAN à Bucarest et Constanta (Roumanie) du 28 au 30 septembre 2026.",
       "type": "reunionCommission_type",
@@ -441,6 +585,24 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461026",
+      "titre": "– audition de Mme Emmanuelle Wargon, présidente de la Commission de régulation de l’énergie (CRE).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461027",
+      "titre": "– audition de M. Octave Klaba, président directeur général d’OVHcloud.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC460991",

@@ -1,0 +1,148 @@
+{
+ "genere_le": "2026-09-04T18:54:57.304Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54840",
+   "type": "nouveau_dossier",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "Nouveau dossier : Garantir le pluralisme et la liberté du parrainage à l’élection présidentielle",
+   "detail": "Projet ou proposition de loi organique · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/garantir_pluralisme_liberte_parrainage_election_presidentielle_17e",
+   "dossier_id": "DLR5L17N54840",
+   "texte_matchable": "Garantir le pluralisme et la liberté du parrainage à l’élection présidentielle Garantir le pluralisme et la liberté du parrainage à l’élection présidentielle Projet ou proposition de loi organique Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54839",
+   "type": "nouveau_dossier",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à garantir la juste compensation des dépenses engagées par les communes pour l'organisation des scrutins",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54839",
+   "dossier_id": "DLR5L17N54839",
+   "texte_matchable": "Proposition de loi visant à garantir la juste compensation des dépenses engagées par les communes pour l'organisation des scrutins Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "odj:1071ab74166c309f",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "vendredi 4 septembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:7dbe1ef4fbdb691d",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mercredi 16 septembre à 15:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:1560296d73fd9f8e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "lundi 21 septembre à 16:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:acd5d0435ad46203",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "lundi 21 septembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:91c683d39dcf8257",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mardi 22 septembre à 15:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:7c0b850db9dc33a3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mardi 22 septembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:d195363af8db0c8b",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mercredi 23 septembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:229a58e7bd2c206e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mercredi 23 septembre à 14:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:73e0f9fb7ccbbe3a",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "mercredi 23 septembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:2fbd78dc30773a90",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "jeudi 24 septembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:9d2c98df38457365",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-04T18:54:57.304Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "jeudi 24 septembre à 14:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  }
+ ]
+}

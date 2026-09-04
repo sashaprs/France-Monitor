@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T22:13:30.187Z",
+  "updatedAt": "2026-09-04T23:45:17.097Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460906",
@@ -236,6 +236,15 @@
       "organisateur": "PO880730"
     },
     {
+      "uid": "RUANR5L17S2026IDC461030",
+      "titre": "Commission européenne : représentants des directions générales de l’environnement, de la santé et de l’agriculture.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T07:30:00.000Z",
+      "dateFin": "2026-09-09T08:45:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884024"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460995",
       "titre": "audition de l'Union sociale pour l'habitat, avec Mme Marianne Louis, directrice générale, M. Antoine Galewski, directeur des relations institutionnelles et parlementaires, et M. Nicolas Prudhomme, directeur de la maîtrise d’ouvrage et des politiques patrimoniales.",
       "type": "reunionCommission_type",
@@ -243,6 +252,15 @@
       "dateFin": "2026-09-09T09:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461031",
+      "titre": "- audition commune de chercheurs australiens :\rM. Philip Baker ;\rMme Kim Anastasiou.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T09:00:00.000Z",
+      "dateFin": "2026-09-09T10:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884024"
     },
     {
       "uid": "RUANR5L17S2026IDC460996",

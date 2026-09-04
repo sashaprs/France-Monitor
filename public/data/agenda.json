@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:24:36.214Z",
+  "updatedAt": "2026-09-04T00:49:00.802Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460970",
@@ -441,6 +441,15 @@
       "dateFin": "2026-10-07T21:59:59.000Z",
       "lieu": "Chisinau (Moldavie)",
       "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2027IDFL461010",
+      "titre": "Audition de MM. Robert Le Bourgeois, député, Teddy Seneca, circassien, William Kerwich, président du syndicat des capacités et propriétaires d’animaux de spectacle et Olivier Le Mailloux, avocat, sur le thème des conséquences sur les circassiens de la loi n° 2021-1539 du 30 novembre 2021 visant à lutter contre la maltraitance animale et conforter le lien entre les animaux et les hommes.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-10-06T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9e Bureau",
+      "organisateur": "PO854354"
     },
     {
       "uid": "RUANR5L17S2027IDFL460004",

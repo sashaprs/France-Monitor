@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-04T10:43:16.454Z",
+  "updatedAt": "2026-09-04T14:05:10.355Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460970",
-      "titre": "audition de M. Olivier Thibault, directeur général, de Mme Bénédicte Augeard, directrice de la recherche et de l’appui scientifique et de M. François Gauthiez, directeur de l'appui aux stratégies pour la biodiversité de l'Office français de la biodiversité.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-01T12:00:00.000Z",
-      "dateFin": "2026-09-01T13:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC460971",
       "titre": "audition du lieutenant-colonel Nicolas Galand, secrétaire général et M. Fabien Matras, ancien député et conseiller aux relations institutionnelles de la Fédération nationale des sapeurs-pompiers – FNSPF.",
@@ -173,6 +164,15 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2026IDC461012",
+      "titre": "audition du Chef de la division cohérence capacitaire de l'Etat-major des armées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T13:00:00.000Z",
+      "dateFin": "2026-09-08T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460994",
       "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet, et M. Antonin Valière, responsable des relations institutionnelles de l'Agence nationale de l'habitat (ANAH)",
       "type": "reunionCommission_type",
@@ -196,7 +196,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-08T14:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
     {
@@ -218,6 +218,15 @@
       "organisateur": "PO58974"
     },
     {
+      "uid": "RUANR5L17S2026IDC461011",
+      "titre": "audition du Colonel Brice Erbland, chef de corps du 1er régiment d’hélicoptères de combat.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T07:00:00.000Z",
+      "dateFin": "2026-09-09T08:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460995",
       "titre": "audition de l'Union sociale pour l'habitat, avec Mme Marianne Louis, directrice générale, M. Antoine Galewski, directeur des relations institutionnelles et parlementaires, et M. Nicolas Prudhomme, directeur de la maîtrise d’ouvrage et des politiques patrimoniales.",
       "type": "reunionCommission_type",
@@ -236,6 +245,15 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC461013",
+      "titre": "audition de M. Arnaud de Péchy, Président / CEO de RENK France et Mme Agnès Marvalin-Longuet, Directrice des Ventes et des Programmes de RENK France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T13:00:00.000Z",
+      "dateFin": "2026-09-09T14:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460997",
       "titre": "audition de  la Fédération bancaire française, avec Mme Maya Atig, directrice générale, et M. Jérôme Pardigon, directeur du département relations institutionnelles.",
       "type": "reunionCommission_type",
@@ -243,6 +261,15 @@
       "dateFin": "2026-09-09T14:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461014",
+      "titre": "table ronde de start-ups et de PME : Shark Robotics, SOFRAME et TNS Mars.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-09T14:30:00.000Z",
+      "dateFin": "2026-09-09T16:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2026IDC460998",

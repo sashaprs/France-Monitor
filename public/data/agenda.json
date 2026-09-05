@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-05T12:25:40.524Z",
+  "updatedAt": "2026-09-05T13:18:31.054Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460908",
-      "titre": "audition en visioconférence, ouverte à la presse, de M. Serge Paugam, sociologue, directeur de recherche au CNRS, directeur d’études à l’École des hautes études en sciences sociales (EHESS), professeur de sociologie à l’Université de São Paulo.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T12:35:00.000Z",
-      "dateFin": "2026-09-02T14:10:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460914",
-      "titre": "nomination du Bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460974",
-      "titre": "audition de M. Fabien Menant, directeur des affaires publiques France, du Général Louis Pena, conseiller militaire - affaires publiques France, de Mme Anne Catrier, vice-présidente défense et sécurité - affaires publiques France, de M. Adrien Ricci, Airbus Helicopters - affaires publiques France, de M. Olivier Masseret, directeur des relations parlementaires et politiques - affaires publiques France et de M. Axel Nicolas, responsable - affaires parlementaires & soutien export de AIRBUS.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T13:15:00.000Z",
-      "dateFin": "2026-09-02T14:15:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC460909",
       "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) – service statistique du ministère des solidarités et de la santé : M. Thomas Wanecq, directeur, et Mme Julie Labarthe, sous-directrice de l’observation de la solidarité.",

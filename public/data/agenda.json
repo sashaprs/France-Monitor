@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T16:38:57.087Z",
+  "updatedAt": "2026-09-05T17:56:46.092Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460980",
@@ -54,6 +54,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461032",
+      "titre": "audition de l'Association pour l’emploi des cadres (Apec), représentée par Mme Laetitia Niaudeau, directrice générale adjointe.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO882110"
     },
     {
       "uid": "RUANR5L17S2026IDC460988",
@@ -225,6 +234,15 @@
       "dateFin": "2026-09-09T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880763"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461033",
+      "titre": "table ronde sur le « pilotage et financement de la formation », réunissant France compétences, représentée M. Stéphane Lardy, directeur général, et la Délégation générale à l’emploi et à la formation professionnelle (DGEFP).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-10T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6566 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO882110"
     },
     {
       "uid": "RUANR5L17S2026IDC460998",

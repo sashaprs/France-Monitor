@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-05T03:12:47.312Z",
+  "updatedAt": "2026-09-05T08:06:12.050Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460906",
-      "titre": "audition, ouverte à la presse, du Collectif « Alerte » : MM. Olivier Noblecourt (président), Adrien de Casabianca (directeur communication plaidoyer et observatoire d’Emmaüs France), Mme Daphné Chamard-Teirlinck (responsable de la coordination des plaidoyers et programmes du Secours catholique – Caritas France), M. Adrien Rivière (chef de projet plaidoyer pour la fédération Coorace - Coordination des Associations d'Aide aux Chômeurs par l'Emploi), Mmes Jeanne Dietrich (conseillère technique hébergement Logement à l’Uniopss), Charline Barghane (chargée de l’accès à la prévention et à la santé pour tous et toutes à la FAS), Sarah Chaumeil (chargée de mission Santé en alternance), et Charlotte Penot (coordinatrice du collectif « Alerte »).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T07:05:00.000Z",
-      "dateFin": "2026-09-02T08:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460972",
-      "titre": "audition de Mme Valérie Metrich-Hecquet directrice générale, de M. Albert Maillet, conseiller de la direction générale et de M. François Bland, délégué national aux risques naturels de l'Office national des forêts – ONF.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T07:30:00.000Z",
-      "dateFin": "2026-09-02T08:30:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC460973",
       "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité, M. Stéphane Sorbe, chef du service des finances publiques et des politiques sociales (SSOFIA), et M. Guillaume Cléaud, sous-directeur diagnostique et prévision (PREV) au service des politiques macroéconomiques et des affaires européennes (SPMAE) de la Direction générale du Trésor, ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",

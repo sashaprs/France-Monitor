@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-05T08:11:35.697Z",
+  "updatedAt": "2026-09-05T12:25:40.524Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460973",
-      "titre": "table ronde avec M. Benjamin Delozier, chef du service des politiques écologiques et sectorielles, M. Mathieu Valdenaire, chef du bureau environnement, adaptation biodiversité, M. Stéphane Sorbe, chef du service des finances publiques et des politiques sociales (SSOFIA), et M. Guillaume Cléaud, sous-directeur diagnostique et prévision (PREV) au service des politiques macroéconomiques et des affaires européennes (SPMAE) de la Direction générale du Trésor, ainsi que M. Cédric Audenis, directeur des études et synthèses économiques et M. Dorian Rocher, chef du département de la conjoncture de l'INSEE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T09:00:00.000Z",
-      "dateFin": "2026-09-02T10:30:00.000Z",
-      "lieu": "1er Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460907",
-      "titre": "audition en visioconférence, ouverte à la presse, de représentants de la Croix-Rouge française : M. Daniel Deville (administrateur national, président du comité « Parcours d’accompagnement des publics »), Mmes Virginia Billon (directrice par intérim de la filière personnes âgées et à domicile), Anne Baudrillard (cheffe de projet personnes âgées), et Myriam Lahrour-Ba (responsable du département accueil, lien social, orientation et leviers vers l'insertion).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-02T09:05:00.000Z",
-      "dateFin": "2026-09-02T10:45:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
     {
       "uid": "RUANR5L17S2026IDC460908",
       "titre": "audition en visioconférence, ouverte à la presse, de M. Serge Paugam, sociologue, directeur de recherche au CNRS, directeur d’études à l’École des hautes études en sciences sociales (EHESS), professeur de sociologie à l’Université de São Paulo.",

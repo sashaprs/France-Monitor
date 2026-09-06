@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-06T08:29:01.537Z",
+  "updatedAt": "2026-09-06T10:21:57.323Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460911",
-      "titre": "audition, ouverte à la presse, des représentants de la Fondation pour le Logement des Défavorisés : M. Manuel Domergue, directeur des études, et Mme Sarah Coupechoux, responsable Europe.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-03T08:30:00.000Z",
-      "dateFin": "2026-09-03T09:50:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
     {
       "uid": "RUANR5L17S2026IDC461001",
       "titre": "PGL Company, distributeur de la boisson Vody en Guadeloupe – MM. Clément Alexis et Andy Vanoukia, gérants associés",

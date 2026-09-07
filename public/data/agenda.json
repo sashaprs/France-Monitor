@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T15:36:52.516Z",
+  "updatedAt": "2026-09-07T19:06:10.855Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461017",
@@ -92,6 +92,15 @@
       "organisateur": "PO884024"
     },
     {
+      "uid": "RUANR5L17S2026IDC461036",
+      "titre": "groupe de travail du collège de l’Arcom « Édition et distribution des services de télévision et de médias audiovisuels à la demande » – Mme Juliette Théry, membre du collège et présidente du groupe de travail, Mme Pauline Combredet-Blassel, directrice générale adjointe et M. Gaspard Bianquis, directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460993",
       "titre": "audition de l'Agence nationale de l’habitat (ANAH) avec M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet et M. Antonin Valière, responsable des relations institutionnelles.",
       "type": "reunionCommission_type",
@@ -117,6 +126,24 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461037",
+      "titre": "groupe de travail du collège de l’Arcom « Éducation aux médias, transition écologique et santé publique » – Mme Bénédicte Lesage, membre du collège et présidente du groupe de travail, Mme Pauline Combredet-Blassel, directrice générale adjointe et M. Gaspard Bianquis, directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461038",
+      "titre": "groupe de travail du collège de l’Arcom « Pluralisme et déontologie de l’information et des programmes » – Mme Catherine Jentile de Canecaude, membre du collège et présidente du groupe de travail, Mme Pauline Combredet-Blassel, directrice générale adjointe et M. Gaspard Bianquis, directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-08T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC460983",

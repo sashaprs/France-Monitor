@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-07T19:06:10.855Z",
+  "updatedAt": "2026-09-07T19:41:58.155Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461017",
-      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-04T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2026IDC460915",
       "titre": "nomination du Bureau ;",

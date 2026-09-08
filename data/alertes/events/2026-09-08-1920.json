@@ -1,0 +1,82 @@
+{
+ "genere_le": "2026-09-08T19:20:03.846Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54846",
+   "type": "nouveau_dossier",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "Nouveau dossier : Inscription du Parc naturel régional des Alpilles au réseau mondial des réserves de biosphère de l’Unesco, en reconnaissance d’un patrimoine paysager, agricole…",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/Alpilles_reseau_mondial_reserves_biosphere_Unesco",
+   "dossier_id": "DLR5L17N54846",
+   "texte_matchable": "Inscription du Parc naturel régional des Alpilles au réseau mondial des réserves de biosphère de l’Unesco, en reconnaissance d’un patrimoine paysager, agricole et culturel emblématique de la Provence Inscription du Parc naturel régional des Alpilles au réseau mondial des réserves de biosphère de l’Unesco, en reconnaissance d’un patrimoine paysager, agricole et culturel emblématique de la Provence Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54844",
+   "type": "nouveau_dossier",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "Nouveau dossier : Garantir un accès continu à l’eau potable dans les territoires ultramarins",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/garantir_acces_eau_potable_territoires_ultramarins",
+   "dossier_id": "DLR5L17N54844",
+   "texte_matchable": "Garantir un accès continu à l’eau potable dans les territoires ultramarins Garantir un accès continu à l’eau potable dans les territoires ultramarins Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54845",
+   "type": "nouveau_dossier",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "Nouveau dossier : Engager les démarches en vue de la panthéonisation d’Olympe de Gouges, de Monsieur l’abbé Charles-Michel de l’Épée et de Madame Zéna M’Déré",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/pantheonisation_gouges_charles-michel_zenamdere",
+   "dossier_id": "DLR5L17N54845",
+   "texte_matchable": "Engager les démarches en vue de la panthéonisation d’Olympe de Gouges, de Monsieur l’abbé Charles-Michel de l’Épée et de Madame Zéna M’Déré Engager les démarches en vue de la panthéonisation d’Olympe de Gouges, de Monsieur l’abbé Charles-Michel de l’Épée et de Madame Zéna M’Déré Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54842",
+   "type": "nouveau_dossier",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à garantir l'accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54842",
+   "dossier_id": "DLR5L17N54842",
+   "texte_matchable": "Proposition de loi visant à garantir l'accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54843",
+   "type": "nouveau_dossier",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "Nouveau dossier : Proposition de loi pour une politique du médicament plus prévisible, plus innovante et plus souveraine",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54843",
+   "dossier_id": "DLR5L17N54843",
+   "texte_matchable": "Proposition de loi pour une politique du médicament plus prévisible, plus innovante et plus souveraine Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "odj:e6b79f6488165f32",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "À l'ordre du jour — Finances : La relance et la décentralisation du logement",
+   "detail": "mercredi 16 septembre à 09:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Finances La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:1eaa0e9ed060fb1c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-08T19:20:03.846Z",
+   "titre": "À l'ordre du jour — Finances : La relance et la décentralisation du logement",
+   "detail": "jeudi 17 septembre à 09:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Finances La relance et la décentralisation du logement",
+   "profils": []
+  }
+ ]
+}

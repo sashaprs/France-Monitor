@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T14:55:21.992Z",
+  "updatedAt": "2026-09-08T18:21:12.281Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460915",
@@ -24,7 +24,7 @@
       "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-08T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-08T10:10:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO420120"
     },
@@ -33,7 +33,7 @@
       "titre": "réunion, conjointe avec la commission des affaires sociales, sur la communication de Mmes Gabrielle Cathala, Laure Miller, Sandrine Rousseau et Annie Vidal, rapporteures de la mission flash commune sur les suites à donner sur l’affaire Joël Le Scouarnec.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-08T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-08T10:10:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -308,6 +308,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2026IDC461041",
+      "titre": "nomination du rapporteur de la mission d’information flash sur le coût de la canicule ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460832",
       "titre": "nomination d’un rapporteur en vue de l’examen, en application de l'article 148 du Règlement, de la pétition n° 5174 (« Facturation électronique obligatoire, c’est non ! ») ;",
       "type": "reunionCommission_type",
@@ -362,6 +371,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461042",
+      "titre": "examen et vote sur l’autorisation de publication du rapport de la mission d’information sur le bilan et les conséquences des crédits carbone européens et les impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne (Mmes Claire Marais-Beuil et Eva Sas, rapporteures).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461015",
       "titre": "audition de Mme Annie Genevard, ministre de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire.",
       "type": "reunionCommission_type",
@@ -378,6 +396,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461043",
+      "titre": "examen pour avis des articles 1er, 4, 4 bis et 4 ter du projet de loi, modifié par le Sénat, visant la relance et la décentralisation du logement (n° 3058).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC460778",

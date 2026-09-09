@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T13:27:21.193Z",
+  "updatedAt": "2026-09-09T14:15:24.396Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460915",
@@ -50,8 +50,8 @@
       "uid": "RUANR5L17S2026IDC460912",
       "titre": "audition, en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T12:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-08T12:15:00.000Z",
+      "dateFin": "2026-09-08T14:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -104,8 +104,8 @@
       "uid": "RUANR5L17S2026IDC460913",
       "titre": "audition, en visioconférence, ouverte à la presse, de :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T14:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-08T14:15:00.000Z",
+      "dateFin": "2026-09-08T16:15:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },

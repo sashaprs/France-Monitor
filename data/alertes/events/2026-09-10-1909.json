@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-09-10T19:09:33.097Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54847",
+   "type": "nouveau_dossier",
+   "date": "2026-09-10T19:09:33.097Z",
+   "titre": "Nouveau dossier : Refonder l'espace Schengen en instaurant une double frontière nationale et européenne",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/refonder_lespace_schengen_en_instaurant_une_double_frontiere_nationale_et_europeenne",
+   "dossier_id": "DLR5L17N54847",
+   "texte_matchable": "Refonder l'espace Schengen en instaurant une double frontière nationale et européenne Refonder l'espace Schengen en instaurant une double frontière nationale et européenne Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54848",
+   "type": "nouveau_dossier",
+   "date": "2026-09-10T19:09:33.097Z",
+   "titre": "Nouveau dossier : Adapter le cadre européen de la commande publique afin d’étendre le régime dérogatoire aux marchés concourant à la protection des intérêts essentiels de sécuri…",
+   "detail": "Résolution",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_le_cadre_europeen_de_la_commande_publique_afin_detendre_le_regime_derogatoire_aux_marches_concourant_a_la_protection_des_interets_essentiels_de_securite_de_la_nation",
+   "dossier_id": "DLR5L17N54848",
+   "texte_matchable": "Adapter le cadre européen de la commande publique afin d’étendre le régime dérogatoire aux marchés concourant à la protection des intérêts essentiels de sécurité de la Nation Adapter le cadre européen de la commande publique afin d’étendre le régime dérogatoire aux marchés concourant à la protection des intérêts essentiels de sécurité de la Nation Résolution",
+   "profils": []
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T18:08:32.132Z",
+  "updatedAt": "2026-09-10T19:00:52.625Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461032",
@@ -227,15 +227,6 @@
       "organisateur": "PO882110"
     },
     {
-      "uid": "RUANR5L17S2026IDC461046",
-      "titre": "Rencontre avec une délégation de députés de la Chambre des Représentants du Japon, conduite par M. Hidetaka Inoue, Président de la commission des Lois",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T08:00:00.000Z",
-      "dateFin": "2026-09-10T09:30:00.000Z",
-      "lieu": "Salon Gabriel",
-      "organisateur": "PO851350"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460998",
       "titre": "audition du Ministère de la transition écologique, avec M. Antoine Caron, chef du service des risques naturels de la Direction générale de la prévention des risques ; M. Aurélien Gay, sous-directeur des risques accidentels au sein du service des risques technologiques de la Direction générale de la prévention des risques ; M. Alexandre Leonardi, sous-directeur Coordination, Appui, Stratégie et pilotage des politiques de protection et de restauration des écosystèmes ; M. François Weber, adjoint au Sous-directeur de la protection et de la gestion de l'eau et des écosystèmes aquatiques ; M. Thomas Zuelgaray, adjoint au Sous-directeur de la qualité et du développement durable dans construction ; Mme Amélie Coantic, adjointe au commissaire général au développement durable ; Mme Emmanuelle Walraet, cheffe du service des données et études statistiques ; M. Pierre Claquin, sous-directeur de l'économie et de l'évaluation au commissariat général au développement durable.",
       "type": "reunionCommission_type",
@@ -263,15 +254,6 @@
       "organisateur": "PO885028"
     },
     {
-      "uid": "RUANR5L17S2026IDC461039",
-      "titre": "Mission du groupe d’amitié France – Jordanie du 14 au 18 septembre",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-13T22:00:00.000Z",
-      "dateFin": "2026-09-18T21:59:59.000Z",
-      "lieu": "Jordanie",
-      "organisateur": "PO851668"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461003",
       "titre": "audition en visioconférence, ouverte à la presse, de Mme Isabel Madrid, vice-présidente de l’Union nationale des centres communaux d’action sociale (UNCCAS), ancienne adjointe au maire de Talence, présidente du réseau Monalisa Gironde.",
       "type": "reunionCommission_type",
@@ -282,7 +264,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461004",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abri : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
+      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abris : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-15T09:00:00.000Z",
       "dateFin": null,
@@ -317,15 +299,6 @@
       "organisateur": "PO880668"
     },
     {
-      "uid": "RUANR5L17S2026IDC461007",
-      "titre": "audition, ouverte à la presse, des représentants du conseil national des politiques de lutte contre la pauvreté et l’exclusion sociale (CNLE) : M. Nicolas Duvoux (président, sociologue à l’Université Paris VIII et à l’Université de Genève), Mme Muriel Pucci (présidente du comité scientifique, économiste à l’Université Paris 1), M. Alain Villez (membre du Collège des associations - Petits Frères des Pauvres), Mme Fatouma Diop et M. Ali Tamraoui (membres du 5ème collège).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T07:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461041",
       "titre": "nomination du rapporteur de la mission d’information flash sur le coût de la canicule ;",
       "type": "reunionCommission_type",
@@ -342,6 +315,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461007",
+      "titre": "audition, ouverte à la presse, des représentants du conseil national des politiques de lutte contre la pauvreté et l’exclusion sociale (CNLE) : M. Nicolas Duvoux (président, sociologue à l’Université Paris VIII et à l’Université de Genève), Mme Muriel Pucci (présidente du comité scientifique, économiste à l’Université Paris 1), M. Alain Villez (membre du Collège des associations - Petits Frères des Pauvres), Mme Fatouma Diop et M. Ali Tamraoui (membres du 5ème collège).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC461008",
@@ -470,15 +452,6 @@
       "organisateur": "PO419610"
     },
     {
-      "uid": "RUANR5L17S2026IDC461040",
-      "titre": "Mission du GA France – Portugal (Lisbonne et Oeiras) du 22 au 24 septembre",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T22:00:00.000Z",
-      "dateFin": "2026-09-24T21:59:59.000Z",
-      "lieu": "Portugal (Lisbonne et Oeiras)",
-      "organisateur": "PO851628"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461019",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -504,15 +477,6 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461047",
-      "titre": "audition de Mme Aurélie Rousseau et M. Fabrice Schlosser, co-présidents de Locales.tv, et M. Jean Brun, secrétaire général, sur la situation des chaînes de télévision locales.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2026IDC460788",
@@ -605,15 +569,6 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2026IDC461048",
-      "titre": "examen du rapport de la mission d’évaluation de la loi n° 2021-1716 du 21 décembre 2021 créant la fonction de directrice ou de directeur d’école (MM. Roger Chudeau et Bertrand Sorre, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461026",
       "titre": "– audition de Mme Emmanuelle Wargon, présidente de la Commission de régulation de l’énergie (CRE).",
       "type": "reunionCommission_type",
@@ -632,15 +587,6 @@
       "organisateur": "PO419610"
     },
     {
-      "uid": "RUANR5L17S2027IDC461049",
-      "titre": "Éventuellement (en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la Commission.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
       "uid": "RUANR5L17S2027IDC460991",
       "titre": "élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
@@ -648,15 +594,6 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461050",
-      "titre": "Éventuellement (en l’absence d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la Commission.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-02T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC460985",

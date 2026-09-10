@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-10T10:44:29.162Z",
+  "updatedAt": "2026-09-10T14:09:08.034Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460915",
-      "titre": "nomination du Bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-07T13:00:00.000Z",
-      "dateFin": "2026-09-07T14:30:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461032",
       "titre": "audition de l'Association pour l’emploi des cadres (Apec), représentée par Mme Laetitia Niaudeau, directrice générale adjointe.",
@@ -389,6 +380,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461044",
+      "titre": "audition de Mme Sandra Desmettre, sous-directrice des conditions de travail, de la santé et de la sécurité au travail (SDCT), Mme Marie-Lise Carton-Zito, adjointe à la sous-directrice, Mme Heidi Borrel, cheffe du bureau des risques chimiques, physiques et biologiques (CT2), et M. Jérémy de Saint-Jorès, ingénieur au bureau CT2, direction générale du travail (DGT), ministère du travail et des solidarités.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461009",
       "titre": "audition, ouverte à la presse, des représentants de la Commission nationale consultative des droits de l’homme (CNCDH) : Mmes Maryvonne Lyazid, membre de la CNCDH, et Camille Tauveron-Lahouze, conseillère.",
       "type": "reunionCommission_type",
@@ -414,6 +414,15 @@
       "dateFin": "2026-09-17T10:00:00.000Z",
       "lieu": "Salle 4067, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461045",
+      "titre": "audition de M. Sébastien Denys, directeur santé-environnement-travail, Santé publique France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
     },
     {
       "uid": "RUANR5L17S2026IDC460946",

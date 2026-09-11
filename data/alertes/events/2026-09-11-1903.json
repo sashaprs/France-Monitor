@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-09-11T19:03:28.018Z",
+ "evenements": [
+  {
+   "id": "odj:9e4a92fdd2f25e13",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-11T19:03:28.018Z",
+   "titre": "À l'ordre du jour — IMPACT IA : DLR5L17N50155",
+   "detail": "mercredi 16 septembre à 09:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N50155",
+   "texte_matchable": "Examen du texte IMPACT IA",
+   "profils": []
+  },
+  {
+   "id": "odj:fd2c044af31d7e97",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-11T19:03:28.018Z",
+   "titre": "À l'ordre du jour — IMPACT IA : DLR5L17N50157",
+   "detail": "mercredi 16 septembre à 11:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N50157",
+   "texte_matchable": "Examen du texte IMPACT IA",
+   "profils": []
+  },
+  {
+   "id": "odj:6a01f61a48f8fc7e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-11T19:03:28.018Z",
+   "titre": "À l'ordre du jour — Délégation de l'Assemblée nationale aux droits des femmes : Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "detail": "mercredi 16 septembre à 18:45 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Examen du texte Délégation de l'Assemblée nationale aux droits des femmes Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  }
+ ]
+}

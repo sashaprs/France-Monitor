@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T23:45:26.585Z",
+  "updatedAt": "2026-09-11T03:17:15.477Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461032",
@@ -516,7 +516,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460788",
-      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant, sous réserve de sa communication à la commission des affaires sociales en application de l’article L.O. 132-3-1 du code des juridictions financières.",
+      "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:30:00.000Z",
       "dateFin": null,
@@ -533,6 +533,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461051",
+      "titre": "audition de M. Cyrille Isaac-Sibille, député, chargé par M. le Premier ministre, en application de l’article L.O. 144 du code électoral, d’une mission temporaire sur la prévention primaire en santé.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461022",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -543,7 +552,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460989",
-      "titre": "tables rondes sur les dispositifs médicaux gynécologiques.",
+      "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant (sous réserve de confirmation) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T13:00:00.000Z",
       "dateFin": null,
@@ -552,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460990",
-      "titre": "tables rondes sur les dispositifs médicaux gynécologiques.",
+      "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant (sous réserve de confirmation) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T14:30:00.000Z",
       "dateFin": null,
@@ -594,6 +603,15 @@
       "dateFin": "2026-09-30T21:59:59.000Z",
       "lieu": "Bucarest et Constanta (Roumanie)",
       "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461052",
+      "titre": "examen, sous réserve de son adoption par la Mission d’évaluation et de contrôle des lois de financement de la sécurité sociale, du rapport d’information sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Jérôme Guedj, Thibault Bazin et Thierry Frappé, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2026IDC460831",
@@ -641,15 +659,6 @@
       "organisateur": "PO419604"
     },
     {
-      "uid": "RUANR5L17S2027IDC460991",
-      "titre": "élection des membres du bureau de la commission.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461050",
       "titre": "Éventuellement (en l’absence d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la Commission.",
       "type": "reunionCommission_type",
@@ -657,6 +666,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC460991",
+      "titre": "élection des membres du bureau de la commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-02T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC460985",

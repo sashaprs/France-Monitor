@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-09-11T08:46:29.378Z",
+  "updatedAt": "2026-09-11T13:17:18.068Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460988",
-      "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T09:00:00.000Z",
-      "dateFin": "2026-09-08T10:10:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460982",
-      "titre": "réunion, conjointe avec la commission des affaires sociales, sur la communication de Mmes Gabrielle Cathala, Laure Miller, Sandrine Rousseau et Annie Vidal, rapporteures de la mission flash commune sur les suites à donner sur l’affaire Joël Le Scouarnec.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T09:00:00.000Z",
-      "dateFin": "2026-09-08T10:10:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461028",
-      "titre": "- audition conjointe : \r\rFoodwatch France\rM. Camille Dorioz, directeur des campagnes\rMme Audrey Morice, chargée de campagne\rMme Léa Redon, chargée de campagne\r\rRéseau Action Climat\rM. Benoît Granier, responsable des thématiques « alimentation » et « santé ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T11:00:00.000Z",
-      "dateFin": "2026-09-08T12:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO884024"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460912",
-      "titre": "audition, en visioconférence, ouverte à la presse, de :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T12:15:00.000Z",
-      "dateFin": "2026-09-08T14:00:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461012",
-      "titre": "audition du général de brigade aérienne Vincent Coste, chef de la division cohérence capacitaire de l'Etat-major des armées.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T13:00:00.000Z",
-      "dateFin": "2026-09-08T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880763"
-    },
     {
       "uid": "RUANR5L17S2026IDC460994",
       "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint, M. Mathieu Przybylski, directeur de cabinet, et M. Antonin Valière, responsable des relations institutionnelles de l'Agence nationale de l'habitat (ANAH)",
@@ -263,6 +218,15 @@
       "organisateur": "PO851668"
     },
     {
+      "uid": "RUANR5L17S2026IDC461053",
+      "titre": "table ronde avec les représentants de l'Agence des participations de l’État (M. Arthur Faust, directeur de participations Transport), de la Direction de la diplomatie économique (M. Tristan Dufes, sous-directeur des secteurs stratégiques et aux technologies émergentes, DSE/STRATE), de la Direction générale des entreprises (Mme Valérie Petat, directrice de projets aéronautique, naval, ferroviaire et industrie du futur, service de l’industrie, sous-direction des matériels de transport, de la mécanique et de l’énergie et M. Xavier Ploquin, sous-directeur des matériels de transport, de la mécanique et de l'énergie)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-14T13:00:00.000Z",
+      "dateFin": "2026-09-14T14:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461003",
       "titre": "audition en visioconférence, ouverte à la presse, de Mme Isabel Madrid, vice-présidente de l’Union nationale des centres communaux d’action sociale (UNCCAS), ancienne adjointe au maire de Talence, présidente du réseau Monalisa Gironde.",
       "type": "reunionCommission_type",
@@ -273,7 +237,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461004",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abri : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
+      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abris : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-15T09:00:00.000Z",
       "dateFin": null,
@@ -285,15 +249,6 @@
       "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-15T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461006",
-      "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
@@ -389,6 +344,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461058",
+      "titre": "-- examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène\rdes violences sexuelles et sexistes contre les femmes et les enfants.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T16:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
+      "organisateur": "PO201269"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461054",
+      "titre": "audition de Mme Yannick Assouad, directrice générale adjointe Avionique du groupe Thales, présidente du comité de pilotage du CORAC (Conseil pour la Recherche Aéronautique Civile)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:00:00.000Z",
+      "dateFin": "2026-09-17T08:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461044",
       "titre": "audition de Mme Sandra Desmettre, sous-directrice des conditions de travail, de la santé et de la sécurité au travail (SDCT), Mme Marie-Lise Carton-Zito, adjointe à la sous-directrice, Mme Heidi Borrel, cheffe du bureau des risques chimiques, physiques et biologiques (CT2), et M. Jérémy de Saint-Jorès, ingénieur au bureau CT2, direction générale du travail (DGT), ministère du travail et des solidarités.",
       "type": "reunionCommission_type",
@@ -416,6 +389,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC461055",
+      "titre": "audition de M. Florian Guillermet, directeur exécutif de l'Agence de l’Union européenne pour la sécurité aérienne (AESA)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T08:00:00.000Z",
+      "dateFin": "2026-09-17T09:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460778",
       "titre": "audition du vice-amiral d'escadre Eric Malbrunot, sous-chef d'état-major Plans de l'État-major des Armées.",
       "type": "reunionCommission_type",
@@ -425,6 +407,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2026IDC461057",
+      "titre": "audition de M. Pierre Bastard, conseiller transports aériens, représentation permanente de la France auprès de l'Union européenne (RPUE)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T09:00:00.000Z",
+      "dateFin": "2026-09-17T10:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461045",
       "titre": "audition de M. Sébastien Denys, directeur santé-environnement-travail, Santé publique France.",
       "type": "reunionCommission_type",
@@ -432,6 +423,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461056",
+      "titre": "audition M. Jérôme Bos, directeur de la Stratégie de Tereos et de Mme Kristell Guizouarn, directrice des Affaires publiques et de la RSE du groupe",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T10:00:00.000Z",
+      "dateFin": "2026-09-17T10:45:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
     },
     {
       "uid": "RUANR5L17S2026IDC460946",
@@ -603,6 +603,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461006",
+      "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "en cours de programmation",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC460831",

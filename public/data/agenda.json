@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-11T20:32:36.280Z",
+  "updatedAt": "2026-09-11T22:20:36.895Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460983",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T22:00:00.000Z",
-      "dateFin": "2026-09-09T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460981",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une réunion format Triangle de Weimar, à Berlin (Allemagne) le 9 septembre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-08T22:00:00.000Z",
-      "dateFin": "2026-09-09T21:59:59.000Z",
-      "lieu": "Berlin (Allemagne)",
-      "organisateur": "PO58974"
-    },
     {
       "uid": "RUANR5L17S2026IDC461011",
       "titre": "audition du Colonel Brice Erbland, chef de corps du 1er régiment d’hélicoptères de combat.",

@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-09-11T22:22:27.952Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54850",
+   "type": "nouveau_dossier",
+   "date": "2026-09-11T22:22:27.952Z",
+   "titre": "Nouveau dossier : Projet de loi portant transposition de la directive (UE) 2023/970 du Parlement européen et du Conseil du 10 mai 2023 relative à l’égalité des rémunérations ent…",
+   "detail": "Projet de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54850",
+   "dossier_id": "DLR5L17N54850",
+   "texte_matchable": "Projet de loi portant transposition de la directive (UE) 2023/970 du Parlement européen et du Conseil du 10 mai 2023 relative à l’égalité des rémunérations entre les femmes et les hommes par la transparence des rémunérations Projet de loi ordinaire Affaires sociales",
+   "profils": []
+  }
+ ]
+}

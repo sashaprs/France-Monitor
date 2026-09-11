@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T22:20:36.895Z",
+  "updatedAt": "2026-09-11T23:00:12.811Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461011",
@@ -164,15 +164,6 @@
       "organisateur": "PO885028"
     },
     {
-      "uid": "RUANR5L17S2026IDC461061",
-      "titre": "audition du Ministère de l’agriculture avec M. Elodie Lematte, cheffe du service compétitivité et Performance environnementale à la DGP, M. Paul Hennart, adjoint au sous-directeur performance environnementale et valorisation des territoires à la DGPE, M. Nicolas Cherel, sous-directeur des filières agroalimentaires à la DGPE, M. Sébastien Colliat, chef du service des affaires financières, sociales et logistiques au SG, M. Philippe Auzary, adjoint au chef de service des affaires financières, sociales et logistiques au SG, M. Alexandre Israelian, sous-directeur des affaires budgétaires et comptables au service des affaires financières, sociales et logistiques du SG.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461005",
       "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026).",
       "type": "reunionCommission_type",
@@ -180,6 +171,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461061",
+      "titre": "audition du Ministère de l’agriculture avec M. Elodie Lematte, cheffe du service compétitivité et Performance environnementale à la DGP, M. Paul Hennart, adjoint au sous-directeur performance environnementale et valorisation des territoires à la DGPE, M. Nicolas Cherel, sous-directeur des filières agroalimentaires à la DGPE, M. Sébastien Colliat, chef du service des affaires financières, sociales et logistiques au SG, M. Philippe Auzary, adjoint au chef de service des affaires financières, sociales et logistiques au SG, M. Alexandre Israelian, sous-directeur des affaires budgétaires et comptables au service des affaires financières, sociales et logistiques du SG.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
     },
     {
       "uid": "RUANR5L17S2026IDC460808",
@@ -419,7 +419,7 @@
       "uid": "RUANR5L17S2026IDC461068",
       "titre": "audition de Mme Mélanie Joder, secrétaire générale de la direction générale de l’enseignement scolaire (DGESCO), M. Christophe Peyrel, chef du service de défense et de sécurité, Mme Lorna Farre, responsable du pôle et cheffe de la cellule bâti-scolaire et M. Pierre Desbiolles, chef du service de l’instruction publique, de l’action et de l’accompagnement pédagogique",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T15:10:00.000Z",
+      "dateDebut": "2026-09-17T15:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"

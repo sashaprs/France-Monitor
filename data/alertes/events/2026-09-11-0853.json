@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-09-11T08:53:06.420Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54849",
+   "type": "nouveau_dossier",
+   "date": "2026-09-11T08:53:06.420Z",
+   "titre": "Nouveau dossier : Renforcer l’autonomie financière des collectivités territoriales",
+   "detail": "Projet ou proposition de loi organique · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/autonomie_financiere_des_collectivites_territoriales",
+   "dossier_id": "DLR5L17N54849",
+   "texte_matchable": "Renforcer l’autonomie financière des collectivités territoriales Renforcer l’autonomie financière des collectivités territoriales Projet ou proposition de loi organique Lois",
+   "profils": []
+  }
+ ]
+}

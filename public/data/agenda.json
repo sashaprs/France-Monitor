@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-12T08:31:24.476Z",
+  "updatedAt": "2026-09-12T11:29:35.025Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461031",
-      "titre": "- audition commune de chercheurs australiens :\rM. Philip Baker ;\rMme Kim Anastasiou.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-09T09:00:00.000Z",
-      "dateFin": "2026-09-09T10:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO884024"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460996",
-      "titre": "table ronde avec pour la Caisse nationale de l'assurance maladie (CNAM) M. Damien Vergé, directeur de la stratégie, des études et des statistiques et Mme Veronika Levendof, responsable des relations avec le parlement, pour la Caisse nationale de solidarité pour l'autonomie (CNSA), M. Maëlig Le Bayon, directeur général, et Mme Anne-Marie Ho Dinh, conseillère technique, Santé publique France, et pour la Direction de la recherche, des études, de l'évaluation et des statistiques (DREES), M. Thomas Wanecq, directeur de la recherche, des études, de l’évaluation et des statistiques, et M. Benoit Ourliac, sous-directeur de l’observation de la santé et de l'assurance maladie.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-09T09:30:00.000Z",
-      "dateFin": "2026-09-09T10:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC461013",
       "titre": "audition de M. Arnaud de Péchy, Président / CEO de RENK France et Mme Agnès Marvalin-Longuet, Directrice des Ventes et des Programmes de RENK France.",

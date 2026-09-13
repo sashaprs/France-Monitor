@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-13T03:28:25.285Z",
+  "updatedAt": "2026-09-13T09:18:16.099Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461033",
-      "titre": "table ronde sur le « pilotage et financement de la formation », réunissant France compétences - M. Stéphane Lardy, directeur général, et la Délégation générale à l’emploi et à la formation professionnelle (DGEFP) – M. Benjamin Maurice, délégué général, M. Guillaume Jaspart, chef de projet « IA et collecte » et Mme Magali Bounaix, adjointe au chef de la mission de l’anticipation et du développement de l’emploi et des compétences.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6566 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461046",
-      "titre": "Rencontre avec une délégation de députés de la Chambre des Représentants du Japon, conduite par M. Hidetaka Inoue, Président de la commission des Lois",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T08:00:00.000Z",
-      "dateFin": "2026-09-10T09:30:00.000Z",
-      "lieu": "Salon Gabriel",
-      "organisateur": "PO851350"
-    },
     {
       "uid": "RUANR5L17S2026IDC460998",
       "titre": "audition du Ministère de la transition écologique, avec M. Antoine Caron, chef du service des risques naturels de la Direction générale de la prévention des risques ; M. Aurélien Gay, sous-directeur des risques accidentels au sein du service des risques technologiques de la Direction générale de la prévention des risques ; M. Alexandre Leonardi, sous-directeur Coordination, Appui, Stratégie et pilotage des politiques de protection et de restauration des écosystèmes ; M. François Weber, adjoint au Sous-directeur de la protection et de la gestion de l'eau et des écosystèmes aquatiques ; M. Thomas Zuelgaray, adjoint au Sous-directeur de la qualité et du développement durable dans construction ; Mme Amélie Coantic, adjointe au commissaire général au développement durable ; Mme Emmanuelle Walraet, cheffe du service des données et études statistiques ; M. Pierre Claquin, sous-directeur de l'économie et de l'évaluation au commissariat général au développement durable.",

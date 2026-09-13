@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-13T09:18:16.099Z",
+  "updatedAt": "2026-09-13T14:05:29.397Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460998",
-      "titre": "audition du Ministère de la transition écologique, avec M. Antoine Caron, chef du service des risques naturels de la Direction générale de la prévention des risques ; M. Aurélien Gay, sous-directeur des risques accidentels au sein du service des risques technologiques de la Direction générale de la prévention des risques ; M. Alexandre Leonardi, sous-directeur Coordination, Appui, Stratégie et pilotage des politiques de protection et de restauration des écosystèmes ; M. François Weber, adjoint au Sous-directeur de la protection et de la gestion de l'eau et des écosystèmes aquatiques ; M. Thomas Zuelgaray, adjoint au Sous-directeur de la qualité et du développement durable dans construction ; Mme Amélie Coantic, adjointe au commissaire général au développement durable ; Mme Emmanuelle Walraet, cheffe du service des données et études statistiques ; M. Pierre Claquin, sous-directeur de l'économie et de l'évaluation au commissariat général au développement durable.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T11:30:00.000Z",
-      "dateFin": "2026-09-10T12:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461000",
-      "titre": "audition de la Confédération paysanne, avec M. Stéphane Galais, porte-parole national, Mme Emilie Deligny, secrétaire générale, Mme Aurélie Bouton, animatrice technique, et Mme Juliette Sainclair, animatrice technique.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T12:30:00.000Z",
-      "dateFin": "2026-09-10T13:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460999",
-      "titre": "audition de Mme Annabelle Vêques, directrice de la Fédération nationale des associations de directeurs d'établissements et services pour personnes âgées (FNADEPA).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-10T13:30:00.000Z",
-      "dateFin": "2026-09-10T14:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC461039",
       "titre": "Mission du groupe d’amitié France – Jordanie du 14 au 18 septembre",

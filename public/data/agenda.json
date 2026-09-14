@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:57:46.525Z",
+  "updatedAt": "2026-09-14T21:38:51.082Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -47,6 +47,15 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC461104",
+      "titre": "groupe TF1 – Mme Julie Burguburu, secrétaire générale, Mme Peggy le Gouvello, directrice des relations extérieures et institutionnelles, et M. Maxime Cermack, responsable des affaires publiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461005",
       "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026).",
       "type": "reunionCommission_type",
@@ -63,6 +72,42 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461105",
+      "titre": "groupe Canal+ – M. Gérald-Brice Viret, directeur général en charge des programmes et des antennes, M. Christophe Roy, directeur des affaires réglementaires et de la concurrence, Mme Amélie Meynard, directrice des affaires publiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461113",
+      "titre": "audition du vice-amiral d'escadre Éric Malbrunot, sous-chef d'état-major Plans.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T14:00:00.000Z",
+      "dateFin": "2026-09-15T15:30:00.000Z",
+      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880699"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461106",
+      "titre": "Groupe M6 – Mme Karine Blouët, secrétaire générale, et Mme Marie Grau-Chevallereau, directrice des affaires publiques et des études réglementaires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461114",
+      "titre": "audition du vice-amiral d'escadre Éric Malbrunot, sous-chef d'état-major Plans.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-15T14:00:00.000Z",
+      "dateFin": "2026-09-15T15:30:00.000Z",
+      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880730"
     },
     {
       "uid": "RUANR5L17S2026IDC460808",
@@ -83,13 +128,31 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC461115",
+      "titre": "- déplacement à Villacoublay.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T06:30:00.000Z",
+      "dateFin": "2026-09-16T12:00:00.000Z",
+      "lieu": "Déplacement",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461071",
-      "titre": "À 9 heures (salle Lamartine – 101 rue de l’Université) :",
+      "titre": "audition de la coalition féministe et enfantiste pour une loi-cadre intégrale contre les violences sexuelles : Mme Alyssa Ahrabare, responsable du plaidoyer de Osez le féminisme ; Mme Sonia Bisch, présidente de STOP VOG ; Mme Françoise Brie, présidente de Women against violence, vice-présidente de La Clef ; Mme Amandine Cormier, Fédération syndicale unitaire (FSU) ; Mme Aude Doumenge, responsable plaidoyer de l’association Face à l'inceste ; Mme Céline Evita, consultante auprès de la coalition ; Mme Faustine Garcia, chargée de plaidoyer pour la Fondation des Femmes ; Mme Clémence Helfter, conseillère confédérale droits des femmes et égalité femmes-hommes à la Confédération générale du travail (CGT) ; Mme Myriam Lebkiri, Confédération générale du travail (CGT) ; Mme Angèle Lefranc, chargée de plaidoyer à la Fondation pour l'enfance ; Mme Anne-Cécile Mailfert, présidente de la Fondation des femmes ;\tMme Suzy Rojtman, porte-parole du Collectif national pour les droit des femmes (Cndf) ; Mme Floriane Volt, directrice des affaires publiques et du plaidoyer de la Fondation des femmes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461107",
+      "titre": "- Table ronde :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC461007",
@@ -128,6 +191,15 @@
       "organisateur": "PO882110"
     },
     {
+      "uid": "RUANR5L17S2026IDC461108",
+      "titre": "- Table ronde :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461008",
       "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : M. Jean-Benoît Dujol, directeur général.",
       "type": "reunionCommission_type",
@@ -138,7 +210,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461072",
-      "titre": "Table ronde d’experts sur le psychotraumatisme, la dissociation et l’emprise : Mme Maryse Le Men-Regnier, directrice de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE) ; M. Denis Roth-Fichet, secrétaire général de la CIIVISE ; Mme Laura Canitrot, collaboratrice de la CIIVISE ; Mme Alice Gayraud, ancienne responsable du plaidoyer de la CIIVISE ; \tMme Coraline Hingray, professeure de psychiatrie (CHRU de Nancy), fondatrice de la Maison de la résilience ; Mme Muriel Salmona, présidente de l'association Mémoire traumatique et victimologie.",
+      "titre": "table ronde d’experts sur le psychotraumatisme, la dissociation et l’emprise : Mme Maryse Le Men-Regnier, directrice de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE) ; M. Denis Roth-Fichet, secrétaire général de la CIIVISE ; Mme Laura Canitrot, collaboratrice de la CIIVISE ; Mme Alice Gayraud, ancienne responsable du plaidoyer de la CIIVISE ; \tMme Coraline Hingray, professeure de psychiatrie (CHRU de Nancy), fondatrice de la Maison de la résilience ; Mme Muriel Salmona, présidente de l'association Mémoire traumatique et victimologie.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T09:00:00.000Z",
       "dateFin": null,
@@ -164,6 +236,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461101",
+      "titre": "audition de M. Franck Lefèvre, directeur technique général de l'Office national d’études et de recherche aérospatiales (ONERA) et de M. Jacques Lafaye, conseiller du président directeur général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T09:30:00.000Z",
+      "dateFin": "2026-09-16T10:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880795"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461070",
       "titre": "audition de la Direction de la sécurité sociale – M. Benjamin Duca-Deneuve, sous-directeur adjoint de la 5e sous-direction, M. Romain Bey, sous-directeur adjoint de la 6e sous-direction, et Mme Anne Fichen, sous-directrice des études et des prévisions financières.",
       "type": "reunionCommission_type",
@@ -173,13 +254,31 @@
       "organisateur": "PO884154"
     },
     {
+      "uid": "RUANR5L17S2026IDC461109",
+      "titre": "direction générale des médias et des industries culturelles (DGMIC) – Mme Florence Philbert, directrice générale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461073",
-      "titre": "- Audition de M. Gérald Darmanin, Garde des Sceaux, ministre de la Justice, et de Mme Aurore Bergé, ministre déléguée auprès du Premier ministre, chargée de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations ;",
+      "titre": "audition de M. Gérald Darmanin, Garde des Sceaux, ministre de la Justice, et de Mme Aurore Bergé, ministre déléguée auprès du Premier ministre, chargée de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T12:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461102",
+      "titre": "audition du Dr Thibault Fouillet, directeur scientifique du Centre d’analyse et de prévision des risques internationaux (CAPRI).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T12:30:00.000Z",
+      "dateFin": "2026-09-16T14:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2026IDC460779",
@@ -200,6 +299,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461111",
+      "titre": "--Table ronde :\r- France Télévisions – M. Christophe Tardieu, secrétaire général, M. Cyril Guinet directeur réglementation, déontologie et pluralisme des antennes et programmes, et Mme Véronique Tresca, responsable des relations institutionnelles\r- Radio France – M. Charles-Emmanuel Bon, secrétaire général, et Mme Marie-Ange Badin, secrétaire générale adjointe\r- France Médias Monde – M. Roland Husson, directeur général, M. Roland Husson, directeur général en charge du pôle ressources, et Mme Fanny Boyer, adjointe au directeur des relations institutionnelles\r- Arte France – Mme Agnès Lanoë, directrice de la stratégie et de la prospective et M. Aksel Gökçek, chargé de mission affaires\rpubliques\r- TV5 Monde – Mme Kim Younes, présidente-directrice générale (en attente de confirmation), et M. Thomas Derobe, secrétaire\rgénéral.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461042",
       "titre": "examen et vote sur l’autorisation de publication du rapport de la mission d’information sur le bilan et les conséquences des crédits carbone européens et les impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne (Mmes Claire Marais-Beuil et Eva Sas, rapporteures).",
       "type": "reunionCommission_type",
@@ -218,6 +326,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461112",
+      "titre": "nrj Group – Mme Maryam Salehi, directrice déléguée à la direction générale, Mme Philippine Brisset, responsable des relations institutionnelles, et Mme Laetitia Faivre, secrétaire générale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461058",
       "titre": "- examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène\rdes violences sexuelles et sexistes contre les femmes et les enfants.",
       "type": "reunionCommission_type",
@@ -234,6 +351,15 @@
       "dateFin": "2026-09-17T08:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO879674"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461103",
+      "titre": "audition de M. Jean-Louis Lozier, chercheur à l’Institut français des relations internationales (IFRI).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:00:00.000Z",
+      "dateFin": "2026-09-17T08:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880699"
     },
     {
       "uid": "RUANR5L17S2026IDC461044",
@@ -255,7 +381,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461074",
-      "titre": "- Audition de M. Laurent Nuñez, ministre de l’Intérieur.",
+      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T07:00:00.000Z",
       "dateFin": null,
@@ -290,8 +416,26 @@
       "organisateur": "PO879674"
     },
     {
+      "uid": "RUANR5L17S2026IDC461110",
+      "titre": "audition de Mme Julia Tasse, chercheuse à l'Institut de relations internationales et stratégiques (IRIS).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T08:00:00.000Z",
+      "dateFin": "2026-09-17T09:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880699"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461117",
+      "titre": "audition du général de division aérienne Arnaud Gary, sous-chef d'état-major « Plans-programmes ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T08:30:00.000Z",
+      "dateFin": "2026-09-17T10:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461075",
-      "titre": "- Audition de M. Jean-Pierre Farandou, ministre du Travail et des Solidarités, et de Mme Stéphanie Rist, ministre de la Santé, des familles, de l’autonomie et des personnes handicapées.",
+      "titre": "audition de M. Jean-Pierre Farandou, ministre du Travail et des Solidarités, et de Mme Stéphanie Rist, ministre de la Santé, des familles, de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T08:30:00.000Z",
       "dateFin": null,
@@ -344,8 +488,17 @@
       "organisateur": "PO879674"
     },
     {
+      "uid": "RUANR5L17S2026IDC461118",
+      "titre": "audition de l'IGA hors classe Marc Howyan, directeur de la Maintenance aéronautique, de l'IGA Jean Reix, sous-directeur des opérations et de l'IGA Hélène Romagnan, sous-directrice stratégie et cohérence physico-financière.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T12:00:00.000Z",
+      "dateFin": "2026-09-17T13:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461076",
-      "titre": "Table ronde des syndicats de magistrats :",
+      "titre": "table ronde des syndicats de magistrats :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T12:30:00.000Z",
       "dateFin": null,
@@ -362,6 +515,15 @@
       "organisateur": "PO885028"
     },
     {
+      "uid": "RUANR5L17S2026IDC461077",
+      "titre": "table ronde des conférences nationales des chefs de cour et de juridiction :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461068",
       "titre": "audition de Mme Mélanie Joder, secrétaire générale de la direction générale de l’enseignement scolaire (DGESCO), M. Christophe Peyrel, chef du service de défense et de sécurité, Mme Lorna Farre, responsable du pôle et cheffe de la cellule bâti-scolaire et M. Pierre Desbiolles, chef du service de l’instruction publique, de l’action et de l’accompagnement pédagogique",
       "type": "reunionCommission_type",
@@ -369,6 +531,60 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461078",
+      "titre": "audition conjointe :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461079",
+      "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T18:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461116",
+      "titre": "déplacement à Clermont-Ferrand.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-18T07:00:00.000Z",
+      "dateFin": "2026-09-18T16:00:00.000Z",
+      "lieu": "Déplacement",
+      "organisateur": "PO880730"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461080",
+      "titre": "sous réserve de confirmation, audition de Mme Sarah El Haïry, Haute-commissaire à l’Enfance.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-18T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461081",
+      "titre": "sous réserve de confirmation, audition conjointe :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-18T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461082",
+      "titre": "Examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC460946",
@@ -380,6 +596,15 @@
       "organisateur": "PO851759"
     },
     {
+      "uid": "RUANR5L17S2026IDC461083",
+      "titre": "Suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461016",
       "titre": "examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -387,6 +612,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461084",
+      "titre": "Suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461018",
@@ -407,6 +641,24 @@
       "organisateur": "PO851628"
     },
     {
+      "uid": "RUANR5L17S2026IDC461085",
+      "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461086",
+      "titre": "Suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461019",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -425,6 +677,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461087",
+      "titre": "Suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460830",
       "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
       "type": "reunionCommission_type",
@@ -432,6 +693,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461088",
+      "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461047",
@@ -479,6 +749,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461089",
+      "titre": "Suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460989",
       "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant (sous réserve de confirmation) :",
       "type": "reunionCommission_type",
@@ -497,6 +776,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC461090",
+      "titre": "Suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461023",
       "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -504,6 +792,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461091",
+      "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461024",
@@ -522,6 +819,42 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461092",
+      "titre": "Suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461093",
+      "titre": "Suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461094",
+      "titre": "Éventuellement, suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-25T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461095",
+      "titre": "Éventuellement, suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-25T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC460984",
@@ -650,6 +983,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2027IDC461096",
+      "titre": "audition de M. Michel Goya, militaire, historien.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:00:00.000Z",
+      "dateFin": "2026-10-07T14:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
       "uid": "RUANR5L17S2027IDC460986",
       "titre": "Participation de M. Julien Limongi à la visite conjointe de la sous-commission sur l’avenir de la sécurité et des capacités de défense (DSCFC) et de la commission sur la démocratie et la sécurité (CDS) de l’AP OTAN à Canberra et Sydney (Australie) du 12 au 16 octobre 2026",
       "type": "reunionCommission_type",
@@ -657,6 +999,15 @@
       "dateFin": "2026-10-16T21:59:59.000Z",
       "lieu": "Canberra et Sydney (Australie)",
       "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461097",
+      "titre": "audition de M. Bruno Cruchant, directeur des affaires publiques de Shark Robotics.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:30:00.000Z",
+      "dateFin": "2026-10-13T16:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -675,6 +1026,33 @@
       "dateFin": null,
       "lieu": "salle 6549 (Palais-Bourbon)",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461098",
+      "titre": "audition de M. Thierry Francou, président-directeur général d'Eurenco et de M. Yves Traissac, directeur général adjoint en charge des Opérations.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T14:30:00.000Z",
+      "dateFin": "2026-10-20T16:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461099",
+      "titre": "audition de M. Xavier de Lavignère, président-directeur général d'Asgard Motors.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T15:30:00.000Z",
+      "dateFin": "2026-10-27T17:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461100",
+      "titre": "audition de M. Nicolas Groult, président-directeur général de KNDS France et de M. Alexandre Dupuy, directeur des affaires gouvernementales et institutionnelles.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:30:00.000Z",
+      "dateFin": "2026-11-10T17:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880668"
     },
     {
       "uid": "RUANR5L17S2027IDFL460521",

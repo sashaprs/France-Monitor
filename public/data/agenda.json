@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T11:12:51.838Z",
+  "updatedAt": "2026-09-15T14:43:10.862Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -426,7 +426,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461117",
-      "titre": "audition du général de division aérienne Arnaud Gary, sous-chef d'état-major « Plans-programmes ».",
+      "titre": "audition du Colonel Cédric Abriat, chef du bureau développement capacitaire de l’État-major de l'armée de l'air et de l'espace.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T08:30:00.000Z",
       "dateFin": "2026-09-17T10:00:00.000Z",
@@ -810,6 +810,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461059",
+      "titre": "- 14h00 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie\r\r- 14h30 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie\r\r- 14h40 : Visionnage de deux courts métrages illustrant les manifestations et la répression en Géorgie\r\r- 15h : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 17h : Table ronde n°2 « La culture comme outil de résistance »\rMme Nino Kirtadzé, journaliste, actrice et réalisatrice franco-géorgienne,\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\r\rTables rondes introduites par M. Othar Zourabichvili, président de l’Association Géorgienne en France\r\r- 18h30 : Lecture d’une adresse aux élus français par M. Guillaume Gallienne \r\r- 18h45 : Un mot de MC Solaar \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T12:00:00.000Z",
+      "dateFin": "2026-09-24T17:00:00.000Z",
+      "lieu": "Salle Colbert - 126, rue de l'Université 75007 Paris",
+      "organisateur": "PO851244"
     },
     {
       "uid": "RUANR5L17S2026IDC461025",

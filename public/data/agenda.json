@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T16:23:26.910Z",
+  "updatedAt": "2026-09-15T19:35:03.846Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -23,8 +23,8 @@
       "uid": "RUANR5L17S2026IDC461003",
       "titre": "audition en visioconférence, ouverte à la presse, de Mme Isabel Madrid, vice-présidente de l’Union nationale des centres communaux d’action sociale (UNCCAS), ancienne adjointe au maire de Talence, présidente du réseau Monalisa Gironde.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T07:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-15T07:05:00.000Z",
+      "dateFin": "2026-09-15T09:05:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -32,8 +32,8 @@
       "uid": "RUANR5L17S2026IDC461004",
       "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abris : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-15T09:10:00.000Z",
+      "dateFin": "2026-09-15T10:25:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -59,8 +59,8 @@
       "uid": "RUANR5L17S2026IDC461005",
       "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T12:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-15T12:35:00.000Z",
+      "dateFin": "2026-09-15T14:05:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -200,15 +200,6 @@
       "organisateur": "PO883902"
     },
     {
-      "uid": "RUANR5L17S2026IDC461008",
-      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : M. Jean-Benoît Dujol, directeur général.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461072",
       "titre": "table ronde d’experts sur le psychotraumatisme, la dissociation et l’emprise : Mme Maryse Le Men-Regnier, directrice de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE) ; M. Denis Roth-Fichet, secrétaire général de la CIIVISE ; Mme Laura Canitrot, collaboratrice de la CIIVISE ; Mme Alice Gayraud, ancienne responsable du plaidoyer de la CIIVISE ; \tMme Coraline Hingray, professeure de psychiatrie (CHRU de Nancy), fondatrice de la Maison de la résilience ; Mme Muriel Salmona, présidente de l'association Mémoire traumatique et victimologie.",
       "type": "reunionCommission_type",
@@ -234,6 +225,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461008",
+      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées », et Mme Ghislaine Palix-Cantone, cheffe du bureau « accès aux droits, inclusion et lutte contre la précarité alimentaire ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC461101",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:46:18.868Z",
+  "updatedAt": "2026-09-15T23:25:50.797Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -138,7 +138,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461071",
-      "titre": "audition de la coalition féministe et enfantiste pour une loi-cadre intégrale contre les violences sexuelles : Mme Alyssa Ahrabare, responsable du plaidoyer de Osez le féminisme ; Mme Sonia Bisch, présidente de STOP VOG ; Mme Françoise Brie, présidente de Women against violence, vice-présidente de La Clef ; Mme Amandine Cormier, Fédération syndicale unitaire (FSU) ; Mme Aude Doumenge, responsable plaidoyer de l’association Face à l'inceste ; Mme Céline Evita, consultante auprès de la coalition ; Mme Faustine Garcia, chargée de plaidoyer pour la Fondation des Femmes ; Mme Clémence Helfter, conseillère confédérale droits des femmes et égalité femmes-hommes à la Confédération générale du travail (CGT) ; Mme Myriam Lebkiri, Confédération générale du travail (CGT) ; Mme Angèle Lefranc, chargée de plaidoyer à la Fondation pour l'enfance ; Mme Anne-Cécile Mailfert, présidente de la Fondation des femmes ;\tMme Suzy Rojtman, porte-parole du Collectif national pour les droit des femmes (Cndf) ; Mme Floriane Volt, directrice des affaires publiques et du plaidoyer de la Fondation des femmes.",
+      "titre": "audition de la coalition féministe et enfantiste pour une loi-cadre intégrale contre les violences sexuelles : Mme Alyssa Ahrabare, responsable du plaidoyer de Osez le féminisme ; Mme Sonia Bisch, présidente de STOP VOG ; Mme Françoise Brie, présidente de Women against violence, vice-présidente de La Clef ; Mme Amandine Cormier, Fédération syndicale unitaire (FSU) ; Mme Aude Doumenge, responsable plaidoyer de l’association Face à l'inceste ; Mme Céline Evita, consultante auprès de la coalition ; Mme Faustine Garcia, chargée de plaidoyer pour la Fondation des Femmes ; Mme Clémence Helfter, conseillère confédérale droits des femmes et égalité femmes-hommes à la Confédération générale du travail (CGT) ; Mme Myriam Lebkiri, Confédération générale du travail (CGT) ; Mme Angèle Lefranc, chargée de plaidoyer à la Fondation pour l'enfance ; Mme Anne-Cécile Mailfert, présidente de la Fondation des femmes ; Mme Suzy Rojtman, porte-parole du Collectif national pour les droit des femmes (Cndf) ; Mme Floriane Volt, directrice des affaires publiques et du plaidoyer de la Fondation des femmes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T07:00:00.000Z",
       "dateFin": null,
@@ -228,7 +228,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461008",
-      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées », et Mme Ghislaine Palix-Cantone, cheffe du bureau « accès aux droits, inclusion et lutte contre la précarité alimentaire ».",
+      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées », et Mme Anne-Claire Horel, adjointe à la sous-direction « inclusion sociale, insertion et lutte contre la pauvreté ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T09:00:00.000Z",
       "dateFin": null,
@@ -243,6 +243,15 @@
       "dateFin": "2026-09-16T10:30:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO880795"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461119",
+      "titre": "nomination d’un rapporteur sur la proposition de loi de M. Thomas Ménagé visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T10:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2026IDC461070",
@@ -713,6 +722,15 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2026IDC461120",
+      "titre": "désignation d’un rapporteur sur la proposition de loi visant à abroger les zones à faibles émissions-mobilités (n° 2970) (sous réserve de son inscription à l’ordre du jour).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460788",
       "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
@@ -911,6 +929,15 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2026IDC461121",
+      "titre": "examen de la proposition de loi visant à abroger les zones à faibles émissions-mobilités (n° 2970) (sous réserve de son inscription à l’ordre du jour)(rapport).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461026",
       "titre": "– audition de Mme Emmanuelle Wargon, présidente de la Commission de régulation de l’énergie (CRE).",
       "type": "reunionCommission_type",
@@ -936,6 +963,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461122",
+      "titre": "en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée, élection du bureau de la Commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461050",

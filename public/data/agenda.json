@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T09:07:57.734Z",
+  "updatedAt": "2026-09-16T14:38:07.418Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -164,15 +164,6 @@
       "organisateur": "PO881988"
     },
     {
-      "uid": "RUANR5L17S2026IDC461041",
-      "titre": "nomination du rapporteur de la mission d’information flash sur le coût de la canicule ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460832",
       "titre": "nomination d’un rapporteur en vue de l’examen, en application de l'article 148 du Règlement, de la pétition n° 5174 (« Facturation électronique obligatoire, c’est non ! ») ;",
       "type": "reunionCommission_type",
@@ -189,6 +180,15 @@
       "dateFin": null,
       "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461041",
+      "titre": "nomination du rapporteur de la mission d’information flash sur le coût de la canicule ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T07:35:00.000Z",
+      "dateFin": "2026-09-16T08:35:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461108",
@@ -228,7 +228,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461008",
-      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées », et Mme Anne-Claire Horel, adjointe à la sous-direction « inclusion sociale, insertion et lutte contre la pauvreté ».",
+      "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T09:00:00.000Z",
       "dateFin": null,
@@ -587,6 +587,15 @@
       "organisateur": "PO884839"
     },
     {
+      "uid": "RUANR5L17S2026IDC461123",
+      "titre": "échanges de vues sur les travaux de la mission d’information.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461082",
       "titre": "Examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
       "type": "reunionCommission_type",
@@ -594,6 +603,33 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461124",
+      "titre": "audition de Mme Audrey Fouillard, ancienne principale du collège de Conflans-Sainte-Honorine.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461125",
+      "titre": "audition d’une principale adjointe de collège.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461126",
+      "titre": "audition d’une directrice d’école.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T10:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2026IDC460946",

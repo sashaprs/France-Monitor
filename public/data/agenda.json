@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:26:19.084Z",
+  "updatedAt": "2026-09-16T21:54:41.055Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461039",
@@ -159,7 +159,7 @@
       "titre": "audition, ouverte à la presse, des représentants du conseil national des politiques de lutte contre la pauvreté et l’exclusion sociale (CNLE) : M. Nicolas Duvoux (président, sociologue à l’Université Paris VIII et à l’Université de Genève), Mme Muriel Pucci (présidente du comité scientifique, économiste à l’Université Paris 1), M. Alain Villez (membre du Collège des associations - Petits Frères des Pauvres), Mme Fatouma Diop et M. Ali Tamraoui (membres du 5ème collège).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T07:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T09:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -168,7 +168,7 @@
       "titre": "nomination d’un rapporteur en vue de l’examen, en application de l'article 148 du Règlement, de la pétition n° 5174 (« Facturation électronique obligatoire, c’est non ! ») ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T09:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -218,22 +218,22 @@
       "organisateur": "PO882110"
     },
     {
-      "uid": "RUANR5L17S2026IDC460833",
-      "titre": "table ronde sur la situation et les perspectives économiques des équipementiers automobiles en France, réunissant :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461008",
       "titre": "audition, ouverte à la presse, des représentants de la direction générale de la cohésion sociale (DGCS) : MM. Jean-Benoît Dujol, directeur général, Arnaud Flanquart, sous-directeur du service « autonomie des personnes âgées et des personnes handicapées ».",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-16T09:05:00.000Z",
+      "dateFin": "2026-09-16T10:35:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC460833",
+      "titre": "table ronde sur la situation et les perspectives économiques des équipementiers automobiles en France, réunissant :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T09:10:00.000Z",
+      "dateFin": "2026-09-16T10:30:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2026IDC461101",
@@ -249,7 +249,7 @@
       "titre": "nomination d’un rapporteur sur la proposition de loi de M. Thomas Ménagé visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T10:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T10:35:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -321,7 +321,7 @@
       "titre": "examen et vote sur l’autorisation de publication du rapport de la mission d’information sur le bilan et les conséquences des crédits carbone européens et les impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne (Mmes Claire Marais-Beuil et Eva Sas, rapporteures).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T13:45:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -372,7 +372,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461044",
-      "titre": "audition de Mme Sandra Desmettre, sous-directrice des conditions de travail, de la santé et de la sécurité au travail (SDCT), Mme Marie-Lise Carton-Zito, adjointe à la sous-directrice, Mme Heidi Borrel, cheffe du bureau des risques chimiques, physiques et biologiques (CT2), et M. Jérémy de Saint-Jorès, ingénieur au bureau CT2, direction générale du travail (DGT), ministère du travail et des solidarités.",
+      "titre": "audition de de Mme Marie-Lise Carton-Zito, adjointe à la sous-directrice des conditions de travail, de la santé et de la sécurité au travail (SDCT), Mme Heidi Borrel, cheffe du bureau des risques chimiques, physiques et biologiques (CT2), M. Jérémy de Saint-Jorès, adjoint à la cheffe du bureau CT2, et M. Olivier Calvez, ingénieur de prévention au bureau CT2, direction générale du travail (DGT), ministère du travail et des solidarités.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T07:00:00.000Z",
       "dateFin": null,
@@ -570,7 +570,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461080",
-      "titre": "sous réserve de confirmation, audition de Mme Sarah El Haïry, Haute-commissaire à l’Enfance.",
+      "titre": "audition de Mme Aude Luquet, coordinatrice interministérielle pour l’égalité entre les femmes et les hommes en Outre-mer, et M. Loïc Tanguy, haut fonctionnaire",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-18T07:00:00.000Z",
       "dateFin": null,
@@ -579,9 +579,9 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461081",
-      "titre": "sous réserve de confirmation, audition conjointe :",
+      "titre": "conseil économique, social et environnemental (CESE) : Mme Manon Rousselot Pailley, membre au titre de la cohésion sociale et territoriale et vie associative, et M. Pierre-Alain Sarthou, directeur général de la Convention nationale des associations de protection de l’enfant (CNAPE), membre au titre de la cohésion sociale et territoriale et vie associative.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-18T08:30:00.000Z",
+      "dateDebut": "2026-09-18T08:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
@@ -1125,6 +1125,15 @@
       "dateFin": "2026-10-27T17:00:00.000Z",
       "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDFL461127",
+      "titre": "Audition de la fédération française des associations pour une protection non anthropomorphiste de la nature et des animaux (ProNaturA France) sur le thème du projet gouvernemental d’élaboration d’une liste positive des animaux d’espèces non domestiques dont la détention comme animaux de compagnie ou dans le cadre d’élevages d’agrément est autorisée en application du I. de l’article L. 413-1 A du code de l’environnement.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-11-03T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9e Bureau",
+      "organisateur": "PO854354"
     },
     {
       "uid": "RUANR5L17S2027IDC461100",

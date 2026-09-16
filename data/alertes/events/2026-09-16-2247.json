@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-09-16T22:47:33.450Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54909",
+   "type": "nouveau_dossier",
+   "date": "2026-09-16T22:47:33.450Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des finances, de l'économie générale et du contrôle budg…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/credits_carbone_quotas_UE",
+   "dossier_id": "DLR5L17N54909",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire, en conclusion des travaux d'une mission d'information relative au bilan et conséquences des crédits carbone européens et aux impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne rapport d'information déposé en application de l'article 145 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire, en conclusion des travaux d'une mission d'information relative au bilan et conséquences des crédits carbone européens et aux impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "odj:ed357b4fa66dbe07",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-16T22:47:33.450Z",
+   "titre": "À l'ordre du jour — CS Réponse intégrale : Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "detail": "vendredi 18 septembre à 09:00 · audition de Mme Aude Luquet, coordinatrice interministérielle pour l’égalité entre les femmes et les hommes en Outre-mer, et M. Loïc Tanguy, haut fonctionnaire",
+   "url": null,
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "audition de Mme Aude Luquet, coordinatrice interministérielle pour l’égalité entre les femmes et les hommes en Outre-mer, et M. Loïc Tanguy, haut fonctionnaire CS Réponse intégrale Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "odj:7468dee1319e77a6",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-16T22:47:33.450Z",
+   "titre": "À l'ordre du jour — CS Réponse intégrale : Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "detail": "vendredi 18 septembre à 10:00 · conseil économique, social et environnemental (CESE) : Mme Manon Rousselot Pailley, membre au titre de la cohésion sociale et territoriale et vie associative, et M. Pierre-Alain Sarthou, directeur général de la Conventi…",
+   "url": null,
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "conseil économique, social et environnemental (CESE) : Mme Manon Rousselot Pailley, membre au titre de la cohésion sociale et territoriale et vie associative, et M. Pierre-Alain Sarthou, directeur général de la Conventi… CS Réponse intégrale Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  }
+ ]
+}

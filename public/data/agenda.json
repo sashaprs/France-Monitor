@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-17T11:04:55.737Z",
+  "updatedAt": "2026-09-17T14:46:38.877Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461053",
-      "titre": "table ronde avec les représentants de l'Agence des participations de l’État (M. Arthur Faust, directeur de participations Transport), de la Direction de la diplomatie économique (M. Tristan Dufes, sous-directeur des secteurs stratégiques et aux technologies émergentes, DSE/STRATE), de la Direction générale des entreprises (Mme Valérie Petat, directrice de projets aéronautique, naval, ferroviaire et industrie du futur, service de l’industrie, sous-direction des matériels de transport, de la mécanique et de l’énergie et M. Xavier Ploquin, sous-directeur des matériels de transport, de la mécanique et de l'énergie)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-14T13:00:00.000Z",
-      "dateFin": "2026-09-14T14:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
     {
       "uid": "RUANR5L17S2026IDC461003",
       "titre": "audition en visioconférence, ouverte à la presse, de Mme Isabel Madrid, vice-présidente de l’Union nationale des centres communaux d’action sociale (UNCCAS), ancienne adjointe au maire de Talence, présidente du réseau Monalisa Gironde.",
@@ -267,7 +258,7 @@
       "titre": "audition de M. Gérald Darmanin, Garde des Sceaux, ministre de la Justice, et de Mme Aurore Bergé, ministre déléguée auprès du Premier ministre, chargée de l’égalité entre les femmes et les hommes et de la lutte contre les discriminations ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T16:15:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -389,15 +380,6 @@
       "organisateur": "PO884839"
     },
     {
-      "uid": "RUANR5L17S2026IDC461043",
-      "titre": "examen pour avis des articles 1er, 4, 4 bis et 4 ter du projet de loi, modifié par le Sénat, visant la relance et la décentralisation du logement (n° 3058).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461065",
       "titre": "audition de Femmes@Numérique – Mme Charlène Jouanguy, déléguée générale et Mme Juliette Giordano, cheffe de projet.",
       "type": "reunionCommission_type",
@@ -405,6 +387,15 @@
       "dateFin": null,
       "lieu": "3ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461043",
+      "titre": "examen pour avis des articles 1er, 4, 4 bis et 4 ter du projet de loi, modifié par le Sénat, visant la relance et la décentralisation du logement (n° 3058).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:35:00.000Z",
+      "dateFin": "2026-09-17T09:10:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461055",
@@ -723,7 +714,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460830",
-      "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
+      "titre": "audition, ouverte à la presse, de Mme Chantal Verger, présidente de la commission d’évaluation de l’aide publique au développement (CEAPD), et de M. Denis Tersen, rapporteur de l’étude-diagnostic sur les flux financiers de l’APD française, accompagnés de M. Olivier Brochenin, secrétaire général de la commission d’évaluation ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:00:00.000Z",
       "dateFin": null,
@@ -858,7 +849,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461059",
-      "titre": "- 14h00 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie\r\r- 14h30 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie\r\r- 14h40 : Visionnage de deux courts métrages illustrant les manifestations et la répression en Géorgie\r\r- 15h : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 17h : Table ronde n°2 « La culture comme outil de résistance »\rMme Nino Kirtadzé, journaliste, actrice et réalisatrice franco-géorgienne,\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\r\rTables rondes introduites par M. Othar Zourabichvili, président de l’Association Géorgienne en France\r\r- 18h30 : Lecture d’une adresse aux élus français par M. Guillaume Gallienne \r\r- 18h45 : Un mot de MC Solaar \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
+      "titre": "Colloque « Résister par la culture, une lutte Géorgienne » organisé par le groupe d'amitié France-Géorgie. \rFace au recul démocratique à l’œuvre en Géorgie depuis les élections d’octobre 2024 et l’arrivée au pouvoir du parti « Rêve géorgien », le colloque vise à souligner la résistance du peuple géorgien face à l’oppression et à la privation de libertés. À travers le chant, le théâtre ou encore l’art, le peuple géorgien utilise la culture comme un moyen de résistance face à la répression d’un régime toujours plus avide de museler son peuple. Organisé autour de deux tables rondes, le colloque retracera dans un premier temps les atteintes démocratiques, notamment en matière culturelle, puis donnera la parole aux acteurs de cette résistance culturelle et à son rôle dans la mobilisation pacifique de la société civile géorgienne. \r\r- 14h00 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie\r\r- 14h30 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie\r\r- 14h40 : Visionnage de deux courts métrages illustrant les manifestations et la répression en Géorgie\r\r- 15h : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, cinquième présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 17h : Table ronde n°2 « La culture comme outil de résistance »\rMme Nino Kirtadzé, journaliste, actrice et réalisatrice franco-géorgienne,\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\r\rTables rondes introduites par M. Othar Zourabichvili, président de l’Association Géorgienne en France\r\r- 18h30 : Lecture d’une adresse aux élus français par M. Guillaume Gallienne \r\r- 18h45 : Un mot de MC Solaar \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-24T12:00:00.000Z",
       "dateFin": "2026-09-24T17:00:00.000Z",
@@ -929,6 +920,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC461128",
+      "titre": "examen, conjoint avec la commission des finances et ouvert à la presse, et vote sur l’autorisation de la publication du rapport de la mission d’information commune sur les moyens consacrés au volet diplomatique de notre réorientation stratégique (M. Karim Ben Cheikh et Mme Sophie Mette, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461006",
       "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
@@ -936,6 +936,15 @@
       "dateFin": null,
       "lieu": "en cours de programmation",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461129",
+      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2026IDC460831",
@@ -974,6 +983,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461130",
+      "titre": "examen ouvert à la presse et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE (n° 3060) (Mme Alix Fruchon, rapporteure) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461131",
+      "titre": "examen, conjoint avec la commission de la défense nationale et des forces armées et ouvert à la presse, et vote sur l’autorisation de la publication du rapport de la mission d’information commune sur l'articulation et la compatibilité des défenses européenne et atlantique (M. David Habib et Mme Michèle Tabarot, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461027",
       "titre": "– audition de M. Octave Klaba, président directeur général d’OVHcloud.",
       "type": "reunionCommission_type",
@@ -981,6 +1008,24 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461132",
+      "titre": "audition, ouverte à la presse et conjointe avec les commissions des affaires économiques et de la défense nationale et des forces armées, de Mme Catherine Vautrin, ministre des armées et des anciens combattants, de M. Sébastien Martin, ministre délégué chargé de l’industrie, et de Mme Éléonore Caroit, ministre déléguée chargée de la francophonie, des partenariats internationaux et des Français de l’étranger, relative aux rapports annuels du Gouvernement au Parlement de juillet 2026 sur les exportations d’armement et les exportations des biens à double usage de la France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461133",
+      "titre": "élection des membres du bureau de la commission (en cas d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461049",
@@ -1046,6 +1091,15 @@
       "organisateur": "PO854354"
     },
     {
+      "uid": "RUANR5L17S2027IDC461134",
+      "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461002",
       "titre": "audition du Délégué Général, du Président de la commission PME et du Président de la commission recherche technologie et innovation du GICAT.",
       "type": "reunionCommission_type",
@@ -1053,6 +1107,24 @@
       "dateFin": "2026-10-06T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461135",
+      "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et l’Agence française de développement pour la période 2027-2029 (Mme Sabrina Sebaihi et Mme Liliana Tanguy, rapporteures).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461136",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(sous réserve de son dépôt) :\r- examen de l’avis sur le prélèvement sur recettes au profit de l’Union européenne (M. Aurélien Taché, rapporteur pour avis) ;\r- vote sur l’article du projet de loi de finances pour 2027 prévoyant le prélèvement sur recettes au profit de l’Union européenne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461096",

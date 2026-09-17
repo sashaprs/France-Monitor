@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:21:23.867Z",
+  "updatedAt": "2026-09-17T19:37:09.947Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461003",
@@ -123,7 +123,7 @@
       "titre": "audition de la coalition féministe et enfantiste pour une loi-cadre intégrale contre les violences sexuelles : Mme Alyssa Ahrabare, responsable du plaidoyer de Osez le féminisme ; Mme Sonia Bisch, présidente de STOP VOG ; Mme Françoise Brie, présidente de Women against violence, vice-présidente de La Clef ; Mme Amandine Cormier, Fédération syndicale unitaire (FSU) ; Mme Aude Doumenge, responsable plaidoyer de l’association Face à l'inceste ; Mme Céline Evita, consultante auprès de la coalition ; Mme Faustine Garcia, chargée de plaidoyer pour la Fondation des Femmes ; Mme Clémence Helfter, conseillère confédérale droits des femmes et égalité femmes-hommes à la Confédération générale du travail (CGT) ; Mme Myriam Lebkiri, Confédération générale du travail (CGT) ; Mme Angèle Lefranc, chargée de plaidoyer à la Fondation pour l'enfance ; Mme Anne-Cécile Mailfert, présidente de la Fondation des femmes ; Mme Suzy Rojtman, porte-parole du Collectif national pour les droit des femmes (Cndf) ; Mme Floriane Volt, directrice des affaires publiques et du plaidoyer de la Fondation des femmes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T09:20:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -182,15 +182,6 @@
       "organisateur": "PO883902"
     },
     {
-      "uid": "RUANR5L17S2026IDC461072",
-      "titre": "table ronde d’experts sur le psychotraumatisme, la dissociation et l’emprise : Mme Maryse Le Men-Regnier, directrice de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE) ; M. Denis Roth-Fichet, secrétaire général de la CIIVISE ; Mme Laura Canitrot, collaboratrice de la CIIVISE ; Mme Alice Gayraud, ancienne responsable du plaidoyer de la CIIVISE ; \tMme Coraline Hingray, professeure de psychiatrie (CHRU de Nancy), fondatrice de la Maison de la résilience ; Mme Muriel Salmona, présidente de l'association Mémoire traumatique et victimologie.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461064",
       "titre": "table ronde de DRH n° 2 « industrie »,\r- schneider Electric – ¬ M. Michael Fossat, directeur des ressources humaines France,\r- vinci – M. Ludovic Demierre, directeur des ressources humaines,\r- albéa Tubes – M. Yohann Dauvet, responsable relations sociales Europe.",
       "type": "reunionCommission_type",
@@ -216,6 +207,15 @@
       "dateFin": "2026-09-16T10:30:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461072",
+      "titre": "table ronde d’experts sur le psychotraumatisme, la dissociation et l’emprise : Mme Maryse Le Men-Regnier, directrice de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE) ; M. Denis Roth-Fichet, secrétaire général de la CIIVISE ; Mme Laura Canitrot, collaboratrice de la CIIVISE ; Mme Alice Gayraud, ancienne responsable du plaidoyer de la CIIVISE ; \tMme Coraline Hingray, professeure de psychiatrie (CHRU de Nancy), fondatrice de la Maison de la résilience ; Mme Muriel Salmona, présidente de l'association Mémoire traumatique et victimologie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-16T09:25:00.000Z",
+      "dateFin": "2026-09-16T11:15:00.000Z",
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461101",
@@ -330,7 +330,7 @@
       "titre": "- examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène\rdes violences sexuelles et sexistes contre les femmes et les enfants.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T16:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-16T17:10:00.000Z",
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
     },
@@ -362,22 +362,22 @@
       "organisateur": "PO884940"
     },
     {
-      "uid": "RUANR5L17S2026IDC461009",
-      "titre": "audition, ouverte à la presse, des représentants de la Commission nationale consultative des droits de l’homme (CNCDH) : Mmes Maryvonne Lyazid, Mathé Toullier, membres de la CNCDH, et Camille Tauveron-Lahouze, conseillère.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461074",
-      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur.",
+      "titre": "Audition de M. Laurent Nuñez, ministre de l’Intérieur ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461009",
+      "titre": "audition, ouverte à la presse, des représentants de la Commission nationale consultative des droits de l’homme (CNCDH) : Mmes Maryvonne Lyazid, Mathé Toullier, membres de la CNCDH, et Camille Tauveron-Lahouze, conseillère.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T07:05:00.000Z",
+      "dateFin": "2026-09-17T08:35:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881988"
     },
     {
       "uid": "RUANR5L17S2026IDC461065",
@@ -414,6 +414,15 @@
       "dateFin": "2026-09-17T09:00:00.000Z",
       "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
       "organisateur": "PO880699"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461137",
+      "titre": "Audition de M. Jean-Pierre Farandou, ministre du Travail et des Solidarités, et de Mme Stéphanie Rist, ministre de la Santé, des familles, de l'autonomie et des personnes handicapées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-17T08:30:00.000Z",
+      "dateFin": "2026-09-17T10:20:00.000Z",
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461117",
@@ -623,6 +632,15 @@
       "organisateur": "PO851759"
     },
     {
+      "uid": "RUANR5L17S2026IDC461141",
+      "titre": "- audition commune de la Fédération Nationale des Syndicats d'Exploitants Agricoles – FNSEA avec M. Bruno Ledru, membre du conseil d’administration et président de la commission fiscale et sociale, M. Jean-Louis Chandellier, directeur général adjoint, Mme Pauline Heurtebize, responsable du service économie, Mme Romane Sagnier, responsable des affaires publiques et des Jeunes Agriculteurs avec\rM. Jocelyn Dubost, président, M. Vincent Ferry, vice-président, Mme Gabrielle Guillemot, conseillère juridique en droit rural et Mme Bérénice Adeline, conseillère affaires publiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T11:00:00.000Z",
+      "dateFin": "2026-09-21T12:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO885028"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461083",
       "titre": "Suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
@@ -803,6 +821,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC461138",
+      "titre": "- audition de M. David di Nota, auteur de J’ai exécuté un chien de l’enfer : rapport sur l’assassinat de Samuel Paty.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO884520"
+    },
+    {
       "uid": "RUANR5L17S2026IDC460990",
       "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant (sous réserve de confirmation) :",
       "type": "reunionCommission_type",
@@ -810,6 +837,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461139",
+      "titre": "- audition de M. Jean-Louis Linder, président de l’Autonome de solidarité laïque, et de Maître Florence Lec, avocate.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2026IDC461090",
@@ -837,6 +873,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461140",
+      "titre": "table ronde d’associations de victimes et acteurs engagés dans la prévention des risques chimiques professionnels, réunissant : M. Bernard Bouché, militant de l’Association Henri Pézerat ; MM. François Desriaux, porte-parole, et Jean-François Fournial, administrateur, Association nationale de défense des victimes de l’amiante et autres maladies professionnelles (Andeva) ; M. Philippe Karim Felissi, avocat conseil auprès de la FNATH, Association des accidentés de la vie ; et M. Antoine Lambert, président de l’association Phyto-Victimes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
     },
     {
       "uid": "RUANR5L17S2026IDC461024",
@@ -929,6 +974,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2026IDC461142",
+      "titre": "audition, à huis clos, du général d’armée aérienne Fabien Mandon, chef d’état major des armées, sur l’actualité géopolitique et militaire ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461006",
       "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
@@ -992,6 +1046,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2026IDC461143",
+      "titre": "examen, conjoint avec la commission des affaires étrangères et ouvert à la presse, de la mission d’information commune sur l'articulation et la compatibilité des défenses européennes et atlantiques (M. David Habib et Mme Michèle Tabarot, rapporteurs) et vote sur l’autorisation de la publication du rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461131",
       "titre": "examen, conjoint avec la commission de la défense nationale et des forces armées et ouvert à la presse, et vote sur l’autorisation de la publication du rapport de la mission d’information commune sur l'articulation et la compatibilité des défenses européenne et atlantique (M. David Habib et Mme Michèle Tabarot, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1019,8 +1082,17 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2026IDC461144",
+      "titre": "audition commune, ouverte à la presse et conjointe avec les commissions des affaires économiques et des affaires étrangères, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, M. Sébastien Martin, ministre délégué chargé de l’Industrie, et Mme Éléonore Caroit, ministre déléguée chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger, relative aux rapports annuels du Gouvernement au Parlement de juillet 2026 sur les exportations d’armement et les exportations des biens à double usage de la France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461133",
-      "titre": "élection des membres du bureau de la commission (en cas d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale).",
+      "titre": "élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
       "dateFin": null,
@@ -1044,6 +1116,24 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461145",
+      "titre": "élection du Bureau de la Commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461146",
+      "titre": "discussion générale puis examen, ouvert à la presse, de la proposition de loi pour étendre le statut et les conditions d’attribution de la mention « Mort pour le service de la Nation » (n° 1553).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461050",
@@ -1118,6 +1208,24 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461147",
+      "titre": "audition, ouverte à la presse, du général d’armée Hubert Bonneau, directeur général de la gendarmerie nationale, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461148",
+      "titre": "audition, ouverte à la presse, des associations d’anciens combattants membres du G12, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461136",
       "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(sous réserve de son dépôt) :\r- examen de l’avis sur le prélèvement sur recettes au profit de l’Union européenne (M. Aurélien Taché, rapporteur pour avis) ;\r- vote sur l’article du projet de loi de finances pour 2027 prévoyant le prélèvement sur recettes au profit de l’Union européenne.",
       "type": "reunionCommission_type",
@@ -1136,6 +1244,42 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2027IDC461149",
+      "titre": "audition, ouverte à la presse, des organisations syndicales des personnels civils de la défense, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461150",
+      "titre": "audition, ouverte à la presse, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461152",
+      "titre": "audition, ouverte à la presse, de M. Guillaume Ollagnier, directeur général des relations internationales et de la stratégie (DGRIS), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461153",
+      "titre": "audition, ouverte à la presse, du général d’armée aérienne Fabien Mandon, chef d’état-major des Armées, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC460986",
       "titre": "Participation de M. Julien Limongi à la visite conjointe de la sous-commission sur l’avenir de la sécurité et des capacités de défense (DSCFC) et de la commission sur la démocratie et la sécurité (CDS) de l’AP OTAN à Canberra et Sydney (Australie) du 12 au 16 octobre 2026",
       "type": "reunionCommission_type",
@@ -1152,6 +1296,69 @@
       "dateFin": "2026-10-13T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461154",
+      "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461155",
+      "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461156",
+      "titre": "audition, ouverte à la presse, du général d’armée Jacques de Montgros, chef d’état-major de l’armée de Terre, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461163",
+      "titre": "audition, ouverte à la presse, du Conseil supérieur de la fonction militaire (CSFM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461158",
+      "titre": "audition, ouverte à la presse, de M. Christophe Mauriet, secrétaire général pour l’administration du ministère des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461159",
+      "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461160",
+      "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -1179,6 +1386,24 @@
       "dateFin": "2026-10-20T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461161",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461162",
+      "titre": "discussion générale, ouverte à la presse, et vote sur les crédits des missions « Sécurités », « Défense » et « Monde combattant, mémoire et liens avec la Nation ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461099",

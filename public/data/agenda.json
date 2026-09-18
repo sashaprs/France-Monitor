@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-18T13:25:20.315Z",
+  "updatedAt": "2026-09-18T14:13:24.834Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461113",
-      "titre": "audition du vice-amiral d'escadre Éric Malbrunot, sous-chef d'état-major Plans.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:00:00.000Z",
-      "dateFin": "2026-09-15T15:30:00.000Z",
-      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880699"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461106",
-      "titre": "Groupe M6 – Mme Karine Blouët, secrétaire générale, et Mme Marie Grau-Chevallereau, directrice des affaires publiques et des études réglementaires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461114",
-      "titre": "audition du vice-amiral d'escadre Éric Malbrunot, sous-chef d'état-major Plans.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:00:00.000Z",
-      "dateFin": "2026-09-15T15:30:00.000Z",
-      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
     {
       "uid": "RUANR5L17S2026IDC460808",
       "titre": "audition du Général de corps d’armée Bruno Baratz au Commandement du combat futur (CCF) de l'Armée de Terre.",

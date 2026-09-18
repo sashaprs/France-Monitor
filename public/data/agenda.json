@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-18T14:13:24.834Z",
+  "updatedAt": "2026-09-18T17:31:18.835Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460808",
-      "titre": "audition du Général de corps d’armée Bruno Baratz au Commandement du combat futur (CCF) de l'Armée de Terre.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:30:00.000Z",
-      "dateFin": "2026-09-15T16:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461062",
-      "titre": "audition de l'Association des Maires de France (AMF) avec M. Emmanuel Sallaberry, maire de Talence et co-président de la commission des finances de l’AMF, M. Edmond Jorda, maire de Ste-Marie la mer et Président des maires des Pyrénées-Orientales, M. Éric Ménassi, maire de Trèbes et président de l’association des maires de l’Aude, Mme Gwenola Stephan, adjointe au maire de Montrouge, Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T14:30:00.000Z",
-      "dateFin": "2026-09-15T15:30:00.000Z",
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC461115",
       "titre": "- déplacement à Villacoublay.",
@@ -237,7 +219,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461058",
-      "titre": "- examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène\rdes violences sexuelles et sexistes contre les femmes et les enfants.",
+      "titre": "examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-16T16:45:00.000Z",
       "dateFin": "2026-09-16T17:10:00.000Z",
@@ -411,7 +393,7 @@
       "titre": "table ronde des syndicats de magistrats :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-17T14:00:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -429,7 +411,7 @@
       "titre": "table ronde des conférences nationales des chefs de cour et de juridiction :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-17T15:30:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -447,7 +429,7 @@
       "titre": "audition conjointe :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-17T17:00:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -456,7 +438,7 @@
       "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-17T18:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-17T19:55:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO884839"
     },
@@ -605,6 +587,24 @@
       "organisateur": "PO884839"
     },
     {
+      "uid": "RUANR5L17S2026IDC461179",
+      "titre": "audition de M. Frédéric Lasserre, professeur au département de géographie de l'Université Laval (Québec), directeur du Conseil Québécois d’Études géopolitiques (CQEG).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T12:00:00.000Z",
+      "dateFin": "2026-09-22T13:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO880699"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461177",
+      "titre": "audition de M. Marc Chassillan, expert en armement.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T13:00:00.000Z",
+      "dateFin": "2026-09-22T14:00:00.000Z",
+      "lieu": "Salle 4067 - 9 ue de Bourgogne",
+      "organisateur": "PO880763"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461086",
       "titre": "Suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
@@ -621,6 +621,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461178",
+      "titre": "audition de M. Alexandre Dupuy, directeur des activités systèmes de KNDS France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T14:30:00.000Z",
+      "dateFin": "2026-09-22T15:30:00.000Z",
+      "lieu": "Salle 4067 - 9 ue de Bourgogne",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2026IDC461020",
@@ -731,6 +740,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2026IDC461180",
+      "titre": "audition du GDI Le Carff, sous-chef d’état-major plans et programmes de l’Armée de Terre.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T13:00:00.000Z",
+      "dateFin": "2026-09-23T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461138",
       "titre": "- audition de M. David di Nota, auteur de J’ai exécuté un chien de l’enfer : rapport sur l’assassinat de Samuel Paty.",
       "type": "reunionCommission_type",
@@ -747,6 +765,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461181",
+      "titre": "audtion des représentants de Thalès : Général d’armée Bernard Barrera, Conseiller Défense Terre ; M. Cyrille Guetin, Directeur technique ; et M. François Xavier Héon, responsable des Relations gouvernementales et Conseiller opérationnel Milieu Terre.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:30:00.000Z",
+      "dateFin": "2026-09-23T15:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2026IDC461139",
@@ -1455,6 +1482,15 @@
       "titre": "Audition de la Fondation droit animal, éthique et sciences sur le thème des propositions de la Fondation pour améliorer la condition animale.",
       "type": "reunionInitParlementaire_type",
       "dateDebut": "2026-12-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "9e Bureau",
+      "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDFL461176",
+      "titre": "Audition de la Fédération pour la gestion du Livre officiel des origines félines (LOOF) sur le thème des enjeux liés à la sélection, à la santé et aux hypertypes chez le chat.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2027-01-05T13:00:00.000Z",
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"

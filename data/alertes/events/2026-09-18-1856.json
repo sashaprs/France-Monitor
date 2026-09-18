@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-09-18T18:56:50.073Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54915",
+   "type": "nouveau_dossier",
+   "date": "2026-09-18T18:56:50.073Z",
+   "titre": "Nouveau dossier : Le contrôle de l’usage de la force publique par les inspections générales de la police et de la gendarmerie",
+   "detail": "Résolution · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/controle_usage_force_police_17e",
+   "dossier_id": "DLR5L17N54915",
+   "texte_matchable": "Le contrôle de l’usage de la force publique par les inspections générales de la police et de la gendarmerie Le contrôle de l’usage de la force publique par les inspections générales de la police et de la gendarmerie Résolution Lois",
+   "profils": []
+  }
+ ]
+}

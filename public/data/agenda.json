@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-09-18T08:53:55.128Z",
+  "updatedAt": "2026-09-18T13:25:20.315Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461004",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Foyer Notre Dame des sans-abris : Mme Chloé Monin (directrice Accueil, Hébergement et Logement), M. Damien Deschamps (responsable de pôle - référent hébergement), et Mme Sophie Champetier (responsable de service - plateforme « Alliance »).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T09:10:00.000Z",
-      "dateFin": "2026-09-15T10:25:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461060",
-      "titre": "audition de MM. Paul Esmein, directeur général de France Assureurs, Christophe Delcamp, directeur assurances de dommages et de responsabilité, Pierre Pellissier de Féligonde, directeur affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T11:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461104",
-      "titre": "groupe TF1 – Mme Julie Burguburu, secrétaire générale, Mme Peggy le Gouvello, directrice des relations extérieures et institutionnelles, et M. Maxime Cermack, responsable des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461005",
-      "titre": "audition, ouverte à la presse, de Mme Claire Hédon, ancienne Défenseure des droits (2020-2026).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T12:35:00.000Z",
-      "dateFin": "2026-09-15T14:05:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461061",
-      "titre": "audition du Ministère de l’agriculture avec M. Elodie Lematte, cheffe du service compétitivité et Performance environnementale à la DGP, M. Paul Hennart, adjoint au sous-directeur performance environnementale et valorisation des territoires à la DGPE, M. Nicolas Cherel, sous-directeur des filières agroalimentaires à la DGPE, M. Sébastien Colliat, chef du service des affaires financières, sociales et logistiques au SG, M. Philippe Auzary, adjoint au chef de service des affaires financières, sociales et logistiques au SG, M. Alexandre Israelian, sous-directeur des affaires budgétaires et comptables au service des affaires financières, sociales et logistiques du SG.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461105",
-      "titre": "groupe Canal+ – M. Gérald-Brice Viret, directeur général en charge des programmes et des antennes, M. Christophe Roy, directeur des affaires réglementaires et de la concurrence, Mme Amélie Meynard, directrice des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2026IDC461113",
       "titre": "audition du vice-amiral d'escadre Éric Malbrunot, sous-chef d'état-major Plans.",

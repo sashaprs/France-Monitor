@@ -1,0 +1,60 @@
+{
+ "genere_le": "2026-09-18T08:55:34.439Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO884839B3106P0D1N000852",
+   "type": "nouvel_amendement",
+   "date": "2026-09-18T08:55:34.439Z",
+   "titre": "Amendement n° CS852 de Gabrielle Cathala (LFI-NFP) — ART. 49",
+   "detail": "Par cet amendement, les député·es du groupe la France insoumise souhaitent limiter la juridiction d'exception accordée aux ordres professionnels en matière de violences sexuelles, conformément aux co…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3106/CSINTEG/CS852",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Par cet amendement, les député·es du groupe la France insoumise souhaitent limiter la juridiction d'exception accordée aux ordres professionnels en matière de violences sexuelles, conformément aux co… ART. 49 Gabrielle Cathala LFI-NFP Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "odj:1592fd5b647429f4",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-18T08:55:34.439Z",
+   "titre": "À l'ordre du jour — Affaires économiques : La relance et la décentralisation du logement",
+   "detail": "jeudi 24 septembre à 21:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Examen du texte Affaires économiques La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:5bb997d2c5375667",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-18T08:55:34.439Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "detail": "mardi 29 septembre à 16:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54817",
+   "texte_matchable": "Examen du texte Affaires économiques Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "profils": []
+  },
+  {
+   "id": "odj:d734e9ce10888975",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-18T08:55:34.439Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "detail": "mardi 29 septembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54817",
+   "texte_matchable": "Examen du texte Affaires économiques Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "profils": []
+  },
+  {
+   "id": "odj:9ea539bec545cd26",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-18T08:55:34.439Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "detail": "mercredi 7 octobre à 19:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54817",
+   "texte_matchable": "Examen du texte Affaires économiques Renforcer la responsabilité des occupants et des bailleurs dans le logement social",
+   "profils": []
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "genere_le": "2026-09-18T22:24:55.839Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54916",
+   "type": "nouveau_dossier",
+   "date": "2026-09-18T22:24:55.839Z",
+   "titre": "Nouveau dossier : Inviter le Gouvernement à engager les démarches en vue de soutenir l’entrée au Panthéon d’Olympe de Gouges, de l’abbé Charles-Michel de l’Épée et de Zéna M’Déré",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/inviter_gouvernement_demarches_soutenir_entree_pantheon_olympe_gouges_charles_michel_zena_mdere_17e",
+   "dossier_id": "DLR5L17N54916",
+   "texte_matchable": "Inviter le Gouvernement à engager les démarches en vue de soutenir l’entrée au Panthéon d’Olympe de Gouges, de l’abbé Charles-Michel de l’Épée et de Zéna M’Déré Inviter le Gouvernement à engager les démarches en vue de soutenir l’entrée au Panthéon d’Olympe de Gouges, de l’abbé Charles-Michel de l’Épée et de Zéna M’Déré Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO419610B3058P0D1N000690",
+   "type": "nouvel_amendement",
+   "date": "2026-09-18T22:24:55.839Z",
+   "titre": "Amendement n° CE690 de Sandrine Nosbé (LFI-NFP) — ART. 4",
+   "detail": "Par cet amendement de repli, le groupe LFI propose de revenir initial de l’article avant qu’il soit aggravé au Sénat. Le texte adopté par le Sénat opère un rééquilibrage à sens unique de ce dispositi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3058/CION-ECO/CE690",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Par cet amendement de repli, le groupe LFI propose de revenir initial de l’article avant qu’il soit aggravé au Sénat. Le texte adopté par le Sénat opère un rééquilibrage à sens unique de ce dispositi… ART. 4 Sandrine Nosbé LFI-NFP La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO419610B3058P0D1N000691",
+   "type": "nouvel_amendement",
+   "date": "2026-09-18T22:24:55.839Z",
+   "titre": "Amendement n° CE691 de Iñaki Echaniz (SOC) — ART. 6",
+   "detail": "Cet amendement du groupe socialistes et apparentés vise à supprimer les critères subjectifs de « coûts disproportionnés » dispensant le bailleur de se conformer à ses obligations de décence énergétiq…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3058/CION-ECO/CE691",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Cet amendement du groupe socialistes et apparentés vise à supprimer les critères subjectifs de « coûts disproportionnés » dispensant le bailleur de se conformer à ses obligations de décence énergétiq… ART. 6 Iñaki Echaniz SOC La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO884839B3106P0D1N000853",
+   "type": "nouvel_amendement",
+   "date": "2026-09-18T22:24:55.839Z",
+   "titre": "Amendement n° CS853 de Élise Leboucher (LFI-NFP) — ART. 58",
+   "detail": "Par cet amendement, nous proposons de supprimer les nouvelles infractions spécifiques proposées par cet article afin de ne pas créer de superposition législative complexe. Nous estimons que les infra…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3106/CSINTEG/CS853",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Par cet amendement, nous proposons de supprimer les nouvelles infractions spécifiques proposées par cet article afin de ne pas créer de superposition législative complexe. Nous estimons que les infra… ART. 58 Élise Leboucher LFI-NFP Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  }
+ ]
+}

@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-19T13:46:20.100Z",
+  "updatedAt": "2026-09-19T16:15:18.894Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461015",
-      "titre": "audition de Mme Annie Genevard, ministre de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T15:35:00.000Z",
-      "dateFin": "2026-09-16T17:20:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461112",
-      "titre": "nrj Group – Mme Maryam Salehi, directrice déléguée à la direction générale, Mme Philippine Brisset, responsable des relations institutionnelles, et Mme Laetitia Faivre, secrétaire générale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2026IDC461058",
       "titre": "examen du rapport, ouvert à la presse, de la mission d’information, de Mme Véronique Riotton, portant sur la proposition de loi n° 3106 apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants.",

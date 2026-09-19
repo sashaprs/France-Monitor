@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-19T12:54:36.062Z",
+  "updatedAt": "2026-09-19T13:46:20.100Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC460835",
-      "titre": "audition de M. Vincent Jeanbrun, ministre de la Ville et du Logement, sur le projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T13:00:00.000Z",
-      "dateFin": "2026-09-16T14:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461111",
-      "titre": "--Table ronde :\r- France Télévisions – M. Christophe Tardieu, secrétaire général, M. Cyril Guinet directeur réglementation, déontologie et pluralisme des antennes et programmes, et Mme Véronique Tresca, responsable des relations institutionnelles\r- Radio France – M. Charles-Emmanuel Bon, secrétaire général, et Mme Marie-Ange Badin, secrétaire générale adjointe\r- France Médias Monde – M. Roland Husson, directeur général, M. Roland Husson, directeur général en charge du pôle ressources, et Mme Fanny Boyer, adjointe au directeur des relations institutionnelles\r- Arte France – Mme Agnès Lanoë, directrice de la stratégie et de la prospective et M. Aksel Gökçek, chargé de mission affaires\rpubliques\r- TV5 Monde – Mme Kim Younes, présidente-directrice générale (en attente de confirmation), et M. Thomas Derobe, secrétaire\rgénéral.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461042",
-      "titre": "examen et vote sur l’autorisation de publication du rapport de la mission d’information sur le bilan et les conséquences des crédits carbone européens et les impacts de la réforme du système d’échange de quotas d’émission de l’Union européenne (Mmes Claire Marais-Beuil et Eva Sas, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-16T13:00:00.000Z",
-      "dateFin": "2026-09-16T13:45:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2026IDC461015",
       "titre": "audition de Mme Annie Genevard, ministre de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire.",

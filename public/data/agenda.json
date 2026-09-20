@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-20T18:00:02.800Z",
+  "updatedAt": "2026-09-20T18:34:00.732Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461079",
-      "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T18:30:00.000Z",
-      "dateFin": "2026-09-17T19:55:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461116",
       "titre": "déplacement à Clermont-Ferrand.",

@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-09-20T10:44:16.984Z",
+  "updatedAt": "2026-09-20T14:00:48.236Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461118",
-      "titre": "audition de l'IGA hors classe Marc Howyan, directeur de la Maintenance aéronautique, de l'IGA Jean Reix, sous-directeur des opérations et de l'IGA Hélène Romagnan, sous-directrice stratégie et cohérence physico-financière.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T12:00:00.000Z",
-      "dateFin": "2026-09-17T13:30:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461076",
-      "titre": "table ronde des syndicats de magistrats :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T12:30:00.000Z",
-      "dateFin": "2026-09-17T14:00:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461067",
-      "titre": "audition de M. François Walraet, secrétaire général de la Coordination Rurale et de Mme Margaux Sciandra, responsable des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T13:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461077",
-      "titre": "table ronde des conférences nationales des chefs de cour et de juridiction :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T14:00:00.000Z",
-      "dateFin": "2026-09-17T15:30:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461068",
       "titre": "audition de Mme Mélanie Joder, secrétaire générale de la direction générale de l’enseignement scolaire (DGESCO), M. Christophe Peyrel, chef du service de défense et de sécurité, Mme Lorna Farre, responsable du pôle et cheffe de la cellule bâti-scolaire et M. Pierre Desbiolles, chef du service de l’instruction publique, de l’action et de l’accompagnement pédagogique",

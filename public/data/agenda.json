@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-20T14:32:42.937Z",
+  "updatedAt": "2026-09-20T18:00:02.800Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461068",
-      "titre": "audition de Mme Mélanie Joder, secrétaire générale de la direction générale de l’enseignement scolaire (DGESCO), M. Christophe Peyrel, chef du service de défense et de sécurité, Mme Lorna Farre, responsable du pôle et cheffe de la cellule bâti-scolaire et M. Pierre Desbiolles, chef du service de l’instruction publique, de l’action et de l’accompagnement pédagogique",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461078",
-      "titre": "audition conjointe :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-17T15:30:00.000Z",
-      "dateFin": "2026-09-17T17:00:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461079",
       "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale.",

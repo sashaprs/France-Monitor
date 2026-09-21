@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-21T03:36:40.202Z",
+  "updatedAt": "2026-09-21T09:39:20.985Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461116",
-      "titre": "déplacement à Clermont-Ferrand.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-18T07:00:00.000Z",
-      "dateFin": "2026-09-18T16:00:00.000Z",
-      "lieu": "Déplacement",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461080",
-      "titre": "audition de Mme Aude Luquet, coordinatrice interministérielle pour l’égalité entre les femmes et les hommes en Outre-mer, et M. Loïc Tanguy, haut fonctionnaire",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-18T07:00:00.000Z",
-      "dateFin": "2026-09-18T08:00:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461081",
-      "titre": "conseil économique, social et environnemental (CESE) : Mme Manon Rousselot Pailley, membre au titre de la cohésion sociale et territoriale et vie associative, et M. Pierre-Alain Sarthou, directeur général de la Convention nationale des associations de protection de l’enfant (CNAPE), membre au titre de la cohésion sociale et territoriale et vie associative.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-18T08:00:00.000Z",
-      "dateFin": "2026-09-18T09:10:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461123",
       "titre": "échanges de vues sur les travaux de la mission d’information.",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:30:31.399Z",
+  "updatedAt": "2026-09-22T18:31:42.916Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461123",
@@ -158,7 +158,7 @@
       "uid": "RUANR5L17S2026IDC461085",
       "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-22T07:00:00.000Z",
+      "dateDebut": "2026-09-22T07:05:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
@@ -168,7 +168,7 @@
       "titre": "table ronde, ouverte à la presse, sur le sujet du non recours aux prestations sociales : M. Paul Hobeika, sociologue, Mme Héléna Revil (en visioconférence), membre de l’Observatoire des non recours aux droits et aux services (ODENORE), M. Jacques Rougeaux, secrétaire de l’association aide dossier retraite (ADIPR) de Paris, et M. Raphaël Quartier, chargé d’études statistiques au Secours catholique – Caritas France.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T11:00:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO881988"
     },
@@ -192,10 +192,10 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461204",
-      "titre": "audition, ouverte à la presse, de Mme Aude Muscatelli, directrice générale adjointe de la Caisse nationale de solidarité pour l’autonomie (CNSA).",
+      "titre": "audition, ouverte à la presse, de Mme Aude Muscatelli, directrice générale adjointe de la Caisse nationale de solidarité pour l’autonomie (CNSA), accompagnée de Mme Anne-Marie Ho Dinh.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T14:10:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO881988"
     },
@@ -204,7 +204,7 @@
       "titre": "audition, ouverte à la presse, de M. Michel Houbedine, directeur de la Direction de l’animation de la recherche, des études et des statistiques (Dares), Mme Yaëlle Hauseux, cheffe de la mission analyse économique (MAE), et M. Raphaël Lardeux, chef du département suivi et indemnisation des demandeurs d'emploi (DSIDE).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T14:00:00.000Z",
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO884567"
     },
@@ -254,15 +254,6 @@
       "organisateur": "PO880763"
     },
     {
-      "uid": "RUANR5L17S2026IDC461221",
-      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative aux retraites des fonctionnaires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-22T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461213",
       "titre": "audition de RMC BFM – Mme Alix de Montesquieu, directrice des affaires publiques de CMA Media.",
       "type": "reunionCommission_type",
@@ -270,6 +261,15 @@
       "dateFin": null,
       "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
       "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461221",
+      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative aux retraites des fonctionnaires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-22T14:35:00.000Z",
+      "dateFin": "2026-09-22T15:35:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461215",
@@ -399,7 +399,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC460989",
-      "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant (sous réserve de confirmation) :",
+      "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T13:00:00.000Z",
       "dateFin": null,
@@ -947,6 +947,15 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2027IDS30918",
+      "titre": "Ouverture de la session ordinaire",
+      "type": "seance_type",
+      "dateDebut": "2026-10-01T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461170",
       "titre": "en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée, élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
@@ -1019,6 +1028,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDS30919",
+      "titre": "Discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461232",
       "titre": "audition de MM. Roland Lescure, ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique et David Amiel, ministre de l’Action et des Comptes publics, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1026,6 +1044,24 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30920",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-01T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30921",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-02T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461050",
@@ -1037,6 +1073,15 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2027IDS30922",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-02T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC460991",
       "titre": "élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
@@ -1046,6 +1091,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDS30923",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-02T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461201",
       "titre": "Réception d'une délégation de parlementaires camerounais par le groupe d'amitié France-Cameroun",
       "type": "reunionCommission_type",
@@ -1053,6 +1107,24 @@
       "dateFin": "2026-10-09T21:59:59.000Z",
       "lieu": "Paris",
       "organisateur": "PO851487"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30924",
+      "titre": "Discussion du projet de loi autorisant l’approbation de l’accord entre la France et la Moldavie relatif à la coopération dans le domaine de la défense",
+      "type": "seance_type",
+      "dateDebut": "2026-10-05T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30925",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-05T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC460985",
@@ -1080,6 +1152,15 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30926",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-06T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461134",
@@ -1125,6 +1206,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30927",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-06T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461135",
@@ -1188,6 +1278,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30928",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-07T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461192",
@@ -1271,6 +1370,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDS30929",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-07T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30930",
+      "titre": "Discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
+      "type": "seance_type",
+      "dateDebut": "2026-10-08T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461150",
       "titre": "audition, ouverte à la presse, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1289,6 +1406,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDS30931",
+      "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
+      "type": "seance_type",
+      "dateDebut": "2026-10-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461153",
       "titre": "audition, ouverte à la presse, du général d’armée aérienne Fabien Mandon, chef d’état-major des Armées, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1298,6 +1424,42 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDS30932",
+      "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
+      "type": "seance_type",
+      "dateDebut": "2026-10-08T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30933",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-09T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30934",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-09T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30935",
+      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+      "type": "seance_type",
+      "dateDebut": "2026-10-09T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC460986",
       "titre": "Participation de M. Julien Limongi à la visite conjointe de la sous-commission sur l’avenir de la sécurité et des capacités de défense (DSCFC) et de la commission sur la démocratie et la sécurité (CDS) de l’AP OTAN à Canberra et Sydney (Australie) du 12 au 16 octobre 2026",
       "type": "reunionCommission_type",
@@ -1305,6 +1467,33 @@
       "dateFin": "2026-10-16T21:59:59.000Z",
       "lieu": "Canberra et Sydney (Australie)",
       "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30938",
+      "titre": "Discussion de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+      "type": "seance_type",
+      "dateDebut": "2026-10-12T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30939",
+      "titre": "Suite de la discussion de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+      "type": "seance_type",
+      "dateDebut": "2026-10-12T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30940",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-13T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461097",
@@ -1343,6 +1532,15 @@
       "organisateur": "PO201269"
     },
     {
+      "uid": "RUANR5L17S2027IDS30941",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-13T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461154",
       "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1359,6 +1557,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30942",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-14T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461185",
@@ -1388,6 +1595,24 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDS30943",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-14T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30944",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461158",
       "titre": "audition, ouverte à la presse, de M. Christophe Mauriet, secrétaire général pour l’administration du ministère des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1406,6 +1631,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDS30945",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461160",
       "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1413,6 +1647,42 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30946",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-15T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30947",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-16T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30948",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30949",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-16T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -1497,7 +1767,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDFL461127",
-      "titre": "Audition de la fédération française des associations pour une protection non anthropomorphiste de la nature et des animaux (ProNaturA France) sur le thème du projet gouvernemental d’élaboration d’une liste positive des animaux d’espèces non domestiques dont la détention comme animaux de compagnie ou dans le cadre d’élevages d’agrément est autorisée en application du I. de l’article L. 413-1 A du code de l’environnement.",
+      "titre": "Audition de la fédération française des associations pour une protection non anthropomorphiste de la nature et des animaux (ProNaturA France) et de la fédération des jardineries et animaleries de France sur le thème du projet gouvernemental d’élaboration d’une liste positive des animaux d’espèces non domestiques dont la détention comme animaux de compagnie ou dans le cadre d’élevages d’agrément est autorisée en application du I. de l’article L. 413-1 A du code de l’environnement.",
       "type": "reunionInitParlementaire_type",
       "dateDebut": "2026-11-03T13:00:00.000Z",
       "dateFin": null,

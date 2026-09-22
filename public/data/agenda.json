@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T09:10:31.132Z",
+  "updatedAt": "2026-09-22T14:24:36.736Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461123",
@@ -128,22 +128,22 @@
       "organisateur": "PO884154"
     },
     {
-      "uid": "RUANR5L17S2026IDC461084",
-      "titre": "Suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461018",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-21T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-21T21:45:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461084",
+      "titre": "Suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-21T19:35:00.000Z",
+      "dateFin": "2026-09-21T21:55:00.000Z",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2026IDC461040",

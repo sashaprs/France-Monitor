@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T14:47:33.516Z",
+  "updatedAt": "2026-09-23T19:28:34.190Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461123",
@@ -230,8 +230,8 @@
       "uid": "RUANR5L17S2026IDC461086",
       "titre": "Suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-22T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-22T13:05:00.000Z",
+      "dateFin": "2026-09-22T18:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
     },
@@ -240,7 +240,7 @@
       "titre": "création d’une mission d’information sur l’avenir, la gestion et la gouvernance du foncier agricole ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T13:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T18:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -285,7 +285,7 @@
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T22:05:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -294,7 +294,7 @@
       "titre": "Suite de l’ordre du jour de l’après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-22T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-22T21:45:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
     },
@@ -303,7 +303,7 @@
       "titre": "audition, ouverte à la presse, de Mme Chantal Verger, présidente de la commission d’évaluation de l’aide publique au développement (CEAPD), et de M. Denis Tersen, rapporteur de l’étude-diagnostic sur les flux financiers de l’APD française, accompagnés de M. Olivier Brochenin, secrétaire général de la commission d’évaluation ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T08:55:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -312,7 +312,7 @@
       "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T10:35:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO884839"
     },
@@ -321,7 +321,7 @@
       "titre": "audition de Mme Aurélie Rousseau et M. Fabrice Schlosser, co-présidents de Locales.tv, et M. Jean Brun, secrétaire général, sur la situation des chaînes de télévision locales.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T08:25:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -330,7 +330,7 @@
       "titre": "désignation d’un rapporteur sur la proposition de loi visant à abroger les zones à faibles émissions-mobilités (n° 2970) (sous réserve de son inscription à l’ordre du jour).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T07:35:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -344,15 +344,6 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2026IDC461222",
-      "titre": "examen et vote sur l’autorisation de publication du rapport sur l’application des lois fiscales (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461021",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
@@ -360,6 +351,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461222",
+      "titre": "examen et vote sur l’autorisation de publication du rapport sur l’application des lois fiscales (M. Philippe Juvin, rapporteur général).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T07:35:00.000Z",
+      "dateFin": "2026-09-23T08:30:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461234",
@@ -411,7 +411,7 @@
       "titre": "table ronde sur le financement de la souveraineté numérique : audition de Mme Ophélie Coelho, chercheuse associée à l’IRIS, et de M. Jean-Gabriel Ganascia, professeur des universités.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T14:35:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -443,15 +443,6 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2026IDC461224",
-      "titre": "table ronde sur le financement de la souveraineté numérique : audition de M. Théau Peronnin, cofondateur de la société Alice et Bob, et de M. Sébastien Lescop, directeur général de la société Cloud Temple.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461181",
       "titre": "audtion des représentants de Thalès : Général d’armée Bernard Barrera, Conseiller Défense Terre ; M. Cyrille Guetin, Directeur technique ; et M. François Xavier Héon, responsable des Relations gouvernementales et Conseiller opérationnel Milieu Terre.",
       "type": "reunionCommission_type",
@@ -459,6 +450,15 @@
       "dateFin": "2026-09-23T15:30:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880763"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461224",
+      "titre": "table ronde sur le financement de la souveraineté numérique : audition de M. Théau Peronnin, cofondateur de la société Alice et Bob, et de M. Sébastien Lescop, directeur général de la société Cloud Temple.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T14:35:00.000Z",
+      "dateFin": "2026-09-23T15:45:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461139",
@@ -516,7 +516,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461225",
-      "titre": "audition de MM. Xavier Jaravel, Jean-Luc Tavernier et Xavier Ragot, sur le rapport sur la transparence des finances publiques.",
+      "titre": "audition de MM. Jean-Luc Tavernier et Xavier Ragot, sur le rapport sur la transparence des finances publiques.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-24T07:00:00.000Z",
       "dateFin": null,
@@ -542,6 +542,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461240",
+      "titre": "- table ronde « Apprentissage et formation professionnelle ».\rm. Frédéric Pascal, professeur des universités, vice-président « IA » de l’Université Paris-Saclay.\rmme Émilie Guichard, directrice du programme « Propulse » et responsable du programme la « Toile », école de la qualification numérique à l’EM Lyon.\rm. Paul Santelmann, consultant expert sur les politiques de formation professionnelle, ancien directeur de la veille et de la prospective à l’Agence nationale pour la formation professionnelle des adultes (Afpa).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461241",
+      "titre": "audition de la commission nationale de l’informatique et des libertés (Cnil) – M. Eric Delisle, chef du service des affaires sociales, des collectivités territoriales, du sport et de l’environnement, Mme Chirine Berrichi, conseillère pour les questions parlementaires et institutionnelles et M. Félicien Vallet, chef du service de l’intelligence artificielle.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461198",
       "titre": "audition de M. Hervé Baudu, professeur émérite de l’Enseignement maritime et chargé de mission auprès de la Marine nationale pour les enjeux polaires arctiques.",
       "type": "reunionCommission_type",
@@ -551,11 +569,20 @@
       "organisateur": "PO880699"
     },
     {
-      "uid": "RUANR5L17S2026IDC461059",
-      "titre": "Colloque « Résister par la culture, une lutte Géorgienne » organisé par le groupe d'amitié France-Géorgie. \rFace au recul démocratique à l’œuvre en Géorgie depuis les élections d’octobre 2024 et l’arrivée au pouvoir du parti « Rêve géorgien », le colloque vise à souligner la résistance du peuple géorgien face à l’oppression et à la privation de libertés. À travers le chant, le théâtre ou encore l’art, le peuple géorgien utilise la culture comme un moyen de résistance face à la répression d’un régime toujours plus avide de museler son peuple. Organisé autour de deux tables rondes, le colloque retracera dans un premier temps les atteintes démocratiques, notamment en matière culturelle, puis donnera la parole aux acteurs de cette résistance culturelle et à son rôle dans la mobilisation pacifique de la société civile géorgienne. \r\r- 14h00 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie\r\r- 14h30 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie\r\r- 14h40 : Visionnage de deux courts métrages illustrant les manifestations et la répression en Géorgie\r\r- 15h : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, cinquième présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 17h : Table ronde n°2 « La culture comme outil de résistance »\rMme Nino Kirtadzé, journaliste, actrice et réalisatrice franco-géorgienne,\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\r\rTables rondes introduites par M. Othar Zourabichvili, président de l’Association Géorgienne en France\r\r- 18h30 : Lecture d’une adresse aux élus français par M. Guillaume Gallienne \r\r- 18h45 : Un mot de MC Solaar \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
+      "uid": "RUANR5L17S2026IDC461242",
+      "titre": "audition de Mistral AI – Mme Audrey Herblin-Stoop, directrice senior des affaires globales et M. William Ouensanga, chargé d’affaires publiques.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T12:00:00.000Z",
-      "dateFin": "2026-09-24T17:00:00.000Z",
+      "dateDebut": "2026-09-24T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "4ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO882110"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461059",
+      "titre": "Colloque « Résister par la culture, une lutte Géorgienne » organisé par le groupe d'amitié France-Géorgie. \rFace au recul démocratique à l’œuvre en Géorgie depuis les élections d’octobre 2024 et l’arrivée au pouvoir du parti « Rêve géorgien », le colloque vise à souligner la résistance du peuple géorgien face à l’oppression et à la privation de libertés. À travers le chant, le théâtre ou encore l’art, le peuple géorgien utilise la culture comme un moyen de résistance face à la répression d’un régime toujours plus avide de museler son peuple. Organisé autour de deux tables rondes, le colloque retracera dans un premier temps les atteintes démocratiques, notamment en matière culturelle, puis donnera la parole aux acteurs de cette résistance culturelle et à son rôle dans la mobilisation pacifique de la société civile géorgienne. \r\r- 14h30 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie.\r\r- 14h45 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution européenne, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie.\r\r- 14h55 : Intervention de M. Othar Zourabichvili, président de l'Association géorgienne en France.\r\r- 15h00 : Visionnage d'un court métrage.\r\r- 15h10 : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, cinquième présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 16h30 : Table ronde n°2 « La culture comme outil de résistance »\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\rM. Guillaume Gallienne, acteur, scénariste et réalisateur, sociétaire de la Comédie Française\rMC Solaar, rappeur, chanteur, acteur et poète\rM. Dominique Sopo, enseignant, Président de SOS Racisme \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T12:30:00.000Z",
+      "dateFin": "2026-09-24T16:00:00.000Z",
       "lieu": "Salle Colbert - 126, rue de l'Université 75007 Paris",
       "organisateur": "PO851244"
     },
@@ -581,8 +608,8 @@
       "uid": "RUANR5L17S2026IDC461214",
       "titre": "audition en visioconférence du groupe EDF avec M. Fabrice Noilhan, directeur stratégie groupe et M. Bertrand Le Thiec, directeur des affaires publiques.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T15:00:00.000Z",
-      "dateFin": "2026-09-24T16:00:00.000Z",
+      "dateDebut": "2026-09-24T14:00:00.000Z",
+      "dateFin": "2026-09-24T15:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO885028"
     },

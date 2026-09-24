@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T22:00:09.713Z",
+  "updatedAt": "2026-09-24T23:05:57.134Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461085",
@@ -858,7 +858,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461170",
-      "titre": "- élection des membres du bureau de la commission.\r\rEn l’absence d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale, le calendrier serait le suivant :\rvendredi 2 octobre 2026, à 15 heures :\r- élection des membres du bureau de la commission.",
+      "titre": "- élection des membres du bureau de la commission.\r\ren l’absence d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale, le calendrier serait le suivant :\rvendredi 2 octobre 2026, à 15 heures :\r- élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
       "dateFin": null,
@@ -894,7 +894,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461122",
-      "titre": "en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée, élection du bureau de la Commission.",
+      "titre": "- élection des membres du bureau de la commission.\rEn l’absence d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale, le calendrier serait le suivant :\rVENDREDI 2 OCTOBRE 2026, à 15 heures (salle 6238)\r- élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
       "dateFin": null,
@@ -1163,6 +1163,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461286",
+      "titre": "table ronde sur le financement de la transition écologique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461219",
       "titre": "- audition, ouverte à la presse, de Mme Magda Tomasini, directrice de l’évaluation, de la prospective et de la performance du ministère de l’éducation nationale",
       "type": "reunionCommission_type",
@@ -1244,6 +1253,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461287",
+      "titre": "communication de Mme Anne-Cécile Violland sur la première partie du projet de loi de finances pour 2027 et le budget vert.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461148",
       "titre": "audition, ouverte à la presse, des associations d’anciens combattants membres du G12, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1269,6 +1287,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461288",
+      "titre": "audition de Mme Amélie de Montchalin, Première présidente de la Cour des comptes, sur le rapport public sur la transition écologique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T09:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS30928",
@@ -1413,6 +1440,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461289",
+      "titre": "éventuellement, examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à abroger les zones à faibles émissions mobilité (n° 2970) (M. Pierre Meurin, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T06:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461253",
@@ -1647,6 +1683,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461283",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461154",
@@ -1919,6 +1964,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461284",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461161",
       "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1962,6 +2016,15 @@
       "dateFin": null,
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461285",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDFL461127",

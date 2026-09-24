@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-09-24T09:08:19.827Z",
+  "updatedAt": "2026-09-24T13:16:36.649Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461125",
-      "titre": "audition d’une principale adjointe de collège.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T09:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461126",
-      "titre": "audition d’une directrice d’école.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T10:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460946",
-      "titre": "Déjeuner en l'honneur de Mme Pamela Mamani, Chargée d’affaires pour l’Ambassade de Bolivie en France",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T10:30:00.000Z",
-      "dateFin": "2026-09-21T12:00:00.000Z",
-      "lieu": "Petit-Hôtel",
-      "organisateur": "PO851759"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461141",
-      "titre": "- audition commune de la Fédération Nationale des Syndicats d'Exploitants Agricoles – FNSEA avec M. Bruno Ledru, membre du conseil d’administration et président de la commission fiscale et sociale, M. Jean-Louis Chandellier, directeur général adjoint, Mme Pauline Heurtebize, responsable du service économie, Mme Romane Sagnier, responsable des affaires publiques et des Jeunes Agriculteurs avec\rM. Jocelyn Dubost, président, M. Vincent Ferry, vice-président, Mme Gabrielle Guillemot, conseillère juridique en droit rural et Mme Bérénice Adeline, conseillère affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T11:00:00.000Z",
-      "dateFin": "2026-09-21T12:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461211",
-      "titre": "audition de la Direction générale de la sécurité civile et de la gestion des crise (DGSCGC) avec M. Julien Marion, directeur général, Mme Anselin Claire, sous-directrice des affaires internationales, des ressources et de la stratégie, M. Monconduit Romain, directeur des moyens nationaux, M. Jouassard Alexandre, chef du COGIC, M. Cesca Bruno, chef du BDFE et Mme Pinault Tiphaine(à confirmer) directrice des sapeurs-pompiers.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T12:00:00.000Z",
-      "dateFin": "2026-09-21T13:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461083",
-      "titre": "Suite de l’ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T13:00:00.000Z",
-      "dateFin": "2026-09-21T17:55:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461199",
       "titre": "audition de France Travail – M. Étienne de Saint Martin, directeur général adjoint délégué en charge de la technologie et M. Yohan Beaux, chargé des relations extérieures.",
@@ -488,15 +434,6 @@
       "organisateur": "PO880699"
     },
     {
-      "uid": "RUANR5L17S2026IDC461225",
-      "titre": "audition de MM. Jean-Luc Tavernier et Xavier Ragot, sur le rapport sur la transparence des finances publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461140",
       "titre": "table ronde d’associations de victimes et acteurs engagés dans la prévention des risques chimiques professionnels, réunissant : M. Bernard Bouché, militant de l’Association Henri Pézerat ; MM. François Desriaux, porte-parole, et Jean-François Fournial, administrateur, Association nationale de défense des victimes de l’amiante et autres maladies professionnelles (Andeva) ; M. Philippe Karim Felissi, avocat conseil auprès de la FNATH, Association des accidentés de la vie ; et M. Antoine Lambert, président de l’association Phyto-Victimes.",
       "type": "reunionCommission_type",
@@ -504,6 +441,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461225",
+      "titre": "audition de MM. Jean-Luc Tavernier et Xavier Ragot, sur le rapport sur la transparence des finances publiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T07:05:00.000Z",
+      "dateFin": "2026-09-24T09:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2026IDC461024",
@@ -902,6 +848,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC461247",
+      "titre": "Audition de S.E. Mme Alison Milton, ambassadrice d’Irlande en France ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461189",
       "titre": "audition, ouverte à la presse, de M. Antoine Bozio, directeur de l’Institut des politiques publiques (IPP), et M. Pierre Boyer, directeur adjoint.",
       "type": "reunionCommission_type",
@@ -1010,6 +965,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461243",
+      "titre": "désignation d’un rapporteur thématique sur le titre II, en remplacement de Mme Anne Le Hénanff, devenue ministre, et nomination d’un secrétaire, en remplacement de M. Aurélien Lopez-Liguori, élu maire d’Agde lors des dernières élections municipales ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T11:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO866672"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461231",
       "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
       "type": "reunionCommission_type",
@@ -1017,6 +981,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461244",
+      "titre": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO866672"
     },
     {
       "uid": "RUANR5L17S2027IDC461146",
@@ -1035,6 +1008,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461245",
+      "titre": "audition de M. Vincent Strubel, directeur général de l’Agence nationale de la sécurité des systèmes d’information (ANSSI).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO866672"
     },
     {
       "uid": "RUANR5L17S2027IDC461232",
@@ -1217,6 +1199,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461249",
+      "titre": "examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461135",
       "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et l’Agence française de développement pour la période 2027-2029 (Mme Sabrina Sebaihi et Mme Liliana Tanguy, rapporteures).",
       "type": "reunionCommission_type",
@@ -1289,6 +1280,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461246",
+      "titre": "Éventuellement, examen, en application de l’article 88 du Règlement, des amendements restant en discussion du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (n° 1779).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO866672"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461192",
       "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
       "type": "reunionCommission_type",
@@ -1316,6 +1316,15 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2027IDC461248",
+      "titre": "Audition, conjointe avec la commission des affaires économiques, de M. Christophe Hansen, commissaire européen à l’agriculture.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461173",
       "titre": "audition, ouverte à la presse et conjointe avec la commission des affaires européennes, de M. Christophe Hansen, Commissaire européen à l'Agriculture et au Développement rural.",
       "type": "reunionCommission_type",
@@ -1323,6 +1332,15 @@
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461250",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461149",
@@ -1370,6 +1388,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461251",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30929",
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
@@ -1377,6 +1404,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461253",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30930",
@@ -1406,6 +1442,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461254",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30931",
       "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
       "type": "seance_type",
@@ -1422,6 +1467,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461252",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30932",
@@ -1442,6 +1496,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461255",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461256",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30934",
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
@@ -1449,6 +1521,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461257",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30935",

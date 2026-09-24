@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-24T14:43:35.709Z",
+  "updatedAt": "2026-09-24T18:14:20.360Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461200",
-      "titre": "audition de la direction générale du travail (DGT) – M. Pierre Ramain, directeur général, Mme Nathalie Vaysse, cheffe de service et M. Eloy Dorado, directeur de projet.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461202",
-      "titre": "audition de l'Association nationale des directeurs des ressources humaines (ANDRH) – Mme Audrey Richard, présidente et Mme Christine Caldeira, secrétaire générale.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461237",
-      "titre": "audition de la Direction générale du Trésor – M. Stéphane Sorbe, chef du service des Finances publiques et des politiques sociales (SSOFIA), M. Florian Bon, chef du bureau Fiscalité des ménages et taxation indirecte (FIPU3) au SSOFIA, et M. Sofien Abdallah, conseiller parlementaire et relations institutionnelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T16:15:00.000Z",
-      "dateFin": null,
-      "lieu": "3ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO884154"
-    },
     {
       "uid": "RUANR5L17S2026IDC461018",
       "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
@@ -479,6 +452,15 @@
       "organisateur": "PO882110"
     },
     {
+      "uid": "RUANR5L17S2026IDC461272",
+      "titre": "audition commune : \rdirection générale de l’énergie et du climat (DGEC),\rdirection générale des douanes et droits indirects (DGDDI)\rdirection générale de la concurrence, de la consommation et de la répression\rdes fraudes (DGCCRF).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-24T10:00:00.000Z",
+      "dateFin": "2026-09-24T11:30:00.000Z",
+      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884406"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461059",
       "titre": "Colloque « Résister par la culture, une lutte Géorgienne » organisé par le groupe d'amitié France-Géorgie. \rFace au recul démocratique à l’œuvre en Géorgie depuis les élections d’octobre 2024 et l’arrivée au pouvoir du parti « Rêve géorgien », le colloque vise à souligner la résistance du peuple géorgien face à l’oppression et à la privation de libertés. À travers le chant, le théâtre ou encore l’art, le peuple géorgien utilise la culture comme un moyen de résistance face à la répression d’un régime toujours plus avide de museler son peuple. Organisé autour de deux tables rondes, le colloque retracera dans un premier temps les atteintes démocratiques, notamment en matière culturelle, puis donnera la parole aux acteurs de cette résistance culturelle et à son rôle dans la mobilisation pacifique de la société civile géorgienne. \r\r- 14h30 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie.\r\r- 14h45 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution européenne, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie.\r\r- 14h55 : Intervention de M. Othar Zourabichvili, président de l'Association géorgienne en France.\r\r- 15h00 : Visionnage d'un court métrage.\r\r- 15h10 : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, cinquième présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 16h30 : Table ronde n°2 « La culture comme outil de résistance »\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\rM. Guillaume Gallienne, acteur, scénariste et réalisateur, sociétaire de la Comédie Française\rMC Solaar, rappeur, chanteur, acteur et poète\rM. Dominique Sopo, enseignant, Président de SOS Racisme \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
       "type": "reunionCommission_type",
@@ -579,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461052",
-      "titre": "examen, sous réserve de son adoption par la Mission d’évaluation et de contrôle des lois de financement de la sécurité sociale, du rapport d’information sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Jérôme Guedj, Thibault Bazin et Thierry Frappé, rapporteurs).",
+      "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T14:00:00.000Z",
       "dateFin": null,
@@ -714,7 +696,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461048",
-      "titre": "examen du rapport de la mission d’évaluation de la loi n° 2021-1716 du 21 décembre 2021 créant la fonction de directrice ou de directeur d’école (MM. Roger Chudeau et Bertrand Sorre, rapporteurs).",
+      "titre": "table ronde sur les résultats de l’enquête du Programme international pour le suivi des acquis des élèves (Pisa) 2025 réunissant M. Éric Charbonnier, analyste à la direction de l’éducation et des compétences de l’OCDE, M. Pierre Yves Cusset, rapporteur de l’étude du Haut-Commissariat à la stratégie et au plan intitulée « Niveau scolaire : éléments de diagnostic et propositions », M. Guillaume Houzel, co-auteur de la note du Conseil d’analyse économique intitulée « École : un plan d’action pour rattraper le retard français », et M. Franck Ramus, directeur de recherche au CNRS, membre du Conseil scientifique de l’éducation nationale ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
       "dateFin": null,
@@ -723,7 +705,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461167",
-      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant (sous réserve de sa communication à la commission des affaires sociales en application de l’article L.O. 132-3-1 du code des juridictions financières).",
+      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
       "dateFin": null,
@@ -759,7 +741,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461228",
-      "titre": "table ronde sur le financement de la bifurcation écologique : audition de MM. Benoît Leguet, directeur générale de I4CE, Hadrien Hainaut, directeur de programme « investissements climat, transition énergétique et prospective » et Guillaume Dolques, chercheur au sein de l’équipe Adaptation, et de M. Christophe Rodriguez, directeur général adjoint d’A4MT.",
+      "titre": "table ronde sur le financement de la bifurcation écologique : audition de MM. Benoît Leguet, directeur général de I4CE, Hadrien Hainaut, directeur de programme « investissements climat, transition énergétique et prospective » et Guillaume Dolques, chercheur au sein de l’équipe Adaptation, et de M. Christophe Rodriguez, directeur général adjoint d’A4MT.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T08:30:00.000Z",
       "dateFin": null,
@@ -831,7 +813,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461247",
-      "titre": "Audition de S.E. Mme Alison Milton, ambassadrice d’Irlande en France ;",
+      "titre": "audition de S.E. Mme Alison Milton, ambassadrice d’Irlande en France ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T13:00:00.000Z",
       "dateFin": null,
@@ -893,8 +875,17 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461261",
+      "titre": "audition de MM. Thomas Audigé, chef de l’Inspection générale des affaires sociales (IGAS), Frédéric Laloue et Hervé Lanouzière, inspecteurs généraux des affaires sociales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461170",
-      "titre": "en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée, élection des membres du bureau de la commission.",
+      "titre": "- élection des membres du bureau de la commission.\r\rEn l’absence d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale, le calendrier serait le suivant :\rvendredi 2 octobre 2026, à 15 heures :\r- élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
       "dateFin": null,
@@ -911,8 +902,17 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461266",
+      "titre": "élection des membres du bureau de la commission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461049",
-      "titre": "Éventuellement (en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la Commission.",
+      "titre": "éventuellement (en cas d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
       "dateFin": null,
@@ -947,8 +947,17 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461262",
+      "titre": "audition de M. Jérôme Triolet, adjoint à la directrice des applications, et Mme Myriam Ricaud, cheffe du pôle Risques chimiques du département Expertise et conseil technique, Institut national de recherche et de sécurité pour la prévention des accidents du travail et des maladies professionnelles (INRS).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461243",
-      "titre": "désignation d’un rapporteur thématique sur le titre II, en remplacement de Mme Anne Le Hénanff, devenue ministre, et nomination d’un secrétaire, en remplacement de M. Aurélien Lopez-Liguori, élu maire d’Agde lors des dernières élections municipales ;",
+      "titre": "désignation d’un rapporteur thématique sur le titre II, en remplacement de Mme Anne Le Hénanff, devenue ministre, et nomination d’un secrétaire, en remplacement de M. Aurélien Lopez-Liguori, élu maire d’Agde lors des dernières élections municipales.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T11:45:00.000Z",
       "dateFin": null,
@@ -957,7 +966,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461231",
-      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
+      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, et de M. Michaël Zemmour, membre du Haut Conseil, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T12:00:00.000Z",
       "dateFin": null,
@@ -966,12 +975,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461244",
-      "titre": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique ;",
+      "titre": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T12:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO866672"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461263",
+      "titre": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évaluation des politiques de soutien à la restauration scolaire en outre-mer ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461146",
@@ -990,6 +1008,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461264",
+      "titre": "audition, ouverte à la presse, de M. Yann Delaunay, directeur général de France Volontaires sur les perspectives ouvertes aux ultramarins par le volontariat international d’échange et de solidarité ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461245",
@@ -1029,7 +1056,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461050",
-      "titre": "Éventuellement (en l’absence d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la Commission.",
+      "titre": "éventuellement (en l’absence d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-02T13:00:00.000Z",
       "dateFin": null,
@@ -1127,6 +1154,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461267",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461134",
       "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027.",
       "type": "reunionCommission_type",
@@ -1161,6 +1197,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461265",
+      "titre": "Examen de la proposition de loi, adoptée par le Sénat, relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (Creps) de Vichy (n° 2922) (M. Nicolas Ray, rapporteur)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461191",
@@ -1218,7 +1263,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461169",
-      "titre": "examen du rapport d’information sur l’exposition des jeunes aux boissons énergisantes et aux boissons alcoolisées prêtes à boire (Mme Sandrine Runel et M. Yannick Neuder, rapporteurs).",
+      "titre": "examen du rapport d’information sur l’exposition des jeunes aux boissons énergisantes et aux boissons alcoolisées prêtes à boire (Mme Sandrine Runel et M. Yannick Neuder, rapporteurs)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:30:00.000Z",
       "dateFin": null,
@@ -1341,6 +1386,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461269",
+      "titre": "audition de M. Jean-Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’Autonomie et des personnes handicapées, M. David Amiel, ministre de l’action et des comptes publics, et Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées, sur le projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461174",
@@ -1541,6 +1595,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461270",
+      "titre": "examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-12T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30939",
       "titre": "Suite de la discussion de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
       "type": "seance_type",
@@ -1595,6 +1658,15 @@
       "organisateur": "PO201269"
     },
     {
+      "uid": "RUANR5L17S2027IDC461271",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30941",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1613,6 +1685,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461273",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461155",
       "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1629,6 +1710,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461274",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461185",
@@ -1658,6 +1748,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461275",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30943",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1685,6 +1784,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461276",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461159",
       "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1703,6 +1811,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461277",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461160",
       "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1710,6 +1827,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461278",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS30946",
@@ -1730,6 +1856,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461279",
+      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-16T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30948",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1737,6 +1872,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461280",
+      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-16T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461281",
+      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-16T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS30949",
@@ -1764,6 +1917,15 @@
       "dateFin": null,
       "lieu": "salle 6549 (Palais-Bourbon)",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461282",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461098",

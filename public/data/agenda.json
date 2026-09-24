@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:49:17.343Z",
+  "updatedAt": "2026-09-24T01:07:57.813Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461123",
@@ -374,8 +374,8 @@
       "uid": "RUANR5L17S2026IDC461051",
       "titre": "nomination d’un rapporteur sur le projet de loi de financement de la sécurité sociale pour 2027 ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T12:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-23T12:05:00.000Z",
+      "dateFin": "2026-09-23T16:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -389,20 +389,11 @@
       "organisateur": "PO419610"
     },
     {
-      "uid": "RUANR5L17S2026IDC461089",
-      "titre": "Suite de l’ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-23T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO884839"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460989",
       "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T16:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -425,6 +416,15 @@
       "organisateur": "PO880763"
     },
     {
+      "uid": "RUANR5L17S2026IDC461089",
+      "titre": "Suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-23T13:05:00.000Z",
+      "dateFin": "2026-09-23T16:25:00.000Z",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO884839"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461138",
       "titre": "- audition de M. David di Nota, auteur de J’ai exécuté un chien de l’enfer : rapport sur l’assassinat de Samuel Paty.",
       "type": "reunionCommission_type",
@@ -438,7 +438,7 @@
       "titre": "table ronde sur les dispositifs médicaux gynécologiques réunissant :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-23T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-23T16:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },

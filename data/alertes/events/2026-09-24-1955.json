@@ -1,0 +1,73 @@
+{
+ "genere_le": "2026-09-24T19:55:18.514Z",
+ "evenements": [
+  {
+   "id": "amdt-sort:AMANR5L17PO419610B3058P0D1N000349:Non soutenu",
+   "type": "sort_amendement",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "Amendement n° CE349 de Stéphane Peu (GDR) : Non soutenu",
+   "detail": "L'article 4 renforce le dispositif fiscal « Relance logement » en assouplissant les conditions d'accès au statut du bailleur privé, notamment par l'abaissement du seuil de travaux requis pour les log…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3058/CION-ECO/CE349",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "L'article 4 renforce le dispositif fiscal « Relance logement » en assouplissant les conditions d'accès au statut du bailleur privé, notamment par l'abaissement du seuil de travaux requis pour les log… ART. 4 Stéphane Peu GDR La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419610B3058P0D1N000570:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "Amendement n° CE570 de François Piquemal (LFI-NFP) : Tombé",
+   "detail": "\"Par cet amendement de repli, le groupe LFI souhaite rétablir, pour l’accès au dispositif Jeanbrun sur les logements anciens, l’obligation d’atteindre un DPE A ou B à l’issue des travaux. Le texte ne…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3058/CION-ECO/CE570",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "\"Par cet amendement de repli, le groupe LFI souhaite rétablir, pour l’accès au dispositif Jeanbrun sur les logements anciens, l’obligation d’atteindre un DPE A ou B à l’issue des travaux. Le texte ne… ART. 4 François Piquemal LFI-NFP La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "odj:2b3bac6a0bd612c4",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "À l'ordre du jour — CS PJL Cybersécurité : Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "detail": "jeudi 1 octobre à 14:00 · audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique.",
+   "url": null,
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique. CS PJL Cybersécurité Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:86a500c8c14d5c91",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "À l'ordre du jour — Délégation aux outre-mer : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économi…",
+   "detail": "jeudi 1 octobre à 14:00 · audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évalua…",
+   "url": null,
+   "dossier_id": "DLR5L17N54565",
+   "texte_matchable": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évalua… Délégation aux outre-mer rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économi…",
+   "profils": []
+  },
+  {
+   "id": "odj:79a757d4dcb7c13e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "À l'ordre du jour — Affaires sociales : Proposition de loi visant à assouplir la procédure d'autorisation des établissements et services médico-sociaux à caractère expérimental",
+   "detail": "mardi 6 octobre à 16:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53886",
+   "texte_matchable": "Examen du texte Affaires sociales Proposition de loi visant à assouplir la procédure d'autorisation des établissements et services médico-sociaux à caractère expérimental",
+   "profils": []
+  },
+  {
+   "id": "odj:0b6432ec5e9f3cfb",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T19:55:18.514Z",
+   "titre": "À l'ordre du jour — Affaires culturelles et éducation : Proposition de loi relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (CR…",
+   "detail": "mardi 6 octobre à 17:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54096",
+   "texte_matchable": "Examen du texte Affaires culturelles et éducation Proposition de loi relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (CR…",
+   "profils": []
+  }
+ ]
+}

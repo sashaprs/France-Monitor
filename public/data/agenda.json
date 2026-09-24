@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-24T18:14:20.360Z",
+  "updatedAt": "2026-09-24T19:52:47.812Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461018",
-      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T19:30:00.000Z",
-      "dateFin": "2026-09-21T21:45:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461084",
-      "titre": "Suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T19:35:00.000Z",
-      "dateFin": "2026-09-21T21:55:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461040",
       "titre": "Mission du GA France – Portugal (Lisbonne et Oeiras) du 22 au 24 septembre",

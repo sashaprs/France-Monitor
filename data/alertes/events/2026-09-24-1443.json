@@ -1,0 +1,84 @@
+{
+ "genere_le": "2026-09-24T14:43:56.156Z",
+ "evenements": [
+  {
+   "id": "odj:bd0f9842a9864506",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — Affaires européennes : Garantir la protection des travailleurs des métiers de la fleur coupée en réglementant les seuils de résidus de pesticides contenus dans les fleurs commerciali…",
+   "detail": "mercredi 30 septembre à 15:00 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N52134",
+   "texte_matchable": "Examen du texte Affaires européennes Garantir la protection des travailleurs des métiers de la fleur coupée en réglementant les seuils de résidus de pesticides contenus dans les fleurs commerciali…",
+   "profils": []
+  },
+  {
+   "id": "odj:de7251f2d6c7a162",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — Affaires européennes : L’interdiction de la multipropriété des clubs de football professionnel au niveau européen",
+   "detail": "mercredi 30 septembre à 15:00 · Nomination de rapporteur",
+   "url": null,
+   "dossier_id": "DLR5L17N54669",
+   "texte_matchable": "Nomination de rapporteur Affaires européennes L’interdiction de la multipropriété des clubs de football professionnel au niveau européen",
+   "profils": []
+  },
+  {
+   "id": "odj:f3f434257972ad22",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — Affaires européennes : L’adaptation du cadre européen des droits d’accises applicables aux brasseries indépendantes",
+   "detail": "mercredi 30 septembre à 15:00 · Nomination de rapporteur",
+   "url": null,
+   "dossier_id": "DLR5L17N54911",
+   "texte_matchable": "Nomination de rapporteur Affaires européennes L’adaptation du cadre européen des droits d’accises applicables aux brasseries indépendantes",
+   "profils": []
+  },
+  {
+   "id": "odj:f0111889bc961914",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — CS PJL Cybersécurité : Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "detail": "jeudi 1 octobre à 13:45 · Désignation d’un rapporteur thématique sur le titre II",
+   "url": null,
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Désignation d’un rapporteur thématique sur le titre II CS PJL Cybersécurité Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "odj:679112cc5bb2a9b3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — CS PJL Cybersécurité : Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "detail": "jeudi 1 octobre à 14:00 · audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique ;",
+   "url": null,
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique ; CS PJL Cybersécurité Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:d98760ea70ea3073",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — CS PJL Cybersécurité : Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "detail": "jeudi 1 octobre à 15:30 · audition de M. Vincent Strubel, directeur général de l’Agence nationale de la sécurité des systèmes d’information (ANSSI).",
+   "url": null,
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "audition de M. Vincent Strubel, directeur général de l’Agence nationale de la sécurité des systèmes d’information (ANSSI). CS PJL Cybersécurité Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "odj:a793b23bf39257d8",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-24T14:43:56.156Z",
+   "titre": "À l'ordre du jour — CS PJL Cybersécurité : Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "detail": "mercredi 7 octobre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Examen du texte CS PJL Cybersécurité Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  }
+ ]
+}

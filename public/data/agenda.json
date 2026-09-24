@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-24T13:16:36.649Z",
+  "updatedAt": "2026-09-24T14:43:35.709Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461199",
-      "titre": "audition de France Travail – M. Étienne de Saint Martin, directeur général adjoint délégué en charge de la technologie et M. Yohan Beaux, chargé des relations extérieures.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO882110"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461016",
-      "titre": "examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-21T14:30:00.000Z",
-      "dateFin": "2026-09-21T17:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2026IDC461200",
       "titre": "audition de la direction générale du travail (DGT) – M. Pierre Ramain, directeur général, Mme Nathalie Vaysse, cheffe de service et M. Eloy Dorado, directeur de projet.",

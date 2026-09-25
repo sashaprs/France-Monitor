@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-25T05:53:20.366Z",
+  "updatedAt": "2026-09-25T09:29:10.664Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461085",
-      "titre": "Suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure générale ; Mmes Céline Thiébault Martinez, Marie-Charlotte Garin, Isabelle Rauch, Émilie Bonnivard, Soumya Bourouaha, rapporteures, MM. David Taupiac, Erwan Balanant, Guillaume Gouffier Valente, Karim Benbrahim, rapporteurs) et de la proposition de loi organique visant à adapter l’autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (n° 3107) (Mme Céline Thiébault-Martinez, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-22T07:05:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461203",
-      "titre": "table ronde, ouverte à la presse, sur le sujet du non recours aux prestations sociales : M. Paul Hobeika, sociologue, Mme Héléna Revil (en visioconférence), membre de l’Observatoire des non recours aux droits et aux services (ODENORE), M. Jacques Rougeaux, secrétaire de l’association aide dossier retraite (ADIPR) de Paris, et M. Raphaël Quartier, chargé d’études statistiques au Secours catholique – Caritas France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-22T09:00:00.000Z",
-      "dateFin": "2026-09-22T11:00:00.000Z",
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO881988"
-    },
     {
       "uid": "RUANR5L17S2026IDC461212",
       "titre": "audition de la Fédération hospitalière de France (FHF) avec Mme Cécile Chevance, responsable du pôle offres, Mme Alexandra Liparo, responsable adjointe du pôle offres, M. Vincent Ollivier, responsable adjoint du pôle offres, M. Rudy Chouvel, responsable adjoint du pôle offres.",

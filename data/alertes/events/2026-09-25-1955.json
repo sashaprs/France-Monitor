@@ -1,0 +1,71 @@
+{
+ "genere_le": "2026-09-25T19:55:38.482Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54935",
+   "type": "nouveau_dossier",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "Nouveau dossier : Renforcer la transparence fiscale publique des multinationales dans l’Union européenne",
+   "detail": "Résolution",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/transparence_fiscale_UE_renforcement",
+   "dossier_id": "DLR5L17N54935",
+   "texte_matchable": "Renforcer la transparence fiscale publique des multinationales dans l’Union européenne Renforcer la transparence fiscale publique des multinationales dans l’Union européenne Résolution",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54936",
+   "type": "nouveau_dossier",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "Nouveau dossier : Protéger la Cour pénale internationale et l’indépendance de la justice contre les mesures coercitives extraterritoriales",
+   "detail": "Résolution",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/CPI_protection_independance",
+   "dossier_id": "DLR5L17N54936",
+   "texte_matchable": "Protéger la Cour pénale internationale et l’indépendance de la justice contre les mesures coercitives extraterritoriales Protéger la Cour pénale internationale et l’indépendance de la justice contre les mesures coercitives extraterritoriales Résolution",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54937",
+   "type": "nouveau_dossier",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "Nouveau dossier : Proposition de loi pour un régime de responsabilité civile plus juste et adapté en matière de fêtes traditionnelles",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54937",
+   "dossier_id": "DLR5L17N54937",
+   "texte_matchable": "Proposition de loi pour un régime de responsabilité civile plus juste et adapté en matière de fêtes traditionnelles Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54938",
+   "type": "nouveau_dossier",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à renforcer la lutte contre la précarité énergétique",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54938",
+   "dossier_id": "DLR5L17N54938",
+   "texte_matchable": "Proposition de loi visant à renforcer la lutte contre la précarité énergétique Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "odj:2f3bafa5edbd4966",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "À l'ordre du jour — Lois : Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "detail": "mercredi 30 septembre à 09:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Examen du texte Lois Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "odj:203577c48388271d",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-09-25T19:55:38.482Z",
+   "titre": "À l'ordre du jour — Développement durable : Abroger les zones à faibles émissions-mobilités",
+   "detail": "jeudi 8 octobre à 08:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  }
+ ]
+}

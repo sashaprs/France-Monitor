@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T20:17:32.198Z",
+  "updatedAt": "2026-09-25T23:10:44.712Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460830",
@@ -900,6 +900,15 @@
       "dateFin": "2026-10-01T13:30:00.000Z",
       "lieu": "Salon Mars II",
       "organisateur": "PO851592"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461305",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884839"
     },
     {
       "uid": "RUANR5L17S2027IDS30919",

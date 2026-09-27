@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-09-27T09:54:00.472Z",
+  "updatedAt": "2026-09-27T12:47:58.398Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461272",
-      "titre": "audition commune : \rdirection générale de l’énergie et du climat (DGEC),\rdirection générale des douanes et droits indirects (DGDDI)\rdirection générale de la concurrence, de la consommation et de la répression\rdes fraudes (DGCCRF).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T10:00:00.000Z",
-      "dateFin": "2026-09-24T11:30:00.000Z",
-      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884406"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461059",
-      "titre": "Colloque « Résister par la culture, une lutte Géorgienne » organisé par le groupe d'amitié France-Géorgie. \rFace au recul démocratique à l’œuvre en Géorgie depuis les élections d’octobre 2024 et l’arrivée au pouvoir du parti « Rêve géorgien », le colloque vise à souligner la résistance du peuple géorgien face à l’oppression et à la privation de libertés. À travers le chant, le théâtre ou encore l’art, le peuple géorgien utilise la culture comme un moyen de résistance face à la répression d’un régime toujours plus avide de museler son peuple. Organisé autour de deux tables rondes, le colloque retracera dans un premier temps les atteintes démocratiques, notamment en matière culturelle, puis donnera la parole aux acteurs de cette résistance culturelle et à son rôle dans la mobilisation pacifique de la société civile géorgienne. \r\r- 14h30 : ouverture par M. Steevy Gustave, président du groupe d'amitié France-Géorgie (EcoS, Essonne) et Mme Salomé Zourabichvili, cinquième présidente de la Géorgie.\r\r- 14h45 : Intervention de Mme Constance Le Grip (EPR, Hauts-de-Seine), rapporteure de la proposition de résolution européenne, adoptée par l'Assemblée nationale, visant à condamner la dérive illibérale et autoritaire du Gouvernement géorgien et à réaffirmer le soutien au destin européen de la Géorgie.\r\r- 14h55 : Intervention de M. Othar Zourabichvili, président de l'Association géorgienne en France.\r\r- 15h00 : Visionnage d'un court métrage.\r\r- 15h10 : Table ronde n°1 « Les atteintes à la démocratie depuis les élections d’octobre 2024 »,\rMme Salomé Zourabichvili, cinquième présidente de Géorgie\rMme Nathalie Loiseau, députée européenne, ancienne ministre chargée des affaires européennes\rThorniké Gordadzé, chercheur à l’Institut Jacques Delors, Ancien ministre de l’intégration européenne de Géorgie\rEka Gigauri, directrice exécutive de Transparency International Georgia\r\r- 16h30 : Table ronde n°2 « La culture comme outil de résistance »\rMme Nana Ekvtimishvili, réalisatrice géorgienne, romancière\rMme Irma Inaridzé, activiste géorgienne\rM. Guillaume Gallienne, acteur, scénariste et réalisateur, sociétaire de la Comédie Française\rMC Solaar, rappeur, chanteur, acteur et poète\rM. Dominique Sopo, enseignant, Président de SOS Racisme \r\rColloque animé par M. Florent Parmentier, secrétaire général du CEVIPOF (Sciences Po)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T12:30:00.000Z",
-      "dateFin": "2026-09-24T16:00:00.000Z",
-      "lieu": "Salle Colbert - 126, rue de l'Université 75007 Paris",
-      "organisateur": "PO851244"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461025",
-      "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2026IDC461092",
       "titre": "Suite de l’ordre du jour du matin.",

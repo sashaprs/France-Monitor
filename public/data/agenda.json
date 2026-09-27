@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-27T17:32:08.845Z",
+  "updatedAt": "2026-09-27T19:38:37.612Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461164",
-      "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461093",
-      "titre": "Suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC461094",
       "titre": "Éventuellement, suite de l’examen de la proposition de loi visant à apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (n° 3106) (Mme Céline Thiébault-Martinez, rapporteure).",

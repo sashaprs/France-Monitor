@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-27T12:47:58.398Z",
+  "updatedAt": "2026-09-27T15:02:23.426Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461092",
-      "titre": "Suite de l’ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461214",
-      "titre": "audition en visioconférence du groupe EDF avec M. Fabrice Noilhan, directeur stratégie groupe et M. Bertrand Le Thiec, directeur des affaires publiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-24T14:00:00.000Z",
-      "dateFin": "2026-09-24T15:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO885028"
-    },
     {
       "uid": "RUANR5L17S2026IDC461164",
       "titre": "éventuellement, suite de l’examen du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
@@ -74,6 +56,15 @@
       "organisateur": "PO884520"
     },
     {
+      "uid": "RUANR5L17S2026IDC461306",
+      "titre": "- audition, non ouverte à la presse, de Mmes Clémence Pajot, directrice générale de la Fédération nationale des centres d’information sur les droits des femmes et des familles et Margot Civeit, chargée de plaidoyer.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-28T10:00:00.000Z",
+      "dateFin": "2026-09-28T11:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461205",
       "titre": "audition, ouverte à la presse, des représentants du Haut-Commissariat à la Stratégie et au Plan (HCSP) : M. Michael Orand, directeur du département « société et politiques sociales », Mme Marine de Montaignac, adjointe au directeur, et M. Antoine Naboulet, adjoint à la directrice du département « travail, emploi et compétences ».",
       "type": "reunionCommission_type",
@@ -90,6 +81,24 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461307",
+      "titre": "- audition, non ouverte à la presse, de Mmes Anne-Cécile Mailfert, présidente de la Fondation des femmes et Floriane Volt, directrice des affaires publiques et juridiques.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T10:00:00.000Z",
+      "dateFin": "2026-09-29T11:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461308",
+      "titre": "- audition, non ouverte à la presse, de Mme Mine Gunbay, directrice générale de la Fédération nationale Solidarité femmes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T11:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
     },
     {
       "uid": "RUANR5L17S2026IDC461290",
@@ -335,6 +344,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461309",
+      "titre": "- audition, non ouverte à la presse, de Mme Gloria Casas Vila, maîtresse de conférences à l’Université Toulouse 2 Jean Jaurès, de M. Robert Courtois, professeur en psychopathologie et psychologie clinique à l’Université de Tours et de M. Alain Legrand, président de la Fédération nationale et des centres de prise en charge d’auteurs de violences conjugales et familiales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T10:00:00.000Z",
+      "dateFin": "2026-09-30T11:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461291",
       "titre": "Échanges avec M. Alain Majani d'Inguimbert, Consul honoraire de la République de Trinité-et-Tobago à Paris, en présence de Mme Leroy, rédactrice pays au ministère de l'Europe et des affaires étrangères",
       "type": "reunionCommission_type",
@@ -342,6 +360,15 @@
       "dateFin": "2026-09-30T12:00:00.000Z",
       "lieu": "Restaurant panoramique du 8è",
       "organisateur": "PO856876"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461310",
+      "titre": "- audition, non ouverte à la presse, de Mmes Caroline Bègue, directrice du Mouvement du nid, de Claire Quidet et Manon Quesada, secrétaires de l’association.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T11:30:00.000Z",
+      "dateFin": "2026-09-30T12:15:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
     },
     {
       "uid": "RUANR5L17S2026IDC461188",
@@ -533,6 +560,24 @@
       "organisateur": "PO884940"
     },
     {
+      "uid": "RUANR5L17S2027IDC461311",
+      "titre": "- audition, non ouverte à la presse, de M. David Lauréote, chef du service de l’insertion et de la probation (SIP) du Ministère de la Justice.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T09:00:00.000Z",
+      "dateFin": "2026-10-01T10:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461312",
+      "titre": "- audition, non ouverte à la presse, de Mme Françoise Kempf, conseillère juridique principale au secrétariat du mécanisme de suivi de la Convention du Conseil de l'Europe sur la prévention et la lutte contre la violence à l'égard des femmes et la violence domestique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T10:00:00.000Z",
+      "dateFin": "2026-10-01T11:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461243",
       "titre": "désignation d’un rapporteur thématique sur le titre II, en remplacement de Mme Anne Le Hénanff, devenue ministre, et nomination d’un secrétaire, en remplacement de M. Aurélien Lopez-Liguori, élu maire d’Agde lors des dernières élections municipales.",
       "type": "reunionCommission_type",
@@ -657,6 +702,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461313",
+      "titre": "- audition, non ouverte à la presse, de Mmes Sarah Durocher, présidente nationale du Planning familial, de Albane Gaillot, co-directrice et Noémie Gardais, chargée de plaidoyer international.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-02T11:00:00.000Z",
+      "dateFin": "2026-10-02T12:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
     },
     {
       "uid": "RUANR5L17S2027IDC461050",
@@ -1224,6 +1278,33 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461314",
+      "titre": "- audition, non ouverte à la presse, de Mme Clémentine Bord, référente nationale Violences Intra Familiales (VIF) de la Gendarmerie nationale et M. Olivier Blondel, référent national VIF de la Police nationale ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T08:00:00.000Z",
+      "dateFin": "2026-10-09T09:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461315",
+      "titre": "- audition, non ouverte à la presse, de Mme Charlotte Beluet, haute fonctionnaire à l’Égalité femmes-hommes du Ministère de la Justice.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T09:00:00.000Z",
+      "dateFin": "2026-10-09T10:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461316",
+      "titre": "- audition, non ouverte à la presse, de Mme Catherine Petit, cheffe du service des Droits des femmes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-09T10:00:00.000Z",
+      "dateFin": "2026-10-09T11:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885504"
     },
     {
       "uid": "RUANR5L17S2027IDC461256",

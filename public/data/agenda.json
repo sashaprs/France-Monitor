@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-28T10:45:56.514Z",
+  "updatedAt": "2026-09-28T18:29:59.400Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461095",
-      "titre": "Éventuellement, suite de l’ordre du jour du matin.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-25T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884839"
-    },
     {
       "uid": "RUANR5L17S2026IDC460984",
       "titre": "Participation de Mme Hélène Laporte et de Mme Constance Le Grip à la visite conjointe de la sous-commission sur la coopération transatlantique en matière de défense et de sécurité (DSCTC) et de la sous-commission sur la transition et le développement (ESCTD) de l’AP OTAN à Bucarest et Constanta (Roumanie) du 28 au 30 septembre 2026.",
@@ -48,7 +39,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461206",
-      "titre": "audition, ouverte à la presse, des représentants de l’Assemblée des départements de France (ADF) : Mme Emmanuelle Coint, première vice-présidente du conseil départemental de Côte-d’Or, chargée des solidarités, M. Stéphane Blanchet, viceprésident du conseil départemental de la Seine-Saint-Denis, chargé de l’autonomie, Mme Leonor Cortes, directrice de l’autonomie du conseil départemental de la Seine-Saint-Denis, MM. Éric Bellamy, directeur délégué « solidarité, santé et travail » à l’ADF, et Brice Lacourieux, conseiller « Relations avec le Parlement ».",
+      "titre": "audition, ouverte à la presse, des représentants de l’Assemblée des départements de France (ADF) : Mme Emmanuelle Coint, première vice-présidente du conseil départemental de Côte-d’Or, chargée des solidarités, M. Stéphane Blanchet, viceprésident du conseil départemental de la Seine-Saint-Denis, chargé de l’autonomie, Mme Leonor Cortes, directrice de l’autonomie du conseil départemental de la Seine-Saint-Denis, et M. Brice Lacourieux, conseiller « Relations avec le Parlement ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T09:00:00.000Z",
       "dateFin": null,
@@ -147,7 +138,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461208",
-      "titre": "audition, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités (les noms des personnes accompagnant monsieur le ministre seront communiqués ultérieurement).",
+      "titre": "- audition, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités.\rM. le ministre sera accompagné des personnes suivantes : Mme Célia Vauthier, conseillère solidarités, MM. Diego Mermet, conseiller protection sociale, Philippe Machover, conseiller marché du travail, et Alexandre Bonis, conseiller parlementaire.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T16:00:00.000Z",
       "dateFin": null,
@@ -317,6 +308,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2026IDC461317",
+      "titre": "audition, ouverte à la presse, des représentants du Conseil d’orientation des retraites (COR) : MM. Gilbert Cette, président, et Emmanuel Bretin, secrétaire général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461309",
       "titre": "- audition, non ouverte à la presse, de Mme Gloria Casas Vila, maîtresse de conférences à l’Université Toulouse 2 Jean Jaurès, de M. Robert Courtois, professeur en psychopathologie et psychologie clinique à l’Université de Tours et de M. Alain Legrand, président de la Fédération nationale et des centres de prise en charge d’auteurs de violences conjugales et familiales.",
       "type": "reunionCommission_type",
@@ -342,6 +342,15 @@
       "dateFin": "2026-09-30T12:15:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461319",
+      "titre": "audition du Groupe M6, représenté par Mme Karine Blouët, secrétaire générale, Mme Marie Grau-Chevallereau, directrice des affaires publiques et des études réglementaires, et Mme Ysé Rulence, chargée de mission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC461188",
@@ -380,6 +389,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2026IDC461320",
+      "titre": "audition de NRJ Group, représenté par Mme Maryam Salehi, directrice déléguée à la direction générale, Mme Philippine Brisset, responsable des relations institutionnelles, et Mme Laetitia Faivre, secrétaire générale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461247",
       "titre": "audition de S.E. Mme Alison Milton, ambassadrice d’Irlande en France ;",
       "type": "reunionCommission_type",
@@ -396,6 +414,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461321",
+      "titre": "- table ronde des sociétés de droits d’auteur réunissant :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2026IDC461168",
@@ -434,6 +461,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2026IDC461322",
+      "titre": "- table ronde des fournisseurs internet réunissant :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461218",
       "titre": "audition, ouverte à la presse, de M. Henri Prevost, directeur général de l’Agence nationale de la cohésion des territoires (ANCT).",
       "type": "reunionCommission_type",
@@ -459,6 +495,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461323",
+      "titre": "groupe de travail du collège de l’Arcom « Protection des droits sur Internet » – M. Denis Rapone, président, Mme Pauline Combredet-Blassel, directrice générale adjointe, et M. Gaspard Bianquis, directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "5ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461170",
@@ -524,6 +569,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461324",
+      "titre": "groupe de travail du collège de l’Arcom « Supervision des plateformes en ligne » – M. Benoît Loutrel, président, M. Gaspard Bianquis, directeur de cabinet, et Mme Pauline Combredet-Blassel, directrice générale adjointe.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "5ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461262",
       "titre": "audition de M. Jérôme Triolet, adjoint à la directrice des applications, et Mme Myriam Ricaud, cheffe du pôle Risques chimiques du département Expertise et conseil technique, Institut national de recherche et de sécurité pour la prévention des accidents du travail et des maladies professionnelles (INRS).",
       "type": "reunionCommission_type",
@@ -540,6 +594,15 @@
       "dateFin": "2026-10-01T10:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461325",
+      "titre": "groupe de travail du collège de l’Arcom « Protection des publics et diversité de la société française » – Mme Laurence Pécaut-Rivolier, présidente, et M. Gaspard Bianquis directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "5ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461312",
@@ -734,7 +797,7 @@
       "uid": "RUANR5L17S2027IDS30924",
       "titre": "Discussion du projet de loi autorisant l’approbation de l’accord entre la France et la Moldavie relatif à la coopération dans le domaine de la défense",
       "type": "seance_type",
-      "dateDebut": "2026-10-05T14:00:00.000Z",
+      "dateDebut": "2026-10-05T13:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -1053,6 +1116,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461318",
+      "titre": "Audition de M. Matthieu Rey, chercheur associé à la chaire \"Histoire contemporaine du monde arabe\" du Collège de France",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:15:00.000Z",
+      "dateFin": "2026-10-07T14:30:00.000Z",
+      "lieu": "Visioconférence",
+      "organisateur": "PO851965"
     },
     {
       "uid": "RUANR5L17S2027IDC461149",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:32:00.031Z",
+  "updatedAt": "2026-09-29T10:30:00.347Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460984",
@@ -27,6 +27,15 @@
       "dateFin": "2026-09-28T11:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO885504"
+    },
+    {
+      "uid": "RUANR5L17S2026IDS30967",
+      "titre": null,
+      "type": "seance_type",
+      "dateDebut": "2026-09-28T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2026IDC461205",

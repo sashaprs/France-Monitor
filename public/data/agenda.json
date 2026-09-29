@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T17:44:30.969Z",
+  "updatedAt": "2026-09-29T17:52:31.586Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460984",
@@ -42,7 +42,7 @@
       "titre": "audition, ouverte à la presse, des représentants du Haut-Commissariat à la Stratégie et au Plan (HCSP) : M. Michael Orand, directeur du département « société et politiques sociales », Mme Marine de Montaignac, adjointe au directeur, et M. Antoine Naboulet, adjoint à la directrice du département « travail, emploi et compétences ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-29T08:50:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -50,8 +50,8 @@
       "uid": "RUANR5L17S2026IDC461206",
       "titre": "audition, ouverte à la presse, des représentants de l’Assemblée des départements de France (ADF) : Mme Emmanuelle Coint, première vice-présidente du conseil départemental de Côte-d’Or, chargée des solidarités, M. Stéphane Blanchet, viceprésident du conseil départemental de la Seine-Saint-Denis, chargé de l’autonomie, Mme Leonor Cortes, directrice de l’autonomie du conseil départemental de la Seine-Saint-Denis, et M. Brice Lacourieux, conseiller « Relations avec le Parlement ».",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-09-29T09:05:00.000Z",
+      "dateFin": "2026-09-29T11:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -84,10 +84,10 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461052",
-      "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851) ;",
+      "titre": "examen du rapport d’information sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (sous réserve de son adoption par la Mission d’évaluation et de contrôle des lois de financement de la sécurité sociale) (MM. Jérôme Guedj, Thibault Bazin et Thierry Frappé, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-29T15:15:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -132,7 +132,7 @@
       "titre": "examen du rapport, ouvert à la presse, de la mission d'information sur le coût des violences sexistes et sexuelles et l’accompagnement des victimes (Mmes Sandrine Josso et Élise Leboucher, rapporteures).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-29T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-29T15:15:00.000Z",
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
     },
@@ -165,7 +165,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461142",
-      "titre": "audition, à huis clos, du général d’armée aérienne Fabien Mandon, chef d’état major des armées, sur l’actualité géopolitique et militaire ;",
+      "titre": "audition, à huis clos, du général d’armée aérienne Fabien Mandon, chef d’état major des armées, sur l’actualité géopolitique et militaire.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:00:00.000Z",
       "dateFin": null,
@@ -228,7 +228,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461167",
-      "titre": "audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant.",
+      "titre": "– Nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851)\r- nomination d’un rapporteur sur la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 2892).\r- nomination d’un rapporteur sur la pétition n° 4753 du 20 novembre 2025 « Pour rendre obligatoire l’affichage du Nutri-Score sur les emballages des aliments en France ».\r- audition de M. Bernard Lejeune, président de la sixième chambre de la Cour des comptes, sur le rapport sur le rapport relatif au médecin traitant.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
       "dateFin": null,
@@ -806,7 +806,7 @@
       "uid": "RUANR5L17S2027IDS30924",
       "titre": "Discussion du projet de loi autorisant l’approbation de l’accord entre la France et la Moldavie relatif à la coopération dans le domaine de la défense",
       "type": "seance_type",
-      "dateDebut": "2026-10-05T13:00:00.000Z",
+      "dateDebut": "2026-10-05T14:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -974,6 +974,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461169",
+      "titre": "examen de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 2892).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461135",
       "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et l’Agence française de développement pour la période 2027-2029 (Mme Sabrina Sebaihi et Mme Liliana Tanguy, rapporteures).",
       "type": "reunionCommission_type",
@@ -999,15 +1008,6 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461169",
-      "titre": "examen du rapport d’information sur l’exposition des jeunes aux boissons énergisantes et aux boissons alcoolisées prêtes à boire (Mme Sandrine Runel et M. Yannick Neuder, rapporteurs)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461287",
@@ -1757,6 +1757,24 @@
       "organisateur": "PO58974"
     },
     {
+      "uid": "RUANR5L17S2027IDS30950",
+      "titre": "Débat sur les finances locales",
+      "type": "seance_type",
+      "dateDebut": "2026-10-19T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30951",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-19T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDFL459260",
       "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
       "type": "reunionInitParlementaire_type",
@@ -1773,6 +1791,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30952",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-20T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461098",
@@ -1793,6 +1820,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDS30953",
+      "titre": "Discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-20T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461284",
       "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1809,6 +1845,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30955",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-21T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461162",
@@ -1829,6 +1874,96 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDS30954",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-21T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30956",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-22T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30957",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-22T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30958",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-22T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30959",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-23T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30960",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-23T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30961",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-23T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30962",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-26T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30963",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-26T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30964",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-27T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461099",
       "titre": "audition de M. Xavier de Lavignère, président-directeur général d'Asgard Motors.",
       "type": "reunionCommission_type",
@@ -1847,6 +1982,15 @@
       "organisateur": "PO201269"
     },
     {
+      "uid": "RUANR5L17S2027IDS30965",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-27T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461285",
       "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1854,6 +1998,114 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30966",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-10-28T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31005",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-28T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30968",
+      "titre": "Journée réservée au groupe LFI-NFP",
+      "type": "seance_type",
+      "dateDebut": "2026-10-29T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30969",
+      "titre": "Journée réservée au groupe LFI-NFP",
+      "type": "seance_type",
+      "dateDebut": "2026-10-29T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30970",
+      "titre": "Journée réservée au groupe LFI-NFP",
+      "type": "seance_type",
+      "dateDebut": "2026-10-29T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30971",
+      "titre": null,
+      "type": "seance_type",
+      "dateDebut": "2026-10-30T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31006",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-30T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30972",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-30T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30973",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-30T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30974",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-02T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30975",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-02T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30976",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-02T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDFL461127",
@@ -1865,6 +2117,132 @@
       "organisateur": "PO854354"
     },
     {
+      "uid": "RUANR5L17S2027IDS30977",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-03T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30978",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-03T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30979",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-04T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30980",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-11-04T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30981",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-05T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30982",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-05T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30983",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-05T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30984",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-06T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30985",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-06T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30986",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-11-06T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30987",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-09T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30988",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-09T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30989",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-09T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30990",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-10T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461100",
       "titre": "audition de M. Nicolas Groult, président-directeur général de KNDS France et de M. Alexandre Dupuy, directeur des affaires gouvernementales et institutionnelles.",
       "type": "reunionCommission_type",
@@ -1872,6 +2250,132 @@
       "dateFin": "2026-11-10T17:00:00.000Z",
       "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30991",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-10T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30992",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-12T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30993",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-12T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30994",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-12T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30995",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-13T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30996",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-13T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30997",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-13T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30998",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-14T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30999",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-14T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31000",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-14T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31001",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-16T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31002",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-16T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31003",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-16T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31004",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-17T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDFL460521",

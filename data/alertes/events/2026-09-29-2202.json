@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-09-29T22:02:34.106Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N50454",
+   "type": "nouveau_dossier",
+   "date": "2026-09-29T22:02:34.106Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 145 du règlement par la commission des affaires sociales en co…",
+   "detail": "Mission d'information",
+   "url": null,
+   "dossier_id": "DLR5L17N50454",
+   "texte_matchable": "Mission d'évaluation et de contrôle des lois de financement de la sécurité sociale rapport d'information déposé en application de l'article 145 du règlement par la commission des affaires sociales en conclusion des travaux d'une mission d'évaluation et de contrôle des lois de financement de la sécurité sociale sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire Mission d'information",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54946",
+   "type": "nouveau_dossier",
+   "date": "2026-09-29T22:02:34.106Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budg…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/enseignement_heures_perdues_cout",
+   "dossier_id": "DLR5L17N54946",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur les heures d’enseignement perdues dans l’Éducation nationale : quel coût budgétaire, quelles conséquences pour l’école ? rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur les heures d’enseignement perdues dans l’Éducation nationale : quel coût budgétaire, quelles conséquences pour l’école ? Rapport d'information sans mission",
+   "profils": []
+  }
+ ]
+}

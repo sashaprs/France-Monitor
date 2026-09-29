@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-09-29T00:16:38.635Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54941",
+   "type": "nouveau_dossier",
+   "date": "2026-09-29T00:16:38.635Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à instituer une journée nationale du drapeau tricolore français",
+   "detail": "Proposition de loi ordinaire · commission : Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54941",
+   "dossier_id": "DLR5L17N54941",
+   "texte_matchable": "Proposition de loi visant à instituer une journée nationale du drapeau tricolore français Proposition de loi ordinaire Lois constitutionnelles, législation, suffrage universel, Règlement et administr",
+   "profils": []
+  }
+ ]
+}

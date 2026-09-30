@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-09-30T22:01:21.827Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N52319",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T22:01:21.827Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 145 du règlement en conclusion des travaux de la mission d'inf…",
+   "detail": "Mission d'information",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/articulation_defenses_atlantiques",
+   "dossier_id": "DLR5L17N52319",
+   "texte_matchable": "Mission d'information commune sur l'articulation et la compatibilité des défenses européennes et atlantiques rapport d'information déposé en application de l'article 145 du règlement en conclusion des travaux de la mission d'information commune sur l’articulation et la compatibilité des défenses européennes et atlantiques Mission d'information",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001275",
+   "type": "nouvel_amendement",
+   "date": "2026-09-30T22:01:21.827Z",
+   "titre": "Amendement n° 1275 de Sandrine Rousseau (EcoS) — ART. PREMIER",
+   "detail": "Ce sous-amendement vise à supprimer l’intégration de la contravention pour l’achat de contenus à caractère sexuel en ligne, prévue à l’article 25 de la présente proposition de loi, au sein de la défi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1275",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Ce sous-amendement vise à supprimer l’intégration de la contravention pour l’achat de contenus à caractère sexuel en ligne, prévue à l’article 25 de la présente proposition de loi, au sein de la défi… ART. PREMIER Sandrine Rousseau EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  }
+ ]
+}

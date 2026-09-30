@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T15:40:53.623Z",
+  "updatedAt": "2026-09-30T17:47:58.578Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC460984",
@@ -177,7 +177,7 @@
       "titre": "audition, à huis clos, du général d’armée aérienne Fabien Mandon, chef d’état major des armées, sur l’actualité géopolitique et militaire ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T09:00:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -222,7 +222,7 @@
       "titre": "table ronde sur les résultats de l’enquête du Programme international pour le suivi des acquis des élèves (Pisa) 2025 réunissant M. Éric Charbonnier, analyste à la direction de l’éducation et des compétences de l’OCDE, M. Pierre Yves Cusset, rapporteur de l’étude du Haut-Commissariat à la stratégie et au plan intitulée « Niveau scolaire : éléments de diagnostic et propositions », M. Guillaume Houzel, co-auteur de la note du Conseil d’analyse économique intitulée « École : un plan d’action pour rattraper le retard français », et M. Franck Ramus, directeur de recherche au CNRS, membre du Conseil scientifique de l’éducation nationale ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T10:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -231,7 +231,7 @@
       "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T09:05:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -399,7 +399,7 @@
     },
     {
       "uid": "RUANR5L17S2026IDC461320",
-      "titre": "audition de NRJ Group, représenté par Mme Maryam Salehi, directrice déléguée à la direction générale, Mme Philippine Brisset, responsable des relations institutionnelles, et Mme Laetitia Faivre, secrétaire générale.",
+      "titre": "audition de NRJ Group, représenté par Mme Philippine Brisset, responsable des relations institutionnelles, et Mme Laetitia Faivre, secrétaire générale.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T13:00:00.000Z",
       "dateFin": null,
@@ -1575,6 +1575,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461326",
+      "titre": "audition, ouverte à la presse, des plateformes HUNQZ et MYM dans le cadre du cycle sur la prostitution des mineurs.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088 – rdc – immeuble Olympe de Gouges - 9 rue de Bourgogne",
+      "organisateur": "PO804431"
     },
     {
       "uid": "RUANR5L17S2027IDC461304",

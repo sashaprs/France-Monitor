@@ -1,0 +1,192 @@
+{
+ "genere_le": "2026-09-30T17:48:41.563Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N52256",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Nouveau dossier : rapport d'information déposé en application de l'article 145 du règlement en conclusion des travaux de la mission d'inf…",
+   "detail": "Mission d'information",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/diplomatie_reorientation_strategique",
+   "dossier_id": "DLR5L17N52256",
+   "texte_matchable": "Mission d'information commune sur les moyens consacrés au volet diplomatique de notre réorientation stratégique rapport d'information déposé en application de l'article 145 du règlement en conclusion des travaux de la mission d'information commune sur les moyens consacrés au volet diplomatique de notre réorientation stratégique Mission d'information",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54947",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires étrangères sur le déplacement du président…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/deplacement_pologne",
+   "dossier_id": "DLR5L17N54947",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires étrangères sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires étrangères sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54948",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 145-7 alinéa 1 du règlement, par la commission des affaires culturelles et de l'éducation su…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/evaluation_loi_directeur_ecole",
+   "dossier_id": "DLR5L17N54948",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 145-7 alinéa 1 du règlement, par la commission des affaires culturelles et de l'éducation sur l’évaluation de la loi n° 2021-1716 du 21 décembre 2021 créant la fonction de directrice ou de directeur d’école rapport d'information déposé en application de l'article 145-7 alinéa 1 du règlement, par la commission des affaires culturelles et de l'éducation sur l’évaluation de la loi n° 2021-1716 du 21 décembre 2021 créant la fonction de directrice ou de directeur d’école Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54950",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des lois constitutionnelles, de la législation et de l'a…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/financement_associations_personnes_migrantes",
+   "dossier_id": "DLR5L17N54950",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission des lois constitutionnelles, de la législation et de l'administration générale de la République, en conclusion des travaux d'une mission d'information sur l’utilisation des financements publics par les associations impliquées dans l’accompagnement et la défense des personnes migrantes rapport d'information déposé en application de l'article 145 du règlement, par la commission des lois constitutionnelles, de la législation et de l'administration générale de la République, en conclusion des travaux d'une mission d'information sur l’utilisation des financements publics par les associations impliquées dans l’accompagnement et la défense des personnes migrantes Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N54949",
+   "type": "nouveau_dossier",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Nouveau dossier : DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission de la défense nationale et des forces armées portant rec…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/auditions_guerre_hybride",
+   "dossier_id": "DLR5L17N54949",
+   "texte_matchable": "DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission de la défense nationale et des forces armées portant recueil d’auditions de la commission sur la guerre hybride et continuum de conflictualités rapport d'information déposé en application de l'article 145 du règlement, par la commission de la défense nationale et des forces armées portant recueil d’auditions de la commission sur la guerre hybride et continuum de conflictualités Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000006:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL6 de Rapporteur : Tombé",
+   "detail": "Le présent amendement vise à rétablir l’obligation, pour les collectivités territoriales et leurs groupements, de conclure une convention avec une autorité locale étrangère lorsqu’ils mettent en œuvr…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL6",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Le présent amendement vise à rétablir l’obligation, pour les collectivités territoriales et leurs groupements, de conclure une convention avec une autorité locale étrangère lorsqu’ils mettent en œuvr… ART. UNIQUE Rapporteur Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000007:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL7 de Rapporteur : Rejeté",
+   "detail": "Le présent amendement vise à abroger les dispositifs de financements spécifiques dits du « 1 % solidaire », qui permettent aux collectivités territoriales, à leurs groupements et à certains établisse…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL7",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Le présent amendement vise à abroger les dispositifs de financements spécifiques dits du « 1 % solidaire », qui permettent aux collectivités territoriales, à leurs groupements et à certains établisse… APRÈS ART. UNIQUE Rapporteur Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000005:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL5 de Hervé Saulignac (SOC) : Adopté",
+   "detail": "Cet amendement du groupe Socialistes et apparentés vise à supprimer l'article unique de cette proposition de loi qui, sous couvert de mieux encadrer les subventions des collectivités territoriales, r…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL5",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Cet amendement du groupe Socialistes et apparentés vise à supprimer l'article unique de cette proposition de loi qui, sous couvert de mieux encadrer les subventions des collectivités territoriales, r… ART. UNIQUE Hervé Saulignac SOC Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419865B2970P0D1N000002:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CD2 de Rapporteur : Tombé",
+   "detail": "Amendement rédactionnel.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2970/CION-DVP/CD2",
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Amendement rédactionnel. TITRE Rapporteur Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419865B2970P0D1N000001:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CD1 de Rapporteur : Rejeté",
+   "detail": "Amendement rédactionnel et de coordination.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2970/CION-DVP/CD1",
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Amendement rédactionnel et de coordination. ART. UNIQUE Rapporteur Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419865B2970P0D1N000005:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CD5 de Rapporteur : Rejeté",
+   "detail": "Amendement de coordination de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2970/CION-DVP/CD5",
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Amendement de coordination de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté. ART. UNIQUE Rapporteur Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419865B2970P0D1N000004:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CD4 de Rapporteur : Rejeté",
+   "detail": "Amendement de coordination de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2970/CION-DVP/CD4",
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Amendement de coordination de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté. ART. UNIQUE Rapporteur Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO419865B2970P0D1N000003:Rejeté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CD3 de Rapporteur : Rejeté",
+   "detail": "Amendement rédactionnel de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2970/CION-DVP/CD3",
+   "dossier_id": "DLR5L17N54557",
+   "texte_matchable": "Amendement rédactionnel de repli, dans le cas où l'amendement rédactionnel et de coordination de rédaction globale ne serait pas adopté. ART. UNIQUE Rapporteur Abroger les zones à faibles émissions-mobilités",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000004:Tombé",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL4 de Emmanuel Duplessy (EcoS) : Tombé",
+   "detail": "Cet amendement du groupe Écologiste et Social vise à mettre le titre de cette proposition de loi en conformité avec la conception pour le moins singulière de la bonne gestion de l’argent public défen…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL4",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Cet amendement du groupe Écologiste et Social vise à mettre le titre de cette proposition de loi en conformité avec la conception pour le moins singulière de la bonne gestion de l’argent public défen… TITRE Emmanuel Duplessy EcoS Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000003:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL3 de Emmanuel Duplessy (EcoS) : Adopté",
+   "detail": "Cet amendement du groupe Écologiste et Social vise à supprimer l'article unique de cette proposition de loi. Le Rassemblement national propose de restreindre la capacité des collectivités territorial…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL3",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Cet amendement du groupe Écologiste et Social vise à supprimer l'article unique de cette proposition de loi. Le Rassemblement national propose de restreindre la capacité des collectivités territorial… ART. UNIQUE Emmanuel Duplessy EcoS Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000001:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL1 de Raphaël Arnault (LFI-NFP) : Adopté",
+   "detail": "Par cet amendement de suppression, nous nous opposons totalement à la présente proposition de loi aux intentions purement xénophobes et contraires aux droits humains. Cet article vise à réviser le ca…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL1",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Par cet amendement de suppression, nous nous opposons totalement à la présente proposition de loi aux intentions purement xénophobes et contraires aux droits humains. Cet article vise à réviser le ca… ART. UNIQUE Raphaël Arnault LFI-NFP Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59051B0390P0D1N000002:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-09-30T17:48:41.563Z",
+   "titre": "Amendement n° CL2 de Émeline K/Bidi (GDR) : Adopté",
+   "detail": "Le présent amendement supprime l'article unique, qui subordonne à un « intérêt public local » toute action internationale de coopération, d'aide au développement ou à caractère humanitaire des collec…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/0390/CION_LOIS/CL2",
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Le présent amendement supprime l'article unique, qui subordonne à un « intérêt public local » toute action internationale de coopération, d'aide au développement ou à caractère humanitaire des collec… ART. UNIQUE Émeline K/Bidi GDR Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  }
+ ]
+}

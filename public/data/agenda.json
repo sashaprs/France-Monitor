@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T20:08:53.858Z",
+  "updatedAt": "2026-10-01T23:46:41.410Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461205",
@@ -74,15 +74,6 @@
       "organisateur": "PO59047"
     },
     {
-      "uid": "RUANR5L17S2026IDC461207",
-      "titre": "audition, ouverte à la presse, des représentants de la Direction de l’habitat, de l’urbanisme et des paysages (DHUP) : MM. Benoît Ameye, sous-directeur des politiques de l'habitat, Antoine Konieczka, adjoint au sous-directeur, Mme Emmanuelle Poligné, cheffe du bureau LO2, MM. Ludovic Cour, adjoint au chef du bureau FE4, Pierre-Olivier Faure, adjoint au chef du bureau FE5, et Damien Metivier, adjoint au chef du bureau LO5.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T14:30:00.000Z",
-      "dateFin": "2026-09-29T15:40:00.000Z",
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461165",
       "titre": "examen de la proposition de loi renforçant la responsabilité des locataires et des bailleurs dans le logement social (n° 3109) (M. Lionel Tivoli, rapporteur).",
       "type": "reunionCommission_type",
@@ -110,10 +101,19 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2026IDC461207",
+      "titre": "audition, ouverte à la presse, des représentants de la Direction de l’habitat, de l’urbanisme et des paysages (DHUP) : MM. Benoît Ameye, sous-directeur des politiques de l'habitat, Antoine Konieczka, adjoint au sous-directeur, Mme Emmanuelle Poligné, cheffe du bureau LO2, MM. Ludovic Cour, adjoint au chef du bureau FE4, Pierre-Olivier Faure, adjoint au chef du bureau FE5, et Damien Metivier, adjoint au chef du bureau LO5.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T14:40:00.000Z",
+      "dateFin": "2026-09-29T15:40:00.000Z",
+      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461208",
       "titre": "audition, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités : M. le ministre sera accompagné des personnes suivantes : Mme Célia Vauthier, conseillère solidarités, MM. Diego Mermet, conseiller protection sociale, Philippe Machover, conseiller marché du travail, et Alexandre Bonis, conseiller parlementaire.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T16:00:00.000Z",
+      "dateDebut": "2026-09-29T16:05:00.000Z",
       "dateFin": "2026-09-29T17:40:00.000Z",
       "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO881988"
@@ -155,15 +155,6 @@
       "organisateur": "PO881988"
     },
     {
-      "uid": "RUANR5L17S2026IDC461129",
-      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460831",
       "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
       "type": "reunionCommission_type",
@@ -180,6 +171,15 @@
       "dateFin": "2026-09-30T08:35:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461129",
+      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:10:00.000Z",
+      "dateFin": "2026-09-30T08:00:00.000Z",
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2026IDC461048",
@@ -231,7 +231,7 @@
       "titre": "examen ouvert à la presse et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE (n° 3060) (Mme Alix Fruchon, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T08:35:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -528,13 +528,13 @@
       "titre": "élection du Bureau de la Commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
-      "dateFin": "2026-10-01T08:05:00.000Z",
+      "dateFin": "2026-10-01T08:10:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461122",
-      "titre": "- élection des membres du bureau de la commission.\rEn l’absence d’accord entre les présidents des groupes sur la composition du Bureau de l’Assemblée nationale, le calendrier serait le suivant :\rVendredi 2 octobre 2026, à 15 heures (salle 6238) :\r- élection des membres du bureau de la commission.",
+      "titre": "élection des membres du bureau de la commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:05:00.000Z",
       "dateFin": "2026-10-01T08:10:00.000Z",
@@ -605,15 +605,6 @@
       "organisateur": "PO866672"
     },
     {
-      "uid": "RUANR5L17S2027IDC461231",
-      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, et de M. Michaël Zemmour, membre du Haut Conseil, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461244",
       "titre": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique.",
       "type": "reunionCommission_type",
@@ -621,15 +612,6 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO866672"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461263",
-      "titre": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évaluation des politiques de soutien à la restauration scolaire en outre-mer ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461146",
@@ -641,13 +623,22 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461298",
-      "titre": "audition, ouverte à la presse, des représentants du Haut Conseil de la famille, de l'enfance et de l'âge (HCFEA) : MM. Jean-Philippe Vinquant, président, et Marco Geraci, secrétaire général adjoint.",
+      "uid": "RUANR5L17S2027IDC461231",
+      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, et de M. Michaël Zemmour, membre du Haut Conseil, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
+      "dateDebut": "2026-10-01T12:05:00.000Z",
+      "dateFin": "2026-10-01T14:20:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461263",
+      "titre": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évaluation des politiques de soutien à la restauration scolaire en outre-mer » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:05:00.000Z",
+      "dateFin": "2026-10-01T14:00:00.000Z",
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461295",
@@ -659,11 +650,20 @@
       "organisateur": "PO851592"
     },
     {
+      "uid": "RUANR5L17S2027IDC461298",
+      "titre": "audition, ouverte à la presse, des représentants du Haut Conseil de la famille, de l'enfance et de l'âge (HCFEA) : MM. Jean-Philippe Vinquant, président, et Marco Geraci, secrétaire général adjoint.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:35:00.000Z",
+      "dateFin": "2026-10-01T14:30:00.000Z",
+      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461305",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T12:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-01T12:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
     },
@@ -672,7 +672,7 @@
       "titre": "Discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-01T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-01T17:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -699,7 +699,7 @@
       "titre": "audition de MM. Roland Lescure, ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique et David Amiel, ministre de l’Action et des Comptes publics, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T14:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-01T17:10:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -830,6 +830,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461374",
+      "titre": "- désignation du rapporteur",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461267",
       "titre": "examen de la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851).",
       "type": "reunionCommission_type",
@@ -837,6 +846,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461348",
+      "titre": "– \tTable ronde sur le financement de la transition écologique, avec la participation de :\r- I4CE : M. Benoît Leguet, directeur général, Mme Aurore Colin, chercheuse au sein de l’équipe Collectivités locales, et M. Guillaume Dolques, chercheur au sein de l’équipe Adaptation,\r- Institut Montaigne : M. Joseph Dellatte, expert résident et responsable de projets climat et énergie,\r- The Shift Project : M. Clément Caudron, expert énergie et transition robuste.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461299",
@@ -849,7 +867,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461134",
-      "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027.",
+      "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
       "dateFin": null,
@@ -956,15 +974,6 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2027IDC461135",
-      "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et l’Agence française de développement pour la période 2027-2029 (Mme Sabrina Sebaihi et Mme Liliana Tanguy, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461147",
       "titre": "audition, ouverte à la presse, du général d’armée Hubert Bonneau, directeur général de la gendarmerie nationale, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -975,12 +984,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461171",
-      "titre": "audition de Mme Emilie Piette, présidente du directoire de Réseau de transport d’électricité (RTE).",
+      "titre": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461349",
+      "titre": "désignation d’un rapporteur sur la proposition de loi visant à instaurer un moratoire sur le projet du Canal Seine-Nord Europe (n° 3170) (sous réserve de son inscription à l’ordre du jour) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461287",
@@ -990,6 +1008,15 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461135",
+      "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et l’Agence française de développement (AFD) pour la période 2027-2029 (Mme Sabrina Sebaihi et Mme Liliana Tanguy, rapporteures).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461148",
@@ -1002,7 +1029,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461136",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(sous réserve de son dépôt) :\r- examen de l’avis sur le prélèvement sur recettes au profit de l’Union européenne (M. Aurélien Taché, rapporteur pour avis) ;\r- vote sur l’article du projet de loi de finances pour 2027 prévoyant le prélèvement sur recettes au profit de l’Union européenne.",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) : \r- examen de l’avis sur le prélèvement sur recettes au profit de l’Union européenne (M. Aurélien Taché, rapporteur pour avis) ;\r- vote sur l’article 55 du projet de loi de finances pour 2027 prévoyant le prélèvement sur recettes au profit de l’Union européenne.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T09:00:00.000Z",
       "dateFin": null,
@@ -1017,6 +1044,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461350",
+      "titre": "audition de Mme Amélie de Montchalin, Première présidente de la Cour des comptes, sur le rapport public sur la transition écologique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T09:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461288",
@@ -1074,12 +1110,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461248",
-      "titre": "Audition, conjointe avec la commission des affaires économiques, de M. Christophe Hansen, commissaire européen à l’agriculture.",
+      "titre": "audition, conjointe avec la commission des affaires économiques, de M. Christophe Hansen, commissaire européen à l’agriculture.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461375",
+      "titre": "audition conjointe, ouverte à la presse, des représentants des syndicats représentatifs du premier degré public :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2027IDC461173",
@@ -1163,6 +1208,15 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2027IDC461340",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390) (M. Thomas Ménagé, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461235",
       "titre": "audition, ouverte à la presse, de M. David Amiel, ministre de l’action et des comptes publics.",
       "type": "reunionCommission_type",
@@ -1197,6 +1251,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461351",
+      "titre": "éventuellement, examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à abroger les zones à faibles émissions mobilité (n° 3200) (M. Pierre Meurin, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T06:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461289",
@@ -1406,6 +1469,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461376",
+      "titre": "Examen, en application de l’article 88 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30940",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1415,6 +1487,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461359",
+      "titre": "examen pour avis des crédits budgétaires « Pêche et aquaculture » (M. Stéphane Buchou, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461097",
       "titre": "audition de M. Bruno Cruchant, directeur des affaires publiques de Shark Robotics.",
       "type": "reunionCommission_type",
@@ -1422,6 +1503,24 @@
       "dateFin": "2026-10-13T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461341",
+      "titre": "Prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461352",
+      "titre": "- audition de Mme Monique Barbut, ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, et de M. Mathieu Lefèvre, ministre délégué chargé de la transition écologique ;\r- examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :\r. Transition énergétique (M. Vincent Descoeur, rapporteur pour avis) ;\r. Protection de l’environnement et prévention des risques (Mme Sophie Panonacle, rapporteure pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461236",
@@ -1469,6 +1568,33 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461360",
+      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Agriculture et alimentation » (Mme Hélène Laporte, rapporteure pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461353",
+      "titre": "- suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :\r. Transition énergétique (M. Vincent Descoeur, rapporteur pour avis) ;\r. Protection de l’environnement et prévention des risques (Mme Sophie Panonacle, rapporteure pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461377",
+      "titre": "– Audition de M. Philippe-Pierre CABOURDIN, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers\r– Examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461283",
       "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
@@ -1494,6 +1620,33 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461354",
+      "titre": "- suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :\r. Paysages, eau et biodiversité (M. Sylvain Carrière, rapporteur pour avis) ;\r. Politiques de développement durable (M. Mickaël Cosson, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461361",
+      "titre": "audition de M. Guillaume Faury, président exécutif du groupe Airbus.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461362",
+      "titre": "examen pour avis des crédits budgétaires « Commerce extérieur » (M. Thomas Lam, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461155",
@@ -1523,6 +1676,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461260",
+      "titre": "L’Union européenne face au défi du financement de la transition énergétique : examen du rapport d’information (M. Karim Benbrahim et Mme Sandrine Lalanne, rapporteurs d'information)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461185",
       "titre": "- examen du rapport d’information, ouvert à la presse, de la mission d’information sur la santé des femmes (Mmes Sandrine Rousseau et Prisca Thévenot, rapporteures).",
       "type": "reunionCommission_type",
@@ -1539,6 +1701,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461363",
+      "titre": "examen pour avis des crédits budgétaires « Communications électroniques et économie numérique » (M. René Pilato, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T13:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461156",
@@ -1559,6 +1730,15 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2027IDC461355",
+      "titre": "audition de M. Philippe Tabarot, ministre des transports.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461304",
       "titre": "table ronde, ouverte à la presse, de représentants des organisations patronales (Medef, Les Entrepreneurs, UDES – noms en attente).",
       "type": "reunionCommission_type",
@@ -1577,6 +1757,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461356",
+      "titre": "audition de Mme Françoise Gatel, ministre de l'aménagement du territoire et de la décentralisation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461275",
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1593,6 +1782,33 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461364",
+      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Tourisme » (M. Alexis Jolly, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461357",
+      "titre": "examen pour avis des crédits de la mission Cohésion des territoires (Aménagement du territoire) du projet de loi de finances pour 2027 (n°3210) (Mme Lisa Belluco, rapporteure pour avis), puis vote sur les crédits de cette mission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461358",
+      "titre": "- audition de Mme Catherine Chabaud, ministre déléguée chargée de la mer et de la pêche,\r- suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210), puis vote sur l’ensemble des crédits de cette mission :\r. Affaires maritimes (M. Fabrice Roussel, rapporteur pour avis) ; \r. Transports terrestres et fluviaux (M. Auguste Evrard, rapporteur pour avis) ;\r. Transports aériens ; budget annexe « Contrôle et exploitation aériens » (M. Marcellin Nadeau, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS30944",
@@ -1620,6 +1836,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461365",
+      "titre": "examen pour avis des crédits budgétaires « Entreprises » (M. Karim Benbrahim, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461159",
@@ -1748,6 +1973,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461366",
+      "titre": "examen pour avis des crédits budgétaires « Énergie » (M. Jean-Luc Fugit, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-19T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30951",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1755,6 +1989,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461367",
+      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Énergie » (M. Jean-Luc Fugit, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-19T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDFL459260",
@@ -1793,6 +2036,24 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2027IDC461327",
+      "titre": "examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461368",
+      "titre": "examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461195",
       "titre": "audition, ouverte à la presse, de M. Denis Ferrand, directeur général de Rexecode et M. Olivier Redoulès, directeur des études.",
       "type": "reunionCommission_type",
@@ -1802,6 +2063,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461328",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30953",
       "titre": "Discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -1809,6 +2079,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461369",
+      "titre": "suite de l’examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461329",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461284",
@@ -1829,6 +2117,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461370",
+      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30955",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1836,6 +2133,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461331",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461371",
+      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Outre-mer»  (M. Joseph Rivière, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461162",
@@ -1856,6 +2171,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461332",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30954",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -1863,6 +2187,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461333",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30956",
@@ -1883,6 +2216,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461334",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461335",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30958",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -1901,6 +2252,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461336",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-23T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30960",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -1908,6 +2268,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461337",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-23T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461338",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-23T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30961",
@@ -1919,6 +2297,42 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461342",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-24T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461343",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-24T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461344",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461345",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-26T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30962",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -1926,6 +2340,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461346",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-26T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30963",
@@ -1980,6 +2403,33 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461347",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461372",
+      "titre": "audition de M. Jean-Luc Duval, président de la Coopération agricole.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461373",
+      "titre": "audition de M. Bruno Bonnell, secrétaire général pour l’Investissement (SGPI).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDS30966",

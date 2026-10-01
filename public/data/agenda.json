@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-01T06:54:18.181Z",
+  "updatedAt": "2026-10-01T10:48:10.119Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461294",
-      "titre": "audition de Mmes Delphine Girard et Frédérique de la Morena, membres du Conseil des sages de la laïcité et des valeurs de la République du ministère de l’éducation nationale, et M. Alain Seksig, secrétaire général.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-28T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461306",
-      "titre": "- audition, non ouverte à la presse, de Mmes Clémence Pajot, directrice générale de la Fédération nationale des centres d’information sur les droits des femmes et des familles et Margot Civeit, chargée de plaidoyer.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-28T10:00:00.000Z",
-      "dateFin": "2026-09-28T11:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
     {
       "uid": "RUANR5L17S2026IDS30967",
       "titre": null,

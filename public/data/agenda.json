@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T14:14:35.259Z",
+  "updatedAt": "2026-10-01T18:13:42.488Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDS30967",
@@ -83,15 +83,6 @@
       "organisateur": "PO59047"
     },
     {
-      "uid": "RUANR5L17S2026IDC461207",
-      "titre": "audition, ouverte à la presse, des représentants de la Direction de l’habitat, de l’urbanisme et des paysages (DHUP) : MM. Benoît Ameye, sous-directeur des politiques de l'habitat, Antoine Konieczka, adjoint au sous-directeur, Mme Emmanuelle Poligné, cheffe du bureau LO2, MM. Ludovic Cour, adjoint au chef du bureau FE4, Pierre-Olivier Faure, adjoint au chef du bureau FE5, et Damien Metivier, adjoint au chef du bureau LO5.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T14:30:00.000Z",
-      "dateFin": "2026-09-29T15:40:00.000Z",
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
-    },
-    {
       "uid": "RUANR5L17S2026IDC461165",
       "titre": "examen de la proposition de loi renforçant la responsabilité des locataires et des bailleurs dans le logement social (n° 3109) (M. Lionel Tivoli, rapporteur).",
       "type": "reunionCommission_type",
@@ -119,10 +110,19 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2026IDC461207",
+      "titre": "audition, ouverte à la presse, des représentants de la Direction de l’habitat, de l’urbanisme et des paysages (DHUP) : MM. Benoît Ameye, sous-directeur des politiques de l'habitat, Antoine Konieczka, adjoint au sous-directeur, Mme Emmanuelle Poligné, cheffe du bureau LO2, MM. Ludovic Cour, adjoint au chef du bureau FE4, Pierre-Olivier Faure, adjoint au chef du bureau FE5, et Damien Metivier, adjoint au chef du bureau LO5.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-29T14:40:00.000Z",
+      "dateFin": "2026-09-29T15:40:00.000Z",
+      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2026IDC461208",
       "titre": "audition, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités : M. le ministre sera accompagné des personnes suivantes : Mme Célia Vauthier, conseillère solidarités, MM. Diego Mermet, conseiller protection sociale, Philippe Machover, conseiller marché du travail, et Alexandre Bonis, conseiller parlementaire.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T16:00:00.000Z",
+      "dateDebut": "2026-09-29T16:05:00.000Z",
       "dateFin": "2026-09-29T17:40:00.000Z",
       "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO881988"
@@ -164,15 +164,6 @@
       "organisateur": "PO881988"
     },
     {
-      "uid": "RUANR5L17S2026IDC461129",
-      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
       "uid": "RUANR5L17S2026IDC460831",
       "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
       "type": "reunionCommission_type",
@@ -189,6 +180,15 @@
       "dateFin": "2026-09-30T08:35:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2026IDC461129",
+      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-09-30T07:10:00.000Z",
+      "dateFin": "2026-09-30T08:00:00.000Z",
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2026IDC461048",
@@ -240,7 +240,7 @@
       "titre": "examen ouvert à la presse et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE (n° 3060) (Mme Alix Fruchon, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T08:35:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -537,7 +537,7 @@
       "titre": "élection du Bureau de la Commission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T08:00:00.000Z",
-      "dateFin": "2026-10-01T08:05:00.000Z",
+      "dateFin": "2026-10-01T08:10:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -614,15 +614,6 @@
       "organisateur": "PO866672"
     },
     {
-      "uid": "RUANR5L17S2027IDC461231",
-      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, et de M. Michaël Zemmour, membre du Haut Conseil, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461244",
       "titre": "audition de Mme Anne Le Hénanff, ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique.",
       "type": "reunionCommission_type",
@@ -630,15 +621,6 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO866672"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461263",
-      "titre": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évaluation des politiques de soutien à la restauration scolaire en outre-mer ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461146",
@@ -650,13 +632,22 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461298",
-      "titre": "audition, ouverte à la presse, des représentants du Haut Conseil de la famille, de l'enfance et de l'âge (HCFEA) : MM. Jean-Philippe Vinquant, président, et Marco Geraci, secrétaire général adjoint.",
+      "uid": "RUANR5L17S2027IDC461231",
+      "titre": "audition de Mme Amélie de Montchalin, présidente du Haut Conseil des finances publiques, et de M. Michaël Zemmour, membre du Haut Conseil, sur l’avis du Haut Conseil relatif au projet de loi de finances pour 2027 et au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de leur dépôt).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-01T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
+      "dateDebut": "2026-10-01T12:05:00.000Z",
+      "dateFin": "2026-10-01T14:20:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461263",
+      "titre": "audition, ouverte à la presse, de Mme Perrine Goulet, députée, présidente de la Délégation aux droits des enfants, pour la présentation de rapport d’information publié au nom de la Commission des finances « sur l’évaluation des politiques de soutien à la restauration scolaire en outre-mer » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:05:00.000Z",
+      "dateFin": "2026-10-01T14:00:00.000Z",
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461295",
@@ -668,11 +659,20 @@
       "organisateur": "PO851592"
     },
     {
+      "uid": "RUANR5L17S2027IDC461298",
+      "titre": "audition, ouverte à la presse, des représentants du Haut Conseil de la famille, de l'enfance et de l'âge (HCFEA) : MM. Jean-Philippe Vinquant, président, et Marco Geraci, secrétaire général adjoint.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-01T12:35:00.000Z",
+      "dateFin": "2026-10-01T14:30:00.000Z",
+      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO881988"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461305",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-01T12:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-01T12:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884839"
     },
@@ -984,7 +984,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461171",
-      "titre": "audition de Mme Emilie Piette, présidente du directoire de Réseau de transport d’électricité (RTE).",
+      "titre": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:30:00.000Z",
       "dateFin": null,
@@ -1083,7 +1083,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461248",
-      "titre": "Audition, conjointe avec la commission des affaires économiques, de M. Christophe Hansen, commissaire européen à l’agriculture.",
+      "titre": "audition, conjointe avec la commission des affaires économiques, de M. Christophe Hansen, commissaire européen à l’agriculture.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -1170,6 +1170,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461340",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390) (M. Thomas Ménagé, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461235",
@@ -1433,6 +1442,15 @@
       "organisateur": "PO880668"
     },
     {
+      "uid": "RUANR5L17S2027IDC461341",
+      "titre": "Prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461236",
       "titre": "audition, ouverte à la presse, de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation.",
       "type": "reunionCommission_type",
@@ -1530,6 +1548,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461260",
+      "titre": "L’Union européenne face au défi du financement de la transition énergétique : examen du rapport d’information (M. Karim Benbrahim et Mme Sandrine Lalanne, rapporteurs d'information)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461185",

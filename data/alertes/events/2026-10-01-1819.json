@@ -1,0 +1,172 @@
+{
+ "genere_le": "2026-10-01T18:19:52.769Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N54665",
+   "type": "nouveau_dossier",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Nouveau dossier : Mission d'information\"flash\" sur la préparation de la France à la démultiplication des ingérences étrangères grâce à l'intélligence artificielle, notammenet da…",
+   "detail": "Mission d'information",
+   "url": null,
+   "dossier_id": "DLR5L17N54665",
+   "texte_matchable": "Mission d'information\"flash\" sur la préparation de la France à la démultiplication des ingérences étrangères grâce à l'intélligence artificielle, notammenet dans la perspective des échéance électroales 2027 Mission d'information",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001285",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1285 de Sébastien Peytavie (EcoS) — ART. 30",
+   "detail": "Ce sous-amendement vise à s’assurer que l’entretien de dépistage des violences à l’attention des enfants mentionné au présent article soit intégralement accessible aux enfants handicapés, et ce, par…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1285",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Ce sous-amendement vise à s’assurer que l’entretien de dépistage des violences à l’attention des enfants mentionné au présent article soit intégralement accessible aux enfants handicapés, et ce, par… ART. 30 Sébastien Peytavie EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001284",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1284 de Clémentine Autain (EcoS) — ART. 30",
+   "detail": "Cet amendement prévoit d’étendre aux établissements d’enseignement français à l’étranger la nomination d'un adulte référent en matière de droits des enfants et de violences faites aux enfants.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1284",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Cet amendement prévoit d’étendre aux établissements d’enseignement français à l’étranger la nomination d'un adulte référent en matière de droits des enfants et de violences faites aux enfants. ART. 30 Clémentine Autain EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001288",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1288 de Perrine Goulet (Dem) — ART. 5",
+   "detail": "Le présent sous-amendement vise à garantir une meilleure articulation entre les procédures pénales et civiles en matière de violences intrafamiliales, en instaurant une obligation de transmission d'i…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1288",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Le présent sous-amendement vise à garantir une meilleure articulation entre les procédures pénales et civiles en matière de violences intrafamiliales, en instaurant une obligation de transmission d'i… ART. 5 Perrine Goulet Dem Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001287",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1287 de Perrine Goulet (Dem) — ART. 5",
+   "detail": "Le présent sous-amendement a pour objet d'adapter la mise en place des juges des violences sexuelles et intrafamiliales aux spécificités et aux contraintes d'effectifs des plus petites juridictions.…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1287",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Le présent sous-amendement a pour objet d'adapter la mise en place des juges des violences sexuelles et intrafamiliales aux spécificités et aux contraintes d'effectifs des plus petites juridictions.… ART. 5 Perrine Goulet Dem Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001286",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1286 de Perrine Goulet (Dem) — ART. 30",
+   "detail": "L’école, en tant que premier lieu de vie et de socialisation de l’enfant en dehors du cercle familial, constitue un poste d’observation irremplaçable pour détecter les situations de danger, de néglig…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1286",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "L’école, en tant que premier lieu de vie et de socialisation de l’enfant en dehors du cercle familial, constitue un poste d’observation irremplaçable pour détecter les situations de danger, de néglig… ART. 30 Perrine Goulet Dem Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001280",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1280 de Karine Lebon (GDR) — APRÈS ART. 11",
+   "detail": "Ce sous-amendement vise à préciser que les professionnels de santé formés puissent bénéficier d’une vision claire des spécificités Linguistiques des territoires ultramarins et de les prévenir sur la…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1280",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Ce sous-amendement vise à préciser que les professionnels de santé formés puissent bénéficier d’une vision claire des spécificités Linguistiques des territoires ultramarins et de les prévenir sur la… APRÈS ART. 11 Karine Lebon GDR Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001282",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1282 de Karine Lebon (GDR) — ART. 12",
+   "detail": "La réécriture du gouvernement supprime ce qui avait été intégré en commission pour s’assurer d’une application de cette disposition dans les territoires ultramarins à compétence propre en matière de…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1282",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "La réécriture du gouvernement supprime ce qui avait été intégré en commission pour s’assurer d’une application de cette disposition dans les territoires ultramarins à compétence propre en matière de… ART. 12 Karine Lebon GDR Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001277",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1277 de Marie-Charlotte Garin (EcoS) — ART. 5",
+   "detail": "Ce sous-amendement a pour objet d’inclure dans les missions des magistrats coordinateurs celle de sélectionner les dossiers relevant de la compétence du procureur de la République adjoint chargé des…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1277",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Ce sous-amendement a pour objet d’inclure dans les missions des magistrats coordinateurs celle de sélectionner les dossiers relevant de la compétence du procureur de la République adjoint chargé des… ART. 5 Marie-Charlotte Garin EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001283",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1283 de Clémentine Autain (EcoS) — ART. 30",
+   "detail": "Le présent amendement vise à s’assurer que l’entretien de repérage des violences prévu au présent article concerne bien l’intégralité des enfants de notre territoire, y compris les enfants ne bénéfic…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1283",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Le présent amendement vise à s’assurer que l’entretien de repérage des violences prévu au présent article concerne bien l’intégralité des enfants de notre territoire, y compris les enfants ne bénéfic… ART. 30 Clémentine Autain EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001279",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1279 de Karine Lebon (GDR) — ART. 7",
+   "detail": "Ce sous-amendement réintroduit spécifiquement pour les collectivités régies par les articles 73 et 74 de la Constitution ainsi qu’en Nouvelle-Calédonie, la possibilité de recourir, à titre exceptionn…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1279",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Ce sous-amendement réintroduit spécifiquement pour les collectivités régies par les articles 73 et 74 de la Constitution ainsi qu’en Nouvelle-Calédonie, la possibilité de recourir, à titre exceptionn… ART. 7 Karine Lebon GDR Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001281",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1281 de Danielle Simonnet (EcoS) — ART. 30",
+   "detail": "Cet amendement du groupe Écologiste et social vise à garantir aux enfants allophones victimes ou susceptibles d’être victimes de violences sexuelles et sexistes un accès effectif à l’entretien indivi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1281",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Cet amendement du groupe Écologiste et social vise à garantir aux enfants allophones victimes ou susceptibles d’être victimes de violences sexuelles et sexistes un accès effectif à l’entretien indivi… ART. 30 Danielle Simonnet EcoS Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3190P0D1N001278",
+   "type": "nouvel_amendement",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "Amendement n° 1278 de Karine Lebon (GDR) — ART. 30",
+   "detail": "Le présent amendement vise à garantir que l’entretien prévu par l’article 30 puisse se dérouler dans une langue que l’enfant maîtrise pleinement. À La Réunion, comme dans d’autres territoires ultrama…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3190/AN/1278",
+   "dossier_id": "DLR5L17N54776",
+   "texte_matchable": "Le présent amendement vise à garantir que l’entretien prévu par l’article 30 puisse se dérouler dans une langue que l’enfant maîtrise pleinement. À La Réunion, comme dans d’autres territoires ultrama… ART. 30 Karine Lebon GDR Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
+   "profils": []
+  },
+  {
+   "id": "odj:04c29044f7c693f7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de…",
+   "detail": "mercredi 7 octobre à 09:30 · sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de l…",
+   "url": null,
+   "dossier_id": "DLR5L17N54902",
+   "texte_matchable": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de l… Affaires économiques Loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de…",
+   "profils": []
+  },
+  {
+   "id": "odj:e7a6e69b099a762d",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-01T18:19:52.769Z",
+   "titre": "À l'ordre du jour — Lois : Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "detail": "mercredi 7 octobre à 18:00 · Amendements art. 88",
+   "url": null,
+   "dossier_id": "DLR5L17N50644",
+   "texte_matchable": "Amendements art. 88 Lois Redéfinir le cadre d'attribution des subventions accordées par les collectivités territoriales",
+   "profils": []
+  }
+ ]
+}

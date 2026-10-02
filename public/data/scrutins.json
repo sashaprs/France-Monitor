@@ -1,6 +1,160 @@
 {
-  "updatedAt": "2026-10-02T13:36:55.836Z",
+  "updatedAt": "2026-10-02T17:39:04.239Z",
   "scrutins": [
+    {
+      "numero": "8452",
+      "titre": "l'amendement n° 345 de Mme Cathala à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "123",
+      "pour": "34",
+      "contre": "83",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8448",
+      "titre": "l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "110",
+      "pour": "95",
+      "contre": "0",
+      "abstentions": "15",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8449",
+      "titre": "l'amendement n° 346 (rect.) de Mme Cathala à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "120",
+      "pour": "45",
+      "contre": "49",
+      "abstentions": "26",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8444",
+      "titre": "l'amendement n° 532 de Mme Autain à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "35",
+      "contre": "49",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8450",
+      "titre": "l'amendement n° 354 de Mme Legrain à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "127",
+      "pour": "31",
+      "contre": "95",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8455",
+      "titre": "l'amendement n° 226 de M. Ménagé à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "118",
+      "pour": "23",
+      "contre": "95",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8443",
+      "titre": "l'amendement n° 778 de Mme Simonnet à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "44",
+      "contre": "51",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8445",
+      "titre": "le sous-amendement n° 1275 de Mme Sandrine Rousseau à l'amendement n° 895 de Mme Thiébault-Martinez à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "103",
+      "pour": "84",
+      "contre": "13",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8446",
+      "titre": "l'amendement n° 895 de Mme Thiébault-Martinez à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "110",
+      "pour": "110",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8447",
+      "titre": "l'amendement n° 1218 de Mme Sandrine Rousseau à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "109",
+      "pour": "65",
+      "contre": "30",
+      "abstentions": "14",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8454",
+      "titre": "l'amendement n° 1168 de Mme Coggia à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "113",
+      "pour": "112",
+      "contre": "1",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8442",
+      "titre": "l'amendement n° 247 de Mme Colin-Oesterlé et les amendements identiques suivants de suppression de l'article 5 bis (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "55",
+      "contre": "20",
+      "abstentions": "15",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8453",
+      "titre": "l'amendement n° 337 de Mme Leboucher à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "116",
+      "pour": "27",
+      "contre": "69",
+      "abstentions": "20",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8451",
+      "titre": "l'amendement n° 289 de Mme Legrain à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "59",
+      "contre": "66",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
     {
       "numero": "8438",
       "titre": "l'amendement n° 1035 de Mme Garin à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
@@ -395,160 +549,6 @@
       "pour": "59",
       "contre": "3",
       "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8377",
-      "titre": "l'amendement n° 836 de Mme Maximi à l'article 7 ter du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "34",
-      "contre": "48",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8393",
-      "titre": "l'amendement n° 914 de Mme Cathala et l'amendement identique suivant de suppression de l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "93",
-      "pour": "36",
-      "contre": "56",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8381",
-      "titre": "l'amendement n° 95 de Mme Sylvie Bonnet et les amendements identiques suivants à l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "34",
-      "contre": "47",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8399",
-      "titre": "l'article 11 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "37",
-      "contre": "41",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8391",
-      "titre": "l'amendement n° 169 de Mme Bonnivard et les amendements identiques suivants à l'article 8 bis du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "88",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8379",
-      "titre": "l'amendement n° 96 de Mme Sylvie Bonnet et les amendements identiques suivants à l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "23",
-      "contre": "57",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8408",
-      "titre": "l'article 12 bis du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "59",
-      "contre": "0",
-      "abstentions": "13",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8360",
-      "titre": "l'amendement n° 846 du Gouvernement de rétablissement de l'article 14 (supprimé)(examen prioritaire) du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "52",
-      "pour": "32",
-      "contre": "19",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8387",
-      "titre": "l'amendement n° 145 de Mme Blin après l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "9",
-      "contre": "56",
-      "abstentions": "22",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8384",
-      "titre": "l'amendement n° 696 de M. Monnet à l'article 8 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "57",
-      "contre": "31",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8372",
-      "titre": "l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "78",
-      "pour": "72",
-      "contre": "5",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8374",
-      "titre": "l'amendement n° 486 de Mme Loir après l'article 7 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "38",
-      "pour": "17",
-      "contre": "21",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8401",
-      "titre": "l'amendement n° 92 de Mme Capdevielle et les amendements identiques suivants de suppression de l'article 11 ter du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "83",
-      "pour": "40",
-      "contre": "43",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8412",
-      "titre": "l'amendement n° 745 de Mme Spillebout à l'article 13 du projet de loi relatif à la protection des enfants (première lecture).",
-      "date": "2026-07-17",
-      "sort": null,
-      "nombreVotants": "55",
-      "pour": "29",
-      "contre": "11",
-      "abstentions": "15",
       "nonVotants": "1"
     }
   ]

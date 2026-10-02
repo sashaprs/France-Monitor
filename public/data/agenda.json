@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T17:39:06.179Z",
+  "updatedAt": "2026-10-02T19:00:15.186Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2026IDC461166",
@@ -87,7 +87,7 @@
       "titre": "examen de la proposition de loi visant à abroger les zones à faibles émissions-mobilités (n° 2970) (sous réserve de son inscription à l’ordre du jour) (rapport).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-09-30T08:35:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -600,7 +600,7 @@
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-02T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-02T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -849,7 +849,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461249",
-      "titre": "examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:00:00.000Z",
       "dateFin": null,
@@ -909,6 +909,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461157",
+      "titre": "audition de Mme Nadia Bellaoui, présidente de l’Agence du service civique ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461148",
@@ -1038,7 +1047,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461250",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -1155,7 +1164,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461251",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T19:00:00.000Z",
       "dateFin": null,
@@ -1191,7 +1200,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461253",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T07:00:00.000Z",
       "dateFin": null,
@@ -1226,8 +1235,17 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461394",
+      "titre": "audition de M. Paul Hermelin, président du conseil d’administration de Capgemini.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T10:45:00.000Z",
+      "dateFin": "2026-10-08T12:15:00.000Z",
+      "lieu": "101 rue de l'Université",
+      "organisateur": "PO885535"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461254",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T13:00:00.000Z",
       "dateFin": null,
@@ -1254,7 +1272,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461252",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T19:00:00.000Z",
       "dateFin": null,
@@ -1281,7 +1299,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461255",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T07:00:00.000Z",
       "dateFin": null,
@@ -1326,7 +1344,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461256",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T13:00:00.000Z",
       "dateFin": null,
@@ -1344,7 +1362,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461257",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T19:00:00.000Z",
       "dateFin": null,
@@ -1398,7 +1416,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461376",
-      "titre": "Examen, en application de l’article 88 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210)",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-13T12:30:00.000Z",
       "dateFin": null,
@@ -1524,7 +1542,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461283",
-      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis et vote des crédits de la mission Défense (M. Christophe Naegelen, rapporteur pour avis) ;\r- examen pour avis et vote des crédits de la mission Écologie, développement et mobilité durables (Mme Dominique Voynet, rapporteure pour avis) ;\r- examen pour avis et vote des crédits du compte de concours financier Avances à l’audiovisuel public - Audiovisuel extérieur (M. Alain David, rapporteur pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:00:00.000Z",
       "dateFin": null,
@@ -1973,6 +1991,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461393",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis et vote des crédits de la mission Aide publique au développement (M. Guillaume Bigot, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461368",
       "titre": "examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
@@ -2028,7 +2055,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461284",
-      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(n° 3210) :\r- examen pour avis et vote des crédits de la mission Action extérieure de l’État :\r•\taction de la France en Europe et dans le monde ; Français à l’étranger et affaires consulaires (M. Michel Herbillon, rapporteur pour avis) ;\r•\tdiplomatie culturelle et d’influence - Francophonie (M. Frédéric Petit, rapporteur pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
@@ -2324,15 +2351,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461285",
-      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461347",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
@@ -2349,6 +2367,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461285",
+      "titre": "Suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis et vote des crédits de la mission Immigration, asile et intégration (Mme Brigitte Klinkert, rapporteure pour avis) ;\r- examen pour avis et vote des crédits de la mission de la mission Économie – commerce extérieur et diplomatie économique (M. Jean-François Portarrieu, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461373",

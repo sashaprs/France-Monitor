@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-02T06:45:03.329Z",
+  "updatedAt": "2026-10-02T10:22:33.653Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461205",
-      "titre": "audition, ouverte à la presse, des représentants du Haut-Commissariat à la Stratégie et au Plan (HCSP) : M. Michael Orand, directeur du département « société et politiques sociales », Mme Marine de Montaignac, adjointe au directeur, et M. Antoine Naboulet, adjoint à la directrice du département « travail, emploi et compétences ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T07:00:00.000Z",
-      "dateFin": "2026-09-29T08:50:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461206",
-      "titre": "audition, ouverte à la presse, des représentants de l’Assemblée des départements de France (ADF) : Mme Emmanuelle Coint, première vice-présidente du conseil départemental de Côte-d’Or, chargée des solidarités, M. Stéphane Blanchet, viceprésident du conseil départemental de la Seine-Saint-Denis, chargé de l’autonomie, Mme Leonor Cortes, directrice de l’autonomie du conseil départemental de la Seine-Saint-Denis, et M. Brice Lacourieux, conseiller « Relations avec le Parlement ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T09:05:00.000Z",
-      "dateFin": "2026-09-29T11:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461307",
-      "titre": "- audition, non ouverte à la presse, de Mmes Anne-Cécile Mailfert, présidente de la Fondation des femmes et Floriane Volt, directrice des affaires publiques et juridiques.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T10:00:00.000Z",
-      "dateFin": "2026-09-29T11:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
     {
       "uid": "RUANR5L17S2026IDC461308",
       "titre": "- audition, non ouverte à la presse, de Mme Mine Gunbay, directrice générale de la Fédération nationale Solidarité femmes.",

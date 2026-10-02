@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-02T10:22:33.653Z",
+  "updatedAt": "2026-10-02T13:36:57.231Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461308",
-      "titre": "- audition, non ouverte à la presse, de Mme Mine Gunbay, directrice générale de la Fédération nationale Solidarité femmes.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T11:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461290",
-      "titre": "- présentation du rapport d’information sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (MM. Jérôme Guedj, Thibault Bazin et Thierry Frappé, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-29T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO847238"
-    },
     {
       "uid": "RUANR5L17S2026IDC461052",
       "titre": "examen du rapport d’information sur la répartition des dépenses entre l’assurance maladie obligatoire et l’assurance maladie complémentaire (sous réserve de son adoption par la Mission d’évaluation et de contrôle des lois de financement de la sécurité sociale) (MM. Jérôme Guedj, Thibault Bazin et Thierry Frappé, rapporteurs).",

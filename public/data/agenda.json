@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-10-03T14:36:25.916Z",
+  "updatedAt": "2026-10-03T17:48:48.279Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461168",
-      "titre": "audition, ouverte à la presse et conjointe avec les commissions de la défense et des affaires étrangères, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, Mme Eléonore Caroit, ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger, et M. Sébastien Martin, ministre délégué chargé de l’Industrie, relative aux rapports 2026 du Gouvernement au Parlement sur les exportations d’armement et les exportations des biens à double usage de la France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T15:00:00.000Z",
-      "dateFin": "2026-09-30T16:40:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461132",
-      "titre": "audition, ouverte à la presse et conjointe avec les commissions des affaires économiques et de la défense nationale et des forces armées, de Mme Catherine Vautrin, ministre des armées et des anciens combattants, de M. Sébastien Martin, ministre délégué chargé de l’industrie, et de Mme Éléonore Caroit, ministre déléguée chargée de la francophonie, des partenariats internationaux et des Français de l’étranger, relative aux rapports annuels du Gouvernement au Parlement de juillet 2026 sur les exportations d’armement et les exportations des biens à double usage de la France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T15:00:00.000Z",
-      "dateFin": "2026-09-30T16:40:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461297",
-      "titre": "audition, ouverte à la presse, des représentants de la Mutualité sociale agricole (MSA) : M. Jean-François Fruttero, président de la Caisse Centrale de la Mutualité sociale agricole (CCMSA), et Mme Christine Dechesne-Ceard, directrice de la règlementation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T15:00:00.000Z",
-      "dateFin": "2026-09-30T16:20:00.000Z",
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461144",
-      "titre": "audition commune, ouverte à la presse et conjointe avec les commissions des affaires économiques et des affaires étrangères, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, M. Sébastien Martin, ministre délégué chargé de l’Industrie, et Mme Éléonore Caroit, ministre déléguée chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger, relative aux rapports annuels du Gouvernement au Parlement de juillet 2026 sur les exportations d’armement et les exportations des biens à double usage de la France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T15:00:00.000Z",
-      "dateFin": "2026-09-30T16:40:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461322",
-      "titre": "- table ronde des fournisseurs internet réunissant :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461218",
-      "titre": "audition, ouverte à la presse, de M. Henri Prevost, directeur général de l’Agence nationale de la cohésion des territoires (ANCT).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
     {
       "uid": "RUANR5L17S2027IDS30918",
       "titre": "Ouverture de la session ordinaire",

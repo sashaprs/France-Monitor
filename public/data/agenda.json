@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-03T13:05:15.858Z",
+  "updatedAt": "2026-10-03T14:36:25.916Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461296",
-      "titre": "table ronde, ouverte à la presse, en présentiel et en visioconférence, réunissant : M. Frédéric Chéreau, maire de Douai et représentant de l’association Villes de France, M. Léo Prassel, maire de Bavilliers (Territoire de Belfort), membre du conseil d’administration de l’association des petites villes de France (APVF) et représentant élu de l’association des maires de France (AMF), M. André Robert, délégué général de l’APVF, et Mme Nelly Jacquemot, responsable du département « Action sociale, éducation, culture et sport » à l’AMF.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T13:10:00.000Z",
-      "dateFin": "2026-09-30T14:45:00.000Z",
-      "lieu": "Salle 4088 – 9, rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461189",
-      "titre": "audition, ouverte à la presse, de M. Antoine Bozio, directeur de l’Institut des politiques publiques (IPP), et M. Pierre Boyer, directeur adjoint.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T13:35:00.000Z",
-      "dateFin": "2026-09-30T14:40:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461321",
-      "titre": "- table ronde des sociétés de droits d’auteur réunissant :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salon Mars I – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2026IDC461168",
       "titre": "audition, ouverte à la presse et conjointe avec les commissions de la défense et des affaires étrangères, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, Mme Eléonore Caroit, ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger, et M. Sébastien Martin, ministre délégué chargé de l’Industrie, relative aux rapports 2026 du Gouvernement au Parlement sur les exportations d’armement et les exportations des biens à double usage de la France.",

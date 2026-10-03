@@ -1,105 +1,6 @@
 {
-  "updatedAt": "2026-10-02T22:55:43.872Z",
+  "updatedAt": "2026-10-03T07:40:01.804Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461209",
-      "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées, M. Didier Jaffre, directeur de cabinet, Mmes Emmanuelle Colleu-Platteau, conseillère « domicile, aidants, transition démographique et ressources allouées au grand âge », Laetitia de La Maisonneuve, cheffe de cabinet, chargée des relations avec le Parlement, MM. Alexandre Bourriez, adjoint à la cheffe de cabinet, et Mathieu Pardell, conseiller, et M. Noa Elin, stagiaire auprès du directeur de cabinet.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T06:50:00.000Z",
-      "dateFin": "2026-09-30T08:05:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461142",
-      "titre": "audition, à huis clos, du général d’armée aérienne Fabien Mandon, chef d’état major des armées, sur l’actualité géopolitique et militaire ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": "2026-09-30T09:00:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461006",
-      "titre": "audition, ouverte à la presse, de Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "en cours de programmation",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC460831",
-      "titre": "reprise des réunions de la commission à l’occasion de la session extraordinaire d’automne.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461227",
-      "titre": "audition de M. Jean-François Soussana, président du Haut Conseil pour le climat.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:05:00.000Z",
-      "dateFin": "2026-09-30T08:35:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461129",
-      "titre": "communication, ouverte à la presse, sur le déplacement du président de la commission en Pologne, les 15 et 16 juillet 2026 (M. Bruno Fuchs, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:10:00.000Z",
-      "dateFin": "2026-09-30T08:00:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461048",
-      "titre": "table ronde sur les résultats de l’enquête du Programme international pour le suivi des acquis des élèves (Pisa) 2025 réunissant M. Éric Charbonnier, analyste à la direction de l’éducation et des compétences de l’OCDE, M. Pierre Yves Cusset, rapporteur de l’étude du Haut-Commissariat à la stratégie et au plan intitulée « Niveau scolaire : éléments de diagnostic et propositions », M. Guillaume Houzel, co-auteur de la note du Conseil d’analyse économique intitulée « École : un plan d’action pour rattraper le retard français », et M. Franck Ramus, directeur de recherche au CNRS, membre du Conseil scientifique de l’éducation nationale ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": "2026-09-30T10:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461167",
-      "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": "2026-09-30T09:05:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461121",
-      "titre": "examen de la proposition de loi visant à abroger les zones à faibles émissions-mobilités (n° 2970) (sous réserve de son inscription à l’ordre du jour) (rapport).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": "2026-09-30T08:35:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461239",
-      "titre": "examen de la proposition de loi visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390) (M. Thomas Ménagé, rapporteur) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:30:00.000Z",
-      "dateFin": "2026-09-30T10:20:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461026",
-      "titre": "audition de Mme Emmanuelle Wargon, présidente de la Commission de régulation de l’énergie (CRE).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T07:35:00.000Z",
-      "dateFin": "2026-09-30T08:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2026IDC461130",
       "titre": "examen ouvert à la presse et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE (n° 3060) (Mme Alix Fruchon, rapporteure) ;",
@@ -651,7 +552,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461392",
-      "titre": "nomination du rapporteur pour avis sur le projet de loi de financement de la sécurité sociale pour 2027 (n° 3211).",
+      "titre": "nomination du rapporteur pour avis sur le projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-05T12:00:00.000Z",
       "dateFin": null,
@@ -714,7 +615,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461374",
-      "titre": "- désignation du rapporteur",
+      "titre": "désignation du rapporteur ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
       "dateFin": null,
@@ -732,7 +633,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461348",
-      "titre": "– \tTable ronde sur le financement de la transition écologique, avec la participation de :\r- I4CE : M. Benoît Leguet, directeur général, Mme Aurore Colin, chercheuse au sein de l’équipe Collectivités locales, et M. Guillaume Dolques, chercheur au sein de l’équipe Adaptation,\r- Institut Montaigne : M. Joseph Dellatte, expert résident et responsable de projets climat et énergie,\r- The Shift Project : M. Clément Caudron, expert énergie et transition robuste.",
+      "titre": "table ronde sur le financement de la transition écologique, avec la participation de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
       "dateFin": null,
@@ -813,7 +714,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461191",
-      "titre": "audition, ouverte à la presse, de M. Jean-Benoît Dujol, directeur général de la cohésion sociale (DGCS), et M. Maxime Gennaoui-Hétier, chef du bureau des minima sociaux",
+      "titre": "audition, ouverte à la presse, de M. Jean-Benoît Dujol, directeur général de la cohésion sociale (DGCS), et M. Maxime Gennaoui-Hétier, chef du bureau des minima sociaux.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T15:45:00.000Z",
       "dateFin": null,
@@ -840,7 +741,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461249",
-      "titre": "examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:00:00.000Z",
       "dateFin": null,
@@ -849,7 +750,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461169",
-      "titre": "examen de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 2892).",
+      "titre": "examen de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 2892) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:00:00.000Z",
       "dateFin": null,
@@ -975,7 +876,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461192",
-      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE",
+      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -1038,7 +939,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461250",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -1119,7 +1020,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461302",
-      "titre": "audition conjointe, ouverte à la presse, en présentiel et en visioconférence des représentants de la Caisse nationale d’assurance vieillesse (CNAV) : M. Paul Bazin, directeur général Mme Valérie Albouy, directrice « Statistiques, prospective et recherche », et des représentants de Caisses d’assurance retraite et de santé au travail (CARSAT) – noms en attente.",
+      "titre": "audition conjointe, ouverte à la presse, en présentiel et en visioconférence des représentants de la Caisse nationale d’assurance vieillesse (CNAV) : M. Paul Bazin, directeur général Mme Valérie Albouy, directrice « Statistiques, prospective et recherche », et des représentants de Caisses d’assurance retraite et de santé au travail (CARSAT).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T16:00:00.000Z",
       "dateFin": null,
@@ -1155,7 +1056,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461251",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T19:00:00.000Z",
       "dateFin": null,
@@ -1191,7 +1092,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461253",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T07:00:00.000Z",
       "dateFin": null,
@@ -1236,7 +1137,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461254",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T13:00:00.000Z",
       "dateFin": null,
@@ -1263,7 +1164,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461252",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T19:00:00.000Z",
       "dateFin": null,
@@ -1290,7 +1191,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461255",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T07:00:00.000Z",
       "dateFin": null,
@@ -1335,7 +1236,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461256",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T13:00:00.000Z",
       "dateFin": null,
@@ -1353,7 +1254,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461257",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général)",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-09T19:00:00.000Z",
       "dateFin": null,

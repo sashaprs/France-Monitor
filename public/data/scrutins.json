@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T22:55:41.957Z",
+  "updatedAt": "2026-10-03T07:39:59.850Z",
   "scrutins": [
     {
       "numero": "8452",
@@ -24,6 +24,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8492",
+      "titre": "l'amendement n° 930 de M. Croizier à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "63",
+      "pour": "8",
+      "contre": "45",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8461",
       "titre": "l'amendement n° 338 de Mme Leboucher à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -32,6 +43,17 @@
       "pour": "24",
       "contre": "73",
       "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8498",
+      "titre": "l'article 11 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "59",
+      "pour": "57",
+      "contre": "2",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -46,6 +68,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8507",
+      "titre": "l'amendement n° 1036 de Mme Capdevielle à l'article 13 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "61",
+      "pour": "18",
+      "contre": "42",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8490",
+      "titre": "l'amendement n° 378 de Mme Obono à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "14",
+      "contre": "57",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8460",
       "titre": "l'amendement n° 352 de Mme Amiot à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -54,6 +98,17 @@
       "pour": "31",
       "contre": "70",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8487",
+      "titre": "l'amendement n° 1039 de Mme Roullaud à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "12",
+      "contre": "54",
+      "abstentions": "6",
       "nonVotants": "1"
     },
     {
@@ -68,6 +123,61 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8505",
+      "titre": "l'amendement n° 403 de Mme Cathala après l'article 12 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "60",
+      "pour": "22",
+      "contre": "38",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8483",
+      "titre": "l'amendement n° 1048 de Mme Firmin Le Bodo à l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "66",
+      "pour": "38",
+      "contre": "28",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8503",
+      "titre": "l'amendement n° 890 (rect.) de Mme Garin à l'article 12 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "55",
+      "pour": "44",
+      "contre": "9",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8506",
+      "titre": "l'article 13 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "56",
+      "pour": "56",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8496",
+      "titre": "l'amendement n° 1049 de Mme Firmin Le Bodo à l'article 11 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "58",
+      "pour": "16",
+      "contre": "33",
+      "abstentions": "9",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8474",
       "titre": "l'amendement n° 1024 de Mme Loir après l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -79,6 +189,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8489",
+      "titre": "l'amendement n° 700 de Mme Rixain à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "69",
+      "pour": "27",
+      "contre": "29",
+      "abstentions": "13",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8493",
+      "titre": "l'article 8 ter de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "65",
+      "pour": "65",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8449",
       "titre": "l'amendement n° 346 (rect.) de Mme Cathala à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -87,6 +219,17 @@
       "pour": "45",
       "contre": "49",
       "abstentions": "26",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8488",
+      "titre": "l'amendement n° 707 de Mme Blanc à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "69",
+      "pour": "10",
+      "contre": "59",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -156,6 +299,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8495",
+      "titre": "l'amendement n° 571 de Mme Faucillon à l'article 11 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "53",
+      "pour": "21",
+      "contre": "22",
+      "abstentions": "10",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8470",
       "titre": "l'amendement n° 182 de Mme Youssouffa à l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -164,6 +318,17 @@
       "pour": "6",
       "contre": "76",
       "abstentions": "17",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8501",
+      "titre": "l'amendement n° 928 de Mme Garin à l'article 12 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "54",
+      "pour": "51",
+      "contre": "2",
+      "abstentions": "1",
       "nonVotants": "1"
     },
     {
@@ -244,6 +409,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8504",
+      "titre": "l'article 12 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "58",
+      "pour": "58",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8509",
+      "titre": "l'amendement n° 1041 du Gouvernement et l'amendement identique suivant à l'article 13 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "60",
+      "pour": "29",
+      "contre": "31",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8450",
       "titre": "l'amendement n° 354 de Mme Legrain à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
@@ -252,6 +439,17 @@
       "pour": "31",
       "contre": "95",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8491",
+      "titre": "l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "60",
+      "pour": "50",
+      "contre": "0",
+      "abstentions": "10",
       "nonVotants": "1"
     },
     {
@@ -274,6 +472,17 @@
       "pour": "96",
       "contre": "0",
       "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8485",
+      "titre": "l'amendement n° 1010 de Mme Legrain après l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "13",
+      "contre": "46",
+      "abstentions": "17",
       "nonVotants": "1"
     },
     {
@@ -321,235 +530,26 @@
       "nonVotants": "1"
     },
     {
-      "numero": "8482",
-      "titre": "l'amendement n° 170 de Mme Capdevielle à l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "numero": "8484",
+      "titre": "l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
       "sort": null,
-      "nombreVotants": "73",
-      "pour": "29",
-      "contre": "40",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8445",
-      "titre": "le sous-amendement n° 1275 de Mme Sandrine Rousseau à l'amendement n° 895 de Mme Thiébault-Martinez à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "103",
-      "pour": "84",
-      "contre": "13",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8478",
-      "titre": "l'amendement n° 1038 de Mme de Pélichy après l'article 4 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "60",
-      "contre": "2",
-      "abstentions": "20",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8446",
-      "titre": "l'amendement n° 895 de Mme Thiébault-Martinez à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "110",
+      "nombreVotants": "76",
+      "pour": "58",
       "contre": "0",
+      "abstentions": "18",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8486",
+      "titre": "l'amendement n° 229 de M. Ménagé à l'article 7 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-02",
+      "sort": null,
+      "nombreVotants": "69",
+      "pour": "15",
+      "contre": "54",
       "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8469",
-      "titre": "l'amendement n° 174 de Mme Youssouffa à l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "95",
-      "pour": "4",
-      "contre": "89",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8447",
-      "titre": "l'amendement n° 1218 de Mme Sandrine Rousseau à l'article premier de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "109",
-      "pour": "65",
-      "contre": "30",
-      "abstentions": "14",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8454",
-      "titre": "l'amendement n° 1168 de Mme Coggia à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "113",
-      "pour": "112",
-      "contre": "1",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8442",
-      "titre": "l'amendement n° 247 de Mme Colin-Oesterlé et les amendements identiques suivants de suppression de l'article 5 bis (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "90",
-      "pour": "55",
-      "contre": "20",
-      "abstentions": "15",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8459",
-      "titre": "l'amendement n° 1178 de Mme Yadan à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "102",
-      "pour": "97",
-      "contre": "1",
-      "abstentions": "4",
       "nonVotants": "2"
-    },
-    {
-      "numero": "8473",
-      "titre": "l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "107",
-      "pour": "107",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8453",
-      "titre": "l'amendement n° 337 de Mme Leboucher à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "116",
-      "pour": "27",
-      "contre": "69",
-      "abstentions": "20",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8451",
-      "titre": "l'amendement n° 289 de Mme Legrain à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "125",
-      "pour": "59",
-      "contre": "66",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8438",
-      "titre": "l'amendement n° 1035 de Mme Garin à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "153",
-      "pour": "79",
-      "contre": "73",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8441",
-      "titre": "l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "80",
-      "contre": "24",
-      "abstentions": "24",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8436",
-      "titre": "le sous-amendement n° 1277 de Mme Garin à l'amendement n° 371 de Mme Cathala à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "167",
-      "pour": "81",
-      "contre": "85",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8435",
-      "titre": "l'amendement n° 373 de Mme Cathala à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "164",
-      "pour": "78",
-      "contre": "83",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8437",
-      "titre": "l'amendement n° 371 de Mme Cathala à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "164",
-      "pour": "77",
-      "contre": "86",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8439",
-      "titre": "l'amendement n° 1175 de Mme Riotton à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "134",
-      "pour": "82",
-      "contre": "35",
-      "abstentions": "17",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8440",
-      "titre": "l'amendement n° 971 de Mme Garin à l'article 5 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-01",
-      "sort": null,
-      "nombreVotants": "130",
-      "pour": "65",
-      "contre": "34",
-      "abstentions": "31",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8429",
-      "titre": "l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
-      "date": "2026-07-21",
-      "sort": null,
-      "nombreVotants": "352",
-      "pour": "258",
-      "contre": "84",
-      "abstentions": "10",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8428",
-      "titre": "le sous-amendement n° 2 de Mme Perrine Goulet à l'amendement n° 1 du Gouvernement de rétablissement de l'article 11 (supprimé) du projet de loi relatif à la protection des enfants (seconde délibération) (première lecture).",
-      "date": "2026-07-21",
-      "sort": null,
-      "nombreVotants": "346",
-      "pour": "178",
-      "contre": "163",
-      "abstentions": "5",
-      "nonVotants": "1"
     }
   ]
 }

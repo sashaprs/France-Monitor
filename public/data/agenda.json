@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-10-03T07:40:01.804Z",
+  "updatedAt": "2026-10-03T09:45:07.032Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2026IDC461130",
-      "titre": "examen ouvert à la presse et vote sur le projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes portant sur l’échange des informations GloBE (n° 3060) (Mme Alix Fruchon, rapporteure) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T08:00:00.000Z",
-      "dateFin": "2026-09-30T08:35:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461228",
-      "titre": "table ronde sur le financement de la bifurcation écologique : audition de MM. Benoît Leguet, directeur général de I4CE, Hadrien Hainaut, directeur de programme « investissements climat, transition énergétique et prospective » et Guillaume Dolques, chercheur au sein de l’équipe Adaptation, et de M. Christophe Rodriguez, directeur général adjoint d’A4MT.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T08:35:00.000Z",
-      "dateFin": "2026-09-30T09:55:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461210",
-      "titre": "audition ouverte à la presse, des représentants du Conseil d’orientation des retraites (COR) : MM. Gilbert Cette, président, et Emmanuel Bretin, secrétaire général.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle à déterminer",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461027",
-      "titre": "audition de M. Octave Klaba, président directeur général d’OVHcloud.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T09:00:00.000Z",
-      "dateFin": "2026-09-30T10:20:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461317",
-      "titre": "audition, ouverte à la presse, des représentants du Conseil d’orientation des retraites (COR) : MM. Gilbert Cette, président, et Emmanuel Bretin, secrétaire général.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T09:00:00.000Z",
-      "dateFin": "2026-09-30T10:35:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461143",
-      "titre": "examen, conjoint avec la commission des affaires étrangères et ouvert à la presse, de la mission d’information commune sur l'articulation et la compatibilité des défenses européennes et atlantiques (M. David Habib et Mme Michèle Tabarot, rapporteurs) et vote sur l’autorisation de la publication du rapport.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T09:10:00.000Z",
-      "dateFin": "2026-09-30T10:50:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2026IDC461131",
-      "titre": "examen, conjoint avec la commission de la défense nationale et des forces armées et ouvert à la presse, et vote sur l’autorisation de la publication du rapport de la mission d’information commune sur l'articulation et la compatibilité des défenses européenne et atlantique (M. David Habib et Mme Michèle Tabarot, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-09-30T09:10:00.000Z",
-      "dateFin": "2026-09-30T10:50:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
     {
       "uid": "RUANR5L17S2026IDC461309",
       "titre": "- audition, non ouverte à la presse, de Mme Gloria Casas Vila, maîtresse de conférences à l’Université Toulouse 2 Jean Jaurès, de M. Robert Courtois, professeur en psychopathologie et psychologie clinique à l’Université de Tours et de M. Alain Legrand, président de la Fédération nationale et des centres de prise en charge d’auteurs de violences conjugales et familiales.",
@@ -519,7 +456,7 @@
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-02T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-02T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -537,7 +474,7 @@
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-02T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-02T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-05T08:31:07.943Z",
+  "updatedAt": "2026-10-05T11:18:13.043Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461313",
-      "titre": "- audition, non ouverte à la presse, de Mmes Sarah Durocher, présidente nationale du Planning familial, de Albane Gaillot, co-directrice et Noémie Gardais, chargée de plaidoyer international.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-02T11:00:00.000Z",
-      "dateFin": "2026-10-02T12:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
     {
       "uid": "RUANR5L17S2027IDC461050",
       "titre": "éventuellement (en l’absence d’accord entre les présidents des groupes sur la composition du bureau de l’Assemblée), élection du bureau de la commission.",
@@ -147,7 +138,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461299",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Territoires Zéro Chômeur de Longue Durée (TZCLD) : M. Denis Prost, vice-président, Mmes Florence Bravaccini, directrice générale, Émilie Barrau, directrice de l’entreprise à but d’emploi « La compagnie du 20e » et administratrice de l’association TZCLD, Brigitte Amori, salariée de l’entreprise à but d’emploi « La compagnie du 20e », et Lola Gourdon, responsable du plaidoyer et de la vie associative.",
+      "titre": "audition, ouverte à la presse, des représentants de l’association Territoires Zéro Chômeur de Longue Durée (TZCLD) : M. Denis Prost, vice-président, Mmes Florence Bravaccini, directrice générale, Émilie Barrau, directrice de l’entreprise à but d’emploi « La compagnie du 20e » et administratrice de l’association TZCLD, Brigitte Amouri, salariée de l’entreprise à but d’emploi « La compagnie du 20e », et Lola Gourdon, responsable du plaidoyer et de la vie associative.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
       "dateFin": null,
@@ -489,7 +480,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461193",
-      "titre": "audition, ouverte à la presse, de M. Pierre Pribile, directeur de la sécurité sociale.",
+      "titre": "audition, ouverte à la presse, de M. Pierre Pribile, directeur de la sécurité sociale et M. Romain Bey, sous-directeur adjoint au sein de la sous-direction des études et des prévisions financières.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T14:15:00.000Z",
       "dateFin": null,

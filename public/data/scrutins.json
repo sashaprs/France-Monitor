@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-05T11:18:09.176Z",
+  "updatedAt": "2026-10-05T17:58:08.373Z",
   "scrutins": [
+    {
+      "numero": "8512",
+      "titre": "l'article 15 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-05",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "81",
+      "contre": "0",
+      "abstentions": "15",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8511",
+      "titre": "l'amendement n° 1148 de Mme Spillebout après l'article 14 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-05",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "54",
+      "contre": "40",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8510",
+      "titre": "l'amendement n° 411 de Mme Legrain de rétablissement de l'article 14 (supprimé) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-05",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "33",
+      "contre": "53",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
     {
       "numero": "8452",
       "titre": "l'amendement n° 345 de Mme Cathala à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
@@ -517,39 +550,6 @@
       "contre": "28",
       "abstentions": "16",
       "nonVotants": "1"
-    },
-    {
-      "numero": "8471",
-      "titre": "l'amendement n° 227 de M. Ménagé à l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "104",
-      "pour": "18",
-      "contre": "85",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8484",
-      "titre": "l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "76",
-      "pour": "58",
-      "contre": "0",
-      "abstentions": "18",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8486",
-      "titre": "l'amendement n° 229 de M. Ménagé à l'article 7 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "15",
-      "contre": "54",
-      "abstentions": "0",
-      "nonVotants": "2"
     }
   ]
 }

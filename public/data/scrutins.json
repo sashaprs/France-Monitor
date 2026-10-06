@@ -1,9 +1,86 @@
 {
-  "updatedAt": "2026-10-06T12:51:17.404Z",
+  "updatedAt": "2026-10-06T18:06:41.353Z",
   "scrutins": [
     {
+      "numero": "8536",
+      "titre": "l'amendement n° 1055 du Gouvernement de suppression de l'article 3 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "114",
+      "pour": "1",
+      "contre": "64",
+      "abstentions": "49",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8539",
+      "titre": "l'amendement n° 1169 de Mme Coggia après l'article 3 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "143",
+      "pour": "76",
+      "contre": "3",
+      "abstentions": "64",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8537",
+      "titre": "l'amendement n° 1030 de Mme Roullaud à l'article 3 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "130",
+      "pour": "52",
+      "contre": "75",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8542",
+      "titre": "l'amendement n° 728 de Mme de Pélichy et les amendements identiques suivants après l'article 17 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "132",
+      "pour": "105",
+      "contre": "9",
+      "abstentions": "18",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8541",
+      "titre": "l'article 10 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "160",
+      "pour": "160",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8538",
+      "titre": "l'amendement n° 1170 de Mme Coggia après l'article 3 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "132",
+      "pour": "131",
+      "contre": "1",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8540",
+      "titre": "l'amendement n° 1273 du Gouvernement à l'article 10 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-06",
+      "sort": null,
+      "nombreVotants": "159",
+      "pour": "22",
+      "contre": "131",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8532",
-      "titre": "l'amendement n° 367 de Mme Leboucher à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 367 de Mme Leboucher à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "126",
@@ -25,7 +102,7 @@
     },
     {
       "numero": "8534",
-      "titre": "l'amendement n° 1028 de Mme Roullaud après l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1028 de Mme Roullaud après l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "117",
@@ -80,7 +157,7 @@
     },
     {
       "numero": "8525",
-      "titre": "l'amendement n° 1215 du Gouvernement à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1215 du Gouvernement à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "136",
@@ -91,7 +168,7 @@
     },
     {
       "numero": "8531",
-      "titre": "l'amendement n° 344 de Mme Cathala à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 344 de Mme Cathala à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "119",
@@ -168,7 +245,7 @@
     },
     {
       "numero": "8526",
-      "titre": "l'amendement n° 1018 de Mme Roullaud à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1018 de Mme Roullaud à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "124",
@@ -179,7 +256,7 @@
     },
     {
       "numero": "8533",
-      "titre": "l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "126",
@@ -190,7 +267,7 @@
     },
     {
       "numero": "8527",
-      "titre": "l'amendement n° 336 de Mme Cathala à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 336 de Mme Cathala à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "140",
@@ -201,7 +278,7 @@
     },
     {
       "numero": "8530",
-      "titre": "l'amendement n° 1078 de M. Peytavie à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1078 de M. Peytavie à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "109",
@@ -212,7 +289,7 @@
     },
     {
       "numero": "8535",
-      "titre": "l'amendement n° 270 de M. Naillet après l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 270 de M. Naillet après l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "103",
@@ -256,7 +333,7 @@
     },
     {
       "numero": "8528",
-      "titre": "l'amendement n° 1019 de M. Dessigny à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1019 de M. Dessigny à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "141",
@@ -278,7 +355,7 @@
     },
     {
       "numero": "8529",
-      "titre": "l'amendement n° 1096 de Mme Miller et l'amendement identique suivant à l'article 3 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 1096 de Mme Miller et l'amendement identique suivant à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-05",
       "sort": null,
       "nombreVotants": "124",
@@ -311,7 +388,7 @@
     },
     {
       "numero": "8492",
-      "titre": "l'amendement n° 930 de M. Croizier à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 930 de M. Croizier après l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-02",
       "sort": null,
       "nombreVotants": "63",
@@ -472,83 +549,6 @@
       "pour": "8",
       "contre": "37",
       "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8489",
-      "titre": "l'amendement n° 700 de Mme Rixain à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "27",
-      "contre": "29",
-      "abstentions": "13",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8493",
-      "titre": "l'article 8 ter de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "65",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8449",
-      "titre": "l'amendement n° 346 (rect.) de Mme Cathala à l'article 2 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "120",
-      "pour": "45",
-      "contre": "49",
-      "abstentions": "26",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8488",
-      "titre": "l'amendement n° 707 de Mme Blanc à l'article 8 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "10",
-      "contre": "59",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8465",
-      "titre": "l'amendement n° 361 de Mme Cathala à l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "106",
-      "pour": "21",
-      "contre": "82",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8472",
-      "titre": "l'amendement n° 1056 du Gouvernement à l'article 4 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "105",
-      "pour": "53",
-      "contre": "33",
-      "abstentions": "19",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8481",
-      "titre": "l'amendement n° 501 de Mme Autain à l'article 7 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-02",
-      "sort": null,
-      "nombreVotants": "85",
-      "pour": "85",
-      "contre": "0",
-      "abstentions": "0",
       "nonVotants": "1"
     }
   ]

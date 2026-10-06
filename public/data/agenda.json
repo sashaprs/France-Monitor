@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T12:51:18.582Z",
+  "updatedAt": "2026-10-06T18:06:46.850Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461201",
@@ -96,18 +96,9 @@
       "titre": "désignation du rapporteur ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-06T15:20:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461267",
-      "titre": "examen de la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-06T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461348",
@@ -182,6 +173,15 @@
       "organisateur": "PO856876"
     },
     {
+      "uid": "RUANR5L17S2027IDC461267",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d’autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (n° 2851).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:40:00.000Z",
+      "dateFin": "2026-10-06T15:10:00.000Z",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461191",
       "titre": "audition, ouverte à la presse, de M. Jean-Benoît Dujol, directeur général de la cohésion sociale (DGCS), et M. Maxime Gennaoui-Hétier, chef du bureau des minima sociaux.",
       "type": "reunionCommission_type",
@@ -228,7 +228,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461169",
-      "titre": "examen de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 2892) ;",
+      "titre": "nomination de rapporteurs sur les propositions de loi :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:00:00.000Z",
       "dateFin": null,
@@ -282,7 +282,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461157",
-      "titre": "audition de Mme Nadia Bellaoui, présidente de l’Agence du service civique ;",
+      "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale, sur le blocage des lycées ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T08:00:00.000Z",
       "dateFin": null,
@@ -300,7 +300,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461136",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) : \r- examen de l’avis sur le prélèvement sur recettes au profit de l’Union européenne (M. Aurélien Taché, rapporteur pour avis) ;\r- vote sur l’article 55 du projet de loi de finances pour 2027 prévoyant le prélèvement sur recettes au profit de l’Union européenne.",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T09:00:00.000Z",
       "dateFin": null,
@@ -363,7 +363,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461192",
-      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
+      "titre": "audition, ouverte à la presse, des représentants de la Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Franck Arnaud, sous-directeur des synthèses, des études économiques et de l’évaluation, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -444,7 +444,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461340",
-      "titre": "- audition de Monsieur Laurent Nuñez, ministre de l’Intérieur, sur la gestion de l’ordre public suite aux mobilisations lycéennes et sur la protection des personnes face aux violences et dégradations ;\r- examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à redéfinir le cadre d’attribution des subventions accordées par les collectivités territoriales (n° 390) (M. Thomas Ménagé, rapporteur) ;\rNominations de rapporteurs :\r- sur la proposition de loi visant à garantir le droit de vote par l’encadrement des radiations pour perte d’attache communale (n° 2162) ;\r- sur la proposition de loi visant à rétablir le droit commun de la prescription acquisitive dans les collectivités régies par l’article 73 de la Constitution ainsi qu’à Saint-Martin et Saint-Barthélemy (procédure de législation en commission) (n° 2218) ;\r- sur la proposition de loi visant à abroger le dispositif des amendes forfaitaires délictuelles (n° 3173).",
+      "titre": "audition de Monsieur Laurent Nuñez, ministre de l’Intérieur, sur la gestion de l’ordre public suite aux mobilisations lycéennes et sur la protection des personnes face aux violences et dégradations ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
       "dateFin": null,
@@ -489,7 +489,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461193",
-      "titre": "- audition, ouverte à la presse, de M. Pierre Pribile, directeur de la sécurité sociale et M. Romain Bey, sous-directeur adjoint au sein de la sous-direction des études et des prévisions financières, M. Romain Bey, sous-directeur adjoint, sous-direction des études et des prévisions financières, Mme Maroussia Perehinec, sous-directrice de l’accès aux soins, des prestations familiales et des accidents du travail, et\rMme Eléonore Laffay, adjointe au chef de bureau, Prestations familiales et aides au logement.",
+      "titre": "audition, ouverte à la presse, de M. Pierre Pribile, directeur de la sécurité sociale, M. Romain Bey, sous-directeur adjoint au sein de la sous-direction des études et des prévisions financières, Mme Maroussia Perehinec, sous-directrice de l’accès aux soins, des prestations familiales et des accidents du travail, et Mme Eléonore Laffay, adjointe au chef de bureau, Prestations familiales et aides au logement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T14:15:00.000Z",
       "dateFin": null,
@@ -498,7 +498,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461269",
-      "titre": "audition de M. Jean-Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’Autonomie et des personnes handicapées, M. David Amiel, ministre de l’action et des comptes publics, et Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées, sur le projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition de M. Jean-Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’Autonomie et des personnes handicapées, M. David Amiel, ministre de l’action et des comptes publics, et Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées, sur le projet de loi de financement de la sécurité sociale pour 2027 (n° 3211).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T15:00:00.000Z",
       "dateFin": null,
@@ -534,7 +534,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461302",
-      "titre": "audition conjointe, ouverte à la presse, en présentiel et en visioconférence des représentants de la Caisse nationale d’assurance vieillesse (CNAV) : M. Paul Bazin, directeur général, Mme Valérie Albouy, directrice « Statistiques, prospective et recherche », M. Frédéric Birrittieri, directeur national retraite, et des représentants de Caisses d’assurance retraite et de santé au travail (CARSAT).",
+      "titre": "audition conjointe, ouverte à la presse :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T16:00:00.000Z",
       "dateFin": null,
@@ -871,7 +871,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-13T14:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à définir",
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO744127"
     },
     {

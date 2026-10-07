@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T09:54:06.410Z",
+  "updatedAt": "2026-10-07T17:18:15.152Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461201",
@@ -101,31 +101,13 @@
       "organisateur": "PO881975"
     },
     {
-      "uid": "RUANR5L17S2027IDC461348",
-      "titre": "table ronde sur le financement de la transition écologique, avec la participation de :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-06T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461299",
-      "titre": "audition, ouverte à la presse, des représentants de l’association Territoires Zéro Chômeur de Longue Durée (TZCLD) : M. Denis Prost, vice-président, Mmes Florence Bravaccini, directrice générale, Émilie Barrau, directrice de l’entreprise à but d’emploi « La compagnie du 20e » et administratrice de l’association TZCLD, Brigitte Amouri, salariée de l’entreprise à but d’emploi « La compagnie du 20e », et Lola Gourdon, responsable du plaidoyer et de la vie associative.",
+      "titre": "audition, ouverte à la presse, des représentants de l’association Territoires Zéro Chômeur de Longue Durée (TZCLD) : M. Denis Prost, vice-président, Mmes Émilie Barrau, directrice de l’entreprise à but d’emploi « La compagnie du 20e » et administratrice de l’association TZCLD, Brigitte Amouri, salariée de l’entreprise à but d’emploi « La compagnie du 20e », et Lola Gourdon, responsable du plaidoyer et de la vie associative.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-06T14:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4088, 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461134",
-      "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-06T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461002",
@@ -180,6 +162,24 @@
       "dateFin": "2026-10-06T15:10:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461348",
+      "titre": "table ronde sur le financement de la transition écologique, avec la participation de :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:40:00.000Z",
+      "dateFin": "2026-10-06T16:50:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461134",
+      "titre": "audition, ouverte à la presse, de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale et le projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T14:40:00.000Z",
+      "dateFin": "2026-10-06T16:35:00.000Z",
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461191",
@@ -249,7 +249,7 @@
       "titre": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T09:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },

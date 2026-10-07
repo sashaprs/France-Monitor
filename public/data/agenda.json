@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T02:08:24.271Z",
+  "updatedAt": "2026-10-07T09:54:06.410Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461201",
@@ -87,7 +87,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-06T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-06T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -191,15 +191,6 @@
       "organisateur": "PO884567"
     },
     {
-      "uid": "RUANR5L17S2027IDC461265",
-      "titre": "examen de la proposition de loi, adoptée par le Sénat, relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (Creps) de Vichy (n° 2922) (M. Nicolas Ray, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-06T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461300",
       "titre": "audition, ouverte à la presse, en visioconférence des représentants de France Travail : M. Thibault Romatet, directeur général adjoint, délégué « Stratégie et Transformation », et Mme Chloé Siméha, directrice de l’inclusion et de la mobilisation du Réseau pour l’Emploi.",
       "type": "reunionCommission_type",
@@ -209,11 +200,20 @@
       "organisateur": "PO881988"
     },
     {
+      "uid": "RUANR5L17S2027IDC461265",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat, relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (Creps) de Vichy (n° 2922) (M. Nicolas Ray, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-06T16:05:00.000Z",
+      "dateFin": "2026-10-06T17:00:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30927",
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-06T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-06T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -810,6 +810,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461404",
+      "titre": "Évaluation des conditions de travail des étudiants en médecine : examen du rapport",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO420375"
     },
     {
       "uid": "RUANR5L17S2027IDC461376",

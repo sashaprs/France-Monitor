@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-08T17:45:10.057Z",
+  "updatedAt": "2026-10-08T18:38:10.515Z",
   "scrutins": [
+    {
+      "numero": "8610",
+      "titre": "la proposition de résolution visant à mobiliser la commande publique au service de l'emploi, de la production et de l'innovation en France (article 34-1 de la Constitution).",
+      "date": "2026-10-08",
+      "sort": null,
+      "nombreVotants": "338",
+      "pour": "151",
+      "contre": "187",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8611",
+      "titre": "la proposition de résolution visant à refonder l'espace Schengen en instaurant une double frontière nationale et européenne (article 34-1 de la Constitution).",
+      "date": "2026-10-08",
+      "sort": null,
+      "nombreVotants": "348",
+      "pour": "144",
+      "contre": "199",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
     {
       "numero": "8609",
       "titre": "la proposition de résolution visant à garantir un accès continu à l'eau potable dans les territoires ultramarins (article 34-1 de la Constitution).",
@@ -146,7 +168,7 @@
     },
     {
       "numero": "8581",
-      "titre": "l'amendement n° 409 de Mme Taurinya après l'article 34 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "titre": "l'amendement n° 408 de Mme Taurinya après l'article 34 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
       "date": "2026-10-07",
       "sort": null,
       "nombreVotants": "126",
@@ -528,28 +550,6 @@
       "contre": "81",
       "abstentions": "1",
       "nonVotants": "2"
-    },
-    {
-      "numero": "8568",
-      "titre": "l'article 28 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-07",
-      "sort": null,
-      "nombreVotants": "81",
-      "pour": "70",
-      "contre": "0",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8547",
-      "titre": "l'amendement n° 237 de M. Ménagé après l'article 18 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-06",
-      "sort": null,
-      "nombreVotants": "175",
-      "pour": "68",
-      "contre": "106",
-      "abstentions": "1",
-      "nonVotants": "1"
     }
   ]
 }

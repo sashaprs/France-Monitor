@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T22:48:18.298Z",
+  "updatedAt": "2026-10-08T00:03:56.551Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461392",
@@ -420,7 +420,7 @@
       "titre": "audition conjointe, ouverte à la presse, des représentants des syndicats représentatifs du premier degré public :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T15:05:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -429,7 +429,7 @@
       "titre": "audition, ouverte à la presse et conjointe avec la commission des affaires européennes, de M. Christophe Hansen, Commissaire européen à l'Agriculture et au Développement rural.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T15:25:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO419610"
     },
@@ -438,7 +438,7 @@
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T18:05:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -519,7 +519,7 @@
       "titre": "audition de M. Sébastien Windsor, président de Chambres d’agriculture France.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T15:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T17:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -555,7 +555,7 @@
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi renforçant la responsabilité des locataires et des bailleurs dans le logement social (n° 3109).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T17:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T17:35:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -812,6 +812,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461408",
+      "titre": "évaluation des conditions de travail des étudiants en médecine : examen du rapport.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO420375"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461404",
       "titre": "Évaluation des conditions de travail des étudiants en médecine : examen du rapport",
       "type": "reunionCommission_type",
@@ -1017,6 +1026,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461409",
+      "titre": "- examen, en application de l’article 88 du Règlement, des amendements au projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (n° 1779).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO866672"
     },
     {
       "uid": "RUANR5L17S2027IDC461274",
@@ -1353,7 +1371,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461184",
-      "titre": "- examen du rapport d’information, ouvert à la presse, sur le projet de loi de financement de la sécurité sociale pour 2027 (Mmes Agnès Firmin Le Bodo et Karine Lebon, rapporteures).",
+      "titre": "examen du rapport d’information, ouvert à la presse, sur le projet de loi de financement de la sécurité sociale pour 2027 (Mmes Agnès Firmin Le Bodo et Karine Lebon, rapporteures).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T12:00:00.000Z",
       "dateFin": null,
@@ -1542,7 +1560,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461185",
-      "titre": "- examen du rapport d’information, ouvert à la presse, de la mission d’information sur la santé des femmes (Mmes Sandrine Rousseau et Prisca Thévenot, rapporteures).",
+      "titre": "examen du rapport d’information, ouvert à la presse, de la mission d’information sur la santé des femmes (Mmes Sandrine Rousseau et Prisca Thévenot, rapporteures).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T14:30:00.000Z",
       "dateFin": null,

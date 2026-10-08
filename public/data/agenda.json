@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-08T11:12:41.388Z",
+  "updatedAt": "2026-10-08T17:45:11.096Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461392",
-      "titre": "nomination du rapporteur pour avis sur le projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-05T12:05:00.000Z",
-      "dateFin": "2026-10-05T12:45:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30924",
-      "titre": "Discussion du projet de loi autorisant l’approbation de l’accord entre la France et la Moldavie relatif à la coopération dans le domaine de la défense",
-      "type": "seance_type",
-      "dateDebut": "2026-10-05T14:00:00.000Z",
-      "dateFin": "2026-10-05T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS30925",
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
@@ -362,15 +344,6 @@
       "organisateur": "PO866672"
     },
     {
-      "uid": "RUANR5L17S2027IDC461192",
-      "titre": "audition, ouverte à la presse, des représentants de la direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Franck Arnaud, sous-directeur des synthèses, des études économiques et de l’évaluation, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884567"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461096",
       "titre": "audition de M. Michel Goya, militaire, historien.",
       "type": "reunionCommission_type",
@@ -452,6 +425,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2027IDC461192",
+      "titre": "audition, ouverte à la presse, des représentants de la direction de la recherche, des études, de l’évaluation et des statistiques (Drees) : M. Thomas Wanecq, directeur, M. Franck Arnaud, sous-directeur des synthèses, des études économiques et de l’évaluation, M. Pierre-Yves Cabannes, chef du bureau de la lutte contre l’exclusion (BLCE), et Mme Opale Echegu, chargée d’études au sein du BLCE.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-07T13:05:00.000Z",
+      "dateFin": "2026-10-07T14:05:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461318",
       "titre": "Audition de M. Matthieu Rey, chercheur associé à la chaire \"Histoire contemporaine du monde arabe\" du Collège de France",
       "type": "reunionCommission_type",
@@ -492,7 +474,7 @@
       "titre": "audition, ouverte à la presse, de M. Pierre Pribile, directeur de la sécurité sociale, M. Romain Bey, sous-directeur adjoint au sein de la sous-direction des études et des prévisions financières, Mme Maroussia Perehinec, sous-directrice de l’accès aux soins, des prestations familiales et des accidents du travail, et Mme Eléonore Laffay, adjointe au chef de bureau, prestations familiales et aides au logement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T14:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T15:30:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO884567"
     },
@@ -501,7 +483,7 @@
       "titre": "audition de M. Jean-Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’Autonomie et des personnes handicapées, M. David Amiel, ministre de l’action et des comptes publics, et Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées, sur le projet de loi de financement de la sécurité sociale pour 2027 (n° 3211).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T15:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T17:55:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -564,7 +546,7 @@
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-07T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-07T22:00:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -579,10 +561,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461351",
-      "titre": "éventuellement, examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à abroger les zones à faibles émissions mobilité (n° 3200) (M. Pierre Meurin, rapporteur).",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à abroger les zones à faibles émissions mobilité (n° 3200) (M. Pierre Meurin, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T06:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-08T06:50:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -596,15 +578,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2027IDC461253",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-08T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30930",
       "titre": "Discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
       "type": "seance_type",
@@ -615,12 +588,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461150",
-      "titre": "audition, ouverte à la presse, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, et de Mme Alice Rufo, ministre déléguée auprès de la ministre des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-08T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461253",
+      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-08T07:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461152",
@@ -644,7 +626,7 @@
       "uid": "RUANR5L17S2027IDC461254",
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-08T13:00:00.000Z",
+      "dateDebut": "2026-10-08T12:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
@@ -815,7 +797,7 @@
       "uid": "RUANR5L17S2027IDC461408",
       "titre": "évaluation des conditions de travail des étudiants en médecine : examen du rapport.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T07:00:00.000Z",
+      "dateDebut": "2026-10-13T12:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO420375"
@@ -1190,6 +1172,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461410",
+      "titre": "- Audition conjointe d’organisations syndicales de salariés, avec :\r. M. Éric Gautron, secrétaire confédéral en charge de la protection sociale collective, Force Ouvrière ;\r. MM. Sylvain Metropolyt, mandaté CFDT à la commission spécialisée relative à la prévention des risques physiques, chimiques et biologiques pour la santé au travail (CS2) du Conseil d’orientation des conditions de travail (COCT), et Laurent Picoto, secrétaire confédéral en charge de la santé au travail à la CFDT ;\r. M. Pierre-Yves Montéléon, responsable confédéral en charge de la santé au travail, et Mme Marie Idmont, conseillère technique Santé et sécurité au travail / Environnement, Confédération française des travailleurs chrétiens (CFTC).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461276",
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1206,6 +1197,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461411",
+      "titre": "- Audition conjointe d’organisations professionnelles d’employeurs, avec :\r. Mme Cindy Levasseur, représentante titulaire des Entrepreneurs à la commission spécialisée n° 2 du Conseil d’orientation des conditions de travail (COCT), accompagnée de M. Adrien Dufour, responsable des relations parlementaires, Les Entrepreneurs ;\r. Dr Patrick Levy, médecin conseil de France Chimie, et MM. Jean-Baptiste Moustié, directeur de mission au pôle Protection sociale, et Antoine Quinette, directeur de mission au pôle Affaires publiques, Mouvement des entreprises de France (Medef) ;\r. Dr Catherine Roy, représentante titulaire de l’Union des entreprises de proximité (U2P) à la commission spécialisée n° 2 du COCT, accompagnée de Mmes Pia Nouaux, conseillère sur les questions sociales, la santé au travail et la maladie, et Thérèse Huppé-Note, responsable des relations parlementaires, U2P.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
     },
     {
       "uid": "RUANR5L17S2027IDC461159",

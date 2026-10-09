@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-09T02:55:19.724Z",
+  "updatedAt": "2026-10-09T10:08:14.520Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDFL461010",
-      "titre": "Audition de MM. Robert Le Bourgeois, député, Teddy Seneca, circassien, William Kerwich, président du syndicat des capacités et propriétaires d’animaux de spectacle et Olivier Le Mailloux, avocat, sur le thème des conséquences sur les circassiens de la loi n° 2021-1539 du 30 novembre 2021 visant à lutter contre la maltraitance animale et conforter le lien entre les animaux et les hommes.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-10-06T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "9e Bureau",
-      "organisateur": "PO854354"
-    },
     {
       "uid": "RUANR5L17S2027IDC461398",
       "titre": "audition commune des cabinets d’expertise auprès des comités sociaux et économiques (CSE) de la filière :\r– Syndex\rM. Mathieu Bensadoun, expert et co-pilote du pôle Energie ;\rMme Claire Morel, Comité de Direction\r– Secafi (groupe Alpha)\rM. Emmanuel Gastineau, responsable du pôle Energie de Secafi.",
@@ -618,7 +609,7 @@
       "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
       "type": "seance_type",
       "dateDebut": "2026-10-08T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-08T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -645,7 +636,7 @@
       "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à garantir un accès continu à l’eau potable dans les territoires ultramarins",
       "type": "seance_type",
       "dateDebut": "2026-10-08T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-08T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

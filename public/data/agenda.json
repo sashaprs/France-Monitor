@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T22:20:31.900Z",
+  "updatedAt": "2026-10-09T23:53:16.388Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461249",
@@ -536,8 +536,8 @@
       "uid": "RUANR5L17S2027IDC461256",
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T12:15:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-09T12:25:00.000Z",
+      "dateFin": "2026-10-09T19:25:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -546,7 +546,7 @@
       "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
       "type": "seance_type",
       "dateDebut": "2026-10-09T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-09T18:25:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -597,7 +597,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461433",
-      "titre": "examen, pour avis, du projet de décret d’avance communiqué par le gouvernement le 5 octobre 2026 en application de l’article 13 de la loi organique relative aux lois de finances (M. Philippe Juvin, rapporteur général)",
+      "titre": "examen, pour avis, du projet de décret d’avance communiqué par le gouvernement le 5 octobre 2026 en application de l’article 13 de la loi organique relative aux lois de finances (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-12T15:30:00.000Z",
       "dateFin": null,
@@ -768,7 +768,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461377",
-      "titre": "examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis)",
+      "titre": "examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:00:00.000Z",
       "dateFin": null,
@@ -849,7 +849,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461432",
-      "titre": "audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers",
+      "titre": "audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T09:00:00.000Z",
       "dateFin": null,
@@ -885,7 +885,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461260",
-      "titre": "Élection d’un(e) vice-président(e) de la commission, en remplacement de Mme Manon Bouquin ;",
+      "titre": "élection d’un(e) vice-président(e) de la commission, en remplacement de Mme Manon Bouquin ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:00:00.000Z",
       "dateFin": null,

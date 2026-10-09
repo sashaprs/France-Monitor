@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T00:12:21.142Z",
+  "updatedAt": "2026-10-09T02:55:19.724Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDFL461010",
@@ -749,6 +749,15 @@
       "organisateur": "PO58974"
     },
     {
+      "uid": "RUANR5L17S2027IDC461415",
+      "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 3274) (M. Christophe Naegelen, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-12T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30938",
       "titre": "Discussion de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
       "type": "seance_type",
@@ -759,9 +768,9 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461270",
-      "titre": "examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-12T19:00:00.000Z",
+      "dateDebut": "2026-10-12T19:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
@@ -831,7 +840,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461341",
-      "titre": "Prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
+      "titre": "prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-13T14:30:00.000Z",
       "dateFin": null,
@@ -866,15 +875,6 @@
       "organisateur": "PO884567"
     },
     {
-      "uid": "RUANR5L17S2027IDC461271",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30941",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -882,6 +882,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461271",
+      "titre": "nomination d’un rapporteur sur la proposition de loi pour protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse (n° 2774).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461360",
@@ -939,7 +948,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461154",
-      "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:00:00.000Z",
       "dateFin": null,
@@ -948,7 +957,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461273",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:30:00.000Z",
       "dateFin": null,
@@ -984,7 +993,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461155",
-      "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T09:00:00.000Z",
       "dateFin": null,
@@ -1011,7 +1020,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461274",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:00:00.000Z",
       "dateFin": null,
@@ -1020,7 +1029,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461260",
-      "titre": "L’Union européenne face au défi du financement de la transition énergétique : examen du rapport d’information (M. Karim Benbrahim et Mme Sandrine Lalanne, rapporteurs d'information)",
+      "titre": "l’Union européenne face au défi du financement de la transition énergétique : examen du rapport d’information (M. Karim Benbrahim et Mme Sandrine Lalanne, rapporteurs d'information) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:00:00.000Z",
       "dateFin": null,
@@ -1047,7 +1056,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461156",
-      "titre": "audition, ouverte à la presse, du général d’armée Jacques de Montgros, chef d’état-major de l’armée de Terre, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, du général d’armée Jacques de Montgros, chef d’état-major de l’armée de Terre, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:30:00.000Z",
       "dateFin": null,
@@ -1092,7 +1101,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461163",
-      "titre": "audition, ouverte à la presse, du Conseil supérieur de la fonction militaire (CSFM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, du Conseil supérieur de la fonction militaire (CSFM), sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T15:30:00.000Z",
       "dateFin": null,
@@ -1118,15 +1127,6 @@
       "organisateur": "PO419604"
     },
     {
-      "uid": "RUANR5L17S2027IDC461275",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30943",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1143,6 +1143,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461275",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461357",
@@ -1173,7 +1182,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461158",
-      "titre": "audition, ouverte à la presse, de M. Christophe Mauriet, secrétaire général pour l’administration du ministère des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, de M. Christophe Mauriet, secrétaire général pour l’administration du ministère des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:00:00.000Z",
       "dateFin": null,
@@ -1191,7 +1200,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461276",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:30:00.000Z",
       "dateFin": null,
@@ -1218,7 +1227,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461159",
-      "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T09:00:00.000Z",
       "dateFin": null,
@@ -1236,7 +1245,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461277",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T13:00:00.000Z",
       "dateFin": null,
@@ -1244,8 +1253,17 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461430",
+      "titre": "- éventuellement, suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210), puis vote sur l’ensemble des crédits de cette mission :\r. Affaires maritimes (M. Fabrice Roussel, rapporteur pour avis) ; \r. Transports terrestres et fluviaux (M. Auguste Evrard, rapporteur pour avis) ;\r. Transports aériens ; budget annexe « Contrôle et exploitation aériens » (M. Marcellin Nadeau, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461160",
-      "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T13:00:00.000Z",
       "dateFin": null,
@@ -1254,9 +1272,9 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461278",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-15T19:00:00.000Z",
+      "dateDebut": "2026-10-15T19:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
@@ -1281,7 +1299,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461279",
-      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-16T07:30:00.000Z",
       "dateFin": null,
@@ -1299,7 +1317,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461280",
-      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-16T13:00:00.000Z",
       "dateFin": null,
@@ -1308,9 +1326,9 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461281",
-      "titre": "éventuellement, suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-16T19:00:00.000Z",
+      "dateDebut": "2026-10-16T19:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
@@ -1352,6 +1370,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461420",
+      "titre": "- examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-19T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30951",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -1370,6 +1397,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461282",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T11:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDFL459260",
       "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
       "type": "reunionInitParlementaire_type",
@@ -1386,15 +1422,6 @@
       "dateFin": null,
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461282",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi de financement de la sécurité sociale pour 2027 (sous réserve de son dépôt) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T12:45:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS30952",
@@ -1524,12 +1551,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461161",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (sous réserve de son dépôt).",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461421",
+      "titre": "examen de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3168) (Mme Gabrielle Cathala, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461383",
@@ -1542,7 +1578,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461370",
-      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172).",
+      "titre": "examen de la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
       "dateFin": null,
@@ -1557,6 +1593,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461416",
+      "titre": "S’opposer à la déréglementation du cadre européen relatif aux pesticides dite Omnibus X (n° 2800) : examen de la proposition de résolution européenne  (M. Benoît Biteau, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461331",
@@ -1829,6 +1874,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461423",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé\r     avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30964",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1856,6 +1910,15 @@
       "organisateur": "PO201269"
     },
     {
+      "uid": "RUANR5L17S2027IDC461422",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Missions Santé, Solidarité, insertion et égalité des chances et Travail, emploi et administration des ministères sociaux\r     audition de M. Jean Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées, ou Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30965",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
@@ -1872,6 +1935,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461424",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Solidarité, insertion et égalité des chances\r     avis de M. Alim Latrèche, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461372",
@@ -1908,6 +1980,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461425",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions\r     avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461417",
+      "titre": "Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne (N.N., rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDS31005",
@@ -2027,6 +2117,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461428",
+      "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30978",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
@@ -2045,6 +2144,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461427",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89\r     avis de M. Théo Bernhardt, rapporteur, puis vote sur les crédits et les articles rattachés.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461414",
       "titre": "communication, ouverte à la presse, sur le déplacement d’une délégation de la commission à Oulan-Bator à l’occasion de la 17e conférence des parties (COP 17) sur la convention des Nations unies sur la lutte contre la désertification, du 22 au 28 août 2026 (M. Marc Fesneau et M. Pierre Pribetich, rapporteurs).",
       "type": "reunionCommission_type",
@@ -2054,6 +2162,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461429",
+      "titre": "présentation des conclusions de la mission flash sur les coûts de construction et leurs effets sur le secteur du logement (MM. Thierry Benoit et M. Éric Michoux, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T10:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30979",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -2061,6 +2178,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461418",
+      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDS30980",
@@ -2295,6 +2421,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461419",
+      "titre": "Audition de M. Benjamin Haddad, ministre délégué en charge de l’Europe, sur l’actualité de l’Union européenne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461412",

@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-10T15:44:53.950Z",
+  "updatedAt": "2026-10-10T17:08:59.628Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461174",
-      "titre": "audition de M. Sébastien Windsor, président de Chambres d’agriculture France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T15:45:00.000Z",
-      "dateFin": "2026-10-07T17:00:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461401",
-      "titre": "audition de M. Édouard Geffray, ministre de l’Éducation nationale, sur le blocage des lycées",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461302",
-      "titre": "audition conjointe, ouverte à la presse :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4088, 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461235",
-      "titre": "audition, ouverte à la presse, de M. David Amiel, ministre de l’action et des comptes publics.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T16:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO744127"
-    },
     {
       "uid": "RUANR5L17S2027IDC461175",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi renforçant la responsabilité des locataires et des bailleurs dans le logement social (n° 3109).",

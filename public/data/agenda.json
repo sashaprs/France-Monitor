@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-10T17:08:59.628Z",
+  "updatedAt": "2026-10-10T19:49:06.031Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461175",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi renforçant la responsabilité des locataires et des bailleurs dans le logement social (n° 3109).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T17:30:00.000Z",
-      "dateFin": "2026-10-07T17:35:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461251",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-07T19:00:00.000Z",
-      "dateFin": "2026-10-07T22:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30929",
-      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-10-07T19:30:00.000Z",
-      "dateFin": "2026-10-07T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461351",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à abroger les zones à faibles émissions mobilité (n° 3200) (M. Pierre Meurin, rapporteur).",

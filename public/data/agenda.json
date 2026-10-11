@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-11T10:40:50.873Z",
+  "updatedAt": "2026-10-11T11:15:12.486Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461394",
-      "titre": "audition de M. Paul Hermelin, président du conseil d’administration de Capgemini.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-08T10:45:00.000Z",
-      "dateFin": "2026-10-08T12:15:00.000Z",
-      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO885535"
-    },
     {
       "uid": "RUANR5L17S2027IDC461254",
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",

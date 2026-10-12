@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-10-12T11:45:50.077Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3210P1D1N001659",
+   "type": "nouvel_amendement",
+   "date": "2026-10-12T11:45:50.077Z",
+   "titre": "Amendement n° I-1659 de Peio Dufau (SOC) — APRÈS ART. 4",
+   "detail": "Le présent amendement du groupe Socialistes et apparentés propose de créer deux nouvelles tranches pour ajuster le taux de la taxe sur les plus-values immobilières élevées aux plus-values exceptionne…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/AN/I-1659",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement du groupe Socialistes et apparentés propose de créer deux nouvelles tranches pour ajuster le taux de la taxe sur les plus-values immobilières élevées aux plus-values exceptionne… APRÈS ART. 4 Peio Dufau SOC Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:685c8b4adc49d783",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T11:45:50.077Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi de finances pour 2027",
+   "detail": "lundi 2 novembre à 09:00 · Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie) Assemblée Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

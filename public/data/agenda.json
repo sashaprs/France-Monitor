@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-12T08:42:02.072Z",
+  "updatedAt": "2026-10-12T11:45:28.969Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461315",
-      "titre": "- audition, non ouverte à la presse, de Mme Charlotte Beluet, haute fonctionnaire à l’Égalité femmes-hommes du Ministère de la Justice.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T09:00:00.000Z",
-      "dateFin": "2026-10-09T10:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461316",
-      "titre": "- audition, non ouverte à la presse, de Mme Catherine Petit, cheffe du service des Droits des femmes.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T10:00:00.000Z",
-      "dateFin": "2026-10-09T11:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
     {
       "uid": "RUANR5L17S2027IDC461256",
       "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",

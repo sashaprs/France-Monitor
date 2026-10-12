@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-12T01:02:20.730Z",
+  "updatedAt": "2026-10-12T08:42:02.072Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30933",
-      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-10-09T07:00:00.000Z",
-      "dateFin": "2026-10-09T11:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461255",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T07:00:00.000Z",
-      "dateFin": "2026-10-09T11:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461391",
-      "titre": "audition d’une enseignante-chercheuse.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461314",
-      "titre": "- audition, non ouverte à la presse, de Mme Clémentine Bord, référente nationale Violences Intra Familiales (VIF) de la Gendarmerie nationale et M. Olivier Blondel, référent national VIF de la Police nationale ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T08:00:00.000Z",
-      "dateFin": "2026-10-09T09:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885504"
-    },
     {
       "uid": "RUANR5L17S2027IDC461315",
       "titre": "- audition, non ouverte à la presse, de Mme Charlotte Beluet, haute fonctionnaire à l’Égalité femmes-hommes du Ministère de la Justice.",

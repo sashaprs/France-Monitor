@@ -1,0 +1,203 @@
+{
+ "genere_le": "2026-10-12T21:27:13.970Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N55052",
+   "type": "nouveau_dossier",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à attacher à une obligation de débroussaillement débordant sur un fonds voisin le bénéfice d'un droit de préférence en cas d'aliénati…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N55052",
+   "dossier_id": "DLR5L17N55052",
+   "texte_matchable": "Proposition de loi visant à attacher à une obligation de débroussaillement débordant sur un fonds voisin le bénéfice d'un droit de préférence en cas d'aliénation dudit fonds Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55051",
+   "type": "nouveau_dossier",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à réformer et à moderniser le régime d'indemnisation des dégâts de grand gibier",
+   "detail": "Proposition de loi ordinaire · commission : Affaires économiques",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N55051",
+   "dossier_id": "DLR5L17N55051",
+   "texte_matchable": "Proposition de loi visant à réformer et à moderniser le régime d'indemnisation des dégâts de grand gibier Proposition de loi ordinaire Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55053",
+   "type": "nouveau_dossier",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à encadrer la production, la traçabilité, la distribution et certains usages des produits à base de cannabidiol",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N55053",
+   "dossier_id": "DLR5L17N55053",
+   "texte_matchable": "Proposition de loi visant à encadrer la production, la traçabilité, la distribution et certains usages des produits à base de cannabidiol Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "odj:9f03ae096f8df792",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour — Finances : Contrôle réel des investissements étrangers en France",
+   "detail": "mardi 13 octobre à 14:30 · nomination rapporteur",
+   "url": null,
+   "dossier_id": "DLR5L17N54907",
+   "texte_matchable": "nomination rapporteur Finances Contrôle réel des investissements étrangers en France",
+   "profils": []
+  },
+  {
+   "id": "odj:cb6c610c86320823",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour — Finances : Projet de loi de finances pour 2027",
+   "detail": "mardi 13 octobre à 14:30 · Suite de l'examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de l'examen du texte Finances Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:9230995f9d3074bc",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour — Finances : Projet de loi de financement de la sécurité sociale pour 2027",
+   "detail": "mercredi 14 octobre à 09:00 · Examen de l'avis",
+   "url": null,
+   "dossier_id": "DLR5L17N54951",
+   "texte_matchable": "Examen de l'avis Finances Projet de loi de financement de la sécurité sociale pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:d3773e11dd4cd1b3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour — Finances : Projet de loi de finances pour 2027",
+   "detail": "mercredi 21 octobre à 09:00 · Suite de l'examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de l'examen du texte Finances Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:e3e92b31f5f49d61",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour — Finances : Contrôle réel des investissements étrangers en France",
+   "detail": "mercredi 28 octobre à 09:00 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54907",
+   "texte_matchable": "Examen des amendements (art. 88) Finances Contrôle réel des investissements étrangers en France",
+   "profils": []
+  },
+  {
+   "id": "odj:d6187b29bebfb5aa",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi de finances pour 2027",
+   "detail": "lundi 2 novembre à 15:00 · Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie) Assemblée Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8673",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8673 : l'amendement n° 53 de M. Castermann à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "19 pour · 42 contre · 4 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8673",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 53 de M. Castermann à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8676",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8676 : l'amendement n° 42 de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "27 pour · 56 contre · 4 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8676",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 42 de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8680",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8680 : l'amendement n° 22 de M. Taupiac à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "20 pour · 33 contre · 31 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8680",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 22 de M. Taupiac à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8679",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8679 : l'amendement n° 36 de M. Monnet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "22 pour · 37 contre · 23 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8679",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 36 de M. Monnet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8678",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8678 : l'amendement n° 10 (rect.) de Mme Dubré-Chirat et les amendements identiques suivants à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "24 pour · 65 contre · 1 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8678",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 10 (rect.) de Mme Dubré-Chirat et les amendements identiques suivants à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8677",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8677 : l'amendement n° 74 de M. Gernigon à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "5 pour · 77 contre · 5 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8677",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 74 de M. Gernigon à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8681",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8681 : l'amendement n° 12 de M. Ramos à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "24 pour · 8 contre · 36 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8681",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 12 de M. Ramos à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8675",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8675 : l'amendement n° 75 de M. Weber à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "24 pour · 46 contre · 5 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8675",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 75 de M. Weber à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8674",
+   "type": "resultat_scrutin",
+   "date": "2026-10-12T21:27:13.970Z",
+   "titre": "Scrutin n° 8674 : l'amendement n° 32 de Mme Hignet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+   "detail": "34 pour · 43 contre · 5 abstentions (2026-10-12)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8674",
+   "dossier_id": "DLR5L17N54445",
+   "texte_matchable": "l'amendement n° 32 de Mme Hignet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture). Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+   "profils": []
+  }
+ ]
+}

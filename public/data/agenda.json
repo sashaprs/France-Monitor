@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-12T18:39:10.797Z",
+  "updatedAt": "2026-10-12T21:05:12.910Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461257",
-      "titre": "suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-09T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30935",
-      "titre": "Suite de la discussion de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants",
-      "type": "seance_type",
-      "dateDebut": "2026-10-09T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC460986",
       "titre": "Participation de M. Julien Limongi à la visite conjointe de la sous-commission sur l’avenir de la sécurité et des capacités de défense (DSCFC) et de la commission sur la démocratie et la sécurité (CDS) de l’AP OTAN à Canberra et Sydney (Australie) du 12 au 16 octobre 2026",

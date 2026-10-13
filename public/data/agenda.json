@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T17:25:39.202Z",
+  "updatedAt": "2026-10-13T19:04:19.782Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460986",
@@ -87,7 +87,7 @@
       "titre": "nomination d’un rapporteur sur la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-13T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-13T12:35:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -119,15 +119,6 @@
       "organisateur": "PO880668"
     },
     {
-      "uid": "RUANR5L17S2027IDC461341",
-      "titre": "prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461352",
       "titre": "audition de Mme Monique Barbut, ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, et de M. Mathieu Lefèvre, ministre délégué chargé de la transition écologique ;",
       "type": "reunionCommission_type",
@@ -153,6 +144,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461341",
+      "titre": "prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T15:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461434",
@@ -345,7 +345,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461363",
-      "titre": "examen pour avis des crédits budgétaires « Communications électroniques et économie numérique » (M. René Pilato, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "titre": "examen pour avis des crédits budgétaires « Communications électroniques et économie numérique » (M. René Pilato, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:15:00.000Z",
       "dateFin": null,
@@ -516,7 +516,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461365",
-      "titre": "examen pour avis des crédits budgétaires « Entreprises » (M. Karim Benbrahim, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "titre": "examen pour avis des crédits budgétaires « Entreprises » (M. Karim Benbrahim, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:30:00.000Z",
       "dateFin": null,
@@ -686,6 +686,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461446",
+      "titre": "audition de Monsieur Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-19T19:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30951",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
@@ -704,6 +713,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDFL459260",
+      "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-10-20T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 23 (3 rue Aristide-Briand)",
+      "organisateur": "PO854354"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461282",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
@@ -711,15 +729,6 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDFL459260",
-      "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-10-20T12:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 6549 (Palais-Bourbon)",
-      "organisateur": "PO854354"
     },
     {
       "uid": "RUANR5L17S2027IDC461184",
@@ -849,7 +858,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461403",
-      "titre": "examen de la proposition de loi visant à garantir le droit de vote par l’encadrement des radiations pour perte d’attache communale (n° 2162) ;",
+      "titre": "examen de la proposition de loi visant à garantir le droit de vote par l’encadrement des radiations pour perte d’attache communale (n° 2162) (M. Antoine Léaument, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
@@ -909,6 +918,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461447",
+      "titre": "éventuellement, suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T12:45:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461416",
@@ -981,6 +999,15 @@
       "dateFin": null,
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461448",
+      "titre": "audition de Mme Naïma Moutchou, ministre des Outre-mer, sur les crédits de la mission « Outre-mer » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461384",
@@ -1542,7 +1569,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461418",
-      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure).",
+      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure);",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T14:00:00.000Z",
       "dateFin": null,
@@ -1656,6 +1683,15 @@
       "dateFin": "2026-11-10T17:00:00.000Z",
       "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
       "organisateur": "PO880668"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461445",
+      "titre": "audition, conjointe avec la commission des affaires étrangères, de Son Excellence M. Albin Kurti, Premier ministre de la République du Kosovo.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461440",

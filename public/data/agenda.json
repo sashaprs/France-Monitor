@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T09:01:10.467Z",
+  "updatedAt": "2026-10-13T11:32:12.302Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460986",
@@ -42,7 +42,7 @@
       "titre": "examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-12T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-12T22:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -54,6 +54,15 @@
       "dateFin": "2026-10-12T21:40:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461443",
+      "titre": "audition de l’Association de lutte contre la piraterie audiovisuelle (ALPA) – M. Frédéric Delacroix, délégué général, M. Étienne Brohon, responsable des agents assermentés, Mme Hortense de Labriffe, déléguée générale de l’Association des producteurs indépendants (API), Mme Hélène Herschel, déléguée générale de la Fédération nationale des éditeurs de films (FNEF), Mme Julie Lorimy, déléguée générale du Syndicat des producteurs indépendants (SPI), M. Jean-Pierre Giansilj, délégué général de l’Union des producteurs de cinéma (UPC).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T08:30:00.000Z",
+      "dateFin": "2026-10-13T09:30:00.000Z",
+      "lieu": "Salle 6634",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461408",
@@ -450,6 +459,15 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461444",
+      "titre": "- table ronde réunissant les influenceurs suivants :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-15T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6550",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461358",

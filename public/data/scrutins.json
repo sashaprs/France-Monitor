@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-10-13T19:02:58.376Z",
+  "updatedAt": "2026-10-13T22:20:34.339Z",
   "scrutins": [
+    {
+      "numero": "8702",
+      "titre": "l'amendement n° 4 de Mme Thiébault-Martinez à l'article 44 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "352",
+      "pour": "167",
+      "contre": "177",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8699",
+      "titre": "l'amendement n° 6 de Mme Thiébault-Martinez à l'article 31 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "329",
+      "pour": "324",
+      "contre": "1",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8704",
+      "titre": "l'amendement n° 5 de Mme Thiébault-Martinez de rétablissement de l'article 46 (supprimé) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "374",
+      "pour": "213",
+      "contre": "111",
+      "abstentions": "50",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8697",
+      "titre": "l'amendement n° 1 de Mme Thiébault-Martinez à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "250",
+      "pour": "146",
+      "contre": "101",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8703",
+      "titre": "l'amendement n° 7 de M. Ménagé de rétablissement de l'article 46 (supprimé) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "373",
+      "pour": "98",
+      "contre": "257",
+      "abstentions": "18",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8701",
+      "titre": "l'article 32 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "322",
+      "pour": "236",
+      "contre": "3",
+      "abstentions": "83",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8698",
+      "titre": "l'amendement n° 2 de Mme Thiébault-Martinez à l'article 28 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "290",
+      "pour": "287",
+      "contre": "0",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8700",
+      "titre": "l'amendement n° 3 de Mme Thiébault-Martinez à l'article 32 bis de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "336",
+      "pour": "304",
+      "contre": "24",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
     {
       "numero": "8689",
       "titre": "l'amendement n° 7 de M. Tavernier à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
@@ -459,94 +547,6 @@
       "sort": null,
       "nombreVotants": "87",
       "pour": "87",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8648",
-      "titre": "l'amendement n° 404 du Gouvernement à l'article 49 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "78",
-      "pour": "56",
-      "contre": "20",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8672",
-      "titre": "l'article 3 de la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexistes et intrafamiliales (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "47",
-      "contre": "0",
-      "abstentions": "22",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8662",
-      "titre": "l'article 59 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "70",
-      "pour": "70",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8622",
-      "titre": "l'amendement n° 722 de Mme Faucillon et l'amendement identique suivant à l'article 43 bis (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "56",
-      "pour": "56",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8660",
-      "titre": "l'article 57 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "73",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8670",
-      "titre": "l'article 2 de la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexistes et intrafamiliales (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "50",
-      "contre": "0",
-      "abstentions": "21",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8629",
-      "titre": "l'amendement n° 594 de Mme Lebon après l'article 44 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "96",
-      "pour": "14",
-      "contre": "36",
-      "abstentions": "46",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8658",
-      "titre": "l'article 55 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "78",
-      "pour": "78",
       "contre": "0",
       "abstentions": "0",
       "nonVotants": "1"

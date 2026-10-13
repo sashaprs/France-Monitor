@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-13T01:07:59.762Z",
+  "updatedAt": "2026-10-13T09:01:08.518Z",
   "scrutins": [
+    {
+      "numero": "8689",
+      "titre": "l'amendement n° 7 de M. Tavernier à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "32",
+      "contre": "28",
+      "abstentions": "33",
+      "nonVotants": "1"
+    },
     {
       "numero": "8673",
       "titre": "l'amendement n° 53 de M. Castermann à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
@@ -11,6 +22,72 @@
       "contre": "42",
       "abstentions": "4",
       "nonVotants": "2"
+    },
+    {
+      "numero": "8687",
+      "titre": "l'amendement n° 77 de M. Weber à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "36",
+      "contre": "58",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8682",
+      "titre": "l'amendement n° 15 de Mme Hignet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "99",
+      "pour": "47",
+      "contre": "47",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8692",
+      "titre": "l'amendement n° 79 de M. Weber à l'article 4 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "95",
+      "pour": "29",
+      "contre": "66",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8696",
+      "titre": "l'article unique du projet de loi autorisant l'approbation de la convention d'extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "35",
+      "pour": "28",
+      "contre": "5",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8694",
+      "titre": "l'ensemble de la proposition de loi visant à assouplir la procédure d'autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "53",
+      "pour": "53",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8686",
+      "titre": "l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "93",
+      "pour": "90",
+      "contre": "0",
+      "abstentions": "3",
+      "nonVotants": "1"
     },
     {
       "numero": "8676",
@@ -35,6 +112,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8684",
+      "titre": "l'amendement n° 44 de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "45",
+      "contre": "51",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8679",
       "titre": "l'amendement n° 36 de M. Monnet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
       "date": "2026-10-12",
@@ -55,6 +143,61 @@
       "contre": "65",
       "abstentions": "1",
       "nonVotants": "2"
+    },
+    {
+      "numero": "8695",
+      "titre": "l'ensemble de la proposition de loi relative à l'expérimentation d'une gouvernance territoriale unifiée pour le centre de ressources, d'expertise et de performance sportive (CREPS) de Vichy (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "50",
+      "pour": "44",
+      "contre": "0",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8688",
+      "titre": "l'amendement n° 78 (rect.) de M. Weber à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "50",
+      "contre": "43",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8685",
+      "titre": "l'amendement n° 63 de Mme Godard à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "35",
+      "contre": "29",
+      "abstentions": "30",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8690",
+      "titre": "l'amendement n° 6 de M. Tavernier après l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "85",
+      "pour": "31",
+      "contre": "27",
+      "abstentions": "27",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8683",
+      "titre": "l'amendement n° 19 de Mme Piron et les amendements identiques suivants à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "47",
+      "contre": "50",
+      "abstentions": "3",
+      "nonVotants": "1"
     },
     {
       "numero": "8677",
@@ -79,6 +222,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8693",
+      "titre": "l'ensemble de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "87",
+      "contre": "0",
+      "abstentions": "15",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8675",
       "titre": "l'amendement n° 75 de M. Weber à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
       "date": "2026-10-12",
@@ -98,6 +252,17 @@
       "pour": "34",
       "contre": "43",
       "abstentions": "5",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8691",
+      "titre": "l'amendement n° 54 de M. Casterman à l'article 4 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "date": "2026-10-12",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "32",
+      "contre": "62",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -384,171 +549,6 @@
       "pour": "78",
       "contre": "0",
       "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8666",
-      "titre": "l'article 61 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "64",
-      "contre": "0",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8638",
-      "titre": "l'amendement n° 1091 de Mme Leboucher à l'article 46 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "139",
-      "pour": "31",
-      "contre": "47",
-      "abstentions": "61",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8640",
-      "titre": "l'article 46 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "158",
-      "pour": "74",
-      "contre": "77",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8630",
-      "titre": "l'amendement n° 498 de Mme Autain après l'article 44 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "9",
-      "contre": "33",
-      "abstentions": "38",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8668",
-      "titre": "l'article 68 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "75",
-      "pour": "44",
-      "contre": "2",
-      "abstentions": "29",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8637",
-      "titre": "l'amendement n° 462 de Mme Leboucher à l'article 46 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "127",
-      "pour": "25",
-      "contre": "101",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8671",
-      "titre": "l'article 2 bis de la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexistes et intrafamiliales (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "48",
-      "contre": "0",
-      "abstentions": "21",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8627",
-      "titre": "l'amendement n° 762 de Mme de Pélichy à l'article 44 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "97",
-      "pour": "42",
-      "contre": "48",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8665",
-      "titre": "l'amendement n° 1156 de Mme Spillebout à l'article 61 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "55",
-      "contre": "10",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8642",
-      "titre": "l'amendement n° 245 de M. Ménagé et les amendements identiques suivants de suppression de l'article 63 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "150",
-      "pour": "100",
-      "contre": "50",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8667",
-      "titre": "l'amendement n° 684 de Mme Legrain à l'article 68 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "20",
-      "contre": "29",
-      "abstentions": "24",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8644",
-      "titre": "l'amendement n° 814 de Mme Leboucher à l'article 47 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "53",
-      "pour": "14",
-      "contre": "28",
-      "abstentions": "11",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8647",
-      "titre": "l'article 48 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "67",
-      "pour": "50",
-      "contre": "17",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8649",
-      "titre": "l'amendement n° 1164 de M. Gouffier Valente à l'article 49 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "63",
-      "contre": "21",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8651",
-      "titre": "l'article 49 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "62",
-      "contre": "0",
-      "abstentions": "26",
       "nonVotants": "1"
     }
   ]

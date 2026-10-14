@@ -1,0 +1,60 @@
+{
+ "genere_le": "2026-10-14T09:22:50.369Z",
+ "evenements": [
+  {
+   "id": "odj:983298db300db493",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-14T09:22:50.369Z",
+   "titre": "À l'ordre du jour — Affaires étrangères : Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République unie de Tanzanie relati…",
+   "detail": "mercredi 4 novembre à 09:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54168",
+   "texte_matchable": "Examen du texte Affaires étrangères Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République unie de Tanzanie relati…",
+   "profils": []
+  },
+  {
+   "id": "odj:17bdb4831fbc9fcc",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-14T09:22:50.369Z",
+   "titre": "À l'ordre du jour — Affaires étrangères : Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement d’Antigua-et-Barbuda relatif aux service…",
+   "detail": "mercredi 4 novembre à 09:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54169",
+   "texte_matchable": "Examen du texte Affaires étrangères Projet de loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement d’Antigua-et-Barbuda relatif aux service…",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8705",
+   "type": "resultat_scrutin",
+   "date": "2026-10-14T09:22:50.369Z",
+   "titre": "Scrutin n° 8705 : la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+   "detail": "503 pour · 0 contre · 67 abstentions (2026-10-13)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8705",
+   "dossier_id": null,
+   "texte_matchable": "la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8707",
+   "type": "resultat_scrutin",
+   "date": "2026-10-14T09:22:50.369Z",
+   "titre": "Scrutin n° 8707 : la motion de rejet préalable, déposée par M. Boris Vallaud, du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "149 pour · 236 contre · 0 abstentions (2026-10-13)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8707",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "la motion de rejet préalable, déposée par M. Boris Vallaud, du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:8706",
+   "type": "resultat_scrutin",
+   "date": "2026-10-14T09:22:50.369Z",
+   "titre": "Scrutin n° 8706 : la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (première lecture).",
+   "detail": "503 pour · 0 contre · 67 abstentions (2026-10-13)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8706",
+   "dossier_id": "DLR5L17N54777",
+   "texte_matchable": "la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (première lecture). Adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales",
+   "profils": []
+  }
+ ]
+}

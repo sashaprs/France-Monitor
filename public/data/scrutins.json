@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T23:39:16.874Z",
+  "updatedAt": "2026-10-14T01:36:59.733Z",
   "scrutins": [
     {
       "numero": "8702",
@@ -35,6 +35,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8705",
+      "titre": "la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "570",
+      "pour": "503",
+      "contre": "0",
+      "abstentions": "67",
+      "nonVotants": "0"
+    },
+    {
       "numero": "8697",
       "titre": "l'amendement n° 1 de Mme Thiébault-Martinez à l'article 3 de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (seconde délibération) (première lecture).",
       "date": "2026-10-13",
@@ -43,6 +54,17 @@
       "pour": "146",
       "contre": "101",
       "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8707",
+      "titre": "la motion de rejet préalable, déposée par M. Boris Vallaud, du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "385",
+      "pour": "149",
+      "contre": "236",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -87,6 +109,17 @@
       "pour": "304",
       "contre": "24",
       "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8706",
+      "titre": "la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (première lecture).",
+      "date": "2026-10-13",
+      "sort": null,
+      "nombreVotants": "570",
+      "pour": "503",
+      "contre": "0",
+      "abstentions": "67",
       "nonVotants": "1"
     },
     {
@@ -201,7 +234,7 @@
     },
     {
       "numero": "8684",
-      "titre": "l'amendement n° 44 de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "titre": "l'amendement n° 44 (rect.) de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
       "date": "2026-10-12",
       "sort": null,
       "nombreVotants": "97",
@@ -278,7 +311,7 @@
     },
     {
       "numero": "8683",
-      "titre": "l'amendement n° 19 de Mme Piron et les amendements identiques suivants à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
+      "titre": "l'amendement n° 19 de Mme Piron et l'amendement identique suivant à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
       "date": "2026-10-12",
       "sort": null,
       "nombreVotants": "100",
@@ -514,39 +547,6 @@
       "sort": null,
       "nombreVotants": "50",
       "pour": "50",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8645",
-      "titre": "l'amendement n° 257 de Mme Lingemann et l'amendement identique suivant à l'article 47 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "52",
-      "pour": "11",
-      "contre": "28",
-      "abstentions": "13",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8663",
-      "titre": "l'article 60 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "69",
-      "contre": "2",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8657",
-      "titre": "l'article 54 (examen prioritaire) de la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
-      "date": "2026-10-09",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "87",
       "contre": "0",
       "abstentions": "0",
       "nonVotants": "1"

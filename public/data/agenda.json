@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:37:00.899Z",
+  "updatedAt": "2026-10-14T07:09:25.142Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460986",
@@ -56,6 +56,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31010",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-13T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461443",
       "titre": "audition de l’Association de lutte contre la piraterie audiovisuelle (ALPA) – M. Frédéric Delacroix, délégué général, M. Étienne Brohon, responsable des agents assermentés, Mme Hortense de Labriffe, déléguée générale de l’Association des producteurs indépendants (API), Mme Hélène Herschel, déléguée générale de la Fédération nationale des éditeurs de films (FNEF), Mme Julie Lorimy, déléguée générale du Syndicat des producteurs indépendants (SPI), M. Jean-Pierre Giansilj, délégué général de l’Union des producteurs de cinéma (UPC).",
       "type": "reunionCommission_type",
@@ -96,18 +105,9 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-13T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-13T18:25:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461359",
-      "titre": "examen pour avis des crédits budgétaires « Pêche et aquaculture » (M. Stéphane Buchou, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461097",
@@ -117,15 +117,6 @@
       "dateFin": "2026-10-13T16:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461352",
-      "titre": "audition de Mme Monique Barbut, ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, et de M. Mathieu Lefèvre, ministre délégué chargé de la transition écologique ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461236",
@@ -144,6 +135,24 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461352",
+      "titre": "audition de Mme Monique Barbut, ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature, et de M. Mathieu Lefèvre, ministre délégué chargé de la transition écologique ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T14:35:00.000Z",
+      "dateFin": "2026-10-13T18:20:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461359",
+      "titre": "examen pour avis des crédits budgétaires « Pêche et aquaculture » (M. Stéphane Buchou, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-13T15:15:00.000Z",
+      "dateFin": "2026-10-13T18:05:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461341",
@@ -168,7 +177,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-13T22:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -186,7 +195,7 @@
       "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Agriculture et alimentation » (Mme Hélène Laporte, rapporteure pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-13T20:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -687,7 +696,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461446",
-      "titre": "audition de Monsieur Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
+      "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-19T19:00:00.000Z",
       "dateFin": null,
@@ -1361,6 +1370,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461449",
+      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, sur les crédits des missions « Sécurités », « Administration générale et territoriale de l’État » et « Immigration, asile et intégration » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461417",
       "titre": "Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne (N.N., rapporteur).",
       "type": "reunionCommission_type",
@@ -1368,6 +1386,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461450",
+      "titre": "éventuellement, suite de l’ordre du jour de l’après-midi",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS31005",
@@ -1386,6 +1413,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461451",
+      "titre": "audition de M. David Amiel, ministre de l’Action et des Comptes publics, sur les crédits de la mission « Transformation et Fonction publiques » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS30969",
@@ -1532,6 +1568,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461452",
+      "titre": "examen pour avis et vote des crédits des missions « Pouvoirs publics » (M. Emmanuel Duplessy, rapporteur pour avis) et « Conseil et contrôle de l’État – Programme Conseil d’État et autres juridictions administratives » (M. Jean-Luc Warsmann, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461427",
       "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89\r     avis de M. Théo Bernhardt, rapporteur, puis vote sur les crédits et les articles rattachés.",
       "type": "reunionCommission_type",
@@ -1575,6 +1620,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461453",
+      "titre": "audition de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS30980",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:56:53.618Z",
+  "updatedAt": "2026-10-14T18:19:10.506Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460986",
@@ -254,15 +254,6 @@
       "organisateur": "PO763566"
     },
     {
-      "uid": "RUANR5L17S2027IDC461377",
-      "titre": "examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461378",
       "titre": "table ronde sur le thème « Intelligence artificielle et édition : vers un plagiat 2.0 ? » réunissant Mme Alexandra Bensamoun, professeure des universités, personnalité qualifiée au Conseil supérieur de la propriété littéraire et artistique (CSPLA), M. Samuel Fitoussi, essayiste, M. Renaud Lefebvre, directeur général du Syndicat national de l’édition (SNE), M. Denis Olivennes, président du groupe Editis, et Mme Emma Saudin, directrice littéraire de la fiction aux éditions de l’Observatoire.",
       "type": "reunionCommission_type",
@@ -273,10 +264,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461283",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
+      "titre": "- examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis des crédits de la mission Écologie, développement et mobilité durables (Mme Dominique Voynet, rapporteure pour avis) ;\r• vote sur les crédits de la mission Écologie, développement et mobilité durables ;\r- examen pour avis des crédits de la mission Défense (M. Christophe Naegelen, rapporteur pour avis) ;\r• vote sur les crédits de la mission Défense ;\r- examen pour avis des crédits du compte de concours financier Avances à l’audiovisuel public - Audiovisuel extérieur (M. Alain David, rapporteur pour avis) ;\r• vote sur les crédits du compte de concours financier Avances à l’audiovisuel public - Audiovisuel extérieur.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T09:55:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -285,16 +276,25 @@
       "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T09:10:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461377",
+      "titre": "examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-14T07:05:00.000Z",
+      "dateFin": "2026-10-14T08:50:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461273",
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T11:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -303,7 +303,7 @@
       "titre": "suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T09:55:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -312,7 +312,7 @@
       "titre": "audition de M. Guillaume Faury, président exécutif du groupe Airbus.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T09:25:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -335,31 +335,31 @@
       "organisateur": "PO884406"
     },
     {
-      "uid": "RUANR5L17S2027IDC461362",
-      "titre": "examen pour avis des crédits budgétaires « Commerce extérieur » (M. Thomas Lam, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "uid": "RUANR5L17S2027IDC461432",
+      "titre": "audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
+      "dateFin": "2026-10-14T10:05:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461155",
       "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-14T09:10:00.000Z",
+      "dateFin": "2026-10-14T10:30:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461432",
-      "titre": "audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers.",
+      "uid": "RUANR5L17S2027IDC461362",
+      "titre": "examen pour avis des crédits budgétaires « Commerce extérieur » (M. Thomas Lam, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
+      "dateDebut": "2026-10-14T09:30:00.000Z",
+      "dateFin": "2026-10-14T10:15:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461459",
@@ -402,7 +402,7 @@
       "titre": "élection d’un(e) vice-président(e) de la commission, en remplacement de Mme Manon Bouquin ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T14:25:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
     },
@@ -1350,6 +1350,15 @@
       "dateFin": null,
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461462",
+      "titre": "désignation du bureau de la commission spéciale ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO271860"
     },
     {
       "uid": "RUANR5L17S2027IDC461422",

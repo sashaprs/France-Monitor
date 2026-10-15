@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T22:03:20.631Z",
+  "updatedAt": "2026-10-15T01:14:10.026Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461415",
@@ -366,7 +366,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-14T12:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -375,7 +375,7 @@
       "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (n° 1779).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T12:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T12:50:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO866672"
     },
@@ -384,7 +384,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T17:45:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -401,8 +401,8 @@
       "uid": "RUANR5L17S2027IDC461303",
       "titre": "table ronde, ouverte à la presse, réunissant des représentants des organisations syndicales de salariés :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-14T13:05:00.000Z",
+      "dateFin": "2026-10-14T14:50:00.000Z",
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -410,8 +410,8 @@
       "uid": "RUANR5L17S2027IDC461363",
       "titre": "examen pour avis des crédits budgétaires « Communications électroniques et économie numérique » (M. René Pilato, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210) ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T13:15:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-14T13:20:00.000Z",
+      "dateFin": "2026-10-14T14:55:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -438,7 +438,7 @@
       "titre": "audition de M. Philippe Tabarot, ministre des transports.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T16:30:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -447,7 +447,7 @@
       "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T19:15:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -455,8 +455,8 @@
       "uid": "RUANR5L17S2027IDC461304",
       "titre": "table ronde, ouverte à la presse, réunissant des représentants des organisations patronales :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T15:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-14T15:05:00.000Z",
+      "dateFin": "2026-10-14T16:45:00.000Z",
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO881988"
     },
@@ -474,7 +474,7 @@
       "titre": "audition de Mme Françoise Gatel, ministre de l'aménagement du territoire et de la décentralisation.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T18:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -492,7 +492,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-14T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T22:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

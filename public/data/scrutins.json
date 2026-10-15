@@ -1,6 +1,160 @@
 {
-  "updatedAt": "2026-10-15T14:45:18.658Z",
+  "updatedAt": "2026-10-15T18:01:49.381Z",
   "scrutins": [
+    {
+      "numero": "8735",
+      "titre": "l'amendement n° 2847 de M. Vuibert et l'amendement identique suivant à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "83",
+      "pour": "46",
+      "contre": "2",
+      "abstentions": "35",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8736",
+      "titre": "l'amendement n° 988 de M. Tryzna à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "48",
+      "contre": "15",
+      "abstentions": "24",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8741",
+      "titre": "l'amendement n° 1053 de Mme Legrain et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "110",
+      "pour": "54",
+      "contre": "13",
+      "abstentions": "43",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8739",
+      "titre": "le sous-amendement n° 3981 de Mme Coggia à l'amendement n° 2564 de M. Coquerel après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "80",
+      "pour": "24",
+      "contre": "28",
+      "abstentions": "28",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8745",
+      "titre": "l'amendement n° 638 de M. Jean-Philippe Tanguy après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "124",
+      "pour": "69",
+      "contre": "48",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8742",
+      "titre": "l'amendement n° 1270 de Mme d'Intorni après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "134",
+      "pour": "55",
+      "contre": "77",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8737",
+      "titre": "l'article 2 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "96",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8743",
+      "titre": "l'amendement n° 637 (rect.) de M. Jean-Philippe Tanguy et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "58",
+      "contre": "62",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8738",
+      "titre": "l'amendement n° 1 de M. Wauquiez et les amendements identiques suivants de suppression de l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "148",
+      "pour": "116",
+      "contre": "30",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8734",
+      "titre": "l'amendement n° 3779 de M.Mattei à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "66",
+      "pour": "24",
+      "contre": "42",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8746",
+      "titre": "l'amendement n° 661 de M. Renault après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "129",
+      "pour": "57",
+      "contre": "70",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8740",
+      "titre": "l'amendement n° 2247 de Mme Rixain après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "34",
+      "contre": "51",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8733",
+      "titre": "l'amendement n° 143 de M. Arnaud Bonnet et les amendements identiques suivants à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "59",
+      "pour": "20",
+      "contre": "39",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8744",
+      "titre": "l'amendement n° 1045 de M. Le Coq après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-15",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "73",
+      "contre": "49",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
     {
       "numero": "8714",
       "titre": "l'amendement n° 2638 de M. Pierre Cazeneuve à l'article 55 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
@@ -395,160 +549,6 @@
       "pour": "503",
       "contre": "0",
       "abstentions": "67",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8689",
-      "titre": "l'amendement n° 7 de M. Tavernier à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "93",
-      "pour": "32",
-      "contre": "28",
-      "abstentions": "33",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8673",
-      "titre": "l'amendement n° 53 de M. Castermann à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "19",
-      "contre": "42",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8687",
-      "titre": "l'amendement n° 77 de M. Weber à l'article 2 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "96",
-      "pour": "36",
-      "contre": "58",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8682",
-      "titre": "l'amendement n° 15 de Mme Hignet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "99",
-      "pour": "47",
-      "contre": "47",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8692",
-      "titre": "l'amendement n° 79 de M. Weber à l'article 4 de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "95",
-      "pour": "29",
-      "contre": "66",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8696",
-      "titre": "l'article unique du projet de loi autorisant l'approbation de la convention d'extradition entre le Gouvernement de la République française et le Gouvernement de la République de Colombie (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "35",
-      "pour": "28",
-      "contre": "5",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8694",
-      "titre": "l'ensemble de la proposition de loi visant à assouplir la procédure d'autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "53",
-      "pour": "53",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8686",
-      "titre": "l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "93",
-      "pour": "90",
-      "contre": "0",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8676",
-      "titre": "l'amendement n° 42 de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "27",
-      "contre": "56",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8680",
-      "titre": "l'amendement n° 22 de M. Taupiac à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "20",
-      "contre": "33",
-      "abstentions": "31",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8684",
-      "titre": "l'amendement n° 44 (rect.) de M. Tavernier à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "97",
-      "pour": "45",
-      "contre": "51",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8679",
-      "titre": "l'amendement n° 36 de M. Monnet à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "22",
-      "contre": "37",
-      "abstentions": "23",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8678",
-      "titre": "l'amendement n° 10 (rect.) de Mme Dubré-Chirat et les amendements identiques suivants à l'article premier de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "90",
-      "pour": "24",
-      "contre": "65",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8695",
-      "titre": "l'ensemble de la proposition de loi relative à l'expérimentation d'une gouvernance territoriale unifiée pour le centre de ressources, d'expertise et de performance sportive (CREPS) de Vichy (première lecture).",
-      "date": "2026-10-12",
-      "sort": null,
-      "nombreVotants": "50",
-      "pour": "44",
-      "contre": "0",
-      "abstentions": "6",
       "nonVotants": "1"
     }
   ]

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-15T14:45:19.723Z",
+  "updatedAt": "2026-10-15T18:02:25.322Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461433",
-      "titre": "examen, pour avis, du projet de décret d’avance communiqué par le gouvernement le 5 octobre 2026 en application de l’article 13 de la loi organique relative aux lois de finances (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-12T15:30:00.000Z",
-      "dateFin": "2026-10-12T15:50:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2027IDC461270",
       "titre": "examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
@@ -402,7 +393,7 @@
       "titre": "audition, ouverte à la presse, du général d’armée Jacques de Montgros, chef d’état-major de l’armée de Terre, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T13:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T15:30:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -446,8 +437,8 @@
       "uid": "RUANR5L17S2027IDC461163",
       "titre": "audition, ouverte à la presse, du Conseil supérieur de la fonction militaire (CSFM), sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T15:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-14T15:40:00.000Z",
+      "dateFin": "2026-10-14T16:45:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -492,7 +483,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T22:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -519,7 +510,7 @@
       "titre": "audition de Mme Catherine Chabaud, ministre déléguée chargée de la mer et de la pêche,",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T10:25:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -528,7 +519,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-15T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -537,7 +528,7 @@
       "titre": "audition, ouverte à la presse, de M. Christophe Mauriet, secrétaire général pour l’administration du ministère des Armées et des Anciens combattants, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T08:15:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -555,7 +546,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T11:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -564,7 +555,7 @@
       "titre": "examen pour avis des crédits budgétaires « Entreprises » (M. Karim Benbrahim, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T09:40:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -591,7 +582,7 @@
       "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T09:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T10:40:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -713,6 +704,15 @@
       "organisateur": "PO58974"
     },
     {
+      "uid": "RUANR5L17S2027IDC461461",
+      "titre": "examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-19T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30950",
       "titre": "Débat sur les finances locales",
       "type": "seance_type",
@@ -813,7 +813,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461381",
-      "titre": "- Projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
+      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:30:00.000Z",
       "dateFin": null,
@@ -831,7 +831,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461393",
-      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:30:00.000Z",
       "dateFin": null,
@@ -844,7 +844,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:45:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
@@ -862,12 +862,12 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T15:45:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461382",
-      "titre": "Suite de l’ordre du jour de l’après-midi",
+      "titre": "suite de l’ordre du jour de l’après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T19:00:00.000Z",
       "dateFin": null,
@@ -921,7 +921,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461284",
-      "titre": "- suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(n° 3210) :\r- examen pour avis et vote des crédits de la mission Action extérieure de l’État :\r• action de la France en Europe et dans le monde ; Français à l’étranger et affaires consulaires (M. Michel Herbillon, rapporteur pour avis) ;\r• diplomatie culturelle et d’influence - Francophonie (M. Frédéric Petit, rapporteur pour avis).",
+      "titre": "- examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(n° 3210) :\r- examen pour avis et vote des crédits de la mission Action extérieure de l’État :\r• action de la France en Europe et dans le monde ; Français à l’étranger et affaires consulaires (M. Michel Herbillon, rapporteur pour avis) ;\r• diplomatie culturelle et d’influence - Francophonie (M. Frédéric Petit, rapporteur pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
@@ -930,7 +930,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461161",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n°3210).",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
@@ -948,7 +948,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461383",
-      "titre": "Sous réserve de leur inscription à l’ordre du jour de la journée réservée au groupe LFI NFP, examen de propositions de loi",
+      "titre": "examen de la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernalicis, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
       "dateFin": null,
@@ -1006,7 +1006,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T13:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
@@ -1042,7 +1042,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T14:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
@@ -1065,7 +1065,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461384",
-      "titre": "- Projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
+      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T14:30:00.000Z",
       "dateFin": null,
@@ -1083,7 +1083,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461385",
-      "titre": "Suite de l’ordre du jour de l’après-midi",
+      "titre": "suite de l’ordre du jour de l’après-midi",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T19:00:00.000Z",
       "dateFin": null,
@@ -1110,7 +1110,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461386",
-      "titre": "- Projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
+      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T07:00:00.000Z",
       "dateFin": null,
@@ -1127,8 +1127,17 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461463",
+      "titre": "audition des Drs Dominique Semeraro, médecin directrice nationale de la santé-sécurité au travail, et David Mussard, conseiller technique national en charge du risque chimique, et de Mme Christine Dechesne-Céard, directrice de la réglementation, accompagnés de M. Christophe Simon, responsable des relations parlementaires, Caisse centrale de la mutualité sociale agricole (CCMSA).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461387",
-      "titre": "Suite de l’ordre du jour du matin",
+      "titre": "suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T12:30:00.000Z",
       "dateFin": null,
@@ -1325,6 +1334,15 @@
       "organisateur": "PO201269"
     },
     {
+      "uid": "RUANR5L17S2027IDC461470",
+      "titre": "audition, ouverte à la presse, de Mme Chloé Simeha, directrice de l'inclusion et de la mobilisation du Réseau pour l'Emploi chez France Travail.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461462",
       "titre": "désignation du bureau de la commission spéciale ;",
       "type": "reunionCommission_type",
@@ -1361,6 +1379,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461467",
+      "titre": "audition, ouverte à la presse, du général d’armée (2S) Thierry Burkhard, délégué national de l’Ordre de la Libération et de M. Thomas Ottenheimer, maire de Vassieux-en-Vercors, co-président pour l’année 2026 du conseil d’administration de l’Ordre de la Libération (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461347",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177)",
       "type": "reunionCommission_type",
@@ -1379,6 +1406,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461466",
+      "titre": "- table ronde sur les conséquences du poids des normes sur la vie associative\r- examen, en application de l’article 88 du Règlement, des amendements :\r•\tà la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernacilis, rapporteur)\r•\tà la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (n° 3171) (Mme Murielle Lepvraud, rapporteure)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461372",
       "titre": "audition de M. Jean-Luc Duval, président de la Coopération agricole.",
       "type": "reunionCommission_type",
@@ -1389,12 +1425,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461285",
-      "titre": "suite de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
+      "titre": "- suite et fin de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis et vote des crédits de la mission Immigration, asile et intégration (Mme Brigitte Klinkert, rapporteure pour avis) ;\r- examen pour avis et vote des crédits de la mission de la mission Économie – commerce extérieur et diplomatie économique (M. Jean-François Portarrieu, rapporteur pour avis).\r– nomination de rapporteurs sur les projets de loi suivants :\r- projet de loi, adopté par le Sénat, autorisant la ratification de l’accord de passation conjointe de marché en vue de l’acquisition d’une plateforme centrale commune pour le mécanisme d’ajustement carbone aux frontières, signé à Bruxelles le 15 décembre 2025 (sous réserve de sa transmission) ;\r- projet de loi, adopté par le Sénat, autorisant la ratification de l’accord de protection des investissements entre l’Union européenne et ses États membres, d’une part, et la République socialiste du Vietnam, d’autre part, signé à Hanoï le 30 juin 2019 (sous réserve de sa transmission) ;\r- projet de loi, adopté par le Sénat, autorisant l’approbation de l’avenant à la convention entre le gouvernement de la République française et le gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune (sous réserve de sa transmission).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461468",
+      "titre": "audition, ouverte à la presse, de M. Gilbert Borion, adjoint au directeur de la mémoire, de la culture et des archives du Ministère des Armées et des Anciens combattants et de Mme Anne Padier-Savouroux, sous-directrice des parcours éducatifs et des éducations transversales au Ministère de l’Éducation nationale (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461373",
@@ -1434,7 +1479,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461417",
-      "titre": "Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne (N.N., rapporteur).",
+      "titre": "Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne (Mme Marietta Karamanli, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:00:00.000Z",
       "dateFin": null,
@@ -1577,6 +1622,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461439",
+      "titre": "audition, ouverte à la presse, de Mme Sophie Thibault, présidente de la 5e chambre de la Cour des comptes, Mme Marianne Cotis, conseillère référendaire en service extraordinaire, et M. Arnaud Oseredczuk, conseiller maître",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461428",
       "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1595,7 +1649,7 @@
       "organisateur": "PO884567"
     },
     {
-      "uid": "RUANR5L17S2027IDC461439",
+      "uid": "RUANR5L17S2027IDC461471",
       "titre": "audition, ouverte à la presse, de Mme Agnès Verdier-Molinié, directrice de la Fondation pour la recherche sur les administrations et les politiques publiques (Ifrap).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T17:00:00.000Z",
@@ -1622,6 +1676,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461469",
+      "titre": "déplacement de la commission au salon Euronaval 2026 à Villepinte.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Déplacement",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461452",
       "titre": "examen pour avis et vote des crédits des missions « Pouvoirs publics » (M. Emmanuel Duplessy, rapporteur pour avis) et « Conseil et contrôle de l’État – Programme Conseil d’État et autres juridictions administratives » (M. Jean-Luc Warsmann, rapporteur pour avis).",
       "type": "reunionCommission_type",
@@ -1631,6 +1694,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2027IDC461464",
+      "titre": "audition conjointe avec la commission des affaires économiques de Bpifrance, sur le financement des entreprises.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461427",
       "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89\r     avis de M. Théo Bernhardt, rapporteur, puis vote sur les crédits et les articles rattachés.",
       "type": "reunionCommission_type",
@@ -1638,6 +1710,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461465",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote des articles non rattachés et des articles de récapitulation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461414",
@@ -1668,7 +1749,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461418",
-      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure);",
+      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T14:00:00.000Z",
       "dateFin": null,
@@ -1794,7 +1875,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461445",
-      "titre": "audition, conjointe avec la commission des affaires étrangères, de Son Excellence M. Albin Kurti, Premier ministre de la République du Kosovo.",
+      "titre": "Audition, conjointe avec la commission des affaires étrangères, de M. Albin Kurti, Premier ministre de la République du Kosovo.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T16:00:00.000Z",
       "dateFin": null,

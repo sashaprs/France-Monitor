@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-15T13:05:55.923Z",
+  "updatedAt": "2026-10-15T14:45:19.723Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461415",
-      "titre": "examen, au titre de l’article 88 du Règlement, des amendements à la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant (n° 3274) (M. Christophe Naegelen, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-12T13:45:00.000Z",
-      "dateFin": "2026-10-12T13:50:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30938",
-      "titre": "Discussion de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant",
-      "type": "seance_type",
-      "dateDebut": "2026-10-12T14:00:00.000Z",
-      "dateFin": "2026-10-12T18:05:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461454",
-      "titre": "audition commune\r\r– Fédération française des pétroliers indépendants (FFPI)\rM. Hakim Britel, directeur général de Bollore Energy et président de la FFPI, \rM. Thierry de Feydeau, délégué général de la FFPI,\r\r– Union des stockistes industriels (USI)\rM. Erwan Kermoest, président du groupe NOVEN et président de l’USI,\rM. Jean-Charles Ferré, délégué général de l’USI\r\r– Mobilians\rMme Laure Mejean, chargée de Métiers Stations services \rM. Francis Pousse, président national Stations services et Énergies Nouvelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-12T14:00:00.000Z",
-      "dateFin": "2026-10-12T15:30:00.000Z",
-      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884406"
-    },
     {
       "uid": "RUANR5L17S2027IDC461433",
       "titre": "examen, pour avis, du projet de décret d’avance communiqué par le gouvernement le 5 octobre 2026 en application de l’article 13 de la loi organique relative aux lois de finances (M. Philippe Juvin, rapporteur général).",

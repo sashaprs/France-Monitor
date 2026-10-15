@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T01:14:10.026Z",
+  "updatedAt": "2026-10-15T07:02:11.952Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461415",
@@ -263,6 +263,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31011",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-14T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461154",
       "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (n°3210).",
       "type": "reunionCommission_type",
@@ -519,7 +528,7 @@
       "titre": "examen pour avis des crédits de la mission Cohésion des territoires (Aménagement du territoire) du projet de loi de finances pour 2027 (n°3210) (Mme Lisa Belluco, rapporteure pour avis), puis vote sur les crédits de cette mission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-14T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-14T21:05:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },

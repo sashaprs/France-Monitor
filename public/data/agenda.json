@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-16T19:26:24.538Z",
+  "updatedAt": "2026-10-16T22:34:39.972Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30941",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": "2026-10-13T22:05:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461271",
-      "titre": "nomination d’un rapporteur sur la proposition de loi pour protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse (n° 2774).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": "2026-10-13T22:00:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461360",
-      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Agriculture et alimentation » (Mme Hélène Laporte, rapporteure pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": "2026-10-13T20:50:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461353",
-      "titre": "suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
     {
       "uid": "RUANR5L17S2027IDC461407",
       "titre": "Réunion du bureau de l'APFA - Établissement de l’ordre du jour de la séance plénière de l’APFA du 9 novembre 2026 - Examen des propositions de texte et des amendements déposés - Mise en place d’une mission flash sur les contrôles à la frontière franco-allemande -Échange avec des experts du ministère de l’Europe et des Affaires étrangères et du ministère allemand des Affaires étrangères sur la mise en oeuvre de l’étude d’impact transfrontalier - Points divers.",
@@ -483,7 +447,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T11:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -492,7 +456,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-16T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T11:00:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -510,7 +474,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T14:45:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -570,7 +534,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461420",
-      "titre": "- examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
+      "titre": "examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-19T15:00:00.000Z",
       "dateFin": null,
@@ -615,7 +579,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461282",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à l’article liminaire, à la première partie et à la deuxième partie du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général)",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à l’article liminaire, à la première partie et à la deuxième partie du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T11:30:00.000Z",
       "dateFin": null,
@@ -648,6 +612,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461480",
+      "titre": "Greenpeace France\rMme Sandy Olivar Calvo, chargée de campagne « agriculture et alimentation »",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T14:00:00.000Z",
+      "dateFin": "2026-10-20T15:00:00.000Z",
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884024"
     },
     {
       "uid": "RUANR5L17S2027IDC461098",
@@ -693,6 +666,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461481",
+      "titre": "Zero Waste France\rMme Bénédicte Kjaer Kahlat, responsable des affaires juridiques",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T15:00:00.000Z",
+      "dateFin": "2026-10-20T16:00:00.000Z",
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884024"
     },
     {
       "uid": "RUANR5L17S2027IDC461368",
@@ -786,7 +768,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461421",
-      "titre": "examen de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3168) (Mme Gabrielle Cathala, rapporteure),",
+      "titre": "examen de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3168) (Mme Gabrielle Cathala, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
       "dateFin": null,
@@ -965,15 +947,6 @@
       "organisateur": "PO59048"
     },
     {
-      "uid": "RUANR5L17S2027IDC461386",
-      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-22T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30956",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -981,6 +954,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461386",
+      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461463",

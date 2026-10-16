@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-16T14:39:42.844Z",
+  "updatedAt": "2026-10-16T22:34:38.201Z",
   "scrutins": [
+    {
+      "numero": "8830",
+      "titre": "l'amendement n° 2565 de M. Le Coq après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "30",
+      "contre": "55",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8829",
+      "titre": "l'amendement n° 2925 de Mme Mercier après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "30",
+      "contre": "62",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8841",
+      "titre": "l'amendement n° 472 de Mme Pirès Beaune après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "89",
+      "pour": "25",
+      "contre": "61",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
     {
       "numero": "8811",
       "titre": "l'amendement n° 266 de Mme Félicie Gérard et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
@@ -13,6 +46,50 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8836",
+      "titre": "l'amendement n° 3898 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "100",
+      "pour": "38",
+      "contre": "37",
+      "abstentions": "25",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8845",
+      "titre": "l'amendement n° 3930 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "98",
+      "pour": "31",
+      "contre": "67",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8833",
+      "titre": "l'amendement n° 113 de M. Falcon après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "70",
+      "pour": "24",
+      "contre": "45",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8840",
+      "titre": "l'amendement n° 3933 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "29",
+      "contre": "65",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8812",
       "titre": "l'amendement n° 264 de Mme Félicie Gérard et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
@@ -21,6 +98,28 @@
       "pour": "96",
       "contre": "0",
       "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8847",
+      "titre": "l'amendement n° 55 de Mme Sas après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "31",
+      "contre": "66",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8839",
+      "titre": "l'amendement n° 260 de M. Arnaud Bonnet après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "95",
+      "pour": "27",
+      "contre": "66",
+      "abstentions": "2",
       "nonVotants": "2"
     },
     {
@@ -46,6 +145,50 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8827",
+      "titre": "l'amendement n° 3914 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "26",
+      "contre": "68",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8842",
+      "titre": "l'amendement n° 465 de Mme Mercier après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "29",
+      "contre": "63",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8852",
+      "titre": "l'amendement n° 3655 de M. Attal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "82",
+      "pour": "14",
+      "contre": "35",
+      "abstentions": "33",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8834",
+      "titre": "l'amendement n° 300 de Mme Lejeune après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "74",
+      "pour": "23",
+      "contre": "49",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8824",
       "titre": "l'amendement n° 1084 de Mme Feld après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
@@ -54,6 +197,28 @@
       "pour": "29",
       "contre": "66",
       "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8843",
+      "titre": "l'amendement n° 3929 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "86",
+      "pour": "29",
+      "contre": "57",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8831",
+      "titre": "l'amendement n° 1665 de M. Dufau et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "88",
+      "pour": "28",
+      "contre": "55",
+      "abstentions": "5",
       "nonVotants": "2"
     },
     {
@@ -90,6 +255,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8844",
+      "titre": "l'amendement n° 1086 de Mme Maximi après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "95",
+      "pour": "23",
+      "contre": "68",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8821",
       "titre": "l'amendement n° 1599 de M. Ciotti après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
@@ -98,6 +274,17 @@
       "pour": "46",
       "contre": "29",
       "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8846",
+      "titre": "l'amendement n° 809 de M. Lahais après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "30",
+      "contre": "67",
+      "abstentions": "0",
       "nonVotants": "2"
     },
     {
@@ -112,6 +299,39 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8832",
+      "titre": "l'amendement n° 3443 de M. Piquemal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "80",
+      "pour": "18",
+      "contre": "57",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8848",
+      "titre": "l'amendement n° 1085 de M. Le Coq après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "99",
+      "pour": "26",
+      "contre": "66",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8826",
+      "titre": "l'amendement n° 1088 de M. Coquerel après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "28",
+      "contre": "63",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8817",
       "titre": "l'amendement n° 320 de Mme Maximi à l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
@@ -119,6 +339,17 @@
       "nombreVotants": "89",
       "pour": "23",
       "contre": "65",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8850",
+      "titre": "l'amendement n° 816 de M. Lahais et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "68",
+      "pour": "17",
+      "contre": "50",
       "abstentions": "1",
       "nonVotants": "2"
     },
@@ -134,14 +365,36 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8851",
+      "titre": "l'amendement n° 3656 de M. Attal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "85",
+      "pour": "18",
+      "contre": "36",
+      "abstentions": "31",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8819",
-      "titre": "l'amendement n°3652 de M. Attal et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "titre": "l'amendement n° 3652 de M. Attal et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
       "sort": null,
       "nombreVotants": "52",
       "pour": "39",
       "contre": "10",
       "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8853",
+      "titre": "l'amendement n° 2276 de M. Jolivet après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "90",
+      "pour": "57",
+      "contre": "32",
+      "abstentions": "1",
       "nonVotants": "2"
     },
     {
@@ -156,13 +409,57 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8838",
+      "titre": "l'amendement n° 3469 de Mme Trouvé après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "31",
+      "contre": "62",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8822",
-      "titre": "l'amendement n°3932 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "titre": "l'amendement n° 3932 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
       "sort": null,
       "nombreVotants": "89",
       "pour": "25",
       "contre": "63",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8835",
+      "titre": "l'amendement n° 1460 de M. Echaniz après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "84",
+      "pour": "19",
+      "contre": "55",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8837",
+      "titre": "l'amendement n° 3653 de M. Attal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "96",
+      "pour": "18",
+      "contre": "75",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8825",
+      "titre": "l'amendement n° 469 de Mme Mercier après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "97",
+      "pour": "28",
+      "contre": "68",
       "abstentions": "1",
       "nonVotants": "2"
     },
@@ -178,6 +475,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8849",
+      "titre": "l'amendement n° 3968 de M. Wauquiez après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "38",
+      "pour": "7",
+      "contre": "16",
+      "abstentions": "15",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8816",
       "titre": "l'amendement n° 319 de M. Coquerel à l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
@@ -189,8 +497,19 @@
       "nonVotants": "2"
     },
     {
+      "numero": "8828",
+      "titre": "l'amendement n° 53 de Mme Sas après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-16",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "29",
+      "contre": "65",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8820",
-      "titre": "l'amendement n°3533 (rect.) de Mme Trouvé après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
+      "titre": "l'amendement n° 3533 (rect.) de Mme Trouvé après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-16",
       "sort": null,
       "nombreVotants": "77",
@@ -231,325 +550,6 @@
       "contre": "29",
       "abstentions": "52",
       "nonVotants": "1"
-    },
-    {
-      "numero": "8775",
-      "titre": "l'amendement n° 3339 de Mme Pantel et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "107",
-      "pour": "53",
-      "contre": "14",
-      "abstentions": "40",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8779",
-      "titre": "l'amendement n° 1894 de Mme Mette et les amendements identiques suivants après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "4",
-      "contre": "33",
-      "abstentions": "73",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8791",
-      "titre": "l'amendement n° 299 de M. Le Coq après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "116",
-      "pour": "37",
-      "contre": "71",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8735",
-      "titre": "l'amendement n° 2847 de M. Vuibert et l'amendement identique suivant à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "83",
-      "pour": "46",
-      "contre": "2",
-      "abstentions": "35",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8736",
-      "titre": "l'amendement n° 988 de M. Tryzna à l'article 2 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "87",
-      "pour": "48",
-      "contre": "15",
-      "abstentions": "24",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8776",
-      "titre": "l'amendement n° 856 de M. Ballard après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "101",
-      "pour": "40",
-      "contre": "60",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8754",
-      "titre": "l'amendement n° 2627 de Mme Feld après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "24",
-      "contre": "65",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8798",
-      "titre": "l'amendement n° 448 de M. Lahais après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "116",
-      "pour": "43",
-      "contre": "72",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8741",
-      "titre": "l'amendement n° 1053 de Mme Legrain et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "54",
-      "contre": "13",
-      "abstentions": "43",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8752",
-      "titre": "l'amendement n° 226 de M. Ciotti après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "33",
-      "pour": "15",
-      "contre": "16",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8739",
-      "titre": "le sous-amendement n° 3981 de Mme Coggia à l'amendement n° 2564 de M. Coquerel après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "24",
-      "contre": "28",
-      "abstentions": "28",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8755",
-      "titre": "l'amendement n° 3695 de M. Jean-Philippe Tanguy après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "121",
-      "pour": "54",
-      "contre": "67",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8768",
-      "titre": "l'amendement n° 3594 de Mme Maximi après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "104",
-      "pour": "38",
-      "contre": "66",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8745",
-      "titre": "l'amendement n° 638 de M. Jean-Philippe Tanguy après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "124",
-      "pour": "69",
-      "contre": "48",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8792",
-      "titre": "l'amendement n° 3812 de Mme Mette après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "104",
-      "pour": "50",
-      "contre": "44",
-      "abstentions": "10",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8742",
-      "titre": "l'amendement n° 1270 de Mme d'Intorni après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "134",
-      "pour": "55",
-      "contre": "77",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8769",
-      "titre": "l'amendement n° 3337 de M. Maurel après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "105",
-      "pour": "44",
-      "contre": "59",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8806",
-      "titre": "l'amendement n° 636 de M. Renault après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "134",
-      "pour": "62",
-      "contre": "68",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8790",
-      "titre": "l'amendement n° 3787 de Mme Mette après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "104",
-      "pour": "23",
-      "contre": "39",
-      "abstentions": "42",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8787",
-      "titre": "l'amendement n° 1602 de Mme Pirès-Beaune après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "100",
-      "pour": "38",
-      "contre": "61",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8786",
-      "titre": "l'amendement n° 1999 de M. Courbon après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "94",
-      "pour": "36",
-      "contre": "58",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8774",
-      "titre": "l'amendement n° 1524 de M. Philippe Brun après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "100",
-      "pour": "51",
-      "contre": "28",
-      "abstentions": "21",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8770",
-      "titre": "l'amendement n° 2172 de Mme Mette après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "97",
-      "pour": "28",
-      "contre": "20",
-      "abstentions": "49",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8750",
-      "titre": "l'amendement n° 3649 de M. Attal après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "18",
-      "contre": "48",
-      "abstentions": "62",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8801",
-      "titre": "l'amendement n° 3918 de M. Sansu après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "115",
-      "pour": "38",
-      "contre": "77",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8737",
-      "titre": "l'article 2 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "96",
-      "pour": "96",
-      "contre": "0",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8773",
-      "titre": "l'amendement n° 1495 de M. Le Coq après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "102",
-      "pour": "38",
-      "contre": "63",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8758",
-      "titre": "l'amendement n° 1054 de Mme Legrain après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "112",
-      "pour": "35",
-      "contre": "73",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8795",
-      "titre": "l'amendement n° 3810 de Mme Mette après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-15",
-      "sort": null,
-      "nombreVotants": "101",
-      "pour": "8",
-      "contre": "50",
-      "abstentions": "43",
-      "nonVotants": "2"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T00:10:42.143Z",
+  "updatedAt": "2026-10-16T05:30:02.626Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2027IDS31010",
@@ -573,7 +573,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -582,7 +582,7 @@
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T18:10:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -759,7 +759,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461282",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements au projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à l’article liminaire, à la première partie et à la deuxième partie du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T11:30:00.000Z",
       "dateFin": null,
@@ -876,7 +876,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461369",
-      "titre": "suite de l’examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
+      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T19:30:00.000Z",
       "dateFin": null,
@@ -921,7 +921,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461421",
-      "titre": "examen de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3168) (Mme Gabrielle Cathala, rapporteure).",
+      "titre": "examen de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3168) (Mme Gabrielle Cathala, rapporteure),",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
       "dateFin": null,
@@ -938,8 +938,17 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2027IDC461431",
+      "titre": "examen de la proposition de loi visant à instaurer un moratoire sur le projet du canal Seine-Nord Europe (n° 3170) (Mme Anne Stambach-Terrenoir, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461370",
-      "titre": "examen de la proposition de loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172).",
+      "titre": "nomination d’un rapporteur sur le projet de nomination, en application de l’article 13 de la Constitution, de Mme Camille Tubiana aux fonctions de directrice générale de l’Agence nationale pour la rénovation urbaine (ANRU) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
       "dateFin": null,
@@ -966,7 +975,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461416",
-      "titre": "S’opposer à la déréglementation du cadre européen relatif aux pesticides dite Omnibus X (n° 2800) : examen de la proposition de résolution européenne  (M. Benoît Biteau, rapporteur).",
+      "titre": "s’opposer à la déréglementation du cadre européen relatif aux pesticides dite Omnibus X (n° 2800) : examen de la proposition de résolution européenne  (M. Benoît Biteau, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T13:00:00.000Z",
       "dateFin": null,
@@ -1280,15 +1289,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461423",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé\r     avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30964",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1352,6 +1352,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461423",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé;\r      avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30965",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
@@ -1359,6 +1368,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461472",
+      "titre": "audition de M. Thierry Guimbaud, président de l’Autorité de régulation des transports, sur le projet de contrat de performance État – SNCF Réseau.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461467",
@@ -1380,7 +1398,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461424",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Solidarité, insertion et égalité des chances\r     avis de M. Alim Latrèche, rapporteur, puis vote sur les crédits.",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Solidarité, insertion et égalité des chances,\r       avis de M. Alim Latrèche, rapporteur, puis vote sur les crédits.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -1415,6 +1433,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461473",
+      "titre": "audition de M. Matthieu Chabanel, président-directeur général de SNCF Réseau, sur le projet de contrat de performance État – SNCF Réseau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461468",
       "titre": "audition, ouverte à la presse, de M. Gilbert Borion, adjoint au directeur de la mémoire, de la culture et des archives du Ministère des Armées et des Anciens combattants et de Mme Anne Padier-Savouroux, sous-directrice des parcours éducatifs et des éducations transversales au Ministère de l’Éducation nationale (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
@@ -1443,7 +1470,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461425",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions\r     avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits.",
+      "titre": "-  projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions\r       avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:00:00.000Z",
       "dateFin": null,
@@ -1467,6 +1494,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461475",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172) (Mme Mathilde Panot, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461450",
@@ -1613,6 +1649,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461474",
+      "titre": "présentation des conclusions de la mission d’information sur les éco-organismes et les éco-contributions (M. Stéphane Delautrette et Mme Anne-Cécile Violland, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461428",
       "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1685,8 +1730,17 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461476",
+      "titre": "audition, ouverte à la presse et conjointe avec la commission des finances, de l'économie générale et du contrôle budgétaire, de M. Nicolas Dufourcq, directeur général de BpiFrance.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461427",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89\r     avis de M. Théo Bernhardt, rapporteur, puis vote sur les crédits et les articles rattachés.",
+      "titre": "-- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89,\r      avis de M. Théo Bernhardt, rapporteur, puis vote sur les crédits et les articles rattachés.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T08:30:00.000Z",
       "dateFin": null,

@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-16T14:39:44.374Z",
+  "updatedAt": "2026-10-16T19:26:24.538Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461236",
-      "titre": "audition, ouverte à la presse, de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T14:40:00.000Z",
-      "dateFin": "2026-10-13T16:10:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO744127"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461359",
-      "titre": "examen pour avis des crédits budgétaires « Pêche et aquaculture » (M. Stéphane Buchou, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T15:15:00.000Z",
-      "dateFin": "2026-10-13T18:05:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461341",
-      "titre": "prélèvement sur recettes au bénéfice de l’Union européenne (PSR-UE) : communication de Mme Nicole Le Peih.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T15:15:00.000Z",
-      "dateFin": "2026-10-13T15:50:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461434",
-      "titre": "audition, ouverte à la presse, des représentants de la direction générale de l’aménagement, du logement et de la nature (DGALN) : M. Sébastien Dorlhiac, adjoint à la sous-directrice, Financement et Économie du Logement et de l’Aménagement au sein de la direction de l’habitat, de l’urbanisme et des paysages, et M. Gaétan Polard, chef du bureau des aides personnelles au logement (APL).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T15:45:00.000Z",
-      "dateFin": "2026-10-13T16:45:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461442",
-      "titre": "Dîner de travail à l'invitation de Son Exc. M. Faisal Al Mejfel, Ambassadeur d’Arabie Saoudite en France",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T17:00:00.000Z",
-      "dateFin": "2026-10-13T20:00:00.000Z",
-      "lieu": "Ambassade d'Arabie Saoudite en France",
-      "organisateur": "PO851249"
-    },
     {
       "uid": "RUANR5L17S2027IDS30941",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",

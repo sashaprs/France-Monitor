@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-16T05:30:02.626Z",
+  "updatedAt": "2026-10-16T08:51:22.231Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2027IDS31010",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-10-13T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461455",
-      "titre": "sinergy (achat de carburant et gestion des approvisionnements énergétiques pour les enseignes E.Leclerc  et Coopérative U),\r\rM. Philippe Michaud, président exécutif de E.Leclerc\rM. Dominique Schelcher, président directeur général de Coopérative U\rM. Alexis Bévillard, directeur des Affaires publiques de E.Leclerc\rM. Philippe Gigleux, directeur des relations institutionnelles de Coopérative U\rM. Rémi Thomas, directeur Carburant et Services, Sinergy.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T08:00:00.000Z",
-      "dateFin": "2026-10-13T09:30:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884406"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461443",
-      "titre": "audition de l’Association de lutte contre la piraterie audiovisuelle (ALPA) – M. Frédéric Delacroix, délégué général, M. Étienne Brohon, responsable des agents assermentés, Mme Hortense de Labriffe, déléguée générale de l’Association des producteurs indépendants (API), Mme Hélène Herschel, déléguée générale de la Fédération nationale des éditeurs de films (FNEF), Mme Julie Lorimy, déléguée générale du Syndicat des producteurs indépendants (SPI), M. Jean-Pierre Giansilj, délégué général de l’Union des producteurs de cinéma (UPC).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-13T08:30:00.000Z",
-      "dateFin": "2026-10-13T09:30:00.000Z",
-      "lieu": "Salle 6634",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2027IDC461456",
       "titre": "audition commune\r\r– Union des entreprises de proximité (U2P) \rM. Jean-Michel Martin, secrétaire confédéral de la CAPEB, membre fondateur de l’U2P et Président des métiers du bois \rMme Thérèse Huppé-Note, Relations parlementaires\r\r– MEDEF\rM. Nicolas End, responsable du pôle Économie \rM. Jean-Baptiste Leger, responsable du pôle Transition écologique \rM. Ghali Tanji, chargé de mission sénior Affaires publiques \r\r– Les Entrepreneurs ( ex CPME).",
@@ -618,7 +591,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-15T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-15T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

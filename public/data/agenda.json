@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-17T08:22:12.601Z",
+  "updatedAt": "2026-10-17T11:24:21.635Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461458",
-      "titre": "armateurs de France\rM. Laurent Martens, délégué général d’Armateurs de France\rMme Agathe Rinaudo, directrice Communication et Relations Institutionnelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:00:00.000Z",
-      "dateFin": "2026-10-14T09:45:00.000Z",
-      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884406"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461432",
-      "titre": "audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:00:00.000Z",
-      "dateFin": "2026-10-14T10:05:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461155",
-      "titre": "audition, ouverte à la presse, du général d’armée aérienne Jérôme Bellanger, chef d’état-major de l’armée de l’Air et de l’Espace, sur le projet de loi de finances pour 2027 (n°3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:10:00.000Z",
-      "dateFin": "2026-10-14T10:30:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461362",
-      "titre": "examen pour avis des crédits budgétaires « Commerce extérieur » (M. Thomas Lam, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:30:00.000Z",
-      "dateFin": "2026-10-14T10:15:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461459",
-      "titre": "groupement Les Mousquetaires\rM. Mathias Bernière, directeur SCA Pétrole et dérivés,\rM. Frédéric Geney, responsable Affaires publiques et relations agricoles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T09:45:00.000Z",
-      "dateFin": "2026-10-14T10:30:00.000Z",
-      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884406"
-    },
     {
       "uid": "RUANR5L17S2027IDS30942",
       "titre": "Questions au Gouvernement",
@@ -375,7 +330,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -402,7 +357,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

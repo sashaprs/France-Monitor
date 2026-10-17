@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:40:24.639Z",
+  "updatedAt": "2026-10-17T01:06:09.293Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461407",
@@ -954,6 +954,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461482",
+      "titre": "Audition de l’Autorité de sûreté nucléaire et de radioprotection (ASNR) sur l’avis générique relatif à la prolongation de la durée de fonctionnement des centrales nucléaires",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale (Salle 7040 – 103 rue de l'Université, 2ème sous-sol)",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2027IDC461386",

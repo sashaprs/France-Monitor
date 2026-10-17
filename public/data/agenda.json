@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-17T15:03:00.849Z",
+  "updatedAt": "2026-10-17T16:55:51.060Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461304",
-      "titre": "table ronde, ouverte à la presse, réunissant des représentants des organisations patronales :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T15:05:00.000Z",
-      "dateFin": "2026-10-14T16:45:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO881988"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461163",
-      "titre": "audition, ouverte à la presse, du Conseil supérieur de la fonction militaire (CSFM), sur le projet de loi de finances pour 2027 (n°3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T15:40:00.000Z",
-      "dateFin": "2026-10-14T16:45:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461356",
-      "titre": "audition de Mme Françoise Gatel, ministre de l'aménagement du territoire et de la décentralisation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T16:30:00.000Z",
-      "dateFin": "2026-10-14T18:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
     {
       "uid": "RUANR5L17S2027IDC461380",
       "titre": "suite de l’ordre du jour de l’après-midi",

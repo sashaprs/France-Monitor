@@ -1,87 +1,6 @@
 {
-  "updatedAt": "2026-10-17T06:37:17.747Z",
+  "updatedAt": "2026-10-17T08:22:12.601Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461378",
-      "titre": "table ronde sur le thème « Intelligence artificielle et édition : vers un plagiat 2.0 ? » réunissant Mme Alexandra Bensamoun, professeure des universités, personnalité qualifiée au Conseil supérieur de la propriété littéraire et artistique (CSPLA), M. Samuel Fitoussi, essayiste, M. Renaud Lefebvre, directeur général du Syndicat national de l’édition (SNE), M. Denis Olivennes, président du groupe Editis, et Mme Emma Saudin, directrice littéraire de la fiction aux éditions de l’Observatoire.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": "2026-10-14T08:45:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461283",
-      "titre": "- examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :\r- examen pour avis des crédits de la mission Écologie, développement et mobilité durables (Mme Dominique Voynet, rapporteure pour avis) ;\r• vote sur les crédits de la mission Écologie, développement et mobilité durables ;\r- examen pour avis des crédits de la mission Défense (M. Christophe Naegelen, rapporteur pour avis) ;\r• vote sur les crédits de la mission Défense ;\r- examen pour avis des crédits du compte de concours financier Avances à l’audiovisuel public - Audiovisuel extérieur (M. Alain David, rapporteur pour avis) ;\r• vote sur les crédits du compte de concours financier Avances à l’audiovisuel public - Audiovisuel extérieur.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": "2026-10-14T09:55:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUSNR5L17S2027IDS31011",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461154",
-      "titre": "audition, ouverte à la presse, de l’amiral Christophe Cluzel, chef d’état-major de la Marine, sur le projet de loi de finances pour 2027 (n°3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:00:00.000Z",
-      "dateFin": "2026-10-14T09:10:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461377",
-      "titre": "examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:05:00.000Z",
-      "dateFin": "2026-10-14T08:50:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461273",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": "2026-10-14T11:00:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461354",
-      "titre": "suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": "2026-10-14T09:55:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461361",
-      "titre": "audition de M. Guillaume Faury, président exécutif du groupe Airbus.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T07:30:00.000Z",
-      "dateFin": "2026-10-14T09:25:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461457",
-      "titre": "groupe Carrefour\rM. Hervé Mantoux, directeur de Carfuel,\rM. Eric ADAM, directeur des Relations institutionnelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T08:15:00.000Z",
-      "dateFin": "2026-10-14T09:00:00.000Z",
-      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884406"
-    },
     {
       "uid": "RUANR5L17S2027IDC461458",
       "titre": "armateurs de France\rM. Laurent Martens, délégué général d’Armateurs de France\rMme Agathe Rinaudo, directrice Communication et Relations Institutionnelles.",
@@ -456,7 +375,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": "2026-10-16T18:00:00.000Z",
+      "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -483,7 +402,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T19:30:00.000Z",
-      "dateFin": "2026-10-16T22:00:00.000Z",
+      "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

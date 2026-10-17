@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-17T01:06:09.293Z",
+  "updatedAt": "2026-10-17T06:37:17.747Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461407",
-      "titre": "Réunion du bureau de l'APFA - Établissement de l’ordre du jour de la séance plénière de l’APFA du 9 novembre 2026 - Examen des propositions de texte et des amendements déposés - Mise en place d’une mission flash sur les contrôles à la frontière franco-allemande -Échange avec des experts du ministère de l’Europe et des Affaires étrangères et du ministère allemand des Affaires étrangères sur la mise en oeuvre de l’étude d’impact transfrontalier - Points divers.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-14T06:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 et visioconférence",
-      "organisateur": "PO763566"
-    },
     {
       "uid": "RUANR5L17S2027IDC461378",
       "titre": "table ronde sur le thème « Intelligence artificielle et édition : vers un plagiat 2.0 ? » réunissant Mme Alexandra Bensamoun, professeure des universités, personnalité qualifiée au Conseil supérieur de la propriété littéraire et artistique (CSPLA), M. Samuel Fitoussi, essayiste, M. Renaud Lefebvre, directeur général du Syndicat national de l’édition (SNE), M. Denis Olivennes, président du groupe Editis, et Mme Emma Saudin, directrice littéraire de la fiction aux éditions de l’Observatoire.",
@@ -465,7 +456,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -492,7 +483,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-16T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-16T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

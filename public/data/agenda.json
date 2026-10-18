@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-18T08:42:14.401Z",
+  "updatedAt": "2026-10-18T13:00:02.316Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461159",
-      "titre": "audition, ouverte à la presse, de M. Patrick Pailloux, délégué général pour l’armement, sur le projet de loi de finances pour 2027 (n°3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-15T09:00:00.000Z",
-      "dateFin": "2026-10-15T10:40:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30945",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": "2026-10-15T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461277",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": "2026-10-15T18:10:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461430",
-      "titre": "éventuellement, suite de l’examen pour avis des crédits de la mission Écologie, développement et mobilité durables du projet de loi de finances pour 2027 (n°3210), puis vote sur l’ensemble des crédits de cette mission :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461160",
-      "titre": "audition, ouverte à la presse, des associations professionnelles nationales des militaires (APNM), sur le projet de loi de finances pour 2027 (n°3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-15T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
     {
       "uid": "RUANR5L17S2027IDC461278",
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",

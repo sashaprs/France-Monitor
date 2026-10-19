@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-19T12:18:09.419Z",
+  "updatedAt": "2026-10-19T16:51:28.159Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30948",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": "2026-10-16T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461280",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-16T13:00:00.000Z",
-      "dateFin": "2026-10-16T14:45:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
     {
       "uid": "RUANR5L17S2027IDC461281",
       "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
@@ -560,6 +542,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461483",
+      "titre": "audition de Mme Pauline Pic, chercheuse postdoctorale au sein de la chaire de recherche du Canada en Économie Politique Internationale, Université Laval (Québec).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885429"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461335",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
@@ -983,6 +974,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461405",
+      "titre": "Entretien du groupe d'amitié avec M. Bujar Osmani, personnalité politique macédonienne, membre de l’opposition et ancien vice-Premier ministre pour les Affaires européennes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-30T09:00:00.000Z",
+      "dateFin": "2026-10-30T10:00:00.000Z",
+      "lieu": "4e Bureau",
+      "organisateur": "PO851869"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30972",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
@@ -1026,6 +1026,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461484",
+      "titre": "Rencontre avec M. Hubert Seillan, avocat au Barreau de Paris et Président de la Fondation France Maroc, paix et développement durable",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T13:00:00.000Z",
+      "dateFin": "2026-11-03T14:00:00.000Z",
+      "lieu": "4075",
+      "organisateur": "PO851612"
     },
     {
       "uid": "RUANR5L17S2027IDFL461127",

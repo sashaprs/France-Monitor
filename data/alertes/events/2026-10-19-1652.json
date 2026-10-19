@@ -1,0 +1,71 @@
+{
+ "genere_le": "2026-10-19T16:52:15.269Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N55120",
+   "type": "nouveau_dossier",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "Nouveau dossier : Inscrire l’aide médicale de l’État dans la Constitution",
+   "detail": "Projet ou proposition de loi constitutionnelle · commission : Lois",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/aide_medicale_etat_constitution",
+   "dossier_id": "DLR5L17N55120",
+   "texte_matchable": "Inscrire l’aide médicale de l’État dans la Constitution Inscrire l’aide médicale de l’État dans la Constitution Projet ou proposition de loi constitutionnelle Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55118",
+   "type": "nouveau_dossier",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "Nouveau dossier : Faire reconnaître l’origine professionnelle du cancer du sein",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/origine_professionnelle_cancer_sein",
+   "dossier_id": "DLR5L17N55118",
+   "texte_matchable": "Faire reconnaître l’origine professionnelle du cancer du sein Faire reconnaître l’origine professionnelle du cancer du sein Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55119",
+   "type": "nouveau_dossier",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "Nouveau dossier : Pour que la France joue un rôle moteur dans la protection, la compréhension et l’étude des écosystèmes des forêts animales marines",
+   "detail": "Résolution Article 34-1",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/role_etudes_ecosystemes_marins",
+   "dossier_id": "DLR5L17N55119",
+   "texte_matchable": "Pour que la France joue un rôle moteur dans la protection, la compréhension et l’étude des écosystèmes des forêts animales marines Pour que la France joue un rôle moteur dans la protection, la compréhension et l’étude des écosystèmes des forêts animales marines Résolution Article 34-1",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55121",
+   "type": "nouveau_dossier",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "Nouveau dossier : Accès à l'eau potable dans les départements et régions d'Outre-mer et à leurs conséquences sanitaires, économiques et sociales",
+   "detail": "Résolution · commission : Développement durable",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/eau_potable_outre_mer_2026",
+   "dossier_id": "DLR5L17N55121",
+   "texte_matchable": "Accès à l'eau potable dans les départements et régions d'Outre-mer et à leurs conséquences sanitaires, économiques et sociales Accès à l'eau potable dans les départements et régions d'Outre-mer et à leurs conséquences sanitaires, économiques et sociales Résolution Développement durable",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3211P0D1N003144",
+   "type": "nouvel_amendement",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "Amendement n° 3144 du Gouvernement — APRÈS ART. 35",
+   "detail": "L’insertion dans le CGFP d’un article L. 417-3-1 vise à mettre fin à l’inégalité de traitement subie par les fonctionnaires du corps des médecins civils de la Brigade de sapeurs-pompiers de Paris par…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3211/AN/3144",
+   "dossier_id": "DLR5L17N54951",
+   "texte_matchable": "L’insertion dans le CGFP d’un article L. 417-3-1 vise à mettre fin à l’inégalité de traitement subie par les fonctionnaires du corps des médecins civils de la Brigade de sapeurs-pompiers de Paris par… APRÈS ART. 35 Gouvernement Projet de loi de financement de la sécurité sociale pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:044564da242150d9",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-19T16:52:15.269Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi de finances pour 2027",
+   "detail": "lundi 9 novembre à 15:00 · Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie) Assemblée Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

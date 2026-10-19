@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-19T19:02:58.451Z",
+  "updatedAt": "2026-10-19T22:07:57.983Z",
   "scrutins": [
+    {
+      "numero": "8878",
+      "titre": "l'amendement n° 18 de M. Delautrette à l'article 34 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-19",
+      "sort": null,
+      "nombreVotants": "89",
+      "pour": "29",
+      "contre": "59",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8879",
+      "titre": "l'amendement n° 1167 de Mme Bentorki à l'article 34 (examen prioritaire) à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-19",
+      "sort": null,
+      "nombreVotants": "114",
+      "pour": "28",
+      "contre": "84",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8880",
+      "titre": "l'amendement n° 2645 de M. Lahais à l'article 34 (examen prioritaire) à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-19",
+      "sort": null,
+      "nombreVotants": "120",
+      "pour": "38",
+      "contre": "44",
+      "abstentions": "38",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8881",
+      "titre": "l'amendement n° 11 de M. Descoeur et les amendements identiques suivants à l'article 34 (examen prioritaire) à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-19",
+      "sort": null,
+      "nombreVotants": "120",
+      "pour": "41",
+      "contre": "36",
+      "abstentions": "43",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8882",
+      "titre": "l'amendement n° 1202 de M. Jean-René Cazeneuve et l'amendement identique suivant à l'article 34 (examen prioritaire) à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-19",
+      "sort": null,
+      "nombreVotants": "119",
+      "pour": "55",
+      "contre": "45",
+      "abstentions": "19",
+      "nonVotants": "1"
+    },
     {
       "numero": "8830",
       "titre": "l'amendement n° 2565 de M. Le Coq après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
@@ -493,61 +548,6 @@
       "nombreVotants": "68",
       "pour": "17",
       "contre": "50",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8859",
-      "titre": "l'amendement n° 2566 de M. Coquerel et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "105",
-      "pour": "35",
-      "contre": "70",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8810",
-      "titre": "l'amendement n° 1047 de Mme Legrain après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "94",
-      "pour": "32",
-      "contre": "58",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8851",
-      "titre": "l'amendement n° 3656 de M. Attal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "85",
-      "pour": "18",
-      "contre": "36",
-      "abstentions": "31",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8819",
-      "titre": "l'amendement n° 3652 de M. Attal et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "52",
-      "pour": "39",
-      "contre": "10",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8853",
-      "titre": "l'amendement n° 2276 de M. Jolivet après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "90",
-      "pour": "57",
-      "contre": "32",
       "abstentions": "1",
       "nonVotants": "2"
     }

@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-19T05:46:50.307Z",
+  "updatedAt": "2026-10-19T09:43:08.172Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30947",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-16T07:00:00.000Z",
-      "dateFin": "2026-10-16T11:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461279",
-      "titre": "suite de l’examen du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danièle Simonnet, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-16T07:30:00.000Z",
-      "dateFin": "2026-10-16T11:00:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
     {
       "uid": "RUANR5L17S2027IDS30948",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",

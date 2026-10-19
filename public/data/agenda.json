@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T22:08:01.545Z",
+  "updatedAt": "2026-10-19T23:21:00.256Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -9,6 +9,15 @@
       "dateFin": "2026-10-20T21:59:59.000Z",
       "lieu": "Varsovie (Pologne)",
       "organisateur": "PO58974"
+    },
+    {
+      "uid": "RUSNR5L17S2027IDS31040",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-19T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2027IDC461461",
@@ -24,7 +33,7 @@
       "titre": "Débat sur les finances locales",
       "type": "seance_type",
       "dateDebut": "2026-10-19T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-19T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -33,7 +42,7 @@
       "titre": "examen pour avis des crédits budgétaires « Énergie » (M. Jean-Luc Fugit, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-19T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-19T16:55:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -42,7 +51,7 @@
       "titre": "examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-19T15:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-19T16:30:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -60,7 +69,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-19T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-19T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -680,7 +689,7 @@
       "uid": "RUANR5L17S2027IDS30962",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
-      "dateDebut": "2026-10-26T15:00:00.000Z",
+      "dateDebut": "2026-10-26T14:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"

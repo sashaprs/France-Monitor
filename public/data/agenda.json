@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:49:09.819Z",
+  "updatedAt": "2026-10-20T18:56:45.624Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -60,7 +60,7 @@
       "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-19T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-19T22:00:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -96,7 +96,7 @@
       "titre": "examen, en application de l’article 88 du Règlement, des amendements à l’article liminaire, à la première partie et à la deuxième partie du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T11:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T12:30:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -114,7 +114,7 @@
       "titre": "examen du rapport d’information, ouvert à la presse, sur le projet de loi de financement de la sécurité sociale pour 2027 (Mmes Agnès Firmin Le Bodo et Karine Lebon, rapporteures).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T12:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T12:20:00.000Z",
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
     },
@@ -156,7 +156,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461327",
-      "titre": "examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "titre": "nomination d'un rapporteur spécial",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:30:00.000Z",
       "dateFin": null,
@@ -180,6 +180,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461490",
+      "titre": "demande d’attribution à la commission des prérogatives attribuées aux commissions d’enquête en application de l’article 5 ter de l’ordonnance 58-1100 du 17 novembre 1958 relative au fonctionnement des assemblées parlementaires sur les événements des 17 et 18 octobre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T15:00:00.000Z",
+      "dateFin": "2026-10-20T15:15:00.000Z",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461481",
@@ -363,7 +372,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461436",
-      "titre": "audition, ouverte à la presse, de Mme Constance Bensussan, directrice générale de la Caisse nationale des allocations familiales (Cnaf).",
+      "titre": "audition, ouverte à la presse, de Mme Constance Bensussan, directrice générale de la Caisse nationale des allocations familiales (Cnaf), accompagnée de Mme Lucie Gonzalez, directrice des statistiques, des études et de la recherche, M. Guillaume George, directeur adjoint de la direction chargée des politiques familiales et sociales, et Mme Klara Le Corre, chargée des relations institutionnelles.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T13:00:00.000Z",
       "dateFin": null,
@@ -507,7 +516,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461482",
-      "titre": "Audition de l’Autorité de sûreté nucléaire et de radioprotection (ASNR) sur l’avis générique relatif à la prolongation de la durée de fonctionnement des centrales nucléaires",
+      "titre": "Audition de l'Autorité de sûreté nucléaire et de radioprotection",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T07:30:00.000Z",
       "dateFin": null,
@@ -650,22 +659,67 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461342",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
-      "type": "reunionCommission_type",
+      "uid": "RUANR5L17S2027IDS31030",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
       "dateDebut": "2026-10-24T07:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461343",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
-      "type": "reunionCommission_type",
+      "uid": "RUANR5L17S2027IDS31031",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
       "dateDebut": "2026-10-24T13:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31032",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-24T19:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31033",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-25T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31034",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-25T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31035",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-25T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31036",
+      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
+      "type": "seance_type",
+      "dateDebut": "2026-10-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461344",
@@ -689,7 +743,7 @@
       "uid": "RUANR5L17S2027IDS30962",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
-      "dateDebut": "2026-10-26T14:00:00.000Z",
+      "dateDebut": "2026-10-26T15:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -947,6 +1001,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461342",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30968",
       "titre": "Journée réservée au groupe LFI-NFP",
       "type": "seance_type",
@@ -963,6 +1026,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461343",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30969",
@@ -1023,6 +1095,33 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-30T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31037",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-31T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31038",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-31T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31039",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-10-31T20:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"

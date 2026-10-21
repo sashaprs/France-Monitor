@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-21T19:58:18.683Z",
+  "updatedAt": "2026-10-21T22:08:07.535Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC460987",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, et de Mme Michèle Tabarot au 1er séminaire du Conseil interparlementaire OTAN-Ukraine (UNIC) à Varsovie (Pologne) du 19 au 20 octobre 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-18T22:00:00.000Z",
-      "dateFin": "2026-10-20T21:59:59.000Z",
-      "lieu": "Varsovie (Pologne)",
-      "organisateur": "PO58974"
-    },
     {
       "uid": "RUSNR5L17S2027IDS31040",
       "titre": "Discussion",

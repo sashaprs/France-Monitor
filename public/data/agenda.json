@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T13:29:00.077Z",
+  "updatedAt": "2026-10-21T14:56:53.624Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -159,18 +159,9 @@
       "titre": "nomination d'un rapporteur spécial",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T18:45:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461393",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461381",
@@ -182,13 +173,13 @@
       "organisateur": "PO419604"
     },
     {
-      "uid": "RUANR5L17S2027IDC461435",
-      "titre": "audition, ouverte à la presse, de M. Maëlig Le Bayon, directeur général de la Caisse nationale de solidarité pour l’autonomie (CNSA), accompagné de Mme Anne-Marie Ho Dinh, conseillère technique.",
+      "uid": "RUANR5L17S2027IDC461393",
+      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T14:45:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO884567"
+      "dateFin": "2026-10-20T18:00:00.000Z",
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461490",
@@ -198,6 +189,15 @@
       "dateFin": "2026-10-20T15:15:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461435",
+      "titre": "audition, ouverte à la presse, de M. Maëlig Le Bayon, directeur général de la Caisse nationale de solidarité pour l’autonomie (CNSA), accompagné de Mme Anne-Marie Ho Dinh, conseillère technique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T15:00:00.000Z",
+      "dateFin": "2026-10-20T15:35:00.000Z",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461481",
@@ -222,7 +222,7 @@
       "titre": "audition, ouverte à la presse, de M. Denis Ferrand, directeur général de Rexecode et M. Olivier Redoulès, directeur des études.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T15:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T16:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
@@ -258,7 +258,7 @@
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T19:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T22:10:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -321,7 +321,7 @@
       "titre": "examen de la proposition de loi visant à instaurer un moratoire sur le projet du canal Seine-Nord Europe (n° 3170) (Mme Anne Stambach-Terrenoir, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T08:35:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -412,7 +412,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T13:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle de la commission",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
     {
@@ -999,6 +999,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461493",
+      "titre": "- retour, ouvert à la presse, sur le déplacement en Guadeloupe effectué par M. Arnaud Bonnet et Mme Perrine Goulet autour de la situation de la protection de l’enfance.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO804431"
     },
     {
       "uid": "RUANR5L17S2027IDC461475",

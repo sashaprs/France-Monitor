@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:01:28.553Z",
+  "updatedAt": "2026-10-21T01:19:34.315Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -146,15 +146,6 @@
       "organisateur": "PO880668"
     },
     {
-      "uid": "RUANR5L17S2027IDC461381",
-      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461327",
       "titre": "nomination d'un rapporteur spécial",
       "type": "reunionCommission_type",
@@ -171,6 +162,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461381",
+      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T14:40:00.000Z",
+      "dateFin": "2026-10-20T19:00:00.000Z",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461435",
@@ -204,7 +204,7 @@
       "titre": "examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-20T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T18:25:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -227,15 +227,6 @@
       "organisateur": "PO419604"
     },
     {
-      "uid": "RUANR5L17S2027IDC461328",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30953",
       "titre": "Discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
@@ -252,6 +243,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461328",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-20T19:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461329",
@@ -273,7 +273,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461284",
-      "titre": "- examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(n° 3210) :\r- examen pour avis et vote des crédits de la mission Action extérieure de l’État :\r• action de la France en Europe et dans le monde ; Français à l’étranger et affaires consulaires (M. Michel Herbillon, rapporteur pour avis) ;\r• diplomatie culturelle et d’influence - Francophonie (M. Frédéric Petit, rapporteur pour avis).",
+      "titre": "- examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027(n° 3210) :\r- examen pour avis et vote des crédits de la mission Action extérieure de l’État :\r• action de la France en Europe et dans le monde ; Français à l’étranger et affaires consulaires (M. Michel Herbillon, rapporteur pour avis) ;\r• diplomatie culturelle et d’influence - Francophonie (M. Frédéric Petit, rapporteur pour avis);\r- suite de l'examen pour avis et vote des crédits de la mission Aide publique au développement (M. Guillaume Bigot, rapporteur pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T07:00:00.000Z",
       "dateFin": null,
@@ -398,6 +398,15 @@
       "organisateur": "PO885393"
     },
     {
+      "uid": "RUANR5L17S2027IDC461492",
+      "titre": "sous réserve de l'absence d'opposition à la demande faite en application de l'article 5 ter de l’ordonnance 58-1100 du 17 novembre 1958, nomination de trois rapporteurs d’enquête sur les événements liés aux manifestations du 17 octobre 2026.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle de la commission",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461371",
       "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Outre-mer»  (M. Joseph Rivière, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
@@ -468,6 +477,15 @@
       "dateFin": "2026-10-21T15:45:00.000Z",
       "lieu": "Salle 7042 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO885393"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461491",
+      "titre": "renouvellement du bureau de l’Office :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat (Salle Olympe de Gouges – 4 rue Casimir Delavigne)",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2027IDC461332",

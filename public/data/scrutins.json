@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-10-21T01:19:33.420Z",
+  "updatedAt": "2026-10-21T07:07:59.125Z",
   "scrutins": [
+    {
+      "numero": "8902",
+      "titre": "l'amendement n° 472 de Mme Bellay à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "195",
+      "pour": "61",
+      "contre": "56",
+      "abstentions": "78",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8898",
+      "titre": "l'amendement n° 34 de Mme Runel et les amendements identiques suivants de suppression de l'article 2 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "152",
+      "contre": "60",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8904",
+      "titre": "l'amendement n° 39 de M. Simion à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "179",
+      "pour": "72",
+      "contre": "33",
+      "abstentions": "74",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8897",
+      "titre": "l'amendement n° 33 de Mme Runel et les amendements identiques suivants de suppression de l'article premier du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "151",
+      "contre": "60",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8900",
+      "titre": "l'amendement n° 37 de Mme Runel à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "199",
+      "pour": "68",
+      "contre": "124",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8899",
+      "titre": "l'amendement n° 36 de Mme Runel et les amendements identiques suivants de suppression de l'article 3 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "164",
+      "contre": "40",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8905",
+      "titre": "l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "171",
+      "pour": "159",
+      "contre": "9",
+      "abstentions": "3",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8896",
+      "titre": "l'amendement n° 1352 de Mme Mélin et l'amendement identique suivant de suppression de l'article liminaire du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "149",
+      "contre": "60",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8903",
+      "titre": "l'amendement n° 2976 de Mme Runel à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "190",
+      "pour": "40",
+      "contre": "60",
+      "abstentions": "90",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8906",
+      "titre": "l'amendement n° 3115 de M. Biteau après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "42",
+      "contre": "82",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8895",
+      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "387",
+      "pour": "128",
+      "contre": "259",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8901",
+      "titre": "l'amendement n° 625 de M. Rancoule à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-20",
+      "sort": null,
+      "nombreVotants": "189",
+      "pour": "74",
+      "contre": "102",
+      "abstentions": "13",
+      "nonVotants": "2"
+    },
     {
       "numero": "8878",
       "titre": "l'amendement n° 18 de M. Delautrette à l'article 34 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
@@ -417,138 +549,6 @@
       "pour": "26",
       "contre": "68",
       "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8875",
-      "titre": "l'amendement n° 3089 de M. Juvin à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "67",
-      "pour": "36",
-      "contre": "25",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8842",
-      "titre": "l'amendement n° 465 de Mme Mercier après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "94",
-      "pour": "29",
-      "contre": "63",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8852",
-      "titre": "l'amendement n° 3655 de M. Attal après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "14",
-      "contre": "35",
-      "abstentions": "33",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8834",
-      "titre": "l'amendement n° 300 de Mme Lejeune après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "74",
-      "pour": "23",
-      "contre": "49",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8824",
-      "titre": "l'amendement n° 1084 de Mme Feld après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "99",
-      "pour": "29",
-      "contre": "66",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8843",
-      "titre": "l'amendement n° 3929 de M. Sansu après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "29",
-      "contre": "57",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8831",
-      "titre": "l'amendement n° 1665 de M. Dufau et l'amendement identique suivant après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "28",
-      "contre": "55",
-      "abstentions": "5",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8813",
-      "titre": "l'amendement n° 263 de Mme Félicie Gérard et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "60",
-      "contre": "27",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8864",
-      "titre": "l'amendement n° 666 de M. Jean-Philippe Tanguy après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "34",
-      "contre": "53",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8873",
-      "titre": "l'amendement n° 1398 de M. Midy après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "76",
-      "pour": "41",
-      "contre": "34",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8823",
-      "titre": "l'amendement n° 1083 de M. Coquerel après l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "99",
-      "pour": "31",
-      "contre": "66",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8818",
-      "titre": "l'article 4 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-16",
-      "sort": null,
-      "nombreVotants": "93",
-      "pour": "66",
-      "contre": "25",
-      "abstentions": "2",
       "nonVotants": "2"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T01:19:34.315Z",
+  "updatedAt": "2026-10-21T07:08:00.843Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC460987",
@@ -83,6 +83,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31041",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-20T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDFL459260",
       "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
       "type": "reunionInitParlementaire_type",
@@ -123,7 +132,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-20T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -231,7 +240,7 @@
       "titre": "Discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-20T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-20T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

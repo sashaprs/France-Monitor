@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T01:15:48.303Z",
+  "updatedAt": "2026-10-22T07:10:46.178Z",
   "scrutins": [
     {
       "numero": "8912",
@@ -24,6 +24,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8959",
+      "titre": "l'amendement n° 786 de M. Clouet à l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "33",
+      "contre": "47",
+      "abstentions": "53",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8955",
+      "titre": "l'amendement n° 1841 de Mme Chikirou après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "168",
+      "pour": "56",
+      "contre": "111",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8922",
       "titre": "l'amendement n° 740 de M. Maudet après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -35,6 +57,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8953",
+      "titre": "l'amendement n° 781 de M. Maudet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "164",
+      "pour": "57",
+      "contre": "107",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8910",
       "titre": "l'amendement n° 734 de Mme Hamdane après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -44,6 +77,28 @@
       "contre": "103",
       "abstentions": "17",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8960",
+      "titre": "l'amendement n° 643 de M. Dussausaye à l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "61",
+      "contre": "84",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8966",
+      "titre": "l'amendement n° 645 de M. Dussausaye après l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "105",
+      "pour": "41",
+      "contre": "61",
+      "abstentions": "3",
+      "nonVotants": "2"
     },
     {
       "numero": "8915",
@@ -68,6 +123,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8935",
+      "titre": "l'amendement n° 289 de M. Bénard et l'amendement identique suivant après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "143",
+      "pour": "49",
+      "contre": "93",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8943",
+      "titre": "l'amendement n° 1770 de Mme Hamdane et l'amendement identique suivant après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "136",
+      "pour": "56",
+      "contre": "80",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8923",
       "titre": "l'amendement n° 741 de M. Maudet après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -90,6 +167,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8932",
+      "titre": "l'amendement n° 288 de M. Biteau après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "128",
+      "pour": "60",
+      "contre": "56",
+      "abstentions": "12",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8950",
+      "titre": "l'amendement n° 772 de M. Maudet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "165",
+      "pour": "54",
+      "contre": "110",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8949",
+      "titre": "l'amendement n° 777 de M. Maudet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "166",
+      "pour": "57",
+      "contre": "108",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8918",
       "titre": "l'amendement n° 1689 de M. Taupiac et l'amendement identique suivant après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -99,6 +209,17 @@
       "contre": "79",
       "abstentions": "64",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8942",
+      "titre": "l'amendement n° 1592 de Mme Sandrine Rousseau après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "114",
+      "pour": "42",
+      "contre": "72",
+      "abstentions": "0",
+      "nonVotants": "2"
     },
     {
       "numero": "8927",
@@ -112,6 +233,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8946",
+      "titre": "l'amendement n° 711 de M. Clouet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "154",
+      "pour": "53",
+      "contre": "101",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8938",
+      "titre": "l'amendement n° 771 de Mme Belouassa-Cherifi après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "45",
+      "contre": "99",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8928",
       "titre": "l'amendement n° 2269 de M. Mathiasin et l'amendement identique suivant après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -121,6 +264,50 @@
       "contre": "49",
       "abstentions": "70",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8965",
+      "titre": "l'amendement n° 791 de M. Clouet après l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "112",
+      "pour": "37",
+      "contre": "75",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8962",
+      "titre": "l'amendement n° 1991 de M. Bazin à l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "128",
+      "pour": "84",
+      "contre": "44",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8936",
+      "titre": "l'amendement n° 45 de Mme Runel après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "137",
+      "pour": "36",
+      "contre": "99",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8951",
+      "titre": "l'amendement n° 360 de M. Mazaury après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "158",
+      "pour": "96",
+      "contre": "39",
+      "abstentions": "23",
+      "nonVotants": "2"
     },
     {
       "numero": "8919",
@@ -156,6 +343,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8940",
+      "titre": "l'amendement n° 1591 de Mme Sandrine Rousseau après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "110",
+      "pour": "46",
+      "contre": "64",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8911",
       "titre": "l'amendement n° 735 de Mme Belouassa-Cherifi après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -167,6 +365,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8958",
+      "titre": "l'amendement n° 885 de M. Valentin à l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "84",
+      "pour": "1",
+      "contre": "79",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8924",
       "titre": "l'amendement n° 306 (rect.) de Mme Panonacle après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -176,6 +385,17 @@
       "contre": "10",
       "abstentions": "46",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8948",
+      "titre": "l'amendement n° 2706 de M. Peytavie après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "161",
+      "pour": "62",
+      "contre": "96",
+      "abstentions": "3",
+      "nonVotants": "2"
     },
     {
       "numero": "8916",
@@ -200,6 +420,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8933",
+      "titre": "l'amendement n° 41 de Mme Runel et l'amendement identique suivant après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "141",
+      "pour": "43",
+      "contre": "96",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "8939",
+      "titre": "l'amendement n° 1589 de Mme Sandrine Rousseau après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "143",
+      "pour": "47",
+      "contre": "95",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
       "numero": "8931",
       "titre": "l'amendement n° 30 de M. Daubié et les amendements identiques suivants de suppression de l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -211,6 +453,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "8945",
+      "titre": "l'amendement n° 769 de M. Maudet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "145",
+      "pour": "53",
+      "contre": "92",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8964",
+      "titre": "l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "128",
+      "pour": "100",
+      "contre": "27",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8952",
+      "titre": "l'amendement n° 779 de M. Clouet après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "168",
+      "pour": "59",
+      "contre": "109",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "8930",
       "titre": "l'amendement n° 743 de Mme Belouassa-Cherifi après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
@@ -220,6 +495,28 @@
       "contre": "116",
       "abstentions": "1",
       "nonVotants": "1"
+    },
+    {
+      "numero": "8967",
+      "titre": "l'amendement n° 657 de M. Dussausaye après l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "108",
+      "pour": "41",
+      "contre": "60",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "8963",
+      "titre": "l'amendement n° 790 de Mme Belouassa-Cherifi à l'article 6 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "date": "2026-10-21",
+      "sort": null,
+      "nombreVotants": "129",
+      "pour": "28",
+      "contre": "101",
+      "abstentions": "0",
+      "nonVotants": "2"
     },
     {
       "numero": "8925",
@@ -244,312 +541,15 @@
       "nonVotants": "1"
     },
     {
-      "numero": "8914",
-      "titre": "l'amendement n° 736 de Mme Hamdane après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
+      "numero": "8954",
+      "titre": "l'amendement n° 782 de Mme Belouassa-Cherifi après l'article 5 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
       "date": "2026-10-21",
       "sort": null,
-      "nombreVotants": "151",
-      "pour": "48",
-      "contre": "99",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8921",
-      "titre": "l'amendement n° 2815 de M. Midy après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-21",
-      "sort": null,
-      "nombreVotants": "133",
-      "pour": "52",
-      "contre": "77",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8920",
-      "titre": "l'amendement n° 205 de M. Le Gac après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-21",
-      "sort": null,
-      "nombreVotants": "138",
-      "pour": "31",
-      "contre": "52",
-      "abstentions": "55",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8902",
-      "titre": "l'amendement n° 472 de Mme Bellay à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "195",
-      "pour": "61",
-      "contre": "56",
-      "abstentions": "78",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8898",
-      "titre": "l'amendement n° 34 de Mme Runel et les amendements identiques suivants de suppression de l'article 2 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "152",
-      "contre": "60",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8904",
-      "titre": "l'amendement n° 39 de M. Simion à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "179",
-      "pour": "72",
-      "contre": "33",
-      "abstentions": "74",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8897",
-      "titre": "l'amendement n° 33 de Mme Runel et les amendements identiques suivants de suppression de l'article premier du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "211",
-      "pour": "151",
-      "contre": "60",
+      "nombreVotants": "168",
+      "pour": "56",
+      "contre": "112",
       "abstentions": "0",
       "nonVotants": "2"
-    },
-    {
-      "numero": "8900",
-      "titre": "l'amendement n° 37 de Mme Runel à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "199",
-      "pour": "68",
-      "contre": "124",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8899",
-      "titre": "l'amendement n° 36 de Mme Runel et les amendements identiques suivants de suppression de l'article 3 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "210",
-      "pour": "164",
-      "contre": "40",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8905",
-      "titre": "l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "171",
-      "pour": "159",
-      "contre": "9",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8896",
-      "titre": "l'amendement n° 1352 de Mme Mélin et l'amendement identique suivant de suppression de l'article liminaire du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "211",
-      "pour": "149",
-      "contre": "60",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8903",
-      "titre": "l'amendement n° 2976 de Mme Runel à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "190",
-      "pour": "40",
-      "contre": "60",
-      "abstentions": "90",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8906",
-      "titre": "l'amendement n° 3115 de M. Biteau après l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "125",
-      "pour": "42",
-      "contre": "82",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8895",
-      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "387",
-      "pour": "128",
-      "contre": "259",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8901",
-      "titre": "l'amendement n° 625 de M. Rancoule à l'article 4 du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).",
-      "date": "2026-10-20",
-      "sort": null,
-      "nombreVotants": "189",
-      "pour": "74",
-      "contre": "102",
-      "abstentions": "13",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "8878",
-      "titre": "l'amendement n° 18 de M. Delautrette à l'article 34 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "89",
-      "pour": "29",
-      "contre": "59",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8879",
-      "titre": "l'amendement n° 1167 de Mme Bentorki à l'article 34 (examen prioritaire) à l'article 5 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "114",
-      "pour": "28",
-      "contre": "84",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8887",
-      "titre": "l'amendement n° 21 de M. Delautrette et les amendements identiques suivants de suppression de l'article 37 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "163",
-      "pour": "125",
-      "contre": "33",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8893",
-      "titre": "l'amendement n° 1142 de Mme Bentorki à l'article 41 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "112",
-      "pour": "20",
-      "contre": "83",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8886",
-      "titre": "l'amendement n° 2420 (rect.) de M. Le Coq à l'article 36 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "111",
-      "pour": "33",
-      "contre": "76",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8884",
-      "titre": "l'amendement n° 3371 de Mme Pantel après l'article 35 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "129",
-      "pour": "45",
-      "contre": "40",
-      "abstentions": "44",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8885",
-      "titre": "l'amendement n° 20 de M. Delautrette et les amendements identiques suivants de suppression de l'article 36 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "125",
-      "pour": "51",
-      "contre": "69",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8891",
-      "titre": "l'amendement n° 654 de M. Jean-Philippe Tanguy et l'amendement identique suivant de suppression de l'article 40 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "130",
-      "pour": "58",
-      "contre": "60",
-      "abstentions": "12",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8889",
-      "titre": "l'amendement n° 22 de M. Delautrette et les amendements identiques suivants de suppression de l'article 39 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "141",
-      "pour": "73",
-      "contre": "32",
-      "abstentions": "36",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8888",
-      "titre": "l'article 38 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "166",
-      "pour": "97",
-      "contre": "56",
-      "abstentions": "13",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8892",
-      "titre": "l'article 40 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "61",
-      "contre": "79",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8883",
-      "titre": "l'amendement n° 19 de M. Delautrette et les amendements identiques suivants de suppression de l'article 35 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "145",
-      "pour": "125",
-      "contre": "16",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "8894",
-      "titre": "l'amendement n° 2577 de Mme Bentorki à l'article 41 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-19",
-      "sort": null,
-      "nombreVotants": "103",
-      "pour": "19",
-      "contre": "78",
-      "abstentions": "6",
-      "nonVotants": "1"
     }
   ]
 }

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-22T01:15:56.078Z",
+  "updatedAt": "2026-10-22T07:10:47.374Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2027IDS31040",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-10-19T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2027IDC461461",
       "titre": "examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
@@ -263,6 +254,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31042",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-21T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461161",
       "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210).",
       "type": "reunionCommission_type",
@@ -339,7 +339,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-21T12:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -510,7 +510,7 @@
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-21T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

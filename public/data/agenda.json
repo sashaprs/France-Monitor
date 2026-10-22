@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-22T14:56:44.512Z",
+  "updatedAt": "2026-10-22T18:20:03.515Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461420",
-      "titre": "examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-19T15:00:00.000Z",
-      "dateFin": "2026-10-19T16:30:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
     {
       "uid": "RUANR5L17S2027IDC461446",
       "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
@@ -393,7 +384,7 @@
       "titre": "discussion générale, ouverte à la presse, et vote sur les crédits des missions « Sécurités », « Défense » et « Monde combattant, mémoire et liens avec la Nation ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T13:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T17:30:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -492,7 +483,7 @@
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-22T07:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T11:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -501,7 +492,7 @@
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T10:20:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -519,7 +510,7 @@
       "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T10:05:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -573,7 +564,7 @@
       "titre": "suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T12:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T16:15:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -830,6 +821,15 @@
       "organisateur": "PO271860"
     },
     {
+      "uid": "RUANR5L17S2027IDC461507",
+      "titre": "audition conjointe, ouverte à la presse de :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461422",
       "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Missions Santé, Solidarité, insertion et égalité des chances et Travail, emploi et administration des ministères sociaux\r     audition de M. Jean Pierre Farandou, ministre du travail et des solidarités, Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées, ou Mme Camille Galliard-Minier, ministre déléguée auprès de la ministre de la santé, des familles, de l’autonomie et des personnes handicapées, chargée de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
@@ -983,6 +983,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461508",
+      "titre": "audition conjointe, ouverte à la presse, des représentants des associations de parents d’élèves :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461449",
       "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, sur les crédits des missions « Sécurités », « Administration générale et territoriale de l’État » et « Immigration, asile et intégration » ;",
       "type": "reunionCommission_type",
@@ -1010,6 +1019,15 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2027IDC461515",
+      "titre": "audition, ouverte à la presse, de Mme Mickaëlle Paty, soeur de Samuel Paty.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
+      "organisateur": "PO884520"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461475",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172) (Mme Mathilde Panot, rapporteure).",
       "type": "reunionCommission_type",
@@ -1017,6 +1035,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461516",
+      "titre": "audition, ouverte à la presse, de MM. François-Noël Buffet, Défenseur des droits, et Laurent Lafon, sénateur, co-rapporteurs de la mission conjointe du Sénat « L'école de la République attaquée : agir pour éviter de nouveaux drames ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2027IDC461450",
@@ -1062,6 +1089,33 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461517",
+      "titre": "audition, ouverte à la presse, de M. Éric Debarbieux, docteur en philosophie, chercheur.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461506",
+      "titre": "audition conjointe de M. Nicolas Chayvialle, sous-directeur de la fiscalité directe des entreprises (sous-direction B) à la direction de la législation fiscale (DLF), accompagné de M. Quentin Ladrette-Faget, inspecteur principal à la section 1 du bureau B2 « Champ, taux et régimes particuliers de la fiscalité directe des entreprises » ; et M. Stéphane Créange, chef du service de la sécurité juridique et du contrôle fiscal (SJCF), direction générale des finances publiques (DGFiP).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461518",
+      "titre": "audition, ouverte à la presse, de Mme Catherine Becchetti-Bizot, médiatrice de l’éducation nationale et de l’enseignement supérieur, MM. Franck Jarno, adjoint à la médiatrice, et Raphaël Matta-Duvignau, chargé de mission.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2027IDC461504",
@@ -1379,6 +1433,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2027IDC461509",
+      "titre": "- audition conjointe, ouverte à la presse, de directeurs académiques des services de l’éducation nationale (Dasen).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "à préciser",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461453",
       "titre": "audition de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
       "type": "reunionCommission_type",
@@ -1386,6 +1449,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461510",
+      "titre": "- audition conjointe, ouverte à la presse, d’historiens.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "à préciser",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2027IDS30980",
@@ -1485,6 +1557,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461511",
+      "titre": "- audition conjointe, ouverte à la presse, d’experts des rythmes et des temps de l’enfant et des apprentissages.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "à préciser",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2027IDC461100",
@@ -1658,6 +1739,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2027IDC461512",
+      "titre": "- audition conjointe, ouverte à la presse, d’économistes et de démographes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "à préciser",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461500",
       "titre": "audition, ouverte à la presse, de M. Jérémie Pellet, directeur général d’Expertise France, sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et Expertise France pour la période 2027-2029.",
       "type": "reunionCommission_type",
@@ -1685,6 +1775,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461513",
+      "titre": "proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461412",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
@@ -1692,6 +1791,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461514",
+      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3281) : examen de la proposition de résolution européenne de M. Alexandre Portier et plusieurs de ses collègues (M. Alexandre Portier, rapporteur);",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDFL460521",

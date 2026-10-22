@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-22T18:20:03.515Z",
+  "updatedAt": "2026-10-22T19:50:41.260Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461446",
-      "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la justice, sur les crédits de la mission « Justice » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-19T19:00:00.000Z",
-      "dateFin": "2026-10-19T22:00:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30951",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-19T19:30:00.000Z",
-      "dateFin": "2026-10-19T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461367",
-      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Énergie » (M. Jean-Luc Fugit, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-19T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUSNR5L17S2027IDS31041",
       "titre": "Discussion",

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-22T13:30:16.046Z",
+  "updatedAt": "2026-10-22T14:56:44.512Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461366",
-      "titre": "examen pour avis des crédits budgétaires « Énergie » (M. Jean-Luc Fugit, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-19T14:30:00.000Z",
-      "dateFin": "2026-10-19T16:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2027IDC461420",
       "titre": "examen de la proposition de loi visant l’augmentation des salaires et des pensions (n° 3176) (M. Hadrien Clouet, rapporteur).",
@@ -438,7 +429,7 @@
       "titre": "audition de Mme Naïma Moutchou, ministre des Outre-mer, sur les crédits de la mission « Outre-mer » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T18:05:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -471,21 +462,12 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461385",
-      "titre": "suite de l’ordre du jour de l’après-midi",
+      "titre": "- suite de l’examen des crédits de la mission Enseignement scolaire (Mme Anne Genetet, rapporteure pour avis).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-21T19:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-21T21:45:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461332",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-21T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30954",
@@ -495,6 +477,15 @@
       "dateFin": "2026-10-21T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461332",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-21T19:35:00.000Z",
+      "dateFin": "2026-10-21T22:10:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30956",
@@ -947,6 +938,15 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2027IDFL461503",
+      "titre": "Audition de deux groupes d’experts d’usages du département de la Haute-Savoie, qui présenteront sous forme théâtrale leurs travaux relatifs à l’évaluation de la loi du 11 février 2005.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-10-28T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle Colbert",
+      "organisateur": "PO854471"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461468",
       "titre": "audition, ouverte à la presse, de M. Gilbert Borion, adjoint au directeur de la mémoire, de la culture et des archives du Ministère des Armées et des Anciens combattants et de Mme Anne Padier-Savouroux, sous-directrice des parcours éducatifs et des éducations transversales au Ministère de l’Éducation nationale (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
@@ -993,7 +993,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461417",
-      "titre": "Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne (Mme Marietta Karamanli, rapporteure).",
+      "titre": "- faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues (Mme Marietta Karamanli, rapporteure);\r- nomination de rapporteurs sur :\r- la proposition de résolution européenne de M. Christophe Marion et plusieurs de ses collègues visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes (n° 2977);\r- la proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans  (n° 3355);\r- la proposition de résolution européenne de M. Carlos Martens Bilongo et plusieurs de ses collègues visant à renforcer la transparence fiscale publique des multinationales dans l’Union européenne .(n° 3192);\r - nomination d’un co-rapporteur d’information sur le bouclier démocratique européen en remplacement de Mme Sylvie Josserand.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:00:00.000Z",
       "dateFin": null,
@@ -1062,6 +1062,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461504",
+      "titre": "audition de Mme Naïma Moutchou, ministre des outre-mer, et de M. David Amiel, ministre de l’action et des comptes publics, sur le projet de loi de finances pour 2027 ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDC461343",
@@ -1362,7 +1371,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461418",
-      "titre": "Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne  (Mme Sabrina Sebaihi, rapporteure) ;",
+      "titre": "la crise climatique, en lien avec les épisodes caniculaires survenus cet été à l’échelle européenne : communication de Mme Danièle Obono.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T14:00:00.000Z",
       "dateFin": null,

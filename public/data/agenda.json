@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-23T09:12:04.546Z",
+  "updatedAt": "2026-10-23T13:06:38.755Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461282",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à l’article liminaire, à la première partie et à la deuxième partie du projet de loi de financement de la sécurité sociale pour 2027 (n° 3211) (M. Thibault Bazin, rapporteur général) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T11:30:00.000Z",
-      "dateFin": "2026-10-20T12:30:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461478",
-      "titre": "- table ronde sur la protection des mineurs réunissant :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T12:00:00.000Z",
-      "dateFin": "2026-10-20T13:00:00.000Z",
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461184",
-      "titre": "examen du rapport d’information, ouvert à la presse, sur le projet de loi de financement de la sécurité sociale pour 2027 (Mmes Agnès Firmin Le Bodo et Karine Lebon, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T12:00:00.000Z",
-      "dateFin": "2026-10-20T12:20:00.000Z",
-      "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
-      "organisateur": "PO201269"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30952",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-10-20T13:00:00.000Z",
-      "dateFin": "2026-10-20T18:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461480",
       "titre": "Greenpeace France\rMme Sandy Olivar Calvo, chargée de campagne « agriculture et alimentation »",
@@ -443,6 +407,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31043",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-22T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461333",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
@@ -528,7 +501,7 @@
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-22T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -564,7 +537,7 @@
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-22T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

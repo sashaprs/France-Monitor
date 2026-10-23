@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-23T13:06:38.755Z",
+  "updatedAt": "2026-10-23T14:45:04.632Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461480",
-      "titre": "Greenpeace France\rMme Sandy Olivar Calvo, chargée de campagne « agriculture et alimentation »",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:00:00.000Z",
-      "dateFin": "2026-10-20T15:00:00.000Z",
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO884024"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461098",
-      "titre": "audition de M. Thierry Francou, président-directeur général d'Eurenco et de M. Yves Traissac, directeur général adjoint en charge des Opérations.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:30:00.000Z",
-      "dateFin": "2026-10-20T16:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461327",
-      "titre": "nomination d'un rapporteur spécial",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:35:00.000Z",
-      "dateFin": "2026-10-20T18:45:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461381",
-      "titre": "projet de loi de finances pour 2027 (n° 3210 – seconde partie) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:40:00.000Z",
-      "dateFin": "2026-10-20T19:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461393",
-      "titre": "examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T14:45:00.000Z",
-      "dateFin": "2026-10-20T18:00:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
     {
       "uid": "RUANR5L17S2027IDC461490",
       "titre": "demande d’attribution à la commission des prérogatives attribuées aux commissions d’enquête en application de l’article 5 ter de l’ordonnance 58-1100 du 17 novembre 1958 relative au fonctionnement des assemblées parlementaires sur les événements des 17 et 18 octobre 2026.",
@@ -429,7 +384,7 @@
       "titre": "audition de l'Autorité de sûreté nucléaire et de radioprotection ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-22T07:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T09:25:00.000Z",
       "lieu": "Assemblée nationale (Salle 7040 – 103 rue de l'Université, 2ème sous-sol)",
       "organisateur": "PO273589"
     },
@@ -527,8 +482,8 @@
       "uid": "RUANR5L17S2027IDC461335",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-22T19:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-22T19:05:00.000Z",
+      "dateFin": "2026-10-22T20:40:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -822,7 +777,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461466",
-      "titre": "- table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), et Mickaël Varlet, secrétaire général, et M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, et un représentant de MJC de France (sous réserve de confirmation)\r- examen, en application de l’article 88 du Règlement, des amendements :\r•\tà la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernacilis, rapporteur)\r•\tà la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (n° 3171) (Mme Murielle Lepvraud, rapporteure)\r- désignation d’une députée qui siégera au Conseil d’évaluation de l’école (en remplacement de Mme Ayda Hadizadeh)",
+      "titre": "- table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), Mickaël Varlet, secrétaire général ; M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, et M. Jean-Yves Macé, président de MJC de France ;\r- examen, en application de l’article 88 du Règlement, des amendements :\r•\tà la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernacilis, rapporteur) ;\r•\tà la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (n° 3171) (Mme Murielle Lepvraud, rapporteure) ;\r- désignation d’une députée qui siégera au Conseil d’évaluation de l’école (en remplacement de Mme Ayda Hadizadeh).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -876,7 +831,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461468",
-      "titre": "audition, ouverte à la presse, de M. Gilbert Borion, adjoint au directeur de la mémoire, de la culture et des archives du Ministère des Armées et des Anciens combattants et de Mme Anne Padier-Savouroux, sous-directrice des parcours éducatifs et des éducations transversales au Ministère de l’Éducation nationale (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "titre": "audition, ouverte à la presse, du général de brigade Patrice Bellon, chef de la division « cohésion nationale » de l’état-major des armées, de Mme Anne Padier-Savouroux, sous-directrice des  parcours éducatifs et des éducations transversales au Ministère de l’Éducation nationale et de M. Gilbert Borjon, adjoint au directeur de la mémoire, de la culture et des archives du Ministère des Armées et des Anciens combattants (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T10:00:00.000Z",
       "dateFin": null,
@@ -1746,6 +1701,24 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461526",
+      "titre": "audition, ouverte à la presse, des associations membres du G12 (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4132,  9 rue de Bourgogne, Entresol, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461527",
+      "titre": "audition, ouverte à la presse, de M. Jean-François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe-XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4132,  9 rue de Bourgogne, Entresol, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461501",

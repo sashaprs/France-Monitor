@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-23T01:15:06.480Z",
+  "updatedAt": "2026-10-23T07:02:02.478Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2027IDS31041",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-10-20T07:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2027IDFL459260",
       "titre": "Audition de l’éducateur et comportementaliste canin M. Lévi Zohar sur le thème des conditions de vie des animaux de compagnie, leur maltraitance, la lutte contre leur abandon et la nécessité de mettre en place un permis de détention.",
@@ -461,6 +452,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31043",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-22T07:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461333",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
@@ -524,15 +524,6 @@
       "organisateur": "PO885429"
     },
     {
-      "uid": "RUANR5L17S2027IDC461334",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-22T12:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461387",
       "titre": "suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
@@ -542,11 +533,20 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2027IDC461334",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-22T12:35:00.000Z",
+      "dateFin": "2026-10-22T17:20:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30957",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-22T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T18:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -582,7 +582,7 @@
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
       "type": "seance_type",
       "dateDebut": "2026-10-22T19:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-22T22:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -599,7 +599,7 @@
       "uid": "RUANR5L17S2027IDC461336",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-23T07:00:00.000Z",
+      "dateDebut": "2026-10-23T07:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
@@ -716,7 +716,7 @@
       "uid": "RUANR5L17S2027IDC461345",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-26T14:00:00.000Z",
+      "dateDebut": "2026-10-26T13:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
@@ -785,6 +785,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461520",
+      "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461462",
       "titre": "désignation du bureau de la commission spéciale ;",
       "type": "reunionCommission_type",
@@ -819,15 +828,6 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461423",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé;\r      avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T20:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS30965",
@@ -866,22 +866,22 @@
       "organisateur": "PO59048"
     },
     {
-      "uid": "RUANR5L17S2027IDC461424",
-      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Solidarité, insertion et égalité des chances,\r       avis de M. Alim Latrèche, rapporteur, puis vote sur les crédits.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461466",
-      "titre": "- table ronde sur les conséquences du poids des normes sur la vie associative\r- examen, en application de l’article 88 du Règlement, des amendements :\r•\tà la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernacilis, rapporteur)\r•\tà la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (n° 3171) (Mme Murielle Lepvraud, rapporteure)",
+      "titre": "- table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), et Mickaël Varlet, secrétaire général, et M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, et un représentant de MJC de France (sous réserve de confirmation)\r- examen, en application de l’article 88 du Règlement, des amendements :\r•\tà la proposition de loi visant à garantir les droits des joueurs et joueuses et la pérennité des jeux vidéo (n° 3169) (M. Ugo Bernacilis, rapporteur)\r•\tà la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (n° 3171) (Mme Murielle Lepvraud, rapporteure)\r- désignation d’une députée qui siégera au Conseil d’évaluation de l’école (en remplacement de Mme Ayda Hadizadeh)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461425",
+      "titre": "-  projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions\r       avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461372",
@@ -947,15 +947,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461425",
-      "titre": "-  projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions\r       avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461508",
       "titre": "audition conjointe, ouverte à la presse, des représentants des associations de parents d’élèves :",
       "type": "reunionCommission_type",
@@ -975,7 +966,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461417",
-      "titre": "- faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues (Mme Marietta Karamanli, rapporteure);\r- nomination de rapporteurs sur :\r- la proposition de résolution européenne de M. Christophe Marion et plusieurs de ses collègues visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes (n° 2977);\r- la proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans  (n° 3355);\r- la proposition de résolution européenne de M. Carlos Martens Bilongo et plusieurs de ses collègues visant à renforcer la transparence fiscale publique des multinationales dans l’Union européenne .(n° 3192);\r - nomination d’un co-rapporteur d’information sur le bouclier démocratique européen en remplacement de Mme Sylvie Josserand.",
+      "titre": "- faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues (Mme Marietta Karamanli, rapporteure) ;\r- nomination de rapporteurs sur :\r- la proposition de résolution européenne de M. Christophe Marion et plusieurs de ses collègues visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes (n° 2977) ;\r- la proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans  (n° 3355) ;\r- la proposition de résolution européenne de M. Carlos Martens Bilongo et plusieurs de ses collègues visant à renforcer la transparence fiscale publique des multinationales dans l’Union européenne .(n° 3192) ;\r - nomination d’un co-rapporteur d’information sur le bouclier démocratique européen en remplacement de Mme Sylvie Josserand.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:00:00.000Z",
       "dateFin": null,
@@ -1103,7 +1094,7 @@
       "uid": "RUANR5L17S2027IDC461343",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T14:00:00.000Z",
+      "dateDebut": "2026-10-29T13:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
@@ -1289,6 +1280,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461423",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé;\r      avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461471",
       "titre": "audition, ouverte à la presse, de Mme Agnès Verdier-Molinié, directrice de la Fondation pour la recherche sur les administrations et les politiques publiques (Ifrap).",
       "type": "reunionCommission_type",
@@ -1296,6 +1296,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461521",
+      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l’équilibre dans les rapports locatifs (n° 3393) (M. Iñaki Echaniz, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDS30978",
@@ -1314,6 +1323,15 @@
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461519",
+      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461469",
@@ -1370,6 +1388,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461429",
+      "titre": "audition, en application de l’article 13 de la Constitution, de Mme Camille Tubiana, dont la nomination aux fonctions de directrice générale de l’Agence nationale pour la rénovation urbaine (ANRU) est envisagée par le Président de la République, et vote sur ce projet de nomination (Mme Marie Récalde, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T10:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461502",
       "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :",
       "type": "reunionCommission_type",
@@ -1379,15 +1406,6 @@
       "organisateur": "PO59047"
     },
     {
-      "uid": "RUANR5L17S2027IDC461429",
-      "titre": "présentation des conclusions de la mission flash sur les coûts de construction et leurs effets sur le secteur du logement (MM. Thierry Benoit et M. Éric Michoux, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T10:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
       "uid": "RUANR5L17S2027IDS30979",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1395,6 +1413,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461424",
+      "titre": "- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Solidarité, insertion et égalité des chances,\r       avis de M. Alim Latrèche, rapporteur, puis vote sur les crédits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461418",
@@ -1413,6 +1440,15 @@
       "dateFin": null,
       "lieu": "à préciser",
       "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461522",
+      "titre": "présentation des conclusions de la mission flash sur les coûts de construction et leurs effets sur le secteur du logement (rapporteurs : M. Thierry Benoit et M. Éric Michoux).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461453",
@@ -1514,6 +1550,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461523",
+      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi, adoptée par le Sénat, visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (n° 1033) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-09T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461524",
+      "titre": "sous réserve de son inscription à l’ordre du jour, suite de l’examen de la proposition de loi visant à l’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrien occupé des hauteurs du Golan (n° 3088).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-09T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30989",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
@@ -1530,6 +1584,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461525",
+      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi visant à baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs (n° 3269).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461511",

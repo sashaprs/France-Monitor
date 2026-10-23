@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-10-23T18:06:41.320Z",
+  "updatedAt": "2026-10-23T19:51:29.659Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461382",
-      "titre": "suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30953",
-      "titre": "Discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-20T19:30:00.000Z",
-      "dateFin": "2026-10-20T22:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461369",
-      "titre": "éventuellement, suite de l’examen pour avis des crédits budgétaires « Logement, urbanisme et politique de la ville» (M. François Piquemal, rapporteur pour avis) du projet de loi de finances pour 2027 (n° 3210).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461328",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-20T19:45:00.000Z",
-      "dateFin": "2026-10-20T22:10:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
     {
       "uid": "RUANR5L17S2027IDC461403",
       "titre": "examen de la proposition de loi visant à garantir le droit de vote par l’encadrement des radiations pour perte d’attache communale (n° 2162) (M. Antoine Léaument, rapporteur) ;",

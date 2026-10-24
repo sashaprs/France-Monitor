@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-10-24T13:53:46.165Z",
+ "evenements": [
+  {
+   "id": "odj:fe716f41ecf05891",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-24T13:53:46.165Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi de finances pour 2027",
+   "detail": "samedi 14 novembre à 09:00 · Suite de la discussion de la seconde partie du projet de loi de finances pour 2027",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Suite de la discussion de la seconde partie du projet de loi de finances pour 2027 Assemblée Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

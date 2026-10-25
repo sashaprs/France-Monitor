@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-25T14:10:06.264Z",
+  "updatedAt": "2026-10-25T14:51:15.699Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461483",
-      "titre": "audition de Mme Pauline Pic, chercheuse postdoctorale au sein de la chaire de recherche du Canada en Économie Politique Internationale, Université Laval (Québec).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-22T14:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885429"
-    },
     {
       "uid": "RUANR5L17S2027IDC461335",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",

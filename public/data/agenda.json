@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-25T09:01:19.888Z",
+  "updatedAt": "2026-10-25T10:50:31.937Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461477",
-      "titre": "audition de M. Philippe Delebecque, professeur émérite de l’Université de Paris-I.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-22T09:30:00.000Z",
-      "dateFin": "2026-10-22T10:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885429"
-    },
     {
       "uid": "RUANR5L17S2027IDC461387",
       "titre": "suite de l’ordre du jour du matin.",

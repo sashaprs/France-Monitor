@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-26T16:39:11.835Z",
+  "updatedAt": "2026-10-26T21:23:44.698Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461338",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-23T19:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30961",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-23T19:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31030",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
@@ -86,8 +68,8 @@
       "uid": "RUANR5L17S2027IDC461344",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-26T08:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-26T08:05:00.000Z",
+      "dateFin": "2026-10-26T11:00:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -95,8 +77,8 @@
       "uid": "RUANR5L17S2027IDC461531",
       "titre": "examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-26T13:15:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-26T13:25:00.000Z",
+      "dateFin": "2026-10-26T13:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },

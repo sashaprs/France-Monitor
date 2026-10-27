@@ -1,6 +1,12 @@
 {
  "lots": [
   {
+   "fichier": "2026-10-27-0941.json",
+   "genere_le": "2026-10-27T09:41:31.174Z",
+   "nb_evenements": 235,
+   "nb_matches": 2
+  },
+  {
    "fichier": "2026-10-26-2226.json",
    "genere_le": "2026-10-26T22:26:54.695Z",
    "nb_evenements": 564,
@@ -173,12 +179,6 @@
    "genere_le": "2026-10-17T20:20:03.963Z",
    "nb_evenements": 4,
    "nb_matches": 0
-  },
-  {
-   "fichier": "2026-10-17-1656.json",
-   "genere_le": "2026-10-17T16:56:27.266Z",
-   "nb_evenements": 2885,
-   "nb_matches": 2
   }
  ]
 }

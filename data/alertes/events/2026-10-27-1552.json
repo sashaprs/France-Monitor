@@ -1,0 +1,38 @@
+{
+ "genere_le": "2026-10-27T15:52:55.447Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54096:promulgue",
+   "type": "changement_etape",
+   "date": "2026-10-27T15:52:55.447Z",
+   "titre": "Proposition de loi relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (CR… — promulgué",
+   "detail": "Statut : « adopté » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54096",
+   "dossier_id": "DLR5L17N54096",
+   "texte_matchable": "Proposition de loi relative à l’expérimentation d’une gouvernance territoriale unifiée pour le centre de ressources, d’expertise et de performance sportive (CREPS) de Vichy relative à l'expérimentation d'une gouvernance territoriale unifiée pour le centre de ressources, d'expertise et de performance sportive (CREPS) de Vichy Affaires culturelles et éducation Nicolas Ray",
+   "profils": []
+  },
+  {
+   "id": "odj:502b1b92353928f6",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-27T15:52:55.447Z",
+   "titre": "À l'ordre du jour de la séance publique : Projet de loi de finances pour 2027",
+   "detail": "mardi 17 novembre à 15:00 · Vote solennel sur le projet de loi de finances pour 2027",
+   "url": null,
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Vote solennel sur le projet de loi de finances pour 2027 Assemblée Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "odj:a7313b1f1d92d5d5",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-27T15:52:55.447Z",
+   "titre": "À l'ordre du jour de la séance publique : La relance et la décentralisation du logement",
+   "detail": "mardi 17 novembre à 15:00 · Discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
+   "url": null,
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement Assemblée La relance et la décentralisation du logement",
+   "profils": []
+  }
+ ]
+}

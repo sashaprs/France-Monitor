@@ -1,0 +1,370 @@
+{
+ "genere_le": "2026-10-27T20:34:39.200Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N54608:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "La relance et la décentralisation du logement — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_relance_decentralisation_logement_2",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "La relance et la décentralisation du logement visant la relance et la décentralisation du logement Affaires économiques Annaïg Le Meur",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N55014:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/baisser_prix_carburants_encadrement_marges_raffineurs_17e",
+   "dossier_id": "DLR5L17N55014",
+   "texte_matchable": "Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N51962:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi p… — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/acces_emploi_experimentation_tzcld_17",
+   "dossier_id": "DLR5L17N51962",
+   "texte_matchable": "Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi pour les personnes privées durablement d’emploi Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée Affaires sociales Stéphane Viry",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54994:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Mieux reconnaître et à valoriser les aidants actifs — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/_mieux_reconnaitre_et_valoriser_les_aidants_actifs_17e",
+   "dossier_id": "DLR5L17N54994",
+   "texte_matchable": "Mieux reconnaître et à valoriser les aidants actifs Mieux reconnaître et à valoriser les aidants actifs Affaires sociales",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53069:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Confiance dans les rapports locatifs — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/retrouver_confiance_equilibre_rapports_locatifs_17e",
+   "dossier_id": "DLR5L17N53069",
+   "texte_matchable": "Retrouver la confiance et l’équilibre dans les rapports locatifs Confiance dans les rapports locatifs Affaires économiques Iñaki Echaniz",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53359:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence a… — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53359",
+   "dossier_id": "DLR5L17N53359",
+   "texte_matchable": "Proposition de loi relative à l’instauration d’une présomption d’utilisation des contenus culturels par les fournisseurs d’intelligence artificielle relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence artificielle Affaires culturelles et éducation Emmanuel Maurel",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "dossier-statut:DLR5L17N51095:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51095",
+   "dossier_id": "DLR5L17N51095",
+   "texte_matchable": "Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54718:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T… — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interdiction_relations_commerciales_soutien_colonisation_17e",
+   "dossier_id": "DLR5L17N54718",
+   "texte_matchable": "L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrien occupé des hauteurs du Golan L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrien occupé des hauteurs du Golan Affaires économiques",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54998:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Régulariser les travailleurs sans-papiers — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/regulariser_travailleurs_sans_papiers_17e",
+   "dossier_id": "DLR5L17N54998",
+   "texte_matchable": "Régulariser les travailleurs sans-papiers Régulariser les travailleurs sans-papiers Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54989:en_seance",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires — en séance",
+   "detail": "Statut : « en commission » → « en séance »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/ameliorer_temps_therapeutique_fonctionnaires_17e",
+   "dossier_id": "DLR5L17N54989",
+   "texte_matchable": "Améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires Améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires Lois",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54923:en_navette",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République Française et le Gouvernement de la République de l’I… — en navette",
+   "detail": "Statut : « en commission » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54923",
+   "dossier_id": "DLR5L17N54923",
+   "texte_matchable": "Projet de loi autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République Française et le Gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N54762:en_navette",
+   "type": "changement_etape",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Projet de loi autorisant l'approbation de l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs au cadr… — en navette",
+   "detail": "Statut : « en commission » → « en navette »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54762",
+   "dossier_id": "DLR5L17N54762",
+   "texte_matchable": "Projet de loi autorisant l'approbation de l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs au cadre de déclaration applicable aux crypto-actifs, et l'approbation de l'addendum à l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs aux comptes financiers Finances",
+   "profils": []
+  },
+  {
+   "id": "dossier-nouveau:DLR5L17N55173",
+   "type": "nouveau_dossier",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Nouveau dossier : Rapport d'information déposé par la délégation de l'Assemblée nationale aux droits des femmes et à l'égalité des chances entre les hommes et les femmes sur le…",
+   "detail": "Rapport d'information sans mission",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/RIN_DDF_LF_2027",
+   "dossier_id": "DLR5L17N55173",
+   "texte_matchable": "Rapport d'information déposé par la délégation de l'Assemblée nationale aux droits des femmes et à l'égalité des chances entre les hommes et les femmes sur le projet de loi de finances pour 2027 rapport d'information déposé par la délégation de l'Assemblée nationale aux droits des femmes et à l'égalité des chances entre les hommes et les femmes sur le projet de loi de finances pour 2027 Rapport d'information sans mission",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3210P1D1N004005",
+   "type": "nouvel_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° I-4005 de Danielle Brulebois (EPR) — ART. 15",
+   "detail": "Projet de loi de finances pour 2027",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/AN/I-4005",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "ART. 15 Danielle Brulebois EPR Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901B3210P1D1N004004",
+   "type": "nouvel_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° I-4004 de Iñaki Echaniz (SOC) — APRÈS ART. 15",
+   "detail": "Ce sous-amendement complète le présent amendement d’un alinéa visant à préciser la condition de renouvellement du cheptel prévue à l’article 75‑0 D du CGI. Il est proposé de rendre éligibles au dispo…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/AN/I-4004",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Ce sous-amendement complète le présent amendement d’un alinéa visant à préciser la condition de renouvellement du cheptel prévue à l’article 75‑0 D du CGI. Il est proposé de rendre éligibles au dispo… APRÈS ART. 15 Iñaki Echaniz SOC Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59048B3210P2D1N003028",
+   "type": "nouvel_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF3028 de Aurélien Le Coq (LFI-NFP) — ART. 75",
+   "detail": "Il existe un consensus aujourd’hui sur une nécessaire réforme du CAS Pensions. Aujourd’hui dans les taux de CAS Pensions , tant civil que militaire, on trouve toute une série de dépenses qui ne conce…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF3028",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Il existe un consensus aujourd’hui sur une nécessaire réforme du CAS Pensions. Aujourd’hui dans les taux de CAS Pensions , tant civil que militaire, on trouve toute une série de dépenses qui ne conce… ART. 75 Aurélien Le Coq LFI-NFP Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59048B3210P2D1N003027",
+   "type": "nouvel_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF3027 de Philippe Juvin (DR) — APRÈS ART. 87",
+   "detail": "La contribution progressive des collectivités territoriales à l’effort budgétaire (CPEB), prévue par l’article 37 du présent projet de loi, suscite d’importantes critiques de la part des associations…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF3027",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "La contribution progressive des collectivités territoriales à l’effort budgétaire (CPEB), prévue par l’article 37 du présent projet de loi, suscite d’importantes critiques de la part des associations… APRÈS ART. 87 Philippe Juvin DR Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002795:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2795 de Philippe Naillet (SOC) : Adopté",
+   "detail": "Cet amendement des députés Socialistes et apparentés adopté en commission des affaires économiques vise à créer un fonds de préservation de la biodiversité dans les territoires d’Outre-mer. En effet,…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2795",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement des députés Socialistes et apparentés adopté en commission des affaires économiques vise à créer un fonds de préservation de la biodiversité dans les territoires d’Outre-mer. En effet,… ART. 58 Philippe Naillet SOC Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002843:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2843 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous proposons d'instituer un fonds de prévention des risques et de sécurisation des populations dans les départements et régions d'outre-mer ainsi que dans les collectivités d'out…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2843",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous proposons d'instituer un fonds de prévention des risques et de sécurisation des populations dans les départements et régions d'outre-mer ainsi que dans les collectivités d'out… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002865:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2865 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous souhaitons garantir aux étudiants ultramarins la possibilité de se présenter à l'intégralité des épreuves des concours de la fonction publique sur leur territoire de résidence…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2865",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons garantir aux étudiants ultramarins la possibilité de se présenter à l'intégralité des épreuves des concours de la fonction publique sur leur territoire de résidence… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002818:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2818 de Rapporteur : Adopté",
+   "detail": "Cet amendement propose de créer un nouveau programme pour l’investissement dans l’autonomie énergétique 100% énergies renouvelables des collectivités dites d'Outre-mer. Dans les territoires insulaire…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2818",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement propose de créer un nouveau programme pour l’investissement dans l’autonomie énergétique 100% énergies renouvelables des collectivités dites d'Outre-mer. Dans les territoires insulaire… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002862:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2862 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous souhaitons mettre en place un plan d'aide pour l'insertion des jeunes ultramarins. Focaliser la politique d'aide à l'emploi sur les dispositifs de défiscalisation comme l'a fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2862",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons mettre en place un plan d'aide pour l'insertion des jeunes ultramarins. Focaliser la politique d'aide à l'emploi sur les dispositifs de défiscalisation comme l'a fa… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002836:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2836 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous souhaitons alerter sur les phénomènes de concentrations de marchés dans les Outre-mer et proposer la création d'une autorité de la concurrence spécifique aux Outre-mer. Les mu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2836",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons alerter sur les phénomènes de concentrations de marchés dans les Outre-mer et proposer la création d'une autorité de la concurrence spécifique aux Outre-mer. Les mu… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002813:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2813 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous proposons d'envisager la création d'instituts régionaux d'administration (IRA) dans les collectivités ultra-marines. Actuellement, il n'y a aucun IRA dans ces collectivités. P…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2813",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous proposons d'envisager la création d'instituts régionaux d'administration (IRA) dans les collectivités ultra-marines. Actuellement, il n'y a aucun IRA dans ces collectivités. P… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002833:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2833 de Rapporteur : Adopté",
+   "detail": "Cet amendement d'appel vise à créer, au sein de la mission « Outre-mer », un programme entièrement consacré à l’urgence alimentaire. Selon le rapport d’information du Sénat n° 514 (2024-2025), déposé…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2833",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement d'appel vise à créer, au sein de la mission « Outre-mer », un programme entièrement consacré à l’urgence alimentaire. Selon le rapport d’information du Sénat n° 514 (2024-2025), déposé… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002609:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2609 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous souhaitons alerter sur les phénomènes de concentrations de marchés dans les Outre-mer et proposer la création d'une autorité de la concurrence spécifique aux Outre-mer. Les mu…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2609",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons alerter sur les phénomènes de concentrations de marchés dans les Outre-mer et proposer la création d'une autorité de la concurrence spécifique aux Outre-mer. Les mu… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002613:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2613 de Rapporteur : Adopté",
+   "detail": "Par cet amendement nous souhaitons alerter sur la situation à Mayotte qui résulte d'un manque d'investissements de la part de l'Etat depuis des années, entretenant les inégalités croissantes dans le…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2613",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons alerter sur la situation à Mayotte qui résulte d'un manque d'investissements de la part de l'Etat depuis des années, entretenant les inégalités croissantes dans le… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002511:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2511 de Sandrine Nosbé (LFI-NFP) : Adopté",
+   "detail": "Par cet amendement nous souhaitons mettre en place un plan d'aide pour l'insertion des jeunes ultramarins. Focaliser la politique d'aide à l'emploi sur les dispositifs de défiscalisation comme l'a fa…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2511",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous souhaitons mettre en place un plan d'aide pour l'insertion des jeunes ultramarins. Focaliser la politique d'aide à l'emploi sur les dispositifs de défiscalisation comme l'a fa… ART. 58 Sandrine Nosbé LFI-NFP Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002503:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2503 de Perceval Gaillard (LFI-NFP) : Adopté",
+   "detail": "Par cet amendement nous proposons de renforcer véritablement la ligne budgétaire unique (LBU) consacrée au logement dans les Outre-mer. La problématique du logement dans les Outre-mer est loin d'être…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2503",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Par cet amendement nous proposons de renforcer véritablement la ligne budgétaire unique (LBU) consacrée au logement dans les Outre-mer. La problématique du logement dans les Outre-mer est loin d'être… ART. 58 Perceval Gaillard LFI-NFP Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N002509:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF2509 de Perceval Gaillard (LFI-NFP) : Adopté",
+   "detail": "Cet amendement propose de créer un nouveau programme pour l’investissement dans l’autonomie énergétique 100% énergies renouvelables des collectivités dites d'Outre-mer. Dans les territoires insulaire…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF2509",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement propose de créer un nouveau programme pour l’investissement dans l’autonomie énergétique 100% énergies renouvelables des collectivités dites d'Outre-mer. Dans les territoires insulaire… ART. 58 Perceval Gaillard LFI-NFP Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N001334:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF1334 de Max Mathiasin (LIOT) : Adopté",
+   "detail": "Le présent amendement vise à créer une subvention de 5 M€ dédiée à l’acquisition et à l’installation de citernes d’eau dans les logements locatifs sociaux et très sociaux situés dans les départements…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF1334",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement vise à créer une subvention de 5 M€ dédiée à l’acquisition et à l’installation de citernes d’eau dans les logements locatifs sociaux et très sociaux situés dans les départements… ART. 58 Max Mathiasin LIOT Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N001593:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF1593 de Michel Guiniot (RN) : Adopté",
+   "detail": "Le présent amendement prévoit de revenir sur la suppression de l’envoi à domicile des bulletins de vote. L’envoi des bulletins à domicile est une garantie que tous les citoyens disposeront effectivem…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF1593",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement prévoit de revenir sur la suppression de l’envoi à domicile des bulletins de vote. L’envoi des bulletins à domicile est une garantie que tous les citoyens disposeront effectivem… ART. 76 Michel Guiniot RN Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-sort:AMANR5L17PO59048B3210P2D1N001720:Adopté",
+   "type": "sort_amendement",
+   "date": "2026-10-27T20:34:39.200Z",
+   "titre": "Amendement n° II-CF1720 de Nicolas Metzdorf (EPR) : Adopté",
+   "detail": "Le présent amendement vise à consacrer 800 000 euros à l'extension de la prime spécifique d'installation aux personnels de l'administration pénitentiaire dont la résidence familiale se situe en Polyn…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF1720",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement vise à consacrer 800 000 euros à l'extension de la prime spécifique d'installation aux personnels de l'administration pénitentiaire dont la résidence familiale se situe en Polyn… ART. 58 Nicolas Metzdorf EPR Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

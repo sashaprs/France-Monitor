@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:50:15.870Z",
+  "updatedAt": "2026-10-27T20:30:29.311Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31033",
@@ -137,15 +137,6 @@
       "organisateur": "PO201269"
     },
     {
-      "uid": "RUANR5L17S2027IDC461470",
-      "titre": "audition, ouverte à la presse, de Mme Christine Battesti, adjointe à la direction Indemnisation et Réglementation de France Travail, et M. Jean Dutoya, directeur de l’accompagnement vers l’emploi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884567"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461520",
       "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
@@ -153,6 +144,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461470",
+      "titre": "audition, ouverte à la presse, de Mme Christine Battesti, adjointe à la direction Indemnisation et Réglementation de France Travail, et M. Jean Dutoya, directeur de l’accompagnement vers l’emploi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T15:35:00.000Z",
+      "dateFin": "2026-10-27T16:45:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461462",
@@ -228,7 +228,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461466",
-      "titre": "table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), Mickaël Varlet, secrétaire général ; M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, et M. Jean-Yves Macé, président de MJC de France ;",
+      "titre": "table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), et Mickaël Varlet, secrétaire général, M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, M. Jean Yves Macé, président de MJC de France, et Mme Virginie Ballif, directrice juridique adjointe de l’AFM-Téléthon ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -237,7 +237,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461425",
-      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions :",
+      "titre": "-- Examen, au titre de l’article 88 du Règlement, des amendements aux propositions de loi :\r- créant un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3379) (Mme Gabrielle Cathala, rapporteure)\r- pour protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse (n° 3381) (Mme Marianne Maximi, rapporteure)\r- visant l’augmentation des salaires et des pensions (n° 3350) (M. Hadrien Clouet, rapporteur)\r\r-- Nomination de rapporteurs sur les propositions de loi :\r- modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi (n° 2907)\r- visant à mieux reconnaître et à valoriser les aidants actifs (n° 3249)\r--  projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions :\r avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -264,7 +264,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461535",
-      "titre": "suite de l’examen pour avis et vote des crédits de la mission « Justice » (Mme Gabrielle Cathala, rapporteure pour avis sur les crédits de la justice et de l’accès au droit et M. Cyril Tribuiani, rapporteur pour avis sur les crédits de l’administration pénitentiaire et de la protection judiciaire de la jeunesse).",
+      "titre": "suite de l’examen pour avis et vote des crédits de la mission « Justice » (Mme Gabrielle Cathala, rapporteure pour avis sur les crédits de la justice et de l’accès au droit et M. Cyril Tribuiani, rapporteur pour avis sur les crédits de l’administration pénitentiaire et de la protection judiciaire de la jeunesse) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -326,6 +326,15 @@
       "organisateur": "PO856386"
     },
     {
+      "uid": "RUANR5L17S2027IDC461549",
+      "titre": "audition de TotalEnergies.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T13:30:00.000Z",
+      "dateFin": "2026-10-28T14:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884406"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461530",
       "titre": "audition des représentants du GICAN : M. Philippe Missoffe, délégué général et M. Hervé Croce, responsable affaires publiques",
       "type": "reunionCommission_type",
@@ -380,15 +389,6 @@
       "organisateur": "PO419610"
     },
     {
-      "uid": "RUANR5L17S2027IDC461449",
-      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, sur les crédits des missions « Sécurités », « Administration générale et territoriale de l’État » et « Immigration, asile et intégration » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461516",
       "titre": "audition, ouverte à la presse, de MM. François-Noël Buffet, Défenseur des droits, et Laurent Lafon, sénateur, co-rapporteurs de la mission conjointe du Sénat « L'école de la République attaquée : agir pour éviter de nouveaux drames ».",
       "type": "reunionCommission_type",
@@ -396,15 +396,6 @@
       "dateFin": null,
       "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
       "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461450",
-      "titre": "éventuellement, suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T20:00:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS31005",
@@ -432,15 +423,6 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461451",
-      "titre": "audition de M. David Amiel, ministre de l’Action et des Comptes publics, sur les crédits de la mission « Transformation et Fonction publiques » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461517",
@@ -495,6 +477,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461451",
+      "titre": "audition de M. David Amiel, ministre de l’Action et des Comptes publics, sur les crédits de la mission « Transformation et Fonction publiques » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-29T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS30970",
@@ -594,6 +585,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461449",
+      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, sur les crédits des missions « Sécurités », « Administration générale et territoriale de l’État » et « Immigration, asile et intégration » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-02T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461450",
+      "titre": "suite de l’ordre du jour de l’après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-02T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS30976",
@@ -1190,6 +1199,24 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461548",
+      "titre": "Audition, en application de l’article L. 1451 1 du code de la santé publique, de Mme Pearl Nguyên Duy, dont la nomination aux fonctions de directrice générale de l’Office national d’indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales est envisagée",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31050",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-17T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461500",
       "titre": "audition, ouverte à la presse, de M. Jérémie Pellet, directeur général d’Expertise France, sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et Expertise France pour la période 2027-2029.",
       "type": "reunionCommission_type",
@@ -1235,6 +1262,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDS31051",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-18T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461513",
       "titre": "proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans.",
       "type": "reunionCommission_type",
@@ -1251,6 +1287,78 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31053",
+      "titre": null,
+      "type": "seance_type",
+      "dateDebut": "2026-11-18T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31052",
+      "titre": "Discussion, en 2e lecture, de la proposition de loi, adoptée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
+      "type": "seance_type",
+      "dateDebut": "2026-11-18T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31054",
+      "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
+      "type": "seance_type",
+      "dateDebut": "2026-11-19T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31055",
+      "titre": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
+      "type": "seance_type",
+      "dateDebut": "2026-11-19T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31056",
+      "titre": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
+      "type": "seance_type",
+      "dateDebut": "2026-11-19T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31057",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-20T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31058",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-20T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31059",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-20T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461534",

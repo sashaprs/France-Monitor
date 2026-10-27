@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-27T09:41:00.119Z",
+  "updatedAt": "2026-10-27T14:02:10.311Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31031",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-24T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31032",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
@@ -54,6 +45,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUSNR5L17S2027IDS31060",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2027IDC461344",

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-28T11:00:05.944Z",
+  "updatedAt": "2026-10-28T17:07:15.853Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31034",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-25T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31035",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
@@ -131,8 +122,8 @@
       "uid": "RUANR5L17S2027IDC461186",
       "titre": "- examen du rapport d’information, ouvert à la presse, sur le projet de loi de finances pour 2027 (Mmes Julie Delpech et Sarah Legrain, rapporteures).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-27T15:35:00.000Z",
+      "dateFin": "2026-10-27T16:10:00.000Z",
       "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
       "organisateur": "PO201269"
     },
@@ -231,7 +222,7 @@
       "titre": "table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), et Mickaël Varlet, secrétaire général, M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, M. Jean Yves Macé, président de MJC de France, et Mme Virginie Ballif, directrice juridique adjointe de l’AFM-Téléthon ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T09:55:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -240,7 +231,7 @@
       "titre": "examen, au titre de l’article 88 du Règlement, des amendements aux propositions de loi :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T09:15:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -267,7 +258,7 @@
       "titre": "suite de l’examen pour avis et vote des crédits de la mission « Justice » (Mme Gabrielle Cathala, rapporteure pour avis sur les crédits de la justice et de l’accès au droit et M. Cyril Tribuiani, rapporteur pour avis sur les crédits de l’administration pénitentiaire et de la protection judiciaire de la jeunesse) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T10:15:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },

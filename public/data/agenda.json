@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-28T18:05:40.395Z",
+  "updatedAt": "2026-10-28T23:55:34.098Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31035",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-25T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31036",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
@@ -191,29 +182,29 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461472",
-      "titre": "audition de M. Thierry Guimbaud, président de l’Autorité de régulation des transports, sur le projet de contrat de performance État – SNCF Réseau.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461467",
       "titre": "audition, ouverte à la presse, du général d’armée (2S) Thierry Burkhard, délégué national de l’Ordre de la Libération et de M. Thomas Ottenheimer, maire de Vassieux-en-Vercors, co-président pour l’année 2026 du conseil d’administration de l’Ordre de la Libération (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T09:55:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461347",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
+      "uid": "RUANR5L17S2027IDC461472",
+      "titre": "audition de M. Thierry Guimbaud, président de l’Autorité de régulation des transports, sur le projet de contrat de performance État – SNCF Réseau.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-28T08:05:00.000Z",
+      "dateFin": "2026-10-28T09:30:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461347",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T08:05:00.000Z",
+      "dateFin": "2026-10-28T12:10:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
@@ -240,7 +231,7 @@
       "titre": "audition de M. Jean-Luc Duval, président de la Coopération agricole.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T10:15:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -249,7 +240,7 @@
       "titre": "suite et fin de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T11:45:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -266,8 +257,8 @@
       "uid": "RUANR5L17S2027IDC461473",
       "titre": "audition de M. Matthieu Chabanel, président-directeur général de SNCF Réseau, sur le projet de contrat de performance État – SNCF Réseau ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T09:30:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-28T09:40:00.000Z",
+      "dateFin": "2026-10-28T11:30:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -284,8 +275,8 @@
       "uid": "RUANR5L17S2027IDC461468",
       "titre": "audition, ouverte à la presse, du général de brigade Patrice Bellon, chef de la division « cohésion nationale » de l’état-major des armées, de Mme Anne Padier-Savouroux, sous-directrice des  parcours éducatifs et des éducations transversales au ministère de l’éducation nationale et de M. Gilbert Borjon, adjoint au directeur de la mémoire, de la culture et des archives du ministère des armées et des anciens combattants (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T10:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-28T10:05:00.000Z",
+      "dateFin": "2026-10-28T11:15:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -293,8 +284,8 @@
       "uid": "RUANR5L17S2027IDC461373",
       "titre": "audition de M. Bruno Bonnell, secrétaire général pour l’Investissement (SGPI).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T10:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-10-28T10:20:00.000Z",
+      "dateFin": "2026-10-28T11:40:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -339,27 +330,9 @@
       "titre": "audition conjointe, ouverte à la presse, des représentants des associations de parents d’élèves :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T15:20:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461417",
-      "titre": "- faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues (Mme Marietta Karamanli, rapporteure) ;\r- nomination de rapporteurs sur :\r- la proposition de résolution européenne de M. Christophe Marion et plusieurs de ses collègues visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes (n° 2977) ;\r- la proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans  (n° 3355) ;\r- la proposition de résolution européenne de M. Carlos Martens Bilongo et plusieurs de ses collègues visant à renforcer la transparence fiscale publique des multinationales dans l’Union européenne .(n° 3192) ;\r - nomination d’un co-rapporteur d’information sur le bouclier démocratique européen en remplacement de Mme Sylvie Josserand.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461493",
-      "titre": "retour, ouvert à la presse, sur le déplacement en Guadeloupe effectué par M. Arnaud Bonnet et Mme Perrine Goulet autour de la situation de la protection de l’enfance.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO804431"
     },
     {
       "uid": "RUANR5L17S2027IDC461515",
@@ -371,11 +344,29 @@
       "organisateur": "PO884520"
     },
     {
+      "uid": "RUANR5L17S2027IDC461417",
+      "titre": "- faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à l’égard des enfants et jeunes, mineurs (n° 3281) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues (Mme Marietta Karamanli, rapporteure) ;\r- nomination de rapporteurs sur :\r- la proposition de résolution européenne de M. Christophe Marion et plusieurs de ses collègues visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes (n° 2977) ;\r- la proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans  (n° 3355) ;\r- la proposition de résolution européenne de M. Carlos Martens Bilongo et plusieurs de ses collègues visant à renforcer la transparence fiscale publique des multinationales dans l’Union européenne .(n° 3192) ;\r - nomination d’un co-rapporteur d’information sur le bouclier démocratique européen en remplacement de Mme Sylvie Josserand.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:10:00.000Z",
+      "dateFin": "2026-10-28T16:40:00.000Z",
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461493",
+      "titre": "retour, ouvert à la presse, sur le déplacement en Guadeloupe effectué par M. Arnaud Bonnet et Mme Perrine Goulet autour de la situation de la protection de l’enfance.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-28T14:10:00.000Z",
+      "dateFin": "2026-10-28T14:50:00.000Z",
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO804431"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461475",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi loi d’urgence visant à rétablir l’interdiction de l’acétamipride et du flupyradifurone pour garantir la protection de la santé humaine, de la biodiversité, de l’environnement et notre souveraineté alimentaire (n° 3172) (Mme Mathilde Panot, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T14:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T14:40:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -453,7 +444,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461343",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure)",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-29T13:30:00.000Z",
       "dateFin": null,
@@ -810,6 +801,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461551",
+      "titre": "réunion de travail, non ouverte la presse, autour de la synthèse établie à la suite du cycle d’auditions sur la prostitution des mineurs.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 4088 – rdc – immeuble Olympe de Gouges - 9 rue de Bourgogne",
+      "organisateur": "PO804431"
     },
     {
       "uid": "RUANR5L17S2027IDC461418",

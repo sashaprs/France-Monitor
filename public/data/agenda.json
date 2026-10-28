@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-28T04:17:34.304Z",
+  "updatedAt": "2026-10-28T10:25:31.043Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31033",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-25T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31034",
       "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
@@ -101,6 +92,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31061",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-10-27T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461529",
       "titre": "audition des représentants du GICAT : Général (2S) Marc Ollier, directeur général, IGA (2s) Claude Chenuil, consultant Pacte Drone, M. Vincent Quintana et Mme Blanche Eskenazi, chargée d’affaires publiques",
       "type": "reunionCommission_type",
@@ -114,7 +114,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-27T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-27T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -137,15 +137,6 @@
       "organisateur": "PO201269"
     },
     {
-      "uid": "RUANR5L17S2027IDC461520",
-      "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461470",
       "titre": "audition, ouverte à la presse, de Mme Christine Battesti, adjointe à la direction Indemnisation et Réglementation de France Travail, et M. Jean Dutoya, directeur de l’accompagnement vers l’emploi.",
       "type": "reunionCommission_type",
@@ -153,6 +144,15 @@
       "dateFin": "2026-10-27T16:45:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461520",
+      "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-10-27T15:40:00.000Z",
+      "dateFin": "2026-10-27T17:25:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461462",
@@ -168,7 +168,7 @@
       "titre": "audition conjointe, ouverte à la presse de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-27T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-27T18:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -177,7 +177,7 @@
       "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Missions Santé, Solidarité, insertion et égalité des chances et Travail, emploi et administration des ministères sociaux :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-27T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-27T18:50:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -195,7 +195,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-27T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-27T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -219,7 +219,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461347",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177)",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:00:00.000Z",
       "dateFin": null,
@@ -237,7 +237,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461425",
-      "titre": "-- Examen, au titre de l’article 88 du Règlement, des amendements aux propositions de loi :\r- créant un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (n° 3379) (Mme Gabrielle Cathala, rapporteure)\r- pour protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse (n° 3381) (Mme Marianne Maximi, rapporteure)\r- visant l’augmentation des salaires et des pensions (n° 3350) (M. Hadrien Clouet, rapporteur)\r\r-- Nomination de rapporteurs sur les propositions de loi :\r- modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi (n° 2907)\r- visant à mieux reconnaître et à valoriser les aidants actifs (n° 3249)\r--  projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Régimes et sociaux et de retraite et compte d’affectation spéciale Pensions :\r avis de M. Didier Le Gac, rapporteur, puis vote sur les crédits.",
+      "titre": "examen, au titre de l’article 88 du Règlement, des amendements aux propositions de loi :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-28T08:30:00.000Z",
       "dateFin": null,
@@ -462,7 +462,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461343",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-10-29T13:30:00.000Z",
       "dateFin": null,

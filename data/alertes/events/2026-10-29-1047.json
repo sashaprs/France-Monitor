@@ -1,0 +1,348 @@
+{
+ "genere_le": "2026-10-29T10:47:50.943Z",
+ "evenements": [
+  {
+   "id": "odj:be2b8cd711ccfdd7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi p…",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » c…",
+   "url": null,
+   "dossier_id": "DLR5L17N51962",
+   "texte_matchable": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » c… Assemblée Exercer l’accès à l’emploi, pérenniser et étendre progressivement l’expérimentation Territoires zéro chômeur longue durée comme solution de retour à l’emploi p…",
+   "profils": []
+  },
+  {
+   "id": "odj:266753f232e804e9",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Confiance dans les rapports locatifs",
+   "detail": "jeudi 19 novembre à 09:00 · Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
+   "url": null,
+   "dossier_id": "DLR5L17N53069",
+   "texte_matchable": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs Assemblée Confiance dans les rapports locatifs",
+   "profils": []
+  },
+  {
+   "id": "odj:cff2f158d127cd4e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi visant à baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs",
+   "url": null,
+   "dossier_id": "DLR5L17N55014",
+   "texte_matchable": "Discussion de la proposition de loi visant à baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs Assemblée Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs",
+   "profils": []
+  },
+  {
+   "id": "odj:dad86e1d5eb83803",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Régulariser les travailleurs sans-papiers",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi visant à régulariser les travailleurs sans-papiers",
+   "url": null,
+   "dossier_id": "DLR5L17N54998",
+   "texte_matchable": "Discussion de la proposition de loi visant à régulariser les travailleurs sans-papiers Assemblée Régulariser les travailleurs sans-papiers",
+   "profils": []
+  },
+  {
+   "id": "odj:5ef197f53753d14c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi, adoptée par le Sénat, visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
+   "url": null,
+   "dossier_id": "DLR5L17N51095",
+   "texte_matchable": "Discussion de la proposition de loi, adoptée par le Sénat, visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer Assemblée Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
+   "profils": []
+  },
+  {
+   "id": "odj:10cec20394ef1979",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence a…",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi, adoptée par le Sénat, relative à l’instauration d’une présomption d’utilisation des contenus culturels par les fournisseurs d’intelligence artificielle",
+   "url": null,
+   "dossier_id": "DLR5L17N53359",
+   "texte_matchable": "Discussion de la proposition de loi, adoptée par le Sénat, relative à l’instauration d’une présomption d’utilisation des contenus culturels par les fournisseurs d’intelligence artificielle Assemblée relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence a…",
+   "profils": [
+    "test-nomoslab"
+   ]
+  },
+  {
+   "id": "odj:ade90f6818bbe3ce",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T…",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi visant à l’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrie…",
+   "url": null,
+   "dossier_id": "DLR5L17N54718",
+   "texte_matchable": "Discussion de la proposition de loi visant à l’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le Territoire syrie… Assemblée L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T…",
+   "profils": []
+  },
+  {
+   "id": "odj:53e4affbeecfd951",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Mieux reconnaître et à valoriser les aidants actifs",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi visant à mieux reconnaître et à valoriser les aidants actifs",
+   "url": null,
+   "dossier_id": "DLR5L17N54994",
+   "texte_matchable": "Discussion de la proposition de loi visant à mieux reconnaître et à valoriser les aidants actifs Assemblée Mieux reconnaître et à valoriser les aidants actifs",
+   "profils": []
+  },
+  {
+   "id": "odj:829e540f47b1906c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "À l'ordre du jour de la séance publique : Améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires",
+   "detail": "jeudi 19 novembre à 09:00 · Discussion de la proposition de loi visant à améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires",
+   "url": null,
+   "dossier_id": "DLR5L17N54989",
+   "texte_matchable": "Discussion de la proposition de loi visant à améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires Assemblée Améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9192",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9192 : l'amendement n° 3659 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "89 pour · 74 contre · 3 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9192",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 3659 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9198",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9198 : l'amendement n° 2474 de Mme Lejeune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "56 pour · 97 contre · 2 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9198",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 2474 de Mme Lejeune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9200",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9200 : l'amendement n° 1022 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "47 pour · 88 contre · 0 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9200",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1022 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9189",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9189 : l'amendement n° 1845 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "59 pour · 100 contre · 3 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9189",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1845 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9188",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9188 : l'amendement n° 1198 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "59 pour · 115 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9188",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1198 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9186",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9186 : l'amendement n° 3948 de M. Sansu après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "66 pour · 106 contre · 0 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9186",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 3948 de M. Sansu après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9183",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9183 : l'amendement n° 1507 de Mme Maximi après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "58 pour · 100 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9183",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1507 de Mme Maximi après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9197",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9197 : l'amendement n° 2473 de Mme Chikirou après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "55 pour · 104 contre · 2 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9197",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 2473 de Mme Chikirou après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9193",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9193 : l'amendement n° 1397 de M. Midy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "22 pour · 80 contre · 60 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9193",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1397 de M. Midy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9187",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9187 : l'amendement n° 1866 de M. Mickaël Bouloux et l'amendement identique suivant après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "69 pour · 103 contre · 0 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9187",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1866 de M. Mickaël Bouloux et l'amendement identique suivant après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9196",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9196 : l'amendement n° 1274 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "60 pour · 95 contre · 3 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9196",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1274 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9185",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9185 : l'amendement n° 1368 de Mme Pirès Beaune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "66 pour · 105 contre · 0 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9185",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1368 de Mme Pirès Beaune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9190",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9190 : l'amendement n° 1357 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "61 pour · 101 contre · 3 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9190",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1357 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9191",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9191 : l'amendement n° 3658 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "98 pour · 59 contre · 8 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9191",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 3658 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9180",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9180 : l'amendement n° 1863 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "55 pour · 65 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9180",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1863 de M. Mickaël Bouloux après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9184",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9184 : l'amendement n° 1510 de Mme Maximi après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "62 pour · 102 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9184",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1510 de Mme Maximi après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9195",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9195 : l'amendement n° 1914 de M. Midy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "20 pour · 76 contre · 61 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9195",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1914 de M. Midy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9181",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9181 : l'amendement n° 2138 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "58 pour · 91 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9181",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 2138 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9179",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9179 : l'amendement n° 1365 de Mme Mercier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "55 pour · 64 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9179",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 1365 de Mme Mercier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9199",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9199 : l'amendement n° 2475 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "53 pour · 99 contre · 1 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9199",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 2475 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9194",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9194 : l'amendement n° 3467 de Mme Stambach-Terrenoir après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "53 pour · 101 contre · 5 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9194",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 3467 de Mme Stambach-Terrenoir après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "scrutin:9182",
+   "type": "resultat_scrutin",
+   "date": "2026-10-29T10:47:50.943Z",
+   "titre": "Scrutin n° 9182 : l'amendement n° 992 de Mme Bellay après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+   "detail": "61 pour · 90 contre · 2 abstentions (2026-10-28)",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/9182",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "l'amendement n° 992 de Mme Bellay après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

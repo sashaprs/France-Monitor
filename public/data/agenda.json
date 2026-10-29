@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:55:34.098Z",
+  "updatedAt": "2026-10-29T02:08:22.500Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31036",
@@ -294,7 +294,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-10-28T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-28T19:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -383,7 +383,7 @@
       "uid": "RUANR5L17S2027IDS31005",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
-      "dateDebut": "2026-10-28T20:30:00.000Z",
+      "dateDebut": "2026-10-28T21:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -594,6 +594,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461553",
+      "titre": "audition de Google et YouTube, représentés par M. Arnaud Vergnes et Mme Sarah Cledy, responsables des affaires publiques et institutionnelles .",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7044 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461484",

@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-29T10:46:37.514Z",
+  "updatedAt": "2026-10-29T16:38:30.116Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461531",
-      "titre": "examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-26T13:25:00.000Z",
-      "dateFin": "2026-10-26T13:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461345",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-26T13:30:00.000Z",
-      "dateFin": "2026-10-26T18:50:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30962",
-      "titre": "Suite de la discussion du projet de loi de financement de la sécurité sociale pour 2027",
-      "type": "seance_type",
-      "dateDebut": "2026-10-26T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461346",
       "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :",
@@ -687,7 +660,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461519",
-      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle",
+      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T08:00:00.000Z",
       "dateFin": null,
@@ -795,7 +768,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461418",
-      "titre": "la crise climatique, en lien avec les épisodes caniculaires survenus cet été à l’échelle européenne : communication de Mme Danièle Obono.",
+      "titre": "la crise climatique, en lien avec les épisodes caniculaires survenus cet été à l’échelle européenne : communication de Mme Danièle Obono ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T14:00:00.000Z",
       "dateFin": null,
@@ -963,6 +936,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461554",
+      "titre": "audition de Mme Nadia Bellaoui, présidente de l’Agence du service civique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461525",
@@ -1245,7 +1227,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461513",
-      "titre": "proposition de résolution européenne de Mme Constance Le Grip et plusieurs de ses collègues sur la nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans.",
+      "titre": "Nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans (n° 3355) : examen de la proposition de résolution européenne (Constance Le Grip, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
       "dateFin": null,
@@ -1272,7 +1254,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS31052",
-      "titre": "Discussion, en 2e lecture, de la proposition de loi, adoptée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
+      "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
       "type": "seance_type",
       "dateDebut": "2026-11-18T20:30:00.000Z",
       "dateFin": null,
@@ -1344,7 +1326,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461514",
-      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3281) : examen de la proposition de résolution européenne de M. Alexandre Portier et plusieurs de ses collègues (M. Alexandre Portier, rapporteur);",
+      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne (M. Alexandre Portier, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T15:00:00.000Z",
       "dateFin": null,

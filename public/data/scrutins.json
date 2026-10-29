@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-29T10:46:12.039Z",
+  "updatedAt": "2026-10-29T16:38:14.445Z",
   "scrutins": [
+    {
+      "numero": "9201",
+      "titre": "l'article premier de la proposition de loi visant à rétablir le droit commun de la prescription acquisitive dans les Collectivités régies par l’article 73 de la Constitution ainsi qu’à Saint-Martin et Saint-Barthélemy (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "116",
+      "contre": "4",
+      "abstentions": "92",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9202",
+      "titre": "l'article premier de la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "296",
+      "pour": "161",
+      "contre": "119",
+      "abstentions": "16",
+      "nonVotants": "1"
+    },
     {
       "numero": "9192",
       "titre": "l'amendement n° 3659 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
@@ -528,28 +550,6 @@
       "contre": "112",
       "abstentions": "1",
       "nonVotants": "1"
-    },
-    {
-      "numero": "9150",
-      "titre": "l'amendement n° 2113 de Mme Feld après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-27",
-      "sort": null,
-      "nombreVotants": "150",
-      "pour": "55",
-      "contre": "91",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9106",
-      "titre": "l'amendement n° 283 (rect.) de M. End et les amendements identiques suivants après l'article 41 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-27",
-      "sort": null,
-      "nombreVotants": "191",
-      "pour": "62",
-      "contre": "58",
-      "abstentions": "71",
-      "nonVotants": "2"
     }
   ]
 }

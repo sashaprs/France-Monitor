@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-30T15:35:17.298Z",
+  "updatedAt": "2026-10-30T17:51:08.750Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461520",
-      "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:40:00.000Z",
-      "dateFin": "2026-10-27T17:25:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461462",
-      "titre": "désignation du bureau de la commission spéciale ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO271860"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461507",
-      "titre": "audition conjointe, ouverte à la presse de :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T16:30:00.000Z",
-      "dateFin": "2026-10-27T18:00:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461422",
-      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Missions Santé, Solidarité, insertion et égalité des chances et Travail, emploi et administration des ministères sociaux :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T16:30:00.000Z",
-      "dateFin": "2026-10-27T18:50:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461437",
-      "titre": "audition, ouverte à la presse, de Mme Anne-Laure Torresin, directrice générale de la Caisse centrale de la Mutualité sociale agricole (MSA).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T16:45:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle à déterminer",
-      "organisateur": "PO884567"
-    },
     {
       "uid": "RUANR5L17S2027IDS30965",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",

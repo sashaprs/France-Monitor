@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-30T20:26:57.993Z",
+  "updatedAt": "2026-10-30T22:03:23.760Z",
   "scrutins": [
+    {
+      "numero": "9393",
+      "titre": "l'amendement n° 3938 de M. Sansu après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "71",
+      "pour": "20",
+      "contre": "51",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9377",
+      "titre": "l'amendement n° 1017 de Mme Laporte après  l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "59",
+      "pour": "29",
+      "contre": "25",
+      "abstentions": "5",
+      "nonVotants": "1"
+    },
     {
       "numero": "9354",
       "titre": "l'amendement n° 3904 de M. Sansu après l'article 5 du projet de loi de finances pour 2027 (première lecture).",
@@ -21,6 +43,94 @@
       "pour": "29",
       "contre": "49",
       "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9369",
+      "titre": "l'amendement n° 3817 de M. Martineau après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "77",
+      "pour": "24",
+      "contre": "17",
+      "abstentions": "36",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9397",
+      "titre": "l'amendement n° 3608 de Mme Lejeune après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "49",
+      "pour": "10",
+      "contre": "39",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9386",
+      "titre": "l'amendement n° 3603 de Mme Maximi après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "70",
+      "pour": "8",
+      "contre": "53",
+      "abstentions": "9",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9399",
+      "titre": "l'amendement n° 1489 de M. Portier après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "61",
+      "pour": "32",
+      "contre": "26",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9392",
+      "titre": "l'amendement n° 3940 de M. Sansu après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "67",
+      "pour": "18",
+      "contre": "49",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9364",
+      "titre": "l'amendement n° 1149 de Mme Létard et l'amendement identique suivant après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "43",
+      "contre": "28",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9358",
+      "titre": "l'amendement n° 170 de M. Bazin et l'amendement identique suivant à l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "32",
+      "contre": "58",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9361",
+      "titre": "l'amendement n° 1048 de Mme Gillet après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "63",
+      "pour": "31",
+      "contre": "22",
+      "abstentions": "10",
       "nonVotants": "2"
     },
     {
@@ -46,6 +156,72 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9402",
+      "titre": "l'amendement n° 2750 de M. Masséglia à l'article 12 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "66",
+      "pour": "15",
+      "contre": "14",
+      "abstentions": "37",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9389",
+      "titre": "l'amendement n° 43 de Mme Sas après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "74",
+      "pour": "19",
+      "contre": "55",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9384",
+      "titre": "l'amendement n° 1090 de M. Le Coq après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "69",
+      "pour": "17",
+      "contre": "52",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9376",
+      "titre": "l'amendement n° 1429 de M. Potier après  l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "57",
+      "pour": "13",
+      "contre": "12",
+      "abstentions": "32",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9396",
+      "titre": "l'amendement n° 3601 de M. Le Coq après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "30",
+      "pour": "5",
+      "contre": "24",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9385",
+      "titre": "l'amendement n° 1092 de M. Le Coq après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "10",
+      "contre": "51",
+      "abstentions": "11",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9337",
       "titre": "l'amendement n° 292 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
@@ -68,6 +244,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9367",
+      "titre": "l'amendement n° 3203 de M. Bataille après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "18",
+      "contre": "45",
+      "abstentions": "9",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9347",
       "titre": "l'article 18 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
@@ -77,6 +264,28 @@
       "contre": "29",
       "abstentions": "30",
       "nonVotants": "2"
+    },
+    {
+      "numero": "9360",
+      "titre": "l'amendement n° 1153 de Mme Létard et les amendements identiques suivants après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "64",
+      "contre": "10",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9398",
+      "titre": "l'amendement n° 3147 de M. Kasbarian après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "61",
+      "pour": "15",
+      "contre": "20",
+      "abstentions": "26",
+      "nonVotants": "1"
     },
     {
       "numero": "9338",
@@ -90,6 +299,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9380",
+      "titre": "l'amendement n° 3941 de M. Sansu après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "65",
+      "pour": "19",
+      "contre": "46",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9345",
       "titre": "l'amendement n° 3915 de M. Sansu à l'article 17 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
@@ -99,6 +319,28 @@
       "contre": "56",
       "abstentions": "0",
       "nonVotants": "2"
+    },
+    {
+      "numero": "9359",
+      "titre": "l'amendement n° 96 de M. Falcon et les amendements identiques suivants à l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "86",
+      "pour": "45",
+      "contre": "41",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9383",
+      "titre": "l'amendement n° 1475 de M. Loubet après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "69",
+      "pour": "34",
+      "contre": "34",
+      "abstentions": "1",
+      "nonVotants": "1"
     },
     {
       "numero": "9339",
@@ -134,6 +376,39 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9366",
+      "titre": "l'amendement n° 540 de M. Falcon après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "74",
+      "pour": "37",
+      "contre": "35",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9373",
+      "titre": "l'article 8 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "65",
+      "pour": "11",
+      "contre": "20",
+      "abstentions": "34",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9390",
+      "titre": "l'amendement n° 3605 de M. Coquerel après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "73",
+      "pour": "21",
+      "contre": "52",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9348",
       "titre": "l'amendement n° 3274 de M. Castellani à l'article 56 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
@@ -143,6 +418,17 @@
       "contre": "16",
       "abstentions": "53",
       "nonVotants": "2"
+    },
+    {
+      "numero": "9370",
+      "titre": "l'amendement n° 2404 (rect.) de M. Le Coq après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "74",
+      "pour": "21",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "1"
     },
     {
       "numero": "9344",
@@ -156,6 +442,50 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9365",
+      "titre": "l'amendement n° 1511 de M. Echaniz après l'article 7 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "81",
+      "pour": "25",
+      "contre": "21",
+      "abstentions": "35",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9388",
+      "titre": "l'amendement n° 3937 de M. Sansu après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "72",
+      "pour": "19",
+      "contre": "53",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9400",
+      "titre": "l'amendement n° 1015 de Mme Laporte après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "62",
+      "pour": "28",
+      "contre": "32",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9372",
+      "titre": "l'amendement n° 112 de M. Falcon et l'amendement identique suivant de suppression de l'article 8 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "71",
+      "pour": "36",
+      "contre": "33",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9356",
       "titre": "l'amendement n° 3432 de M. Mickaël Bouloux après l'article 5 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
@@ -165,6 +495,28 @@
       "contre": "60",
       "abstentions": "0",
       "nonVotants": "2"
+    },
+    {
+      "numero": "9394",
+      "titre": "l'amendement n° 1105 de M. Bilongo après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "63",
+      "pour": "16",
+      "contre": "47",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9387",
+      "titre": "l'amendement n° 1089 de M. Le Coq après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-10-30",
+      "sort": null,
+      "nombreVotants": "71",
+      "pour": "8",
+      "contre": "53",
+      "abstentions": "10",
+      "nonVotants": "1"
     },
     {
       "numero": "9340",
@@ -189,367 +541,15 @@
       "nonVotants": "2"
     },
     {
-      "numero": "9341",
-      "titre": "l'amendement n° 3944 de M. Sansu après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9381",
+      "titre": "l'amendement n° 44 de Mme Sas après l'article 10 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-10-30",
       "sort": null,
-      "nombreVotants": "76",
-      "pour": "27",
-      "contre": "18",
-      "abstentions": "31",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9346",
-      "titre": "l'amendement n° 1387 de M. Coquerel à l'article 17 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-30",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "32",
-      "contre": "24",
-      "abstentions": "32",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9336",
-      "titre": "l'amendement n° 1358 de M. Lhardit après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-30",
-      "sort": null,
-      "nombreVotants": "35",
-      "pour": "11",
-      "contre": "10",
-      "abstentions": "14",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9355",
-      "titre": "l'amendement n° 462 de M. Lahais et les amendements identiques suivants après l'article 5 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-30",
-      "sort": null,
-      "nombreVotants": "86",
-      "pour": "31",
-      "contre": "20",
-      "abstentions": "35",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9343",
-      "titre": "l'amendement n° 3138 de Mme Bellay après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-30",
-      "sort": null,
-      "nombreVotants": "83",
-      "pour": "29",
-      "contre": "34",
-      "abstentions": "20",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9327",
-      "titre": "le sous-amendement n° 73 de Mme Ranc à l'amendement n° 3 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "206",
-      "pour": "68",
-      "contre": "133",
-      "abstentions": "5",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9311",
-      "titre": "le sous-amendement n° 134 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "209",
-      "pour": "64",
-      "contre": "139",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9308",
-      "titre": "le sous-amendement n° 130 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "210",
-      "pour": "66",
-      "contre": "136",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9277",
-      "titre": "le sous-amendement n° 51 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "213",
-      "pour": "65",
-      "contre": "139",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9230",
-      "titre": "le sous-amendement n° 70 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "266",
-      "pour": "87",
-      "contre": "172",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9259",
-      "titre": "le sous-amendement n° 35 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "208",
-      "pour": "65",
-      "contre": "133",
-      "abstentions": "10",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9289",
-      "titre": "le sous-amendement n° 117 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "213",
-      "pour": "66",
-      "contre": "138",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9249",
-      "titre": "le sous-amendement n° 158 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "199",
-      "pour": "63",
-      "contre": "128",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9306",
-      "titre": "le sous-amendement n° 47 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "64",
-      "contre": "140",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9282",
-      "titre": "le sous-amendement n° 112 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "210",
-      "pour": "63",
-      "contre": "138",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9257",
-      "titre": "le sous-amendement n° 44 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "207",
-      "pour": "65",
-      "contre": "132",
-      "abstentions": "10",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9276",
-      "titre": "le sous-amendement n° 50 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "214",
-      "pour": "67",
-      "contre": "138",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9293",
-      "titre": "le sous-amendement n° 17 de M. Valentin et le sous-amendement identique suivant à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "215",
-      "pour": "67",
-      "contre": "139",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9267",
-      "titre": "le sous-amendement n° 45 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "67",
-      "contre": "137",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9260",
-      "titre": "le sous-amendement n° 37 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "208",
-      "pour": "66",
-      "contre": "132",
-      "abstentions": "10",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9243",
-      "titre": "le sous-amendement n° 120 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "199",
-      "pour": "64",
-      "contre": "128",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9246",
-      "titre": "le sous-amendement n° 153 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "198",
-      "pour": "64",
-      "contre": "126",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9330",
-      "titre": "l'amendement n° 3 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "208",
-      "pour": "67",
-      "contre": "136",
-      "abstentions": "5",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9229",
-      "titre": "le sous-amendement n° 69 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "268",
-      "pour": "88",
-      "contre": "173",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9268",
-      "titre": "le sous-amendement n° 108 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "211",
-      "pour": "66",
-      "contre": "137",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9224",
-      "titre": "le sous-amendement n° 64 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "86",
-      "contre": "171",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9326",
-      "titre": "l'amendement n° 6 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "205",
-      "pour": "64",
-      "contre": "137",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9271",
-      "titre": "le sous-amendement n° 111 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "66",
-      "contre": "137",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9241",
-      "titre": "l'ensemble de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "267",
-      "pour": "152",
-      "contre": "5",
-      "abstentions": "110",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9334",
-      "titre": "l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "213",
-      "pour": "121",
-      "contre": "88",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9222",
-      "titre": "le sous-amendement n° 62 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "263",
-      "pour": "86",
-      "contre": "171",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9317",
-      "titre": "le sous-amendement n° 140 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "66",
-      "contre": "139",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9247",
-      "titre": "le sous-amendement n° 30 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "197",
-      "pour": "62",
-      "contre": "126",
-      "abstentions": "9",
-      "nonVotants": "2"
+      "nombreVotants": "65",
+      "pour": "17",
+      "contre": "48",
+      "abstentions": "0",
+      "nonVotants": "1"
     }
   ]
 }

@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-10-30T10:45:40.664Z",
+  "updatedAt": "2026-10-30T15:35:17.298Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461529",
-      "titre": "audition des représentants du GICAT : Général (2S) Marc Ollier, directeur général, IGA (2s) Claude Chenuil, consultant Pacte Drone, M. Vincent Quintana et Mme Blanche Eskenazi, chargée d’affaires publiques",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T13:45:00.000Z",
-      "dateFin": "2026-10-27T15:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30964",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-10-27T14:00:00.000Z",
-      "dateFin": "2026-10-27T19:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461099",
-      "titre": "audition de M. Xavier de Lavignère, président-directeur général d'Asgard Motors.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:30:00.000Z",
-      "dateFin": "2026-10-27T17:00:00.000Z",
-      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461186",
-      "titre": "- examen du rapport d’information, ouvert à la presse, sur le projet de loi de finances pour 2027 (Mmes Julie Delpech et Sarah Legrain, rapporteures).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:35:00.000Z",
-      "dateFin": "2026-10-27T16:10:00.000Z",
-      "lieu": "Salle 6826, Palais Bourbon, 3ème étage",
-      "organisateur": "PO201269"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461470",
-      "titre": "audition, ouverte à la presse, de Mme Christine Battesti, adjointe à la direction Indemnisation et Réglementation de France Travail, et M. Jean Dutoya, directeur de l’accompagnement vers l’emploi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-27T15:35:00.000Z",
-      "dateFin": "2026-10-27T16:45:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884567"
-    },
     {
       "uid": "RUANR5L17S2027IDC461520",
       "titre": "sous réserve de leur inscription à l’ordre du jour, nomination de rapporteurs sur :",
@@ -524,6 +479,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461571",
+      "titre": "audition du Vice-amiral Laurent BECHLER, Sous-chef Soutiens Finance de l’Etat-major de la Marine",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T13:00:00.000Z",
+      "dateFin": "2026-11-03T14:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461553",
       "titre": "audition de Google et YouTube, représentés par M. Arnaud Vergnes et Mme Sarah Cledy, responsables des affaires publiques et institutionnelles .",
       "type": "reunionCommission_type",
@@ -650,6 +614,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461464",
+      "titre": "audition conjointe avec la commission des affaires économiques de Bpifrance, sur le financement des entreprises.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461519",
       "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle.",
       "type": "reunionCommission_type",
@@ -686,15 +659,6 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461464",
-      "titre": "audition conjointe avec la commission des affaires économiques de Bpifrance, sur le financement des entreprises.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461427",
       "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89 ;",
       "type": "reunionCommission_type",
@@ -705,9 +669,9 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461465",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote des articles non rattachés et des articles de récapitulation.",
+      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général) : examen et vote des articles non rattachés et des articles de récapitulation.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T10:00:00.000Z",
+      "dateDebut": "2026-11-04T09:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
@@ -729,6 +693,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461568",
+      "titre": "audition de M. David Amiel, ministre de l'Action et des comptes publics, sur le projet de loi de finances de fin de gestion pour 2026 (sous réserve de son dépôt)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T11:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30979",
@@ -776,6 +749,15 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2027IDC461574",
+      "titre": "audition de Mme Delphine Blanc-Le-Quilliec, déléguée générale de la Fédération des établissements d’enseignement supérieur d’intérêt collectif (FESIC) et de MM. Benjamin Morisse, directeur général adjoint de l’ESSCA et Quentin Allard, chargé d’affaires publiques de la FESIC",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:30:00.000Z",
+      "dateFin": "2026-11-04T15:30:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885535"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461522",
       "titre": "présentation des conclusions de la mission flash sur les coûts de construction et leurs effets sur le secteur du logement (rapporteurs : M. Thierry Benoit et M. Éric Michoux).",
       "type": "reunionCommission_type",
@@ -792,6 +774,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461575",
+      "titre": "audition de M. Guillaume Basset, directeur général délégué Invest de Business France et de Mmes Sandrine Coquelard, directrice expertise juridique et économique de Business France et Florence Lilti, cheffe de cabinet",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T15:45:00.000Z",
+      "dateFin": "2026-11-04T16:45:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885535"
     },
     {
       "uid": "RUANR5L17S2027IDC461510",
@@ -839,6 +830,15 @@
       "organisateur": "PO885414"
     },
     {
+      "uid": "RUANR5L17S2027IDC461572",
+      "titre": "audition de M. Filip Cornelis, chargé de la direction E, Aviation, au sein de la direction générale de la mobilité et des transports (DG MOVE) de la Commission européenne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-05T09:00:00.000Z",
+      "dateFin": "2026-11-05T10:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461560",
       "titre": "audition de Mme Laurence Marion, secrétaire générale du Gouvernement, accompagnée de M. Thibaut de Vanssay, directeur des services administratifs et financiers des services du Premier ministre.",
       "type": "reunionCommission_type",
@@ -846,6 +846,15 @@
       "dateFin": null,
       "lieu": "Salon Visconti – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461576",
+      "titre": "audition de MM. Philippe Gautier, directeur général du MEDEF International et Alexandre Planelles, directeur général de l’Alliance des patronats francophones",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-05T09:30:00.000Z",
+      "dateFin": "2026-11-05T09:30:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885535"
     },
     {
       "uid": "RUANR5L17S2027IDC461559",
@@ -918,6 +927,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461569",
+      "titre": "Examen du projet de fin de gestion pour 2026 (sous réserve de son dépôt) (M. Philippe Juvin, rapporteur général)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-09T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS30988",
@@ -1262,6 +1280,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461570",
+      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et d'associations d'élus locaux",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461527",
       "titre": "audition, ouverte à la presse, de M. Jean-François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe-XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
@@ -1341,6 +1368,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461573",
+      "titre": "Audition publique sur les impacts de l’IA sur la recherche scientifique",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "A confirmer",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2027IDS31055",

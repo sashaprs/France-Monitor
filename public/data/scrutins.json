@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-30T01:35:18.748Z",
+  "updatedAt": "2026-10-30T08:07:59.852Z",
   "scrutins": [
+    {
+      "numero": "9327",
+      "titre": "le sous-amendement n° 73 de Mme Ranc à l'amendement n° 3 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "206",
+      "pour": "68",
+      "contre": "133",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9311",
+      "titre": "le sous-amendement n° 134 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "209",
+      "pour": "64",
+      "contre": "139",
+      "abstentions": "6",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9308",
+      "titre": "le sous-amendement n° 130 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "66",
+      "contre": "136",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9277",
+      "titre": "le sous-amendement n° 51 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "65",
+      "contre": "139",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
     {
       "numero": "9230",
       "titre": "le sous-amendement n° 70 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
@@ -10,6 +54,149 @@
       "pour": "87",
       "contre": "172",
       "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9259",
+      "titre": "le sous-amendement n° 35 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "208",
+      "pour": "65",
+      "contre": "133",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9289",
+      "titre": "le sous-amendement n° 117 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "66",
+      "contre": "138",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9249",
+      "titre": "le sous-amendement n° 158 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "199",
+      "pour": "63",
+      "contre": "128",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9306",
+      "titre": "le sous-amendement n° 47 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "64",
+      "contre": "140",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9282",
+      "titre": "le sous-amendement n° 112 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "63",
+      "contre": "138",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9257",
+      "titre": "le sous-amendement n° 44 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "207",
+      "pour": "65",
+      "contre": "132",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9276",
+      "titre": "le sous-amendement n° 50 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "214",
+      "pour": "67",
+      "contre": "138",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9293",
+      "titre": "le sous-amendement n° 17 de M. Valentin et le sous-amendement identique suivant à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "215",
+      "pour": "67",
+      "contre": "139",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9267",
+      "titre": "le sous-amendement n° 45 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "67",
+      "contre": "137",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9260",
+      "titre": "le sous-amendement n° 37 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "208",
+      "pour": "66",
+      "contre": "132",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9243",
+      "titre": "le sous-amendement n° 120 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "199",
+      "pour": "64",
+      "contre": "128",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9246",
+      "titre": "le sous-amendement n° 153 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "198",
+      "pour": "64",
+      "contre": "126",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9330",
+      "titre": "l'amendement n° 3 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "208",
+      "pour": "67",
+      "contre": "136",
+      "abstentions": "5",
       "nonVotants": "2"
     },
     {
@@ -24,6 +211,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9268",
+      "titre": "le sous-amendement n° 108 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "66",
+      "contre": "137",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9224",
       "titre": "le sous-amendement n° 64 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
       "date": "2026-10-29",
@@ -32,6 +230,28 @@
       "pour": "86",
       "contre": "171",
       "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9326",
+      "titre": "l'amendement n° 6 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "205",
+      "pour": "64",
+      "contre": "137",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9271",
+      "titre": "le sous-amendement n° 111 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "66",
+      "contre": "137",
+      "abstentions": "9",
       "nonVotants": "2"
     },
     {
@@ -46,6 +266,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9334",
+      "titre": "l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "121",
+      "contre": "88",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9222",
       "titre": "le sous-amendement n° 62 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
       "date": "2026-10-29",
@@ -57,6 +288,28 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9317",
+      "titre": "le sous-amendement n° 140 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "66",
+      "contre": "139",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9247",
+      "titre": "le sous-amendement n° 30 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "197",
+      "pour": "62",
+      "contre": "126",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9225",
       "titre": "le sous-amendement n° 65 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
       "date": "2026-10-29",
@@ -64,6 +317,28 @@
       "nombreVotants": "264",
       "pour": "86",
       "contre": "171",
+      "abstentions": "7",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9275",
+      "titre": "le sous-amendement n° 48 de M. Bloch à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "212",
+      "pour": "63",
+      "contre": "140",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9297",
+      "titre": "le sous-amendement n° 19 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "209",
+      "pour": "65",
+      "contre": "137",
       "abstentions": "7",
       "nonVotants": "2"
     },
@@ -79,6 +354,39 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9263",
+      "titre": "le sous-amendement n° 69 de M. Breton à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "72",
+      "contre": "135",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9328",
+      "titre": "le sous-amendement n° 49 de M. Valentin à l'amendement n° 3 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "208",
+      "pour": "67",
+      "contre": "136",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9262",
+      "titre": "le sous-amendement n° 68 de M. Breton à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "70",
+      "contre": "135",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9240",
       "titre": "l'article 4 de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
       "date": "2026-10-29",
@@ -87,6 +395,28 @@
       "pour": "149",
       "contre": "5",
       "abstentions": "99",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9256",
+      "titre": "le sous-amendement n° 157 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "209",
+      "pour": "67",
+      "contre": "132",
+      "abstentions": "10",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9331",
+      "titre": "le sous-amendement n° 70 de Mme Fiol à l'amendement n° 4 de Mme Blanc à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "67",
+      "contre": "140",
+      "abstentions": "4",
       "nonVotants": "2"
     },
     {
@@ -112,6 +442,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "9255",
+      "titre": "le sous-amendement n° 156 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "206",
+      "pour": "67",
+      "contre": "131",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9228",
       "titre": "le sous-amendement n° 68 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
       "date": "2026-10-29",
@@ -119,6 +460,28 @@
       "nombreVotants": "265",
       "pour": "85",
       "contre": "171",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9301",
+      "titre": "le sous-amendement n° 67 de Mme Ranc à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "62",
+      "contre": "139",
+      "abstentions": "9",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9315",
+      "titre": "le sous-amendement n° 24 de M. Valentin à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
+      "date": "2026-10-29",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "67",
+      "contre": "137",
       "abstentions": "9",
       "nonVotants": "2"
     },
@@ -178,378 +541,15 @@
       "nonVotants": "2"
     },
     {
-      "numero": "9205",
-      "titre": "le sous-amendement n° 45 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
+      "numero": "9269",
+      "titre": "le sous-amendement n° 109 de M. Fayssat à l'amendement n° 8 (rect.) de Mme Hamelet à l'article premier de la proposition de loi pour protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse (première lecture).",
       "date": "2026-10-29",
       "sort": null,
-      "nombreVotants": "260",
-      "pour": "85",
-      "contre": "169",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9207",
-      "titre": "le sous-amendement n° 47 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "261",
-      "pour": "88",
-      "contre": "166",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9210",
-      "titre": "le sous-amendement n° 50 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "263",
-      "pour": "86",
-      "contre": "169",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9235",
-      "titre": "le sous-amendement n° 89 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "267",
-      "pour": "88",
-      "contre": "172",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9217",
-      "titre": "le sous-amendement n° 57 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "263",
-      "pour": "88",
-      "contre": "168",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9201",
-      "titre": "l'article premier de la proposition de loi visant à rétablir le droit commun de la prescription acquisitive dans les Collectivités régies par l’article 73 de la Constitution ainsi qu’à Saint-Martin et Saint-Barthélemy (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "212",
-      "pour": "116",
-      "contre": "4",
-      "abstentions": "92",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9220",
-      "titre": "le sous-amendement n° 60 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "261",
-      "pour": "84",
-      "contre": "169",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9227",
-      "titre": "le sous-amendement n° 67 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "87",
-      "contre": "170",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9202",
-      "titre": "l'article premier de la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "296",
-      "pour": "161",
-      "contre": "119",
-      "abstentions": "16",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9221",
-      "titre": "le sous-amendement n° 61 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "84",
-      "contre": "171",
+      "nombreVotants": "214",
+      "pour": "67",
+      "contre": "138",
       "abstentions": "9",
       "nonVotants": "2"
-    },
-    {
-      "numero": "9215",
-      "titre": "le sous-amendement n° 55 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "261",
-      "pour": "86",
-      "contre": "169",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9209",
-      "titre": "le sous-amendement n° 49 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "265",
-      "pour": "87",
-      "contre": "170",
-      "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9237",
-      "titre": "l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "153",
-      "contre": "8",
-      "abstentions": "103",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9206",
-      "titre": "le sous-amendement n° 46 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "260",
-      "pour": "88",
-      "contre": "166",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9216",
-      "titre": "le sous-amendement n° 56 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "88",
-      "contre": "169",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9236",
-      "titre": "le sous-amendement n° 90 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "270",
-      "pour": "88",
-      "contre": "175",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9234",
-      "titre": "le sous-amendement n° 88 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "269",
-      "pour": "86",
-      "contre": "174",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9232",
-      "titre": "le sous-amendement n° 72 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "269",
-      "pour": "88",
-      "contre": "174",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9226",
-      "titre": "le sous-amendement n° 66 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "264",
-      "pour": "87",
-      "contre": "170",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9218",
-      "titre": "le sous-amendement n° 58 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "263",
-      "pour": "87",
-      "contre": "169",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9233",
-      "titre": "le sous-amendement n° 73 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "269",
-      "pour": "86",
-      "contre": "174",
-      "abstentions": "9",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9203",
-      "titre": "l'ensemble de la proposition de loi visant à créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "305",
-      "pour": "166",
-      "contre": "16",
-      "abstentions": "123",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9231",
-      "titre": "le sous-amendement n° 71 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "267",
-      "pour": "87",
-      "contre": "173",
-      "abstentions": "7",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9212",
-      "titre": "le sous-amendement n° 52 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "261",
-      "pour": "88",
-      "contre": "167",
-      "abstentions": "6",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9204",
-      "titre": "le sous-amendement n° 44 de M. Bernhardt à l'amendement n° 2 de M. Tryzna à l'article premier de la proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles (première lecture).",
-      "date": "2026-10-29",
-      "sort": null,
-      "nombreVotants": "262",
-      "pour": "84",
-      "contre": "165",
-      "abstentions": "13",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9192",
-      "titre": "l'amendement n° 3659 de M. Attal après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "166",
-      "pour": "89",
-      "contre": "74",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9173",
-      "titre": "l'amendement n° 2121 de Mme Bentorki après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "178",
-      "pour": "61",
-      "contre": "117",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9157",
-      "titre": "l'amendement n° 295 de Mme Lejeune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "88",
-      "pour": "27",
-      "contre": "60",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9198",
-      "titre": "l'amendement n° 2474 de Mme Lejeune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "155",
-      "pour": "56",
-      "contre": "97",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9163",
-      "titre": "l'amendement n° 2468 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "165",
-      "pour": "61",
-      "contre": "104",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9200",
-      "titre": "l'amendement n° 1022 de M. Fournier après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "135",
-      "pour": "47",
-      "contre": "88",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9168",
-      "titre": "l'amendement n° 1654 de M. Ciotti après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "177",
-      "pour": "5",
-      "contre": "112",
-      "abstentions": "60",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9160",
-      "titre": "l'amendement n° 304 de Mme Lejeune après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "119",
-      "pour": "44",
-      "contre": "75",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9161",
-      "titre": "l'amendement n° 3439 de Mme Cathala après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-10-28",
-      "sort": null,
-      "nombreVotants": "125",
-      "pour": "30",
-      "contre": "86",
-      "abstentions": "9",
-      "nonVotants": "1"
     }
   ]
 }

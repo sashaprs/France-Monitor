@@ -1,105 +1,6 @@
 {
-  "updatedAt": "2026-10-31T06:41:02.660Z",
+  "updatedAt": "2026-10-31T10:15:03.217Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461467",
-      "titre": "audition, ouverte à la presse, du général d’armée (2S) Thierry Burkhard, délégué national de l’Ordre de la Libération et de M. Thomas Ottenheimer, maire de Vassieux-en-Vercors, co-président pour l’année 2026 du conseil d’administration de l’Ordre de la Libération (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:00:00.000Z",
-      "dateFin": "2026-10-28T09:55:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461472",
-      "titre": "audition de M. Thierry Guimbaud, président de l’Autorité de régulation des transports, sur le projet de contrat de performance État – SNCF Réseau.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:05:00.000Z",
-      "dateFin": "2026-10-28T09:30:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461347",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:05:00.000Z",
-      "dateFin": "2026-10-28T12:10:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461466",
-      "titre": "table ronde sur les conséquences du poids des normes sur la vie associative réunissant MM. Guillaume Sanchez, directeur général de la Société protectrice des animaux (SPA), et Mickaël Varlet, secrétaire général, M. Clément Guyot, responsable des partenariats publics nationaux de Sport dans la ville, M. Jean Yves Macé, président de MJC de France, et Mme Virginie Ballif, directrice juridique adjointe de l’AFM-Téléthon ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": "2026-10-28T09:55:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461425",
-      "titre": "examen, au titre de l’article 88 du Règlement, des amendements aux propositions de loi :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": "2026-10-28T09:15:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461372",
-      "titre": "audition de M. Jean-Luc Duval, président de la Coopération agricole.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": "2026-10-28T10:15:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461285",
-      "titre": "suite et fin de l’examen, ouvert à la presse, des avis budgétaires sur le projet de loi de finances pour 2027 (n° 3210) :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": "2026-10-28T11:45:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461535",
-      "titre": "suite de l’examen pour avis et vote des crédits de la mission « Justice » (Mme Gabrielle Cathala, rapporteure pour avis sur les crédits de la justice et de l’accès au droit et M. Cyril Tribuiani, rapporteur pour avis sur les crédits de l’administration pénitentiaire et de la protection judiciaire de la jeunesse) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T08:30:00.000Z",
-      "dateFin": "2026-10-28T10:15:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461473",
-      "titre": "audition de M. Matthieu Chabanel, président-directeur général de SNCF Réseau, sur le projet de contrat de performance État – SNCF Réseau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T09:40:00.000Z",
-      "dateFin": "2026-10-28T11:30:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDFL461503",
-      "titre": "Audition de deux groupes d’experts d’usages du département de la Haute-Savoie, qui présenteront sous forme théâtrale leurs travaux relatifs à l’évaluation de la loi du 11 février 2005.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-10-28T10:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle Colbert",
-      "organisateur": "PO854471"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461468",
-      "titre": "audition, ouverte à la presse, du général de brigade Patrice Bellon, chef de la division « cohésion nationale » de l’état-major des armées, de Mme Anne Padier-Savouroux, sous-directrice des  parcours éducatifs et des éducations transversales au ministère de l’éducation nationale et de M. Gilbert Borjon, adjoint au directeur de la mémoire, de la culture et des archives du ministère des armées et des anciens combattants (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-28T10:05:00.000Z",
-      "dateFin": "2026-10-28T11:15:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
     {
       "uid": "RUANR5L17S2027IDC461373",
       "titre": "audition de M. Bruno Bonnell, secrétaire général pour l’Investissement (SGPI).",
@@ -339,7 +240,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-30T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-30T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -348,7 +249,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-10-30T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-10-30T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

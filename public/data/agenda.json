@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-01T08:46:57.783Z",
+  "updatedAt": "2026-11-01T11:07:16.089Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461517",
-      "titre": "audition, ouverte à la presse, de M. Éric Debarbieux, docteur en philosophie, chercheur.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461506",
-      "titre": "audition conjointe de M. Nicolas Chayvialle, sous-directeur de la fiscalité directe des entreprises (sous-direction B) à la direction de la législation fiscale (DLF), accompagné de M. Quentin Ladrette-Faget, inspecteur principal à la section 1 du bureau B2 « Champ, taux et régimes particuliers de la fiscalité directe des entreprises » ; et M. Stéphane Créange, chef du service de la sécurité juridique et du contrôle fiscal (SJCF), direction générale des finances publiques (DGFiP).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
-      "organisateur": "PO885320"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461518",
-      "titre": "audition, ouverte à la presse, de Mme Catherine Becchetti-Bizot, médiatrice de l’éducation nationale et de l’enseignement supérieur, MM. Franck Jarno, adjoint à la médiatrice, et Raphaël Matta-Duvignau, chargé de mission.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T10:00:00.000Z",
-      "dateFin": null,
-      "lieu": "salle 4088, Bâtiment Olympe de Gouges, 9 rue de Bourgogne",
-      "organisateur": "PO884520"
-    },
     {
       "uid": "RUANR5L17S2027IDC461504",
       "titre": "audition de Mme Naïma Moutchou, ministre des outre-mer, et de M. David Amiel, ministre de l’action et des comptes publics, sur le projet de loi de finances pour 2027 ;",

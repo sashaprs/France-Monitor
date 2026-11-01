@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-01T20:14:33.654Z",
+  "updatedAt": "2026-11-01T21:49:59.181Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30970",
-      "titre": "Journée réservée au groupe LFI-NFP",
-      "type": "seance_type",
-      "dateDebut": "2026-10-29T20:30:00.000Z",
-      "dateFin": "2026-10-29T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS30971",
       "titre": null,

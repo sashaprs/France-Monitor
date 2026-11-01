@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-01T11:07:16.089Z",
+  "updatedAt": "2026-11-01T15:48:16.723Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461504",
-      "titre": "audition de Mme Naïma Moutchou, ministre des outre-mer, et de M. David Amiel, ministre de l’action et des comptes publics, sur le projet de loi de finances pour 2027 ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T13:05:00.000Z",
-      "dateFin": "2026-10-29T14:20:00.000Z",
-      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO675659"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461343",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-10-29T13:45:00.000Z",
-      "dateFin": "2026-10-29T16:10:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30969",
-      "titre": "Journée réservée au groupe LFI-NFP",
-      "type": "seance_type",
-      "dateDebut": "2026-10-29T14:00:00.000Z",
-      "dateFin": "2026-10-29T19:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461451",
       "titre": "audition de M. David Amiel, ministre de l’Action et des Comptes publics, sur les crédits de la mission « Transformation et Fonction publiques » ;",

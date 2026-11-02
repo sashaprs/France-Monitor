@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-02T17:52:52.864Z",
+  "updatedAt": "2026-11-02T22:38:24.100Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30973",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-30T20:30:00.000Z",
-      "dateFin": "2026-10-30T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31037",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
@@ -51,7 +42,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-02T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-02T12:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -214,7 +205,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T15:30:00.000Z",
       "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
     {
@@ -255,7 +246,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30978",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-03T20:30:00.000Z",
       "dateFin": null,
@@ -371,6 +362,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461591",
+      "titre": "table ronde réunissant des commerçants touchés par les violences, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958) :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC460837",
       "titre": "audition de M. Emmanuel Levacher, président-directeur général d'Arquus.",
       "type": "reunionCommission_type",
@@ -452,15 +452,6 @@
       "organisateur": "PO880826"
     },
     {
-      "uid": "RUANR5L17S2027IDC461453",
-      "titre": "audition de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461575",
       "titre": "audition de M. Guillaume Basset, directeur général délégué Invest de Business France et de Mmes Sandrine Coquelard, directrice expertise juridique et économique de Business France et Florence Lilti, cheffe de cabinet",
       "type": "reunionCommission_type",
@@ -489,12 +480,30 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461587",
-      "titre": "audition de Mme Anne Brachet, DGA Engineering & Maintenance groupe Air France KLM et de MM. Vincent d’Andrea, DGA Air France Industries et Aurélien Gomez, directeur Affaires parlementaires et Territoriales",
+      "titre": "audition de M. Béranger Sénéchal, responsable du Produit Militaire d’Air France Industries, de M. Vincent d’Andrea, DGA Air France Industries et de M. Aurélien Gomez, directeur Affaires parlementaires et Territoriales",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T16:30:00.000Z",
       "dateFin": "2026-11-04T17:30:00.000Z",
       "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
       "organisateur": "PO880826"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461453",
+      "titre": "audition de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461592",
+      "titre": "éventuellement, suite de l'ordre du jour de l'après-midi",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS30980",
@@ -813,7 +822,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30993",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
       "type": "seance_type",
       "dateDebut": "2026-11-12T14:00:00.000Z",
       "dateFin": null,

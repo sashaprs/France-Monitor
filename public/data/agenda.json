@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T00:35:58.674Z",
+  "updatedAt": "2026-11-03T07:37:35.106Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31037",
@@ -60,7 +60,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-02T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-02T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -87,7 +87,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-02T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-02T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -489,7 +489,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461453",
-      "titre": "audition de Mme Françoise Gatel, ministre de l’Aménagement du territoire et de la Décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
+      "titre": "audition de Mme Françoise Gatel, ministre de l’aménagement du territoire et de la décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T17:00:00.000Z",
       "dateFin": null,
@@ -498,7 +498,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461592",
-      "titre": "éventuellement, suite de l'ordre du jour de l'après-midi",
+      "titre": "éventuellement, suite de l'ordre du jour de l'après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T20:00:00.000Z",
       "dateFin": null,
@@ -507,7 +507,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30980",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-04T20:30:00.000Z",
       "dateFin": null,
@@ -525,7 +525,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30981",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-05T08:00:00.000Z",
       "dateFin": null,
@@ -588,7 +588,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30982",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-05T14:00:00.000Z",
       "dateFin": null,
@@ -597,7 +597,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30983",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-05T20:30:00.000Z",
       "dateFin": null,
@@ -606,7 +606,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30984",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-06T08:00:00.000Z",
       "dateFin": null,
@@ -615,7 +615,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30985",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-06T14:00:00.000Z",
       "dateFin": null,
@@ -624,7 +624,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30986",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-06T20:30:00.000Z",
       "dateFin": null,
@@ -840,7 +840,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30994",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "titre": "Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
       "type": "seance_type",
       "dateDebut": "2026-11-12T20:30:00.000Z",
       "dateFin": null,

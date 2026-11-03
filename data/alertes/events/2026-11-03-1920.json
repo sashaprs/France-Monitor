@@ -1,0 +1,71 @@
+{
+ "genere_le": "2026-11-03T19:20:28.048Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N52767:promulgue",
+   "type": "changement_etape",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Abrogation du Code noir — promulgué",
+   "detail": "Statut : « en navette » → « promulgué »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/abrogation_code_noir",
+   "dossier_id": "DLR5L17N52767",
+   "texte_matchable": "Abrogation du Code noir Abrogation du Code noir Lois Max Mathiasin",
+   "profils": []
+  },
+  {
+   "id": "dossier-statut:DLR5L17N53352:retire",
+   "type": "changement_etape",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Interroger l’inadaptation de la réponse actuelle face aux crimes d’extrême droite — retiré",
+   "detail": "Statut : « en commission » → « retiré »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interroger_inadaptation_reponse_actuelle_face_crimes_extreme_droite",
+   "dossier_id": "DLR5L17N53352",
+   "texte_matchable": "Interroger l’inadaptation de la réponse actuelle face aux crimes d’extrême droite Interroger l’inadaptation de la réponse actuelle face aux crimes d’extrême droite Lois",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59048B3210P2D1N003058",
+   "type": "nouvel_amendement",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Amendement n° II-CF3058 de Henri Alfandari (HOR) — ART. 64",
+   "detail": "Le présent amendement vise à réduire les ETP de de l’ANCT de 333 emplois, soit la totalité de ses emplois.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF3058",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement vise à réduire les ETP de de l’ANCT de 333 emplois, soit la totalité de ses emplois. ART. 64 Henri Alfandari HOR Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59048B3210P2D1N003059",
+   "type": "nouvel_amendement",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Amendement n° II-CF3059 de Henri Alfandari (HOR) — ART. 64",
+   "detail": "Le présent amendement vise à réduire les ETP de l’ADEME de 527 emplois, soit la moitié de ses effectifs, et de l’OFB de 500 emplois.",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION_FIN/II-CF3059",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Le présent amendement vise à réduire les ETP de l’ADEME de 527 emplois, soit la moitié de ses effectifs, et de l’OFB de 500 emplois. ART. 64 Henri Alfandari HOR Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO420120B3210P2D1N000282",
+   "type": "nouvel_amendement",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Amendement n° II-AS282 de Rapporteur — ART. 58",
+   "detail": "Cet amendement vient soutenir l’une des recommandations du rapporteur Cyrille Isaac-Sibille , formulée dans son projet de rapport pour avis sur la mission Santé . La contribution de l’AME à la préven…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION-SOC/II-AS282",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement vient soutenir l’une des recommandations du rapporteur Cyrille Isaac-Sibille , formulée dans son projet de rapport pour avis sur la mission Santé . La contribution de l’AME à la préven… ART. 58 Rapporteur Projet de loi de finances pour 2027",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO420120B3210P2D1N000080",
+   "type": "nouvel_amendement",
+   "date": "2026-11-03T19:20:28.048Z",
+   "titre": "Amendement n° II-AS80 de Karim Benbrahim (SOC) — ART. 58",
+   "detail": "Cet amendement du groupe socialistes et apparentés vise à rétablir, à leur niveau de la loi de finances pour 2026, les crédits alloués aux services mandataires judiciaires à la protection des majeurs…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210/CION-SOC/II-AS80",
+   "dossier_id": "DLR5L17N54629",
+   "texte_matchable": "Cet amendement du groupe socialistes et apparentés vise à rétablir, à leur niveau de la loi de finances pour 2026, les crédits alloués aux services mandataires judiciaires à la protection des majeurs… ART. 58 Karim Benbrahim SOC Projet de loi de finances pour 2027",
+   "profils": []
+  }
+ ]
+}

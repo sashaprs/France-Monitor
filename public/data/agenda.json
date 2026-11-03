@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-03T11:43:38.280Z",
+  "updatedAt": "2026-11-03T15:51:58.391Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31038",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-31T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31039",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
@@ -173,6 +164,15 @@
       "organisateur": "PO419865"
     },
     {
+      "uid": "RUANR5L17S2027IDC461423",
+      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-03T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461428",
       "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
       "type": "reunionCommission_type",
@@ -207,15 +207,6 @@
       "dateFin": "2026-11-03T17:30:00.000Z",
       "lieu": "Salle 7070 – 103 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO880826"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461423",
-      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T16:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461471",
@@ -360,6 +351,15 @@
       "dateFin": null,
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461594",
+      "titre": "- table ronde des associations : que vivent les victimes pendant les 48 premières heures, et où le parcours se bloque-t-il ? Non ouverte à la presse et réunissant :\rMmes Laure Salmona, directrice générale de Féministes contre le cyberharcèlement, Alejandra Mariscal Lopez, directrice de Point de contact, Véronique Béchu, directrice de l’Observatoire des violences numériques et du harcèlement chez les mineurs de e-Enfance / 3018 et Mme Inès Legendre, responsable du plaidoyer, Hana Outaik, cofondatrice de Stop Fisha, Emmanuelle Beauchage, directrice générale du Centre Hubertine Auclerc et Mme Inès Girard, chargée de mission cyberviolences sexistes et sexuelles et Alyssa Ahrabare, responsable du plaidoyer d’Osez le féminisme.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T14:00:00.000Z",
+      "dateFin": "2026-11-04T16:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO888212"
     },
     {
       "uid": "RUANR5L17S2027IDC460837",
@@ -507,7 +507,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461558",
-      "titre": "- Audition conjointe d’organisations syndicales de salariés du secteur agricole, avec :\r. M. Didier Aubert, membre du Bureau fédéral de la FNAF-CGT, membre du Conseil d’administration de la Caisse centrale de la mutualité sociale agricole (CCMSA), du Comité de suivi du plan Ecophyto et du Conseil d'orientation des conditions de travail (COCT) ;\r. M. Dominique Boucherel, vice-président en charge de la production agricole à la CFTC Agri ;\r. M. Benoît Delarce, secrétaire national à la CFDT Agri-Agro ;\r. M. Pierre Millet, premier vice-président du SNCEA/CFE-CGC.",
+      "titre": "- Audition conjointe d’organisations syndicales de salariés du secteur agricole, avec :\r. M. Didier Aubert, membre du Bureau fédéral de la FNAF-CGT, membre du Conseil d’administration de la Caisse centrale de la mutualité sociale agricole (CCMSA), du Comité de suivi du plan Ecophyto et du Conseil d'orientation des conditions de travail (COCT) ;\r. M. Dominique Boucherel, vice-président en charge de la production agricole à la CFTC Agri ;\r. M. Benoît Delarce et Mme Stéphanie Chrétien, secrétaires nationaux à la CFDT Agri Agro ;\r. M. Pierre Millet, premier vice-président du SNCEA/CFE-CGC.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-05T08:00:00.000Z",
       "dateFin": null,
@@ -561,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461559",
-      "titre": "audition de M. Henri Bastos, adjoint au directeur de l’évaluation des risques, responsable du domaine « Santé environnement et santé travail », accompagné de Mme Sarah Aubertie, directrice adjointe de cabinet, Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail (Anses).",
+      "titre": "audition de M. Henri Bastos, directeur adjoint à la direction de l’évaluation des risques en charge du domaine santé travail, accompagné de Mme Sarah Aubertie, directrice adjointe de cabinet, Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail (Anses).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-05T09:30:00.000Z",
       "dateFin": null,
@@ -618,6 +618,60 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-06T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31090",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-07T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31091",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-07T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31092",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-07T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31093",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-08T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31094",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-08T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31095",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-08T20:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"

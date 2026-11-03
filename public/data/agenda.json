@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-03T19:16:09.262Z",
+  "updatedAt": "2026-11-03T21:31:40.815Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31039",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-10-31T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461543",
       "titre": "Mission à Brazzaville et Pointe-Noire",

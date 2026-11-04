@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T11:56:26.588Z",
+  "updatedAt": "2026-11-04T16:52:57.800Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461543",
@@ -42,7 +42,7 @@
       "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, sur les crédits des missions « Sécurités », « Administration générale et territoriale de l’État » et « Immigration, asile et intégration » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-02T16:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-02T19:00:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -51,7 +51,7 @@
       "titre": "suite de l’ordre du jour de l’après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-02T20:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-02T21:30:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -63,6 +63,15 @@
       "dateFin": "2026-11-02T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUSNR5L17S2027IDS31096",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-03T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2027IDC461588",
@@ -123,7 +132,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-03T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -147,19 +156,19 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461474",
-      "titre": "présentation des conclusions de la mission d’information sur les éco-organismes et les éco-contributions (M. Stéphane Delautrette et Mme Anne-Cécile Violland, rapporteurs).",
+      "titre": "- désignation d’un rapporteur sur la proposition de loi visant à lever les contraintes pesant sur le foncier (n° 3332) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T17:00:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461423",
-      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé ;",
+      "titre": "- nomination de rapporteurs sur les propositions de loi :\r• visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) ;\r• visant à limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler (n° 2227) ;\r- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé ;\r- avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T17:30:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -168,7 +177,7 @@
       "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T17:00:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -186,7 +195,7 @@
       "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T18:25:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -204,7 +213,7 @@
       "titre": "audition, ouverte à la presse, de Mme Agnès Verdier-Molinié, directrice de la Fondation pour la recherche sur les administrations et les politiques publiques (Ifrap).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T17:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T18:15:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO884567"
     },
@@ -213,7 +222,7 @@
       "titre": "examen, en deuxième lecture, selon la procédure de législation en commission, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l’équilibre dans les rapports locatifs (n° 3393)  (M. Iñaki Echaniz, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-03T17:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T18:50:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -222,7 +231,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-03T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-03T23:05:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -246,10 +255,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461519",
-      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle.",
+      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle réunissant Mme Daniela Elstner, directrice générale d’Unifrance, et M. Axel Scoffier, secrétaire général, M. Matthias Grolier, directeur général de France Muséums, M. David Kibler, directeur adjoint de la diplomatie culturelle, éducative, universitaire et scientifique au ministère de l’Europe et des affaires étrangères, Mme Anne-Claire Legendre, présidente de l’Institut du monde arabe, et Mme Eva Nguyen Binh, présidente de l’Institut français, ambassadrice pour l’action culturelle extérieure de la France ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T10:40:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO419604"
     },
@@ -324,6 +333,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461596",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-04T12:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO888016"
     },
     {
       "uid": "RUANR5L17S2027IDS30979",
@@ -524,6 +542,15 @@
       "organisateur": "PO885414"
     },
     {
+      "uid": "RUANR5L17S2027IDC461598",
+      "titre": "audition de M. Pierre Cunéo, directeur général de l’Agence nationale de l’habitat (ANAH), accompagné de MM. Grégoire Frèrejacques, directeur général adjoint, et Mathieu Przybylsky, directeur de cabinet, et de Mme Roxane Rousseau, responsable de coordination auprès du directeur de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-05T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO887868"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461572",
       "titre": "audition de M. Filip Cornelis, chargé de la direction E, Aviation, au sein de la direction générale de la mobilité et des transports (DG MOVE) de la Commission européenne.",
       "type": "reunionCommission_type",
@@ -534,7 +561,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461560",
-      "titre": "audition de Mme Laurence Marion, secrétaire générale du Gouvernement, accompagnée de M. Thibaut de Vanssay, directeur des services administratifs et financiers des services du Premier ministre.",
+      "titre": "audition de Mme Laurence Marion, secrétaire générale du Gouvernement, accompagnée de M. Thibaut de Vanssay, directeur des services administratifs et financiers du Premier ministre.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-05T09:00:00.000Z",
       "dateFin": null,
@@ -666,6 +693,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461597",
+      "titre": "Lundi 9 novembre 2026 à 15 heures : Séance plénière de l'APFA- Ouverture de la séance par les Présidentes de l’Assemblée nationale et du Bundestag allemand - Audition conjointe de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, et de M. Boris Pistorius, ministre fédéral de la Défense - Examen des propositions de texte et des amendements déposés\r\rMardi 10 novembre 2026 à 8 h 15 : Séance plénière de l'APFA - Suite de l’examen des propositions de texte et des amendements déposés",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-08T23:00:00.000Z",
+      "dateFin": "2026-11-10T22:59:59.000Z",
+      "lieu": null,
+      "organisateur": "PO763566"
     },
     {
       "uid": "RUANR5L17S2027IDS30987",
@@ -1217,6 +1253,33 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDS31063",
+      "titre": "Questions orales sans débat (salle Lamartine)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-24T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31064",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-24T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31065",
+      "titre": "Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-24T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461557",
       "titre": "audition, ouverte à la presse, de Mme Marie-Christine Verdier-Jouglas, directrice générale de l’Office national des combattants et des victimes et de guerre (ONaCVG) et de M. Pierre-Emmanuel de Laforcade, directeur général du Bleuet de France (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
@@ -1244,6 +1307,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDS31066",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-11-25T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461534",
       "titre": "audition, ouverte à la presse, de M. François Sauvadet, président du conseil départemental de Côte-d’Or, président de Départements de France, et M. Frédéric Bierry, président de la collectivité européenne d’Alsace, chargé de la solidarité au sein de Départements de France.",
       "type": "reunionCommission_type",
@@ -1269,6 +1341,42 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31067",
+      "titre": "Suite de la discussion de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l’exception culturelle européenne",
+      "type": "seance_type",
+      "dateDebut": "2026-11-25T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31068",
+      "titre": "Discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+      "type": "seance_type",
+      "dateDebut": "2026-11-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31069",
+      "titre": "Suite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+      "type": "seance_type",
+      "dateDebut": "2026-11-26T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31070",
+      "titre": "Suite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+      "type": "seance_type",
+      "dateDebut": "2026-11-26T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461546",

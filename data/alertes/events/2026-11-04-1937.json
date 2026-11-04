@@ -1,0 +1,82 @@
+{
+ "genere_le": "2026-11-04T19:37:23.588Z",
+ "evenements": [
+  {
+   "id": "odj:3b1dc9027b7b4ef7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour de la séance publique : DLR5L17N55223",
+   "detail": "jeudi 12 novembre à 15:00 · Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
+   "url": null,
+   "dossier_id": "DLR5L17N55223",
+   "texte_matchable": "Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026 Assemblée",
+   "profils": []
+  },
+  {
+   "id": "odj:4f4fd2eda1dbd66c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour de la séance publique : DLR5L17N55223",
+   "detail": "jeudi 12 novembre à 21:30 · Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
+   "url": null,
+   "dossier_id": "DLR5L17N55223",
+   "texte_matchable": "Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026 Assemblée",
+   "profils": []
+  },
+  {
+   "id": "odj:183dc8a624974675",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour de la séance publique : La révision de la directive « Services de médias audiovisuels » et la défense de l’exception culturelle européenne",
+   "detail": "mercredi 25 novembre à 14:00 · Discussion de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l’exception culturelle européenne",
+   "url": null,
+   "dossier_id": "DLR5L17N54254",
+   "texte_matchable": "Discussion de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l’exception culturelle européenne Assemblée La révision de la directive « Services de médias audiovisuels » et la défense de l’exception culturelle européenne",
+   "profils": []
+  },
+  {
+   "id": "odj:dd6aeedf05b8d4d3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour de la séance publique : Réviser la définition de l’œuvre européenne",
+   "detail": "mercredi 25 novembre à 14:00 · Discussion de la proposition de résolution européenne visant à réviser la définition de l’œuvre européenne",
+   "url": null,
+   "dossier_id": "DLR5L17N54288",
+   "texte_matchable": "Discussion de la proposition de résolution européenne visant à réviser la définition de l’œuvre européenne Assemblée Réviser la définition de l’œuvre européenne",
+   "profils": []
+  },
+  {
+   "id": "odj:b5199e7a36509e81",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour de la séance publique : rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "detail": "mercredi 25 novembre à 14:00 · Discussion de la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l’élaboration d’une position…",
+   "url": null,
+   "dossier_id": "DLR5L17N54277",
+   "texte_matchable": "Discussion de la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l’élaboration d’une position… Assemblée rapport sur le texte adopté par la commission des affaires européennes sur la proposition de résolution européenne de M…",
+   "profils": []
+  },
+  {
+   "id": "odj:f46c2123130177c6",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour — Affaires européennes : Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à…",
+   "detail": "mercredi 25 novembre à 16:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55023",
+   "texte_matchable": "Examen du texte Affaires européennes Faire de l’Union européenne le cadre d’une interdiction effective des mécanismes addictifs conçus et promus par les réseaux sociaux et plateformes numériques à…",
+   "profils": []
+  },
+  {
+   "id": "odj:688b42336513222f",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-04T19:37:23.588Z",
+   "titre": "À l'ordre du jour — Affaires européennes : Condamner l’instrumentalisation politique des mobilisations lycéennes et la légitimation des violences aux abords des établissements scolaires",
+   "detail": "mercredi 25 novembre à 16:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55054",
+   "texte_matchable": "Examen du texte Affaires européennes Condamner l’instrumentalisation politique des mobilisations lycéennes et la légitimation des violences aux abords des établissements scolaires",
+   "profils": []
+  }
+ ]
+}

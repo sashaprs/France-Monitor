@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-05T03:12:34.694Z",
+  "updatedAt": "2026-11-05T11:54:43.846Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30974",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-02T08:00:00.000Z",
-      "dateFin": "2026-11-02T12:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461581",
       "titre": "table ronde avec M. Paul Tourret, directeur de l'Institut supérieur d'économie maritime (ISEMAR)",
@@ -236,6 +227,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31097",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-04T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461519",
       "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle réunissant Mme Daniela Elstner, directrice générale d’Unifrance, et M. Axel Scoffier, secrétaire général, M. Matthias Grolier, directeur général de France Muséums, M. David Kibler, directeur adjoint de la diplomatie culturelle, éducative, universitaire et scientifique au ministère de l’Europe et des affaires étrangères, Mme Anne-Claire Legendre, présidente de l’Institut du monde arabe, et Mme Eva Nguyen Binh, présidente de l’Institut français, ambassadrice pour l’action culturelle extérieure de la France ;",
       "type": "reunionCommission_type",
@@ -339,7 +339,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-04T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T18:10:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -348,7 +348,7 @@
       "titre": "table ronde réunissant des commerçants touchés par les violences, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958) :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T13:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T16:30:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59051"
     },
@@ -393,7 +393,7 @@
       "titre": "- audition conjointe, ouverte à la presse, de Mme Cécile Laloux, rectrice de la région académique de la Martinique, rectrice de l’académie, directrice académique des services de l’éducation nationale (Dasen),  M. Olivier Cottet, Dasen du Nord,  M. Jérôme Listello, Dasen du Cantal,  M. Dominique Malroux, Dasen des Pyrénées-Atlantiques, M. Aymeric Meiss, Dasen de l’Hérault,  Mme Catherine Moalic, Dasen du Finistère, M. Jean-Paul Obellianne, Dasen de l’Oise.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T16:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -465,7 +465,7 @@
       "titre": "- audition conjointe, ouverte à la presse de M. Jean-François Condette, professeur des universités en histoire contemporaine à l’université de Lille et M. Éric Fardet, inspecteur général de l’éducation, du sport et de la recherche.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T16:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T17:15:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -483,7 +483,7 @@
       "titre": "audition de Mme Françoise Gatel, ministre de l’aménagement du territoire et de la décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-04T17:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T18:30:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -501,7 +501,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-04T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-04T22:20:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -722,15 +722,6 @@
       "organisateur": "PO59048"
     },
     {
-      "uid": "RUANR5L17S2027IDS30988",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-09T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461563",
       "titre": "examen de la proposition de loi visant à améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires (n° 3244) (Mme Valérie Rossi, rapporteure) ;",
       "type": "reunionCommission_type",
@@ -747,6 +738,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS30988",
+      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
+      "type": "seance_type",
+      "dateDebut": "2026-11-09T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461524",
@@ -795,7 +795,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461564",
-      "titre": "Examen de la proposition de loi modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi (n° 2907) (M. Stéphane Viry et Mme Océane Godard, rapporteurs)",
+      "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant au renforcement de l’attractivité de l’épargne salariale et à la mise en œuvre d’une procédure de déblocage exceptionnelle (n° 2625).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T15:30:00.000Z",
       "dateFin": null,
@@ -876,7 +876,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30992",
-      "titre": "Éventuellement, discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
+      "titre": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
       "type": "seance_type",
       "dateDebut": "2026-11-12T08:00:00.000Z",
       "dateFin": null,
@@ -912,7 +912,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS30994",
-      "titre": "Sous réserve de son dépôt, suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
+      "titre": "Suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
       "type": "seance_type",
       "dateDebut": "2026-11-12T20:30:00.000Z",
       "dateFin": null,
@@ -986,7 +986,7 @@
       "uid": "RUANR5L17S2027IDS31002",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
-      "dateDebut": "2026-11-16T14:00:00.000Z",
+      "dateDebut": "2026-11-16T15:00:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
@@ -1065,9 +1065,9 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461548",
-      "titre": "Audition, en application de l’article L. 1451 1 du code de la santé publique, de Mme Pearl Nguyên Duy, dont la nomination aux fonctions de directrice générale de l’Office national d’indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales est envisagée",
+      "titre": "audition, en application de l’article L. 1451 1 du code de la santé publique, de Mme Pearl Nguyên Duy, dont la nomination aux fonctions de directrice générale de l’Office national d’indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales est envisagée",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T16:30:00.000Z",
+      "dateDebut": "2026-11-17T15:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
@@ -1098,6 +1098,15 @@
       "dateFin": null,
       "lieu": "Salle 4132,  9 rue de Bourgogne, Entresol, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461595",
+      "titre": "examen de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) (Mme Josiane Corneloup, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461570",

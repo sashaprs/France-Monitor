@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-05T03:12:33.113Z",
+  "updatedAt": "2026-11-05T11:54:42.737Z",
   "scrutins": [
+    {
+      "numero": "9751",
+      "titre": "l'amendement n° 71 de M. Dufosset et les amendements identiques suivants de suppression de l'article 54 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "183",
+      "pour": "180",
+      "contre": "3",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
     {
       "numero": "9665",
       "titre": "l'amendement n° 922 de M. Maillot et l'amendement identique suivant à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
@@ -13,6 +24,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9718",
+      "titre": "l'amendement n° 742 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "162",
+      "pour": "61",
+      "contre": "99",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9662",
       "titre": "l'amendement n° 714 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -21,6 +43,17 @@
       "pour": "58",
       "contre": "59",
       "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9699",
+      "titre": "l'amendement n° 772 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "127",
+      "pour": "56",
+      "contre": "67",
+      "abstentions": "4",
       "nonVotants": "1"
     },
     {
@@ -79,6 +112,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9722",
+      "titre": "l'amendement n° 3851 de M. Kasbarian après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "166",
+      "pour": "93",
+      "contre": "67",
+      "abstentions": "6",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9702",
+      "titre": "l'amendement n° 737 de M. Jean-Philippe Tanguy après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "128",
+      "pour": "55",
+      "contre": "53",
+      "abstentions": "20",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9663",
       "titre": "l'amendement n° 715 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -109,6 +164,17 @@
       "pour": "66",
       "contre": "92",
       "abstentions": "11",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9710",
+      "titre": "l'amendement n° 3621 de Mme Ozenne après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "151",
+      "pour": "39",
+      "contre": "111",
+      "abstentions": "1",
       "nonVotants": "1"
     },
     {
@@ -156,6 +222,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9723",
+      "titre": "l'amendement n° 745 de M. Jean-Philippe Tanguy après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "159",
+      "pour": "75",
+      "contre": "71",
+      "abstentions": "13",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9683",
       "titre": "l'amendement n° 432 de M. Balanant et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -167,6 +244,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9742",
+      "titre": "l'amendement n° 753 de M. Renault après l'article 49 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "166",
+      "pour": "71",
+      "contre": "87",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9724",
+      "titre": "l'amendement n° 767 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "165",
+      "pour": "71",
+      "contre": "86",
+      "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9755",
+      "titre": "l'amendement n° 1428 de M. Le Coq à l'article 57 et état A du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "227",
+      "pour": "77",
+      "contre": "148",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9673",
       "titre": "l'amendement n° 721 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -176,6 +286,28 @@
       "contre": "97",
       "abstentions": "6",
       "nonVotants": "1"
+    },
+    {
+      "numero": "9719",
+      "titre": "l'amendement n° 743 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "163",
+      "pour": "63",
+      "contre": "91",
+      "abstentions": "9",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9752",
+      "titre": "l'amendement n° 656 de M. Jean-Philippe Tanguy de suppression de l'article 57 et état A du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "75",
+      "pour": "20",
+      "contre": "50",
+      "abstentions": "5",
+      "nonVotants": "2"
     },
     {
       "numero": "9694",
@@ -197,6 +329,28 @@
       "pour": "72",
       "contre": "100",
       "abstentions": "8",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9745",
+      "titre": "l'amendement n° 763 de M. Renault après l'article 49 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "175",
+      "pour": "75",
+      "contre": "89",
+      "abstentions": "11",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9748",
+      "titre": "l'amendement n° 1135 de Mme Bentorki à l'article 51 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "172",
+      "pour": "46",
+      "contre": "125",
+      "abstentions": "1",
       "nonVotants": "1"
     },
     {
@@ -244,6 +398,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9736",
+      "titre": "l'amendement n° 942 de Mme Lejeune à l'article 48 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "168",
+      "pour": "35",
+      "contre": "131",
+      "abstentions": "2",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9743",
+      "titre": "l'amendement n° 657 de Mme Roy et l'amendement identique suivant après l'article 49 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "162",
+      "pour": "84",
+      "contre": "65",
+      "abstentions": "13",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9664",
       "titre": "l'amendement n° 429 de M. Balanant et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -266,6 +442,28 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9714",
+      "titre": "l'amendement n° 756 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "155",
+      "pour": "60",
+      "contre": "91",
+      "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9706",
+      "titre": "l'amendement n° 1958 (rect.) de M. Pilato après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "date": "2026-11-04",
+      "sort": null,
+      "nombreVotants": "151",
+      "pour": "42",
+      "contre": "109",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9661",
       "titre": "l'amendement n° 713 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
@@ -277,279 +475,81 @@
       "nonVotants": "1"
     },
     {
-      "numero": "9691",
-      "titre": "l'amendement n° 1578 de M. Maillard et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9746",
+      "titre": "l'amendement n° 936 de Mme Erodi et les amendements identiques suivants de suppression de l'article 50 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "168",
-      "pour": "84",
-      "contre": "73",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9674",
-      "titre": "l'amendement n° 722 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "173",
-      "pour": "70",
-      "contre": "94",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9652",
-      "titre": "l'amendement n° 704 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "97",
-      "pour": "35",
-      "contre": "56",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9654",
-      "titre": "l'amendement n° 706 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "111",
-      "pour": "53",
-      "contre": "56",
+      "nombreVotants": "169",
+      "pour": "118",
+      "contre": "49",
       "abstentions": "2",
       "nonVotants": "1"
     },
     {
-      "numero": "9653",
-      "titre": "l'amendement n° 705 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9744",
+      "titre": "l'amendement n° 764 de M. Renault après l'article 49 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "111",
-      "pour": "48",
-      "contre": "59",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9684",
-      "titre": "l'amendement n° 734 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "160",
-      "pour": "62",
-      "contre": "89",
-      "abstentions": "9",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9678",
-      "titre": "l'amendement n° 726 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "187",
-      "pour": "70",
-      "contre": "110",
+      "nombreVotants": "167",
+      "pour": "75",
+      "contre": "85",
       "abstentions": "7",
       "nonVotants": "1"
     },
     {
-      "numero": "9675",
-      "titre": "l'amendement n° 723 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9728",
+      "titre": "l'amendement n° 921 de M. Maillot et les amendements identiques suivants après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "183",
-      "pour": "71",
-      "contre": "104",
-      "abstentions": "8",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9688",
-      "titre": "l'amendement n° 996 (rect.) de Mme Diop et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "182",
-      "pour": "78",
-      "contre": "101",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9687",
-      "titre": "l'amendement n° 995 de M. Tryzna et l'amendement identique suivant à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "179",
-      "pour": "77",
-      "contre": "15",
-      "abstentions": "87",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9681",
-      "titre": "l'amendement n° 474 de M. Balanant et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "156",
-      "pour": "71",
-      "contre": "82",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9660",
-      "titre": "l'amendement n° 712 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "118",
-      "pour": "58",
-      "contre": "58",
+      "nombreVotants": "174",
+      "pour": "50",
+      "contre": "122",
       "abstentions": "2",
       "nonVotants": "1"
     },
     {
-      "numero": "9695",
-      "titre": "l'amendement n° 2934 de M. de Courson à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9725",
+      "titre": "l'amendement n° 3457 (rect.) de M. Raux après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "168",
-      "pour": "59",
-      "contre": "98",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9686",
-      "titre": "l'amendement n° 760 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "165",
-      "pour": "61",
-      "contre": "99",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9671",
-      "titre": "l'amendement n° 719 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "166",
-      "pour": "67",
-      "contre": "93",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9668",
-      "titre": "l'amendement n° 716 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "152",
-      "pour": "62",
-      "contre": "88",
+      "nombreVotants": "162",
+      "pour": "41",
+      "contre": "119",
       "abstentions": "2",
       "nonVotants": "1"
     },
     {
-      "numero": "9651",
-      "titre": "l'amendement n° 701 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9747",
+      "titre": "l'amendement n° 126 de Mme Chatelain et les amendements identiques suivants de suppression de l'article 51 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "59",
-      "pour": "17",
-      "contre": "40",
-      "abstentions": "2",
+      "nombreVotants": "170",
+      "pour": "49",
+      "contre": "117",
+      "abstentions": "4",
       "nonVotants": "1"
     },
     {
-      "numero": "9666",
-      "titre": "l'amendement n° 659 de M. Jean-Philippe Tanguy et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9698",
+      "titre": "l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
-      "nombreVotants": "148",
-      "pour": "140",
-      "contre": "5",
-      "abstentions": "3",
+      "nombreVotants": "133",
+      "pour": "45",
+      "contre": "28",
+      "abstentions": "60",
       "nonVotants": "1"
     },
     {
-      "numero": "9690",
-      "titre": "l'amendement n° 1139 de M. Cadalen à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
+      "numero": "9726",
+      "titre": "l'amendement n° 770 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
       "date": "2026-11-04",
       "sort": null,
       "nombreVotants": "176",
-      "pour": "66",
-      "contre": "108",
-      "abstentions": "2",
+      "pour": "73",
+      "contre": "95",
+      "abstentions": "8",
       "nonVotants": "1"
-    },
-    {
-      "numero": "9659",
-      "titre": "l'amendement n° 711 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "115",
-      "pour": "55",
-      "contre": "58",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9680",
-      "titre": "l'amendement n° 475 de M. Balanant et les amendements identiques suivants à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "158",
-      "pour": "47",
-      "contre": "111",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9658",
-      "titre": "l'amendement n° 710 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "113",
-      "pour": "55",
-      "contre": "55",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9594",
-      "titre": "l'amendement n° 2581 de Mme Maximi après l'article 26 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-03",
-      "sort": null,
-      "nombreVotants": "184",
-      "pour": "52",
-      "contre": "129",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9603",
-      "titre": "l'amendement n° 1373 de Mme Regol après l'article 26 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-03",
-      "sort": null,
-      "nombreVotants": "143",
-      "pour": "41",
-      "contre": "101",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9589",
-      "titre": "l'amendement n° 2905 de M. Rolland après l'article 26 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-03",
-      "sort": null,
-      "nombreVotants": "185",
-      "pour": "96",
-      "contre": "83",
-      "abstentions": "6",
-      "nonVotants": "2"
     }
   ]
 }

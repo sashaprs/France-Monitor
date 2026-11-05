@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-04T22:26:22.992Z",
+  "updatedAt": "2026-11-05T00:47:11.195Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461543",
-      "titre": "Mission à Brazzaville et Pointe-Noire",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-01T23:00:00.000Z",
-      "dateFin": "2026-11-08T22:59:59.000Z",
-      "lieu": "Mission du groupe d'amitié en République du Congo",
-      "organisateur": "PO851577"
-    },
     {
       "uid": "RUANR5L17S2027IDS30974",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-06T07:41:47.973Z",
+  "updatedAt": "2026-11-06T11:55:20.519Z",
   "reunions": [
-    {
-      "uid": "RUSNR5L17S2027IDS31096",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-11-03T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
     {
       "uid": "RUANR5L17S2027IDC461588",
       "titre": "Table ronde « associations de maires et de collectivités locales », avec la participation de :\r- Intercommunalités de France\rM. Régis Banquet, président de l’agglomération de Carcassonne et vice-président d’Intercommunalités de France en charge du grand et du petit cycle de l’eau\r- Association nationale des élus de bassins (ANEB)\rM. Christopher Varin, président \rM. Albin Pinaudeau, directeur adjoint\r- Association des maires ruraux de France (AMRF)\rM. Serge Delfils, maire de Blamont",

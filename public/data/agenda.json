@@ -1,132 +1,6 @@
 {
-  "updatedAt": "2026-11-06T11:55:20.519Z",
+  "updatedAt": "2026-11-06T15:41:56.243Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461588",
-      "titre": "Table ronde « associations de maires et de collectivités locales », avec la participation de :\r- Intercommunalités de France\rM. Régis Banquet, président de l’agglomération de Carcassonne et vice-président d’Intercommunalités de France en charge du grand et du petit cycle de l’eau\r- Association nationale des élus de bassins (ANEB)\rM. Christopher Varin, président \rM. Albin Pinaudeau, directeur adjoint\r- Association des maires ruraux de France (AMRF)\rM. Serge Delfils, maire de Blamont",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T12:00:00.000Z",
-      "dateFin": "2026-11-03T13:30:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885393"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461571",
-      "titre": "audition du Vice-amiral Laurent BECHLER, Sous-chef Soutiens Finance de l’Etat-major de la Marine",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T13:00:00.000Z",
-      "dateFin": "2026-11-03T14:30:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461582",
-      "titre": "audition de Madame Lucile Poivert, Chief Operating Officer, Harmattan AI",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T13:00:00.000Z",
-      "dateFin": "2026-11-03T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461553",
-      "titre": "audition de Google et YouTube, représentés par M. Arnaud Vergnes et Mme Sarah Cledy, responsables des affaires publiques et institutionnelles .",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 7044 – 103 rue de l'Université, 2ème sous-sol",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461484",
-      "titre": "Rencontre avec M. Hubert Seillan, avocat au Barreau de Paris et Président de la Fondation France Maroc, paix et développement durable",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T13:00:00.000Z",
-      "dateFin": "2026-11-03T14:00:00.000Z",
-      "lieu": "4075",
-      "organisateur": "PO851612"
-    },
-    {
-      "uid": "RUANR5L17S2027IDFL461127",
-      "titre": "Audition de la fédération française des associations pour une protection non anthropomorphiste de la nature et des animaux (ProNaturA France) et de la fédération des jardineries et animaleries de France sur le thème du projet gouvernemental d’élaboration d’une liste positive des animaux d’espèces non domestiques dont la détention comme animaux de compagnie ou dans le cadre d’élevages d’agrément est autorisée en application du I. de l’article L. 413-1 A du code de l’environnement.",
-      "type": "reunionInitParlementaire_type",
-      "dateDebut": "2026-11-03T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "9e Bureau",
-      "organisateur": "PO854354"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30977",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-03T14:00:00.000Z",
-      "dateFin": "2026-11-03T19:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461585",
-      "titre": "audition des représentants du GIFAS : Général Frédéric Parisot, délégué général, M. Jérôme Jean, Directeur des Affaires publiques et StartAir, et  M. Alexandre Bufquin, Chargé de mission aux Affaires Publiques et StartAir",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T14:00:00.000Z",
-      "dateFin": "2026-11-03T15:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461439",
-      "titre": "audition, ouverte à la presse, de Mme Sophie Thibault, présidente de la 5e chambre de la Cour des comptes, et M. Arnaud Oseredczuk, président de la 2e section, conseiller maître.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461474",
-      "titre": "- désignation d’un rapporteur sur la proposition de loi visant à lever les contraintes pesant sur le foncier (n° 3332) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": "2026-11-03T17:00:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461423",
-      "titre": "- nomination de rapporteurs sur les propositions de loi :\r• visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) ;\r• visant à limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler (n° 2227) ;\r- projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Santé ;\r- avis de M. Cyrille Isaac-Sibille, rapporteur, puis vote sur les crédits.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": "2026-11-03T17:30:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461428",
-      "titre": "présentation des conclusion de la mission flash sur les causes et les conséquences pour l’économie française de l’augmentation des prix des produits pétroliers (M. Henri Alfandari et Mme Aurélie Trouvé, rapporteurs).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": "2026-11-03T17:00:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461438",
-      "titre": "audition, ouverte à la presse, de Mme Sophie Thibault, présidente de la 5e chambre de la Cour des comptes, Mme Marianne Cotis, conseillère référendaire en service extraordinaire, et M. Arnaud Oseredczuk, conseiller maître.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle à déterminer",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461562",
-      "titre": "audition de M. Laurent Nuñez, ministre de l’Intérieur, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-03T15:30:00.000Z",
-      "dateFin": "2026-11-03T18:25:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2027IDC461577",
       "titre": "audition des représentants syndicaux de la direction de la maintenance aéronautique (DMAé)",
@@ -497,8 +371,17 @@
       "organisateur": "PO78718"
     },
     {
+      "uid": "RUANR5L17S2027IDC461634",
+      "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint de l’Agence nationale de l’habitat (ANAH).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-05T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mansart – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO887868"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461598",
-      "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint de l’Agence nationale de l’habitat (ANAH), accompagné de M. Mathieu Przybylsky, directeur de cabinet, et de Mme Roxane Rousseau, responsable de coordination auprès du directeur de cabinet.",
+      "titre": "audition de M. Grégoire Frèrejacques, directeur général adjoint de l’Agence nationale de l’habitat (ANAH).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-05T08:30:00.000Z",
       "dateFin": null,
@@ -1276,7 +1159,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO881988"
     },
     {

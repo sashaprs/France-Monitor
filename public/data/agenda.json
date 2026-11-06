@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:53:46.829Z",
+  "updatedAt": "2026-11-06T07:41:47.973Z",
   "reunions": [
     {
       "uid": "RUSNR5L17S2027IDS31096",
@@ -495,6 +495,15 @@
       "dateFin": null,
       "lieu": "Salle n°3, 95 rue de l'Université",
       "organisateur": "PO885414"
+    },
+    {
+      "uid": "RUSNR5L17S2027IDS31098",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-05T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2027IDC461598",

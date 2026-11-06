@@ -1,0 +1,258 @@
+{
+ "genere_le": "2026-11-06T00:54:00.264Z",
+ "evenements": [
+  {
+   "id": "odj:998919271f9bb0fe",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "detail": "mardi 10 novembre à 14:30 · Nomination rapporteur",
+   "url": null,
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "Nomination rapporteur Développement durable Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:aebbaba8b9e9bb39",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Protéger nos forêts en encadrant les coupes rases",
+   "detail": "mardi 10 novembre à 14:30 · Examen du texte",
+   "url": null,
+   "dossier_id": "DLR5L17N55141",
+   "texte_matchable": "Examen du texte Développement durable Protéger nos forêts en encadrant les coupes rases",
+   "profils": []
+  },
+  {
+   "id": "odj:dd21510ba6345934",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Lever les contraintes pesant sur le foncier",
+   "detail": "mercredi 18 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55097",
+   "texte_matchable": "Examen du texte Développement durable Lever les contraintes pesant sur le foncier",
+   "profils": []
+  },
+  {
+   "id": "odj:4475ad444c1d1a9a",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Moderniser les communications d’urgence",
+   "detail": "mercredi 18 novembre à 11:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55084",
+   "texte_matchable": "Examen du texte Affaires économiques Moderniser les communications d’urgence",
+   "profils": []
+  },
+  {
+   "id": "odj:aa29dcf69a50de0d",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Confiance dans les rapports locatifs",
+   "detail": "mercredi 18 novembre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53069",
+   "texte_matchable": "Examen du texte Affaires économiques Confiance dans les rapports locatifs",
+   "profils": []
+  },
+  {
+   "id": "odj:8f77f306fd2608cc",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
+   "detail": "mercredi 18 novembre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N51095",
+   "texte_matchable": "Examen du texte Affaires économiques Proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer",
+   "profils": []
+  },
+  {
+   "id": "odj:919d9ca786798f3b",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T…",
+   "detail": "mercredi 18 novembre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54718",
+   "texte_matchable": "Examen du texte Affaires économiques L’interdiction de relations commerciales contribuant, par aide ou assistance, à la politique de colonisation dans le Territoire palestinien occupé et dans le T…",
+   "profils": []
+  },
+  {
+   "id": "odj:1099b1fce729d0dc",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs",
+   "detail": "mercredi 18 novembre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55014",
+   "texte_matchable": "Examen du texte Affaires économiques Baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs",
+   "profils": []
+  },
+  {
+   "id": "odj:3bb3bfeacbea6cbc",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "detail": "mercredi 25 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "Examen du texte Développement durable Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:8281a6a4f716059e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Protéger nos forêts en encadrant les coupes rases",
+   "detail": "mercredi 25 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55141",
+   "texte_matchable": "Examen du texte Développement durable Protéger nos forêts en encadrant les coupes rases",
+   "profils": []
+  },
+  {
+   "id": "odj:0dd51e32d6cb3856",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Affaires économiques : Garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant",
+   "detail": "mercredi 25 novembre à 11:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55142",
+   "texte_matchable": "Examen du texte Affaires économiques Garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant",
+   "profils": []
+  },
+  {
+   "id": "odj:950b500c5b202ea3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "detail": "mercredi 25 novembre à 15:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "Examen du texte Développement durable Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:87912ba0403836a0",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Protéger nos forêts en encadrant les coupes rases",
+   "detail": "mercredi 25 novembre à 15:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55141",
+   "texte_matchable": "Examen du texte Développement durable Protéger nos forêts en encadrant les coupes rases",
+   "profils": []
+  },
+  {
+   "id": "odj:59765fe2363b6436",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour — Développement durable : Lever les contraintes pesant sur le foncier",
+   "detail": "jeudi 26 novembre à 08:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55097",
+   "texte_matchable": "Examen du texte Développement durable Lever les contraintes pesant sur le foncier",
+   "profils": []
+  },
+  {
+   "id": "odj:2579d9ec03c7d8fa",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+   "url": null,
+   "dossier_id": "DLR5L17N52293",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations Assemblée Suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
+   "profils": []
+  },
+  {
+   "id": "odj:43e93a61b106de3f",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires",
+   "url": null,
+   "dossier_id": "DLR5L17N55100",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires Assemblée Garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires",
+   "profils": []
+  },
+  {
+   "id": "odj:d0161b0547082f8e",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Suspendre les prestations sociales pour les fraudeurs multirécidivistes",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes",
+   "url": null,
+   "dossier_id": "DLR5L17N55099",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes Assemblée Suspendre les prestations sociales pour les fraudeurs multirécidivistes",
+   "profils": []
+  },
+  {
+   "id": "odj:c01927ee3691b777",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Déblocage exceptionnel de la participation et de l’intéressement en 2026",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi portant déblocage exceptionnel de la participation et de l’intéressement en 2026",
+   "url": null,
+   "dossier_id": "DLR5L17N53330",
+   "texte_matchable": "Suite de la discussion de la proposition de loi portant déblocage exceptionnel de la participation et de l’intéressement en 2026 Assemblée Déblocage exceptionnel de la participation et de l’intéressement en 2026",
+   "profils": []
+  },
+  {
+   "id": "odj:5d429ca5162bf41c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Instaurer la responsabilité pénale des mineurs à 16 ans et renforcer la responsabilité pénale des parents",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi instaurant la responsabilité pénale des mineurs à 16 ans et renforçant la responsabilité pénale des parents",
+   "url": null,
+   "dossier_id": "DLR5L17N53870",
+   "texte_matchable": "Suite de la discussion de la proposition de loi instaurant la responsabilité pénale des mineurs à 16 ans et renforçant la responsabilité pénale des parents Assemblée Instaurer la responsabilité pénale des mineurs à 16 ans et renforcer la responsabilité pénale des parents",
+   "profils": []
+  },
+  {
+   "id": "odj:989425dffde722f3",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
+   "url": null,
+   "dossier_id": "DLR5L17N55033",
+   "texte_matchable": "Suite de la discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques Assemblée Faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
+   "profils": []
+  },
+  {
+   "id": "odj:1b0184ee0d7e39b0",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Maintenir les pharmacies existantes dans les communes rurales",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales",
+   "url": null,
+   "dossier_id": "DLR5L17N55074",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales Assemblée Maintenir les pharmacies existantes dans les communes rurales",
+   "profils": []
+  },
+  {
+   "id": "odj:3a5c14784f91f4e5",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Lever les contraintes pesant sur le foncier",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à lever les contraintes pesant sur le foncier",
+   "url": null,
+   "dossier_id": "DLR5L17N55097",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à lever les contraintes pesant sur le foncier Assemblée Lever les contraintes pesant sur le foncier",
+   "profils": []
+  },
+  {
+   "id": "odj:f01ea93a89565d26",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-06T00:54:00.264Z",
+   "titre": "À l'ordre du jour de la séance publique : Limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler",
+   "detail": "jeudi 26 novembre à 21:30 · Suite de la discussion de la proposition de loi visant à limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler",
+   "url": null,
+   "dossier_id": "DLR5L17N53339",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler Assemblée Limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler",
+   "profils": []
+  }
+ ]
+}

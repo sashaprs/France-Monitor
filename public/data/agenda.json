@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-05T19:51:14.162Z",
+  "updatedAt": "2026-11-06T00:47:48.360Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461450",
-      "titre": "suite de l’ordre du jour de l’après-midi.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-02T20:00:00.000Z",
-      "dateFin": "2026-11-02T21:30:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30976",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-02T20:30:00.000Z",
-      "dateFin": "2026-11-02T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUSNR5L17S2027IDS31096",
       "titre": "Discussion",
@@ -794,6 +776,15 @@
       "organisateur": "PO420375"
     },
     {
+      "uid": "RUANR5L17S2027IDC461633",
+      "titre": "désignation d’un rapporteur sur la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T13:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDS30990",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -831,7 +822,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461525",
-      "titre": "– sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi visant à moderniser les communications d’urgence (n° 3319) ;\r– sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373) ;\r– création d’une mission flash sur le coût économique des récentes violences urbaines et leurs conséquences sur le commerce et le tourisme en France ;\r– création d’une mission flash sur les documents d’urbanisme et les freins à la construction de logements ;\r- examen de la proposition de loi visant à baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs (n° 3269).",
+      "titre": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi visant à moderniser les communications d’urgence (n° 3319) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T15:30:00.000Z",
       "dateFin": null,
@@ -1199,6 +1190,24 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2027IDC461632",
+      "titre": "désignation de rapporteurs en vue du débat thématique de contrôle en séance publique du 6 janvier 2027 sur le thème : « Gestion de crise et sécurité civile face au changement climatique : prévenir, protéger, anticiper et s’adapter après l’été 2026 » ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461621",
+      "titre": "audition de Mme Sophie Paturle, présidente de France Invest et de M. Vincent Marinet, directeur général.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461527",
       "titre": "audition, ouverte à la presse, de M. Jean François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
@@ -1217,6 +1226,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461622",
+      "titre": "– sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi visant à moderniser les communications d’urgence (n° 3319).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461414",
       "titre": "communication, ouverte à la presse, sur le déplacement d’une délégation de la commission à Oulan-Bator à l’occasion de la 17e conférence des parties (COP 17) sur la convention des Nations unies sur la lutte contre la désertification, du 22 au 28 août 2026 (M. Marc Fesneau et M. Pierre Pribetich, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1233,6 +1251,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461623",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461513",
@@ -1370,6 +1397,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461624",
+      "titre": "audition de M. Roland Lescure, ministre de l'Économie, des finances et de la souveraineté industrielle, énergétique et numérique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31065",
       "titre": "Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)",
       "type": "seance_type",
@@ -1397,6 +1433,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461630",
+      "titre": "– désignation de rapporteurs sur le contrôle de l’application des lois ;\r- examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) (1) ;\r- examen de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (sous réserve de son inscription à l’ordre du jour) (2) ;\r(1) (2) En application de l’article 86 alinéa 5 du Règlement de l’Assemblée nationale, la date limite de dépôt des amendements a été fixée au samedi 21 novembre, à 17 heures.\rLes amendements doivent être déposés à l’adresse http://eloi depuis le réseau de l’Assemblée nationale ou https://portail.assemblee-nationale.fr  depuis Internet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461615",
       "titre": "audition, conjointe avec la commission des affaires économiques, sur le financement des entreprises",
       "type": "reunionCommission_type",
@@ -1404,6 +1449,24 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461625",
+      "titre": "table ronde, ouverte à la presse et conjointe avec la commission des Finances, de l’économie générale et du contrôle budgétaire, sur la situation économique et le financement des entreprises.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461626",
+      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461556",
@@ -1431,6 +1494,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461631",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461534",
@@ -1467,6 +1539,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461629",
+      "titre": "éventuellement, examen des amendements restant en discussion sur la proposition de loi visant à lever les contraintes pesant sur le foncier (n° 3332) (amendements, art. 88).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS31068",
@@ -1566,6 +1647,15 @@
       "dateFin": "2026-12-08T17:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO888212"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461628",
+      "titre": "table ronde sur les algues vertes.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDFL461176",

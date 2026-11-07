@@ -1,0 +1,16 @@
+{
+ "genere_le": "2026-11-07T10:56:40.346Z",
+ "evenements": [
+  {
+   "id": "dossier-nouveau:DLR5L17N55228",
+   "type": "nouveau_dossier",
+   "date": "2026-11-07T10:56:40.346Z",
+   "titre": "Nouveau dossier : Proposition de loi visant à sécuriser la procédure de mainlevée des mesures de soins psychiatriques sans consentement des patients pris en charge en unités pou…",
+   "detail": "Proposition de loi ordinaire · commission : Affaires sociales",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N55228",
+   "dossier_id": "DLR5L17N55228",
+   "texte_matchable": "Proposition de loi visant à sécuriser la procédure de mainlevée des mesures de soins psychiatriques sans consentement des patients pris en charge en unités pour malades difficiles Proposition de loi ordinaire Affaires sociales",
+   "profils": []
+  }
+ ]
+}

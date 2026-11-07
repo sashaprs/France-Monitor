@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-11-07T08:24:06.489Z",
+  "updatedAt": "2026-11-07T10:55:58.050Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461427",
-      "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89 ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:30:00.000Z",
-      "dateFin": "2026-11-04T11:35:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461465",
-      "titre": "suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général) : examen et vote des articles non rattachés et des articles de récapitulation.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T09:30:00.000Z",
-      "dateFin": "2026-11-04T11:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461429",
-      "titre": "audition, en application de l’article 13 de la Constitution, de Mme Camille Tubiana, dont la nomination aux fonctions de directrice générale de l’Agence nationale pour la rénovation urbaine (ANRU) est envisagée par le Président de la République, et vote sur ce projet de nomination (Mme Marie Récalde, rapporteure).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T10:15:00.000Z",
-      "dateFin": "2026-11-04T12:00:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461502",
-      "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T10:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
     {
       "uid": "RUANR5L17S2027IDC461568",
       "titre": "audition de MM. Roland Lescure, ministre de l’Économie, des finances et de la souveraineté industrielle énergétique et numérique et David Amiel, ministre de l'action et des comptes publics, sur le projet de loi de finances de fin de gestion pour 2026 (sous réserve de son dépôt).",

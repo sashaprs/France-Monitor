@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T21:17:41.931Z",
+  "updatedAt": "2026-11-06T23:59:41.256Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461413",
@@ -524,6 +524,15 @@
       "organisateur": "PO763566"
     },
     {
+      "uid": "RUANR5L17S2027IDC461645",
+      "titre": "audition de M. Thierry Guimbaud, président de l'autorité de régulation des transports et de Mme Isabelle Dechavanne, direction de la régulation financière des transports (aéroports, analyse financière, audit financier).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-09T14:00:00.000Z",
+      "dateFin": "2026-11-09T15:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461569",
       "titre": "examen du projet de loi de finances de fin de gestion pour 2026 (n° 3434) (M. Philippe Juvin, rapporteur général).",
       "type": "reunionCommission_type",
@@ -558,6 +567,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461646",
+      "titre": "audition de M. Antoine Lapert, directeur général de Cohor",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-09T15:00:00.000Z",
+      "dateFin": "2026-11-09T16:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
     },
     {
       "uid": "RUANR5L17S2027IDS30988",
@@ -614,6 +632,24 @@
       "organisateur": "PO419604"
     },
     {
+      "uid": "RUANR5L17S2027IDC461648",
+      "titre": "audition du général de brigade aérienne David Marty, officier général en charge de la défense aérienne élargie et de l’épaulement stratégique",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T13:00:00.000Z",
+      "dateFin": "2026-11-10T14:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461637",
+      "titre": "audition du Contre-amiral Rémi Thomas, sous-chef Plans et programmes de l’Etat-major de la Marine.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T13:00:00.000Z",
+      "dateFin": "2026-11-10T14:30:00.000Z",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO880730"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461601",
       "titre": "évaluation des dispositifs de soutien à l’engagement bénévole de la population active : examen du rapport (ouvert à la presse).",
       "type": "reunionCommission_type",
@@ -639,6 +675,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461636",
+      "titre": "audition de M. Martin Klotz, Directeur des Affaires publiques de Safran Electronics & Defense et de Mme Suzanne Kucharekova, Directrice des affaires institutionnelles de Safran.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T14:00:00.000Z",
+      "dateFin": "2026-11-10T15:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2027IDC461532",
@@ -675,6 +720,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461638",
+      "titre": "audition de représentants de MBDA, M. Jean-René Gourion, Directeur général délégué, Amiral Hervé Bonnaventure, Conseiller défense du CEO, Mme Anne-Sophie Thierry-Bozetto, Responsable des relations politiques et parlementaires et Mme Béatrix Hugot, Chargée des relations politiques et parlementaires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:30:00.000Z",
+      "dateFin": "2026-11-10T16:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2027IDC461511",
@@ -732,7 +786,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461610",
-      "titre": "audition de M. Daniel Hubé, ingénieur au Bureau de recherches géologiques et minières (BRGM).",
+      "titre": "audition de M. Daniel Hubé, ingénieur au Bureau de recherches géologiques et minières (BRGM), et de M. Patrick Charbonnier, directeur adjoint de la direction des risques du BRGM.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-12T08:00:00.000Z",
       "dateFin": null,
@@ -758,6 +812,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461647",
+      "titre": "audition de représentants d'Eurocontrol",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-12T09:00:00.000Z",
+      "dateFin": "2026-11-12T10:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461611",
       "titre": "audition de M. Benjamin Orban, doctorant en Histoire et archéologie à Nantes Université.",
       "type": "reunionCommission_type",
@@ -765,6 +828,24 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO887401"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461644",
+      "titre": "- table ronde syndicats des journalistes",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-12T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "2ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO883902"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461639",
+      "titre": "audition du Général de brigade aérienne Solène Le Floch, Commandant de la brigade aérienne d’assaut et de projection.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-12T12:30:00.000Z",
+      "dateFin": "2026-11-12T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
     },
     {
       "uid": "RUANR5L17S2027IDC461566",
@@ -783,6 +864,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461640",
+      "titre": "audition du Général de division (2S) Bertrand Vallette d'Osia, Président du groupe de travail sur les hélicoptères de l'Académie de l’Air et de l’Espace.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-12T14:00:00.000Z",
+      "dateFin": "2026-11-12T15:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880730"
     },
     {
       "uid": "RUANR5L17S2027IDC461567",
@@ -810,6 +900,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461635",
+      "titre": "audition de M. Olivier Poivre d’Arvor, ambassadeur et envoyé spécial du Président de la République pour l’océan et les pôles",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-13T13:45:00.000Z",
+      "dateFin": "2026-11-13T14:45:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885429"
     },
     {
       "uid": "RUANR5L17S2027IDS30996",
@@ -873,6 +972,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461641",
+      "titre": "audition de M. Emmanuel Grégoire, maire de Paris, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-16T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS31002",
@@ -974,6 +1082,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2027IDC461642",
+      "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la Justice, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31050",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
       "type": "seance_type",
@@ -981,6 +1098,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461643",
+      "titre": "examen de la proposition de loi visant à garantir l'exécution effective d'une peine minimale dès la première condamnation pour violences volontaires (n° 3335) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461500",

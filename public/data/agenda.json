@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-11-07T01:38:51.001Z",
+  "updatedAt": "2026-11-07T08:24:06.489Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461413",
-      "titre": "table ronde, conjointe avec la commission des affaires culturelles et de l’éducation, ouverte à la presse, sur la diplomatie culturelle avec la participation de Mme Daniela Elstner directrice générale d’UniFrance, M. Axel Scoffier, secrétaire général d’UniFrance, M. Matthias Grolier, directeur général de France Muséums, M. David Kibler, directeur-adjoint de la diplomatie culturelle, éducative, universitaire et scientifique au ministère de l’Europe et des affaires étrangères, Mme Anne-Claire Legendre, présidente de l’Institut du monde arabe, et Mme Eva Nguyen Binh, présidente de l’Institut français et ambassadrice pour l’action culturelle extérieure de la France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:00:00.000Z",
-      "dateFin": "2026-11-04T10:40:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUSNR5L17S2027IDS31097",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-11-04T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461519",
-      "titre": "table ronde, conjointe avec la commission des affaires étrangères, sur la diplomatie culturelle réunissant Mme Daniela Elstner, directrice générale d’Unifrance, et M. Axel Scoffier, secrétaire général, M. Matthias Grolier, directeur général de France Muséums, M. David Kibler, directeur adjoint de la diplomatie culturelle, éducative, universitaire et scientifique au ministère de l’Europe et des affaires étrangères, Mme Anne-Claire Legendre, présidente de l’Institut du monde arabe, et Mme Eva Nguyen Binh, présidente de l’Institut français, ambassadrice pour l’action culturelle extérieure de la France ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:00:00.000Z",
-      "dateFin": "2026-11-04T10:40:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461452",
-      "titre": "audition de M. Pierre Coppey, dont la nomination dans les fonctions de Contrôleur général des lieux de privation de liberté est proposée par le Président de la République, et vote sur cette proposition de nomination dans les conditions prévues par l’article 29 du Règlement ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:00:00.000Z",
-      "dateFin": "2026-11-04T11:30:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461464",
-      "titre": "audition conjointe avec la commission des affaires économiques de M. Nicolas Dufourcq, directeur général de Bpifrance, sur le financement des entreprises.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:10:00.000Z",
-      "dateFin": "2026-11-04T09:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461476",
-      "titre": "audition, ouverte à la presse et conjointe avec la commission des finances, de l'économie générale et du contrôle budgétaire, de M. Nicolas Dufourcq, directeur général de BpiFrance.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:10:00.000Z",
-      "dateFin": "2026-11-04T10:05:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461469",
-      "titre": "déplacement d’une délégation de la commission au salon Euronaval 2026.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T08:15:00.000Z",
-      "dateFin": null,
-      "lieu": "Déplacement",
-      "organisateur": "PO59046"
-    },
     {
       "uid": "RUANR5L17S2027IDC461427",
       "titre": "projet de loi de finances pour 2027 (seconde partie) (n° 3210) : Mission Travail, emploi et administration des ministères sociaux et articles rattachés 88 et 89 ;",
@@ -684,6 +621,15 @@
       "dateFin": "2026-11-10T15:00:00.000Z",
       "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880763"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461649",
+      "titre": "audition de M. Guillaume Rochard, directeur de la stratégie, des partenariats et des affaires institutionnelles et de Mme Aurore Neuschwander, directrice drones, systèmes autonomes et armes sous-marines de Naval Group",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T14:00:00.000Z",
+      "dateFin": "2026-11-10T15:00:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2027IDC461532",

@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-11-07T15:27:13.669Z",
+  "updatedAt": "2026-11-07T17:36:46.640Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461575",
-      "titre": "audition de M. Guillaume Basset, directeur général délégué Invest de Business France et de Mmes Sandrine Coquelard, directrice expertise juridique et économique de Business France et Florence Lilti, cheffe de cabinet",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T15:45:00.000Z",
-      "dateFin": "2026-11-04T16:45:00.000Z",
-      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO885535"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461510",
-      "titre": "- audition conjointe, ouverte à la presse, d’historiens.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T16:00:00.000Z",
-      "dateFin": null,
-      "lieu": "à préciser",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461579",
-      "titre": "- audition conjointe, ouverte à la presse de M. Jean-François Condette, professeur des universités en histoire contemporaine à l’université de Lille et M. Éric Fardet, inspecteur général de l’éducation, du sport et de la recherche.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T16:00:00.000Z",
-      "dateFin": "2026-11-04T17:15:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461587",
-      "titre": "audition de M. Béranger Sénéchal, responsable du Produit Militaire d’Air France Industries, de M. Vincent d’Andrea, DGA Air France Industries et de M. Aurélien Gomez, directeur Affaires parlementaires et Territoriales",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T16:30:00.000Z",
-      "dateFin": "2026-11-04T17:30:00.000Z",
-      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
-      "organisateur": "PO880826"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461453",
-      "titre": "audition de Mme Françoise Gatel, ministre de l’aménagement du territoire et de la décentralisation, sur les crédits de la mission « Relations avec les collectivités territoriales » ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-04T17:00:00.000Z",
-      "dateFin": "2026-11-04T18:30:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
     {
       "uid": "RUANR5L17S2027IDC461592",
       "titre": "éventuellement, suite de l'ordre du jour de l'après-midi.",

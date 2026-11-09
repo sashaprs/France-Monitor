@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-09T12:38:58.652Z",
+  "updatedAt": "2026-11-09T20:27:05.886Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30985",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-06T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS30986",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
@@ -272,8 +263,17 @@
       "organisateur": "PO880795"
     },
     {
+      "uid": "RUANR5L17S2027IDC461638",
+      "titre": "audition de représentants de MBDA, M. Jean-René Gourion, Directeur général délégué, Amiral Hervé Bonnaventure, Conseiller défense du CEO, Mme Anne-Sophie Thierry-Bozetto, Responsable des relations politiques et parlementaires et Mme Béatrix Hugot, Chargée des relations politiques et parlementaires.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-10T15:00:00.000Z",
+      "dateFin": "2026-11-10T16:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880763"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461532",
-      "titre": "audition, ouverte à la presse, de Mme Anne-Laure Torresin, directrice générale de la Caisse centrale de la Mutualité sociale agricole (MSA).",
+      "titre": "audition, ouverte à la presse, de représentants de la Caisse centrale de la Mutualité sociale agricole : M. Stéphane Antigny, directeur délégué aux opérations et Mme Karine Valdenaire, responsable du département Métier Maîtrise d’Ouvrage Stratégique et Famille.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T15:30:00.000Z",
       "dateFin": null,
@@ -306,15 +306,6 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461638",
-      "titre": "audition de représentants de MBDA, M. Jean-René Gourion, Directeur général délégué, Amiral Hervé Bonnaventure, Conseiller défense du CEO, Mme Anne-Sophie Thierry-Bozetto, Responsable des relations politiques et parlementaires et Mme Béatrix Hugot, Chargée des relations politiques et parlementaires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T16:30:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880763"
     },
     {
       "uid": "RUANR5L17S2027IDC461511",

@@ -1,0 +1,104 @@
+{
+ "genere_le": "2026-11-09T12:39:53.603Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000404",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 404 de Éric Bothorel (EPR) — ART. 15",
+   "detail": "Le présent sous-amendement vise à renforcer la transparence et la prévisibilité des procédures de reconnaissance des référentiels équivalents en matière de cybersécurité. Il propose de préciser les c…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/404",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Le présent sous-amendement vise à renforcer la transparence et la prévisibilité des procédures de reconnaissance des référentiels équivalents en matière de cybersécurité. Il propose de préciser les c… ART. 15 Éric Bothorel EPR Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000403",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 403 de Éric Bothorel (EPR) — ART. 14",
+   "detail": "Le présent sous-amendement vise à compléter l'encadrement des obligations de cybersécurité applicables aux sous-traitants par un principe de proportionnalité. Pour les PME et TPE de la filière des in…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/403",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Le présent sous-amendement vise à compléter l'encadrement des obligations de cybersécurité applicables aux sous-traitants par un principe de proportionnalité. Pour les PME et TPE de la filière des in… ART. 14 Éric Bothorel EPR Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000402",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 402 de Éric Bothorel (EPR) — ART. PREMIER",
+   "detail": "Le présent sous-amendement vise à compléter la définition de la résilience proposée par l'amendement n° 1, en intégrant la robustesse des infrastructures dès leur conception et le rétablissement rapi…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/402",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Le présent sous-amendement vise à compléter la définition de la résilience proposée par l'amendement n° 1, en intégrant la robustesse des infrastructures dès leur conception et le rétablissement rapi… ART. PREMIER Éric Bothorel EPR Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000401",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 401 du Gouvernement — ART. 29",
+   "detail": "L’amendement 203 tire les conséquences d’une distinction effectivement prévue par la directive dite NIS2. En effet, cette dernière impose un contrôle ex ante et ex post pour les entités essentielles,…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/401",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "L’amendement 203 tire les conséquences d’une distinction effectivement prévue par la directive dite NIS2. En effet, cette dernière impose un contrôle ex ante et ex post pour les entités essentielles,… ART. 29 Gouvernement Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000399",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 399 du Gouvernement — ART. 31",
+   "detail": "Le Gouvernement partage l’objectif de cet amendement. Ainsi, tout délai de mise en conformité devrait pouvoir tenir compte des circonstances de l'espèce. Néanmoins, l’institution d’un délai maximal d…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/399",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Le Gouvernement partage l’objectif de cet amendement. Ainsi, tout délai de mise en conformité devrait pouvoir tenir compte des circonstances de l'espèce. Néanmoins, l’institution d’un délai maximal d… ART. 31 Gouvernement Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC1779P0D1N000400",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° 400 du Gouvernement — ART. 14",
+   "detail": "Le Gouvernement partage l’objectif de l’amendement n° 178 visant à limiter l'impact de la mesure prévue à l’alinéa 3 de l’article 14 sur les entités essentielles et importantes. Toutefois, la notion…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1779/AN/400",
+   "dossier_id": "DLR5L17N50731",
+   "texte_matchable": "Le Gouvernement partage l’objectif de l’amendement n° 178 visant à limiter l'impact de la mesure prévue à l’alinéa 3 de l’article 14 sur les entités essentielles et importantes. Toutefois, la notion… ART. 14 Gouvernement Résilience des infrastructures critiques et renforcement de la cybersécurité",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59051B3253P0D1N000015",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° CL15 de Rapporteur — ART. UNIQUE",
+   "detail": "Ce sous-amendement vise à prendre en compte l'élargissement possible du texte à la carte \"entrepreneur/profession libérale\" proposé par les amendements CL12 et CL13",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3253/CION_LOIS/CL15",
+   "dossier_id": "DLR5L17N54998",
+   "texte_matchable": "Ce sous-amendement vise à prendre en compte l'élargissement possible du texte à la carte \"entrepreneur/profession libérale\" proposé par les amendements CL12 et CL13 ART. UNIQUE Rapporteur Régulariser les travailleurs sans-papiers",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59051B3253P0D1N000013",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° CL13 de Rapporteur — ART. UNIQUE",
+   "detail": "Le présent amendement opère deux modifications, l'une de fond, et l'autre purement formelle. La modification de fond vise à permettre également la délivrance de plein droit d'une carte de séjour \"ent…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3253/CION_LOIS/CL13",
+   "dossier_id": "DLR5L17N54998",
+   "texte_matchable": "Le présent amendement opère deux modifications, l'une de fond, et l'autre purement formelle. La modification de fond vise à permettre également la délivrance de plein droit d'une carte de séjour \"ent… ART. UNIQUE Rapporteur Régulariser les travailleurs sans-papiers",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO59051B3253P0D1N000014",
+   "type": "nouvel_amendement",
+   "date": "2026-11-09T12:39:53.603Z",
+   "titre": "Amendement n° CL14 de Rapporteur — ART. UNIQUE",
+   "detail": "Sous-amendement de coordination",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3253/CION_LOIS/CL14",
+   "dossier_id": "DLR5L17N54998",
+   "texte_matchable": "Sous-amendement de coordination ART. UNIQUE Rapporteur Régulariser les travailleurs sans-papiers",
+   "profils": []
+  }
+ ]
+}

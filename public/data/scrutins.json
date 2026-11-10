@@ -1,9 +1,97 @@
 {
-  "updatedAt": "2026-11-10T12:18:21.924Z",
+  "updatedAt": "2026-11-10T20:15:44.527Z",
   "scrutins": [
     {
+      "numero": "9794",
+      "titre": "l'amendement n° 358 du Gouvernement et les amendements identiques suivants de suppression de l'article 16 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "107",
+      "pour": "69",
+      "contre": "37",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9799",
+      "titre": "l'amendement n° 85 de M. Le Gac à l'article 24 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "36",
+      "pour": "12",
+      "contre": "16",
+      "abstentions": "8",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9798",
+      "titre": "l'amendement n° 107 de M. Saint-Pasteur à l'article 24 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "45",
+      "pour": "14",
+      "contre": "28",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9800",
+      "titre": "l'amendement n° 383 de M. Bénard à l'article 31 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "45",
+      "pour": "15",
+      "contre": "15",
+      "abstentions": "15",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9801",
+      "titre": "l'amendement n° 167 de M. Latombe à l'article 36 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "38",
+      "pour": "23",
+      "contre": "15",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9797",
+      "titre": "l'amendement n° 45 de M. Pilato à l'article 20 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "49",
+      "pour": "12",
+      "contre": "33",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9796",
+      "titre": "l'amendement n° 6 (rect.) de Mme Duby-Muller à l'article 19 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "49",
+      "pour": "23",
+      "contre": "26",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9795",
+      "titre": "l'amendement n° 44 (rect.) de M. Pilato à l'article 19 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-10",
+      "sort": null,
+      "nombreVotants": "50",
+      "pour": "21",
+      "contre": "28",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
       "numero": "9771",
-      "titre": "l'amendement n° 74 de M. Salmon à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 74 de M. Salmon à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "69",
@@ -14,7 +102,7 @@
     },
     {
       "numero": "9769",
-      "titre": "l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "53",
@@ -25,7 +113,7 @@
     },
     {
       "numero": "9775",
-      "titre": "l'amendement n° 58 de M. Saint-Martin à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 58 de M. Saint-Martin à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "83",
@@ -36,7 +124,7 @@
     },
     {
       "numero": "9763",
-      "titre": "l'amendement n° 307 de M. Sabatou à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 307 de M. Sabatou à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "46",
@@ -47,7 +135,7 @@
     },
     {
       "numero": "9779",
-      "titre": "l'amendement n° 24 de M. Saint-Martin à l'article 7 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 24 de M. Saint-Martin à l'article 7 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "63",
@@ -58,7 +146,7 @@
     },
     {
       "numero": "9773",
-      "titre": "l'amendement n° 20 de M. Saint-Martin à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 20 de M. Saint-Martin à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "85",
@@ -69,7 +157,7 @@
     },
     {
       "numero": "9793",
-      "titre": "l'article 17 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'article 17 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "53",
@@ -80,7 +168,7 @@
     },
     {
       "numero": "9770",
-      "titre": "l'amendement n° 75 de M. Salmon à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 75 de M. Salmon à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "67",
@@ -91,7 +179,7 @@
     },
     {
       "numero": "9774",
-      "titre": "l'amendement n° 73 de M. Salmon à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 73 de M. Salmon à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "81",
@@ -102,7 +190,7 @@
     },
     {
       "numero": "9760",
-      "titre": "l'amendement n° 303 de M. Sabatou à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 303 de M. Sabatou à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "43",
@@ -113,7 +201,7 @@
     },
     {
       "numero": "9768",
-      "titre": "l'amendement n° 17 de M. Saint-Martin à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 17 de M. Saint-Martin à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "53",
@@ -124,7 +212,7 @@
     },
     {
       "numero": "9776",
-      "titre": "l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "80",
@@ -135,7 +223,7 @@
     },
     {
       "numero": "9777",
-      "titre": "l'amendement n° 22 de M. Pilato à l'article 7 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 22 de M. Pilato à l'article 7 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "62",
@@ -146,7 +234,7 @@
     },
     {
       "numero": "9785",
-      "titre": "l'amendement n° 35 de M. Pilato à l'article 11 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 35 de M. Pilato à l'article 11 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "70",
@@ -157,7 +245,7 @@
     },
     {
       "numero": "9765",
-      "titre": "l'amendement n° 79 de M. Saint-Pasteur à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 79 de M. Saint-Pasteur à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "48",
@@ -168,7 +256,7 @@
     },
     {
       "numero": "9788",
-      "titre": "l'amendement n° 39 de M. Pilato à l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 39 de M. Pilato à l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "68",
@@ -179,7 +267,7 @@
     },
     {
       "numero": "9789",
-      "titre": "l'amendement n° 319 de M. Sabatou à l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 319 de M. Sabatou à l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "65",
@@ -190,7 +278,7 @@
     },
     {
       "numero": "9784",
-      "titre": "l'amendement n° 32 de M. Saint-Martin à l'article 10 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 32 de M. Saint-Martin à l'article 10 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "71",
@@ -201,7 +289,7 @@
     },
     {
       "numero": "9762",
-      "titre": "l'amendement n° 306 de M. Sabatou à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 306 de M. Sabatou à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "45",
@@ -212,7 +300,7 @@
     },
     {
       "numero": "9766",
-      "titre": "l'amendement n° 9 de M. Saint-Martin à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 9 de M. Saint-Martin à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "48",
@@ -223,7 +311,7 @@
     },
     {
       "numero": "9761",
-      "titre": "l'amendement n° 304 de M. Sabatou à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 304 de M. Sabatou à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "44",
@@ -234,7 +322,7 @@
     },
     {
       "numero": "9787",
-      "titre": "l'amendement n° 40 de M. Saint-Martin à l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 40 de M. Saint-Martin à l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "67",
@@ -245,7 +333,7 @@
     },
     {
       "numero": "9767",
-      "titre": "l'amendement n° 15 de M. Pilato à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 15 de M. Pilato à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "53",
@@ -256,7 +344,7 @@
     },
     {
       "numero": "9790",
-      "titre": "l'amendement n° 320 de M. Sabatou à l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 320 de M. Sabatou à l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "66",
@@ -267,7 +355,7 @@
     },
     {
       "numero": "9791",
-      "titre": "le sous-amendement n° 405 de M. Latombe à l'amendement n° 379 de M. Bénard après l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "le sous-amendement n° 405 de M. Latombe à l'amendement n° 379 de M. Bénard après l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "62",
@@ -278,7 +366,7 @@
     },
     {
       "numero": "9780",
-      "titre": "l'amendement n° 25 de M. Saint-Martin à l'article 7 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 25 de M. Saint-Martin à l'article 7 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "47",
@@ -289,7 +377,7 @@
     },
     {
       "numero": "9792",
-      "titre": "l'article 16 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'article 16 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "62",
@@ -300,7 +388,7 @@
     },
     {
       "numero": "9778",
-      "titre": "l'amendement n° 23 de M. Saint-Martin à l'article 7 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 23 de M. Saint-Martin à l'article 7 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "63",
@@ -311,7 +399,7 @@
     },
     {
       "numero": "9786",
-      "titre": "l'amendement n° 140 de M. Latombe à l'article 14 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 140 de M. Latombe à l'article 14 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "72",
@@ -322,7 +410,7 @@
     },
     {
       "numero": "9781",
-      "titre": "l'amendement n° 21 de M. Saint-Martin à l'article 7 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 21 de M. Saint-Martin à l'article 7 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "56",
@@ -333,7 +421,7 @@
     },
     {
       "numero": "9783",
-      "titre": "l'amendement n° 33 de M. Pilato à l'article 10 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 33 de M. Pilato à l'article 10 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "67",
@@ -344,7 +432,7 @@
     },
     {
       "numero": "9772",
-      "titre": "l'amendement n° 8 de Mme Bamana à l'article 5 bis du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 8 de Mme Bamana à l'article 5 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "78",
@@ -355,7 +443,7 @@
     },
     {
       "numero": "9764",
-      "titre": "l'amendement n° 347 de M. Bothorel à l'article premier du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 347 de M. Bothorel à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "45",
@@ -366,7 +454,7 @@
     },
     {
       "numero": "9782",
-      "titre": "l'amendement n° 34 de M. Saint-Martin à l'article 10 du projet de loi relative à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "titre": "l'amendement n° 34 de M. Saint-Martin à l'article 10 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
       "date": "2026-11-09",
       "sort": null,
       "nombreVotants": "64",
@@ -461,94 +549,6 @@
       "pour": "60",
       "contre": "94",
       "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9679",
-      "titre": "l'amendement n° 1267 de M. Proença et l'amendement identique suivant à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "163",
-      "pour": "64",
-      "contre": "98",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9667",
-      "titre": "l'amendement n° 3558 de M. Oberti à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "148",
-      "pour": "47",
-      "contre": "97",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9722",
-      "titre": "l'amendement n° 3851 de M. Kasbarian après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "166",
-      "pour": "93",
-      "contre": "67",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9702",
-      "titre": "l'amendement n° 737 de M. Jean-Philippe Tanguy après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "55",
-      "contre": "53",
-      "abstentions": "20",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9663",
-      "titre": "l'amendement n° 715 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "121",
-      "pour": "60",
-      "contre": "59",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9657",
-      "titre": "l'amendement n° 709 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "110",
-      "pour": "51",
-      "contre": "55",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9670",
-      "titre": "l'amendement n° 717 de M. Renault à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "169",
-      "pour": "66",
-      "contre": "92",
-      "abstentions": "11",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9710",
-      "titre": "l'amendement n° 3621 de Mme Ozenne après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "151",
-      "pour": "39",
-      "contre": "111",
-      "abstentions": "1",
       "nonVotants": "1"
     }
   ]

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-11T11:44:22.005Z",
+  "updatedAt": "2026-11-11T16:54:52.243Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31094",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-08T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31095",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",

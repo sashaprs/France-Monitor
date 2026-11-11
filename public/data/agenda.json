@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-11T19:23:49.049Z",
+  "updatedAt": "2026-11-11T23:19:10.398Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31095",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-08T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461599",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, à une visite présidentielle de l’AP OTAN .",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-08T23:00:00.000Z",
-      "dateFin": "2026-11-10T22:59:59.000Z",
-      "lieu": "Brescia et Desenzano del Garda",
-      "organisateur": "PO58974"
-    },
     {
       "uid": "RUANR5L17S2027IDS30987",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",

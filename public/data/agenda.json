@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-11T01:02:05.100Z",
+  "updatedAt": "2026-11-11T11:44:22.005Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31093",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-08T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31094",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (première partie)",
@@ -213,7 +204,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-10T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T18:20:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -258,7 +249,7 @@
       "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant au renforcement de l’attractivité de l’épargne salariale et à la mise en œuvre d’une procédure de déblocage exceptionnelle (n° 2625) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T18:45:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -303,7 +294,7 @@
       "titre": "audition, conjointe avec la commission des affaires européennes, ouverte à la presse, de M. Albin Kurti, premier ministre de la République du Kosovo.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T17:50:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -785,6 +776,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461676",
+      "titre": "audition de Mme Cécile Thévenin, directrice de programme bâtiment au Secrétariat général de la planification écologique (SGPE), accompagnée de M. Joseph Hajjar, chef de pôle décarbonation et énergie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T12:30:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 8838 - 233 bsg",
+      "organisateur": "PO887868"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31051",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -792,6 +792,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461677",
+      "titre": "audition de Mme Isabelle Chave, sous-directrice des monuments historiques et des sites patrimoniaux à la direction générale des patrimoines et de l’architecture (DGPA).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T13:15:00.000Z",
+      "dateFin": null,
+      "lieu": "salle 8838 - 233 bsg",
+      "organisateur": "PO887868"
     },
     {
       "uid": "RUANR5L17S2027IDC461623",

@@ -1,0 +1,71 @@
+{
+ "genere_le": "2026-11-12T01:51:06.498Z",
+ "evenements": [
+  {
+   "id": "odj:3b774fc056e1b2a4",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation",
+   "url": null,
+   "dossier_id": "DLR5L17N53276",
+   "texte_matchable": "Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation Assemblée Reconnaître les victimes de l'exposition aux essais nucléaires français et améliorer leur indemnisation",
+   "profils": []
+  },
+  {
+   "id": "odj:5292bbf0f9c781f8",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : Interdire la vente de chiens et de chats dans les foires et salons",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons",
+   "url": null,
+   "dossier_id": "DLR5L17N50645",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons Assemblée Interdire la vente de chiens et de chats dans les foires et salons",
+   "profils": []
+  },
+  {
+   "id": "odj:b0f5f8d2f4a63e52",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : Création d’un ordre national des audioprothésistes",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes",
+   "url": null,
+   "dossier_id": "DLR5L17N51549",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes Assemblée Création d’un ordre national des audioprothésistes",
+   "profils": []
+  },
+  {
+   "id": "odj:9ecfffe37bbaf172",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : Autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréat…",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation",
+   "url": null,
+   "dossier_id": "DLR5L17N55079",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation Assemblée Autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréat…",
+   "profils": []
+  },
+  {
+   "id": "odj:2437acef77abedaa",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : DLR5L16N46821",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique",
+   "url": null,
+   "dossier_id": "DLR5L16N46821",
+   "texte_matchable": "Suite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique Assemblée",
+   "profils": []
+  },
+  {
+   "id": "odj:6f62693743c19188",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-12T01:51:06.498Z",
+   "titre": "À l'ordre du jour de la séance publique : Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "detail": "mercredi 2 décembre à 21:30 · Suite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance",
+   "url": null,
+   "dossier_id": "DLR5L17N53067",
+   "texte_matchable": "Suite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance Assemblée Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "profils": []
+  }
+ ]
+}

@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-11-12T14:56:31.264Z",
+  "updatedAt": "2026-11-12T21:21:19.724Z",
   "scrutins": [
+    {
+      "numero": "9808",
+      "titre": "l'amendement n° 3 de M. Jean-Philippe Tanguy et les amendements identiques suivants de suppression de l'article liminaire du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "50",
+      "contre": "25",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9809",
+      "titre": "l'amendement n° 1 de M. Masséglia et les amendements identiques suivants à l'article 1 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "71",
+      "pour": "69",
+      "contre": "1",
+      "abstentions": "1",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "9811",
+      "titre": "l'amendement n° 5 de M. Jean-Philippe Tanguy à l'article 1 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "68",
+      "pour": "26",
+      "contre": "41",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9807",
+      "titre": "l'ensemble de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse (texte de la commission mixte paritaire).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "59",
+      "pour": "59",
+      "contre": "0",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9810",
+      "titre": "l'amendement n° 2 de Mme Duby-Muller et les amendements identiques suivants à l'article 1 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "60",
+      "pour": "25",
+      "contre": "32",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
     {
       "numero": "9794",
       "titre": "l'amendement n° 358 du Gouvernement et les amendements identiques suivants de suppression de l'article 16 bis du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
@@ -494,61 +549,6 @@
       "pour": "30",
       "contre": "35",
       "abstentions": "13",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9764",
-      "titre": "l'amendement n° 347 de M. Bothorel à l'article premier du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
-      "date": "2026-11-09",
-      "sort": null,
-      "nombreVotants": "45",
-      "pour": "28",
-      "contre": "17",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9782",
-      "titre": "l'amendement n° 34 de M. Saint-Martin à l'article 10 du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
-      "date": "2026-11-09",
-      "sort": null,
-      "nombreVotants": "64",
-      "pour": "21",
-      "contre": "26",
-      "abstentions": "17",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9751",
-      "titre": "l'amendement n° 71 de M. Dufosset et les amendements identiques suivants de suppression de l'article 54 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "183",
-      "pour": "180",
-      "contre": "3",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9665",
-      "titre": "l'amendement n° 922 de M. Maillot et l'amendement identique suivant à l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "135",
-      "pour": "49",
-      "contre": "78",
-      "abstentions": "8",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9718",
-      "titre": "l'amendement n° 742 de M. Renault après l'article 42 du projet de loi de finances pour 2027 (première lecture).",
-      "date": "2026-11-04",
-      "sort": null,
-      "nombreVotants": "162",
-      "pour": "61",
-      "contre": "99",
-      "abstentions": "2",
       "nonVotants": "1"
     }
   ]

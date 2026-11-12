@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-11-12T14:56:36.676Z",
+  "updatedAt": "2026-11-12T21:21:20.840Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461563",
-      "titre": "examen de la proposition de loi visant à améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires (n° 3244) (Mme Valérie Rossi, rapporteure) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T15:00:00.000Z",
-      "dateFin": "2026-11-09T17:35:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461523",
-      "titre": "examen, selon la procédure de législation en commission, de la proposition de loi, adoptée par le Sénat, visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (n° 1033) (M. Christian Baptiste, rapporteur) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T15:00:00.000Z",
-      "dateFin": "2026-11-09T17:40:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461646",
-      "titre": "audition de M. Antoine Lapert, directeur général de Cohor",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T15:00:00.000Z",
-      "dateFin": "2026-11-09T16:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30988",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-09T15:00:00.000Z",
-      "dateFin": "2026-11-09T19:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461524",
-      "titre": "éventuellement :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30989",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-09T20:30:00.000Z",
-      "dateFin": "2026-11-09T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461602",
       "titre": "Séance plénière de l'APFA\r- Suite de l’examen des propositions de texte et des amendements déposés.",
@@ -560,13 +506,13 @@
       "organisateur": "PO420120"
     },
     {
-      "uid": "RUANR5L17S2027IDC461419",
-      "titre": "Audition de M. Benjamin Haddad, ministre délégué en charge de l’Europe, sur l’actualité de l’Union européenne.",
+      "uid": "RUANR5L17S2027IDC461686",
+      "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:30:00.000Z",
+      "dateDebut": "2026-11-17T18:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO888023"
     },
     {
       "uid": "RUANR5L17S2027IDC461642",
@@ -585,6 +531,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDFL461682",
+      "titre": "Nomination du coprésident du groupe d'études et discussions sur les travaux à venir.",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-11-18T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "3e Bureau",
+      "organisateur": "PO854471"
     },
     {
       "uid": "RUANR5L17S2027IDC461643",
@@ -610,7 +565,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 4123,  9 rue de Bourgogne, Entresol, 1er étage",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
     {
@@ -669,11 +624,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461527",
-      "titre": "audition, ouverte à la presse, de M. Jean François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "titre": "audition, ouverte à la presse, de M. Jean François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe - XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T10:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 4123,  9 rue de Bourgogne, Entresol, 1er étage",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
     {
@@ -750,7 +705,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461513",
-      "titre": "Nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans (n° 3355) : examen de la proposition de résolution européenne (Mme Constance Le Grip, rapporteure) ;",
+      "titre": "nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans (n° 3355) : examen de la proposition de résolution européenne (Mme Constance Le Grip, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
       "dateFin": null,
@@ -803,13 +758,49 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461678",
+      "titre": "audition de Mme Anne Thiebeauld, directrice des risques professionnels (DRP), accompagnée de M. Mickaël Guiheneuf, directeur adjoint du département Prévention, Caisse nationale de l’assurance maladie (CNAM).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461573",
       "titre": "Audition publique sur les impacts de l’IA sur la recherche scientifique",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-19T08:30:00.000Z",
       "dateFin": null,
-      "lieu": "A confirmer",
+      "lieu": "Sénat (salle Médicis - Palais du Luxembourg)",
       "organisateur": "PO273589"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461679",
+      "titre": "audition de M. François-Étienne Mercier, président de la commission emploi de la FRSEA Grand Est et membre de la commission emploi/formation, accompagné de Mme Anne-Sophie Forget, chargée de mission emploi et relations sociales, et de Mme Romane Sagnier, responsable des affaires publiques, Fédération nationale des syndicats d’exploitants agricoles (FNSEA).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461680",
+      "titre": "audition conjointe de M. Damien Brunelle, référent Grandes cultures à la Coordination rurale, et de M. Étienne Heulin, représentant de la Confédération paysanne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T10:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461687",
+      "titre": "audition, ouverte à la presse, de MM. Thibault Romatet, directeur général adjoint délégué Stratégie et Transformation de France Travail, Gilles Biron, chargé de mission Appui aux régions outre-mer et Yohan Beaux, chargé des relations extérieures, sur la situation de l’emploi dans les outre-mer ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO675659"
     },
     {
       "uid": "RUANR5L17S2027IDS31055",
@@ -957,7 +948,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461555",
-      "titre": "- échange de vues, ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine (1), conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.\r\r(1) composée notamment de : M. Heikki Autto, président de la commission de la défense de l’Eduskunta de Finlande, M. Lars-Christian Brask, président du Conseil nordique du Folketing du Danemark,, Mme Ivanna Klympush-Tsintsadze, présidente de la commission de la Verkhovna Rada sur l’intégration de l’Ukraine dans l’Union européenne, M. Remigijus Motuzas, président de la commission des affaires étrangères du Seimas de Lituanie, MmeAgnieszka Pomaska, présidente de la commission des affaires européennes de la Sejm de Pologne, M. Alex Sobel, président de la commission des droits de l’homme de la Chambre des Communes du Royaume-Uni, ainsi que de Mme Ann-Sofie Alm, membre de la commission des affaires étrangères du Riksdag de Suède.",
+      "titre": "- échange de vues, ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine (1), conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.\r\r(1) composée notamment de : M. Heikki Autto, président de la commission de la défense de l’Eduskunta de Finlande, M. Lars-Christian Brask, président du Conseil nordique du Folketing du Danemark, Mme Ivanna Klympush-Tsintsadze, présidente de la commission de la Verkhovna Rada sur l’intégration de l’Ukraine dans l’Union européenne, M. Remigijus Motuzas, président de la commission des affaires étrangères du Seimas de Lituanie, Mme Agnieszka Pomaska, présidente de la commission des affaires européennes de la Sejm de Pologne, M. Alex Sobel, président de la commission des droits de l’homme de la Chambre des Communes du Royaume-Uni, ainsi que de Mme Ann-Sofie Alm, membre de la commission des affaires étrangères du Riksdag de Suède.dag de Suède.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
@@ -1017,6 +1008,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461681",
+      "titre": "examen, selon la procédure de législation en commission, de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaire français et à améliorer leur indemnisation (n° 2852) (M. Didier Le Gac et Mme Mereana Reid Arbelot, rapporteurs)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461556",
@@ -1226,6 +1226,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461688",
+      "titre": "table ronde, ouverte à la presse, sur les conséquences des élections américaines de mi-mandat – ou Midterms – du 3 novembre 2026 sur la politique extérieure des États-Unis, avec la participation de M. Romuald Sciora, chercheur associé à l’Institut de relations internationales et stratégiques (IRIS), directeur de l’Observatoire politique et géostratégique des États-Unis, et Mme Maya Kandel, chercheuse associée à l’Université Paris 3-Sorbonne Nouvelle (laboratoire CREW).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31106",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1298,6 +1307,15 @@
       "organisateur": "PO888212"
     },
     {
+      "uid": "RUANR5L17S2027IDC461683",
+      "titre": "audition, à huis clos, de M. Emmanuel Puig, délégué à la planification stratégique à la direction générale des relations internationales et de la stratégie (DGRIS) du Ministère des Armées et des Anciens combattants, sur l’actualité géostratégique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461628",
       "titre": "table ronde sur les algues vertes.",
       "type": "reunionCommission_type",
@@ -1305,6 +1323,24 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461684",
+      "titre": "examen, ouvert à la presse, du rapport de la mission d’information sur « l’avenir de la cavalerie » (MM. Michel Criaud et Romain Tonussi, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461685",
+      "titre": "audition, ouverte à la presse, de Mme Alice Rufo, ministre déléguée auprès de la ministre des Armées et des Anciens combattants (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDFL461176",
@@ -1332,6 +1368,15 @@
       "dateFin": null,
       "lieu": "salon Gabriel (101 rue de l'Université)",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461419",
+      "titre": "Audition de M. Benjamin Haddad, ministre délégué en charge de l’Europe, sur l’actualité de l’Union européenne.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2027-02-03T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
     }
   ]
 }

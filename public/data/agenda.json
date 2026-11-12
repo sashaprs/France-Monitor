@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-12T12:21:32.398Z",
+  "updatedAt": "2026-11-12T14:56:36.676Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461645",
-      "titre": "audition de M. Thierry Guimbaud, président de l'autorité de régulation des transports et de Mme Isabelle Dechavanne, direction de la régulation financière des transports (aéroports, analyse financière, audit financier).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T14:00:00.000Z",
-      "dateFin": "2026-11-09T15:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461569",
-      "titre": "examen du projet de loi de finances de fin de gestion pour 2026 (n° 3434) (M. Philippe Juvin, rapporteur général).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T14:00:00.000Z",
-      "dateFin": "2026-11-09T15:55:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461597",
-      "titre": "Séance plénière de l'APFA\r- Ouverture de la séance par les Présidentes de l’Assemblée nationale et du Bundestag allemand ;\r- Audition conjointe de Mme Catherine Vautrin, ministre des Armées et des Anciens combattants, et de M. Boris Pistorius, ministre fédéral de la Défense ;\r- Examen des propositions de texte et des amendements déposés.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-09T14:00:00.000Z",
-      "dateFin": "2026-11-09T18:30:00.000Z",
-      "lieu": "Bundestag, Berlin, Allemagne",
-      "organisateur": "PO763566"
-    },
     {
       "uid": "RUANR5L17S2027IDC461563",
       "titre": "examen de la proposition de loi visant à améliorer le dispositif du temps partiel thérapeutique pour les fonctionnaires (n° 3244) (Mme Valérie Rossi, rapporteure) ;",
@@ -195,7 +168,7 @@
       "titre": "audition, ouverte à la presse, de représentants de la Caisse centrale de la Mutualité sociale agricole : M. Stéphane Antigny, directeur délégué aux opérations et Mme Karine Valdenaire, responsable du département Métier Maîtrise d’Ouvrage Stratégique et Famille.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T16:15:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO884567"
     },
@@ -258,7 +231,7 @@
       "titre": "table ronde, ouverte à la presse, réunissant M. Denis Anne, enseignant chercheur associé au laboratoire ÉRUDITE (Équipe de recherche sur l’utilisation des données individuelles en lien avec la théorie économique) de l’université Gustave Eiffel, M. Yannick L’Horty, professeur d’économie à l’université Gustave Eiffel et directeur de la fédération de recherche du CNRS « Théorie et Évaluation des Politiques Publiques », M. Guillaume Allègre, économiste à l’Observatoire français des conjonctures économiques (OFCE) et Mme Muriel Pucci, maîtresse de conférences en économie à l’université Paris 1 – Panthéon-Sorbonne et chercheuse associée à l’OFCE.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T17:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO884567"
     },
@@ -267,7 +240,7 @@
       "titre": "audition, conjointe avec la commission des affaires étrangères, de M. Albin Kurti, Premier ministre de la République du Kosovo.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-10T17:50:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO415287"
     },
@@ -303,7 +276,7 @@
       "titre": "nomination de rapporteurs ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-12T08:45:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-12T08:50:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },

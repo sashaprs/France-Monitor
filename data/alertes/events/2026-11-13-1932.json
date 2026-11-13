@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-11-13T19:32:35.798Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3188P0D1N000554",
+   "type": "nouvel_amendement",
+   "date": "2026-11-13T19:32:35.798Z",
+   "titre": "Amendement n° 554 de Nicolas Ray (DR) — ART. PREMIER",
+   "detail": "Les tensions croissantes qui pèsent sur la ressource en eau, amplifiées par le dérèglement climatique, font aujourd'hui de la résilience hydrique un volet à part entière de la résilience climatique e…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3188/AN/554",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "Les tensions croissantes qui pèsent sur la ressource en eau, amplifiées par le dérèglement climatique, font aujourd'hui de la résilience hydrique un volet à part entière de la résilience climatique e… ART. PREMIER Nicolas Ray DR La relance et la décentralisation du logement",
+   "profils": []
+  },
+  {
+   "id": "amdt-nouveau:AMANR5L17PO838901BTC3188P0D1N000125",
+   "type": "nouvel_amendement",
+   "date": "2026-11-13T19:32:35.798Z",
+   "titre": "Amendement n° 125 de Justine Gruet (DR) — APRÈS ART. 6",
+   "detail": "La relance et la décentralisation du logement",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3188/AN/125",
+   "dossier_id": "DLR5L17N54608",
+   "texte_matchable": "APRÈS ART. 6 Justine Gruet DR La relance et la décentralisation du logement",
+   "profils": []
+  }
+ ]
+}

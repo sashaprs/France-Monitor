@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T02:25:29.593Z",
+  "updatedAt": "2026-11-13T10:36:47.143Z",
   "scrutins": [
     {
       "numero": "9865",
@@ -57,6 +57,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9889",
+      "titre": "l'amendement n° 66 de Mme Lejeune à l'article 7 et état D du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "87",
+      "pour": "27",
+      "contre": "25",
+      "abstentions": "35",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9826",
       "titre": "l'amendement n° 105 de M. Jean-René Cazeneuve à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
@@ -98,6 +109,17 @@
       "pour": "30",
       "contre": "51",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9875",
+      "titre": "l'amendement n° 34 de M. Coquerel à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "55",
+      "pour": "25",
+      "contre": "18",
+      "abstentions": "12",
       "nonVotants": "1"
     },
     {
@@ -222,8 +244,19 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9894",
+      "titre": "l'amendement n° 2 du Gouvernement à l'article 4 du projet de loi de finances de fin de gestion pour 2026 (seconde délibération) (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "102",
+      "pour": "29",
+      "contre": "36",
+      "abstentions": "37",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9818",
-      "titre": "l'amendement n° 9 de M. Renault à l'article 4 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "titre": "l'amendement n° 9 de M. Renault à l'article 4 et état A du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
       "sort": null,
       "nombreVotants": "71",
@@ -234,7 +267,7 @@
     },
     {
       "numero": "9817",
-      "titre": "l'amendement n° 133 du Gouvernement à l'article 4 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "titre": "l'amendement n° 133 du Gouvernement à l'article 4 et état A du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
       "sort": null,
       "nombreVotants": "71",
@@ -288,6 +321,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9887",
+      "titre": "l'amendement n° 68 de Mme Lejeune de suppression de l'article 7 et état D du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "84",
+      "pour": "25",
+      "contre": "25",
+      "abstentions": "34",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9814",
       "titre": "l'amendement n° 6 de M. Jean-Philippe Tanguy et l'amendement identique suivant de suppression de l'article 2 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
@@ -307,6 +351,28 @@
       "pour": "44",
       "contre": "17",
       "abstentions": "4",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9880",
+      "titre": "l'amendement n° 104 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "67",
+      "pour": "47",
+      "contre": "20",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9874",
+      "titre": "l'amendement n° 51 de M. Arnaud Bonnet et l'amendement identique suivant à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "51",
+      "pour": "22",
+      "contre": "29",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -343,6 +409,17 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9882",
+      "titre": "l'amendement n° 71 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "68",
+      "pour": "26",
+      "contre": "42",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9823",
       "titre": "l'amendement n° 93 de M. Ben Cheikh à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
@@ -351,6 +428,28 @@
       "pour": "27",
       "contre": "32",
       "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9895",
+      "titre": "l'ensemble du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "188",
+      "pour": "49",
+      "contre": "63",
+      "abstentions": "76",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9876",
+      "titre": "l'amendement n° 75 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "56",
+      "pour": "23",
+      "contre": "33",
+      "abstentions": "0",
       "nonVotants": "1"
     },
     {
@@ -365,6 +464,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9878",
+      "titre": "l'amendement n° 74 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "61",
+      "pour": "23",
+      "contre": "20",
+      "abstentions": "18",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9888",
+      "titre": "l'amendement n° 64 de Mme Bentorki à l'article 7 et état D du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "83",
+      "pour": "27",
+      "contre": "23",
+      "abstentions": "33",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9886",
+      "titre": "l'article 6 et état C du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "78",
+      "pour": "21",
+      "contre": "11",
+      "abstentions": "46",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9822",
       "titre": "l'amendement n° 92 de M. Ben Cheikh à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
@@ -376,6 +508,39 @@
       "nonVotants": "1"
     },
     {
+      "numero": "9891",
+      "titre": "l'amendement n° 21 de M. Renault de suppression de l'article 8 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "94",
+      "pour": "27",
+      "contre": "66",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9890",
+      "titre": "l'article 7 et état D du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "92",
+      "pour": "17",
+      "contre": "43",
+      "abstentions": "32",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9879",
+      "titre": "l'amendement n° 100 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
+      "date": "2026-11-12",
+      "sort": null,
+      "nombreVotants": "66",
+      "pour": "26",
+      "contre": "23",
+      "abstentions": "17",
+      "nonVotants": "1"
+    },
+    {
       "numero": "9859",
       "titre": "l'amendement n° 67 de M. Baptiste à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
       "date": "2026-11-12",
@@ -383,171 +548,6 @@
       "nombreVotants": "67",
       "pour": "52",
       "contre": "15",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9849",
-      "titre": "l'amendement n° 82 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "68",
-      "pour": "22",
-      "contre": "22",
-      "abstentions": "24",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9833",
-      "titre": "l'amendement n° 122 de M. Proença à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "77",
-      "pour": "42",
-      "contre": "30",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9843",
-      "titre": "l'amendement n° 81 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "76",
-      "pour": "28",
-      "contre": "48",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9821",
-      "titre": "l'amendement n° 54 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "51",
-      "pour": "24",
-      "contre": "27",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9813",
-      "titre": "l'article 1 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "38",
-      "contre": "32",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9868",
-      "titre": "l'amendement n° 106 de M. Coquerel à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "30",
-      "contre": "41",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9832",
-      "titre": "l'amendement n° 14 de M. Renault à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "77",
-      "pour": "22",
-      "contre": "54",
-      "abstentions": "1",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9812",
-      "titre": "l'amendement n° 36 de M. Coquerel et les amendements identiques suivants à l'article 1 du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "20",
-      "contre": "52",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9866",
-      "titre": "l'amendement n° 40 de M. Seo à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "66",
-      "pour": "37",
-      "contre": "3",
-      "abstentions": "26",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9862",
-      "titre": "l'amendement n° 30 de M. Castor à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "37",
-      "contre": "15",
-      "abstentions": "19",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9844",
-      "titre": "l'amendement n° 118 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "73",
-      "pour": "26",
-      "contre": "47",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9834",
-      "titre": "l'amendement n° 59 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "34",
-      "contre": "46",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9853",
-      "titre": "l'amendement n° 87 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "25",
-      "contre": "23",
-      "abstentions": "24",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9864",
-      "titre": "l'amendement n° 38 de M. Seo à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "67",
-      "pour": "42",
-      "contre": "4",
-      "abstentions": "21",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9831",
-      "titre": "l'amendement n° 57 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "72",
-      "pour": "30",
-      "contre": "42",
       "abstentions": "0",
       "nonVotants": "1"
     }

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-13T02:25:31.128Z",
+  "updatedAt": "2026-11-13T10:36:48.304Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461602",
-      "titre": "Séance plénière de l'APFA\r- Suite de l’examen des propositions de texte et des amendements déposés.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T07:15:00.000Z",
-      "dateFin": "2026-11-10T09:00:00.000Z",
-      "lieu": "Bundestag, Berlin, Allemagne",
-      "organisateur": "PO763566"
-    },
     {
       "uid": "RUANR5L17S2027IDC461663",
       "titre": "-Nomination de rapporteurs sur :\r-la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3174) ;\r-la proposition de loi visant à renforcer les interdictions de détenir un animal par la création d’un fichier national (n° 3306) ;\r-la proposition de loi visant à favoriser le travail en continu et en journée via la commande publique afin d’améliorer les conditions relatives au domaine social et à l’emploi (n° 3094) ;\r&#8208; la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution, (n° 2262).",
@@ -213,7 +204,7 @@
       "titre": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
       "type": "seance_type",
       "dateDebut": "2026-11-12T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-12T11:55:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -276,7 +267,7 @@
       "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
       "type": "seance_type",
       "dateDebut": "2026-11-12T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-12T18:30:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -428,7 +419,7 @@
       "uid": "RUANR5L17S2027IDC461620",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur le projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-16T15:30:00.000Z",
+      "dateDebut": "2026-11-16T16:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
@@ -498,7 +489,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461548",
-      "titre": "audition, en application de l’article L. 1451 1 du code de la santé publique, de Mme Pearl Nguyên Duy, dont la nomination aux fonctions de directrice générale de l’Office national d’indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales est envisagée",
+      "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T15:30:00.000Z",
       "dateFin": null,
@@ -579,7 +570,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461595",
-      "titre": "examen de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) (Mme Josiane Corneloup, rapporteure).",
+      "titre": "examen de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) (Mme Josiane Corneloup, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -615,7 +606,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461621",
-      "titre": "audition de Mme Sophie Paturle, présidente de France Invest et de M. Vincent Marinet, directeur général.",
+      "titre": "nomination de rapporteurs sur le bilan annuel de l’application des lois en vue de la séance de contrôle du mercredi 3 février 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -642,7 +633,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461622",
-      "titre": "– sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi visant à moderniser les communications d’urgence (n° 3319).",
+      "titre": "examen de la proposition de loi visant à moderniser les communications d’urgence (n° 3319).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T10:00:00.000Z",
       "dateFin": null,
@@ -749,6 +740,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461701",
+      "titre": "- audition, en visioconférence, de M. Pierre-Antoine Molina, délégué interministériel aux Jeux Olympiques et Paralympiques et aux grands événements sportifs (DIJOP).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO856386"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31054",
       "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
@@ -792,6 +792,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461689",
+      "titre": "audition, ouverte à la presse, de M. Boris Melmoux-Eude, directeur général de l’administration et de la fonction publique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2027IDC461687",
@@ -884,6 +893,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461702",
+      "titre": "- audition, en visioconférence, de M. Damien Robert, directeur général exécutif de la Solideo Alpes 2030.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO856386"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31063",
       "titre": "Questions orales sans débat (salle Lamartine)",
       "type": "seance_type",
@@ -891,6 +909,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461703",
+      "titre": "- audition, en visioconférence, de Mme Marie-Amélie Le Fur, présidente du Comité paralympique et sportif français (CPSF).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO856386"
     },
     {
       "uid": "RUANR5L17S2027IDS31064",
@@ -920,6 +947,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461690",
+      "titre": "examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T17:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461669",
       "titre": "Suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
       "type": "reunionCommission_type",
@@ -936,6 +972,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461691",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461557",
@@ -965,6 +1010,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2027IDC461625",
+      "titre": "table ronde, ouverte à la presse et conjointe avec la commission des Finances, de l’économie générale et du contrôle budgétaire, sur la situation économique et le financement des entreprises.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461630",
       "titre": "– désignation de rapporteurs sur le contrôle de l’application des lois ;\r- examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) (1) ;\r- examen de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (sous réserve de son inscription à l’ordre du jour) (2) ;\r(1) (2) En application de l’article 86 alinéa 5 du Règlement de l’Assemblée nationale, la date limite de dépôt des amendements a été fixée au samedi 21 novembre, à 17 heures.\rLes amendements doivent être déposés à l’adresse http://eloi depuis le réseau de l’Assemblée nationale ou https://portail.assemblee-nationale.fr  depuis Internet.",
       "type": "reunionCommission_type",
@@ -992,17 +1046,8 @@
       "organisateur": "PO59048"
     },
     {
-      "uid": "RUANR5L17S2027IDC461625",
-      "titre": "table ronde, ouverte à la presse et conjointe avec la commission des Finances, de l’économie générale et du contrôle budgétaire, sur la situation économique et le financement des entreprises.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-25T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461626",
-      "titre": "sous réserve de son inscription à l’ordre du jour, examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373)",
+      "titre": "examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T10:00:00.000Z",
       "dateFin": null,
@@ -1073,6 +1118,15 @@
       "organisateur": "PO884567"
     },
     {
+      "uid": "RUANR5L17S2027IDC461692",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461514",
       "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne (M. Alexandre Portier, rapporteur) ;",
       "type": "reunionCommission_type",
@@ -1089,6 +1143,15 @@
       "dateFin": null,
       "lieu": "Salle à déterminer",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461704",
+      "titre": "- audition de Mme Marina Ferrari, ministre des sports, de la jeunesse et de la vie associative.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T15:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO856386"
     },
     {
       "uid": "RUANR5L17S2027IDC461672",
@@ -1127,6 +1190,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461705",
+      "titre": "- audition, en visioconférence, de Mme Amélie Oudéa-Castéra, présidente du Comité national olympique et sportif français (CNOSF).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO856386"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31069",
       "titre": "Suite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations",
       "type": "seance_type",
@@ -1154,6 +1226,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461693",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à moderniser les communications d’urgence (n° 3319) (M. Sébastien Huyghe, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31100",
       "titre": "Suite de la discussion d'une proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement",
       "type": "seance_type",
@@ -1179,6 +1260,15 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461694",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDS31104",
@@ -1226,6 +1316,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461695",
+      "titre": "examen, en application de l’article 148 du Règlement, de la pétition intitulée « Facturation électronique obligatoire, c'est non ! » (n° 5174) (Mme Françoise Buffet, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461688",
       "titre": "table ronde, ouverte à la presse, sur les conséquences des élections américaines de mi-mandat – ou Midterms – du 3 novembre 2026 sur la politique extérieure des États-Unis, avec la participation de M. Romuald Sciora, chercheur associé à l’Institut de relations internationales et stratégiques (IRIS), directeur de l’Observatoire politique et géostratégique des États-Unis, et Mme Maya Kandel, chercheuse associée à l’Université Paris 3-Sorbonne Nouvelle (laboratoire CREW).",
       "type": "reunionCommission_type",
@@ -1260,6 +1359,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461696",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373) (M. Boris Tavernier, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T14:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDS31107",
@@ -1298,6 +1406,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461697",
+      "titre": "audition de Mme Christel Heydemann, directrice générale d’Orange.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-08T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461619",
       "titre": "- Table ronde, non ouverte à la presse, d'anciennes ministres chargées des Droits des femmes réunissant :",
       "type": "reunionCommission_type",
@@ -1316,6 +1433,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461698",
+      "titre": "audition de MM. Christian Pons, président de l’Union nationale de l’apiculture française (Unaf), Yves Delaunay, vice-président de l’Unaf, et Franck Aletru, président du Syndicat national d’apiculture (SNA).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461628",
       "titre": "table ronde sur les algues vertes.",
       "type": "reunionCommission_type",
@@ -1323,6 +1449,24 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461699",
+      "titre": "audition de M. Franck Lebeugle, directeur général de l’Association française de normalisation (Afnor).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461700",
+      "titre": "audition de M. Sébastien Martin, ministre délégué auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargé de l'Industrie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461684",

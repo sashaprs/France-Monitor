@@ -1,168 +1,6 @@
 {
-  "updatedAt": "2026-11-13T11:57:59.224Z",
+  "updatedAt": "2026-11-13T18:24:26.476Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461605",
-      "titre": "présentation de la pétition « Supprimer CNews de l’audiovisuel français » et vote sur son classement ou son examen, en application du 3e alinéa de l’article 148 du Règlement de l’Assemblée nationale (M. Alexandre Portier, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T12:00:00.000Z",
-      "dateFin": "2026-11-10T13:15:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461648",
-      "titre": "audition du général de brigade aérienne David Marty, officier général en charge de la défense aérienne élargie et de l’épaulement stratégique",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T13:00:00.000Z",
-      "dateFin": "2026-11-10T14:00:00.000Z",
-      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461637",
-      "titre": "audition du Contre-amiral Rémi Thomas, sous-chef Plans et programmes de l’Etat-major de la Marine.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T13:00:00.000Z",
-      "dateFin": "2026-11-10T14:30:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461601",
-      "titre": "évaluation des dispositifs de soutien à l’engagement bénévole de la population active : examen du rapport (ouvert à la presse).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T13:30:00.000Z",
-      "dateFin": "2026-11-10T13:55:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO420375"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461633",
-      "titre": "désignation d’un rapporteur sur la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T13:30:00.000Z",
-      "dateFin": "2026-11-10T13:35:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30990",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-10T14:00:00.000Z",
-      "dateFin": "2026-11-10T18:20:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461636",
-      "titre": "audition de M. Martin Klotz, Directeur des Affaires publiques de Safran Electronics & Defense et de Mme Suzanne Kucharekova, Directrice des affaires institutionnelles de Safran.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T14:00:00.000Z",
-      "dateFin": "2026-11-10T15:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880763"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461649",
-      "titre": "audition de M. Guillaume Rochard, directeur de la stratégie, des partenariats et des affaires institutionnelles et de Mme Aurore Neuschwander, directrice drones, systèmes autonomes et armes sous-marines de Naval Group",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T14:00:00.000Z",
-      "dateFin": "2026-11-10T15:00:00.000Z",
-      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461638",
-      "titre": "audition de représentants de MBDA, M. Jean-René Gourion, Directeur général délégué, Amiral Hervé Bonnaventure, Conseiller défense du CEO, Mme Anne-Sophie Thierry-Bozetto, Responsable des relations politiques et parlementaires et Mme Béatrix Hugot, Chargée des relations politiques et parlementaires.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:00:00.000Z",
-      "dateFin": "2026-11-10T16:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880763"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461532",
-      "titre": "audition, ouverte à la presse, de représentants de la Caisse centrale de la Mutualité sociale agricole : M. Stéphane Antigny, directeur délégué aux opérations et Mme Karine Valdenaire, responsable du département Métier Maîtrise d’Ouvrage Stratégique et Famille.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T16:15:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461564",
-      "titre": "nomination d’un rapporteur sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant au renforcement de l’attractivité de l’épargne salariale et à la mise en œuvre d’une procédure de déblocage exceptionnelle (n° 2625) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T18:45:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461554",
-      "titre": "audition de Mme Nadia Bellaoui, présidente de l’Agence du service civique ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T16:20:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419604"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461525",
-      "titre": "sous réserve de son inscription à l’ordre du jour, nomination d’un rapporteur sur la proposition de loi visant à moderniser les communications d’urgence (n° 3319) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T16:40:00.000Z",
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461511",
-      "titre": "- audition conjointe, ouverte à la presse, d’experts des rythmes et des temps de l’enfant et des apprentissages.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "à préciser",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461100",
-      "titre": "audition de M. Nicolas Groult, président-directeur général de KNDS France et de M. Alexandre Dupuy, directeur des affaires gouvernementales et institutionnelles.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T15:30:00.000Z",
-      "dateFin": "2026-11-10T17:00:00.000Z",
-      "lieu": "Salle 4060 - 9 rue de Bourgogne - Rez-de-chaussée",
-      "organisateur": "PO880668"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461499",
-      "titre": "audition, conjointe avec la commission des affaires européennes, ouverte à la presse, de M. Albin Kurti, premier ministre de la République du Kosovo.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": "2026-11-10T17:50:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461440",
-      "titre": "table ronde, ouverte à la presse, réunissant M. Denis Anne, enseignant chercheur associé au laboratoire ÉRUDITE (Équipe de recherche sur l’utilisation des données individuelles en lien avec la théorie économique) de l’université Gustave Eiffel, M. Yannick L’Horty, professeur d’économie à l’université Gustave Eiffel et directeur de la fédération de recherche du CNRS « Théorie et Évaluation des Politiques Publiques », M. Guillaume Allègre, économiste à l’Observatoire français des conjonctures économiques (OFCE) et Mme Muriel Pucci, maîtresse de conférences en économie à l’université Paris 1 – Panthéon-Sorbonne et chercheuse associée à l’OFCE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": "2026-11-10T17:30:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461445",
-      "titre": "audition, conjointe avec la commission des affaires étrangères, de M. Albin Kurti, Premier ministre de la République du Kosovo.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-10T16:30:00.000Z",
-      "dateFin": "2026-11-10T17:50:00.000Z",
-      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO415287"
-    },
     {
       "uid": "RUANR5L17S2027IDS30991",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
@@ -425,6 +263,15 @@
       "organisateur": "PO851894"
     },
     {
+      "uid": "RUANR5L17S2027IDC461707",
+      "titre": "audition de l'Ingénieur général hors classe François-Xavier Dufer, directeur de la direction de l’Ingénierie et de l’Expertise à la direction générale de l’armement (DGA) et de M. Olivier Mary, architecte de systèmes de défense ASP.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T13:00:00.000Z",
+      "dateFin": "2026-11-17T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461505",
       "titre": "Audition de Son Exc. M. Christophe Parisot, ambassadeur de France en Israël.",
       "type": "reunionCommission_type",
@@ -441,6 +288,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461708",
+      "titre": "audition de l'amiral (2S) Hervé de Bonnaventure, conseiller défense MBDA.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T14:00:00.000Z",
+      "dateFin": "2026-11-17T15:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2027IDC461580",
@@ -758,6 +614,24 @@
       "organisateur": "PO273589"
     },
     {
+      "uid": "RUANR5L17S2027IDC461709",
+      "titre": "audition de M. Stéphane Verclytte, conseiller d’État, président de la troisième chambre de la section du contentieux.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461706",
+      "titre": "audition de l’Institut français de recherche pour l’exploitation de la mer (Ifremer) représenté par M. Emmanuel Ponzevera, directeur scientifique adjoint, M. Raffaele Siano, chercheur en écologie moléculaire côtière, et Mme Romane Lucq, conseillère au Cabinet du PDG de l'Ifremer.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO887401"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461679",
       "titre": "audition de M. François-Étienne Mercier, président de la commission emploi de la FRSEA Grand Est et membre de la commission emploi/formation, accompagné de Mme Anne-Sophie Forget, chargée de mission emploi et relations sociales, et de Mme Romane Sagnier, responsable des affaires publiques, Fédération nationale des syndicats d’exploitants agricoles (FNSEA).",
       "type": "reunionCommission_type",
@@ -765,6 +639,15 @@
       "dateFin": null,
       "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
       "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461710",
+      "titre": "audition de M. Thibaut de Saint Pol, directeur de la jeunesse, de l’éducation populaire et de la vie associative (DJEPVA), ministère des sports, de la jeunesse et de la vie associative, accompagné de M. Charles-Aymeric Caffin, chef du bureau du développement de la vie associative.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
     },
     {
       "uid": "RUANR5L17S2027IDC461680",

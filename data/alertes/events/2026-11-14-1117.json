@@ -1,0 +1,27 @@
+{
+ "genere_le": "2026-11-14T11:17:01.978Z",
+ "evenements": [
+  {
+   "id": "odj:5d7494365aeb8974",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T11:17:01.978Z",
+   "titre": "À l'ordre du jour — Finances : DLR5L16N47217",
+   "detail": "mercredi 25 novembre à 11:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L16N47217",
+   "texte_matchable": "Examen du texte Finances",
+   "profils": []
+  },
+  {
+   "id": "odj:6333de02cf5fe5b7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T11:17:01.978Z",
+   "titre": "À l'ordre du jour — Finances : Faire contribuer davantage les héritiers les plus fortunés",
+   "detail": "mercredi 25 novembre à 15:00 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55143",
+   "texte_matchable": "Examen du texte Finances Faire contribuer davantage les héritiers les plus fortunés",
+   "profils": []
+  }
+ ]
+}

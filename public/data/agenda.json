@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T00:46:49.314Z",
+  "updatedAt": "2026-11-14T07:23:32.734Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461610",
@@ -1100,6 +1100,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461734",
+      "titre": "examen, en deuxième lecture, de la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie Laernoes, rapporteure)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461556",
       "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :\r- projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs au cadre de déclaration applicable aux cryptoactifs, signé à Assomption le 26 novembre 2024, et l’approbation de l’addendum à l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs aux comptes financiers, signé à Assomption le 26 novembre 2024 (n° 3421) (Mme Constance Le Grip, rapporteure) ;\r- projet de loi, adopté par le Sénat, autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune (n° 3401) (M. Stéphane Hablot, rapporteur).",
       "type": "reunionCommission_type",
@@ -1143,6 +1152,15 @@
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461735",
+      "titre": "examen de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés (n° 3374) (M. Tristan Lahais, rapporteur)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461534",
@@ -1386,6 +1404,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461736",
+      "titre": "audition, sous forme de table ronde et conjointe avec la commission des affaires économiques, sur le nouveau nucléaire",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDS31106",

@@ -1,0 +1,159 @@
+{
+ "genere_le": "2026-11-14T00:47:25.640Z",
+ "evenements": [
+  {
+   "id": "dossier-statut:DLR5L17N55223:en_commission",
+   "type": "changement_etape",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "PLFFG pour 2026 — en commission",
+   "detail": "Statut : « en séance » → « en commission »",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLFFG_2026",
+   "dossier_id": "DLR5L17N55223",
+   "texte_matchable": "Projet de loi de finances de fin de gestion pour 2026 PLFFG pour 2026 Finances Philippe Juvin",
+   "profils": []
+  },
+  {
+   "id": "odj:b2af8eb41dad39d7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Lois : La réparation des préjudices résultant de la traite et de l'esclavage",
+   "detail": "lundi 16 novembre à 16:00 · Nomination rapporteur sur le texte n°2895",
+   "url": null,
+   "dossier_id": "DLR5L17N54448",
+   "texte_matchable": "Nomination rapporteur sur le texte n°2895 Lois La réparation des préjudices résultant de la traite et de l'esclavage",
+   "profils": []
+  },
+  {
+   "id": "odj:7e88b2bd806dda51",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Lois : Projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+   "detail": "lundi 16 novembre à 16:00 · Nomination rapporteur sur le projet de loi n° 3388",
+   "url": null,
+   "dossier_id": "DLR5L17N54703",
+   "texte_matchable": "Nomination rapporteur sur le projet de loi n° 3388 Lois Projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+   "profils": []
+  },
+  {
+   "id": "odj:971e2f337c163a71",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Affaires culturelles et éducation : DLR5L16N46821",
+   "detail": "mardi 24 novembre à 16:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L16N46821",
+   "texte_matchable": "Examen du texte Affaires culturelles et éducation",
+   "profils": []
+  },
+  {
+   "id": "odj:73962b33a9d4b787",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Développement durable : Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "detail": "mardi 24 novembre à 16:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53067",
+   "texte_matchable": "Examen du texte Développement durable Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "profils": []
+  },
+  {
+   "id": "odj:db135ec13e150145",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Développement durable : Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "detail": "mardi 24 novembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53067",
+   "texte_matchable": "Examen du texte Développement durable Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "profils": []
+  },
+  {
+   "id": "odj:3ea60ba1ff95ae12",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Lois : DLR5L15N37121",
+   "detail": "mardi 24 novembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L15N37121",
+   "texte_matchable": "Examen du texte Lois",
+   "profils": []
+  },
+  {
+   "id": "odj:86ea58e857fbd5b0",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Affaires culturelles et éducation : Instaurer un plan décennal de rénovation du bâti scolaire",
+   "detail": "mercredi 25 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55127",
+   "texte_matchable": "Examen du texte Affaires culturelles et éducation Instaurer un plan décennal de rénovation du bâti scolaire",
+   "profils": []
+  },
+  {
+   "id": "odj:d2505cc78e9c1463",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Affaires culturelles et éducation : La révision de la directive « Services de médias audiovisuels » et la défense de l’exception culturelle européenne",
+   "detail": "mercredi 25 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54254",
+   "texte_matchable": "Examen du texte Affaires culturelles et éducation La révision de la directive « Services de médias audiovisuels » et la défense de l’exception culturelle européenne",
+   "profils": []
+  },
+  {
+   "id": "odj:94b5d225ff8d777b",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Affaires culturelles et éducation : Réviser la définition de l’œuvre européenne",
+   "detail": "mercredi 25 novembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54288",
+   "texte_matchable": "Examen du texte Affaires culturelles et éducation Réviser la définition de l’œuvre européenne",
+   "profils": []
+  },
+  {
+   "id": "odj:3876b9be8f99709a",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Lois : DLR5L15N37121",
+   "detail": "mercredi 25 novembre à 18:15 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L15N37121",
+   "texte_matchable": "Examen du texte Lois",
+   "profils": []
+  },
+  {
+   "id": "odj:6df575f10400d73a",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Développement durable : Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "detail": "mardi 1 décembre à 14:45 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53067",
+   "texte_matchable": "Examen du texte Développement durable Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "profils": []
+  },
+  {
+   "id": "odj:8791c4327757a456",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Développement durable : Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "detail": "jeudi 3 décembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "Examen du texte Développement durable Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:cf7ffb1b635b2980",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-14T00:47:25.640Z",
+   "titre": "À l'ordre du jour — Développement durable : Protéger nos forêts en encadrant les coupes rases",
+   "detail": "jeudi 3 décembre à 09:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55141",
+   "texte_matchable": "Examen du texte Développement durable Protéger nos forêts en encadrant les coupes rases",
+   "profils": []
+  }
+ ]
+}

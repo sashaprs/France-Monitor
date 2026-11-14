@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-13T19:31:47.959Z",
+  "updatedAt": "2026-11-14T00:12:41.456Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30991",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-10T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461610",
       "titre": "audition de M. Daniel Hubé, ingénieur au Bureau de recherches géologiques et minières (BRGM), et de M. Patrick Charbonnier, directeur adjoint de la direction des risques du BRGM.",
@@ -200,15 +191,6 @@
       "organisateur": "PO888178"
     },
     {
-      "uid": "RUANR5L17S2027IDC461616",
-      "titre": "table ronde, ouverte à la presse, relative aux aides et actions sociales à l’échelon communal et intercommunal réunissant des représentants de l’Union nationale des centres communaux d’action sociale (Unccas), de l’Association des maires de France et présidents d’intercommunalité (AMF), de l’Association des maires ruraux de France (AMRF) et de l’Association Intercommunalités de France.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-16T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle à déterminer",
-      "organisateur": "PO884567"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461675",
       "titre": "audition de Mme Nadine Duesco, cheffe du service qualité de l’air, et de Mme Anne-Cécile Sigwalt, directrice exécutive adjointe de l’expertise et des programmes à l’Agence de la transition écologique (ADEME).",
       "type": "reunionCommission_type",
@@ -243,6 +225,33 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461616",
+      "titre": "audition, ouverte à la presse, de l’Association des maires de France et des présidents d’intercommunalité (AMF) : Mme Sandrine Janiaud-Larcher, maire de Delle, accompagnée de Mme Nelly Jacquemot, responsable du département action sociale, culture, éducation de l'AMF, et de Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-16T16:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461723",
+      "titre": "audition de représentants du groupe Air France - KLM.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-16T17:00:00.000Z",
+      "dateFin": "2026-11-16T18:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461724",
+      "titre": "audition de représentants du groupe Air France - KLM.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-16T17:00:00.000Z",
+      "dateFin": "2026-11-16T18:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
     },
     {
       "uid": "RUANR5L17S2027IDS31003",
@@ -281,6 +290,15 @@
       "organisateur": "PO851304"
     },
     {
+      "uid": "RUANR5L17S2027IDC461729",
+      "titre": "audition de représentants de la Direction de l’eau et de la biodiversité (DEB).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T13:00:00.000Z",
+      "dateFin": "2026-11-17T14:00:00.000Z",
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO885393"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31004",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -300,11 +318,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461580",
-      "titre": "- audition conjointe, ouverte à la presse, de M. Gérard-François Dumont, professeur des universités émérite à Sorbonne Université, et Mme Nina Guyon, maîtresse de conférences à l’École normale supérieure-PSL et professeure à l’École d’économie de Paris.",
+      "titre": "audition conjointe, ouverte à la presse, de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T15:30:00.000Z",
       "dateFin": null,
-      "lieu": "à préciser",
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
     {
@@ -318,11 +336,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461533",
-      "titre": "table ronde, ouverte à la presse, réunissant M. Didier Duriez, président du Secours Catholique – Caritas France, M. Olivier Morzelle, président d’ATD Quart Monde et M. Olivier Noblecourt, président du Collectif ALERTE.",
+      "titre": "table ronde, ouverte à la presse, réunissant : M. Didier Duriez, président du Secours Catholique – Caritas France, accompagné de Mme Sophie Rigard, chargée de projet action et plaidoyer, M. Olivier Morzelle, président d’ATD Quart Monde France, et M. Olivier Noblecourt, président du Collectif ALERTE.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T15:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO884567"
     },
     {
@@ -335,6 +353,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461730",
+      "titre": "audition, ouverte à la presse, de Mme Sylviane Giampino, présidente du Conseil de l’enfance et de l’adolescence du Haut Conseil de la famille, de l’enfance et de l’âge (HCFEA), et de Mme Frédérique Chave, secrétaire générale adjointe du HCFEA, chargée du Conseil de l’enfance et de l’adolescence.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461686",
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
@@ -345,7 +372,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461642",
-      "titre": "audition de M. Gérald Darmanin, garde des Sceaux, ministre de la Justice, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
+      "titre": "audition de M. Gérald Darmanin, garde des sceaux, ministre de la justice, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T20:30:00.000Z",
       "dateFin": null,
@@ -372,7 +399,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461643",
-      "titre": "examen de la proposition de loi visant à garantir l'exécution effective d'une peine minimale dès la première condamnation pour violences volontaires (n° 3335) ;",
+      "titre": "examen de la proposition de loi visant à garantir l'exécution effective d'une peine minimale dès la première condamnation pour violences volontaires (n° 3335) (M. Patrick Hetzel, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
       "dateFin": null,
@@ -399,7 +426,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461614",
-      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et d’associations d’élus locaux",
+      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et d’associations d’élus locaux ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -426,7 +453,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461606",
-      "titre": "table ronde sur le thème : « Enseignement supérieur : le tabou de la sélection ».",
+      "titre": "audition de Mme Claire Giry, présidente-directrice générale de l’Agence nationale de la recherche (ANR), sur le rôle de l’ANR dans le financement de la recherche ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -459,6 +486,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461711",
+      "titre": "audition de M. Bruno Giorgianni et de M. Laurent Bazin de Jessey, Direction des Affaires Publiques et Sûreté, Dassault Aviation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T10:00:00.000Z",
+      "dateFin": "2026-11-18T11:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880826"
     },
     {
       "uid": "RUANR5L17S2027IDC461501",
@@ -533,6 +569,24 @@
       "organisateur": "PO804431"
     },
     {
+      "uid": "RUANR5L17S2027IDC461731",
+      "titre": "audition ouverte à la presse de M. Régis Debats, secrétaire général adjoint du Syndicat unitaire de l’inspection pédagogique (SUI-FSU).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461725",
+      "titre": "audition, ouverte à la presse, de Mme Amélie Verdier, directrice générale des Finances publiques accompagnée de M. Brice Fabre, chef du pôle du département des études et des statistiques fiscales.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461513",
       "titre": "nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans (n° 3355) : examen de la proposition de résolution européenne (Mme Constance Le Grip, rapporteure) ;",
       "type": "reunionCommission_type",
@@ -542,6 +596,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2027IDC461726",
+      "titre": "audition de Mme Emmanuelle Garnier, présidente de l’Université Toulouse Jean Jaurès, à la présidence du Conseil des Relations internationales et européennes, et M. Antoine Guery, conseiller aux affaires institutionnelles et parlementaires de France Universités.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:00:00.000Z",
+      "dateFin": "2026-11-18T15:30:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885460"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461412",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
@@ -549,6 +612,15 @@
       "dateFin": null,
       "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461732",
+      "titre": "audition ouverte à la presse de M. Henri Prevost, directeur général de l’Agence nationale de la cohésion des territoires (ANCT).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO881975"
     },
     {
       "uid": "RUANR5L17S2027IDC461589",
@@ -587,6 +659,15 @@
       "organisateur": "PO856386"
     },
     {
+      "uid": "RUANR5L17S2027IDC461713",
+      "titre": "audition de M. François Buffet, Défenseur des droits.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T07:30:00.000Z",
+      "dateFin": "2026-11-19T08:30:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885535"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31054",
       "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
@@ -612,6 +693,15 @@
       "dateFin": null,
       "lieu": "Sénat (salle Médicis - Palais du Luxembourg)",
       "organisateur": "PO273589"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461714",
+      "titre": "audition de M. Jeremy Perelman, Directeur des affaires internationales de Sciences Po.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T08:45:00.000Z",
+      "dateFin": "2026-11-19T09:45:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO885535"
     },
     {
       "uid": "RUANR5L17S2027IDC461709",
@@ -659,6 +749,15 @@
       "organisateur": "PO884940"
     },
     {
+      "uid": "RUANR5L17S2027IDC461715",
+      "titre": "audition de M. Pedro Lages Dos Santos, président de l'Université Le Havre Normandie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T13:00:00.000Z",
+      "dateFin": "2026-11-19T14:00:00.000Z",
+      "lieu": "Salle 4085, 9 rue de Bourgogne",
+      "organisateur": "PO885535"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461689",
       "titre": "audition, ouverte à la presse, de M. Boris Melmoux-Eude, directeur général de l’administration et de la fonction publique.",
       "type": "reunionCommission_type",
@@ -677,6 +776,15 @@
       "organisateur": "PO675659"
     },
     {
+      "uid": "RUANR5L17S2027IDC461712",
+      "titre": "audition de l'Amiral Antoine de Saint-Germain, Préfet maritime de l’Atlantique, commandant de la zone de défense Atlantique.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T13:30:00.000Z",
+      "dateFin": "2026-11-19T14:30:00.000Z",
+      "lieu": "Site Balard",
+      "organisateur": "PO880699"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31055",
       "titre": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
@@ -684,6 +792,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461716",
+      "titre": "audition de M. Patrick Le Stunff, directeur général et de Mme Roxane Lundy, chargée de mission auprès de la direction générale, Campus France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-19T14:15:00.000Z",
+      "dateFin": "2026-11-19T15:15:00.000Z",
+      "lieu": "Salle 4085, 9 rue de Bourgogne",
+      "organisateur": "PO885535"
     },
     {
       "uid": "RUANR5L17S2027IDS31056",
@@ -803,6 +920,24 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461717",
+      "titre": "Examen de la proposition de loi, adoptée par le Sénat, portant réforme de la loi du 9 février 1895 sur les fraudes en matière artistique (n° 109)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461719",
+      "titre": "examen, en deuxième lecture, de la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461668",
       "titre": "Suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
       "type": "reunionCommission_type",
@@ -812,6 +947,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461733",
+      "titre": "audition conjointe, ouverte à la presse, des rapporteurs de la mission d’information de la commission de la culture, de l’éducation, de la communication et du sport du Sénat sur le maillage territorial des établissements scolaires, et des rapporteurs de la mission d’information de la délégation aux collectivités territoriales et à la décentralisation du Sénat relative à la compétence scolaire des collectivités territoriales face aux évolutions démographiques et aux défis d’aménagement du territoire.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "à préciser",
+      "organisateur": "PO881975"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461690",
       "titre": "examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
       "type": "reunionCommission_type",
@@ -819,6 +963,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461720",
+      "titre": "éventuellement, suite de l'examen, en deuxième lecture, de la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461669",
@@ -837,6 +990,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461727",
+      "titre": "Audition de M. Patrice Faure, préfet de police de Paris, dans le cadre des travaux d'enquête menés sur les événements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance n° 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461691",
@@ -867,7 +1029,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461665",
-      "titre": "examen de la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution, (n° 2262) ;",
+      "titre": "examen de la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution, (n° 2262) (M. Pouria Amirshahi, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
@@ -885,12 +1047,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461630",
-      "titre": "– désignation de rapporteurs sur le contrôle de l’application des lois ;\r- examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) (1) ;\r- examen de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (sous réserve de son inscription à l’ordre du jour) (2) ;\r(1) (2) En application de l’article 86 alinéa 5 du Règlement de l’Assemblée nationale, la date limite de dépôt des amendements a été fixée au samedi 21 novembre, à 17 heures.\rLes amendements doivent être déposés à l’adresse http://eloi depuis le réseau de l’Assemblée nationale ou https://portail.assemblee-nationale.fr  depuis Internet.",
+      "titre": "– désignation de rapporteurs sur le contrôle de l’application des lois ;\r- examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r- examen de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrik Davi, rapporteur) ;\r- éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur la proposition de loi visant à lever les contraintes pesant sur le foncier (n° 3332) (Mme Emeline Rey-Rinchert, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461718",
+      "titre": "Examen de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire (n° 3358) (M. Arnaud Bonnet, rapporteur)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461671",
@@ -966,7 +1137,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461631",
-      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (sous réserve de son inscription à l’ordre du jour) ;",
+      "titre": "éventuellement, suite de l'ordre du jour du matin",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
@@ -1017,6 +1188,15 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO856386"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461728",
+      "titre": "audition de M. Benoît Payan, maire de Marseille, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T17:15:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461672",
@@ -1125,6 +1305,15 @@
       "dateFin": null,
       "lieu": "9e Bureau",
       "organisateur": "PO854354"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461721",
+      "titre": "éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461694",
@@ -1251,6 +1440,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461722",
+      "titre": "– Éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :\r•\tla proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r•\tla proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrick Davi, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS31102",

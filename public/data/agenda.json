@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-15T13:30:02.008Z",
+  "updatedAt": "2026-11-15T18:38:07.538Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30993",
-      "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
-      "type": "seance_type",
-      "dateDebut": "2026-11-12T14:00:00.000Z",
-      "dateFin": "2026-11-12T18:30:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461640",
-      "titre": "audition du Général de division (2S) Bertrand Vallette d'Osia, Président du groupe de travail sur les hélicoptères de l'Académie de l’Air et de l’Espace.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T14:00:00.000Z",
-      "dateFin": "2026-11-12T15:30:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461567",
-      "titre": "Conseil général de l’alimentation, de l’agriculture et des espaces ruraux (CGAAER), au titre de deux rapports publiés en 2023 sur les modes de portage du foncier (Benoît Bonnefoi et Hervé Lejeune) et sur les terres agricoles délaissées (Jean-Maurice Durand, Hervé Lejeune, Geneviève Rey)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885414"
-    },
     {
       "uid": "RUANR5L17S2027IDS30994",
       "titre": "Suite de la discussion du projet de loi de finances de fin de gestion pour 2026",

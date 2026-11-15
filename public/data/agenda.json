@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-15T19:33:44.071Z",
+  "updatedAt": "2026-11-15T23:46:18.470Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30994",
-      "titre": "Suite de la discussion du projet de loi de finances de fin de gestion pour 2026",
-      "type": "seance_type",
-      "dateDebut": "2026-11-12T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS30995",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",

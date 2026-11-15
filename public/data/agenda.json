@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-11-15T05:03:09.112Z",
+  "updatedAt": "2026-11-15T11:49:15.951Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461610",
-      "titre": "audition de M. Daniel Hubé, ingénieur au Bureau de recherches géologiques et minières (BRGM), et de M. Patrick Charbonnier, directeur adjoint de la direction des risques du BRGM.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO887401"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30992",
-      "titre": "Discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
-      "type": "seance_type",
-      "dateDebut": "2026-11-12T08:00:00.000Z",
-      "dateFin": "2026-11-12T11:55:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461613",
-      "titre": "nomination de rapporteurs ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T08:45:00.000Z",
-      "dateFin": "2026-11-12T08:50:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461647",
-      "titre": "audition de représentants d'Eurocontrol",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T09:00:00.000Z",
-      "dateFin": "2026-11-12T10:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461611",
-      "titre": "audition de M. Benjamin Orban, doctorant en Histoire et archéologie à Nantes Université.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T09:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO887401"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461644",
-      "titre": "- table ronde syndicats des journalistes",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T10:00:00.000Z",
-      "dateFin": null,
-      "lieu": "2ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2027IDC461639",
       "titre": "audition du Général de brigade aérienne Solène Le Floch, Commandant de la brigade aérienne d’assaut et de projection.",

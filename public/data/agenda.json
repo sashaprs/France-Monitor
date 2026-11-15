@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-15T11:49:15.951Z",
+  "updatedAt": "2026-11-15T13:30:02.008Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461639",
-      "titre": "audition du Général de brigade aérienne Solène Le Floch, Commandant de la brigade aérienne d’assaut et de projection.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T12:30:00.000Z",
-      "dateFin": "2026-11-12T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880730"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461566",
-      "titre": "conseil supérieur du notariat:",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-12T13:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885414"
-    },
     {
       "uid": "RUANR5L17S2027IDS30993",
       "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",

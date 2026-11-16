@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-16T05:00:15.425Z",
+  "updatedAt": "2026-11-16T12:31:18.570Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30995",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-13T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461635",
       "titre": "audition de M. Olivier Poivre d’Arvor, ambassadeur et envoyé spécial du Président de la République pour l’océan et les pôles",

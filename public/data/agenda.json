@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-16T13:31:18.286Z",
+  "updatedAt": "2026-11-16T23:13:57.851Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461635",
-      "titre": "audition de M. Olivier Poivre d’Arvor, ambassadeur et envoyé spécial du Président de la République pour l’océan et les pôles",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-13T13:45:00.000Z",
-      "dateFin": "2026-11-13T14:45:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO885429"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30996",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-13T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS30997",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-13T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS30998",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
@@ -105,7 +78,7 @@
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur le projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement (n° 3058) (Mme Annaïg Le Meur, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-16T16:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-16T16:05:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -182,6 +155,15 @@
       "organisateur": "PO885393"
     },
     {
+      "uid": "RUANR5L17S2027IDC461738",
+      "titre": "M. Romain Laleix, membre du collège de l’Arcom, président du groupe de travail « Radios et audio numérique ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T14:00:00.000Z",
+      "dateFin": "2026-11-17T15:00:00.000Z",
+      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31004",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -243,6 +225,15 @@
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461739",
+      "titre": "M. Antoine Boilley, membre du collège de l’Arcom « Création et production audiovisuelles, cinématographiques et musicales ».",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T17:15:00.000Z",
+      "dateFin": "2026-11-17T18:15:00.000Z",
+      "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461686",
@@ -309,7 +300,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461614",
-      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et d’associations d’élus locaux ;",
+      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et de représentants d'associations d'élus locaux : M. Jean-Luc Moudenc, président de France Urbaine ; Mme Véronique Louwagie, vice-présidente d’Intercommunalités de France ; M. Philippe Buisson, maire de Libourne, vice-président de Villes de France ; M. Jean-Léonce Dupont, président du département du Calvados , vice-président délégué de Départements de France; M. Romain Colas, vice-président de l’Association des Petites Villes de France ; M. Harold Huwart, vice-président du Conseil régional Centre-Val-de-Loire, représente Régions de France ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -354,7 +345,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461621",
-      "titre": "nomination de rapporteurs sur le bilan annuel de l’application des lois en vue de la séance de contrôle du mercredi 3 février 2027 ;",
+      "titre": "nomination d'un rapporteur sur la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n°388) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -453,7 +444,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461673",
-      "titre": "– Conférence organisée dans le cadre de la journée internationale des droits de l’enfant autour du thème : les enfants, une minorité discriminée ? Avec M. Benjamin Moron-Puech, professeur de droit privé et de sciences criminelles, Mme Cécile Kovacshazy, maîtresse de conférences et des jeunes.",
+      "titre": "conférence organisée dans le cadre de la journée internationale des droits de l’enfant autour du thème : les enfants, une minorité discriminée ? Avec M. Benjamin Moron-Puech, professeur de droit privé et de sciences criminelles, Mme Cécile Kovacshazy, maîtresse de conférences et des jeunes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
       "dateFin": "2026-11-18T16:30:00.000Z",
@@ -497,6 +488,15 @@
       "organisateur": "PO885460"
     },
     {
+      "uid": "RUANR5L17S2027IDC461740",
+      "titre": "Mmes Isabelle Avargues et Pascale Gourcerol, élues sans étiquette",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:00:00.000Z",
+      "dateFin": "2026-11-18T14:45:00.000Z",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO883902"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461412",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
@@ -504,6 +504,15 @@
       "dateFin": null,
       "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO881988"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461741",
+      "titre": "– CFDT Arcom : M. Florent Michat, secrétaire général de section, suite de la délégation à venir.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T14:45:00.000Z",
+      "dateFin": "2026-11-18T15:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO883902"
     },
     {
       "uid": "RUANR5L17S2027IDC461732",

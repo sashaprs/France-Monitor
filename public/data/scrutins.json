@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-16T13:31:17.204Z",
+  "updatedAt": "2026-11-16T23:13:52.974Z",
   "scrutins": [
+    {
+      "numero": "9896",
+      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, de la proposition de loi visant au renforcement de l'attractivité de l'épargne salariale et à la mise en œuvre d'une procédure de déblocage exceptionnelle (première lecture).",
+      "date": "2026-11-16",
+      "sort": null,
+      "nombreVotants": "98",
+      "pour": "23",
+      "contre": "70",
+      "abstentions": "5",
+      "nonVotants": "2"
+    },
     {
       "numero": "9865",
       "titre": "l'amendement n° 39 de M. Seo à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
@@ -538,17 +549,6 @@
       "pour": "26",
       "contre": "23",
       "abstentions": "17",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9859",
-      "titre": "l'amendement n° 67 de M. Baptiste à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "67",
-      "pour": "52",
-      "contre": "15",
-      "abstentions": "0",
       "nonVotants": "1"
     }
   ]

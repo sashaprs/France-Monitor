@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T12:31:18.570Z",
+  "updatedAt": "2026-11-16T13:31:18.286Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461635",
@@ -111,7 +111,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461616",
-      "titre": "audition, ouverte à la presse, de l’Association des maires de France et des présidents d’intercommunalité (AMF) : Mme Sandrine Janiaud-Larcher, maire de Delle, accompagnée de Mme Nelly Jacquemot, responsable du département action sociale, culture, éducation de l'AMF, et de Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
+      "titre": "audition, ouverte à la presse, de l’Association des maires de France et des présidents d’intercommunalité (AMF) : Mme Sandrine Janiaud-Larcher, maire de Delle, accompagnée de Mme Nelly Jacquemot, responsable du département action sociale, culture, éducation de l'AMF, de Mme Sarah Reilly, conseillère petite enfance et action sociale, et de Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-16T16:15:00.000Z",
       "dateFin": null,
@@ -434,6 +434,15 @@
       "organisateur": "PO887868"
     },
     {
+      "uid": "RUANR5L17S2027IDC461737",
+      "titre": "audition de M. Fabien Menant, directeur des affaires publiques France, du Général Louis Pena, conseiller défense aux affaires publiques et de M. Axel Nicolas, responsable affaires parlementaires aux affaires publiques France d’Airbus Defense and Space.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T13:30:00.000Z",
+      "dateFin": "2026-11-18T15:00:00.000Z",
+      "lieu": "Salle 4067 - 9 ue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461623",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur :",
       "type": "reunionCommission_type",
@@ -462,7 +471,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461725",
-      "titre": "audition, ouverte à la presse, de Mme Amélie Verdier, directrice générale des Finances publiques accompagnée de M. Brice Fabre, chef du pôle du département des études et des statistiques fiscales.",
+      "titre": "audition, ouverte à la presse, de Mme Amélie Verdier, directrice générale des Finances publiques, accompagnée de M. Brice Fabre, chef du pôle du département des études et des statistiques fiscales.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
       "dateFin": null,

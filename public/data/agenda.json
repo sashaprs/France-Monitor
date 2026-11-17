@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-17T12:53:35.501Z",
+  "updatedAt": "2026-11-17T16:42:46.115Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS30999",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-14T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31000",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
@@ -291,7 +282,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461614",
-      "titre": "audition de M. Jean-François Debat, président du Comité des finances locales et de représentants d'associations d'élus locaux : M. Jean-Luc Moudenc, président de France Urbaine ; Mme Véronique Louwagie, vice-présidente d’Intercommunalités de France ; M. Philippe Buisson, maire de Libourne, vice-président de Villes de France ; M. Jean-Léonce Dupont, président du département du Calvados , vice-président délégué de Départements de France; M. Romain Colas, vice-président de l’Association des Petites Villes de France ; M. Harold Huwart, vice-président du Conseil régional Centre-Val-de-Loire, représente Régions de France ;",
+      "titre": "nomination de rapporteurs.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -633,7 +624,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461680",
-      "titre": "audition conjointe de M. Damien Brunelle, référent Grandes cultures à la Coordination rurale, et de M. Étienne Heulin, représentant de la Confédération paysanne.",
+      "titre": "audition conjointe de M. Damien Brunelle, référent Grandes cultures à la Coordination rurale, et de M. Étienne Heulin, représentant de la Confédération paysanne à la Commission supérieure des maladies professionnelles en agriculture (COSMAP).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-19T10:15:00.000Z",
       "dateFin": null,

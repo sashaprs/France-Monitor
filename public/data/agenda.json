@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:15:22.166Z",
+  "updatedAt": "2026-11-17T06:48:57.326Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS30998",
@@ -60,7 +60,7 @@
       "titre": "audition de M. Emmanuel Grégoire, maire de Paris, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-16T15:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-16T16:55:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59051"
     },
@@ -69,7 +69,7 @@
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
       "type": "seance_type",
       "dateDebut": "2026-11-16T15:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-16T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -147,7 +147,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461729",
-      "titre": "audition de représentants de la Direction de l’eau et de la biodiversité (DEB).",
+      "titre": "- Direction de l’eau et de la biodiversité (DEB) :\rM. Damien Lamotte, directeur adjoint de l'eau et de la biodioversité\rM. François Weber, adjoint au sous-directeur EAURE",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T13:00:00.000Z",
       "dateFin": "2026-11-17T14:00:00.000Z",

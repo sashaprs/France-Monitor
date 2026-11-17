@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-17T16:42:46.115Z",
+  "updatedAt": "2026-11-17T22:05:31.912Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31000",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-14T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDS31001",
       "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
@@ -68,8 +59,8 @@
       "uid": "RUANR5L17S2027IDC461616",
       "titre": "audition, ouverte à la presse, de l’Association des maires de France et des présidents d’intercommunalité (AMF) : Mme Sandrine Janiaud-Larcher, maire de Delle, accompagnée de Mme Nelly Jacquemot, responsable du département action sociale, culture, éducation de l'AMF, de Mme Sarah Reilly, conseillère petite enfance et action sociale, et de Mme Charlotte de Fontaines, responsable des relations avec le Parlement.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-16T16:15:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-16T16:20:00.000Z",
+      "dateFin": "2026-11-16T17:20:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO884567"
     },
@@ -255,7 +246,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461643",
-      "titre": "examen de la proposition de loi visant à garantir l'exécution effective d'une peine minimale dès la première condamnation pour violences volontaires (n° 3335) (M. Patrick Hetzel, rapporteur) ;",
+      "titre": "examen de la proposition de loi visant à garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires (n° 3335) (M. Patrick Hetzel, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
       "dateFin": null,
@@ -291,7 +282,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461595",
-      "titre": "examen de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3309) (Mme Josiane Corneloup, rapporteure) ;",
+      "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -318,7 +309,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461632",
-      "titre": "désignation de rapporteurs en vue du débat thématique de contrôle en séance publique du 6 janvier 2027 sur le thème : « Gestion de crise et sécurité civile face au changement climatique : prévenir, protéger, anticiper et s’adapter après l’été 2026 » ;",
+      "titre": "désignation d’un rapporteur sur la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois (n° 3419) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,
@@ -414,6 +405,15 @@
       "dateFin": "2026-11-18T15:00:00.000Z",
       "lieu": "Salle 4067 - 9 ue de Bourgogne, Rez-de-chaussée",
       "organisateur": "PO880795"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461750",
+      "titre": "éventuellement, suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461623",
@@ -513,6 +513,15 @@
       "dateFin": "2026-11-18T17:00:00.000Z",
       "lieu": "1er Bureau",
       "organisateur": "PO851376"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461751",
+      "titre": "table ronde sur les enjeux et problématiques juridiques liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958) avec :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS31053",
@@ -732,7 +741,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461664",
-      "titre": "examen de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3174) ;",
+      "titre": "examen de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3174) (Mme Caroline Yadan, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-23T14:00:00.000Z",
       "dateFin": null,
@@ -822,7 +831,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461668",
-      "titre": "Suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
+      "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,
@@ -867,7 +876,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS31065",
-      "titre": "Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)",
+      "titre": "Suite de la discussion, sous réserve de son dépôt, sur le rapport de la commission mixte paritaire, ou nouvelle lecture du projet de loi de finances de fin de gestion pour 2026",
       "type": "seance_type",
       "dateDebut": "2026-11-24T20:30:00.000Z",
       "dateFin": null,
@@ -876,12 +885,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461727",
-      "titre": "Audition de M. Patrice Faure, préfet de police de Paris, dans le cadre des travaux d'enquête menés sur les événements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance n° 58-1100 du 17 novembre 1958).",
+      "titre": "audition de M. Patrice Faure, préfet de police de Paris, dans le cadre des travaux d'enquête menés sur les événements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance n° 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T20:30:00.000Z",
       "dateFin": null,
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461749",
+      "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461691",
@@ -948,7 +966,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461671",
-      "titre": "Examen de la proposition de loi visant à renforcer le droit de retrait en période de canicule et à instaurer un congé climatique (n° 3128)",
+      "titre": "examen de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation (n° 3314).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -1092,11 +1110,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461728",
-      "titre": "audition de M. Benoît Payan, maire de Marseille, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
+      "titre": "audition de M. Benoît Payan, maire de Marseille et de Mme Céline Lefléfian, directrice de la Police municipale et de la Sécurité de la ville de Marseille, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T17:15:00.000Z",
       "dateFin": null,
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
     {
@@ -1172,6 +1190,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461742",
+      "titre": "en cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461693",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur la proposition de loi visant à moderniser les communications d’urgence (n° 3319) (M. Sébastien Huyghe, rapporteur).",
       "type": "reunionCommission_type",
@@ -1179,6 +1206,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461743",
+      "titre": "en cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS31100",
@@ -1244,13 +1280,49 @@
       "organisateur": "PO888212"
     },
     {
+      "uid": "RUANR5L17S2027IDC461744",
+      "titre": "suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461752",
+      "titre": "examen de la proposition de loi visant à instaurer une motion de censure constructive (n° 3395) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31105",
       "titre": "Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation",
       "type": "seance_type",
-      "dateDebut": "2026-12-01T20:00:00.000Z",
+      "dateDebut": "2026-12-01T20:30:00.000Z",
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461745",
+      "titre": "suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461753",
+      "titre": "-examen du projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique\r(n° 3388) (M. Jean Terlier, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461609",
@@ -1280,6 +1352,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461746",
+      "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461688",
       "titre": "table ronde, ouverte à la presse, sur les conséquences des élections américaines de mi-mandat – ou Midterms – du 3 novembre 2026 sur la politique extérieure des États-Unis, avec la participation de M. Romuald Sciora, chercheur associé à l’Institut de relations internationales et stratégiques (IRIS), directeur de l’Observatoire politique et géostratégique des États-Unis, et Mme Maya Kandel, chercheuse associée à l’Université Paris 3-Sorbonne Nouvelle (laboratoire CREW).",
       "type": "reunionCommission_type",
@@ -1307,6 +1388,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461754",
+      "titre": "éventuellement, suite de l’ordre du jour du matin.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T13:45:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461747",
+      "titre": "suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461618",
       "titre": "Table ronde, non ouverte à la presse, de la réponse de l'État avec les organismes SDFE, OFAC / PHAROS, le Pôle national de lutte contre la haine en ligne, la DILCRAH, le ministère de l'Éducation nationale, l'Arcom, la CNIL réunissant les personnalités suivantes :",
       "type": "reunionCommission_type",
@@ -1332,6 +1431,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461748",
+      "titre": "suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDS31107",
@@ -1379,6 +1487,42 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDS31110",
+      "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République Française et le Gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
+      "type": "seance_type",
+      "dateDebut": "2026-12-07T15:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31111",
+      "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à mettre fin au devoir conjugal",
+      "type": "seance_type",
+      "dateDebut": "2026-12-07T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31112",
+      "titre": "Questions orales sans débat (salle Larmartine)",
+      "type": "seance_type",
+      "dateDebut": "2026-12-08T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31113",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-12-08T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461697",
       "titre": "audition de Mme Christel Heydemann, directrice générale d’Orange.",
       "type": "reunionCommission_type",
@@ -1395,6 +1539,15 @@
       "dateFin": "2026-12-08T17:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO888212"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31114",
+      "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles",
+      "type": "seance_type",
+      "dateDebut": "2026-12-08T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461683",
@@ -1433,6 +1586,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDS31115",
+      "titre": "Questions au Gouvernement",
+      "type": "seance_type",
+      "dateDebut": "2026-12-09T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461700",
       "titre": "audition de M. Sébastien Martin, ministre délégué auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargé de l'Industrie.",
       "type": "reunionCommission_type",
@@ -1440,6 +1602,69 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31116",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+      "type": "seance_type",
+      "dateDebut": "2026-12-09T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31117",
+      "titre": "Discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive",
+      "type": "seance_type",
+      "dateDebut": "2026-12-10T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31118",
+      "titre": "Suite de la discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive",
+      "type": "seance_type",
+      "dateDebut": "2026-12-10T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31119",
+      "titre": "Suite de la discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive",
+      "type": "seance_type",
+      "dateDebut": "2026-12-10T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31120",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+      "type": "seance_type",
+      "dateDebut": "2026-12-11T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31121",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+      "type": "seance_type",
+      "dateDebut": "2026-12-11T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDS31122",
+      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique",
+      "type": "seance_type",
+      "dateDebut": "2026-12-11T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Assemblée nationale",
+      "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDC461684",

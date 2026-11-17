@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-17T16:42:44.394Z",
+  "updatedAt": "2026-11-17T22:05:31.081Z",
   "scrutins": [
+    {
+      "numero": "9921",
+      "titre": "l'amendement n° 440 de M. Rolland après l'article 6 (examen prioritaire) du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "187",
+      "pour": "74",
+      "contre": "43",
+      "abstentions": "70",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9918",
+      "titre": "l'amendement n° 578 de Mme Rey-Rinchet et l'amendement identique suivant à l'article 6 (examen prioritaire) du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "224",
+      "pour": "105",
+      "contre": "110",
+      "abstentions": "9",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9917",
+      "titre": "l'amendement n° 445 de Mme Laernoes et l'amendement identique suivant de suppression de l'article 6 (examen prioritaire) du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "213",
+      "pour": "46",
+      "contre": "166",
+      "abstentions": "1",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9919",
+      "titre": "l'amendement n° 85 de M. Falcon à l'article 6 (examen prioritaire) du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "217",
+      "pour": "108",
+      "contre": "102",
+      "abstentions": "7",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "9916",
+      "titre": "l'ensemble du projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "544",
+      "pour": "464",
+      "contre": "64",
+      "abstentions": "16",
+      "nonVotants": "0"
+    },
+    {
+      "numero": "9920",
+      "titre": "l'amendement n° 845 de M. Piquemal après l'article 6 (examen prioritaire) du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-17",
+      "sort": null,
+      "nombreVotants": "187",
+      "pour": "36",
+      "contre": "133",
+      "abstentions": "18",
+      "nonVotants": "1"
+    },
     {
       "numero": "9915",
       "titre": "l'amendement n° 781 de M. Piquemal à l'article premier du projet de loi visant la relance et la décentralisation du logement (première lecture).",
@@ -483,72 +549,6 @@
       "pour": "26",
       "contre": "40",
       "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9817",
-      "titre": "l'amendement n° 133 du Gouvernement à l'article 4 et état A du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "30",
-      "contre": "35",
-      "abstentions": "6",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9852",
-      "titre": "l'amendement n° 119 de Mme Bentorki à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "71",
-      "pour": "25",
-      "contre": "20",
-      "abstentions": "26",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9873",
-      "titre": "l'amendement n° 33 de M. Labaronne à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "80",
-      "pour": "36",
-      "contre": "13",
-      "abstentions": "31",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9846",
-      "titre": "l'amendement n° 84 de Mme Lejeune à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "74",
-      "pour": "25",
-      "contre": "49",
-      "abstentions": "0",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9830",
-      "titre": "l'amendement n° 13 de M. Renault à l'article 5 et état B du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "70",
-      "pour": "18",
-      "contre": "50",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "9887",
-      "titre": "l'amendement n° 68 de Mme Lejeune de suppression de l'article 7 et état D du projet de loi de finances de fin de gestion pour 2026 (première lecture).",
-      "date": "2026-11-12",
-      "sort": null,
-      "nombreVotants": "84",
-      "pour": "25",
-      "contre": "25",
-      "abstentions": "34",
       "nonVotants": "1"
     }
   ]

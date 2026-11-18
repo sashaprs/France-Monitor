@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T21:44:31.818Z",
+  "updatedAt": "2026-11-18T23:16:29.957Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31001",
@@ -249,7 +249,7 @@
       "titre": "examen de la proposition de loi visant à garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires (n° 3335) (M. Patrick Hetzel, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T12:00:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -258,7 +258,7 @@
       "titre": "audition, ouverte à la presse, de M. Jérémie Pellet, directeur général d’Expertise France, sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et Expertise France pour la période 2027-2029.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T09:25:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
     },
@@ -267,7 +267,7 @@
       "titre": "audition, ouverte à la presse, des associations du monde combattant, membres du G12 (cycle « Monde combattant : liens avec la Nation, mémoire et résilience ») ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T09:55:00.000Z",
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
     },
@@ -276,7 +276,7 @@
       "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T11:55:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -308,15 +308,6 @@
       "organisateur": "PO419865"
     },
     {
-      "uid": "RUANR5L17S2027IDC461621",
-      "titre": "nomination d'un rapporteur sur la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n°388) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461614",
       "titre": "nomination de rapporteurs.",
       "type": "reunionCommission_type",
@@ -326,13 +317,13 @@
       "organisateur": "PO59048"
     },
     {
-      "uid": "RUANR5L17S2027IDC461527",
-      "titre": "audition, ouverte à la presse, de M. Jean François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe - XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "uid": "RUANR5L17S2027IDC461621",
+      "titre": "nomination d'un rapporteur sur la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n°388) ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T10:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
+      "dateDebut": "2026-11-18T08:35:00.000Z",
+      "dateFin": "2026-11-18T09:55:00.000Z",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461711",
@@ -357,9 +348,18 @@
       "titre": "examen de la proposition de loi visant à moderniser les communications d’urgence (n° 3319).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T10:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T11:25:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461527",
+      "titre": "audition, ouverte à la presse, de M. Jean François Chanet, recteur de l’académie de Créteil, historien de la France contemporaine (XIXe - XXe siècles) et de Mme Bénédicte Chéron, professeur à l’Institut catholique de Paris (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T10:05:00.000Z",
+      "dateFin": "2026-11-18T11:35:00.000Z",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
     },
     {
       "uid": "RUANR5L17S2027IDC461414",
@@ -408,10 +408,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461750",
-      "titre": "éventuellement, suite de l’ordre du jour du matin.",
+      "titre": "suite de l’ordre du jour du matin.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T13:45:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-18T13:50:00.000Z",
+      "dateFin": "2026-11-18T14:30:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -419,8 +419,8 @@
       "uid": "RUANR5L17S2027IDC461623",
       "titre": "examen, en application de l’article 88 du Règlement, des amendements restant en discussion sur :",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T13:45:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-18T13:50:00.000Z",
+      "dateFin": "2026-11-18T13:55:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -456,7 +456,7 @@
       "titre": "nécessité pour l’Union européenne de se doter d’une stratégie contre l’entrisme islamiste et l’influence du réseau des Frères musulmans (n° 3355) : examen de la proposition de résolution européenne (Mme Constance Le Grip, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T16:40:00.000Z",
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
     },
@@ -471,10 +471,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461740",
-      "titre": "Mmes Isabelle Avargues et Pascale Gourcerol, élues sans étiquette",
+      "titre": "mmes Isabelle Avargues et Pascale Gourcerol, élues sans étiquette.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
-      "dateFin": "2026-11-18T14:45:00.000Z",
+      "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO883902"
     },
@@ -482,8 +482,8 @@
       "uid": "RUANR5L17S2027IDC461412",
       "titre": "examen du rapport, à huis clos.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T14:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-18T14:05:00.000Z",
+      "dateFin": "2026-11-18T14:55:00.000Z",
       "lieu": "9ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO881988"
     },
@@ -615,7 +615,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461679",
-      "titre": "audition de M. François-Étienne Mercier, président de la commission emploi de la FRSEA Grand Est et membre de la commission emploi/formation, accompagné de Mme Anne-Sophie Forget, chargée de mission emploi et relations sociales, et de Mme Romane Sagnier, responsable des affaires publiques, Fédération nationale des syndicats d’exploitants agricoles (FNSEA).",
+      "titre": "audition de M. François-Étienne Mercier, président de la commission emploi de la FRSEA Grand Est et membre de la commission emploi/formation, accompagné de Mme Anne-Sophie Forget, chargée de mission emploi et relations sociales, et de M. Hugo Bernard, chargé de mission affaires publiques, Fédération nationale des syndicats d’exploitants agricoles (FNSEA).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-19T09:30:00.000Z",
       "dateFin": null,
@@ -1037,6 +1037,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461514",
+      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne (M. Alexandre Portier, rapporteur) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461670",
       "titre": "Suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
       "type": "reunionCommission_type",
@@ -1080,15 +1089,6 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461514",
-      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne (M. Alexandre Portier, rapporteur) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-25T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461584",
@@ -1416,7 +1416,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461612",
-      "titre": "–  la guerre en Ukraine, quel nouveau paradigme pour l'Europe de la Défense ? : examen du rapport d’information de M. Maxime Michelet et Mme Michèle Tabarot (rapporteurs d’information).",
+      "titre": "Communication et examen d'un avis politique de Mme Marietta Karamanli, portant sur l'extension des compétences du Parquet à la question des traités d'êtres humains",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
@@ -1595,6 +1595,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461419",
+      "titre": "– Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne de Mme Sabrina Sebaihi et plusieurs de ses collègues (Mme Sabrina Sebaihi, rapporteure) ;\r– Réponse diplomatique européenne aux enlèvements internationaux d'enfants (n° 3052) : examen de la proposition de résolution européenne de M. Stéphane Hablot et plusieurs de ses collègues.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461700",
       "titre": "audition de M. Sébastien Martin, ministre délégué auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargé de l'Industrie.",
       "type": "reunionCommission_type",
@@ -1703,6 +1712,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461760",
+      "titre": "Nécessité pour l’Union européenne de se donner les moyens financiers, industriels et politiques de déployer une infrastructure satellitaire d’origine et à vocation pleinement européennes, au service de son autonomie stratégique, de sa sécurité, de sa recherche et des citoyens européens (n° 3180) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDFL461176",
       "titre": "Audition de la Fédération pour la gestion du Livre officiel des origines félines (LOOF) sur le thème des enjeux liés à la sélection, à la santé et aux hypertypes chez le chat.",
       "type": "reunionInitParlementaire_type",
@@ -1728,15 +1746,6 @@
       "dateFin": null,
       "lieu": "salon Gabriel (101 rue de l'Université)",
       "organisateur": "PO854354"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461419",
-      "titre": "Audition de M. Benjamin Haddad, ministre délégué en charge de l’Europe, sur l’actualité de l’Union européenne.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2027-02-03T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
-      "organisateur": "PO415287"
     }
   ]
 }

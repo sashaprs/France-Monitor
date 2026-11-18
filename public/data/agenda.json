@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T12:46:35.746Z",
+  "updatedAt": "2026-11-18T16:12:34.675Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31001",
@@ -272,15 +272,6 @@
       "organisateur": "PO59046"
     },
     {
-      "uid": "RUANR5L17S2027IDC461614",
-      "titre": "nomination de rapporteurs.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461595",
       "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
@@ -303,7 +294,7 @@
       "titre": "- audition de Mme Claire Giry, présidente-directrice générale de l’Agence nationale de la recherche (ANR), sur le rôle de l’ANR dans le financement de la recherche ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T09:55:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
@@ -312,7 +303,7 @@
       "titre": "désignation d’un rapporteur sur la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois (n° 3419) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T09:45:00.000Z",
       "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
@@ -324,6 +315,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461614",
+      "titre": "nomination de rapporteurs.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-18T08:35:00.000Z",
+      "dateFin": "2026-11-18T11:00:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461527",
@@ -1620,6 +1620,24 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461758",
+      "titre": "Audition du CCNE sur son avis préalable à une future révision des lois de bioéthique",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-10T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat (salle à confirmer)",
+      "organisateur": "PO273589"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461759",
+      "titre": "Audition de l’EFSA en lien avec la note scientifique sur l'acétamipride (rapporteurs : Emeric Salmon, député, et Michaël Weber, sénateur)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-10T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat (salle à confirmer)",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2027IDS31118",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T06:07:44.440Z",
+  "updatedAt": "2026-11-18T12:46:35.746Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31001",
@@ -141,7 +141,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-17T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -231,7 +231,7 @@
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
       "type": "seance_type",
       "dateDebut": "2026-11-17T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

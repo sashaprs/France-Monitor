@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:45:12.745Z",
+  "updatedAt": "2026-11-18T06:07:44.440Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31001",
@@ -159,7 +159,7 @@
       "titre": "audition conjointe, ouverte à la presse, de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T17:05:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -173,29 +173,29 @@
       "organisateur": "PO881975"
     },
     {
-      "uid": "RUANR5L17S2027IDC461533",
-      "titre": "table ronde, ouverte à la presse, réunissant : M. Didier Duriez, président du Secours Catholique – Caritas France, accompagné de Mme Sophie Rigard, chargée de projet action et plaidoyer, M. Olivier Morzelle, président d’ATD Quart Monde France, et M. Olivier Noblecourt, président du Collectif ALERTE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884567"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461548",
       "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T16:40:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461533",
+      "titre": "table ronde, ouverte à la presse, réunissant : M. Didier Duriez, président du Secours Catholique – Caritas France, accompagné de Mme Sophie Rigard, chargée de projet action et plaidoyer, M. Olivier Morzelle, président d’ATD Quart Monde France, et M. Olivier Noblecourt, président du Collectif ALERTE.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-17T15:35:00.000Z",
+      "dateFin": "2026-11-17T17:40:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461730",
       "titre": "audition, ouverte à la presse, de Mme Sylviane Giampino, présidente du Conseil de l’enfance et de l’adolescence du Haut Conseil de la famille, de l’enfance et de l’âge (HCFEA), et de Mme Frédérique Chave, secrétaire générale adjointe du HCFEA, chargée du Conseil de l’enfance et de l’adolescence.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T17:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T17:50:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -213,7 +213,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T18:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T18:20:00.000Z",
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO888023"
     },
@@ -222,7 +222,7 @@
       "titre": "audition de M. Gérald Darmanin, garde des sceaux, ministre de la justice, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-17T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-17T22:25:00.000Z",
       "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
       "organisateur": "PO59051"
     },
@@ -300,7 +300,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461606",
-      "titre": "audition de Mme Claire Giry, présidente-directrice générale de l’Agence nationale de la recherche (ANR), sur le rôle de l’ANR dans le financement de la recherche ;",
+      "titre": "- audition de Mme Claire Giry, présidente-directrice générale de l’Agence nationale de la recherche (ANR), sur le rôle de l’ANR dans le financement de la recherche ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T08:30:00.000Z",
       "dateFin": null,

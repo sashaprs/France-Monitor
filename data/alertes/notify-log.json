@@ -1,10 +1,12 @@
 {
- "execute_le": "2026-11-18T12:47:13.353Z",
+ "execute_le": "2026-11-18T21:45:01.280Z",
  "dry_run": false,
  "profils": {
   "test-nomoslab": {
-   "evenements": 0,
-   "statut": "rien à notifier"
+   "evenements": 1,
+   "canaux": {
+    "email": "envoyé"
+   }
   }
  }
 }

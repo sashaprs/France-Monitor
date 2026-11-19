@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-19T06:09:15.940Z",
+  "updatedAt": "2026-11-19T12:37:55.783Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31001",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-16T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461674",
       "titre": "audition de M. Alexandre Dozières, adjoint à la directrice chargée du climat, de l'efficacité énergétique et de la qualité de l'air à la Direction générale de l’énergie et du climat (DGEC).",

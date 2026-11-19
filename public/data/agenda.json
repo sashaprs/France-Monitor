@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-19T16:20:11.069Z",
+  "updatedAt": "2026-11-19T22:00:25.833Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461723",
-      "titre": "audition de représentants du groupe Air France - KLM.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-16T17:00:00.000Z",
-      "dateFin": "2026-11-16T18:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO59047"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461724",
-      "titre": "audition de représentants du groupe Air France - KLM.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-16T17:00:00.000Z",
-      "dateFin": "2026-11-16T18:00:00.000Z",
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO879674"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31003",
-      "titre": "Suite de la discussion du projet de loi de finances pour 2027 (seconde partie)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-16T20:30:00.000Z",
-      "dateFin": "2026-11-16T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461586",
       "titre": "Déjeuner en l'honneur de l'ambassadeur d'Indonésie en France Son Exc. Mohamad Oemar.",
@@ -510,7 +483,7 @@
       "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
       "dateDebut": "2026-11-19T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-19T12:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -608,8 +581,8 @@
       "uid": "RUANR5L17S2027IDC461687",
       "titre": "audition, ouverte à la presse, de MM. Thibault Romatet, directeur général adjoint délégué Stratégie et Transformation de France Travail, Gilles Biron, chargé de mission Appui aux régions outre-mer et Yohan Beaux, chargé des relations extérieures, sur la situation de l’emploi dans les outre-mer ;",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-19T13:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-19T13:05:00.000Z",
+      "dateFin": "2026-11-19T15:30:00.000Z",
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO675659"
     },
@@ -677,6 +650,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461763",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-20T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle 131 (commission des finances)",
+      "organisateur": "PO889030"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31059",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
       "type": "seance_type",
@@ -686,6 +668,42 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461767",
+      "titre": "audition, ouverte à la presse, de Me Richard Malka, avocat.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461769",
+      "titre": "audition, ouverte à la presse, de M. Jean-Pierre Obin, ancien inspecteur général de l’éducation nationale (en visioconférence).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461770",
+      "titre": "audition de Mme Mélanie Joder, secrétaire générale du ministère de l’éducation nationale et haut fonctionnaire de défense et de sécurité (HFDS), M. Christophe Peyrel, haut fonctionnaire adjoint de défense et de sécurité, chef du service de défense et de sécurité, et Mme Adeline Jaffre, adjointe du chef du service de défense et de sécurité.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T10:05:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461771",
+      "titre": "table ronde de représentants des rectorats :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461664",
       "titre": "examen de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3174) (Mme Caroline Yadan, rapporteure) ;",
       "type": "reunionCommission_type",
@@ -693,6 +711,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461772",
+      "titre": "table ronde, ouverte à la presse, de responsables du ministère de l’éducation nationale réunissant :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2027IDC461666",
@@ -768,7 +795,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461719",
-      "titre": "examen, en deuxième lecture, de la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
+      "titre": "désignation d’un rapporteur sur la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF (n° 3397) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,
@@ -984,7 +1011,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461514",
-      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne (M. Alexandre Portier, rapporteur) ;",
+      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
@@ -1100,6 +1127,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461764",
+      "titre": "audition de M. Vincent Ploquin, adjoint à la directrice des libertés publiques et des affaires juridiques, DLPAJ, ministère de l’intérieur.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461762",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle n° 216 (commission des lois)",
+      "organisateur": "PO888417"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461705",
       "titre": "- audition, en visioconférence, de Mme Amélie Oudéa-Castéra, présidente du Comité national olympique et sportif français (CNOSF).",
       "type": "reunionCommission_type",
@@ -1107,6 +1152,24 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO856386"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461765",
+      "titre": "audition de Mme Anna Nguyen, sous-directrice de la cohésion et de l’aménagement du territoire, accompagnée de M. Romain Ornato, chef de bureau des affaires financières et budgétaires, direction générale des collectivités locales (DGCL), ministère de l’aménagement du territoire et de la décentralisation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461773",
+      "titre": "audition de MM. Alain Braud, directeur national adjoint du renseignement territorial (DNRT), Benjamin Baudis, conseiller stratégique, et Jean-Michel Avon, sous-directeur.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "5ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO884520"
     },
     {
       "uid": "RUANR5L17S2027IDS31069",
@@ -1272,7 +1335,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461609",
-      "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :\r- projet de loi, adopté par le Sénat, autorisant la ratification de l’accord de passation conjointe de marché en vue de l’acquisition d’une plateforme centrale commune pour le mécanisme d’ajustement carbone aux frontières (n° 3353) (Mme Carole Guillerm, rapporteure) ;\r- projet de loi, adopté par le Sénat, autorisant la ratification de l’accord de protection des investissements entre l’Union européenne et ses États membres, d’une part, et la République socialiste du Vietnam, d’autre part, signé à Hanoï le 30 juin 2019 (n° 3426) (Mme Cendrine Chazé, rapporteure).",
+      "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:00:00.000Z",
       "dateFin": null,
@@ -1362,7 +1425,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461612",
-      "titre": "Communication et examen d'un avis politique de Mme Marietta Karamanli, portant sur l'extension des compétences du Parquet à la question des traités d'êtres humains",
+      "titre": "Extension des compétences du parquet européen à la question des traites d’êtres humains : examen d’une communication et d’un projet d’avis politique.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
@@ -1397,6 +1460,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461722",
+      "titre": "– Éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :\r•\tla proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r•\tla proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrick Davi, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31101",
       "titre": "Discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à faire reconnaître l’origine professionnelle du cancer du sein",
       "type": "seance_type",
@@ -1404,15 +1476,6 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461722",
-      "titre": "– Éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :\r•\tla proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r•\tla proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrick Davi, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-12-03T08:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS31102",
@@ -1505,6 +1568,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461768",
+      "titre": "table ronde, ouverte à la presse, sur la situation aux Proche et Moyen-Orients, avec la participation de M. Romaric Roignan, directeur de l'Afrique du Nord et du Moyen-Orient au ministère de l’Europe et des affaires étrangères, M. Clément Therme, docteur en histoire des relations internationales, chercheur associé au programme Turquie/Moyen-Orient de l’Institut français des relations internationales (IFRI) et membre du Centre d’études turques, ottomanes, balkaniques et centrasiatiques de l’École des hautes études en sciences sociales (EHESS), et M. Anthony Samrani, directeur de la rédaction du quotidien L’Orient-Le Jour.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461698",
       "titre": "audition de MM. Christian Pons, président de l’Union nationale de l’apiculture française (Unaf), Yves Delaunay, vice-président de l’Unaf, et Franck Aletru, président du Syndicat national d’apiculture (SNA).",
       "type": "reunionCommission_type",
@@ -1542,7 +1614,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461419",
-      "titre": "– Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne de Mme Sabrina Sebaihi et plusieurs de ses collègues (Mme Sabrina Sebaihi, rapporteure) ;\r– Réponse diplomatique européenne aux enlèvements internationaux d'enfants (n° 3052) : examen de la proposition de résolution européenne de M. Stéphane Hablot et plusieurs de ses collègues.",
+      "titre": "– Création d’un statut de réfugié climatique au sein de l’Union européenne (n° 1761) : examen de la proposition de résolution européenne ;\r– Réponse diplomatique européenne aux enlèvements internationaux d'enfants (n° 3052) : examen de la proposition de résolution européennes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-09T14:00:00.000Z",
       "dateFin": null,
@@ -1659,7 +1731,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461760",
-      "titre": "Nécessité pour l’Union européenne de se donner les moyens financiers, industriels et politiques de déployer une infrastructure satellitaire d’origine et à vocation pleinement européennes, au service de son autonomie stratégique, de sa sécurité, de sa recherche et des citoyens européens (n° 3180) : examen de la proposition de résolution européenne de Mme Marietta Karamanli et plusieurs de ses collègues.",
+      "titre": "Nécessité pour l’Union européenne de se donner les moyens financiers, industriels et politiques de déployer une infrastructure satellitaire d’origine et à vocation pleinement européennes, au service de son autonomie stratégique, de sa sécurité, de sa recherche et des citoyens européens (n° 3180) : examen de la proposition de résolution européenne ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-16T14:00:00.000Z",
       "dateFin": null,

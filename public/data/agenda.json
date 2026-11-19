@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T23:16:29.957Z",
+  "updatedAt": "2026-11-19T06:09:15.940Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDS31001",
@@ -272,6 +272,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31123",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-18T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461595",
       "titre": "nomination de rapporteurs sur :",
       "type": "reunionCommission_type",
@@ -384,7 +393,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-18T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -438,7 +447,7 @@
       "titre": "audition ouverte à la presse de M. Régis Debats, secrétaire général adjoint du Syndicat unitaire de l’inspection pédagogique (SUI-FSU).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-18T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T15:00:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -498,10 +507,10 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461732",
-      "titre": "audition ouverte à la presse de M. Henri Prevost, directeur général de l’Agence nationale de la cohésion des territoires (ANCT).",
+      "titre": "audition ouverte à la presse de M. Henri Prevost, directeur général de l’Agence nationale de la cohésion des territoires (ANCT), M. Frédéric Bourhtoumieu, Directeur du programme éducation, Mme Corinne De la Mettrie, directrice, et Mme Sylviane Le Guyader, cheffe du Pôle \"Analyse et Diagnostics territoriaux\".",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-18T15:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-18T15:05:00.000Z",
+      "dateFin": "2026-11-18T15:45:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO881975"
     },
@@ -537,7 +546,7 @@
       "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
       "type": "seance_type",
       "dateDebut": "2026-11-18T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-18T22:55:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -804,7 +813,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461624",
-      "titre": "audition de M. Roland Lescure, ministre de l'Économie, des finances et de la souveraineté industrielle, énergétique et numérique.",
+      "titre": "nomination d’un rapporteur sur le projet de loi portant diverses dispositions relatives au secteur nucléaire.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,

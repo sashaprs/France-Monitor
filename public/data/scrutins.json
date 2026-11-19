@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:00:24.097Z",
+  "updatedAt": "2026-11-19T23:24:47.061Z",
   "scrutins": [
     {
       "numero": "10040",
@@ -35,6 +35,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "10042",
+      "titre": "l'amendement n° 36 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "252",
+      "pour": "106",
+      "contre": "143",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
       "numero": "10039",
       "titre": "l'amendement n° 2 de M. Falcon et les amendements identiques suivants à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
       "date": "2026-11-19",
@@ -54,6 +65,17 @@
       "pour": "101",
       "contre": "115",
       "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10041",
+      "titre": "le sous-amendement n° 88 de M. Falcon à l'amendement n° 36 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "133",
+      "pour": "91",
+      "contre": "25",
+      "abstentions": "17",
       "nonVotants": "2"
     },
     {
@@ -526,28 +548,6 @@
       "nombreVotants": "139",
       "pour": "46",
       "contre": "93",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9994",
-      "titre": "l'amendement n° 45 de M. Falcon à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "158",
-      "pour": "53",
-      "contre": "105",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9984",
-      "titre": "l'amendement n° 41 de M. Falcon à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "135",
-      "pour": "53",
-      "contre": "82",
       "abstentions": "0",
       "nonVotants": "2"
     }

@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-11-19T12:37:54.594Z",
+  "updatedAt": "2026-11-19T16:20:09.563Z",
   "scrutins": [
+    {
+      "numero": "10040",
+      "titre": "l'amendement n° 34 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "239",
+      "pour": "98",
+      "contre": "139",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10034",
+      "titre": "l'amendement n° 59 de M. Kasbarian à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "210",
+      "pour": "85",
+      "contre": "123",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10038",
+      "titre": "l'amendement n° 33 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "223",
+      "pour": "87",
+      "contre": "133",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10039",
+      "titre": "l'amendement n° 2 de M. Falcon et les amendements identiques suivants à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "243",
+      "pour": "97",
+      "contre": "143",
+      "abstentions": "3",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10036",
+      "titre": "l'amendement n° 31 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "218",
+      "pour": "101",
+      "contre": "115",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10033",
+      "titre": "l'ensemble de la proposition de loi visant à exercer l'accès à l'emploi, à pérenniser et à étendre progressivement l'expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l'emploi pour les personnes privées durablement d'emploi (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "261",
+      "pour": "258",
+      "contre": "3",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10035",
+      "titre": "l'amendement n° 75 de Mme Pollet à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "207",
+      "pour": "83",
+      "contre": "122",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10037",
+      "titre": "l'amendement n° 72 de Mme Pollet à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
+      "date": "2026-11-19",
+      "sort": null,
+      "nombreVotants": "211",
+      "pour": "83",
+      "contre": "124",
+      "abstentions": "4",
+      "nonVotants": "2"
+    },
     {
       "numero": "9985",
       "titre": "l'amendement n° 40 de M. Falcon à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
@@ -461,94 +549,6 @@
       "pour": "53",
       "contre": "82",
       "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9980",
-      "titre": "l'amendement n° 44 de M. Falcon à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "135",
-      "pour": "53",
-      "contre": "82",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10016",
-      "titre": "l'amendemement n° 104 de M. Falcon à l'article 6 bis du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "128",
-      "pour": "44",
-      "contre": "84",
-      "abstentions": "0",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9975",
-      "titre": "l'amendement n° 519 de Mme Nosbé à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "143",
-      "pour": "22",
-      "contre": "105",
-      "abstentions": "16",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9970",
-      "titre": "l'amendement n° 651 de M. Tavernier et l'amendement identique suivant de suppression de l'article 2 bis du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "82",
-      "pour": "12",
-      "contre": "59",
-      "abstentions": "11",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "9977",
-      "titre": "le sous-amendement n° 1124 du Gouvernement à l'amendement n° 342 de Mme Carteron et les amendements identiques suivants à l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "152",
-      "pour": "62",
-      "contre": "71",
-      "abstentions": "19",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10003",
-      "titre": "l'amendement n° 818 de Mme Bentorki de suppression de l'article 5 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "129",
-      "pour": "27",
-      "contre": "97",
-      "abstentions": "5",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10011",
-      "titre": "l'amendemement n° 570 de Mme Mette à l'article 6 bis du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "134",
-      "pour": "54",
-      "contre": "78",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10001",
-      "titre": "l'article 4 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
-      "date": "2026-11-18",
-      "sort": null,
-      "nombreVotants": "161",
-      "pour": "124",
-      "contre": "34",
-      "abstentions": "3",
       "nonVotants": "2"
     }
   ]

@@ -1,87 +1,6 @@
 {
-  "updatedAt": "2026-11-20T14:58:44.232Z",
+  "updatedAt": "2026-11-20T21:42:58.523Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461580",
-      "titre": "audition conjointe, ouverte à la presse, de :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": "2026-11-17T17:05:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461512",
-      "titre": "- audition conjointe, ouverte à la presse, d’économistes et de démographes.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "à préciser",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461548",
-      "titre": "nomination de rapporteurs sur :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:30:00.000Z",
-      "dateFin": "2026-11-17T16:40:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461533",
-      "titre": "table ronde, ouverte à la presse, réunissant : M. Didier Duriez, président du Secours Catholique – Caritas France, accompagné de Mme Sophie Rigard, chargée de projet action et plaidoyer, M. Olivier Morzelle, président d’ATD Quart Monde France, et M. Olivier Noblecourt, président du Collectif ALERTE.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T15:35:00.000Z",
-      "dateFin": "2026-11-17T17:40:00.000Z",
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884567"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461730",
-      "titre": "audition, ouverte à la presse, de Mme Sylviane Giampino, présidente du Conseil de l’enfance et de l’adolescence du Haut Conseil de la famille, de l’enfance et de l’âge (HCFEA), et de Mme Frédérique Chave, secrétaire générale adjointe du HCFEA, chargée du Conseil de l’enfance et de l’adolescence.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T17:00:00.000Z",
-      "dateFin": "2026-11-17T17:50:00.000Z",
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461739",
-      "titre": "M. Antoine Boilley, membre du collège de l’Arcom « Création et production audiovisuelles, cinématographiques et musicales ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T17:15:00.000Z",
-      "dateFin": "2026-11-17T18:15:00.000Z",
-      "lieu": "Salle 6549 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461686",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T18:00:00.000Z",
-      "dateFin": "2026-11-17T18:20:00.000Z",
-      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
-      "organisateur": "PO888023"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461642",
-      "titre": "audition de M. Gérald Darmanin, garde des sceaux, ministre de la justice, dans le cadre des travaux d'enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance 58-1100 du 17 novembre 1958).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T20:30:00.000Z",
-      "dateFin": "2026-11-17T22:25:00.000Z",
-      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31050",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-17T20:30:00.000Z",
-      "dateFin": "2026-11-17T23:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDFL461682",
       "titre": "Nomination du coprésident du groupe d'études et discussions sur les travaux à venir.",
@@ -582,7 +501,7 @@
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République unie de Tanzanie relatif aux services aériens",
       "type": "seance_type",
       "dateDebut": "2026-11-20T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-20T11:20:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -644,7 +563,7 @@
       "uid": "RUANR5L17S2027IDC461770",
       "titre": "audition de Mme Mélanie Joder, secrétaire générale du ministère de l’éducation nationale et haut fonctionnaire de défense et de sécurité (HFDS), M. Christophe Peyrel, haut fonctionnaire adjoint de défense et de sécurité, chef du service de défense et de sécurité, et Mme Adeline Jaffre, adjointe du chef du service de défense et de sécurité.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T10:05:00.000Z",
+      "dateDebut": "2026-11-23T11:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO884520"
@@ -722,6 +641,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461798",
+      "titre": "audition, à huis clos, de Mme Catherine Vautrin, Ministre des Armées et des Anciens Combattants, sur l’état des lieux du soutien militaire de la France à l’Ukraine.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T08:30:00.000Z",
+      "dateFin": "2026-11-24T09:30:00.000Z",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO59046"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461703",
       "titre": "- audition, en visioconférence, de Mme Marie-Amélie Le Fur, présidente du Comité paralympique et sportif français (CPSF).",
       "type": "reunionCommission_type",
@@ -729,6 +657,33 @@
       "dateFin": null,
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO856386"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461785",
+      "titre": "audition de Mme Anne-Sophie Dhiver, cheffe de service adjointe du service de vigilance et de protection contre les ingérences numériques étrangères (VIGINUM).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T10:00:00.000Z",
+      "dateFin": "2026-11-24T11:00:00.000Z",
+      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO884365"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461800",
+      "titre": "audition de la Direction générale de l'Aviation civile (DGAC) : M. Chems Chkioua, directeur général de l’Aviation civile, M. Jacques Dubourg, conseiller politique et militaire du Major général de l’Armée de l’air et de l’espace et le Général de brigade aérienne (2S) Lionel Baverey, conseiller en stratégie de résilience de la DGAC.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T13:00:00.000Z",
+      "dateFin": "2026-11-24T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461801",
+      "titre": "audition du directeur de l'Agence de l'innovation de défense (AID).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T14:00:00.000Z",
+      "dateFin": "2026-11-24T15:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2027IDS31064",
@@ -740,8 +695,26 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461788",
+      "titre": "audition de M. Donato Giorgi, délégué aux affaires européennes et internationales au ministère de l'Enseignement supérieur, de la Recherche et de l'Espace en France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T14:30:00.000Z",
+      "dateFin": "2026-11-24T16:00:00.000Z",
+      "lieu": "Salle 4075 - 9 rue de Bourgogne, Rez-de-Chaussée",
+      "organisateur": "PO885460"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461786",
+      "titre": "audition de M. Vincent Strubel, directeur général de l’Agence nationale de la sécurité des systèmes d'information (ANSSI).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:00:00.000Z",
+      "dateFin": "2026-11-24T16:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO884365"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461624",
-      "titre": "nomination d’un rapporteur sur le projet de loi portant diverses dispositions relatives au secteur nucléaire.",
+      "titre": "nomination d’un rapporteur sur le projet de loi portant diverses dispositions relatives au secteur nucléaire ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,
@@ -749,8 +722,17 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461794",
+      "titre": "- M. Jean-Michel Blanquer, ancien ministre de l’éducation nationale",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7044 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO887464"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461717",
-      "titre": "examen de la proposition de loi, adoptée par le Sénat, portant réforme de la loi du 9 février 1895 sur les fraudes en matière artistique (n° 109).",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat, portant réforme de la loi du 9 février 1895 sur les fraudes en matière artistique (n° 109) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,
@@ -794,8 +776,26 @@
       "organisateur": "PO881975"
     },
     {
+      "uid": "RUANR5L17S2027IDC461789",
+      "titre": "audition de Mme Claire Giry, présidente-directrice générale de l'Agence nationale de la recherche.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T16:00:00.000Z",
+      "dateFin": "2026-11-24T17:30:00.000Z",
+      "lieu": "Salle 4075 - 9 rue de Bourgogne, Rez-de-Chaussée",
+      "organisateur": "PO885460"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461795",
+      "titre": "- M. Pierre Mathiot, professeur des universités en science politique et chercheur au Centre d'études et de recherches administratives, politiques et sociales (Ceraps)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T16:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7044 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO887464"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461690",
-      "titre": "examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
+      "titre": "examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (M. Ian Boucard, rapporteur) (n° 388).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T17:30:00.000Z",
       "dateFin": null,
@@ -849,7 +849,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461691",
-      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (n° 388).",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (M. Ian Boucard, rapporteur) (n° 388).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T20:30:00.000Z",
       "dateFin": null,
@@ -867,7 +867,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461555",
-      "titre": "- échange de vues, ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine (1), conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.\r\r(1) composée notamment de : M. Heikki Autto, président de la commission de la défense de l’Eduskunta de Finlande, M. Lars-Christian Brask, président du Conseil nordique du Folketing du Danemark, Mme Ivanna Klympush-Tsintsadze, présidente de la commission de la Verkhovna Rada sur l’intégration de l’Ukraine dans l’Union européenne, M. Remigijus Motuzas, président de la commission des affaires étrangères du Seimas de Lituanie, Mme Agnieszka Pomaska, présidente de la commission des affaires européennes de la Sejm de Pologne, M. Alex Sobel, président de la commission des droits de l’homme de la Chambre des Communes du Royaume-Uni, ainsi que de Mme Ann-Sofie Alm, membre de la commission des affaires étrangères du Riksdag de Suède.dag de Suède.",
+      "titre": "- échange de vues, conjoint avec la commission des affaires européennes et ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine (1), conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.\r\r(1) composée notamment de : M. Heikki Autto, président de la commission de la défense de l’Eduskunta de Finlande, M. Lars-Christian Brask, président du Conseil nordique du Folketing du Danemark, Mme Ivanna Klympush-Tsintsadze, présidente de la commission de la Verkhovna Rada sur l’intégration de l’Ukraine dans l’Union européenne, M. Remigijus Motuzas, président de la commission des affaires étrangères du Seimas de Lituanie, Mme Agnieszka Pomaska, présidente de la commission des affaires européennes de la Sejm de Pologne, M. Alex Sobel, président de la commission des droits de l’homme de la Chambre des Communes du Royaume-Uni, ainsi que de Mme Ann-Sofie Alm, membre de la commission des affaires étrangères du Riksdag de Suède.dag de Suède.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
@@ -885,7 +885,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461625",
-      "titre": "table ronde, ouverte à la presse et conjointe avec la commission des Finances, de l’économie générale et du contrôle budgétaire, sur la situation économique et le financement des entreprises.",
+      "titre": "nomination de rapporteurs sur le bilan annuel de l’application des lois en vue de la séance de contrôle du mercredi 3 février 2027 ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
@@ -893,8 +893,17 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461815",
+      "titre": "échange de vues, conjoint avec la commission des affaires étrangères et ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine, conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO415287"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461630",
-      "titre": "– désignation de rapporteurs sur le contrôle de l’application des lois ;\r- examen de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r- examen de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrik Davi, rapporteur) ;\r- éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur la proposition de loi visant à lever les contraintes pesant sur le foncier (n° 3332) (Mme Emeline Rey-Rinchert, rapporteure).",
+      "titre": "désignation de rapporteurs sur le contrôle de l’application des lois ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -930,7 +939,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461626",
-      "titre": "examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373).",
+      "titre": "examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373) (M. Boris Tavernier, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T10:00:00.000Z",
       "dateFin": null,
@@ -965,6 +974,15 @@
       "organisateur": "PO59047"
     },
     {
+      "uid": "RUANR5L17S2027IDC461807",
+      "titre": "audition du GDI Jérôme De Roquefeuil, directeur du Service de la Maintenance Industrielle Terrestre (SMITer)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T13:00:00.000Z",
+      "dateFin": "2026-11-25T14:00:00.000Z",
+      "lieu": "Salle 4405 - 9 rue de Bourgogne Paris 7 - 4e étage Las Cases",
+      "organisateur": "PO880826"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31066",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -972,6 +990,33 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461790",
+      "titre": "audition de Mme Nathalie Drach-Temam, Présidente de la Sorbonne Université.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T13:30:00.000Z",
+      "dateFin": "2026-11-25T15:00:00.000Z",
+      "lieu": "Salle 4085 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO885460"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461802",
+      "titre": "audition du contre-amiral Rémi Thomas, sous-chef « plans et programmes » de l’État-major de la Marine.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T13:30:00.000Z",
+      "dateFin": "2026-11-25T14:30:00.000Z",
+      "lieu": "Salle 4067 - 9 rue de Bourgogne, rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461808",
+      "titre": "audition en visioconférence des représentants de la Direction des affaires financières du Ministère des Armées et des Anciens combattants : Mme Chloé Mirau, directrice des affaires financières du Ministère des Armées et des Anciens combattants, M. Rémi Masson, administrateur de l’Etat, chef du service synthèses et pilotage budgétaire, Mme Isabelle de Carli, commissaire en chef de première classe, adjointe au chef de service synthèses et pilotage budgétaire, Mme Gwladys Fromentin, administratrice de l’Etat, sous-directrice des déterminants de la dépense et de la performance, Colonel Alain Leva, chef du bureau analyse de la valeur des dépenses d’équipement.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T14:00:00.000Z",
+      "dateFin": "2026-11-25T15:00:00.000Z",
+      "lieu": "Salle 4405 - 9 rue de Bourgogne Paris 7 - 4e étage Las Cases",
+      "organisateur": "PO880826"
     },
     {
       "uid": "RUANR5L17S2027IDC461608",
@@ -984,7 +1029,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461514",
-      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne ;",
+      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
@@ -1002,7 +1047,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461631",
-      "titre": "éventuellement, suite de l'ordre du jour du matin",
+      "titre": "éventuellement, suite de l'ordre du jour du matin.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
@@ -1020,16 +1065,16 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461534",
-      "titre": "audition, ouverte à la presse, de M. François Sauvadet, président du conseil départemental de Côte-d’Or, président de Départements de France, et M. Frédéric Bierry, président de la collectivité européenne d’Alsace, chargé de la solidarité au sein de Départements de France.",
+      "titre": "audition, ouverte à la presse, de M. François Sauvadet, président du conseil départemental de la Côte-d’Or, président de l’association des départements de France (ADF), et M. Frédéric Bierry, président de la collectivité européenne d’Alsace, président de la commission solidarité, santé et travail de l’ADF.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461692",
-      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373).",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant (n° 3373) (M. Boris Tavernier, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:30:00.000Z",
       "dateFin": null,
@@ -1043,6 +1088,24 @@
       "dateDebut": "2026-11-25T15:30:00.000Z",
       "dateFin": null,
       "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461809",
+      "titre": "audition des représentants du Service industriel de l'aéronautique (SIAé) : Ingénieur général hors classe de l'armement Yannick Cailliez, directeur ; Colonel Géraldine Borrel, sous-directrice opérations, Ingénieur en chef de l'armement Pierre Gravelines, sous-directeur stratégie et transformation ; et ICT Christian Rognie, chef de cabinet.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T15:30:00.000Z",
+      "dateFin": "2026-11-25T16:30:00.000Z",
+      "lieu": "Salle 4405 - 9 rue de Bourgogne Paris 7 - 4e étage Las Cases",
+      "organisateur": "PO880826"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461803",
+      "titre": "audition, ouverte à la presse, de M. Arnaud Oseredczuk, président de la deuxième section de la cinquième chambre de la Cour des comptes – sous réserve de confirmation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO884567"
     },
     {
@@ -1100,6 +1163,42 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461791",
+      "titre": "audition de Mme Béatrice Khaiat, directrice générale adjointe de Campus France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T08:00:00.000Z",
+      "dateFin": "2026-11-26T12:30:00.000Z",
+      "lieu": "Salle 4060 - 9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO885460"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461792",
+      "titre": "audition de M. Martial Brun, directeur général de Présanse.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461796",
+      "titre": "audition de Mme Nadine Marienstras, cheffe du service historique de la Défense, ou du Général Ghislain Huyghues-Despointes, son adjoint, et de M. Alain Brossais, sous-directeur des risques, de l’environnement et du développement durable à la direction des territoires, de l’immobilier et de l’infrastructure.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Visconti – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO887401"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461810",
+      "titre": "audition des présidents des commissions « Soutien et Services » du GICAT (Groupement des Industries françaises de Défense et de Sécurité terrestres et aéroterrestres) : M. Valentin Drouillard (ARMTEK), M. Julien Vinhas (INEOS), M. Marc Ollier et M. Vincent Quintana",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:00:00.000Z",
+      "dateFin": "2026-11-26T10:00:00.000Z",
+      "lieu": "Salle 4075 - 9 rue de Bourgogne - RdC Olympe de Gouges",
+      "organisateur": "PO880826"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461764",
       "titre": "audition de M. Vincent Ploquin, adjoint à la directrice des libertés publiques et des affaires juridiques, DLPAJ, ministère de l’intérieur.",
       "type": "reunionCommission_type",
@@ -1109,6 +1208,24 @@
       "organisateur": "PO885320"
     },
     {
+      "uid": "RUANR5L17S2027IDC461793",
+      "titre": "audition de représentants de la Confédération générale du travail (CGT).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO884940"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461797",
+      "titre": "Audition de représentants de la Marine nationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Visconti – 101 rue de l'Université, Rez-de-chaussée",
+      "organisateur": "PO887401"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461762",
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
@@ -1116,6 +1233,24 @@
       "dateFin": null,
       "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle n° 216 (commission des lois)",
       "organisateur": "PO888417"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461812",
+      "titre": "audition du Colonel Olivier Régis, chef J5 Europe, état-major des armées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T09:30:00.000Z",
+      "dateFin": "2026-11-26T10:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880699"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461811",
+      "titre": "audition du directeur de l'Agence de l'innovation de défense (AID), M. Adrien Facon.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T10:00:00.000Z",
+      "dateFin": "2026-11-26T11:00:00.000Z",
+      "lieu": "Salle 4075 - 9 rue de Bourgogne - RdC Olympe de Gouges",
+      "organisateur": "PO880826"
     },
     {
       "uid": "RUANR5L17S2027IDC461705",
@@ -1134,6 +1269,15 @@
       "dateFin": null,
       "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
       "organisateur": "PO885320"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461813",
+      "titre": "audition de Mme Catherine Calothy, directrice adjointe des Affaires stratégiques, de Mme Sarah Guglielmetti, rédactrice ASD, sous-direction des Affaires stratégiques et de M. Fabien Roty, rédacteur ASD, sous-direction des Affaires stratégiques, ministère de l'Europe et des Affaires étrangères.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-26T10:30:00.000Z",
+      "dateFin": "2026-11-26T11:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880699"
     },
     {
       "uid": "RUANR5L17S2027IDC461773",
@@ -1161,6 +1305,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461799",
+      "titre": "audition de M. Thomas Gomart, directeur de l’Institut français des relations internationales",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-27T13:30:00.000Z",
+      "dateFin": "2026-11-27T14:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO885429"
     },
     {
       "uid": "RUANR5L17S2027IDS31099",
@@ -1262,6 +1415,24 @@
       "organisateur": "PO888212"
     },
     {
+      "uid": "RUANR5L17S2027IDC461804",
+      "titre": "audition conjointe, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités, et de Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461774",
+      "titre": "examen du rapport de la mission « flash » sur l’impact environnemental des aliments ultra transformés (MM. Antoine Vermorel et Loïc Prud’homme, rapporteurs) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461744",
       "titre": "suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1287,6 +1458,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461775",
+      "titre": "éventuellement, suite de l'ordre du jour de l'après-midi.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle de la commission",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461745",
@@ -1334,6 +1514,15 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461755",
+      "titre": "désignation de rapporteurs d’une mission flash sur l’impact du système européen de gestion des frontières « EES » sur le transport maritime et les ports français ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461746",
       "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243) (Mme Delphine Lingemann, rapporteure).",
       "type": "reunionCommission_type",
@@ -1350,6 +1539,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461787",
+      "titre": "table-ronde sur le financement du nouveau nucléaire, réunissant M. Joël Barre, délégué interministériel au nouveau nucléaire (Dinn), M. Kosta Kastrinidis, directeur adjoint de la Banque des territoires et directeur des prêts du groupe Caisse des dépôts, et MM. Claude Laruelle, directeur exécutif groupe en charge de la direction finance et impact d’EDF, et Xavier Gruz, directeur exécutif groupe en charge de la maîtrise d’ouvrage du nouveau nucléaire.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461736",
@@ -1398,12 +1596,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461612",
-      "titre": "Extension des compétences du parquet européen à la question des traites d’êtres humains : examen d’une communication et d’un projet d’avis politique.",
+      "titre": "Extension des compétences du parquet européen à la question des traites d’êtres humains : examen d’une communication et d’un projet d’avis politique ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461805",
+      "titre": "audition, ouverte à la presse, de M. Eric Signarbieux, délégué général de l’Union nationale des centres communaux d’action sociale (Unccas).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461696",
@@ -1413,6 +1620,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461756",
+      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois (n° 3419) (Mme Geneviève Darrieussecq, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461748",
@@ -1523,6 +1739,15 @@
       "organisateur": "PO888212"
     },
     {
+      "uid": "RUANR5L17S2027IDC461806",
+      "titre": "audition en cours de programmation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-08T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31114",
       "titre": "Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles",
       "type": "seance_type",
@@ -1530,6 +1755,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDFL461814",
+      "titre": "Audition de M. Jérémie Boroy, président du Conseil national consultatif des personnes handicapées (CNCPH).",
+      "type": "reunionInitParlementaire_type",
+      "dateDebut": "2026-12-09T07:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salon Mansart",
+      "organisateur": "PO854471"
     },
     {
       "uid": "RUANR5L17S2027IDC461683",
@@ -1611,6 +1845,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461776",
+      "titre": "- éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :\r• la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois (n° 3419) (Mme Geneviève Darrieussecq, rapporteure) ;\r• la proposition de loi adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF (n° 3397).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-10T07:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDS31117",

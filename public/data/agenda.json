@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-20T05:55:49.872Z",
+  "updatedAt": "2026-11-20T12:37:37.658Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461586",
-      "titre": "Déjeuner en l'honneur de l'ambassadeur d'Indonésie en France Son Exc. Mohamad Oemar.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T12:00:00.000Z",
-      "dateFin": "2026-11-17T13:30:00.000Z",
-      "lieu": "Petit Hôtel",
-      "organisateur": "PO851894"
-    },
     {
       "uid": "RUANR5L17S2027IDC461707",
       "titre": "audition de l'Ingénieur général hors classe François-Xavier Dufer, directeur de la direction de l’Ingénierie et de l’Expertise à la direction générale de l’armement (DGA) et de M. Olivier Mary, architecte de systèmes de défense ASP.",
@@ -486,6 +477,15 @@
       "dateFin": "2026-11-19T12:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUSNR5L17S2027IDS31124",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-19T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
     },
     {
       "uid": "RUANR5L17S2027IDC461678",

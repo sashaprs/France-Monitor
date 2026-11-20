@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-11-20T12:37:37.658Z",
+  "updatedAt": "2026-11-20T14:58:44.232Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461707",
-      "titre": "audition de l'Ingénieur général hors classe François-Xavier Dufer, directeur de la direction de l’Ingénierie et de l’Expertise à la direction générale de l’armement (DGA) et de M. Olivier Mary, architecte de systèmes de défense ASP.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T13:00:00.000Z",
-      "dateFin": "2026-11-17T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461505",
-      "titre": "Audition de Son Exc. M. Christophe Parisot, ambassadeur de France en Israël.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T13:00:00.000Z",
-      "dateFin": "2026-11-17T14:00:00.000Z",
-      "lieu": "Salle 4223",
-      "organisateur": "PO851304"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461729",
-      "titre": "- Direction de l’eau et de la biodiversité (DEB) :\rM. Damien Lamotte, directeur adjoint de l'eau et de la biodioversité\rM. François Weber, adjoint au sous-directeur EAURE",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T13:00:00.000Z",
-      "dateFin": "2026-11-17T14:00:00.000Z",
-      "lieu": "Salon Gabriel – 101 rue de l'Université, Rez-de-chaussée",
-      "organisateur": "PO885393"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461738",
-      "titre": "M. Romain Laleix, membre du collège de l’Arcom, président du groupe de travail « Radios et audio numérique ».",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T14:00:00.000Z",
-      "dateFin": "2026-11-17T15:00:00.000Z",
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO883902"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31004",
-      "titre": "Questions au Gouvernement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-17T14:00:00.000Z",
-      "dateFin": "2026-11-17T19:00:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461708",
-      "titre": "audition de l'amiral (2S) Hervé de Bonnaventure, conseiller défense MBDA.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-17T14:00:00.000Z",
-      "dateFin": "2026-11-17T15:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
     {
       "uid": "RUANR5L17S2027IDC461580",
       "titre": "audition conjointe, ouverte à la presse, de :",

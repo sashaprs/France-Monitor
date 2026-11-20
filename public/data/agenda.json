@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:24:48.666Z",
+  "updatedAt": "2026-11-20T05:55:49.872Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461586",
@@ -600,7 +600,7 @@
       "titre": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
       "dateDebut": "2026-11-19T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-19T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -618,7 +618,7 @@
       "titre": "Suite de la discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",
       "type": "seance_type",
       "dateDebut": "2026-11-19T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-19T23:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -677,6 +677,15 @@
       "organisateur": "PO884520"
     },
     {
+      "uid": "RUANR5L17S2027IDC461783",
+      "titre": "audition, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958), de :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461769",
       "titre": "audition, ouverte à la presse, de M. Jean-Pierre Obin, ancien inspecteur général de l’éducation nationale (en visioconférence).",
       "type": "reunionCommission_type",
@@ -711,6 +720,15 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461784",
+      "titre": "– M. Erwan Balanant, député.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-23T14:00:00.000Z",
+      "dateFin": "2026-11-23T15:00:00.000Z",
+      "lieu": "Salle 6566 – Palais Bourbon, 2ème étage",
+      "organisateur": "PO887433"
     },
     {
       "uid": "RUANR5L17S2027IDC461772",
@@ -786,7 +804,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461717",
-      "titre": "Examen de la proposition de loi, adoptée par le Sénat, portant réforme de la loi du 9 février 1895 sur les fraudes en matière artistique (n° 109)",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat, portant réforme de la loi du 9 février 1895 sur les fraudes en matière artistique (n° 109).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
       "dateFin": null,
@@ -812,6 +830,15 @@
       "organisateur": "PO420120"
     },
     {
+      "uid": "RUANR5L17S2027IDC461782",
+      "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983) (M. François Gernigon, rapporteur).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461733",
       "titre": "audition conjointe, ouverte à la presse, des rapporteurs de la mission d’information de la commission de la culture, de l’éducation, de la communication et du sport du Sénat sur le maillage territorial des établissements scolaires, et des rapporteurs de la mission d’information de la délégation aux collectivités territoriales et à la décentralisation du Sénat relative à la compétence scolaire des collectivités territoriales face aux évolutions démographiques et aux défis d’aménagement du territoire.",
       "type": "reunionCommission_type",
@@ -828,6 +855,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461727",
+      "titre": "audition de M. Patrice Faure, préfet de police de Paris, et de M. Antoine Salmon, directeur de l’ordre public et de la circulation, dans le cadre des travaux d'enquête menés sur les événements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance n° 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T20:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461720",
@@ -857,15 +893,6 @@
       "organisateur": "PO838901"
     },
     {
-      "uid": "RUANR5L17S2027IDC461727",
-      "titre": "audition de M. Patrice Faure, préfet de police de Paris, dans le cadre des travaux d'enquête menés sur les événements liés aux manifestations du 17 octobre 2026 (article 5 ter de l'ordonnance n° 58-1100 du 17 novembre 1958).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461749",
       "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983).",
       "type": "reunionCommission_type",
@@ -885,7 +912,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461557",
-      "titre": "audition, ouverte à la presse, de Mme Marie-Christine Verdier-Jouclas, directrice générale de l’Office national des combattants et des victimes et de guerre (ONaCVG) et de M. Pierre-Emmanuel de Laforcade, directeur général du Bleuet de France (cycle « Monde combattant : liens avec la Nation, mémoire et résilience »).",
+      "titre": "audition, ouverte à la presse, de Mme Marie-Christine Verdier-Jouclas, directrice générale de l’Office national des combattants et des victimes et de guerre (ONaCVG) et de M. Pierre-Emmanuel de Laforcade, directeur général du Bleuet de France (cycle « Monde combattant : liens avec la Nation, mémoire et résilience ») ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
@@ -930,7 +957,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461718",
-      "titre": "Examen de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire (n° 3358) (M. Arnaud Bonnet, rapporteur)",
+      "titre": "examen de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire (n° 3358) (M. Arnaud Bonnet, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -939,7 +966,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461671",
-      "titre": "examen de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation (n° 3314).",
+      "titre": "examen de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation (n° 3314) (Mme Constance de Pélichy, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -966,7 +993,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461681",
-      "titre": "examen, selon la procédure de législation en commission, de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaire français et à améliorer leur indemnisation (n° 2852) (M. Didier Le Gac et Mme Mereana Reid Arbelot, rapporteurs)",
+      "titre": "examen, ouvert à la presse, selon la procédure de législation en commission, de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaire français et à améliorer leur indemnisation (n° 2852) (M. Didier Le Gac et Mme Mereana Reid Arbelot, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T10:00:00.000Z",
       "dateFin": null,
@@ -984,7 +1011,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461556",
-      "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :\r- projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs au cadre de déclaration applicable aux cryptoactifs, signé à Assomption le 26 novembre 2024, et l’approbation de l’addendum à l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs aux comptes financiers, signé à Assomption le 26 novembre 2024 (n° 3421) (Mme Constance Le Grip, rapporteure) ;\r- projet de loi, adopté par le Sénat, autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune (n° 3401) (M. Stéphane Hablot, rapporteur).",
+      "titre": "examen, ouvert à la presse, et vote sur les projets de loi suivants :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T10:00:00.000Z",
       "dateFin": null,
@@ -1200,7 +1227,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461742",
-      "titre": "en cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "titre": "en cas d’échec de la commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-30T15:00:00.000Z",
       "dateFin": null,
@@ -1218,7 +1245,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461743",
-      "titre": "en cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "titre": "en cas d’échec de la commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-30T20:30:00.000Z",
       "dateFin": null,
@@ -1299,7 +1326,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461752",
-      "titre": "examen de la proposition de loi visant à instaurer une motion de censure constructive (n° 3395) ;",
+      "titre": "examen de la proposition de loi visant à améliorer l’efficacité de l’État au niveau local (n° 3414) (Mme Blandine Brocard, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-01T15:30:00.000Z",
       "dateFin": null,
@@ -1362,7 +1389,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461746",
-      "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243).",
+      "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243) (Mme Delphine Lingemann, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,

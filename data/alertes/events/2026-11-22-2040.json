@@ -1,0 +1,104 @@
+{
+ "genere_le": "2026-11-22T20:40:44.689Z",
+ "evenements": [
+  {
+   "id": "amdt-nouveau:AMANR5L17PO419865B3375P0D1N000002",
+   "type": "nouvel_amendement",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "Amendement n° CD2 de Frédéric Maillot (GDR) — ART. PREMIER",
+   "detail": "L’objectif de créer un parc social d’un million d’automobiles électriques à loyer modéré est un défi louable que nous soutenons. Toutefois, dans la mesure où le déploiement des voitures électriques n…",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3375/CION-DVP/CD2",
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "L’objectif de créer un parc social d’un million d’automobiles électriques à loyer modéré est un défi louable que nous soutenons. Toutefois, dans la mesure où le déploiement des voitures électriques n… ART. PREMIER Frédéric Maillot GDR Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:e5293dd6cb8d8e77",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "detail": "mardi 24 novembre à 16:30 · Nomination d'un rapporteur",
+   "url": null,
+   "dossier_id": "DLR5L17N54778",
+   "texte_matchable": "Nomination d'un rapporteur Développement durable Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "profils": []
+  },
+  {
+   "id": "odj:f3ef09fed653b3c7",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Lever les contraintes pesant sur le foncier",
+   "detail": "mercredi 25 novembre à 09:30 · Examen des amendements (art. 88)",
+   "url": null,
+   "dossier_id": "DLR5L17N55097",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Lever les contraintes pesant sur le foncier",
+   "profils": []
+  },
+  {
+   "id": "odj:0a255a7fac60050c",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "detail": "mardi 1 décembre à 14:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N53067",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance",
+   "profils": []
+  },
+  {
+   "id": "odj:0d2358bb5a6f97d1",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "detail": "mardi 1 décembre à 21:30 · Examen du texte (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54778",
+   "texte_matchable": "Examen du texte Développement durable Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "profils": []
+  },
+  {
+   "id": "odj:7fdfb70e4dd5d05a",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "detail": "jeudi 3 décembre à 08:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55144",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Créer un grand parc social d'un million d'automobiles électriques à loyer modéré",
+   "profils": []
+  },
+  {
+   "id": "odj:6877a8b829202815",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Protéger nos forêts en encadrant les coupes rases",
+   "detail": "jeudi 3 décembre à 08:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55141",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Protéger nos forêts en encadrant les coupes rases",
+   "profils": []
+  },
+  {
+   "id": "odj:20e68791feefdb56",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses e…",
+   "detail": "jeudi 10 décembre à 08:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N55191",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses e…",
+   "profils": []
+  },
+  {
+   "id": "odj:27ab60a96ed60d45",
+   "type": "inscription_ordre_du_jour",
+   "date": "2026-11-22T20:40:44.689Z",
+   "titre": "À l'ordre du jour — Développement durable : Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "detail": "jeudi 10 décembre à 08:45 · Examen des amendements (art. 88) (sous réserve)",
+   "url": null,
+   "dossier_id": "DLR5L17N54778",
+   "texte_matchable": "Examen des amendements (art. 88) Développement durable Proposition de loi relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office natio…",
+   "profils": []
+  }
+ ]
+}

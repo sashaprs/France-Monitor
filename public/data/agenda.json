@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-21T20:24:54.453Z",
+  "updatedAt": "2026-11-22T00:10:44.210Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31053",
-      "titre": null,
-      "type": "seance_type",
-      "dateDebut": "2026-11-18T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31052",
-      "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, pour retrouver la confiance et l'équilibre dans les rapports locatifs",
-      "type": "seance_type",
-      "dateDebut": "2026-11-18T20:30:00.000Z",
-      "dateFin": "2026-11-18T22:55:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461701",
       "titre": "- audition, en visioconférence, de M. Pierre-Antoine Molina, délégué interministériel aux Jeux Olympiques et Paralympiques et aux grands événements sportifs (DIJOP).",

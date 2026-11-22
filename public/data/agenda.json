@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-22T00:10:44.210Z",
+  "updatedAt": "2026-11-22T07:47:44.181Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461701",
-      "titre": "- audition, en visioconférence, de M. Pierre-Antoine Molina, délégué interministériel aux Jeux Olympiques et Paralympiques et aux grands événements sportifs (DIJOP).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-19T07:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO856386"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461713",
-      "titre": "audition de M. François-Noël Buffet, Défenseur des droits.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-19T07:30:00.000Z",
-      "dateFin": "2026-11-19T08:30:00.000Z",
-      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO885535"
-    },
     {
       "uid": "RUANR5L17S2027IDS31054",
       "titre": "Discussion, en 2e lecture, de la proposition de loi, modifiée par le Sénat, visant à exercer l’accès à l’emploi, à pérenniser et à étendre progressivement l’expérimentation « territoires zéro chômeur de longue durée » comme solution de retour à l’emploi pour les personnes privées durablement d’emploi",

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-23T11:52:24.056Z",
+  "updatedAt": "2026-11-23T14:11:59.500Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDS31058",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-20T14:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461763",
       "titre": "nomination du bureau ;",
@@ -394,7 +385,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO59048"
     },
     {
@@ -687,7 +678,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461792",
-      "titre": "audition de M. Martial Brun, directeur général de Présanse.",
+      "titre": "audition de M. Arnaud Bonduelle, secrétaire général de Présanse.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T08:00:00.000Z",
       "dateFin": null,
@@ -1119,7 +1110,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461612",
-      "titre": "Extension des compétences du parquet européen à la question des traites d’êtres humains : examen d’une communication et d’un projet d’avis politique ;",
+      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
@@ -1197,6 +1188,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461823",
+      "titre": "Audition publique sur l’enseignement des sciences (conjointement avec les commissions compétentes des deux assemblées et les Académies)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle Lamartine – 101 rue de l'Université, 1er sous-sol",
+      "organisateur": "PO273589"
     },
     {
       "uid": "RUANR5L17S2027IDS31102",

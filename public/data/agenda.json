@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-23T14:11:59.500Z",
+  "updatedAt": "2026-11-23T23:26:52.274Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461763",
-      "titre": "nomination du bureau ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-20T16:00:00.000Z",
-      "dateFin": "2026-11-20T17:20:00.000Z",
-      "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle 131 (commission des finances)",
-      "organisateur": "PO889030"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31059",
-      "titre": "Suite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement",
-      "type": "seance_type",
-      "dateDebut": "2026-11-20T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
     {
       "uid": "RUANR5L17S2027IDC461767",
       "titre": "audition, ouverte à la presse, de Me Richard Malka, avocat.",
@@ -33,7 +15,7 @@
       "titre": "audition, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958), de :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-23T10:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-23T12:20:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO59051"
     },
@@ -381,11 +363,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461615",
-      "titre": "audition, sous format de table ronde et conjointe avec la commission des Affaires économiques de Mme Maya ATIG, directrice générale de la Fédération bancaire française, M. Patrick ARTUS, économiste, professeur à la Paris School of Economics, membre du Conseil scientifique de l’Autorité des marchés financiers et conseiller économique d’Ossiam, et de M. Thomas GRJEBINE, économiste, rapporteur général du Haut-commissariat à la Stratégie et au Plan, sur la situation économique et le financement des entreprises",
+      "titre": "audition, sous format de table ronde et conjointe avec la commission des Affaires économiques de Mme Maya Atig, directrice générale de la Fédération bancaire française, M. Patrick Artus, économiste, professeur à la Paris School of Economics, membre du Conseil scientifique de l’Autorité des marchés financiers et conseiller économique d’Ossiam, Mme Mireille Bruyère, maîtresse de conférences en sciences économiques à l'Université Toulouse-Jean Jaurès (Toulouse II), et de M. Thomas Grjebine, économiste, rapporteur général du Haut-commissariat à la Stratégie et au Plan, sur la situation économique et le financement des entreprises.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
     },
     {
@@ -394,7 +376,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO419610"
     },
     {
@@ -453,7 +435,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461734",
-      "titre": "examen, en deuxième lecture, de la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie Laernoes, rapporteure)",
+      "titre": "examen, en deuxième lecture, de la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie Laernoes, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T10:00:00.000Z",
       "dateFin": null,
@@ -552,7 +534,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461735",
-      "titre": "examen de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés (n° 3374) (M. Tristan Lahais, rapporteur)",
+      "titre": "examen de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés (n° 3374) (M. Tristan Lahais, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": null,
@@ -606,7 +588,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461803",
-      "titre": "audition, ouverte à la presse, de M. Arnaud Oseredczuk, président de la deuxième section de la cinquième chambre de la Cour des comptes – sous réserve de confirmation.",
+      "titre": "audition, ouverte à la presse, de M. Arnaud Oseredczuk, président de section à la cinquième chambre de la Cour des comptes et M. Jean-Luc Fulachier, président de section à la sixième chambre de la Cour des comptes.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T15:30:00.000Z",
       "dateFin": null,
@@ -768,7 +750,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461765",
-      "titre": "audition de Mme Anna Nguyen, sous-directrice de la cohésion et de l’aménagement du territoire, accompagnée de M. Romain Ornato, chef de bureau des affaires financières et budgétaires, direction générale des collectivités locales (DGCL), ministère de l’aménagement du territoire et de la décentralisation.",
+      "titre": "audition de M. Xavier Barrois, directeur, adjoint à la directrice générale des collectivités locales, accompagné de M. Romain Ornato, chef du bureau des affaires financières et budgétaires, direction générale des collectivités locales (DGCL), ministère de l’aménagement du territoire et de la décentralisation.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T10:00:00.000Z",
       "dateFin": null,

@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-11-22T21:38:54.032Z",
+  "updatedAt": "2026-11-23T02:16:54.261Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461600",
-      "titre": "Participation de Mme Natalia Pouzyreff, Présidente de la délégation française, Mme Catherine Hervieu, Mme Hélène Laporte, Mme Constance Le Grip, M. Aurélien Saintoul et Mme Michèle Tabarot à la session plénière de l’AP OTAN.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-19T23:00:00.000Z",
-      "dateFin": "2026-11-23T22:59:59.000Z",
-      "lieu": "Berlin",
-      "organisateur": "PO58974"
-    },
     {
       "uid": "RUANR5L17S2027IDS31057",
       "titre": "Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République unie de Tanzanie relatif aux services aériens",
@@ -543,7 +534,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461808",
-      "titre": "audition en visioconférence des représentants de la Direction des affaires financières du Ministère des Armées et des Anciens combattants : Mme Chloé Mirau, directrice des affaires financières du Ministère des Armées et des Anciens combattants, M. Rémi Masson, administrateur de l’Etat, chef du service synthèses et pilotage budgétaire, Mme Isabelle de Carli, commissaire en chef de première classe, adjointe au chef de service synthèses et pilotage budgétaire, Mme Gwladys Fromentin, administratrice de l’Etat, sous-directrice des déterminants de la dépense et de la performance, Colonel Alain Leva, chef du bureau analyse de la valeur des dépenses d’équipement.",
+      "titre": "audition en visioconférence des représentants de la Direction des affaires financières du Ministère des Armées et des Anciens combattants : Mme Chloé Mirau, directrice des affaires financières du Ministère des Armées et des Anciens combattants, M. Rémi Masson, administrateur de l’État, chef du service synthèses et pilotage budgétaire, Mme Isabelle de Carli, commissaire en chef de première classe, adjointe au chef de service synthèses et pilotage budgétaire, Mme Gwladys Fromentin, administratrice de l’État, sous-directrice des déterminants de la dépense et de la performance, Colonel Alain Leva, chef du bureau analyse de la valeur des dépenses d’équipement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:00:00.000Z",
       "dateFin": "2026-11-25T15:00:00.000Z",

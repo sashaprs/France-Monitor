@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T08:39:53.377Z",
+  "updatedAt": "2026-11-24T14:39:20.001Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461767",
@@ -309,7 +309,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDS31065",
-      "titre": "Suite de la discussion, sous réserve de son dépôt, sur le rapport de la commission mixte paritaire, ou nouvelle lecture du projet de loi de finances de fin de gestion pour 2026",
+      "titre": "Suite de la discussion, sur le rapport de la commission mixte paritaire, du projet de loi de finances de fin de gestion pour 2026",
       "type": "seance_type",
       "dateDebut": "2026-11-24T20:30:00.000Z",
       "dateFin": null,
@@ -408,7 +408,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461671",
-      "titre": "examen de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation (n° 3314) (Mme Constance de Pélichy, rapporteure) ;",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3478) (Mme Josiane Corneloup, rapporteure)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -651,7 +651,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461791",
-      "titre": "audition de Mme Béatrice Khaiat, directrice générale adjointe de Campus France.",
+      "titre": "audition de M. Augustin Favereau, directeur général de Campus France.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T08:00:00.000Z",
       "dateFin": "2026-11-26T12:30:00.000Z",
@@ -750,7 +750,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461765",
-      "titre": "audition de M. Xavier Barrois, directeur, adjoint à la directrice générale des collectivités locales, accompagné de M. Romain Ornato, chef du bureau des affaires financières et budgétaires, direction générale des collectivités locales (DGCL), ministère de l’aménagement du territoire et de la décentralisation.",
+      "titre": "audition de M. Xavier Barrois, directeur, adjoint à la directrice générale des collectivités locales, accompagné de M. Charbel Aboud, chef du bureau de la politique de la ville et de la rénovation urbaine, et de M. Romain Ornato, chef du bureau des affaires financières et budgétaires, direction générale des collectivités locales (DGCL), ministère de l’aménagement du territoire et de la décentralisation.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T10:00:00.000Z",
       "dateFin": null,
@@ -1314,6 +1314,15 @@
       "dateFin": null,
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461835",
+      "titre": "audition de M. Thibaut Guilluy, dont le renouvellement aux fonctions de directeur général de l’institution nationale publique mentionnée à l’article L. 5312-1 du code du travail, dénommée « France Travail », est proposé (M. Nicolas Turquois, rapporteur), puis vote sur cette proposition de nomination dans les conditions prévues par l’article 29-1 du Règlement",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
+      "organisateur": "PO420120"
     },
     {
       "uid": "RUANR5L17S2027IDC461628",

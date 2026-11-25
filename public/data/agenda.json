@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:28:07.215Z",
+  "updatedAt": "2026-11-25T13:59:55.076Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461767",
@@ -101,6 +101,15 @@
       "organisateur": "PO856386"
     },
     {
+      "uid": "RUSNR5L17S2027IDS31141",
+      "titre": "Discussion",
+      "type": "seance_type",
+      "dateDebut": "2026-11-24T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat",
+      "organisateur": "PO78718"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31063",
       "titre": "Questions orales sans débat (salle Lamartine)",
       "type": "seance_type",
@@ -168,7 +177,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-24T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T18:25:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -222,18 +231,9 @@
       "titre": "- audition, ouverte à la presse, de M. Guillaume Prévost, secrétaire général de l’enseignement catholique, M. Emmanuel Jolivet, directeur diocésain de l’enseignement catholique du Limousin, et Mme Cécile Christensen, directrice des affaires institutionnelles du Secrétariat général de l’enseignement catholique",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T16:30:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO881975"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461719",
-      "titre": "désignation d’un rapporteur sur la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF (n° 3397) ;",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T15:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461668",
@@ -249,7 +249,7 @@
       "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983) (M. François Gernigon, rapporteur).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T15:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T17:15:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
     },
@@ -261,6 +261,15 @@
       "dateFin": null,
       "lieu": "à préciser",
       "organisateur": "PO881975"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461719",
+      "titre": "examen, en deuxième lecture, de la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (rapport).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-24T15:35:00.000Z",
+      "dateFin": "2026-11-24T17:05:00.000Z",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419865"
     },
     {
       "uid": "RUANR5L17S2027IDC461789",
@@ -294,7 +303,7 @@
       "titre": "nomination d’un rapporteur sur le projet de loi portant diverses dispositions relatives au secteur nucléaire.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T17:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T18:20:00.000Z",
       "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419610"
     },
@@ -303,7 +312,7 @@
       "titre": "audition de M. Patrice Faure, préfet de police de Paris, de M. Antoine Salmon, directeur de l’ordre public et de la circulation, de M. Julien Defer, directeur adjoint de l'ordre public et de la circulation et de M. Olivier Bourde, sous-directeur de l'ordre public de l'agglomération parisienne, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-24T20:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T23:00:00.000Z",
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
     },
@@ -330,7 +339,7 @@
       "titre": "Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)",
       "type": "seance_type",
       "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-24T22:25:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -380,15 +389,6 @@
       "organisateur": "PO59051"
     },
     {
-      "uid": "RUANR5L17S2027IDC461615",
-      "titre": "audition, sous format de table ronde et conjointe avec la commission des Affaires économiques de Mme Maya Atig, directrice générale de la Fédération bancaire française, M. Patrick Artus, économiste, professeur à la Paris School of Economics, membre du Conseil scientifique de l’Autorité des marchés financiers et conseiller économique d’Ossiam, Mme Mireille Bruyère, maîtresse de conférences en sciences économiques à l'Université Toulouse-Jean Jaurès (Toulouse II), et de M. Thomas Grjebine, économiste, rapporteur général du Haut-commissariat à la Stratégie et au Plan, sur la situation économique et le financement des entreprises.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-25T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59048"
-    },
-    {
       "uid": "RUANR5L17S2027IDC461625",
       "titre": "nomination de rapporteurs sur le bilan annuel de l’application des lois en vue de la séance de contrôle du mercredi 3 février 2027 ;",
       "type": "reunionCommission_type",
@@ -398,17 +398,26 @@
       "organisateur": "PO419610"
     },
     {
+      "uid": "RUANR5L17S2027IDC461615",
+      "titre": "audition, sous format de table ronde et conjointe avec la commission des Affaires économiques de Mme Maya Atig, directrice générale de la Fédération bancaire française, M. Patrick Artus, économiste, professeur à la Paris School of Economics, membre du Conseil scientifique de l’Autorité des marchés financiers et conseiller économique d’Ossiam, Mme Mireille Bruyère, maîtresse de conférences en sciences économiques à l'Université Toulouse-Jean Jaurès (Toulouse II), et de M. Thomas Grjebine, économiste, rapporteur général du Haut-commissariat à la Stratégie et au Plan, sur la situation économique et le financement des entreprises.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-25T08:05:00.000Z",
+      "dateFin": "2026-11-25T10:15:00.000Z",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461815",
       "titre": "échange de vues, conjoint avec la commission des affaires étrangères et ouvert à la presse, avec une délégation de parlementaires européens appartenant à l’Alliance interparlementaire Unis pour l’Ukraine, conduite par son président, M. Žygimantas Pavilionis, vice-président de la commission des affaires étrangères du Seimas de Lituanie.",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-11-25T08:00:00.000Z",
-      "dateFin": null,
+      "dateDebut": "2026-11-25T08:05:00.000Z",
+      "dateFin": "2026-11-25T10:10:00.000Z",
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO415287"
     },
     {
       "uid": "RUANR5L17S2027IDC461630",
-      "titre": "désignation de rapporteurs sur le contrôle de l’application des lois ;",
+      "titre": "Désignation d’un rapporteur sur la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF (n° 3397) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -420,13 +429,13 @@
       "titre": "examen de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire (n° 3358) (M. Arnaud Bonnet, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-25T10:30:00.000Z",
       "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461671",
-      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3478) (Mme Josiane Corneloup, rapporteure)",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (n° 3478) (Mme Josiane Corneloup, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T08:30:00.000Z",
       "dateFin": null,
@@ -705,7 +714,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461792",
-      "titre": "audition de M. Arnaud Bonduelle, secrétaire général de Présanse.",
+      "titre": "audition de M. Arnaud Bonduelle, secrétaire général de Présanse, accompagné du Dr Corinne Letheux, médecin-conseil.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T08:00:00.000Z",
       "dateFin": null,
@@ -741,7 +750,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461793",
-      "titre": "audition de représentants de la Confédération générale du travail (CGT).",
+      "titre": "audition de représentants de la Confédération générale du travail (CGT) : MM. Laurent Dufour, membre de la Commission exécutive confédérale (CEC), Olivier Perrot, conseiller confédéral, Philippe Royer, représentant de la CGT au Conseil d’orientation des conditions de travail (COCT), et Rafik Zaigouche, chargé de mission.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T09:30:00.000Z",
       "dateFin": null,
@@ -1056,7 +1065,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461755",
-      "titre": "désignation de rapporteurs d’une mission flash sur l’impact du système européen de gestion des frontières « EES » sur le transport maritime et les ports français ;",
+      "titre": "désignation de rapporteurs sur le contrôle de l’application des lois ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,
@@ -1116,6 +1125,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461838",
+      "titre": "audition, ouverte à la presse, de la professeure Céline Gréco, cheffe du service de médecine de la douleur et palliative à l’hôpital Necker-Enfants malades et présidente du comité scientifique permanent pour la refondation de la politique de protection de l’enfance.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T13:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
+      "organisateur": "PO804431"
     },
     {
       "uid": "RUANR5L17S2027IDC461754",

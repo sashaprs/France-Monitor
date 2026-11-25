@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-11-25T03:28:05.382Z",
+  "updatedAt": "2026-11-25T13:59:53.176Z",
   "scrutins": [
+    {
+      "numero": "10103",
+      "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de finances de fin de gestion pour 2026 (texte de la commission mixte paritaire).",
+      "date": "2026-11-24",
+      "sort": null,
+      "nombreVotants": "270",
+      "pour": "60",
+      "contre": "135",
+      "abstentions": "75",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10106",
+      "titre": "l'ensemble du projet de loi de finances de fin de gestion pour 2026 (texte de la commission mixte paritaire).",
+      "date": "2026-11-24",
+      "sort": null,
+      "nombreVotants": "288",
+      "pour": "135",
+      "contre": "64",
+      "abstentions": "89",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10104",
+      "titre": "l'amendement n° 4 du Gouvernement au projet de loi de finances de fin de gestion pour 2026 (texte de la commission mixte paritaire).",
+      "date": "2026-11-24",
+      "sort": null,
+      "nombreVotants": "278",
+      "pour": "133",
+      "contre": "58",
+      "abstentions": "87",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10105",
+      "titre": "l'amendement n° 2 du Gouvernement au projet de loi de finances de fin de gestion pour 2026 (texte de la commission mixte paritaire).",
+      "date": "2026-11-24",
+      "sort": null,
+      "nombreVotants": "282",
+      "pour": "208",
+      "contre": "1",
+      "abstentions": "73",
+      "nonVotants": "2"
+    },
     {
       "numero": "10102",
       "titre": "l'ensemble du projet de loi visant la relance et la décentralisation du logement (première lecture).",
@@ -506,50 +550,6 @@
       "contre": "114",
       "abstentions": "4",
       "nonVotants": "2"
-    },
-    {
-      "numero": "10057",
-      "titre": "l'amendement n° 70 de Mme Robert-Dehault à l'article 1er bis A de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "228",
-      "pour": "84",
-      "contre": "139",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10036",
-      "titre": "l'amendement n° 31 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "218",
-      "pour": "101",
-      "contre": "115",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10043",
-      "titre": "l'amendement n° 3 de M. Falcon à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "249",
-      "pour": "86",
-      "contre": "156",
-      "abstentions": "7",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10059",
-      "titre": "l'amendement n° 71 de Mme Robert-Dehault à l'article 1er bis A de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "234",
-      "pour": "83",
-      "contre": "145",
-      "abstentions": "6",
-      "nonVotants": "1"
     }
   ]
 }

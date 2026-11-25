@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-24T19:57:59.954Z",
+  "updatedAt": "2026-11-25T00:27:31.022Z",
   "scrutins": [
+    {
+      "numero": "10102",
+      "titre": "l'ensemble du projet de loi visant la relance et la décentralisation du logement (première lecture).",
+      "date": "2026-11-24",
+      "sort": null,
+      "nombreVotants": "530",
+      "pour": "362",
+      "contre": "118",
+      "abstentions": "50",
+      "nonVotants": "1"
+    },
     {
       "numero": "10091",
       "titre": "l'article 9 du projet de loi visant la relance et la décentralisation du logement (première lecture).",
@@ -539,17 +550,6 @@
       "contre": "145",
       "abstentions": "6",
       "nonVotants": "1"
-    },
-    {
-      "numero": "10063",
-      "titre": "l'amendement n° 29 de M. Rivière à l'article premier de la proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (première lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "127",
-      "pour": "42",
-      "contre": "83",
-      "abstentions": "2",
-      "nonVotants": "2"
     }
   ]
 }

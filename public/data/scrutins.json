@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-25T13:59:53.176Z",
+  "updatedAt": "2026-11-25T22:57:41.594Z",
   "scrutins": [
+    {
+      "numero": "10107",
+      "titre": "l'article unique de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l'exception culturelle europénne.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "54",
+      "pour": "43",
+      "contre": "0",
+      "abstentions": "11",
+      "nonVotants": "1"
+    },
     {
       "numero": "10103",
       "titre": "la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de finances de fin de gestion pour 2026 (texte de la commission mixte paritaire).",
@@ -538,17 +549,6 @@
       "pour": "97",
       "contre": "143",
       "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10076",
-      "titre": "l'amendement n° 14 de Mme Bamana après l'article 3 bis de la proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (première lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "180",
-      "pour": "62",
-      "contre": "114",
-      "abstentions": "4",
       "nonVotants": "2"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:01:29.546Z",
+  "updatedAt": "2026-11-26T04:50:16.667Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461767",
@@ -501,7 +501,7 @@
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
       "dateDebut": "2026-11-25T13:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-25T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -672,7 +672,7 @@
       "titre": "audition de M. Benoît Payan, maire de Marseille et de Mme Céline Lefléfian, directrice de la Police municipale et de la Sécurité de la ville de Marseille, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T17:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-25T19:35:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO59051"
     },
@@ -690,7 +690,7 @@
       "titre": "Suite de la discussion de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l’exception culturelle européenne",
       "type": "seance_type",
       "dateDebut": "2026-11-25T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-25T21:35:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

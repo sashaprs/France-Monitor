@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:01:28.206Z",
+  "updatedAt": "2026-11-26T04:50:14.206Z",
   "scrutins": [
     {
       "numero": "10107",
@@ -11,6 +11,105 @@
       "contre": "0",
       "abstentions": "11",
       "nonVotants": "1"
+    },
+    {
+      "numero": "10111",
+      "titre": "l'amendement n° 2 de M. Saintoul à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "37",
+      "pour": "15",
+      "contre": "0",
+      "abstentions": "22",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10115",
+      "titre": "l'amendement n° 8 de la commission des affaires étrangères à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "38",
+      "pour": "13",
+      "contre": "5",
+      "abstentions": "20",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10108",
+      "titre": "l'amendement n° 1 de Mme Legrain à l'article unique de la proposition de résolution européenne visant à réviser la définition de l'œuvre européenne.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "51",
+      "pour": "21",
+      "contre": "28",
+      "abstentions": "2",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10110",
+      "titre": "l'amendement n° 1 de M. Saintoul à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "35",
+      "pour": "10",
+      "contre": "1",
+      "abstentions": "24",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10114",
+      "titre": "l'amendement n° 7 de la commission des affaires étrangères à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "35",
+      "pour": "10",
+      "contre": "5",
+      "abstentions": "20",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10112",
+      "titre": "l'amendement n° 3 de M. Saintoul à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "37",
+      "pour": "13",
+      "contre": "1",
+      "abstentions": "23",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10116",
+      "titre": "l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "39",
+      "pour": "25",
+      "contre": "0",
+      "abstentions": "14",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10109",
+      "titre": "l'article unique de la proposition de résolution européenne visant à réviser la définition de l'œuvre européenne.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "57",
+      "pour": "40",
+      "contre": "0",
+      "abstentions": "17",
+      "nonVotants": "1"
+    },
+    {
+      "numero": "10113",
+      "titre": "l'amendement n° 4 de M. Saintoul à l'article unique de la proposition de résolution européenne en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet.",
+      "date": "2026-11-25",
+      "sort": null,
+      "nombreVotants": "37",
+      "pour": "28",
+      "contre": "3",
+      "abstentions": "6",
+      "nonVotants": "2"
     },
     {
       "numero": "10103",
@@ -451,105 +550,6 @@
       "contre": "158",
       "abstentions": "7",
       "nonVotants": "1"
-    },
-    {
-      "numero": "10055",
-      "titre": "l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "251",
-      "pour": "152",
-      "contre": "96",
-      "abstentions": "3",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10080",
-      "titre": "l'ensemble de la proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (première lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "195",
-      "pour": "193",
-      "contre": "0",
-      "abstentions": "2",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10051",
-      "titre": "l'amendement n° 11 de M. Falcon à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "252",
-      "pour": "86",
-      "contre": "159",
-      "abstentions": "7",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10072",
-      "titre": "l'article 2 de la proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (première lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "178",
-      "pour": "173",
-      "contre": "1",
-      "abstentions": "4",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10042",
-      "titre": "l'amendement n° 36 de M. Alfandari et l'amendement identique suivant à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "252",
-      "pour": "106",
-      "contre": "143",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10058",
-      "titre": "l'amendement n° 17 de M. Falcon à l'article 1er bis A de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "233",
-      "pour": "86",
-      "contre": "142",
-      "abstentions": "5",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10062",
-      "titre": "l'ensemble de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "247",
-      "pour": "148",
-      "contre": "95",
-      "abstentions": "4",
-      "nonVotants": "1"
-    },
-    {
-      "numero": "10079",
-      "titre": "l'article 4 de la proposition de loi visant à lutter contre la vie chère en renforçant le droit de la concurrence et de la régulation économique outre-mer (première lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "180",
-      "pour": "177",
-      "contre": "0",
-      "abstentions": "3",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10039",
-      "titre": "l'amendement n° 2 de M. Falcon et les amendements identiques suivants à l'article premier de la proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs (deuxième lecture).",
-      "date": "2026-11-19",
-      "sort": null,
-      "nombreVotants": "243",
-      "pour": "97",
-      "contre": "143",
-      "abstentions": "3",
-      "nonVotants": "2"
     }
   ]
 }

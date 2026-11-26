@@ -1,51 +1,6 @@
 {
-  "updatedAt": "2026-11-26T04:50:16.667Z",
+  "updatedAt": "2026-11-26T13:39:32.284Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461767",
-      "titre": "audition, ouverte à la presse, de Me Richard Malka, avocat.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461783",
-      "titre": "audition, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958), de :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T10:00:00.000Z",
-      "dateFin": "2026-11-23T12:20:00.000Z",
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461769",
-      "titre": "audition, ouverte à la presse, de M. Jean-Pierre Obin, ancien inspecteur général de l’éducation nationale (en visioconférence).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T10:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461770",
-      "titre": "audition de Mme Mélanie Joder, secrétaire générale du ministère de l’éducation nationale et haut fonctionnaire de défense et de sécurité (HFDS), M. Christophe Peyrel, haut fonctionnaire adjoint de défense et de sécurité, chef du service de défense et de sécurité, et Mme Adeline Jaffre, adjointe du chef du service de défense et de sécurité.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T11:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461771",
-      "titre": "table ronde de représentants des rectorats :",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO884520"
-    },
     {
       "uid": "RUANR5L17S2027IDC461664",
       "titre": "examen de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3174) (Mme Caroline Yadan, rapporteure) ;",

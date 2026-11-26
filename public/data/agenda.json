@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-11-26T14:44:40.610Z",
+  "updatedAt": "2026-11-26T22:52:48.388Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461666",
-      "titre": "En cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T15:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461667",
-      "titre": "En cas d’échec d’une commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-23T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
     {
       "uid": "RUANR5L17S2027IDC461702",
       "titre": "- audition, en visioconférence, de M. Damien Robert, directeur général exécutif de la Solideo Alpes 2030.",
@@ -525,7 +507,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461534",
-      "titre": "audition, ouverte à la presse, de M. François Sauvadet, président du conseil départemental de la Côte-d’Or, président de Départements de France, et M. Frédéric Bierry, président de la collectivité européenne d’Alsace, président de la commission solidarité, santé et travail.",
+      "titre": "audition, ouverte à la presse, de M. François Sauvadet, président du conseil départemental de la Côte-d’Or, président de Départements de France, et M. Frédéric Bierry, président de la collectivité européenne d’Alsace, président de la commission solidarité, santé et travail sein de Départements de France.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T14:10:00.000Z",
       "dateFin": "2026-11-25T15:40:00.000Z",
@@ -588,7 +570,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461803",
-      "titre": "audition, ouverte à la presse, de M. Arnaud Oseredczuk, président de la deuxième section de la cinquième chambre de la Cour des comptes et M. Jean-Luc Fulachier, président de section à la 6e chambre",
+      "titre": "audition, ouverte à la presse, de M. Arnaud Oseredczuk, président de la deuxième section à la cinquième chambre de la Cour des comptes et M. Jean-Luc Fulachier, président de section à la sixième chambre",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-25T16:10:00.000Z",
       "dateFin": "2026-11-25T17:00:00.000Z",
@@ -627,7 +609,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T07:15:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-26T08:30:00.000Z",
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO889079"
     },
@@ -645,7 +627,7 @@
       "titre": "Discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
       "type": "seance_type",
       "dateDebut": "2026-11-26T08:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-26T12:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
@@ -669,7 +651,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461796",
-      "titre": "audition de Mme Nadine Marienstras, cheffe du service historique de la Défense, ou du Général Ghislain Huyghues-Despointes, son adjoint, et de M. Alain Brossais, sous-directeur des risques, de l’environnement et du développement durable à la direction des territoires, de l’immobilier et de l’infrastructure.",
+      "titre": "audition de Mme Nadine Marienstras, cheffe du service historique de la Défense, du Général Ghislain Huyghues-Despointes, son adjoint, et de M. Alain Brossais, sous-directeur des risques, de l’environnement et du développement durable à la direction des territoires, de l’immobilier et de l'environnement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T08:00:00.000Z",
       "dateFin": null,
@@ -714,7 +696,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461797",
-      "titre": "audition de représentants de la Marine nationale : Commissaire en chef de 1ère classe Xavier Jamot, chef du bureau de l’action en mer au sein de l’État-major des opérations aéronavales, et Contre-amiral Yves-Pierre Pilfert, adjoint maîtrise des fonds marins de l’amiral commandant la force d’action navale.",
+      "titre": "audition de représentants de la Marine nationale : Commissaire en chef de 1ère classe Xavier Jamot, chef du bureau de l’action en mer au sein de l’état-major des opérations aéronavales, Contre-amiral Yves-Pierre Pilfert, adjoint maîtrise des fonds marins de l’amiral commandant la force d’action navale, accompagnés du Capitaine de vaisseau Yann-Éric Noat, chargé des relations avec le Parlement au cabinet du chef d’état-major de la Marine.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T09:30:00.000Z",
       "dateFin": null,
@@ -726,7 +708,7 @@
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-26T09:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-26T09:40:00.000Z",
       "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle n° 216 (commission des lois)",
       "organisateur": "PO888417"
     },
@@ -857,6 +839,24 @@
       "organisateur": "PO885429"
     },
     {
+      "uid": "RUANR5L17S2027IDC461853",
+      "titre": "audition, ouverte à la presse, de Mme Élisabeth Carrara et M. Roger Vrand, inspecteurs généraux de l’éducation, du sport et de la recherche (IGESR), auteurs du rapport Enquête sur les événements survenus au collège du Bois d’Aulne avant l’attentat du 16 octobre 2020, publié en décembre 2020.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461855",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement (n° 3494) (Mme Caroline Yadan, rapporteure) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T14:45:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31099",
       "titre": "Discussion de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement",
       "type": "seance_type",
@@ -867,7 +867,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461742",
-      "titre": "en cas d’échec de la commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "titre": "examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-30T15:00:00.000Z",
       "dateFin": null,
@@ -885,7 +885,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461743",
-      "titre": "en cas d’échec de la commission mixte paritaire, examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
+      "titre": "examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-11-30T20:30:00.000Z",
       "dateFin": null,
@@ -957,11 +957,11 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461804",
-      "titre": "audition conjointe, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités, et de Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
+      "titre": "audition conjointe, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités, et de Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-01T15:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO884567"
     },
     {
@@ -1020,7 +1020,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461753",
-      "titre": "-examen du projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique\r(n° 3388) (M. Jean Terlier, rapporteur).",
+      "titre": "-examen du projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique (n° 3388) (M. Jean Terlier, rapporteur) ;\r-examen, en application de l’article 88 du Règlement des amendements à la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution, (n° 3524) (M. Pouria Amirshahi, rapporteur) ;\r&#8208;examen, en application de l’article 88 du Règlement des amendements à la proposition de loi visant à la réparation des préjudices résultant de la traite et de l'esclavage, (n° 3526) (M. Steevy Gustave, rapporteur) ;\r-nomination de trois rapporteurs dans le cadre de la séance thématique de contrôle du groupe UDR : « Le coût de l’immigration en France ».",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:00:00.000Z",
       "dateFin": null,
@@ -1065,7 +1065,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461746",
-      "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243) (Mme Delphine Lingemann, rapporteure).",
+      "titre": "examen de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie (n° 3243) (Mme Delphine Lingemann, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,
@@ -1080,6 +1080,15 @@
       "dateFin": null,
       "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
       "organisateur": "PO59048"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461863",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France (n° 131) (Mme Sophie Mette, rapporteure) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461688",
@@ -1109,6 +1118,15 @@
       "organisateur": "PO59048"
     },
     {
+      "uid": "RUANR5L17S2027IDC461859",
+      "titre": "audition conjointe :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T12:00:00.000Z",
+      "dateFin": "2026-12-02T13:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO887433"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31106",
       "titre": "Questions au Gouvernement",
       "type": "seance_type",
@@ -1125,6 +1143,15 @@
       "dateFin": null,
       "lieu": "Salle 7040 – 103 rue de l'Université, 2ème sous-sol",
       "organisateur": "PO804431"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461860",
+      "titre": "audition conjointe :",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T13:00:00.000Z",
+      "dateFin": "2026-12-02T14:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO887433"
     },
     {
       "uid": "RUANR5L17S2027IDC461754",
@@ -1146,7 +1173,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461618",
-      "titre": "Table ronde, non ouverte à la presse, de la réponse de l'État avec les organismes SDFE, OFAC / PHAROS, le Pôle national de lutte contre la haine en ligne, la DILCRAH, le ministère de l'Éducation nationale, l'Arcom, la CNIL réunissant les personnalités suivantes :",
+      "titre": "Table ronde, non ouverte à la presse, de la réponse de l'État réunissant :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": "2026-12-02T16:00:00.000Z",
@@ -1173,12 +1200,21 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461805",
-      "titre": "audition, ouverte à la presse, de M. Eric Signarbieux, délégué général de l’Union nationale des centres communaux d’action sociale (Unccas).",
+      "titre": "audition, ouverte à la presse, de M. Eric Signarbieux, délégué général de l’Union nationale des centres communaux d’action sociale (Unccas)",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO884567"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461862",
+      "titre": "Mme Cristelle Gillard, déléguée à la protection des enfants à l’école, adjointe à la médiatrice de l’éducation nationale et l’enseignement supérieur.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T14:00:00.000Z",
+      "dateFin": "2026-12-02T15:00:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO887433"
     },
     {
       "uid": "RUANR5L17S2027IDC461696",
@@ -1244,6 +1280,33 @@
       "organisateur": "PO273589"
     },
     {
+      "uid": "RUANR5L17S2027IDC461854",
+      "titre": "- audition conjointe, ouverte à la presse, des organisations syndicales représentatives des chefs d’établissements, réunissant :\r  - MM. Loïc Guibon, secrétaire général adjoint du syndicat Indépendance et direction – force ouvrière (ID-FO), et Nicolas Carli-Basset, secrétaire national ;\r  - Mme Christelle Kauffmann, secrétaire générale adjointe du syndicat national des personnels de direction de l’Éducation nationale – union nationale des syndicats autonomes (SNPDEN-Unsa).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T09:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO884520"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461861",
+      "titre": "nomination du bureau ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T09:45:00.000Z",
+      "dateFin": null,
+      "lieu": "Sénat, 15 rue de Vaugirard, Paris 6e en salle n° 216 (commission des lois)",
+      "organisateur": "PO888410"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461856",
+      "titre": "audition de M. Maurice Barate, préfet de la Haute-Vienne, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31102",
       "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à faire reconnaître l’origine professionnelle du cancer du sein",
       "type": "seance_type",
@@ -1251,6 +1314,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461857",
+      "titre": "audition de M. Guillaume Guérin, maire de Limoges, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDS31103",
@@ -1298,6 +1370,24 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461864",
+      "titre": "–Audition de M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace, sur le projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860), et discussion générale sur ce projet de loi (Mme Anne Genetet, rapporteure)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-07T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461806",
+      "titre": "audition en cours de programmation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-07T17:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31111",
       "titre": "Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à mettre fin au devoir conjugal",
       "type": "seance_type",
@@ -1323,6 +1413,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461865",
+      "titre": "Examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-08T15:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDC461697",
@@ -1352,13 +1451,13 @@
       "organisateur": "PO888212"
     },
     {
-      "uid": "RUANR5L17S2027IDC461806",
-      "titre": "audition en cours de programmation.",
+      "uid": "RUANR5L17S2027IDC461866",
+      "titre": "Éventuellement, suite de l’ordre du jour de l’après-midi",
       "type": "reunionCommission_type",
-      "dateDebut": "2026-12-08T17:00:00.000Z",
+      "dateDebut": "2026-12-08T20:00:00.000Z",
       "dateFin": null,
-      "lieu": "Salle à déterminer",
-      "organisateur": "PO884567"
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
     },
     {
       "uid": "RUANR5L17S2027IDS31114",
@@ -1389,12 +1488,30 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461768",
-      "titre": "table ronde, ouverte à la presse, sur la situation aux Proche et Moyen-Orients, avec la participation de M. Romaric Roignan, directeur de l'Afrique du Nord et du Moyen-Orient au ministère de l’Europe et des affaires étrangères, M. Clément Therme, docteur en histoire des relations internationales, chercheur associé au programme Turquie/Moyen-Orient de l’Institut français des relations internationales (IFRI) et membre du Centre d’études turques, ottomanes, balkaniques et centrasiatiques de l’École des hautes études en sciences sociales (EHESS), et M. Anthony Samrani, directeur de la rédaction du quotidien L’Orient-Le Jour.",
+      "titre": "table ronde, ouverte à la presse, sur la situation aux Proche et Moyen-Orients, avec la participation de M. Romaric Roignan, directeur de l'Afrique du Nord et du Moyen-Orient au ministère de l’Europe et des affaires étrangères, M. Clément Therme, docteur en histoire des relations internationales, chercheur associé au programme Turquie/Moyen-Orient de l’Institut français des relations internationales (IFRI) et membre du Centre d’études turques, ottomanes, balkaniques et centrasiatiques de l’École des hautes études en sciences sociales (EHESS), et M. Anthony Samrani, directeur de la rédaction du quotidien L’Orient-Le Jour ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-09T08:00:00.000Z",
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461867",
+      "titre": "Suite de l’examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure)",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6237 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419604"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461858",
+      "titre": "examen des articles 33 et 34, délégués au fond par la commission des Affaires économiques, du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Laure Miller, rapporteure).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
+      "organisateur": "PO59051"
     },
     {
       "uid": "RUANR5L17S2027IDC461698",
@@ -1440,6 +1557,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461871",
+      "titre": "audition en cours de programmation.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T14:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle à déterminer",
+      "organisateur": "PO884567"
     },
     {
       "uid": "RUANR5L17S2027IDC461419",
@@ -1604,6 +1730,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461868",
+      "titre": "examen, ouvert à la presse, et vote sur l’autorisation de la publication du rapport d’information valant avis de la commission sur le projet de contrat d’objectifs et de moyens (COM) entre l’État et Expertise France pour la période 2027-2029 (Mme Carole Guillerm et M. Aurélien Taché, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T08:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461684",
       "titre": "examen, ouvert à la presse, du rapport de la mission d’information sur « l’avenir de la cavalerie » (MM. Michel Criaud et Romain Tonussi, rapporteurs).",
       "type": "reunionCommission_type",
@@ -1611,6 +1746,15 @@
       "dateFin": null,
       "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
       "organisateur": "PO59046"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461869",
+      "titre": "présentation, ouverte à la presse, du bilan annuel d’activité des délégations françaises auprès de l’Union interparlementaire et des Assemblées parlementaires de la francophonie, du Conseil de l’Europe, de l’Organisation du traité de l’Atlantique Nord et de l’Organisation pour la sécurité et la coopération en Europe par les chefs de celles-ci, suivie d’un échange de vues sur la portée de leur action en termes de diplomatie parlementaire.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDC461685",
@@ -1638,6 +1782,15 @@
       "dateFin": null,
       "lieu": "Salle 4325 – Commission des affaires européennes,  9 rue de Bourgogne, 3ème étage",
       "organisateur": "PO415287"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461870",
+      "titre": "Audition de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T16:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
+      "organisateur": "PO59047"
     },
     {
       "uid": "RUANR5L17S2027IDS31130",

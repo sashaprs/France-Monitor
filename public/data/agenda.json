@@ -1,78 +1,6 @@
 {
-  "updatedAt": "2026-11-27T06:58:03.301Z",
+  "updatedAt": "2026-11-27T13:35:33.309Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461702",
-      "titre": "- audition, en visioconférence, de M. Damien Robert, directeur général exécutif de la Solideo Alpes 2030.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T07:45:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO856386"
-    },
-    {
-      "uid": "RUSNR5L17S2027IDS31141",
-      "titre": "Discussion",
-      "type": "seance_type",
-      "dateDebut": "2026-11-24T08:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Sénat",
-      "organisateur": "PO78718"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31063",
-      "titre": "Questions orales sans débat (salle Lamartine)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-24T08:00:00.000Z",
-      "dateFin": "2026-11-24T11:25:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461798",
-      "titre": "audition, à huis clos, de Mme Catherine Vautrin, Ministre des Armées et des Anciens Combattants, sur l’état des lieux du soutien militaire de la France à l’Ukraine.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T08:30:00.000Z",
-      "dateFin": "2026-11-24T09:35:00.000Z",
-      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
-      "organisateur": "PO59046"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461703",
-      "titre": "- audition, en visioconférence, de Mme Marie-Amélie Le Fur, présidente du Comité paralympique et sportif français (CPSF).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T09:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Visioconférence sans salle",
-      "organisateur": "PO856386"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461785",
-      "titre": "audition de Mme Anne-Sophie Dhiver, cheffe de service adjointe du service de vigilance et de protection contre les ingérences numériques étrangères (VIGINUM).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T10:00:00.000Z",
-      "dateFin": "2026-11-24T11:00:00.000Z",
-      "lieu": "Salle 4204 –  9 rue de Bourgogne, 2ème étage",
-      "organisateur": "PO884365"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461800",
-      "titre": "audition de la Direction générale de l'Aviation civile (DGAC) : M. Chems Chkioua, directeur général de l’Aviation civile, M. Jacques Dubourg, conseiller politique et militaire du Major général de l’Armée de l’air et de l’espace et le Général de brigade aérienne (2S) Lionel Baverey, conseiller en stratégie de résilience de la DGAC.",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T13:00:00.000Z",
-      "dateFin": "2026-11-24T14:00:00.000Z",
-      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
-      "organisateur": "PO880795"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461828",
-      "titre": "autorité de régulation des communications électroniques, des postes et de la distribution de la presse (Arcep) – Mme Virginie Mathot-de-Raincourt, conseillère de la présidente, Mme Anne Yvrande-Billon, directrice économie, marchés et numérique, et Mme Marion Panfili, cheffe de l’unité Analyse économique et intelligence numérique (direction Économie, marchés et numérique).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T13:00:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6550 – Palais Bourbon, 2ème étage",
-      "organisateur": "PO883902"
-    },
     {
       "uid": "RUANR5L17S2027IDC461801",
       "titre": "audition du directeur de l'Agence de l'innovation de défense (AID).",
@@ -816,16 +744,16 @@
       "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
       "type": "seance_type",
       "dateDebut": "2026-11-26T14:00:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-26T19:00:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },
     {
       "uid": "RUANR5L17S2027IDS31070",
-      "titre": "Suite de la discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques",
+      "titre": "Suite de la discussion de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes",
       "type": "seance_type",
       "dateDebut": "2026-11-26T20:30:00.000Z",
-      "dateFin": null,
+      "dateFin": "2026-11-26T22:20:00.000Z",
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
     },

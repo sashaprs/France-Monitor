@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T23:30:14.789Z",
+  "updatedAt": "2026-11-27T06:58:03.301Z",
   "reunions": [
     {
       "uid": "RUANR5L17S2027IDC461702",
@@ -957,7 +957,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461804",
-      "titre": "audition conjointe, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités, et de Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées",
+      "titre": "audition conjointe, ouverte à la presse, de M. Jean-Pierre Farandou, ministre du travail et des solidarités, et de Mme Stéphanie Rist, ministre de la santé, des familles, de l’autonomie et des personnes handicapées.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-01T15:30:00.000Z",
       "dateFin": null,
@@ -1020,7 +1020,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461753",
-      "titre": "-examen du projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique (n° 3388) (M. Jean Terlier, rapporteur) ;\r-examen, en application de l’article 88 du Règlement des amendements à la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution, (n° 3524) (M. Pouria Amirshahi, rapporteur) ;\r&#8208;examen, en application de l’article 88 du Règlement des amendements à la proposition de loi visant à la réparation des préjudices résultant de la traite et de l'esclavage, (n° 3526) (M. Steevy Gustave, rapporteur) ;\r-nomination de trois rapporteurs dans le cadre de la séance thématique de contrôle du groupe UDR : « Le coût de l’immigration en France ».",
+      "titre": "examen du projet de loi relatif à la lutte contre les ingérences étrangères dans la vie démocratique (n° 3388) (M. Jean Terlier, rapporteur) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:00:00.000Z",
       "dateFin": null,
@@ -1083,7 +1083,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461863",
-      "titre": "examen de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France (n° 131) (Mme Sophie Mette, rapporteure) ;",
+      "titre": "- examen de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France (n° 131) (Mme Sophie Mette, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,
@@ -1092,7 +1092,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461688",
-      "titre": "table ronde, ouverte à la presse, sur les conséquences des élections américaines de mi-mandat – ou Midterms – du 3 novembre 2026 sur la politique extérieure des États-Unis, avec la participation de M. Romuald Sciora, chercheur associé à l’Institut de relations internationales et stratégiques (IRIS), directeur de l’Observatoire politique et géostratégique des États-Unis, et Mme Maya Kandel, chercheuse associée à l’Université Paris 3-Sorbonne Nouvelle (laboratoire CREW).",
+      "titre": "table ronde, ouverte à la presse, sur les conséquences des élections américaines de mi-mandat -ou Midterms- du 3 novembre 2026 sur la politique extérieure des États-Unis, avec la participation de M. Romuald Sciora, chercheur associé à l’Institut de relations internationales et stratégiques (IRIS), directeur de l’Observatoire politique et géostratégique des États-Unis, et Mme Maya Kandel, chercheuse associée à l’Université Paris 3-Sorbonne Nouvelle (laboratoire CREW).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T09:30:00.000Z",
       "dateFin": null,
@@ -1101,7 +1101,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461787",
-      "titre": "table-ronde sur le financement du nouveau nucléaire, réunissant M. Joël Barre, délégué interministériel au nouveau nucléaire (Dinn), M. Kosta Kastrinidis, directeur adjoint de la Banque des territoires et directeur des prêts du groupe Caisse des dépôts, et MM. Claude Laruelle, directeur exécutif groupe en charge de la direction finance et impact d’EDF, et Xavier Gruz, directeur exécutif groupe en charge de la maîtrise d’ouvrage du nouveau nucléaire.",
+      "titre": "table-ronde conjointe avec la commission des finances, de l’économie générale et du contrôle budgétaire, sur le financement du nouveau nucléaire, réunissant M. Joël Barre, délégué interministériel au nouveau nucléaire (Dinn), M. Kosta Kastrinidis, directeur adjoint de la Banque des territoires et directeur des prêts du groupe Caisse des dépôts, et M. Claude Laruelle, directeur exécutif groupe en charge de la direction finance et impact d’EDF.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T10:00:00.000Z",
       "dateFin": null,
@@ -1182,7 +1182,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461612",
-      "titre": "Interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne ;",
+      "titre": "interdiction de la multipropriété des clubs de football professionnel au niveau européen (n° 3061) : examen de la proposition de résolution européenne ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
@@ -1200,7 +1200,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461805",
-      "titre": "audition, ouverte à la presse, de M. Eric Signarbieux, délégué général de l’Union nationale des centres communaux d’action sociale (Unccas)",
+      "titre": "audition, ouverte à la presse, de M. Eric Signarbieux, délégué général de l’Union nationale des centres communaux d’action sociale (Unccas).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T14:00:00.000Z",
       "dateFin": null,
@@ -1371,7 +1371,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461864",
-      "titre": "–Audition de M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace, sur le projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860), et discussion générale sur ce projet de loi (Mme Anne Genetet, rapporteure)",
+      "titre": "audition de M. Philippe Baptiste, ministre de l’enseignement supérieur, de la recherche et de l’espace, sur le projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860), et discussion générale sur ce projet de loi (Mme Anne Genetet, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-07T15:30:00.000Z",
       "dateFin": null,
@@ -1416,7 +1416,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461865",
-      "titre": "Examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure)",
+      "titre": "examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-08T15:30:00.000Z",
       "dateFin": null,
@@ -1452,7 +1452,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461866",
-      "titre": "Éventuellement, suite de l’ordre du jour de l’après-midi",
+      "titre": "éventuellement, suite de l’ordre du jour de l’après-midi.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-08T20:00:00.000Z",
       "dateFin": null,
@@ -1497,7 +1497,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461867",
-      "titre": "Suite de l’examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure)",
+      "titre": "suite de l’examen du projet de loi, adopté par le Sénat, après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé (n° 2860) (Mme Anne Genetet, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-09T08:30:00.000Z",
       "dateFin": null,
@@ -1524,7 +1524,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461835",
-      "titre": "audition de M. Thibaut Guilluy, dont le renouvellement aux fonctions de directeur général de l’institution nationale publique mentionnée à l’article L. 5312-1 du code du travail, dénommée « France Travail », est proposé (M. Nicolas Turquois, rapporteur), puis vote sur cette proposition de nomination dans les conditions prévues par l’article 29-1 du Règlement",
+      "titre": "audition de M. Thibaut Guilluy, dont le renouvellement aux fonctions de directeur général de l’institution nationale publique mentionnée à l’article L. 5312-1 du code du travail, dénommée « France Travail », est proposé (M. Nicolas Turquois, rapporteur), puis vote sur cette proposition de nomination dans les conditions prévues par l’article 29-1 du Règlement.",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-09T08:30:00.000Z",
       "dateFin": null,
@@ -1721,6 +1721,15 @@
       "organisateur": "PO838901"
     },
     {
+      "uid": "RUANR5L17S2027IDC461872",
+      "titre": "examen du projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Danielle Brulebois et M. Jean-Luc Fugit, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-15T17:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDS31128",
       "titre": "Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé",
       "type": "seance_type",
@@ -1728,6 +1737,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461873",
+      "titre": "suite de l'examen du projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Danielle Brulebois et M. Jean-Luc Fugit, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-15T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461868",
@@ -1748,6 +1766,15 @@
       "organisateur": "PO59046"
     },
     {
+      "uid": "RUANR5L17S2027IDC461874",
+      "titre": "audition de M. Alain Di Crescenzo, président de CCI France.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461869",
       "titre": "présentation, ouverte à la presse, du bilan annuel d’activité des délégations françaises auprès de l’Union interparlementaire et des Assemblées parlementaires de la francophonie, du Conseil de l’Europe, de l’Organisation du traité de l’Atlantique Nord et de l’Organisation pour la sécurité et la coopération en Europe par les chefs de celles-ci, suivie d’un échange de vues sur la portée de leur action en termes de diplomatie parlementaire.",
       "type": "reunionCommission_type",
@@ -1755,6 +1782,15 @@
       "dateFin": null,
       "lieu": "Salle 4223 – Commission des affaires étrangères,  9 rue de Bourgogne, 2ème étage",
       "organisateur": "PO59047"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461875",
+      "titre": "suite de l’examen projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Danielle Brulebois et M. Jean-Luc Fugit, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T10:00:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDC461685",
@@ -1784,6 +1820,15 @@
       "organisateur": "PO415287"
     },
     {
+      "uid": "RUANR5L17S2027IDC461876",
+      "titre": "éventuellement, suite de l’examen projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Danielle Brulebois et M. Jean-Luc Fugit, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T14:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461870",
       "titre": "Audition de M. Jean-Noël Barrot, ministre de l’Europe et des affaires étrangères, sur la situation internationale.",
       "type": "reunionCommission_type",
@@ -1800,6 +1845,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461877",
+      "titre": "éventuellement, suite de l’examen projet de loi portant diverses dispositions d'adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, d’information, de transport, de santé, d’agriculture et de pêche (n° 2518) (Mme Danielle Brulebois et M. Jean-Luc Fugit, rapporteurs).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-16T20:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
+      "organisateur": "PO419610"
     },
     {
       "uid": "RUANR5L17S2027IDS31131",

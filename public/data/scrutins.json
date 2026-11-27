@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-26T23:30:13.161Z",
+  "updatedAt": "2026-11-27T06:58:01.664Z",
   "scrutins": [
+    {
+      "numero": "10171",
+      "titre": "l'amendement n° 1 de M. Ray à l'article unique de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "123",
+      "pour": "65",
+      "contre": "58",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
     {
       "numero": "10143",
       "titre": "l'amendement n° 21 de Mme Erodi après l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
@@ -134,6 +145,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "10174",
+      "titre": "la demande de suspension de séance formulée par M. Léaument en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à limiter à deux ans le versement du RSA pour les personnes aptes à travailler) (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "79",
+      "pour": "46",
+      "contre": "33",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "10122",
       "titre": "l'amendement n° 14 de Mme Fiol à l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
       "date": "2026-11-26",
@@ -142,6 +164,17 @@
       "pour": "58",
       "contre": "100",
       "abstentions": "12",
+      "nonVotants": "2"
+    },
+    {
+      "numero": "10172",
+      "titre": "l'amendement n° 48 de Mme K/Bidi à l'article unique de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "125",
+      "pour": "59",
+      "contre": "66",
+      "abstentions": "0",
       "nonVotants": "2"
     },
     {
@@ -231,6 +264,17 @@
       "contre": "105",
       "abstentions": "2",
       "nonVotants": "2"
+    },
+    {
+      "numero": "10173",
+      "titre": "la demande de suspension de séance formulée par M. Pribetich en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à limiter à deux ans le versement du RSA pour les personnes aptes à travailler) (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "77",
+      "pour": "40",
+      "contre": "37",
+      "abstentions": "0",
+      "nonVotants": "1"
     },
     {
       "numero": "10120",
@@ -387,6 +431,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "10170",
+      "titre": "l'amendement n° 8 de Mme Allemand et les amendements identiques suivants de suppression de l'article unique de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "127",
+      "pour": "62",
+      "contre": "65",
+      "abstentions": "0",
+      "nonVotants": "1"
+    },
+    {
       "numero": "10160",
       "titre": "l'amendement n° 13 de Mme Corneloup à l'article 3 de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
       "date": "2026-11-26",
@@ -420,6 +475,17 @@
       "nonVotants": "2"
     },
     {
+      "numero": "10169",
+      "titre": "la demande de suspension de séance formulée par M. Pribetich en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes) (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "113",
+      "pour": "54",
+      "contre": "59",
+      "abstentions": "0",
+      "nonVotants": "2"
+    },
+    {
       "numero": "10159",
       "titre": "l'amendement n° 12 de Mme Corneloup à l'article 3 de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
       "date": "2026-11-26",
@@ -440,6 +506,17 @@
       "contre": "96",
       "abstentions": "12",
       "nonVotants": "2"
+    },
+    {
+      "numero": "10175",
+      "titre": "la demande de suspension de séance formulée par M. Boyard en application de l'article 58 du Règlement de l'Assemblée nationale (proposition de loi visant à limiter à deux ans le versement du RSA pour les personnes aptes à travailler) (première lecture).",
+      "date": "2026-11-26",
+      "sort": null,
+      "nombreVotants": "76",
+      "pour": "45",
+      "contre": "31",
+      "abstentions": "0",
+      "nonVotants": "1"
     },
     {
       "numero": "10165",
@@ -472,83 +549,6 @@
       "pour": "69",
       "contre": "3",
       "abstentions": "8",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10136",
-      "titre": "l'amendement n° 32 de Mme Erodi à l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "69",
-      "pour": "23",
-      "contre": "44",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10135",
-      "titre": "le sous-amendement n° 46 de Mme Corneloup à l'amendement n° 32 de Mme Erodi à l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "65",
-      "pour": "20",
-      "contre": "44",
-      "abstentions": "1",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10127",
-      "titre": "l'amendement n° 31 de Mme Erodi à l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "165",
-      "pour": "31",
-      "contre": "111",
-      "abstentions": "23",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10148",
-      "titre": "le sous-amendement n° 52 de M. Maudet à l'amendement n° 1 de M. Peytavie après l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "157",
-      "pour": "40",
-      "contre": "104",
-      "abstentions": "13",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10130",
-      "titre": "l'amendement n° 27 de M. Maudet à l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "168",
-      "pour": "43",
-      "contre": "114",
-      "abstentions": "11",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10157",
-      "titre": "l'amendement n° 1 de M. Peytavie après l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "161",
-      "pour": "56",
-      "contre": "103",
-      "abstentions": "2",
-      "nonVotants": "2"
-    },
-    {
-      "numero": "10150",
-      "titre": "le sous-amendement n° 49 de Mme Erodi à l'amendement n° 1 de M. Peytavie après l'article premier de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales (première lecture).",
-      "date": "2026-11-26",
-      "sort": null,
-      "nombreVotants": "158",
-      "pour": "53",
-      "contre": "104",
-      "abstentions": "1",
       "nonVotants": "2"
     }
   ]

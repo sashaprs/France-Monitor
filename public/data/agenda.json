@@ -1,60 +1,6 @@
 {
-  "updatedAt": "2026-11-27T17:21:48.162Z",
+  "updatedAt": "2026-11-27T22:32:57.010Z",
   "reunions": [
-    {
-      "uid": "RUANR5L17S2027IDC461727",
-      "titre": "audition de M. Patrice Faure, préfet de police de Paris, de M. Antoine Salmon, directeur de l’ordre public et de la circulation, de M. Julien Defer, directeur adjoint de l'ordre public et de la circulation et de M. Olivier Bourde, sous-directeur de l'ordre public de l'agglomération parisienne, dans le cadre des travaux d’enquête menés sur les évènements liés aux manifestations du 17 octobre 2026 (article 5 ter de l’ordonnance n° 58-1100 du 17 novembre 1958).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:00:00.000Z",
-      "dateFin": "2026-11-24T23:00:00.000Z",
-      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
-      "organisateur": "PO59051"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461720",
-      "titre": "éventuellement, suite de l'examen, en deuxième lecture, de la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419865"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461669",
-      "titre": "Suite de l’examen, en nouvelle lecture, du projet de loi de financement de la sécurité sociale pour 2027 (M. Thibault Bazin, rapporteur général ; Mme Christine Loir, M. Louis Boyard, Mme Sandrine Runel et Mme Danielle Simonnet, rapporteurs)",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDS31065",
-      "titre": "Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)",
-      "type": "seance_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": "2026-11-24T22:25:00.000Z",
-      "lieu": "Assemblée nationale",
-      "organisateur": "PO838901"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461749",
-      "titre": "examen de la proposition de loi portant création d’un ordre national des audioprothésistes (n° 983).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
-      "organisateur": "PO420120"
-    },
-    {
-      "uid": "RUANR5L17S2027IDC461691",
-      "titre": "éventuellement, suite de l'examen de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons (M. Ian Boucard, rapporteur) (n° 388).",
-      "type": "reunionCommission_type",
-      "dateDebut": "2026-11-24T20:30:00.000Z",
-      "dateFin": null,
-      "lieu": "Salle 6241 – Palais Bourbon, 2ème sous-sol",
-      "organisateur": "PO419610"
-    },
     {
       "uid": "RUANR5L17S2027IDC461557",
       "titre": "audition, ouverte à la presse, de Mme Marie-Christine Verdier-Jouclas, directrice générale de l’Office national des combattants et des victimes et de guerre (ONaCVG) et de M. Pierre-Emmanuel de Laforcade, directeur général du Bleuet de France (cycle « Monde combattant : liens avec la Nation, mémoire et résilience ») ;",
@@ -623,6 +569,15 @@
       "organisateur": "PO885429"
     },
     {
+      "uid": "RUANR5L17S2027IDC461888",
+      "titre": "audition de M. Chems Chkioua, directeur général de l’aviation civile.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-11-30T09:30:00.000Z",
+      "dateFin": "2026-11-30T10:30:00.000Z",
+      "lieu": "Visioconférence sans salle",
+      "organisateur": "PO879674"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461878",
       "titre": "audition de M. Etienne Crépon, directeur général du Centre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement (Cerema), accompagné de M. Thomas Plantier, directeur par intérim de la direction technique territoires et ville.",
       "type": "reunionCommission_type",
@@ -722,6 +677,15 @@
       "organisateur": "PO854354"
     },
     {
+      "uid": "RUANR5L17S2027IDC461893",
+      "titre": "audition de MM. Emmanuel Levacher, CEO, Thierry Renaudin, Chief Executive Officer de John Cockerill Defense, Jean Boy, directeur de la stratégie produits et systèmes et Charles Maisonneuve, directeur des affaires publiques d'Arquus.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T13:00:00.000Z",
+      "dateFin": "2026-12-01T14:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461721",
       "titre": "éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur la proposition de loi, modifiée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et à adapter les mécanismes d’assurance (n° 3352) (M. Fabrice Barusseau, rapporteur).",
       "type": "reunionCommission_type",
@@ -747,6 +711,15 @@
       "dateFin": null,
       "lieu": "Assemblée nationale",
       "organisateur": "PO838901"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461894",
+      "titre": "audition de représentants du groupe Aéroport de Paris (ADP) et de sa filiale Hologarde.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T14:00:00.000Z",
+      "dateFin": "2026-12-01T15:00:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2027IDC461617",
@@ -803,6 +776,15 @@
       "organisateur": "PO59051"
     },
     {
+      "uid": "RUANR5L17S2027IDC461889",
+      "titre": "audition du général de corps d’armée Frédéric Barbry, directeur du service national et de la jeunesse (DSNJ).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-01T16:00:00.000Z",
+      "dateFin": "2026-12-01T18:00:00.000Z",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO889334"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461884",
       "titre": "Entente Valabre – M. Jean-Marc Begdoni, directeur général, et M. Ludovic Ines, directeur adjoint.",
       "type": "reunionCommission_type",
@@ -826,7 +808,7 @@
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-01T20:30:00.000Z",
       "dateFin": null,
-      "lieu": "Salle de la commission",
+      "lieu": "Salle 6238 – Palais Bourbon, 2ème sous-sol",
       "organisateur": "PO419865"
     },
     {
@@ -894,7 +876,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461816",
-      "titre": "Examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie LAERNOES, rapporteure)",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie Laernoes, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,
@@ -903,7 +885,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461863",
-      "titre": "- examen de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France (n° 131) (Mme Sophie Mette, rapporteure) ;",
+      "titre": "examen de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France (n° 131) (Mme Sophie Mette, rapporteure) ;",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-02T08:30:00.000Z",
       "dateFin": null,
@@ -981,6 +963,15 @@
       "dateFin": "2026-12-02T14:00:00.000Z",
       "lieu": "Visioconférence sans salle",
       "organisateur": "PO887433"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461895",
+      "titre": "audition du colonel Anne-Laure Michel, conseillère défense et sécurité, secrétariat général de la défense et de la sécurité nationale (SGDSN).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-02T13:30:00.000Z",
+      "dateFin": "2026-12-02T14:30:00.000Z",
+      "lieu": "Salle 4016 –  9 rue de Bourgogne, Rez-de-chaussée",
+      "organisateur": "PO880795"
     },
     {
       "uid": "RUANR5L17S2027IDC461754",
@@ -1092,7 +1083,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461722",
-      "titre": "– Éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :\r•\tla proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré (n° 3375) (Mme Christine Arrighi, rapporteure) ;\r•\tla proposition de loi visant à protéger nos forêts en encadrant les coupes rases (n° 3372) (M. Hendrik Davi, rapporteur).",
+      "titre": "éventuellement, examen, en application de l’article 88 du règlement, des amendements restant en discussion sur :",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-03T07:45:00.000Z",
       "dateFin": null,
@@ -1110,7 +1101,7 @@
     },
     {
       "uid": "RUANR5L17S2027IDC461823",
-      "titre": "Audition publique sur l’enseignement des sciences (conjointement avec les commissions compétentes des deux assemblées et les Académies)",
+      "titre": "audition publique sur l’enseignement des sciences (conjointement avec les commissions compétentes des deux assemblées et les Académies).",
       "type": "reunionCommission_type",
       "dateDebut": "2026-12-03T08:30:00.000Z",
       "dateFin": null,
@@ -1136,6 +1127,15 @@
       "organisateur": "PO884520"
     },
     {
+      "uid": "RUANR5L17S2027IDC461891",
+      "titre": "audition de la direction générale des étrangers en France (DGEF).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T09:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
+    },
+    {
       "uid": "RUANR5L17S2027IDC461861",
       "titre": "nomination du bureau ;",
       "type": "reunionCommission_type",
@@ -1152,6 +1152,24 @@
       "dateFin": null,
       "lieu": "6ème Bureau – Palais Bourbon, 1er étage",
       "organisateur": "PO59051"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461890",
+      "titre": "audition du général de division Damien Wallaert, directeur du projet « Service national », état-major des armées.",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T10:00:00.000Z",
+      "dateFin": "2026-12-03T12:00:00.000Z",
+      "lieu": "Salle 4123 –  9 rue de Bourgogne, 1er étage",
+      "organisateur": "PO889334"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461892",
+      "titre": "Audition de M. Jérôme d’Harcourt, délégué interministériel pour l’hébergement et l’accès au logement, accompagné de M. Charles-Henri Bescond, directeur de la mission budgétaire, Mme Léonore Belghiti, sous-directrice de la mission pilotage et transformation de l’hébergement, et M. Manuel Hennin, adjoint au délégué interministériel, Délégation interministérielle à l’hébergement et à l’accès au logement (DIHAL).",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-03T10:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 8838 – 233 boulevard Saint-Germain, 8ème étage",
+      "organisateur": "PO885320"
     },
     {
       "uid": "RUANR5L17S2027IDS31102",
@@ -1395,6 +1413,15 @@
       "dateFin": null,
       "lieu": "Salle 6351 – Palais Bourbon, 1ème étage",
       "organisateur": "PO420120"
+    },
+    {
+      "uid": "RUANR5L17S2027IDC461881",
+      "titre": "examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à faciliter le financement de la rénovation énergétique par les économies d'énergie (n° 3412) (M. Éric Martineau, rapporteur) ;",
+      "type": "reunionCommission_type",
+      "dateDebut": "2026-12-09T08:30:00.000Z",
+      "dateFin": null,
+      "lieu": "Salle 6350 – Palais Bourbon, 1er étage",
+      "organisateur": "PO59048"
     },
     {
       "uid": "RUANR5L17S2027IDC461628",
